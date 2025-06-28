@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7254290586492747760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5198689429730781287}
+  - component: {fileID: 1392503518280037559}
+  - component: {fileID: 1185915922129323782}
+  - component: {fileID: 9039345474602373700}
+  - component: {fileID: 3691079248681951885}
+  m_Layer: 0
+  m_Name: "SM_\u72D7\u5C3E\u8349_01"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5198689429730781287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7254290586492747760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.20842431, y: -0.7748306, z: 0.50318086, w: 0.32094532}
+  m_LocalPosition: {x: -4.73, y: 0.38, z: -5.77}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 66, y: -135, z: 0}
+--- !u!33 &1392503518280037559
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7254290586492747760}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1185915922129323782
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7254290586492747760}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c8ca44f623f37d5498d1c87b4d537242, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9039345474602373700
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7254290586492747760}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &3691079248681951885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7254290586492747760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e510e8e958b93724db473416c92b48cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animationSequences:
+  - _sequenceName: idel
+    _frames:
+    - {fileID: 2800000, guid: 41f0c17ec7670a74ba0bafccb73e994f, type: 3}
+    - {fileID: 2800000, guid: 31d21884dbfd42745aad3b8ecb95090d, type: 3}
+    - {fileID: 2800000, guid: 01ce881c7fbb5e34e9b563910417d10b, type: 3}
+    - {fileID: 2800000, guid: 12ab4e733714e864e93d8b13a93f9da2, type: 3}
+    - {fileID: 2800000, guid: 12b2a1d51a5b1d74c9076969a89c8b52, type: 3}
+    - {fileID: 2800000, guid: 7c0ca467d8f54124494518f1af605b06, type: 3}
+    - {fileID: 2800000, guid: d713db1f203da554dabde03c31385278, type: 3}
+    - {fileID: 2800000, guid: a9bc972f48b11874b80c953f830035ce, type: 3}
+    - {fileID: 2800000, guid: 4d6cfe4568a4ab84eaaea52d43b4db63, type: 3}
+    - {fileID: 2800000, guid: 513ae6555ae6b954d82f49455e534f0b, type: 3}
+    - {fileID: 2800000, guid: c90436425070e25439bbd9285f8efb69, type: 3}
+    - {fileID: 2800000, guid: 6402ab406aa0e3445870215db696c2e5, type: 3}
+    _frameRate: 12
+    _loop: 1
+    _reverseLoop: 1
+    _triggerParameterName: 
+    _triggerType: 0
+    _allowedStages: []
+    _minLevel: 1
+    _maxLevel: 999
+  - _sequenceName: swim
+    _frames:
+    - {fileID: 2800000, guid: 10dd5fb3a98eedd42963418a52287546, type: 3}
+    - {fileID: 2800000, guid: d0d28b7115a59d145b997097183c5a18, type: 3}
+    - {fileID: 2800000, guid: 251a2b94581fc7147ba963e342558489, type: 3}
+    - {fileID: 2800000, guid: 93df59a47230fb14cbc0f1ca65f4f67c, type: 3}
+    - {fileID: 2800000, guid: 36c47f76c14335444aca1328104be6b5, type: 3}
+    - {fileID: 2800000, guid: 698d38df3ac279247b5f5e5e9deebea0, type: 3}
+    - {fileID: 2800000, guid: 9e336e35f5ff3af4aac853be8b36d6fe, type: 3}
+    - {fileID: 2800000, guid: 3cfcd4b125d9b5541ab5c202cb874ebb, type: 3}
+    - {fileID: 2800000, guid: b377a6d73eb73b3448af80bd47e2b621, type: 3}
+    - {fileID: 2800000, guid: 4ab3ef9837873b840bd49bd223b28bed, type: 3}
+    - {fileID: 2800000, guid: ffe36738d6a1c1f4c8adfff7fe4a25e1, type: 3}
+    - {fileID: 2800000, guid: f0533b0ad2c315c4a89063790239ac9b, type: 3}
+    - {fileID: 2800000, guid: 73955d283124e3042a8b890b635c0f1d, type: 3}
+    _frameRate: 12
+    _loop: 1
+    _reverseLoop: 1
+    _triggerParameterName: 
+    _triggerType: 0
+    _allowedStages: []
+    _minLevel: 1
+    _maxLevel: 999
+  _defaultSequenceIndex: 0
+  _playOnStart: 1
+  _smoothTransition: 1
+  _transitionDuration: 0.2
+  _showDebugInfo: 0
+  _showGizmoInfo: 0
