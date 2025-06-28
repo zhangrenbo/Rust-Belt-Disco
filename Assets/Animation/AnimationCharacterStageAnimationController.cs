@@ -19,6 +19,10 @@ public class CharacterStageAnimationController : MonoBehaviour
     public bool autoCheckStageChange = true;
     public float checkInterval = 1f;
 
+    [Header("=== Default Controller ===")]
+    [Tooltip("Fallback controller when Animator has none assigned")]
+    public RuntimeAnimatorController defaultAnimatorController;
+
     // 
     private Animator animator;
     private PlayerController playerController;
@@ -49,6 +53,10 @@ public class CharacterStageAnimationController : MonoBehaviour
         if (animator == null)
         {
             animator = GetComponentInChildren<Animator>();
+        }
+        if (animator != null && animator.runtimeAnimatorController == null && defaultAnimatorController != null)
+        {
+            animator.runtimeAnimatorController = defaultAnimatorController;
         }
         playerController = GetComponent<PlayerController>();
         npcController = GetComponent<NPCController>();
