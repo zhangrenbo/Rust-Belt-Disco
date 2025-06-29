@@ -415,11 +415,6 @@ public class BuffController : MonoBehaviour
         OnBuffAdded?.Invoke(buff);
 
         // 通知角色状态管理器
-        if (stateManager != null)
-        {
-            stateManager.AddBuff(buff);
-        }
-
         return true;
     }
 
@@ -503,12 +498,6 @@ public class BuffController : MonoBehaviour
         activeBuffs.Clear();
         cacheNeedsUpdate = true;
 
-        // 通知角色状态管理器
-        if (stateManager != null)
-        {
-            stateManager.ClearAllBuffs();
-        }
-
         if (showDebugInfo)
         {
             Debug.Log($"[BuffController] 清除了所有BUFF，共 {buffCount} 个");
@@ -532,12 +521,6 @@ public class BuffController : MonoBehaviour
 
         OnBuffRemoved?.Invoke(buff);
         OnBuffExpired?.Invoke(buff);
-
-        // 通知角色状态管理器
-        if (stateManager != null)
-        {
-            stateManager.RemoveBuff(buff);
-        }
 
         if (showDebugInfo)
         {

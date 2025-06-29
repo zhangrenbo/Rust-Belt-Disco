@@ -3,68 +3,70 @@ using UnityEngine.AI;
 using System.Collections.Generic;
 
 /// <summary>
-/// NPCÀàĞÍÃ¶¾Ù
+/// NPCç±»å‹æšä¸¾
 /// </summary>
 public enum NPCType
 {
-    Enemy,      // µĞ¶Ô
-    Neutral,    // ÖĞÁ¢
-    Friendly    // ÓÑºÃ
+    Enemy,      // æ•Œå¯¹
+    Neutral,    // ä¸­ç«‹
+    Friendly    // å‹å¥½
 }
 
 /// <summary>
-/// NPC×´Ì¬Ã¶¾Ù
+/// NPCçŠ¶æ€æšä¸¾
 /// </summary>
 public enum NPCState
 {
-    Idle,       // ¿ÕÏĞ
-    Patrol,     // Ñ²Âß
-    Approach,   // ½Ó½ü
-    Attack,     // ¹¥»÷
-    Wait,       // µÈ´ı
-    Dead        // ËÀÍö
+    Idle,       // ç©ºé—²
+    Patrol,     // å·¡é€»
+    Approach,   // æ¥è¿‘
+    Attack,     // æ”»å‡»
+    Wait,       // ç­‰å¾…
+    Dead        // æ­»äº¡
 }
 
 /// <summary>
-/// NPC¥³¥ó¥È¥í©`¥é©` - Í¨ÓÃ°æ±¾£¬´¦ÀíNPCµÄAIĞĞÎªºÍ×´Ì¬¹ÜÀí
+/// NPCã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ãƒ¼ - é€šç”¨ç‰ˆæœ¬ï¼Œå¤„ç†NPCçš„AIè¡Œä¸ºå’ŒçŠ¶æ€ç®¡ç†
 /// </summary>
 public class NPCController : MonoBehaviour
 {
-    [Header("=== »ù±¾ÉèÖÃ ===")]
+    [Header("=== åŸºæœ¬è®¾ç½® ===")]
     public NPCType npcType = NPCType.Enemy;
     public float detectionRange = 10f;
     public float approachRange = 8f;
     public float attackRange = 2f;
     public float attackCooldown = 1.5f;
 
-    [Header("=== Ñ²ÂßÂ·¾¶ ===")]
+    private BuffController buffController;
+        buffController = GetComponent<BuffController>();
+    [Header("=== å·¡é€»è·¯å¾„ ===")]
     public Transform[] patrolPoints;
     public bool loopPatrol = true;
     private int currentPatrolIndex = 0;
 
-    [Header("=== ÒÆ¶¯ÉèÖÃ ===")]
+    [Header("=== ç§»åŠ¨è®¾ç½® ===")]
     public float moveSpeed = 3.5f;
 
-    [Header("=== ÉúÃüÌõUI ===")]
+    [Header("=== ç”Ÿå‘½æ¡UI ===")]
     public GameObject healthBarPrefab;
     private HealthUIController healthUIController;
 
-    [Header("=== µôÂäÉèÖÃ ===")]
+    [Header("=== æ‰è½è®¾ç½® ===")]
     public GameObject[] lootPrefabs;
     public float lootDropChance = 0.5f;
 
-    // ========== ×é¼şÒıÓÃ ==========
+    // ========== ç»„ä»¶å¼•ç”¨ ==========
     private NavMeshAgent agent;
     private Transform player;
     private Animator animator;
     private CharacterStateManager stateManager;
 
-    // ========== AI×´Ì¬ ==========
+    // ========== AIçŠ¶æ€ ==========
     private NPCState currentState = NPCState.Idle;
     private float stateTimer = 0f;
     private float nextAttackTime = 0f;
 
-    // ========== ÊôĞÔ·ÃÎÊ ==========
+    // ========== å±æ€§è®¿é—® ==========
     public int maxHealth
     {
         get { return stateManager?.maxHealth ?? 100; }
@@ -80,7 +82,7 @@ public class NPCController : MonoBehaviour
         get { return currentState == NPCState.Dead; }
     }
 
-    // ========== ÊÂ¼ş¶¨Òå ==========
+    // ========== äº‹ä»¶å®šä¹‰ ==========
     public System.Action<NPCState, NPCState> OnStateChanged;
     public System.Action<Transform> OnPlayerDetected;
     public System.Action OnPlayerLost;
@@ -93,19 +95,19 @@ public class NPCController : MonoBehaviour
 
     void InitializeNPC()
     {
-        // »ñÈ¡×é¼şÒıÓÃ
+        // è·å–ç»„ä»¶å¼•ç”¨
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         stateManager = GetComponent<CharacterStateManager>();
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
 
-        // ÉèÖÃµ¼º½´úÀí
+        // è®¾ç½®å¯¼èˆªä»£ç†
         if (agent != null)
         {
             agent.speed = moveSpeed;
         }
 
-        // ³õÊ¼»¯×´Ì¬¹ÜÀíÆ÷
+        // åˆå§‹åŒ–çŠ¶æ€ç®¡ç†å™¨
         if (stateManager != null)
         {
             stateManager.characterType = CharacterType.NPC;
@@ -113,12 +115,12 @@ public class NPCController : MonoBehaviour
             stateManager.baseMovementSpeed = moveSpeed;
         }
 
-        // ´´½¨ÉúÃüÌõUI
+        // åˆ›å»ºç”Ÿå‘½æ¡UI
         CreateHealthBar();
 
         EnterState(NPCState.Idle);
 
-        Debug.Log($"[NPCController] {gameObject.name} NPC³õÊ¼»¯Íê³É");
+        Debug.Log($"[NPCController] {gameObject.name} NPCåˆå§‹åŒ–å®Œæˆ");
     }
 
     void CreateHealthBar()
@@ -160,7 +162,7 @@ public class NPCController : MonoBehaviour
         }
     }
 
-    // ========== ×´Ì¬ÇĞ»»Âß¼­ ==========
+    // ========== çŠ¶æ€åˆ‡æ¢é€»è¾‘ ==========
 
     void EnterState(NPCState newState)
     {
@@ -212,11 +214,11 @@ public class NPCController : MonoBehaviour
                 break;
         }
 
-        // ´¥·¢×´Ì¬±ä»¯ÊÂ¼ş
+        // è§¦å‘çŠ¶æ€å˜åŒ–äº‹ä»¶
         OnStateChanged?.Invoke(oldState, newState);
     }
 
-    // ========== ×´Ì¬¸üĞÂÂß¼­ ==========
+    // ========== çŠ¶æ€æ›´æ–°é€»è¾‘ ==========
 
     void UpdateIdle()
     {
@@ -321,7 +323,7 @@ public class NPCController : MonoBehaviour
         }
     }
 
-    // ========== Õ½¶·ÏµÍ³ ==========
+    // ========== æˆ˜æ–—ç³»ç»Ÿ ==========
 
     void PerformAttack()
     {
@@ -329,7 +331,7 @@ public class NPCController : MonoBehaviour
         if (pc != null)
         {
             pc.TakeDamage(10);
-            Debug.Log($"[NPCController] {gameObject.name} ¹¥»÷ÁËÍæ¼Ò");
+            Debug.Log($"[NPCController] {gameObject.name} æ”»å‡»äº†ç©å®¶");
         }
     }
 
@@ -337,7 +339,7 @@ public class NPCController : MonoBehaviour
     {
         if (currentState == NPCState.Dead) return;
 
-        // ÖĞÁ¢NPC±»¹¥»÷ºó±äÎªµĞ¶Ô
+        // ä¸­ç«‹NPCè¢«æ”»å‡»åå˜ä¸ºæ•Œå¯¹
         if (npcType == NPCType.Neutral)
             npcType = NPCType.Enemy;
 
@@ -357,30 +359,24 @@ public class NPCController : MonoBehaviour
             Die();
         }
 
-        Debug.Log($"[NPCController] {gameObject.name} ÊÜµ½ {dmg} µãÉËº¦£¬Ê£ÓàÉúÃü: {currentHealth}");
+        Debug.Log($"[NPCController] {gameObject.name} å—åˆ° {dmg} ç‚¹ä¼¤å®³ï¼Œå‰©ä½™ç”Ÿå‘½: {currentHealth}");
     }
 
     void Die()
     {
         EnterState(NPCState.Dead);
 
-        // µôÂäÎïÆ·
+        // æ‰è½ç‰©å“
         DropLoot();
 
-        // ´¥·¢ËÀÍöÊÂ¼ş
+        // è§¦å‘æ­»äº¡äº‹ä»¶
         OnNPCDeath?.Invoke(this);
 
-        // ÑÓ³ÙÏú»Ù
-        Destroy(gameObject, 3f);
-
-        Debug.Log($"[NPCController] {gameObject.name} ËÀÍö");
+        buffController?.AddBuff(buff);
     }
 
-    void DropLoot()
-    {
-        if (lootPrefabs == null || lootPrefabs.Length == 0) return;
-
-        foreach (var loot in lootPrefabs)
+        buffController?.RemoveBuff(buff);
+        return buffController?.HasBuff(type) ?? false;
         {
             if (loot != null && Random.value < lootDropChance)
             {
@@ -389,7 +385,7 @@ public class NPCController : MonoBehaviour
         }
     }
 
-    // ========== BUFFÏµÍ³ ==========
+    // ========== BUFFç³»ç»Ÿ ==========
 
     public void AddBuff(Buff buff)
     {
@@ -412,10 +408,10 @@ public class NPCController : MonoBehaviour
         return stateManager?.HasBuff(type) ?? false;
     }
 
-    // ========== ¹«¹²½Ó¿Ú ==========
+    // ========== å…¬å…±æ¥å£ ==========
 
     /// <summary>
-    /// ÉèÖÃÑ²ÂßÂ·¾¶
+    /// è®¾ç½®å·¡é€»è·¯å¾„
     /// </summary>
     public void SetPatrolPoints(Transform[] points)
     {
@@ -424,7 +420,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// Ç¿ÖÆÉèÖÃNPC×´Ì¬
+    /// å¼ºåˆ¶è®¾ç½®NPCçŠ¶æ€
     /// </summary>
     public void ForceSetState(NPCState newState)
     {
@@ -432,7 +428,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// ÉèÖÃNPCÀàĞÍ
+    /// è®¾ç½®NPCç±»å‹
     /// </summary>
     public void SetNPCType(NPCType newType)
     {
@@ -440,7 +436,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// »ñÈ¡µ±Ç°×´Ì¬
+    /// è·å–å½“å‰çŠ¶æ€
     /// </summary>
     public NPCState GetCurrentState()
     {
@@ -448,7 +444,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// »ñÈ¡µ½Íæ¼ÒµÄ¾àÀë
+    /// è·å–åˆ°ç©å®¶çš„è·ç¦»
     /// </summary>
     public float GetDistanceToPlayer()
     {
@@ -457,7 +453,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// ¼ì²éÊÇ·ñÄÜ¿´µ½Íæ¼Ò
+    /// æ£€æŸ¥æ˜¯å¦èƒ½çœ‹åˆ°ç©å®¶
     /// </summary>
     public bool CanSeePlayer()
     {
@@ -466,7 +462,7 @@ public class NPCController : MonoBehaviour
         float distance = GetDistanceToPlayer();
         if (distance > detectionRange) return false;
 
-        // ¼òµ¥µÄÊÓÏß¼ì²â
+        // ç®€å•çš„è§†çº¿æ£€æµ‹
         Vector3 directionToPlayer = (player.position - transform.position).normalized;
         RaycastHit hit;
 
@@ -479,7 +475,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// ÉèÖÃÒÆ¶¯ËÙ¶È
+    /// è®¾ç½®ç§»åŠ¨é€Ÿåº¦
     /// </summary>
     public void SetMoveSpeed(float newSpeed)
     {
@@ -495,7 +491,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// ÆôÓÃ/½ûÓÃAI
+    /// å¯ç”¨/ç¦ç”¨AI
     /// </summary>
     public void SetAIEnabled(bool enabled)
     {
@@ -507,7 +503,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// Á¢¼´Í£Ö¹ËùÓĞĞĞÎª
+    /// ç«‹å³åœæ­¢æ‰€æœ‰è¡Œä¸º
     /// </summary>
     public void StopAllBehavior()
     {
@@ -521,7 +517,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// Ç¿ÖÆ¹¥»÷Ö¸¶¨Ä¿±ê
+    /// å¼ºåˆ¶æ”»å‡»æŒ‡å®šç›®æ ‡
     /// </summary>
     public void ForceAttackTarget(Transform target)
     {
@@ -533,7 +529,7 @@ public class NPCController : MonoBehaviour
     }
 
     /// <summary>
-    /// ÖØÖÃµ½³õÊ¼×´Ì¬
+    /// é‡ç½®åˆ°åˆå§‹çŠ¶æ€
     /// </summary>
     public void ResetToInitialState()
     {
@@ -552,19 +548,19 @@ public class NPCController : MonoBehaviour
         EnterState(NPCState.Idle);
     }
 
-    // ========== µ÷ÊÔ·½·¨ ==========
+    // ========== è°ƒè¯•æ–¹æ³• ==========
 
     void OnDrawGizmosSelected()
     {
-        // »æÖÆ¼ì²â·¶Î§
+        // ç»˜åˆ¶æ£€æµ‹èŒƒå›´
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
 
-        // »æÖÆ¹¥»÷·¶Î§
+        // ç»˜åˆ¶æ”»å‡»èŒƒå›´
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
 
-        // »æÖÆÑ²ÂßÂ·¾¶
+        // ç»˜åˆ¶å·¡é€»è·¯å¾„
         if (patrolPoints != null && patrolPoints.Length > 1)
         {
             Gizmos.color = Color.blue;
@@ -582,7 +578,7 @@ public class NPCController : MonoBehaviour
                 }
             }
 
-            // ¸ßÁÁµ±Ç°Ä¿±êµã
+            // é«˜äº®å½“å‰ç›®æ ‡ç‚¹
             if (currentPatrolIndex < patrolPoints.Length && patrolPoints[currentPatrolIndex] != null)
             {
                 Gizmos.color = Color.green;
@@ -590,14 +586,14 @@ public class NPCController : MonoBehaviour
             }
         }
 
-        // »æÖÆµ½Íæ¼ÒµÄÁ¬Ïß
+        // ç»˜åˆ¶åˆ°ç©å®¶çš„è¿çº¿
         if (player != null && GetDistanceToPlayer() <= detectionRange)
         {
             Gizmos.color = Color.green;
             Gizmos.DrawLine(transform.position, player.position);
         }
 
-        // »æÖÆÊÓÏß¼ì²â
+        // ç»˜åˆ¶è§†çº¿æ£€æµ‹
         if (Application.isPlaying && CanSeePlayer())
         {
             Gizmos.color = Color.cyan;
@@ -608,7 +604,7 @@ public class NPCController : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        // ÏÔÊ¾µ±Ç°×´Ì¬
+        // æ˜¾ç¤ºå½“å‰çŠ¶æ€
         if (Application.isPlaying)
         {
             Color stateColor = currentState switch
@@ -625,21 +621,21 @@ public class NPCController : MonoBehaviour
             Gizmos.color = stateColor;
             Gizmos.DrawWireCube(transform.position + Vector3.up * 2.5f, Vector3.one * 0.5f);
 
-            // ÏÔÊ¾NPCÀàĞÍ
+            // æ˜¾ç¤ºNPCç±»å‹
             Gizmos.color = npcType == NPCType.Enemy ? Color.red : Color.blue;
             Gizmos.DrawWireCube(transform.position + Vector3.up * 3f, Vector3.one * 0.3f);
         }
 
-        // ÏÔÊ¾»ù±¾¼ì²â·¶Î§£¨°ëÍ¸Ã÷£©
+        // æ˜¾ç¤ºåŸºæœ¬æ£€æµ‹èŒƒå›´ï¼ˆåŠé€æ˜ï¼‰
         Gizmos.color = new Color(1, 1, 0, 0.1f);
         Gizmos.DrawSphere(transform.position, detectionRange);
     }
 
-    // ========== ×é¼şÉúÃüÖÜÆÚ ==========
+    // ========== ç»„ä»¶ç”Ÿå‘½å‘¨æœŸ ==========
 
     void OnDestroy()
     {
-        // ÇåÀíÊÂ¼şÒıÓÃ
+        // æ¸…ç†äº‹ä»¶å¼•ç”¨
         OnStateChanged = null;
         OnPlayerDetected = null;
         OnPlayerLost = null;
@@ -648,7 +644,7 @@ public class NPCController : MonoBehaviour
 
     void OnDisable()
     {
-        // Í£Ö¹ËùÓĞĞĞÎª
+        // åœæ­¢æ‰€æœ‰è¡Œä¸º
         if (agent != null)
         {
             agent.isStopped = true;
@@ -657,7 +653,7 @@ public class NPCController : MonoBehaviour
 
     void OnEnable()
     {
-        // »Ö¸´ĞĞÎª£¨Èç¹ûÖ®Ç°ÊÇ¼¤»î×´Ì¬£©
+        // æ¢å¤è¡Œä¸ºï¼ˆå¦‚æœä¹‹å‰æ˜¯æ¿€æ´»çŠ¶æ€ï¼‰
         if (Application.isPlaying && currentState != NPCState.Dead)
         {
             if (agent != null && currentState != NPCState.Idle)
