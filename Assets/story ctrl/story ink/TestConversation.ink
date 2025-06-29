@@ -1,11 +1,12 @@
-INCLUDE globals.ink
+VAR counter = 0
 
-=== TestNPC ===
+=== start ===
 TestNPC: "这是一个测试对话，你想做什么？"
-+ "给我一把钥匙":
-    ~ keys += 1
-    TestNPC: "你现在有 {keys} 把钥匙。"
-    -> END
-+ "没事，随便看看":
-    TestNPC: "好吧，随便看看。"
-    -> END
+
+    + "增加计数":
+        ~ counter += 1
+        TestNPC: "计数现在是 {counter}。"
+        -> start
+    + "结束":
+        TestNPC: "好的，再见。"
+        -> END
