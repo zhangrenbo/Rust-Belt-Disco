@@ -3,28 +3,28 @@ using System.Collections.Generic;
 using System;
 
 /// <summary>
-/// ½ÇÉ«ÀàĞÍÃ¶¾Ù - Ìí¼ÓÈ±Ê§µÄÃ¶¾Ù
+/// è§’è‰²ç±»å‹æšä¸¾ - æ·»åŠ ç¼ºå¤±çš„æšä¸¾
 /// </summary>
 public enum CharacterType
 {
-    Player,   // Íæ¼Ò
+    Player,   // ç©å®¶
     NPC,      // NPC
-    Enemy     // µĞÈË
+    Enemy     // æ•Œäºº
 }
 
 /// <summary>
-/// Íæ¼Ò×´Ì¬Ã¶¾Ù - Ìí¼ÓÈ±Ê§µÄÃ¶¾Ù
+/// ç©å®¶çŠ¶æ€æšä¸¾ - æ·»åŠ ç¼ºå¤±çš„æšä¸¾
 /// </summary>
 public enum PlayerState
 {
-    Normal,   // Õı³£×´Ì¬
-    Combat,   // Õ½¶·×´Ì¬
-    Dialogue, // ¶Ô»°×´Ì¬
-    Dead      // ËÀÍö×´Ì¬
+    Normal,   // æ­£å¸¸çŠ¶æ€
+    Combat,   // æˆ˜æ–—çŠ¶æ€
+    Dialogue, // å¯¹è¯çŠ¶æ€
+    Dead      // æ­»äº¡çŠ¶æ€
 }
 
 /// <summary>
-/// ½ÇÉ«×´Ì¬ĞÅÏ¢Àà - Ìí¼ÓÈ±Ê§µÄÀà
+/// è§’è‰²çŠ¶æ€ä¿¡æ¯ç±» - æ·»åŠ ç¼ºå¤±çš„ç±»
 /// </summary>
 [System.Serializable]
 public class CharacterStatusInfo
@@ -39,40 +39,40 @@ public class CharacterStatusInfo
 }
 
 /// <summary>
-/// ½ÇÉ«×´Ì¬¹ÜÀíÆ÷ - ¼ò»¯°æ±¾£¬¹ÜÀí½ÇÉ«µÄËùÓĞ×´Ì¬ºÍÊôĞÔ
+/// è§’è‰²çŠ¶æ€ç®¡ç†å™¨ - ç®€åŒ–ç‰ˆæœ¬ï¼Œç®¡ç†è§’è‰²çš„æ‰€æœ‰çŠ¶æ€å’Œå±æ€§
 /// </summary>
 public class CharacterStateManager : MonoBehaviour
 {
-    [Header("=== ½ÇÉ«»ù±¾ĞÅÏ¢ ===")]
-    public string characterName = "½ÇÉ«";
+    [Header("=== è§’è‰²åŸºæœ¬ä¿¡æ¯ ===")]
+    public string characterName = "è§’è‰²";
     public CharacterType characterType = CharacterType.Player;
 
-    [Header("=== »ù±¾ÊôĞÔ ===")]
-    public int strength = 10;
-    public int agility = 10;
-    public int intelligence = 10;
-    public int stamina = 10;
-    public int vitality = 10;
-
-    [Header("=== ÉúÃüÖµÏµÍ³ ===")]
-    public int maxHealth = 100;
+    private BuffController buffController;
+    public event Action<Buff> OnBuffAdded;
+    public event Action<Buff> OnBuffRemoved;
+        buffController = GetComponent<BuffController>();
+        if (buffController != null)
+        {
+            buffController.OnBuffAdded += (b) => OnBuffAdded?.Invoke(b);
+            buffController.OnBuffRemoved += (b) => OnBuffRemoved?.Invoke(b);
+        }
     public int currentHealth = 100;
 
-    [Header("=== ÒÆ¶¯ÏµÍ³ ===")]
+    [Header("=== ç§»åŠ¨ç³»ç»Ÿ ===")]
     public float baseMovementSpeed = 5f;
     public bool canMove = true;
 
-    // ========== ½ÇÉ«×´Ì¬ ==========
-    [Header("=== ½ÇÉ«×´Ì¬ ===")]
+    // ========== è§’è‰²çŠ¶æ€ ==========
+    [Header("=== è§’è‰²çŠ¶æ€ ===")]
     public CharacterState currentState = CharacterState.Idle;
     public Vector2 movementDirection = Vector2.zero;
     public float movementSpeed = 0f;
     public bool isGrounded = true;
 
-    // ========== BUFFÏµÍ³ ==========
+    // ========== BUFFç³»ç»Ÿ ==========
     private List<GameBuff> activeBuffs = new List<GameBuff>();
 
-    // ========== ÊÂ¼şÏµÍ³ ==========
+    // ========== äº‹ä»¶ç³»ç»Ÿ ==========
     public event Action<CharacterState, CharacterState> OnStateChanged;
     public event Action<Vector2> OnMovementChanged;
     public event Action<GameBuff> OnBuffAdded;
@@ -94,10 +94,10 @@ public class CharacterStateManager : MonoBehaviour
     {
         currentHealth = maxHealth;
         currentState = CharacterState.Idle;
-        Debug.Log($"[CharacterStateManager] {characterName} ³õÊ¼»¯Íê³É");
+        Debug.Log($"[CharacterStateManager] {characterName} åˆå§‹åŒ–å®Œæˆ");
     }
 
-    // ========== ×´Ì¬¹ÜÀí ==========
+    // ========== çŠ¶æ€ç®¡ç† ==========
 
     public void SetState(CharacterState newState)
     {
@@ -106,7 +106,7 @@ public class CharacterStateManager : MonoBehaviour
             CharacterState oldState = currentState;
             currentState = newState;
             OnStateChanged?.Invoke(oldState, newState);
-            Debug.Log($"[CharacterStateManager] {characterName} ×´Ì¬¸Ä±ä: {oldState} -> {newState}");
+            Debug.Log($"[CharacterStateManager] {characterName} çŠ¶æ€æ”¹å˜: {oldState} -> {newState}");
         }
     }
 
@@ -143,51 +143,10 @@ public class CharacterStateManager : MonoBehaviour
         }
     }
 
-    // ========== BUFFÏµÍ³ ==========
-
-    public void AddBuff(GameBuff buff)
-    {
-        if (buff == null) return;
-        activeBuffs.Add(buff);
-        OnBuffAdded?.Invoke(buff);
-        Debug.Log($"[CharacterStateManager] {characterName} »ñµÃBUFF: {buff.type}");
-    }
-
-    public void RemoveBuff(GameBuff buff)
-    {
-        if (buff == null) return;
-        if (activeBuffs.Remove(buff))
-        {
-            OnBuffRemoved?.Invoke(buff);
-            Debug.Log($"[CharacterStateManager] {characterName} Ê§È¥BUFF: {buff.type}");
         }
     }
 
-    public bool HasBuff(BuffType type)
-    {
-        foreach (var buff in activeBuffs)
-        {
-            if (buff.type == type) return true;
-        }
-        return false;
-    }
-
-    void UpdateBuffs()
-    {
-        for (int i = activeBuffs.Count - 1; i >= 0; i--)
-        {
-            activeBuffs[i].duration -= Time.deltaTime;
-            if (activeBuffs[i].duration <= 0)
-            {
-                GameBuff expiredBuff = activeBuffs[i];
-                activeBuffs.RemoveAt(i);
-                OnBuffRemoved?.Invoke(expiredBuff);
-                Debug.Log($"[CharacterStateManager] {characterName} BUFF¹ıÆÚ: {expiredBuff.type}");
-            }
-        }
-    }
-
-    // ========== Õ½¶·ÏµÍ³ ==========
+    // ========== æˆ˜æ–—ç³»ç»Ÿ ==========
 
     public void TakeDamage(int damage)
     {
@@ -207,7 +166,7 @@ public class CharacterStateManager : MonoBehaviour
             SetState(CharacterState.Hit);
         }
 
-        Debug.Log($"[CharacterStateManager] {characterName} ÊÜµ½ {damage} µãÉËº¦£¬Ê£ÓàÉúÃü: {currentHealth}");
+        Debug.Log($"[CharacterStateManager] {characterName} å—åˆ° {damage} ç‚¹ä¼¤å®³ï¼Œå‰©ä½™ç”Ÿå‘½: {currentHealth}");
     }
 
     public void Heal(int amount)
@@ -215,40 +174,17 @@ public class CharacterStateManager : MonoBehaviour
         currentHealth += amount;
         currentHealth = Mathf.Min(maxHealth, currentHealth);
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
-        Debug.Log($"[CharacterStateManager] {characterName} »Ö¸´ {amount} µãÉúÃüÖµ£¬µ±Ç°ÉúÃü: {currentHealth}");
+        Debug.Log($"[CharacterStateManager] {characterName} æ¢å¤ {amount} ç‚¹ç”Ÿå‘½å€¼ï¼Œå½“å‰ç”Ÿå‘½: {currentHealth}");
     }
 
-    // ========== ¹«¹²½Ó¿Ú ==========
+            activeBuffCount = buffController != null ? buffController.ActiveBuffCount : 0
 
-    public bool CanMove()
+    public List<Buff> GetActiveBuffs()
     {
-        return canMove && currentState != CharacterState.Dead &&
-               currentState != CharacterState.Attacking &&
-               currentState != CharacterState.Hit;
-    }
-
-    public bool CanAttack()
-    {
-        return currentState != CharacterState.Dead &&
-               currentState != CharacterState.Hit;
-    }
-
-    public CharacterStatusInfo GetStatusInfo()
-    {
-        return new CharacterStatusInfo
-        {
-            name = characterName,
-            state = currentState,
-            health = currentHealth,
-            maxHealth = maxHealth,
-            movementDirection = movementDirection,
-            movementSpeed = movementSpeed,
-            activeBuffCount = activeBuffs.Count
-        };
-    }
-
-    public List<GameBuff> GetActiveBuffs()
-    {
+        return buffController != null ? new List<Buff>(buffController.ActiveBuffs) : new List<Buff>();
+        buffController?.ClearAllBuffs();
+        buffController?.AddBuff(buff);
+        buffController?.RemoveBuff(buff);
         return new List<GameBuff>(activeBuffs);
     }
 
@@ -260,10 +196,10 @@ public class CharacterStateManager : MonoBehaviour
         {
             OnBuffRemoved?.Invoke(buff);
         }
-        Debug.Log($"[CharacterStateManager] {characterName} Çå³ıÁËËùÓĞBUFF");
+        Debug.Log($"[CharacterStateManager] {characterName} æ¸…é™¤äº†æ‰€æœ‰BUFF");
     }
 
-    [ContextMenu("ÖØÖÃ½ÇÉ«×´Ì¬")]
+    [ContextMenu("é‡ç½®è§’è‰²çŠ¶æ€")]
     public void ResetCharacter()
     {
         currentHealth = maxHealth;
@@ -272,19 +208,19 @@ public class CharacterStateManager : MonoBehaviour
         movementSpeed = 0f;
         ClearAllBuffs();
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
-        Debug.Log($"[CharacterStateManager] {characterName} ×´Ì¬ÒÑÖØÖÃ");
+        Debug.Log($"[CharacterStateManager] {characterName} çŠ¶æ€å·²é‡ç½®");
     }
 
-    // ========== ¼æÈİ½Ó¿Ú ==========
+    // ========== å…¼å®¹æ¥å£ ==========
 
     /// <summary>
-    /// ¼æÈİ½Ó¿Ú - ÎªÁËÓë Buff Àà¼æÈİ¶øÌí¼ÓµÄÖØÔØ·½·¨
+    /// å…¼å®¹æ¥å£ - ä¸ºäº†ä¸ Buff ç±»å…¼å®¹è€Œæ·»åŠ çš„é‡è½½æ–¹æ³•
     /// </summary>
     public void AddBuff(Buff buff)
     {
         if (buff == null) return;
 
-        // ½« Buff ×ª»»Îª GameBuff
+        // å°† Buff è½¬æ¢ä¸º GameBuff
         GameBuff gameBuff = new GameBuff(buff.buffName, buff.type, buff.value, buff.duration, buff.isPositive);
         AddBuff(gameBuff);
     }
@@ -293,7 +229,7 @@ public class CharacterStateManager : MonoBehaviour
     {
         if (buff == null) return;
 
-        // ²éÕÒ¶ÔÓ¦µÄ GameBuff ²¢ÒÆ³ı
+        // æŸ¥æ‰¾å¯¹åº”çš„ GameBuff å¹¶ç§»é™¤
         for (int i = activeBuffs.Count - 1; i >= 0; i--)
         {
             if (activeBuffs[i].buffName == buff.buffName && activeBuffs[i].type == buff.type)
@@ -301,7 +237,7 @@ public class CharacterStateManager : MonoBehaviour
                 var buffToRemove = activeBuffs[i];
                 activeBuffs.RemoveAt(i);
                 OnBuffRemoved?.Invoke(buffToRemove);
-                Debug.Log($"[CharacterStateManager] {characterName} Ê§È¥BUFF: {buff.type}");
+                Debug.Log($"[CharacterStateManager] {characterName} å¤±å»BUFF: {buff.type}");
                 break;
             }
         }
