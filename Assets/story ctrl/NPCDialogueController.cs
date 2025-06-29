@@ -2,60 +2,65 @@ using UnityEngine;
 using System.Collections;
 
 /// <summary>
-/// NPC¶Ô»°¿ØÖÆÆ÷ - ¹ÒÔØÔÚÃ¿¸öNPCÉÏ
+/// NPCå¯¹è¯æ§åˆ¶å™¨ - æŒ‚è½½åœ¨æ¯ä¸ªNPCä¸Š
 /// </summary>
 public class NPCDialogueController : MonoBehaviour
 {
-    [Header("=== ¶Ô»°ÄÚÈİÉèÖÃ ===")]
-    [Tooltip("¶Ô»°Ê¹ÓÃµÄINKÎÄ¼ş£¨ÓÅÏÈ¼¶×î¸ß£©")]
+    [Header("=== å¯¹è¯å†…å®¹è®¾ç½® ===")]
+    [Tooltip("å¯¹è¯ä½¿ç”¨çš„INKæ–‡ä»¶ï¼ˆä¼˜å…ˆçº§æœ€é«˜ï¼‰")]
     public TextAsset inkDialogueFile;
-    [Tooltip("INK¶Ô»°µÄÆğÊ¼½Úµã£¨¿ÉÑ¡£¬Áô¿Õ´Ó¿ªÍ·¿ªÊ¼£©")]
+    [Tooltip("INKå¯¹è¯çš„èµ·å§‹èŠ‚ç‚¹ï¼ˆå¯é€‰ï¼Œç•™ç©ºä»å¼€å¤´å¼€å§‹ï¼‰")]
     public string startKnotName = "";
-    [Tooltip("Èç¹ûÃ»ÓĞINKÎÄ¼ş£¬Ê¹ÓÃ´Ë¼òµ¥ÎÄ±¾¶Ô»°")]
+    [Tooltip("å¦‚æœæ²¡æœ‰INKæ–‡ä»¶ï¼Œä½¿ç”¨æ­¤ç®€å•æ–‡æœ¬å¯¹è¯")]
     [TextArea(3, 5)]
-    public string simpleDialogueText = "ÄãºÃ£¬Ã°ÏÕÕß£¡";
+    public string simpleDialogueText = "ä½ å¥½ï¼Œå†’é™©è€…ï¼";
 
-    [Header("=== ½»»¥¼ì²âÉèÖÃ ===")]
-    [Tooltip("´¥·¢¶Ô»°µÄ¾àÀë")]
+    [Header("=== äº¤äº’æ£€æµ‹è®¾ç½® ===")]
+    [Tooltip("è§¦å‘å¯¹è¯çš„è·ç¦»")]
     public float interactionRange = 3f;
-    [Tooltip("´¥·¢¶Ô»°µÄ°´¼ü")]
+    [Tooltip("è§¦å‘å¯¹è¯çš„æŒ‰é”®")]
     public KeyCode interactKey = KeyCode.E;
-    [Tooltip("Íæ¼Ò²ã¼¶ÕÚÕÖ")]
+    [Tooltip("ç©å®¶å±‚çº§é®ç½©")]
     public LayerMask playerLayer = -1;
 
-    [Header("=== ½»»¥ÏŞÖÆÉèÖÃ ===")]
-    [Tooltip("ÊÇ·ñ¿ÉÒÔÖØ¸´¶Ô»°")]
+    [Header("=== äº¤äº’é™åˆ¶è®¾ç½® ===")]
+    [Tooltip("æ˜¯å¦å¯ä»¥é‡å¤å¯¹è¯")]
     public bool canRepeatDialogue = true;
-    [Tooltip("¶Ô»°ÀäÈ´Ê±¼ä£¨Ãë£©")]
+    [Header("=== è‡ªåŠ¨è§¦å‘ ===")]
+    [Tooltip("ç©å®¶é è¿‘æ—¶æ˜¯å¦è‡ªåŠ¨å¼€å§‹å¯¹è¯")]
+    public bool autoStartDialogue = false;
+
+    private bool autoStartTriggered = false;
+    [Tooltip("å¯¹è¯å†·å´æ—¶é—´ï¼ˆç§’ï¼‰")]
     public float cooldownTime = 0f;
-    [Tooltip("×î´ó´¥·¢´ÎÊı£¨-1ÎªÎŞÏŞ£©")]
+    [Tooltip("æœ€å¤§è§¦å‘æ¬¡æ•°ï¼ˆ-1ä¸ºæ— é™ï¼‰")]
     public int maxTriggerCount = -1;
-    [Tooltip("Íæ¼Ò±ØĞëÃæÏòNPC²ÅÄÜ½»»¥")]
+    [Tooltip("ç©å®¶å¿…é¡»é¢å‘NPCæ‰èƒ½äº¤äº’")]
     public bool requirePlayerFacing = false;
-    [Tooltip("ÃæÏò½Ç¶ÈÈİ²î£¨¶È£©")]
+    [Tooltip("é¢å‘è§’åº¦å®¹å·®ï¼ˆåº¦ï¼‰")]
     public float facingAngleTolerance = 45f;
 
-    [Header("=== ½»»¥ÌáÊ¾UI ===")]
-    [Tooltip("½»»¥ÌáÊ¾UI¶ÔÏó£¨¿ÉÒÔÖ±½ÓÍÏÈë×ÓÎïÌå£©")]
+    [Header("=== äº¤äº’æç¤ºUI ===")]
+    [Tooltip("äº¤äº’æç¤ºUIå¯¹è±¡ï¼ˆå¯ä»¥ç›´æ¥æ‹–å…¥å­ç‰©ä½“ï¼‰")]
     public GameObject interactionPrompt;
-    [Tooltip("ÌáÊ¾ÎÄ±¾¸ñÊ½£¬{0}»á±»Ìæ»»Îª°´¼üÃû")]
-    public string promptText = "°´ {0} ¶Ô»°";
-    [Tooltip("ÌáÊ¾UI×Ô¶¯´´½¨ÉèÖÃ")]
+    [Tooltip("æç¤ºæ–‡æœ¬æ ¼å¼ï¼Œ{0}ä¼šè¢«æ›¿æ¢ä¸ºæŒ‰é”®å")]
+    public string promptText = "æŒ‰ {0} å¯¹è¯";
+    [Tooltip("æç¤ºUIè‡ªåŠ¨åˆ›å»ºè®¾ç½®")]
     public bool autoCreatePromptUI = true;
-    [Tooltip("×Ô¶¯´´½¨µÄÌáÊ¾UIµÄ´¹Ö±Æ«ÒÆ")]
+    [Tooltip("è‡ªåŠ¨åˆ›å»ºçš„æç¤ºUIçš„å‚ç›´åç§»")]
     public float promptVerticalOffset = 2f;
-    [Tooltip("ÌáÊ¾UI×ÖÌå´óĞ¡")]
+    [Tooltip("æç¤ºUIå­—ä½“å¤§å°")]
     public int promptFontSize = 14;
-    [Tooltip("ÌáÊ¾UI±³¾°ÑÕÉ«")]
+    [Tooltip("æç¤ºUIèƒŒæ™¯é¢œè‰²")]
     public Color promptBackgroundColor = new Color(0, 0, 0, 0.7f);
-    [Tooltip("ÌáÊ¾UIÎÄ×ÖÑÕÉ«")]
+    [Tooltip("æç¤ºUIæ–‡å­—é¢œè‰²")]
     public Color promptTextColor = Color.white;
 
-    [Header("=== ×´Ì¬±£´æÉèÖÃ ===")]
+    [Header("=== çŠ¶æ€ä¿å­˜è®¾ç½® ===")]
     public bool saveDialogueState = true;
     public string dialogueStateKey = "";
 
-    // Ë½ÓĞ×´Ì¬
+    // ç§æœ‰çŠ¶æ€
     private Transform player;
     private bool playerInRange = false;
     private bool isOnCooldown = false;
@@ -63,7 +68,7 @@ public class NPCDialogueController : MonoBehaviour
     private int triggerCount = 0;
     private UnityEngine.UI.Text promptTextComponent;
 
-    // ¾²Ì¬¹ÜÀí£¬È·±£Ö»ÓĞ×î½üµÄNPCÏÔÊ¾ÌáÊ¾
+    // é™æ€ç®¡ç†ï¼Œç¡®ä¿åªæœ‰æœ€è¿‘çš„NPCæ˜¾ç¤ºæç¤º
     private static NPCDialogueController currentInteractableNPC = null;
     private static float currentClosestDistance = float.MaxValue;
 
@@ -87,7 +92,7 @@ public class NPCDialogueController : MonoBehaviour
             player = playerObj.transform;
         }
 
-        // ³õÊ¼»¯»ò´´½¨½»»¥ÌáÊ¾UI
+        // åˆå§‹åŒ–æˆ–åˆ›å»ºäº¤äº’æç¤ºUI
         SetupInteractionPrompt();
 
         if (string.IsNullOrEmpty(dialogueStateKey))
@@ -100,7 +105,7 @@ public class NPCDialogueController : MonoBehaviour
     {
         if (interactionPrompt != null)
         {
-            // Èç¹ûÒÑ¾­ÉèÖÃÁËÌáÊ¾UI£¬Ö±½ÓÅäÖÃÎÄ±¾
+            // å¦‚æœå·²ç»è®¾ç½®äº†æç¤ºUIï¼Œç›´æ¥é…ç½®æ–‡æœ¬
             promptTextComponent = interactionPrompt.GetComponentInChildren<UnityEngine.UI.Text>();
             if (promptTextComponent != null)
             {
@@ -110,14 +115,14 @@ public class NPCDialogueController : MonoBehaviour
         }
         else if (autoCreatePromptUI)
         {
-            // ×Ô¶¯´´½¨ÌáÊ¾UI
+            // è‡ªåŠ¨åˆ›å»ºæç¤ºUI
             CreateInteractionPromptUI();
         }
     }
 
     void CreateInteractionPromptUI()
     {
-        // ¼ì²éÊÇ·ñÒÑÓĞ×Ô¶¯´´½¨µÄÌáÊ¾UI
+        // æ£€æŸ¥æ˜¯å¦å·²æœ‰è‡ªåŠ¨åˆ›å»ºçš„æç¤ºUI
         Transform existingPrompt = transform.Find("InteractionPrompt_Auto");
         if (existingPrompt != null)
         {
@@ -131,7 +136,7 @@ public class NPCDialogueController : MonoBehaviour
             return;
         }
 
-        // ´´½¨Canvas
+        // åˆ›å»ºCanvas
         GameObject canvasObj = new GameObject("InteractionPrompt_Auto");
         canvasObj.transform.SetParent(transform);
         canvasObj.transform.localPosition = Vector3.up * promptVerticalOffset;
@@ -147,10 +152,10 @@ public class NPCDialogueController : MonoBehaviour
         scaler.uiScaleMode = UnityEngine.UI.CanvasScaler.ScaleMode.ScaleWithScreenSize;
         scaler.dynamicPixelsPerUnit = 100;
 
-        // Ìí¼ÓGraphicRaycasterÒÔÖ§³ÖÊó±ê½»»¥£¨ËäÈ»Õâ¸öUI²»ĞèÒª½»»¥£©
+        // æ·»åŠ GraphicRaycasterä»¥æ”¯æŒé¼ æ ‡äº¤äº’ï¼ˆè™½ç„¶è¿™ä¸ªUIä¸éœ€è¦äº¤äº’ï¼‰
         canvasObj.AddComponent<UnityEngine.UI.GraphicRaycaster>();
 
-        // ´´½¨±³¾°
+        // åˆ›å»ºèƒŒæ™¯
         GameObject bgObj = new GameObject("Background");
         bgObj.transform.SetParent(canvasObj.transform);
 
@@ -163,7 +168,7 @@ public class NPCDialogueController : MonoBehaviour
         bgRect.sizeDelta = Vector2.zero;
         bgRect.anchoredPosition = Vector2.zero;
 
-        // ´´½¨Text¶ÔÏó
+        // åˆ›å»ºTextå¯¹è±¡
         GameObject textObj = new GameObject("Text");
         textObj.transform.SetParent(canvasObj.transform);
 
@@ -184,7 +189,7 @@ public class NPCDialogueController : MonoBehaviour
         interactionPrompt = canvasObj;
         promptTextComponent = text;
 
-        Debug.Log($"[NPCDialogueController] Îª {gameObject.name} ×Ô¶¯´´½¨ÁË½»»¥ÌáÊ¾UI");
+        Debug.Log($"[NPCDialogueController] ä¸º {gameObject.name} è‡ªåŠ¨åˆ›å»ºäº†äº¤äº’æç¤ºUI");
     }
 
     void CheckPlayerDistance()
@@ -223,6 +228,7 @@ public class NPCDialogueController : MonoBehaviour
             }
             playerInRange = false;
         }
+            autoStartTriggered = false;
     }
 
     void FindNextClosestNPC()
@@ -271,11 +277,14 @@ public class NPCDialogueController : MonoBehaviour
     {
         if (currentInteractableNPC != this) return;
 
-        if (playerInRange && Input.GetKeyDown(interactKey))
-        {
-            TriggerDialogue();
+        if (playerInRange) {
+            if (autoStartDialogue && !autoStartTriggered) {
+                autoStartTriggered = true;
+                TriggerDialogue();
+            } else if (Input.GetKeyDown(interactKey)) {
+                TriggerDialogue();
+            }
         }
-    }
 
     public void TriggerDialogue()
     {
@@ -283,7 +292,7 @@ public class NPCDialogueController : MonoBehaviour
 
         if (GlobalDialogueManager.Instance == null)
         {
-            Debug.LogError("[NPCDialogueController] Î´ÕÒµ½È«¾Ö¶Ô»°¹ÜÀíÆ÷£¡");
+            Debug.LogError("[NPCDialogueController] æœªæ‰¾åˆ°å…¨å±€å¯¹è¯ç®¡ç†å™¨ï¼");
             return;
         }
 
@@ -359,6 +368,7 @@ public class NPCDialogueController : MonoBehaviour
             SaveDialogueState();
         }
 
+        autoStartTriggered = false;
         if (playerInRange && CanTriggerDialogue() && currentInteractableNPC == this)
         {
             ShowPrompt();
@@ -381,7 +391,7 @@ public class NPCDialogueController : MonoBehaviour
         }
     }
 
-    [ContextMenu("ÖØÖÃ¶Ô»°×´Ì¬")]
+    [ContextMenu("é‡ç½®å¯¹è¯çŠ¶æ€")]
     public void ResetDialogueState()
     {
         triggerCount = 0;
@@ -401,7 +411,7 @@ public class NPCDialogueController : MonoBehaviour
     }
 
     /// <summary>
-    /// ÉèÖÃĞÂµÄ¶Ô»°ÄÚÈİ
+    /// è®¾ç½®æ–°çš„å¯¹è¯å†…å®¹
     /// </summary>
     public void SetDialogueContent(TextAsset newINKFile, string newStartKnot = "")
     {
@@ -410,7 +420,7 @@ public class NPCDialogueController : MonoBehaviour
     }
 
     /// <summary>
-    /// ÉèÖÃ¼òµ¥¶Ô»°ÎÄ±¾
+    /// è®¾ç½®ç®€å•å¯¹è¯æ–‡æœ¬
     /// </summary>
     public void SetSimpleDialogue(string newText)
     {
@@ -418,7 +428,7 @@ public class NPCDialogueController : MonoBehaviour
     }
 
     /// <summary>
-    /// ¶¯Ì¬ÉèÖÃ½»»¥¾àÀë
+    /// åŠ¨æ€è®¾ç½®äº¤äº’è·ç¦»
     /// </summary>
     public void SetInteractionRange(float newRange)
     {
@@ -426,12 +436,12 @@ public class NPCDialogueController : MonoBehaviour
     }
 
     /// <summary>
-    /// ¶¯Ì¬ÉèÖÃ½»»¥°´¼ü
+    /// åŠ¨æ€è®¾ç½®äº¤äº’æŒ‰é”®
     /// </summary>
     public void SetInteractKey(KeyCode newKey)
     {
         interactKey = newKey;
-        // ¸üĞÂÌáÊ¾ÎÄ±¾
+        // æ›´æ–°æç¤ºæ–‡æœ¬
         if (promptTextComponent != null)
         {
             promptTextComponent.text = string.Format(promptText, interactKey.ToString());
@@ -439,7 +449,7 @@ public class NPCDialogueController : MonoBehaviour
     }
 
     /// <summary>
-    /// ¶¯Ì¬ÉèÖÃÌáÊ¾ÎÄ±¾
+    /// åŠ¨æ€è®¾ç½®æç¤ºæ–‡æœ¬
     /// </summary>
     public void SetPromptText(string newPromptText)
     {
@@ -451,13 +461,13 @@ public class NPCDialogueController : MonoBehaviour
     }
 
     /// <summary>
-    /// ¶¯Ì¬ÉèÖÃ½»»¥ÌáÊ¾UI
+    /// åŠ¨æ€è®¾ç½®äº¤äº’æç¤ºUI
     /// </summary>
     public void SetInteractionPrompt(GameObject newPrompt)
     {
         if (interactionPrompt != null && interactionPrompt.name == "InteractionPrompt_Auto")
         {
-            // Èç¹ûµ±Ç°Ê¹ÓÃµÄÊÇ×Ô¶¯´´½¨µÄUI£¬ÏÈÏú»ÙËü
+            // å¦‚æœå½“å‰ä½¿ç”¨çš„æ˜¯è‡ªåŠ¨åˆ›å»ºçš„UIï¼Œå…ˆé”€æ¯å®ƒ
             DestroyImmediate(interactionPrompt);
         }
 
@@ -474,9 +484,9 @@ public class NPCDialogueController : MonoBehaviour
     }
 
     /// <summary>
-    /// Ç¿ÖÆÖØĞÂ´´½¨½»»¥ÌáÊ¾UI
+    /// å¼ºåˆ¶é‡æ–°åˆ›å»ºäº¤äº’æç¤ºUI
     /// </summary>
-    [ContextMenu("ÖØĞÂ´´½¨ÌáÊ¾UI")]
+    [ContextMenu("é‡æ–°åˆ›å»ºæç¤ºUI")]
     public void RecreateInteractionPrompt()
     {
         if (interactionPrompt != null && interactionPrompt.name == "InteractionPrompt_Auto")
@@ -494,18 +504,18 @@ public class NPCDialogueController : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        // »æÖÆ½»»¥·¶Î§
+        // ç»˜åˆ¶äº¤äº’èŒƒå›´
         Gizmos.color = playerInRange ? Color.green : Color.yellow;
         Gizmos.DrawWireSphere(transform.position, interactionRange);
 
-        // »æÖÆµ½Íæ¼ÒµÄÁ¬Ïß
+        // ç»˜åˆ¶åˆ°ç©å®¶çš„è¿çº¿
         if (player != null && playerInRange)
         {
             Gizmos.color = Color.cyan;
             Gizmos.DrawLine(transform.position, player.position);
         }
 
-        // »æÖÆÃæÏòÒªÇóµÄ½Ç¶È·¶Î§
+        // ç»˜åˆ¶é¢å‘è¦æ±‚çš„è§’åº¦èŒƒå›´
         if (requirePlayerFacing && player != null)
         {
             Gizmos.color = Color.red;
@@ -517,7 +527,7 @@ public class NPCDialogueController : MonoBehaviour
             Gizmos.DrawLine(player.position, player.position + rightBound * interactionRange);
         }
 
-        // »æÖÆÌáÊ¾UIÎ»ÖÃ
+        // ç»˜åˆ¶æç¤ºUIä½ç½®
         if (autoCreatePromptUI || interactionPrompt != null)
         {
             Gizmos.color = Color.white;
@@ -527,14 +537,14 @@ public class NPCDialogueController : MonoBehaviour
         }
 
 #if UNITY_EDITOR
-        // ÏÔÊ¾×´Ì¬ĞÅÏ¢
+        // æ˜¾ç¤ºçŠ¶æ€ä¿¡æ¯
         UnityEditor.Handles.color = Color.white;
-        string statusText = $"¶Ô»°×´Ì¬:\n";
-        statusText += $"¿É´¥·¢: {CanTriggerDialogue()}\n";
-        statusText += $"´¥·¢´ÎÊı: {triggerCount}";
+        string statusText = $"å¯¹è¯çŠ¶æ€:\n";
+        statusText += $"å¯è§¦å‘: {CanTriggerDialogue()}\n";
+        statusText += $"è§¦å‘æ¬¡æ•°: {triggerCount}";
         if (maxTriggerCount > 0)
             statusText += $"/{maxTriggerCount}";
-        statusText += $"\nÀäÈ´ÖĞ: {isOnCooldown}";
+        statusText += $"\nå†·å´ä¸­: {isOnCooldown}";
 
         UnityEditor.Handles.Label(transform.position + Vector3.up * 3f, statusText);
 #endif
@@ -542,11 +552,11 @@ public class NPCDialogueController : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        // Ê¼ÖÕÏÔÊ¾½»»¥·¶Î§µÄ°ëÍ¸Ã÷ÇòÌå
+        // å§‹ç»ˆæ˜¾ç¤ºäº¤äº’èŒƒå›´çš„åŠé€æ˜çƒä½“
         Gizmos.color = new Color(1, 1, 0, 0.1f);
         Gizmos.DrawSphere(transform.position, interactionRange);
 
-        // ÏÔÊ¾¶Ô»°ÄÚÈİÀàĞÍ
+        // æ˜¾ç¤ºå¯¹è¯å†…å®¹ç±»å‹
         Gizmos.color = inkDialogueFile != null ? Color.blue :
                       !string.IsNullOrEmpty(simpleDialogueText) ? Color.green : Color.red;
         Gizmos.DrawWireCube(transform.position + Vector3.up * 4f, Vector3.one * 0.3f);
