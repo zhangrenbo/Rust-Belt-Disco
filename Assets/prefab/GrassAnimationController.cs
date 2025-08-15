@@ -1,19 +1,19 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using System.Collections;
 
 /// <summary>
-/// ¼òµ¥µÄPNGÐòÁÐ²¥·ÅÆ÷ - ÓÃÓÚ²Ý´Ô¶¯»­
+/// ï¿½òµ¥µï¿½PNGï¿½ï¿½ï¿½Ð²ï¿½ï¿½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½Ú²Ý´Ô¶ï¿½ï¿½ï¿½
 /// </summary>
 public class SimplePngSequencePlayer : MonoBehaviour
 {
-    [Header("=== ¶¯»­ÐòÁÐ ===")]
-    [Tooltip("´ý»ú¶¯»­Ö¡")]
+    [Header("=== ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ===")]
+    [Tooltip("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¡")]
     public Texture2D[] idleFrames;
-    [Tooltip("°Ú¶¯¶¯»­Ö¡")]
+    [Tooltip("ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½Ö¡")]
     public Texture2D[] swayFrames;
 
-    [Header("=== ²¥·ÅÉèÖÃ ===")]
-    [Tooltip("Ö¡ÂÊ")]
+    [Header("=== ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ===")]
+    [Tooltip("Ö¡ï¿½ï¿½")]
     public float frameRate = 12f;
 
     private Renderer targetRenderer;
@@ -94,27 +94,27 @@ public class SimplePngSequencePlayer : MonoBehaviour
 }
 
 /// <summary>
-/// ÐÞÕý°æ²Ý´Ô¶¯»­¿ØÖÆÆ÷ - Ê¹ÓÃSimplePngSequencePlayer
+/// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý´Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - Ê¹ï¿½ï¿½SimplePngSequencePlayer
 /// </summary>
 public class GrassAnimationController : MonoBehaviour
 {
-    [Header("=== ²Ý´ÔÉèÖÃ ===")]
-    [Tooltip("Íæ¼Ò´¥·¢·¶Î§")]
+    [Header("=== ï¿½Ý´ï¿½ï¿½ï¿½ï¿½ï¿½ ===")]
+    [Tooltip("ï¿½ï¿½Ò´ï¿½ï¿½ï¿½ï¿½ï¿½Î§")]
     public float triggerRadius = 1.5f;
 
-    [Tooltip("°Ú¶¯³ÖÐøÊ±¼ä")]
+    [Tooltip("ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½")]
     public float swayDuration = 2f;
 
-    [Tooltip("ÀäÈ´Ê±¼ä£¨·ÀÖ¹Æµ·±´¥·¢£©")]
+    [Tooltip("ï¿½ï¿½È´Ê±ï¿½ä£¨ï¿½ï¿½Ö¹Æµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½")]
     public float cooldownTime = 1f;
 
-    [Header("=== µ÷ÊÔÉèÖÃ ===")]
-    [Tooltip("ÏÔÊ¾´¥·¢·¶Î§")]
+    [Header("=== ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ===")]
+    [Tooltip("ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§")]
     public bool showTriggerRange = true;
-    [Tooltip("ÏÔÊ¾µ÷ÊÔÐÅÏ¢")]
+    [Tooltip("ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢")]
     public bool showDebugInfo = false;
 
-    // ÄÚ²¿×´Ì¬
+    // ï¿½Ú²ï¿½×´Ì¬
     private SimplePngSequencePlayer sequencePlayer;
     private Transform player;
     private bool isSwaying = false;
@@ -124,16 +124,16 @@ public class GrassAnimationController : MonoBehaviour
 
     void Start()
     {
-        // »ñÈ¡PNGÐòÁÐ²¥·ÅÆ÷×é¼þ
+        // ï¿½ï¿½È¡PNGï¿½ï¿½ï¿½Ð²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         sequencePlayer = GetComponent<SimplePngSequencePlayer>();
         if (sequencePlayer == null)
         {
-            Debug.LogError("[GrassAnimationController] Î´ÕÒµ½ SimplePngSequencePlayer ×é¼þ£¡ÇëÌí¼Ó¸Ã×é¼þ¡£");
+            Debug.LogError("[GrassAnimationController] Î´ï¿½Òµï¿½ SimplePngSequencePlayer ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
             enabled = false;
             return;
         }
 
-        // ²éÕÒÍæ¼Ò
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
         {
@@ -141,15 +141,15 @@ public class GrassAnimationController : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("[GrassAnimationController] Î´ÕÒµ½±êÇ©Îª 'Player' µÄÓÎÏ·¶ÔÏó");
+            Debug.LogWarning("[GrassAnimationController] Î´ï¿½Òµï¿½ï¿½ï¿½Ç©Îª 'Player' ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½");
         }
 
-        // ²¥·Å´ý»ú¶¯»­
+        // ï¿½ï¿½ï¿½Å´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         PlayIdleAnimation();
 
         if (showDebugInfo)
         {
-            Debug.Log("[GrassAnimationController] ²Ý´Ô¿ØÖÆÆ÷³õÊ¼»¯Íê³É");
+            Debug.Log("[GrassAnimationController] ï¿½Ý´Ô¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½");
         }
     }
 
@@ -157,17 +157,17 @@ public class GrassAnimationController : MonoBehaviour
     {
         if (player == null) return;
 
-        // ¸üÐÂÀäÈ´¼ÆÊ±Æ÷
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½Ê±ï¿½ï¿½
         if (cooldownTimer > 0)
         {
             cooldownTimer -= Time.deltaTime;
         }
 
-        // ¼ì²éÍæ¼Ò¾àÀë
+        // ï¿½ï¿½ï¿½ï¿½ï¿½Ò¾ï¿½ï¿½ï¿½
         float distance = Vector3.Distance(transform.position, player.position);
         bool playerInRange = distance <= triggerRadius;
 
-        // Íæ¼Ò½øÈë·¶Î§Ê±´¥·¢°Ú¶¯
+        // ï¿½ï¿½Ò½ï¿½ï¿½ë·¶Î§Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½
         if (playerInRange && !playerWasInRange && !isSwaying && cooldownTimer <= 0)
         {
             TriggerSway();
@@ -175,7 +175,7 @@ public class GrassAnimationController : MonoBehaviour
 
         playerWasInRange = playerInRange;
 
-        // ¸üÐÂ°Ú¶¯×´Ì¬
+        // ï¿½ï¿½ï¿½Â°Ú¶ï¿½×´Ì¬
         if (isSwaying)
         {
             swayTimer -= Time.deltaTime;
@@ -187,7 +187,7 @@ public class GrassAnimationController : MonoBehaviour
     }
 
     /// <summary>
-    /// ²¥·Å´ý»ú¶¯»­
+    /// ï¿½ï¿½ï¿½Å´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     void PlayIdleAnimation()
     {
@@ -198,7 +198,7 @@ public class GrassAnimationController : MonoBehaviour
     }
 
     /// <summary>
-    /// ´¥·¢°Ú¶¯¶¯»­
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     void TriggerSway()
     {
@@ -206,7 +206,7 @@ public class GrassAnimationController : MonoBehaviour
         swayTimer = swayDuration;
         cooldownTimer = cooldownTime;
 
-        // ²¥·Å°Ú¶¯¶¯»­
+        // ï¿½ï¿½ï¿½Å°Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½
         if (sequencePlayer != null)
         {
             sequencePlayer.PlaySwayAnimation();
@@ -214,31 +214,31 @@ public class GrassAnimationController : MonoBehaviour
 
         if (showDebugInfo)
         {
-            Debug.Log("[GrassAnimationController] ²Ý´Ô¿ªÊ¼°Ú¶¯");
+            Debug.Log("[GrassAnimationController] ï¿½Ý´Ô¿ï¿½Ê¼ï¿½Ú¶ï¿½");
         }
     }
 
     /// <summary>
-    /// Í£Ö¹°Ú¶¯£¬»Øµ½´ý»ú×´Ì¬
+    /// Í£Ö¹ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬
     /// </summary>
     void StopSway()
     {
         isSwaying = false;
         swayTimer = 0f;
 
-        // »Øµ½´ý»ú¶¯»­
+        // ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         PlayIdleAnimation();
 
         if (showDebugInfo)
         {
-            Debug.Log("[GrassAnimationController] ²Ý´Ô»Øµ½´ý»ú×´Ì¬");
+            Debug.Log("[GrassAnimationController] ï¿½Ý´Ô»Øµï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬");
         }
     }
 
     /// <summary>
-    /// ÊÖ¶¯´¥·¢°Ú¶¯£¨ÓÃÓÚ²âÊÔ£©
+    /// ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú²ï¿½ï¿½Ô£ï¿½
     /// </summary>
-    [ContextMenu("ÊÖ¶¯´¥·¢°Ú¶¯")]
+    [ContextMenu("ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½")]
     public void ManualTriggerSway()
     {
         if (!isSwaying && cooldownTimer <= 0)
@@ -247,23 +247,23 @@ public class GrassAnimationController : MonoBehaviour
         }
         else if (showDebugInfo)
         {
-            Debug.Log("[GrassAnimationController] ÎÞ·¨´¥·¢£ºÕýÔÚ°Ú¶¯»ò´¦ÓÚÀäÈ´ÖÐ");
+            Debug.Log("[GrassAnimationController] ï¿½Þ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú°Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½");
         }
     }
 
     /// <summary>
-    /// ÖØÖÃµ½´ý»ú×´Ì¬
+    /// ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬
     /// </summary>
-    [ContextMenu("ÖØÖÃµ½´ý»ú")]
+    [ContextMenu("ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½")]
     public void ResetToIdle()
     {
         StopSway();
     }
 
     /// <summary>
-    /// ¿ìËÙÅäÖÃ²Ý´Ô¶¯»­
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã²Ý´Ô¶ï¿½ï¿½ï¿½
     /// </summary>
-    [ContextMenu("¿ìËÙÅäÖÃ²Ý´Ô¶¯»­")]
+    [ContextMenu("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã²Ý´Ô¶ï¿½ï¿½ï¿½")]
     public void QuickSetupGrassAnimation()
     {
         if (sequencePlayer == null)
@@ -272,36 +272,36 @@ public class GrassAnimationController : MonoBehaviour
             if (sequencePlayer == null)
             {
                 sequencePlayer = gameObject.AddComponent<SimplePngSequencePlayer>();
-                Debug.Log("[GrassAnimationController] ÒÑ×Ô¶¯Ìí¼Ó SimplePngSequencePlayer ×é¼þ");
+                Debug.Log("[GrassAnimationController] ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ SimplePngSequencePlayer ï¿½ï¿½ï¿½");
             }
         }
 
-        // ÅäÖÃ²Ý´Ô¿ØÖÆÆ÷²ÎÊý
+        // ï¿½ï¿½ï¿½Ã²Ý´Ô¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         triggerRadius = 1.5f;
         swayDuration = 2f;
         cooldownTime = 1f;
         showTriggerRange = true;
 
-        Debug.Log("[GrassAnimationController] ÒÑ¿ìËÙÅäÖÃ²Ý´Ô¶¯»­");
+        Debug.Log("[GrassAnimationController] ï¿½Ñ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã²Ý´Ô¶ï¿½ï¿½ï¿½");
     }
 
     /// <summary>
-    /// »ñÈ¡µ±Ç°×´Ì¬ÐÅÏ¢
+    /// ï¿½ï¿½È¡ï¿½ï¿½Ç°×´Ì¬ï¿½ï¿½Ï¢
     /// </summary>
     public string GetStateInfo()
     {
-        string state = isSwaying ? "°Ú¶¯ÖÐ" : "´ý»úÖÐ";
+        string state = isSwaying ? "ï¿½Ú¶ï¿½ï¿½ï¿½" : "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
         string playerDistance = player != null ?
-            $"Íæ¼Ò¾àÀë: {Vector3.Distance(transform.position, player.position):F1}m" :
-            "Î´ÕÒµ½Íæ¼Ò";
+            $"ï¿½ï¿½Ò¾ï¿½ï¿½ï¿½: {Vector3.Distance(transform.position, player.position):F1}m" :
+            "Î´ï¿½Òµï¿½ï¿½ï¿½ï¿½";
 
-        return $"×´Ì¬: {state}\n{playerDistance}\nÀäÈ´Ê£Óà: {Mathf.Max(0, cooldownTimer):F1}s";
+        return $"×´Ì¬: {state}\n{playerDistance}\nï¿½ï¿½È´Ê£ï¿½ï¿½: {Mathf.Max(0, cooldownTimer):F1}s";
     }
 
-    // ========== ¹«¹²½Ó¿Ú ==========
+    // ========== ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿ï¿½ ==========
 
     /// <summary>
-    /// ÉèÖÃ´¥·¢·¶Î§
+    /// ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½ï¿½Î§
     /// </summary>
     public void SetTriggerRadius(float radius)
     {
@@ -309,7 +309,7 @@ public class GrassAnimationController : MonoBehaviour
     }
 
     /// <summary>
-    /// ÉèÖÃ°Ú¶¯³ÖÐøÊ±¼ä
+    /// ï¿½ï¿½ï¿½Ã°Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
     /// </summary>
     public void SetSwayDuration(float duration)
     {
@@ -317,7 +317,7 @@ public class GrassAnimationController : MonoBehaviour
     }
 
     /// <summary>
-    /// ÉèÖÃÀäÈ´Ê±¼ä
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´Ê±ï¿½ï¿½
     /// </summary>
     public void SetCooldownTime(float cooldown)
     {
@@ -325,7 +325,7 @@ public class GrassAnimationController : MonoBehaviour
     }
 
     /// <summary>
-    /// ¼ì²éÊÇ·ñÕýÔÚ°Ú¶¯
+    /// ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Ú°Ú¶ï¿½
     /// </summary>
     public bool IsSwaying()
     {
@@ -333,7 +333,7 @@ public class GrassAnimationController : MonoBehaviour
     }
 
     /// <summary>
-    /// ¼ì²éÊÇ·ñÔÚÀäÈ´ÖÐ
+    /// ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½
     /// </summary>
     public bool IsOnCooldown()
     {
@@ -341,7 +341,7 @@ public class GrassAnimationController : MonoBehaviour
     }
 
     /// <summary>
-    /// »ñÈ¡Íæ¼Ò¾àÀë
+    /// ï¿½ï¿½È¡ï¿½ï¿½Ò¾ï¿½ï¿½ï¿½
     /// </summary>
     public float GetPlayerDistance()
     {
@@ -349,38 +349,38 @@ public class GrassAnimationController : MonoBehaviour
         return Vector3.Distance(transform.position, player.position);
     }
 
-    // ========== µ÷ÊÔºÍ¿ÉÊÓ»¯ ==========
+    // ========== ï¿½ï¿½ï¿½ÔºÍ¿ï¿½ï¿½Ó»ï¿½ ==========
 
     void OnDrawGizmosSelected()
     {
         if (!showTriggerRange) return;
 
-        // »æÖÆ´¥·¢·¶Î§
+        // ï¿½ï¿½ï¿½Æ´ï¿½ï¿½ï¿½ï¿½ï¿½Î§
         Gizmos.color = isSwaying ? Color.red : Color.green;
         Gizmos.DrawWireSphere(transform.position, triggerRadius);
 
-        // Èç¹ûÓÐÍæ¼Ò£¬»æÖÆµ½Íæ¼ÒµÄÁ¬Ïß
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò£ï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½
         if (player != null)
         {
             float distance = Vector3.Distance(transform.position, player.position);
             Gizmos.color = distance <= triggerRadius ? Color.yellow : Color.gray;
             Gizmos.DrawLine(transform.position, player.position);
 
-            // ÔÚÍæ¼ÒÎ»ÖÃ»æÖÆÒ»¸öÐ¡Çò
+            // ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã»ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ð¡ï¿½ï¿½
             Gizmos.color = Color.blue;
             Gizmos.DrawWireSphere(player.position, 0.2f);
         }
 
-        // »æÖÆ×´Ì¬Ö¸Ê¾Æ÷
+        // ï¿½ï¿½ï¿½ï¿½×´Ì¬Ö¸Ê¾ï¿½ï¿½
         Vector3 statusPos = transform.position + Vector3.up * 2f;
-        Color orangeColor = new Color(1f, 0.5f, 0f); // ³ÈÉ« (R=1, G=0.5, B=0)
+        Color orangeColor = new Color(1f, 0.5f, 0f); // ï¿½ï¿½É« (R=1, G=0.5, B=0)
         Gizmos.color = isSwaying ? Color.red : (IsOnCooldown() ? orangeColor : Color.green);
         Gizmos.DrawWireSphere(statusPos, 0.1f);
     }
 
     void OnDrawGizmos()
     {
-        // »æÖÆ»ù±¾´¥·¢·¶Î§£¨°ëÍ¸Ã÷£©
+        // ï¿½ï¿½ï¿½Æ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ï¿½ï¿½ï¿½
         if (showTriggerRange)
         {
             Gizmos.color = new Color(0, 1, 0, 0.1f);
@@ -388,20 +388,20 @@ public class GrassAnimationController : MonoBehaviour
         }
     }
 
-    // ========== µ÷ÊÔGUI ==========
+    // ========== ï¿½ï¿½ï¿½ï¿½GUI ==========
 
     void OnGUI()
     {
         if (!showDebugInfo) return;
 
-        // ¼ÆËãGUIÎ»ÖÃ£¬±ÜÃâÓëÆäËûµ÷ÊÔÐÅÏ¢ÖØµþ
-        float yOffset = 300f; // ÓëPngSequencePlayerµÄµ÷ÊÔÐÅÏ¢´í¿ª
+        // ï¿½ï¿½ï¿½ï¿½GUIÎ»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½Øµï¿½
+        float yOffset = 300f; // ï¿½ï¿½PngSequencePlayerï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½
         GUILayout.BeginArea(new Rect(Screen.width - 300, yOffset, 290, 150));
         GUILayout.BeginVertical("box");
 
-        GUILayout.Label("²Ý´Ô¶¯»­¿ØÖÆÆ÷", new GUIStyle(GUI.skin.label) { fontStyle = FontStyle.Bold });
+        GUILayout.Label("ï¿½Ý´Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", new GUIStyle(GUI.skin.label) { fontStyle = FontStyle.Bold });
 
-        // ÏÔÊ¾×´Ì¬ÐÅÏ¢
+        // ï¿½ï¿½Ê¾×´Ì¬ï¿½ï¿½Ï¢
         string[] stateLines = GetStateInfo().Split('\n');
         foreach (string line in stateLines)
         {
@@ -410,18 +410,18 @@ public class GrassAnimationController : MonoBehaviour
 
         GUILayout.Space(5);
 
-        // ¿ØÖÆ°´Å¥
-        if (GUILayout.Button("ÊÖ¶¯´¥·¢°Ú¶¯"))
+        // ï¿½ï¿½ï¿½Æ°ï¿½Å¥
+        if (GUILayout.Button("ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½"))
         {
             ManualTriggerSway();
         }
 
-        if (GUILayout.Button("ÖØÖÃµ½´ý»ú"))
+        if (GUILayout.Button("ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½"))
         {
             ResetToIdle();
         }
 
-        if (GUILayout.Button("¿ìËÙÅäÖÃ"))
+        if (GUILayout.Button("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"))
         {
             QuickSetupGrassAnimation();
         }
@@ -432,24 +432,24 @@ public class GrassAnimationController : MonoBehaviour
 }
 
 /// <summary>
-/// ²Ý´ÔÅúÁ¿ÉèÖÃ¹¤¾ß - ÐÞÕý°æ
+/// ï¿½Ý´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¹ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /// </summary>
 public class GrassBatchSetup : MonoBehaviour
 {
-    [Header("=== ÅúÁ¿ÉèÖÃ²ÎÊý ===")]
-    [Tooltip("´¥·¢·¶Î§")]
+    [Header("=== ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½ ===")]
+    [Tooltip("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§")]
     public float triggerRadius = 1.5f;
 
-    [Tooltip("°Ú¶¯³ÖÐøÊ±¼ä")]
+    [Tooltip("ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½")]
     public float swayDuration = 2f;
 
-    [Tooltip("ÀäÈ´Ê±¼ä")]
+    [Tooltip("ï¿½ï¿½È´Ê±ï¿½ï¿½")]
     public float cooldownTime = 1f;
 
     /// <summary>
-    /// ÎªÑ¡ÖÐµÄËùÓÐGameObjectÉèÖÃ²Ý´Ô¶¯»­
+    /// ÎªÑ¡ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½GameObjectï¿½ï¿½ï¿½Ã²Ý´Ô¶ï¿½ï¿½ï¿½
     /// </summary>
-    [ContextMenu("ÎªÑ¡ÖÐ¶ÔÏóÉèÖÃ²Ý´Ô¶¯»­")]
+    [ContextMenu("ÎªÑ¡ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã²Ý´Ô¶ï¿½ï¿½ï¿½")]
     public void SetupSelectedGrass()
     {
 #if UNITY_EDITOR
@@ -457,7 +457,7 @@ public class GrassBatchSetup : MonoBehaviour
         
         if (selectedObjects.Length == 0)
         {
-            UnityEditor.EditorUtility.DisplayDialog("ÌáÊ¾", "ÇëÏÈÑ¡ÔñÒªÉèÖÃµÄ²Ý´Ô¶ÔÏó", "È·¶¨");
+            UnityEditor.EditorUtility.DisplayDialog("ï¿½ï¿½Ê¾", "ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½Òªï¿½ï¿½ï¿½ÃµÄ²Ý´Ô¶ï¿½ï¿½ï¿½", "È·ï¿½ï¿½");
             return;
         }
 
@@ -471,67 +471,67 @@ public class GrassBatchSetup : MonoBehaviour
             }
         }
 
-        UnityEditor.EditorUtility.DisplayDialog("ÉèÖÃÍê³É", 
-            $"³É¹¦Îª {successCount}/{selectedObjects.Length} ¸ö¶ÔÏóÉèÖÃÁË²Ý´Ô¶¯»­", "È·¶¨");
+        UnityEditor.EditorUtility.DisplayDialog("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", 
+            $"ï¿½É¹ï¿½Îª {successCount}/{selectedObjects.Length} ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë²Ý´Ô¶ï¿½ï¿½ï¿½", "È·ï¿½ï¿½");
 #endif
     }
 
     bool SetupSingleGrass(GameObject grassObj)
     {
-        // Ìí¼Ó»ò»ñÈ¡ SimplePngSequencePlayer ×é¼þ
+        // ï¿½ï¿½Ó»ï¿½ï¿½È¡ SimplePngSequencePlayer ï¿½ï¿½ï¿½
         var sequencePlayer = grassObj.GetComponent<SimplePngSequencePlayer>();
         if (sequencePlayer == null)
         {
             sequencePlayer = grassObj.AddComponent<SimplePngSequencePlayer>();
         }
 
-        // Ìí¼Ó»ò»ñÈ¡ GrassAnimationController ×é¼þ
+        // ï¿½ï¿½Ó»ï¿½ï¿½È¡ GrassAnimationController ï¿½ï¿½ï¿½
         var grassController = grassObj.GetComponent<GrassAnimationController>();
         if (grassController == null)
         {
             grassController = grassObj.AddComponent<GrassAnimationController>();
         }
 
-        // ÅäÖÃ²ÎÊý
+        // ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½
         grassController.triggerRadius = triggerRadius;
         grassController.swayDuration = swayDuration;
         grassController.cooldownTime = cooldownTime;
 
-        // È·±£ÓÐRenderer×é¼þ
+        // È·ï¿½ï¿½ï¿½ï¿½Rendererï¿½ï¿½ï¿½
         if (grassObj.GetComponent<Renderer>() == null)
         {
-            Debug.LogWarning($"[GrassBatchSetup] {grassObj.name} Ã»ÓÐRenderer×é¼þ£¬ÎÞ·¨²¥·Å¶¯»­");
+            Debug.LogWarning($"[GrassBatchSetup] {grassObj.name} Ã»ï¿½ï¿½Rendererï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½ï¿½Å¶ï¿½ï¿½ï¿½");
             return false;
         }
 
-        Debug.Log($"[GrassBatchSetup] ÒÑÎª {grassObj.name} ÉèÖÃ²Ý´Ô¶¯»­");
+        Debug.Log($"[GrassBatchSetup] ï¿½ï¿½Îª {grassObj.name} ï¿½ï¿½ï¿½Ã²Ý´Ô¶ï¿½ï¿½ï¿½");
         return true;
     }
 
     /// <summary>
-    /// ´´½¨²âÊÔÓÃµÄ²Ý´ÔÔ¤ÖÆ¼þÄ£°å
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÃµÄ²Ý´ï¿½Ô¤ï¿½Æ¼ï¿½Ä£ï¿½ï¿½
     /// </summary>
-    [ContextMenu("´´½¨²Ý´ÔÔ¤ÖÆ¼þÄ£°å")]
+    [ContextMenu("ï¿½ï¿½ï¿½ï¿½ï¿½Ý´ï¿½Ô¤ï¿½Æ¼ï¿½Ä£ï¿½ï¿½")]
     public void CreateGrassPrefabTemplate()
     {
-        // ´´½¨»ù±¾GameObject
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½GameObject
         GameObject grassPrefab = new GameObject("Grass");
 
-        // Ìí¼Ó»ù±¾×é¼þ
+        // ï¿½ï¿½Ó»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         var meshRenderer = grassPrefab.AddComponent<MeshRenderer>();
         var meshFilter = grassPrefab.AddComponent<MeshFilter>();
 
-        // Ê¹ÓÃQuad mesh
+        // Ê¹ï¿½ï¿½Quad mesh
         meshFilter.mesh = CreateQuadMesh();
 
-        // ´´½¨²ÄÖÊ
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         var material = new Material(Shader.Find("Universal Render Pipeline/Unlit"));
         meshRenderer.material = material;
 
-        // Ìí¼Ó¶¯»­×é¼þ
+        // ï¿½ï¿½Ó¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         SetupSingleGrass(grassPrefab);
 
-        Debug.Log("[GrassBatchSetup] ÐÞÕý°æ²Ý´ÔÔ¤ÖÆ¼þÄ£°åÒÑ´´½¨");
+        Debug.Log("[GrassBatchSetup] ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý´ï¿½Ô¤ï¿½Æ¼ï¿½Ä£ï¿½ï¿½ï¿½Ñ´ï¿½ï¿½ï¿½");
     }
 
     Mesh CreateQuadMesh()

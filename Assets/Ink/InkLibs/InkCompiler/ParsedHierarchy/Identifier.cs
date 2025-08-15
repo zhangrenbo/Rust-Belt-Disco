@@ -1,4 +1,4 @@
-namespace Ink.Parsed {
+﻿namespace Ink.Parsed {
     public class Identifier {
         public string name;
         public Runtime.DebugMetadata debugMetadata;

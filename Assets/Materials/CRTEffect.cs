@@ -1,14 +1,14 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 [ExecuteInEditMode]
 [RequireComponent(typeof(Camera))]
 public class CRTEffect : MonoBehaviour
 {
-    [Header("Shader & ²ÄÖÊ")]
+    [Header("Shader & ï¿½ï¿½ï¿½ï¿½")]
     public Shader shader;
     private Material mat;
 
-    [Header("CRT ²ÎÊý")]
+    [Header("CRT ï¿½ï¿½ï¿½ï¿½")]
     [Range(0, 1)] public float Distortion = 0.1f;
     [Range(0, 0.1f)] public float ChromAberration = 0.02f;
     public float ScanlineCount = 480f;
@@ -30,7 +30,7 @@ public class CRTEffect : MonoBehaviour
             mat.hideFlags = HideFlags.HideAndDontSave;
         }
 
-        // ÉèÖÃ²ÎÊý
+        // ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½
         mat.SetFloat("_Distortion", Distortion);
         mat.SetFloat("_ChromAber", ChromAberration);
         mat.SetFloat("_ScanlineCount", ScanlineCount);
@@ -39,7 +39,7 @@ public class CRTEffect : MonoBehaviour
         mat.SetFloat("_VignetteIntensity", VignetteIntensity);
         mat.SetFloat("_VignetteSoftness", VignetteSoftness);
 
-        // Ö´ÐÐºóÆÚ
+        // Ö´ï¿½Ðºï¿½ï¿½ï¿½
         Graphics.Blit(src, dest, mat);
     }
 

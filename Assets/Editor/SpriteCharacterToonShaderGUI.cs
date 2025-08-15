@@ -1,8 +1,8 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEditor;
 
 /// <summary>
-/// 2D½ÇÉ«¿¨Í¨ShaderµÄ×Ô¶¨Òå±à¼­Æ÷
+/// 2Dï¿½ï¿½É«ï¿½ï¿½Í¨Shaderï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½à¼­ï¿½ï¿½
 /// </summary>
 public class SpriteCharacterToonShaderGUI : ShaderGUI
 {
@@ -37,152 +37,152 @@ public class SpriteCharacterToonShaderGUI : ShaderGUI
 
     public override void OnGUI(MaterialEditor materialEditor, MaterialProperty[] properties)
     {
-        // ²éÕÒËùÓĞÊôĞÔ
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         FindProperties(properties);
 
-        // »æÖÆ±êÌâ
+        // ï¿½ï¿½ï¿½Æ±ï¿½ï¿½ï¿½
         EditorGUILayout.Space();
-        GUILayout.Label("2D½ÇÉ«¿¨Í¨äÖÈ¾Æ÷", EditorStyles.boldLabel);
+        GUILayout.Label("2Dï¿½ï¿½É«ï¿½ï¿½Í¨ï¿½ï¿½È¾ï¿½ï¿½", EditorStyles.boldLabel);
         EditorGUILayout.Space();
 
-        // »ù´¡ÉèÖÃ
-        showBaseSettings = EditorGUILayout.Foldout(showBaseSettings, "»ù´¡ÉèÖÃ", true);
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        showBaseSettings = EditorGUILayout.Foldout(showBaseSettings, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", true);
         if (showBaseSettings)
         {
             EditorGUI.indentLevel++;
-            materialEditor.TexturePropertySingleLine(new GUIContent("½ÇÉ«ÌùÍ¼", "Ö÷ÒªµÄ½ÇÉ«¾«ÁéÌùÍ¼"), mainTex);
-            materialEditor.ColorProperty(color, "ÑÕÉ«µş¼Ó");
-            materialEditor.RangeProperty(cutoff, "Í¸Ã÷¶È²Ã¼ô");
+            materialEditor.TexturePropertySingleLine(new GUIContent("ï¿½ï¿½É«ï¿½ï¿½Í¼", "ï¿½ï¿½Òªï¿½Ä½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼"), mainTex);
+            materialEditor.ColorProperty(color, "ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½");
+            materialEditor.RangeProperty(cutoff, "Í¸ï¿½ï¿½ï¿½È²Ã¼ï¿½");
             EditorGUI.indentLevel--;
             EditorGUILayout.Space();
         }
 
-        // ¿¨Í¨äÖÈ¾ÉèÖÃ
-        showToonSettings = EditorGUILayout.Foldout(showToonSettings, "¿¨Í¨äÖÈ¾", true);
+        // ï¿½ï¿½Í¨ï¿½ï¿½È¾ï¿½ï¿½ï¿½ï¿½
+        showToonSettings = EditorGUILayout.Foldout(showToonSettings, "ï¿½ï¿½Í¨ï¿½ï¿½È¾", true);
         if (showToonSettings)
         {
             EditorGUI.indentLevel++;
-            materialEditor.TexturePropertySingleLine(new GUIContent("¿¨Í¨½¥±äÌùÍ¼", "ÓÃÓÚ¿ØÖÆ¹âÓ°¹ı¶ÉµÄ1D½¥±äÌùÍ¼"), toonRamp);
-            materialEditor.RangeProperty(shadowThreshold, "ÒõÓ°ãĞÖµ");
-            materialEditor.RangeProperty(shadowSoftness, "ÒõÓ°Èí¶È");
-            materialEditor.ColorProperty(shadowColor, "ÒõÓ°ÑÕÉ«");
+            materialEditor.TexturePropertySingleLine(new GUIContent("ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼", "ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½Æ¹ï¿½Ó°ï¿½ï¿½ï¿½Éµï¿½1Dï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼"), toonRamp);
+            materialEditor.RangeProperty(shadowThreshold, "ï¿½ï¿½Ó°ï¿½ï¿½Öµ");
+            materialEditor.RangeProperty(shadowSoftness, "ï¿½ï¿½Ó°ï¿½ï¿½ï¿½");
+            materialEditor.ColorProperty(shadowColor, "ï¿½ï¿½Ó°ï¿½ï¿½É«");
             EditorGUI.indentLevel--;
             EditorGUILayout.Space();
         }
 
-        // ±ßÔµ¹âÉèÖÃ
-        showRimSettings = EditorGUILayout.Foldout(showRimSettings, "±ßÔµ¹âĞ§¹û", true);
+        // ï¿½ï¿½Ôµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        showRimSettings = EditorGUILayout.Foldout(showRimSettings, "ï¿½ï¿½Ôµï¿½ï¿½Ğ§ï¿½ï¿½", true);
         if (showRimSettings)
         {
             EditorGUI.indentLevel++;
-            materialEditor.ColorProperty(rimColor, "±ßÔµ¹âÑÕÉ«");
-            materialEditor.RangeProperty(rimPower, "±ßÔµ¹âÇ¿¶È");
-            materialEditor.RangeProperty(rimIntensity, "±ßÔµ¹âÁÁ¶È");
+            materialEditor.ColorProperty(rimColor, "ï¿½ï¿½Ôµï¿½ï¿½ï¿½ï¿½É«");
+            materialEditor.RangeProperty(rimPower, "ï¿½ï¿½Ôµï¿½ï¿½Ç¿ï¿½ï¿½");
+            materialEditor.RangeProperty(rimIntensity, "ï¿½ï¿½Ôµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
             EditorGUI.indentLevel--;
             EditorGUILayout.Space();
         }
 
-        // Ãè±ßÉèÖÃ
-        showOutlineSettings = EditorGUILayout.Foldout(showOutlineSettings, "Ãè±ßĞ§¹û", true);
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        showOutlineSettings = EditorGUILayout.Foldout(showOutlineSettings, "ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½", true);
         if (showOutlineSettings)
         {
             EditorGUI.indentLevel++;
-            materialEditor.RangeProperty(outlineWidth, "Ãè±ß¿í¶È");
-            materialEditor.ColorProperty(outlineColor, "Ãè±ßÑÕÉ«");
+            materialEditor.RangeProperty(outlineWidth, "ï¿½ï¿½ß¿ï¿½ï¿½");
+            materialEditor.ColorProperty(outlineColor, "ï¿½ï¿½ï¿½ï¿½ï¿½É«");
 
             if (outlineWidth.floatValue > 0)
             {
-                EditorGUILayout.HelpBox("Ãè±ßĞ§¹ûĞèÒª½ÇÉ«ÓĞÕıÈ·µÄ·¨ÏßĞÅÏ¢", MessageType.Info);
+                EditorGUILayout.HelpBox("ï¿½ï¿½ï¿½Ğ§ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½È·ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢", MessageType.Info);
             }
             EditorGUI.indentLevel--;
             EditorGUILayout.Space();
         }
 
-        // ¶¯»­Ö§³Ö
-        showAnimationSettings = EditorGUILayout.Foldout(showAnimationSettings, "¶¯»­Ö§³Ö", false);
+        // ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½
+        showAnimationSettings = EditorGUILayout.Foldout(showAnimationSettings, "ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½", false);
         if (showAnimationSettings)
         {
             EditorGUI.indentLevel++;
 
-            EditorGUILayout.LabelField("·­×ª¿ØÖÆ", EditorStyles.boldLabel);
-            materialEditor.FloatProperty(flipX, "Ë®Æ½·­×ª");
-            materialEditor.FloatProperty(flipY, "´¹Ö±·­×ª");
+            EditorGUILayout.LabelField("ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½", EditorStyles.boldLabel);
+            materialEditor.FloatProperty(flipX, "Ë®Æ½ï¿½ï¿½×ª");
+            materialEditor.FloatProperty(flipY, "ï¿½ï¿½Ö±ï¿½ï¿½×ª");
 
-            EditorGUILayout.HelpBox("Í¨¹ı½Å±¾ÉèÖÃ material.SetFloat(\"_FlipX\", 1) À´·­×ª½ÇÉ«", MessageType.Info);
+            EditorGUILayout.HelpBox("Í¨ï¿½ï¿½ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ material.SetFloat(\"_FlipX\", 1) ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½É«", MessageType.Info);
             EditorGUI.indentLevel--;
             EditorGUILayout.Space();
         }
 
-        // ÌØĞ§ÉèÖÃ
-        showEffectSettings = EditorGUILayout.Foldout(showEffectSettings, "ÊÓ¾õÌØĞ§", false);
+        // ï¿½ï¿½Ğ§ï¿½ï¿½ï¿½ï¿½
+        showEffectSettings = EditorGUILayout.Foldout(showEffectSettings, "ï¿½Ó¾ï¿½ï¿½ï¿½Ğ§", false);
         if (showEffectSettings)
         {
             EditorGUI.indentLevel++;
 
-            EditorGUILayout.LabelField("ÑÕÉ«µ÷Õû", EditorStyles.boldLabel);
-            materialEditor.RangeProperty(brightness, "ÁÁ¶È");
-            materialEditor.RangeProperty(contrast, "¶Ô±È¶È");
-            materialEditor.RangeProperty(saturation, "±¥ºÍ¶È");
+            EditorGUILayout.LabelField("ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½", EditorStyles.boldLabel);
+            materialEditor.RangeProperty(brightness, "ï¿½ï¿½ï¿½ï¿½");
+            materialEditor.RangeProperty(contrast, "ï¿½Ô±È¶ï¿½");
+            materialEditor.RangeProperty(saturation, "ï¿½ï¿½ï¿½Í¶ï¿½");
 
             EditorGUILayout.Space();
-            EditorGUILayout.LabelField("·çĞ§¹û", EditorStyles.boldLabel);
-            materialEditor.RangeProperty(windStrength, "·çÁ¦Ç¿¶È");
-            materialEditor.RangeProperty(windSpeed, "·çËÙ");
-            materialEditor.VectorProperty(windDirection, "·çÏò");
+            EditorGUILayout.LabelField("ï¿½ï¿½Ğ§ï¿½ï¿½", EditorStyles.boldLabel);
+            materialEditor.RangeProperty(windStrength, "ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½");
+            materialEditor.RangeProperty(windSpeed, "ï¿½ï¿½ï¿½ï¿½");
+            materialEditor.VectorProperty(windDirection, "ï¿½ï¿½ï¿½ï¿½");
 
             if (windStrength.floatValue > 0)
             {
-                EditorGUILayout.HelpBox("·çĞ§¹û»áÈÃ½ÇÉ«ÇáÎ¢°Ú¶¯£¬ÊÊºÏ²¼ÁÏ»òÍ··¢", MessageType.Info);
+                EditorGUILayout.HelpBox("ï¿½ï¿½Ğ§ï¿½ï¿½ï¿½ï¿½ï¿½Ã½ï¿½É«ï¿½ï¿½Î¢ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ÊºÏ²ï¿½ï¿½Ï»ï¿½Í·ï¿½ï¿½", MessageType.Info);
             }
             EditorGUI.indentLevel--;
             EditorGUILayout.Space();
         }
 
-        // ¸ß¼¶ÉèÖÃ
-        showAdvancedSettings = EditorGUILayout.Foldout(showAdvancedSettings, "¸ß¼¶ÉèÖÃ", false);
+        // ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½
+        showAdvancedSettings = EditorGUILayout.Foldout(showAdvancedSettings, "ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½", false);
         if (showAdvancedSettings)
         {
             EditorGUI.indentLevel++;
 
-            // äÖÈ¾¶ÓÁĞ
+            // ï¿½ï¿½È¾ï¿½ï¿½ï¿½ï¿½
             materialEditor.RenderQueueField();
 
-            // Ë«ÃæäÖÈ¾ÌáÊ¾
-            EditorGUILayout.HelpBox("´ËShaderÄ¬ÈÏÆôÓÃË«ÃæäÖÈ¾£¬ÊÊºÏ2DÖ½Æ¬ÈË½ÇÉ«", MessageType.Info);
+            // Ë«ï¿½ï¿½ï¿½ï¿½È¾ï¿½ï¿½Ê¾
+            EditorGUILayout.HelpBox("ï¿½ï¿½ShaderÄ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë«ï¿½ï¿½ï¿½ï¿½È¾ï¿½ï¿½ï¿½Êºï¿½2DÖ½Æ¬ï¿½Ë½ï¿½É«", MessageType.Info);
 
             EditorGUI.indentLevel--;
             EditorGUILayout.Space();
         }
 
-        // Ô¤Éè°´Å¥
+        // Ô¤ï¿½è°´Å¥
         EditorGUILayout.Space();
-        EditorGUILayout.LabelField("¿ìËÙÔ¤Éè", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("ï¿½ï¿½ï¿½ï¿½Ô¤ï¿½ï¿½", EditorStyles.boldLabel);
 
         EditorGUILayout.BeginHorizontal();
-        if (GUILayout.Button("Ã÷ÁÁ¿¨Í¨"))
+        if (GUILayout.Button("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨"))
         {
             ApplyBrightToonPreset(materialEditor.target as Material);
         }
-        if (GUILayout.Button("ÈáºÍÒõÓ°"))
+        if (GUILayout.Button("ï¿½ï¿½ï¿½ï¿½ï¿½Ó°"))
         {
             ApplySoftShadowPreset(materialEditor.target as Material);
         }
-        if (GUILayout.Button("Ç¿¶Ô±È"))
+        if (GUILayout.Button("Ç¿ï¿½Ô±ï¿½"))
         {
             ApplyHighContrastPreset(materialEditor.target as Material);
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal();
-        if (GUILayout.Button("ÖØÖÃÎªÄ¬ÈÏ"))
+        if (GUILayout.Button("ï¿½ï¿½ï¿½ï¿½ÎªÄ¬ï¿½ï¿½"))
         {
             ResetToDefault(materialEditor.target as Material);
         }
-        if (GUILayout.Button("¸´ÖÆÉèÖÃ"))
+        if (GUILayout.Button("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"))
         {
             CopyMaterialSettings(materialEditor.target as Material);
         }
-        if (GUILayout.Button("Õ³ÌùÉèÖÃ"))
+        if (GUILayout.Button("Õ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"))
         {
             PasteMaterialSettings(materialEditor.target as Material);
         }
@@ -273,13 +273,13 @@ public class SpriteCharacterToonShaderGUI : ShaderGUI
 
     void CopyMaterialSettings(Material mat)
     {
-        // ÕâÀï¿ÉÒÔÊµÏÖ¸´ÖÆ²ÄÖÊÉèÖÃµ½¼ôÌù°åµÄ¹¦ÄÜ
-        Debug.Log("²ÄÖÊÉèÖÃÒÑ¸´ÖÆ");
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Ö¸ï¿½ï¿½Æ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¸ï¿½ï¿½ï¿½");
     }
 
     void PasteMaterialSettings(Material mat)
     {
-        // ÕâÀï¿ÉÒÔÊµÏÖ´Ó¼ôÌù°åÕ³Ìù²ÄÖÊÉèÖÃµÄ¹¦ÄÜ
-        Debug.Log("²ÄÖÊÉèÖÃÒÑÕ³Ìù");
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Ö´Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½Õ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÃµÄ¹ï¿½ï¿½ï¿½
+        Debug.Log("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ³ï¿½ï¿½");
     }
 }
