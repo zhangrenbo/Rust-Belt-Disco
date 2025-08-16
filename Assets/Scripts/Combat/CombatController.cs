@@ -21,7 +21,7 @@ public class CombatController : MonoBehaviour
     public Skill[] skillSlots = new Skill[4];
 
     [Header("=== ս������ ===")]
-    public float attackCooldown = 0.5f;
+    public float baseAttackCooldown = 0.5f;
     public bool autoEnterCombatOnAttack = true;
 
     [Header("=== �������� ===")]
@@ -45,7 +45,8 @@ public class CombatController : MonoBehaviour
     public System.Action OnCombatEnd;
 
     // ���Է�����
-    public bool CanAttack => Time.time - lastAttackTime >= attackCooldown &&
+    public float CurrentAttackCooldown => baseAttackCooldown / Mathf.Max(AttackSpeed, 0.1f);
+    public bool CanAttack => Time.time - lastAttackTime >= CurrentAttackCooldown &&
                             stateController != null &&
                             stateController.CanAttack();
 
@@ -96,29 +97,7 @@ public class CombatController : MonoBehaviour
 
     void Update()
     {
-        if (enablePlayerInput && characterType == CharacterType.Player &&
-            stateController != null && !stateController.IsInDialogue)
-        {
-            HandleCombatInput();
-        }
-
-
         UpdateAttackState();
-    }
-
-    void HandleCombatInput()
-    {
-        // �����������
-        if (Input.GetMouseButtonDown(0) && CanAttack)
-        {
-            PerformAttack();
-        }
-
-        // ����������� (1-4��)
-        if (Input.GetKeyDown(KeyCode.Alpha1)) CastSkill(0);
-        if (Input.GetKeyDown(KeyCode.Alpha2)) CastSkill(1);
-        if (Input.GetKeyDown(KeyCode.Alpha3)) CastSkill(2);
-        if (Input.GetKeyDown(KeyCode.Alpha4)) CastSkill(3);
     }
 
     void UpdateAttackState()
@@ -452,7 +431,7 @@ public class CombatController : MonoBehaviour
     /// </summary>
     public void SetAttackCooldown(float cooldown)
     {
-        attackCooldown = Mathf.Max(0f, cooldown);
+        baseAttackCooldown = Mathf.Max(0f, cooldown);
     }
 
     /// <summary>
@@ -468,7 +447,7 @@ public class CombatController : MonoBehaviour
     /// </summary>
     public float GetAttackCooldownRemaining()
     {
-        return Mathf.Max(0f, attackCooldown - (Time.time - lastAttackTime));
+        return Mathf.Max(0f, CurrentAttackCooldown - (Time.time - lastAttackTime));
     }
 
     /// <summary>
@@ -621,173 +600,7 @@ public class CombatController : MonoBehaviour
                 GUILayout.Label($"����{i + 1}: ��");
             }
         }
-
         GUILayout.EndVertical();
         GUILayout.EndArea();
-    }
-}
-
-// ========== ����ϵͳ����ඨ�� ==========
-
-/// <summary>
-/// ���ܻ���
-/// </summary>
-[System.Serializable]
-public class Skill
-{
-    [Header("=== ���ܻ�����Ϣ ===")]
-    public string skillName = "Ĭ�ϼ���";
-    public string description = "��������";
-    public Sprite skillIcon;
-
-    [Header("=== ���ܲ��� ===")]
-    public float cooldown = 5f;
-    public int manaCost = 10;
-    public float castTime = 0f;
-    public float range = 5f;
-
-    [Header("=== ����Ч�� ===")]
-    public int damage = 20;
-    public float duration = 0f;
-    public bool isAreaOfEffect = false;
-    public float aoeRadius = 3f;
-
-    [Header("=== BUFFЧ�� ===")]
-    public bool applyBuffToSelf = false;
-    public bool applyBuffToTarget = false;
-    public Buff[] buffsToApply;
-
-    // ˽�б���
-    private float lastUseTime = -999f;
-    private bool isOnCooldown = false;
-
-    // ���Է�����
-    public bool CanUse()
-    {
-        return !isOnCooldown && Time.time - lastUseTime >= cooldown;
-    }
-
-    public float GetRemainingCooldown()
-    {
-        if (!isOnCooldown) return 0f;
-        return Mathf.Max(0f, cooldown - (Time.time - lastUseTime));
-    }
-
-    /// <summary>
-    /// ʹ�ü���
-    /// </summary>
-    public virtual void Use()
-    {
-        if (!CanUse()) return;
-
-        lastUseTime = Time.time;
-        isOnCooldown = true;
-
-        // ִ�м����߼�
-        ExecuteSkill();
-
-        // ��ʼ��ȴ
-        StartCooldown();
-    }
-
-    /// <summary>
-    /// ִ�м��ܵľ����߼� - �������д
-    /// </summary>
-    protected virtual void ExecuteSkill()
-    {
-        Debug.Log($"[Skill] ʹ�ü���: {skillName}");
-    }
-
-    /// <summary>
-    /// ��ʼ��ȴ��ʱ
-    /// </summary>
-    protected virtual void StartCooldown()
-    {
-        // ���������������ȴ��ص��߼�
-    }
-
-    /// <summary>
-    /// ������ȴ
-    /// </summary>
-    public void ResetCooldown()
-    {
-        isOnCooldown = false;
-        lastUseTime = -999f;
-    }
-
-    /// <summary>
-    /// ������ȴʱ��
-    /// </summary>
-    public void SetCooldown(float newCooldown)
-    {
-        cooldown = Mathf.Max(0f, newCooldown);
-    }
-}
-
-/// <summary>
-/// �������� - ����˺��ļ���
-/// </summary>
-[System.Serializable]
-public class AttackSkill : Skill
-{
-    [Header("=== ������������ ===")]
-    public float damageMultiplier = 1.5f;
-    public bool usesWeaponDamage = true;
-    public GameObject skillEffect;
-    public AudioClip skillSound;
-
-    protected override void ExecuteSkill()
-    {
-        base.ExecuteSkill();
-
-        // ���������Ӿ���Ĺ��������߼�
-        // ���������˺����򡢲�����Ч��
-
-        Debug.Log($"[AttackSkill] �������� {skillName} ��� {damage} ���˺�");
-    }
-}
-
-/// <summary>
-/// ���漼�� - �ṩBUFFЧ���ļ���
-/// </summary>
-[System.Serializable]
-public class BuffSkill : Skill
-{
-    [Header("=== ���漼������ ===")]
-    public BuffType buffType = BuffType.Attack;
-    public float buffValue = 10f;
-    public float buffDuration = 30f;
-    public bool isPositiveBuff = true;
-
-    protected override void ExecuteSkill()
-    {
-        base.ExecuteSkill();
-
-        // ���������Ӿ�������漼���߼�
-        Debug.Log($"[BuffSkill] ���漼�� {skillName} �ṩ {buffType} Ч��");
-    }
-}
-
-/// <summary>
-/// ���Ƽ��� - �ָ�����ֵ�ļ���
-/// </summary>
-[System.Serializable]
-public class HealSkill : Skill
-{
-    [Header("=== ���Ƽ������� ===")]
-    public int healAmount = 50;
-    public bool isPercentageHeal = false;
-    public float healPercentage = 0.3f;
-    public GameObject healEffect;
-
-    protected override void ExecuteSkill()
-    {
-        base.ExecuteSkill();
-
-        // ���������Ӿ�������Ƽ����߼�
-        int finalHealAmount = isPercentageHeal ?
-            Mathf.RoundToInt(healPercentage * 100) : healAmount;
-
-        Debug.Log($"[HealSkill] ���Ƽ��� {skillName} �ָ� {finalHealAmount} ������ֵ");
     }
 }

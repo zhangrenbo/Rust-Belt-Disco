@@ -157,7 +157,6 @@ public class BuffController : MonoBehaviour
     // BUFF管理 - 使用通用的Buff类型
     private List<Buff> activeBuffs = new List<Buff>();
     private List<GameObject> buffEffects = new List<GameObject>();
-    private float lastBuffCheckTime = 0f;
 
     // BUFF缓存系统
     private Dictionary<BuffType, float> buffValueCache = new Dictionary<BuffType, float>();
@@ -186,12 +185,15 @@ public class BuffController : MonoBehaviour
     void Start()
     {
         InitializeBuffSystem();
+        InvokeRepeating(nameof(UpdateBuffs), buffCheckInterval, buffCheckInterval);
     }
 
     void Update()
     {
-        UpdateBuffs();
-        UpdateBuffCache();
+        if (cacheNeedsUpdate)
+        {
+            UpdateBuffCache();
+        }
     }
 
     void InitializeBuffSystem()
@@ -236,9 +238,6 @@ public class BuffController : MonoBehaviour
 
     void UpdateBuffs()
     {
-        if (Time.time - lastBuffCheckTime < buffCheckInterval) return;
-
-        lastBuffCheckTime = Time.time;
         bool anyBuffExpired = false;
 
         // 倒序遍历，安全移除过期BUFF
