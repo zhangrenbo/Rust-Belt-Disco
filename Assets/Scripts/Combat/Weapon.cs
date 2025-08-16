@@ -4,12 +4,6 @@ public class Weapon : MonoBehaviour
 {
     public string weaponName; // ��������
 
-    [Header("Base Stats")]
-    [Tooltip("���������˺�����ѡ�����ʹ����ϵͳ���ô�ֵ��")]
-    public int damage; // �����˺�ֵ
-    [Tooltip("����������Χ")]
-    public float range; // ����������Χ
-
     [Header("Bonus Stats")]
     [Tooltip("�������ӵĹ�����")]
     public int attackBonus;  // �������ӵĹ�����
@@ -17,14 +11,6 @@ public class Weapon : MonoBehaviour
     public float speedBonus; // �������ӵĹ����ٶ�
     [Tooltip("�������ӵķ���ǿ��")]
     public int spellBonus;   // �������ӵķ���ǿ��
-
-    [Header("Attribute Multipliers")]
-    [Tooltip("����ת�����ʣ��������չ�������")]
-    public float attackMultiplier = 1.0f;
-    [Tooltip("���ת�����ʣ��������չ����ٶȣ�")]
-    public float speedMultiplier = 1.0f;
-    [Tooltip("����ת�����ʣ��������շ���ǿ�ȣ�")]
-    public float spellMultiplier = 1.0f;
 
     [Header("Hitbox Settings")]
     [Tooltip("�Զ��� Hitbox Ԥ���壬��������ˣ���ʹ���Զ��幥��Ч��")]

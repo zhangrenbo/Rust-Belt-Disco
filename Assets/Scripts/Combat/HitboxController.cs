@@ -34,6 +34,9 @@ public class HitboxController : MonoBehaviour
     public bool randomizeDamage = true;  // �Ƿ�������˺�
     public float damageVariance = 0.2f;  // �˺��仯��Χ
 
+    [Header("=== �������� ===")]
+    public bool showDebug = false;
+
     // �ܱ����ı��������̳������
     protected Collider hitboxCollider;
     protected HashSet<GameObject> hitTargets = new HashSet<GameObject>();
@@ -63,13 +66,16 @@ public class HitboxController : MonoBehaviour
         // ���� duration ����Զ�����
         Destroy(gameObject, duration);
 
-        if (owner != null)
+        if (showDebug)
         {
-            Debug.Log($"[HitboxController] Hitbox���� - �˺�: {damage}, ��Χ: {range}, ����: {duration}��, ������: {owner.name}");
-        }
-        else
-        {
-            Debug.Log($"[HitboxController] Hitbox���� - �˺�: {damage}, ��Χ: {range}, ����: {duration}��");
+            if (owner != null)
+            {
+                Debug.Log($"[HitboxController] Hitbox���� - �˺�: {damage}, ��Χ: {range}, ����: {duration}��, ������: {owner.name}");
+            }
+            else
+            {
+                Debug.Log($"[HitboxController] Hitbox���� - �˺�: {damage}, ��Χ: {range}, ����: {duration}��");
+            }
         }
     }
 
@@ -104,7 +110,22 @@ public class HitboxController : MonoBehaviour
         if (damageable == null)
             return false;
 
-        // 3) �����Լ�
+        // 3) �ж�Ŀ�����
+        var stateManager = target.GetComponentInParent<CharacterStateManager>();
+        if (stateManager != null)
+        {
+            switch (stateManager.characterType)
+            {
+                case CharacterType.Player:
+                    if (!hitPlayers) return false; break;
+                case CharacterType.NPC:
+                    if (!hitNPCs) return false; break;
+                case CharacterType.Enemy:
+                    if (!hitEnemies) return false; break;
+            }
+        }
+
+        // 4) �����Լ�
         if (owner != null && target.gameObject == owner)
             return false;
 
@@ -130,7 +151,10 @@ public class HitboxController : MonoBehaviour
         {
             damageable.TakeDamage(finalDamage);
             hitSuccess = true;
-            Debug.Log($"[HitboxController] ���� {target.name}����� {finalDamage} ���˺�");
+            if (showDebug)
+            {
+                Debug.Log($"[HitboxController] ���� {target.name}����� {finalDamage} ���˺�");
+            }
         }
 
         if (hitSuccess)
@@ -144,10 +168,9 @@ public class HitboxController : MonoBehaviour
                 ApplyKnockback(target);
             }
 
-            // Ӧ��BUFFЧ�� - �򻯰��ݲ�ʵ��ϸ��
             if (applyBuffsOnHit)
             {
-                Debug.Log($"[HitboxController] �� {target.name} Ӧ��BUFFЧ��");
+                ApplyBuffs(target);
             }
 
             // �������лص�
@@ -218,7 +241,10 @@ public class HitboxController : MonoBehaviour
             Vector3 knockbackDirection = (target.transform.position - transform.position).normalized;
             rb.AddForce(knockbackDirection * knockbackForce, ForceMode.Impulse);
 
-            Debug.Log($"[HitboxController] �� {target.name} ʩ�ӻ����� {knockbackForce}");
+            if (showDebug)
+            {
+                Debug.Log($"[HitboxController] �� {target.name} ʩ�ӻ����� {knockbackForce}");
+            }
         }
     }
 
@@ -228,7 +254,10 @@ public class HitboxController : MonoBehaviour
     void ApplyBuffs(Collider target)
     {
         // �򻯵�BUFFӦ���߼�����������ϸ��
-        Debug.Log($"[HitboxController] �� {target.name} Ӧ��BUFFЧ��");
+        if (showDebug)
+        {
+            Debug.Log($"[HitboxController] �� {target.name} Ӧ��BUFFЧ��");
+        }
     }
 
     /// <summary>
@@ -305,7 +334,10 @@ public class HitboxController : MonoBehaviour
     /// </summary>
     public void AddBuffToApply(string buffName)
     {
-        Debug.Log($"[HitboxController] ����BUFF: {buffName}");
+        if (showDebug)
+        {
+            Debug.Log($"[HitboxController] ����BUFF: {buffName}");
+        }
         applyBuffsOnHit = true;
     }
 
@@ -331,6 +363,8 @@ public class HitboxController : MonoBehaviour
 
     void OnDrawGizmos()
     {
+        if (!showDebug) return;
+
         if (isActive)
         {
             Gizmos.color = Color.red;
@@ -342,7 +376,6 @@ public class HitboxController : MonoBehaviour
             Gizmos.DrawWireSphere(transform.position, hitboxRange * 0.5f);
         }
 
-        // ��ʾ���˷���
         if (knockbackForce > 0)
         {
             Gizmos.color = Color.yellow;
@@ -359,11 +392,11 @@ public class HitboxController : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        // ��ʾ������Χ
+        if (!showDebug) return;
+
         Gizmos.color = new Color(1, 0, 0, 0.3f);
         Gizmos.DrawSphere(transform.position, hitboxRange * 0.5f);
 
-        // ��ʾ�����е�Ŀ��
         Gizmos.color = Color.yellow;
         foreach (var target in hitTargets)
         {
@@ -374,7 +407,6 @@ public class HitboxController : MonoBehaviour
             }
         }
 
-        // ��ʾ����������
         if (owner != null)
         {
             Gizmos.color = Color.blue;
@@ -386,7 +418,7 @@ public class HitboxController : MonoBehaviour
 
     void OnGUI()
     {
-        if (!Application.isPlaying || !isActive) return;
+        if (!showDebug || !Application.isPlaying || !isActive) return;
 
         Vector3 screenPos = Camera.main.WorldToScreenPoint(transform.position);
         if (screenPos.z > 0)
@@ -423,7 +455,10 @@ public class AdvancedHitboxController : HitboxController
             {
                 int healAmount = Mathf.RoundToInt(damage * healPercentage);
                 ownerCombat.Heal(healAmount);
-                Debug.Log($"[AdvancedHitboxController] ������ {owner.name} ͨ�������ָ� {healAmount} ����ֵ");
+                if (showDebug)
+                {
+                    Debug.Log($"[AdvancedHitboxController] ������ {owner.name} ͨ�������ָ� {healAmount} ����ֵ");
+                }
             }
         }
 
@@ -471,7 +506,10 @@ public class AdvancedHitboxController : HitboxController
             // ����������Ч
             CreateChainEffect(primaryTarget.transform.position, chainTarget.transform.position);
 
-            Debug.Log($"[AdvancedHitboxController] ������������ {chainTarget.name}����� {chainDamage} ���˺�");
+            if (showDebug)
+            {
+                Debug.Log($"[AdvancedHitboxController] ������������ {chainTarget.name}����� {chainDamage} ���˺�");
+            }
 
             chainDamage = Mathf.RoundToInt(chainDamage * damageReduction);
         }
