@@ -47,6 +47,15 @@ public class GlobalDialogueManager : MonoBehaviour
     [Header("=== �������� ===")]
     public bool showDebugInfo = false;
 
+    [Header("=== �������� ===")]
+    [SerializeField] private MonoBehaviour playerProvider;
+    [SerializeField] private MonoBehaviour inventoryServiceProvider;
+    [SerializeField] private MonoBehaviour storyServiceProvider;
+
+    private IPlayerContext Player => playerProvider as IPlayerContext;
+    private IInventoryService Inventory => inventoryServiceProvider as IInventoryService;
+    private IStoryService Story => storyServiceProvider as IStoryService;
+
     // ��ǰ�Ի�״̬
     private Story currentStory;
     private bool isDialogueActive = false;
@@ -126,9 +135,7 @@ public class GlobalDialogueManager : MonoBehaviour
             if (dialoguePanel != null)
                 dialoguePanel.SetActive(true);
 
-            var player = FindObjectOfType<PlayerController>();
-            if (player != null)
-                player.EnterDialogueState();
+            Player?.EnterDialogueState();
 
             OnDialogueStart?.Invoke(inkFile.name);
             PlaySound(dialogueStartSound);
@@ -162,9 +169,7 @@ public class GlobalDialogueManager : MonoBehaviour
             if (dialoguePanel != null)
                 dialoguePanel.SetActive(true);
 
-            var player = FindObjectOfType<PlayerController>();
-            if (player != null)
-                player.EnterDialogueState();
+            Player?.EnterDialogueState();
 
             OnDialogueStart?.Invoke("SimpleDialogue");
             PlaySound(dialogueStartSound);
@@ -353,9 +358,7 @@ public class GlobalDialogueManager : MonoBehaviour
         if (speakerNameText != null)
             speakerNameText.gameObject.SetActive(false);
 
-        var player = FindObjectOfType<PlayerController>();
-        if (player != null)
-            player.ExitDialogueState();
+        Player?.ExitDialogueState();
 
         if (currentNPC != null)
         {
@@ -375,18 +378,15 @@ public class GlobalDialogueManager : MonoBehaviour
         if (currentStory == null) return;
 
         currentStory.BindExternalFunction("give_item", (string itemName, int quantity) => {
-            GiveItemToPlayer(itemName, quantity);
+            Inventory?.AddItem(itemName, quantity);
         });
 
         currentStory.BindExternalFunction("give_exp", (int amount) => {
-            var player = FindObjectOfType<PlayerController>();
-            if (player != null)
-                player.AddExp(amount);
+            Player?.AddExp(amount);
         });
 
         currentStory.BindExternalFunction("set_story_var", (string varName, int value) => {
-            if (StoryCtrl.Instance != null)
-                StoryCtrl.Instance.Set(varName, value);
+            Story?.Set(varName, value);
         });
 
         currentStory.BindExternalFunction("play_sound", (string soundName) => {
@@ -398,29 +398,10 @@ public class GlobalDialogueManager : MonoBehaviour
     {
         if (currentStory == null) return;
 
-        var player = FindObjectOfType<PlayerController>();
-        if (player != null)
+        if (Player != null)
         {
-            currentStory.variablesState["player_level"] = player.Level;
-            currentStory.variablesState["player_health"] = player.Health;
-        }
-    }
-
-    void GiveItemToPlayer(string itemName, int quantity)
-    {
-        if (InventoryManager.instance != null)
-        {
-            for (int i = 0; i < quantity; i++)
-            {
-                var item = new GameItem
-                {
-                    Name = itemName,
-                    Description = $"�ӶԻ���õ�{itemName}",
-                    Type = ItemType.Material,
-                    Size = new Vector2Int(1, 1)
-                };
-                InventoryManager.instance.AddItem(item);
-            }
+            currentStory.variablesState["player_level"] = Player.Level;
+            currentStory.variablesState["player_health"] = Player.Health;
         }
     }
 

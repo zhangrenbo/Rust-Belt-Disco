@@ -56,7 +56,7 @@ public class NPCDialogueController : MonoBehaviour
     public string dialogueStateKey = "";
 
     // ˽��״̬
-    private Transform player;
+    [SerializeField] private Transform player;
     private bool playerInRange = false;
     private bool isOnCooldown = false;
     private float lastTriggerTime = 0f;
@@ -66,6 +66,17 @@ public class NPCDialogueController : MonoBehaviour
     // ��̬�����ȷ��ֻ�������NPC��ʾ��ʾ
     private static NPCDialogueController currentInteractableNPC = null;
     private static float currentClosestDistance = float.MaxValue;
+    private static readonly System.Collections.Generic.List<NPCDialogueController> registeredNPCs = new System.Collections.Generic.List<NPCDialogueController>();
+
+    void Awake()
+    {
+        registeredNPCs.Add(this);
+    }
+
+    void OnDestroy()
+    {
+        registeredNPCs.Remove(this);
+    }
 
     void Start()
     {
@@ -81,10 +92,9 @@ public class NPCDialogueController : MonoBehaviour
 
     void InitializeNPC()
     {
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        if (playerObj != null)
+        if (player == null)
         {
-            player = playerObj.transform;
+            Debug.LogWarning($"[NPCDialogueController] Player reference not set for {gameObject.name}");
         }
 
         // ��ʼ���򴴽�������ʾUI
@@ -94,6 +104,14 @@ public class NPCDialogueController : MonoBehaviour
         {
             dialogueStateKey = $"npc_dialogue_{gameObject.name}_{gameObject.GetInstanceID()}";
         }
+    }
+
+    /// <summary>
+    /// ���ð�Ҷ�ο�
+    /// </summary>
+    public void SetPlayer(Transform p)
+    {
+        player = p;
     }
 
     void SetupInteractionPrompt()
@@ -227,11 +245,10 @@ public class NPCDialogueController : MonoBehaviour
 
     void FindNextClosestNPC()
     {
-        NPCDialogueController[] allNPCs = FindObjectsOfType<NPCDialogueController>();
         NPCDialogueController nextClosest = null;
         float nextClosestDistance = float.MaxValue;
 
-        foreach (var npc in allNPCs)
+        foreach (var npc in registeredNPCs)
         {
             if (npc == this || npc.player == null) continue;
 
