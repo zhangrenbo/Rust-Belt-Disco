@@ -4,7 +4,7 @@
 /// ��ҿ����� - ���Ŀ��������Զ���������������
 /// </summary>
 [RequireComponent(typeof(Rigidbody))]
-public class PlayerController : MonoBehaviour, IDamageable
+public class PlayerController : MonoBehaviour, IDamageable, IPlayerContext
 {
     [Header("=== ��һ������� ===")]
     public string playerName = "���";
