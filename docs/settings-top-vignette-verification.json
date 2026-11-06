@@ -1,0 +1,128 @@
+{
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "layers": [
+    {
+      "selector": ".view-settings",
+      "parent": "app",
+      "zIndex": "1",
+      "display": "block",
+      "opacity": "1",
+      "mask": "none",
+      "backdropFilter": "none",
+      "width": 1440,
+      "height": 810
+    },
+    {
+      "selector": ".projector-film",
+      "parent": "app",
+      "zIndex": "70",
+      "display": "block",
+      "opacity": "1",
+      "mask": "none",
+      "backdropFilter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)",
+      "width": 1440,
+      "height": 810
+    },
+    {
+      "selector": ".grain",
+      "parent": "app",
+      "zIndex": "72",
+      "display": "block",
+      "opacity": "0.39",
+      "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+      "backdropFilter": "none",
+      "width": 1536,
+      "height": 906
+    },
+    {
+      "selector": ".projector-edge-snow",
+      "parent": "app",
+      "zIndex": "73",
+      "display": "block",
+      "opacity": "0.715",
+      "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+      "backdropFilter": "none",
+      "width": 1440,
+      "height": 810
+    },
+    {
+      "selector": ".projector-edge-flicker",
+      "parent": "app",
+      "zIndex": "90",
+      "display": "block",
+      "opacity": "1",
+      "mask": "radial-gradient(rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.24) 57%, rgba(0, 0, 0, 0.65) 79%, rgba(0, 0, 0, 0.94) 94%, rgb(0, 0, 0) 100%)",
+      "backdropFilter": "blur(5.04px)",
+      "width": 1440,
+      "height": 810
+    }
+  ],
+  "checks": [
+    "1440: vignette is visibly on top and controls remain clickable",
+    "844: vignette is visibly on top and controls remain clickable",
+    "disabled film removes the top vignette and its blur",
+    "main menu retains its previous film layering",
+    "all saved settings and unrelated data are preserved"
+  ],
+  "pixelComparison": {
+    "center": {
+      "on": 214.0,
+      "off": 214.0,
+      "ratio": 1.0
+    },
+    "topLeft": {
+      "on": 19.666666666666668,
+      "off": 74.0,
+      "ratio": 0.26576576576576577
+    },
+    "topRight": {
+      "on": 22.666666666666668,
+      "off": 85.66666666666667,
+      "ratio": 0.26459143968871596
+    },
+    "bottomLeft": {
+      "on": 37.0,
+      "off": 154.33333333333334,
+      "ratio": 0.23974082073434125
+    },
+    "bottomRight": {
+      "on": 13.0,
+      "off": 47.666666666666664,
+      "ratio": 0.27272727272727276
+    }
+  },
+  "screens": [
+    {
+      "name": "settings",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "settings",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "name": "darkened",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "without-vignette",
+      "viewport": [
+        1440,
+        810
+      ]
+    }
+  ],
+  "errors": [],
+  "storage": "isolated page memory",
+  "workbenchWindow": "not directly captured; Computer Use initialization failed: kernel asset path not found (os error 3)",
+  "humanArtApproval": "pending"
+}

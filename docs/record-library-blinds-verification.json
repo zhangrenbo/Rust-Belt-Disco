@@ -1,0 +1,41 @@
+{
+  "checks": [
+    "library shares the settings shadow and orange light without intercepting input",
+    "theme audio decoded and playing",
+    "reference turntable and real two-track catalog visible",
+    "new paper artwork loads with the existing silhouette",
+    "lit controls still pause real playback",
+    "light layers allow seeking while paused",
+    "button hover keeps its own material and remains reachable",
+    "lit controls resume real playback",
+    "all compact controls remain unobstructed under the light layer",
+    "catalog text fits its writing area",
+    "return restores settings with the same shared blinds",
+    "unrelated storage remains intact"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/record-library-blinds-playing-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/record-library-blinds-compact-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "path": "docs/record-library-blinds-settings-return-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    }
+  ],
+  "errors": [],
+  "humanArtReview": "pending"
+}

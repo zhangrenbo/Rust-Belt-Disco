@@ -1,0 +1,566 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-matrix-sr-v1",
+    "source":  "MJ剧情场景40景雪夜_v1_20260917.json",
+    "style_reference_source":  "MJ_用户指定三张极乐迪斯科_风格引用索引.json",
+    "style_references":  "--sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150",
+    "camera":  "strict 45-degree orthographic",
+    "human_review":  "pending",
+    "jobs":  [
+                 {
+                     "id":  "ND-S01",
+                     "name":  "公交车站·董点事归乡",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S01_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "757cf5ac-b9d0-49df-9518-a77530606f01",
+                     "result_url":  "https://www.midjourney.com/jobs/757cf5ac-b9d0-49df-9518-a77530606f01?index=0"
+                 },
+                 {
+                     "id":  "ND-S02",
+                     "name":  "便利店废墟·一楼调查",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S02_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "ab66ee13-c33b-4f2c-a26f-4e658e1c0666",
+                     "result_url":  "https://www.midjourney.com/jobs/ab66ee13-c33b-4f2c-a26f-4e658e1c0666?index=0"
+                 },
+                 {
+                     "id":  "ND-S03",
+                     "name":  "便利店二楼·母亲旧物",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S03_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "ce351638-4000-4c70-9115-7fee2f3e326e",
+                     "result_url":  "https://www.midjourney.com/jobs/ce351638-4000-4c70-9115-7fee2f3e326e?index=0"
+                 },
+                 {
+                     "id":  "ND-S04",
+                     "name":  "便利店门口与侧巷·白天",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S04_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "20e5f166-bf69-4cc0-93c5-008596650ebe",
+                     "result_url":  "https://www.midjourney.com/jobs/20e5f166-bf69-4cc0-93c5-008596650ebe?index=0"
+                 },
+                 {
+                     "id":  "ND-S05",
+                     "name":  "父亲葬礼·稀疏的灵棚",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S05_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "64baa67e-e15f-45be-b2cf-63e7db92a2bc",
+                     "result_url":  "https://www.midjourney.com/jobs/64baa67e-e15f-45be-b2cf-63e7db92a2bc?index=0"
+                 },
+                 {
+                     "id":  "ND-S06",
+                     "name":  "叔叔家·葬礼后的饭桌",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S06_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "8394717e-f36e-4723-8069-8a0754f2b7dd",
+                     "result_url":  "https://www.midjourney.com/jobs/8394717e-f36e-4723-8069-8a0754f2b7dd?index=0"
+                 },
+                 {
+                     "id":  "ND-S07",
+                     "name":  "董点事卧室·夜间旧物",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S07_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "b1c14a85-492a-4a98-b9ad-c9a321baf37b",
+                     "result_url":  "https://www.midjourney.com/jobs/b1c14a85-492a-4a98-b9ad-c9a321baf37b?index=0"
+                 },
+                 {
+                     "id":  "ND-S08",
+                     "name":  "省道修车棚·一起抬轮胎",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S08_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "26f9b225-6862-47b9-9deb-468f648d436e",
+                     "result_url":  "https://www.midjourney.com/jobs/26f9b225-6862-47b9-9deb-468f648d436e?index=0"
+                 },
+                 {
+                     "id":  "ND-S09",
+                     "name":  "叔叔家院子·家与修车店之间",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S09_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "e707a9b9-d551-4a54-bb99-c14b3889737b",
+                     "result_url":  "https://www.midjourney.com/jobs/e707a9b9-d551-4a54-bb99-c14b3889737b?index=0"
+                 },
+                 {
+                     "id":  "ND-S10",
+                     "name":  "小虎房间·表弟的沉默",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S10_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "c196f29c-eb25-4223-8e07-a2366d9abf02",
+                     "result_url":  "https://www.midjourney.com/jobs/c196f29c-eb25-4223-8e07-a2366d9abf02?index=0"
+                 },
+                 {
+                     "id":  "ND-S11",
+                     "name":  "派出所·白天办公与走廊",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S11_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "e05c4f30-cac2-40f6-8d42-7b50f7817c2c",
+                     "result_url":  "https://www.midjourney.com/jobs/e05c4f30-cac2-40f6-8d42-7b50f7817c2c?index=0"
+                 },
+                 {
+                     "id":  "ND-S12",
+                     "name":  "档案室·旧案检索",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S12_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "92fcc0ad-945f-4d2c-b2f1-e285b20e5fc6",
+                     "result_url":  "https://www.midjourney.com/jobs/92fcc0ad-945f-4d2c-b2f1-e285b20e5fc6?index=0"
+                 },
+                 {
+                     "id":  "ND-S13",
+                     "name":  "李正家·噩梦醒来的清晨",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S13_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "fff16282-578c-44d8-b1a4-bf0d17b4f52b",
+                     "result_url":  "https://www.midjourney.com/jobs/fff16282-578c-44d8-b1a4-bf0d17b4f52b?index=0"
+                 },
+                 {
+                     "id":  "ND-S14",
+                     "name":  "王氏中医馆·前厅接诊",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S14_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "bc24a426-7aba-4b93-9520-6b400b7a70de",
+                     "result_url":  "https://www.midjourney.com/jobs/bc24a426-7aba-4b93-9520-6b400b7a70de?index=0"
+                 },
+                 {
+                     "id":  "ND-S15",
+                     "name":  "诊所后屋·守着奶奶",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S15_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "9dfaf4e9-aca3-4cad-b3d8-be980eab62bf",
+                     "result_url":  "https://www.midjourney.com/jobs/9dfaf4e9-aca3-4cad-b3d8-be980eab62bf?index=0"
+                 },
+                 {
+                     "id":  "ND-S16",
+                     "name":  "王家卧室·枕边出现纸条",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S16_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "9dca0df3-45de-41e1-ae48-7b2dbffc4928",
+                     "result_url":  "https://www.midjourney.com/jobs/9dca0df3-45de-41e1-ae48-7b2dbffc4928?index=0"
+                 },
+                 {
+                     "id":  "ND-S17",
+                     "name":  "面馆·午饭与闲话",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S17_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "a6d78779-c25e-49da-ada4-59d7256967d2",
+                     "result_url":  "https://www.midjourney.com/jobs/a6d78779-c25e-49da-ada4-59d7256967d2?index=0"
+                 },
+                 {
+                     "id":  "ND-S18",
+                     "name":  "主街·七月白天的日常",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S18_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "da18e407-3a68-4162-9922-9a357202af7f",
+                     "result_url":  "https://www.midjourney.com/jobs/da18e407-3a68-4162-9922-9a357202af7f?index=0"
+                 },
+                 {
+                     "id":  "ND-S19",
+                     "name":  "主街·雾中的归路",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S19_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "2b18c8df-2ca8-454b-b9cf-1645bc086c11",
+                     "result_url":  "https://www.midjourney.com/jobs/2b18c8df-2ca8-454b-b9cf-1645bc086c11?index=0"
+                 },
+                 {
+                     "id":  "ND-S20",
+                     "name":  "东山坟地·父亲的新坟",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S20_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "e3f8ce41-361d-4c77-a4a2-66c284ed6471",
+                     "result_url":  "https://www.midjourney.com/jobs/e3f8ce41-361d-4c77-a4a2-66c284ed6471?index=0"
+                 },
+                 {
+                     "id":  "ND-S21",
+                     "name":  "钢铁厂·紧锁的大门",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S21_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "744a85eb-5158-4803-b33f-0efccaddcc0c",
+                     "result_url":  "https://www.midjourney.com/jobs/744a85eb-5158-4803-b33f-0efccaddcc0c?index=0"
+                 },
+                 {
+                     "id":  "ND-S22",
+                     "name":  "镇西火场·封锁后的民房",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S22_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "b35f85a1-2927-41ca-a4c0-765093906f71",
+                     "result_url":  "https://www.midjourney.com/jobs/b35f85a1-2927-41ca-a4c0-765093906f71?index=0"
+                 },
+                 {
+                     "id":  "ND-S23",
+                     "name":  "县医院·探望病人",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S23_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "51bbbd81-15bb-41e6-afea-9e1e2320c201",
+                     "result_url":  "https://www.midjourney.com/jobs/51bbbd81-15bb-41e6-afea-9e1e2320c201?index=0"
+                 },
+                 {
+                     "id":  "ND-S24",
+                     "name":  "县医院·空下来的病床",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S24_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "818d2f9f-b105-44ad-bae1-f8a21cf09899",
+                     "result_url":  "https://www.midjourney.com/jobs/818d2f9f-b105-44ad-bae1-f8a21cf09899?index=0"
+                 },
+                 {
+                     "id":  "ND-S25",
+                     "name":  "退休警员家·旧事访谈",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S25_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "0e219787-35dd-49cc-97cc-bb4967ad1607",
+                     "result_url":  "https://www.midjourney.com/jobs/0e219787-35dd-49cc-97cc-bb4967ad1607?index=0"
+                 },
+                 {
+                     "id":  "ND-S26",
+                     "name":  "河堤·上涨的河水",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S26_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "45a8db7b-421a-4ad4-9fe8-01195673721d",
+                     "result_url":  "https://www.midjourney.com/jobs/45a8db7b-421a-4ad4-9fe8-01195673721d?index=0"
+                 },
+                 {
+                     "id":  "ND-S27",
+                     "name":  "老槐树·傍晚的预言者",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S27_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "e9c2a9d6-d4a5-4758-bf21-c1f30faeef19",
+                     "result_url":  "https://www.midjourney.com/jobs/e9c2a9d6-d4a5-4758-bf21-c1f30faeef19?index=0"
+                 },
+                 {
+                     "id":  "ND-S28",
+                     "name":  "职高校门·门卫回忆双胞胎",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S28_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "e2b80a55-8459-4da2-a9f4-1ea2ca2c37fd",
+                     "result_url":  "https://www.midjourney.com/jobs/e2b80a55-8459-4da2-a9f4-1ea2ca2c37fd?index=0"
+                 },
+                 {
+                     "id":  "ND-S29",
+                     "name":  "职高楼顶·封闭校园的痕迹",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S29_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "5526bc19-a42f-408a-be0f-8445fa9589bc",
+                     "result_url":  "https://www.midjourney.com/jobs/5526bc19-a42f-408a-be0f-8445fa9589bc?index=0"
+                 },
+                 {
+                     "id":  "ND-S30",
+                     "name":  "婚礼正厅·喜宴中的疏离",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S30_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "6e4b5660-c33b-4de8-bb7a-bbf0127713a6",
+                     "result_url":  "https://www.midjourney.com/jobs/6e4b5660-c33b-4de8-bb7a-bbf0127713a6?index=0"
+                 },
+                 {
+                     "id":  "ND-S31",
+                     "name":  "婚礼偏房·刘小红的谈话",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S31_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "c8231528-b555-4aab-b332-f0082a15d4ef",
+                     "result_url":  "https://www.midjourney.com/jobs/c8231528-b555-4aab-b332-f0082a15d4ef?index=0"
+                 },
+                 {
+                     "id":  "ND-S32",
+                     "name":  "便利店侧巷·D3夜间空景",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S32_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "3cdff8db-f4bf-47d4-86ea-e03825667d52",
+                     "result_url":  "https://www.midjourney.com/jobs/3cdff8db-f4bf-47d4-86ea-e03825667d52?index=0"
+                 },
+                 {
+                     "id":  "ND-S33",
+                     "name":  "宏大地产·谈判桌上的地块",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S33_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "8e616e60-62b7-4207-ad8c-641449ba1807",
+                     "result_url":  "https://www.midjourney.com/jobs/8e616e60-62b7-4207-ad8c-641449ba1807?index=0"
+                 },
+                 {
+                     "id":  "ND-S34",
+                     "name":  "刘小红母亲家·重逢后的谈话",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S34_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "f6d87a90-5e06-4088-b9e6-f1078e15ee3b",
+                     "result_url":  "https://www.midjourney.com/jobs/f6d87a90-5e06-4088-b9e6-f1078e15ee3b?index=0"
+                 },
+                 {
+                     "id":  "ND-S35",
+                     "name":  "修车铺门前·冲突前的站位",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S35_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "e248886d-a4c7-48f3-ad42-7f9c7a50e156",
+                     "result_url":  "https://www.midjourney.com/jobs/e248886d-a4c7-48f3-ad42-7f9c7a50e156?index=0"
+                 },
+                 {
+                     "id":  "ND-S36",
+                     "name":  "陈国涛办公室·保险箱打开",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-S36_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "ca9b16df-1e98-4abc-bdb1-c3ea681dcb48",
+                     "result_url":  "https://www.midjourney.com/jobs/ca9b16df-1e98-4abc-bdb1-c3ea681dcb48?index=0"
+                 },
+                 {
+                     "id":  "ND-S37",
+                     "name":  "叔叔家院子·D6夜谈与旧照",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S37_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "5225f33e-c0af-4b64-a1e7-40d7e089a3d4",
+                     "result_url":  "https://www.midjourney.com/jobs/5225f33e-c0af-4b64-a1e7-40d7e089a3d4?index=0"
+                 },
+                 {
+                     "id":  "ND-S38",
+                     "name":  "老槐树·预言者离开后的空椅",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S38_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "df14bb18-9866-4754-aaa8-13f2de40b71f",
+                     "result_url":  "https://www.midjourney.com/jobs/df14bb18-9866-4754-aaa8-13f2de40b71f?index=0"
+                 },
+                 {
+                     "id":  "ND-S39",
+                     "name":  "D7集体葬礼·低云下的灵棚",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S39_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "86753f16-67c3-4bd9-b6ab-e38689a84159",
+                     "result_url":  "https://www.midjourney.com/jobs/86753f16-67c3-4bd9-b6ab-e38689a84159?index=0"
+                 },
+                 {
+                     "id":  "ND-S40",
+                     "name":  "便利店废墟·最终对峙构图",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-S40_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "db569d50-8547-4f74-b74e-2128e8a983b8",
+                     "result_url":  "https://www.midjourney.com/jobs/db569d50-8547-4f74-b74e-2128e8a983b8?index=0"
+                 },
+                 {
+                     "id":  "ND-M41",
+                     "name":  "公交站到主街",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-M41_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "092b3c2d-3235-4166-8a48-66e55bc1c43c",
+                     "result_url":  "https://www.midjourney.com/jobs/092b3c2d-3235-4166-8a48-66e55bc1c43c?index=0"
+                 },
+                 {
+                     "id":  "ND-M42",
+                     "name":  "便利店一楼通用空景",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M42_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "23474260-f0a4-4911-a230-48fe66c5193d",
+                     "result_url":  "https://www.midjourney.com/jobs/23474260-f0a4-4911-a230-48fe66c5193d?index=0"
+                 },
+                 {
+                     "id":  "ND-M43",
+                     "name":  "便利店二楼通用空景",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M43_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "b9c27704-c5ff-4625-99ba-189290298123",
+                     "result_url":  "https://www.midjourney.com/jobs/b9c27704-c5ff-4625-99ba-189290298123?index=0"
+                 },
+                 {
+                     "id":  "ND-M44",
+                     "name":  "便利店后院与逃生巷",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-M44_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "c212f415-f51b-4b97-b6b4-02d6dc7968f7",
+                     "result_url":  "https://www.midjourney.com/jobs/c212f415-f51b-4b97-b6b4-02d6dc7968f7?index=0"
+                 },
+                 {
+                     "id":  "ND-M45",
+                     "name":  "叔叔家起居室通用空景",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M45_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "c6616ad7-3111-4545-b205-f4e6b0bc8c40",
+                     "result_url":  "https://www.midjourney.com/jobs/c6616ad7-3111-4545-b205-f4e6b0bc8c40?index=0"
+                 },
+                 {
+                     "id":  "ND-M46",
+                     "name":  "叔叔家与修车棚连通",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-M46_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "066c983f-9867-48af-8504-f3ea6aaee24d",
+                     "result_url":  "https://www.midjourney.com/jobs/066c983f-9867-48af-8504-f3ea6aaee24d?index=0"
+                 },
+                 {
+                     "id":  "ND-M47",
+                     "name":  "修车棚操作区空景",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M47_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "54a89001-e732-495c-9109-57c43d417e62",
+                     "result_url":  "https://www.midjourney.com/jobs/54a89001-e732-495c-9109-57c43d417e62?index=0"
+                 },
+                 {
+                     "id":  "ND-M48",
+                     "name":  "派出所走廊与办公室",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M48_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "af671a91-b819-4914-a324-9640071ee3f6",
+                     "result_url":  "https://www.midjourney.com/jobs/af671a91-b819-4914-a324-9640071ee3f6?index=0"
+                 },
+                 {
+                     "id":  "ND-M49",
+                     "name":  "档案室书架迷宫",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M49_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "e9741db9-4d0d-4a54-bf78-7618c8aad261",
+                     "result_url":  "https://www.midjourney.com/jobs/e9741db9-4d0d-4a54-bf78-7618c8aad261?index=0"
+                 },
+                 {
+                     "id":  "ND-M50",
+                     "name":  "中医馆前厅后屋连通",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M50_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "29c0332c-d701-4219-a8a8-9e55a5fc841b",
+                     "result_url":  "https://www.midjourney.com/jobs/29c0332c-d701-4219-a8a8-9e55a5fc841b?index=0"
+                 },
+                 {
+                     "id":  "ND-M51",
+                     "name":  "县医院走廊病房",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M51_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "1f5ef6b8-c429-43f1-a304-f374f61ec47e",
+                     "result_url":  "https://www.midjourney.com/jobs/1f5ef6b8-c429-43f1-a304-f374f61ec47e?index=0"
+                 },
+                 {
+                     "id":  "ND-M52",
+                     "name":  "面馆前厅后厨",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M52_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "1449db8b-019b-467e-8cd0-7a733d5be06e",
+                     "result_url":  "https://www.midjourney.com/jobs/1449db8b-019b-467e-8cd0-7a733d5be06e?index=0"
+                 },
+                 {
+                     "id":  "ND-M53",
+                     "name":  "主街完整路段",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-M53_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "bfd97b77-a91f-4511-ba64-1bb9ce9758e0",
+                     "result_url":  "https://www.midjourney.com/jobs/bfd97b77-a91f-4511-ba64-1bb9ce9758e0?index=0"
+                 },
+                 {
+                     "id":  "ND-M54",
+                     "name":  "主街雾雪路口",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-M54_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "e7ac38a1-fc73-4b70-b9e0-8ef13665bafe",
+                     "result_url":  "https://www.midjourney.com/jobs/e7ac38a1-fc73-4b70-b9e0-8ef13665bafe?index=0"
+                 },
+                 {
+                     "id":  "ND-M55",
+                     "name":  "东山墓地入口到新坟",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-M55_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "b9c59041-4b58-4571-ac71-f49d5a764c45",
+                     "result_url":  "https://www.midjourney.com/jobs/b9c59041-4b58-4571-ac71-f49d5a764c45?index=0"
+                 },
+                 {
+                     "id":  "ND-M56",
+                     "name":  "钢铁厂门前到厂院",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-M56_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "700c8436-e79f-4917-9bf6-59adf94925e1",
+                     "result_url":  "https://www.midjourney.com/jobs/700c8436-e79f-4917-9bf6-59adf94925e1?index=0"
+                 },
+                 {
+                     "id":  "ND-M57",
+                     "name":  "镇西火场街区",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-M57_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "f0d8548e-feae-4acd-bbc8-2f8d5c99f968",
+                     "result_url":  "https://www.midjourney.com/jobs/f0d8548e-feae-4acd-bbc8-2f8d5c99f968?index=0"
+                 },
+                 {
+                     "id":  "ND-M58",
+                     "name":  "河堤上下层通路",
+                     "kind":  "exterior",
+                     "record":  "MJ地图矩阵_ND-M58_三图SR_20261018.json",
+                     "status":  "rendered_folder_confirmed",
+                     "job_id":  "05a57c37-2b1d-47d9-aa61-53f1fca74756",
+                     "result_url":  "https://www.midjourney.com/jobs/05a57c37-2b1d-47d9-aa61-53f1fca74756?index=0"
+                 },
+                 {
+                     "id":  "ND-M59",
+                     "name":  "地产公司办公区",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M59_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "e9063d31-c3cc-4d76-aac2-b158557d3c3a",
+                     "result_url":  "https://www.midjourney.com/jobs/e9063d31-c3cc-4d76-aac2-b158557d3c3a?index=0"
+                 },
+                 {
+                     "id":  "ND-M60",
+                     "name":  "婚礼厅与偏房连通",
+                     "kind":  "interior",
+                     "record":  "MJ地图矩阵_ND-M60_三图SR_20261018.json",
+                     "status":  "rendered_visible",
+                     "job_id":  "480c35d2-32ac-4676-8ddd-1f1e44856d7d",
+                     "result_url":  "https://www.midjourney.com/jobs/480c35d2-32ac-4676-8ddd-1f1e44856d7d?index=0"
+                 }
+             ],
+    "submission_summary":  {
+                               "accepted":  60,
+                               "total":  60,
+                               "image_review":  "pending"
+                           },
+    "detail_audit":  {
+                         "file":  "MJ_2.5D地图矩阵_三图SR_状态审计_20261018.json",
+                         "checked_at":  "2026-10-18T05:39:05.938705+00:00",
+                         "summary":  {
+                                         "detail_ready":  25,
+                                         "detail_404":  34,
+                                         "detail_unknown":  1
+                                     },
+                         "note":  "404 means the detail page was unavailable at audit time; it is not proof of a failed generation."
+                     },
+    "verification_note":  "All 60 success receipts confirmed; MJ folder shows 60 completed and no queue. Direct detail pages confirmed for some jobs; remaining jobs are folder-count confirmed. Human art approval pending."
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-09",
+  "tool": "built-in image_gen",
+  "text": "继续旅程",
+  "status": "RGB generation complete; alpha extraction pending explicit permission",
+  "references": [
+    "public/assets/main-menu-start.png",
+    "public/assets/main-menu-exit.png",
+    "UI参考/东北迪斯科/_qa_menu_png_equal_1440.png"
+  ],
+  "attempts": [
+    {
+      "file": "public/assets/main-menu-continue-generated-source-v1.png",
+      "size": [
+        2016,
+        780
+      ],
+      "mode": "RGB",
+      "prompt": "Use case: text-localization / matching an existing game menu asset.\nCreate ONE standalone transparent PNG by image-to-image, using the supplied game menu images as references.\nInput 1 (main-menu-start.png): primary reference for the exact white Chinese brush-calligraphy style and horizontal four-character proportions. Input 2 (main-menu-exit.png): secondary reference for brush weight, dry-brush edges and white ink. Input 3 (full menu screenshot): context only; match the SMALL menu option lettering, not the large game title. Do not reproduce its scene, panel, logo or other menu items.\nChange the lettering to EXACTLY these four simplified Chinese characters, left to right on a SINGLE horizontal line: “继续旅程”.\nPreserve the family resemblance to “开始游戏” and “退出游戏”: brisk hand-brushed Chinese running script, slightly slanted lively strokes, tapered stroke endings, irregular bristle edges and small dry-brush gaps, compact horizontal spacing, legible character structures. Match their white/off-white ink, stroke weight, and character height. No typeset KaiTi or generic computer font.\nThe deliverable is only the four white painted characters, not a button plate. Genuine transparent RGBA background, alpha zero outside the lettering and in the open gaps; no black/white/grey rectangle, no checkerboard baked into pixels. No border, outline, outer glow, cast shadow, underline, symbols, stamps, English, logo, or other text.\nUse a tightly composed wide canvas, approximately 3.6:1, with equal modest transparent margins and all brush tips fully visible. Characters must fill most of the usable canvas height. Output one reusable game UI lettering asset."
+    },
+    {
+      "file": "public/assets/main-menu-continue-generated-source-v2.png",
+      "size": [
+        2014,
+        780
+      ],
+      "mode": "RGB",
+      "prompt": "Edit this supplied image. Keep the exact four white Chinese brush-calligraphy characters “继续旅程” unchanged in their shapes, layout, size, and white colour. Remove EVERYTHING behind those characters, including the grey checkerboard squares, the wrinkled paper appearance, and every grey or coloured pixel in the background. The required output is a cutout PNG with an actual RGBA alpha channel. Background pixels must have alpha=0, and only the white ink strokes should remain opaque or antialiased. Transparent gaps inside the characters must also have alpha=0. Do not paint a transparency checkerboard or any replacement background. Do not return an RGB image. The actual file must contain transparency. Preserve all four characters and their small bristle edges, keeping a modest equal transparent margin on all sides. Output this single menu label as a transparent PNG."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {Window} from 'happy-dom';
+import {SAVE_KEY,newGame} from '../src/station/state.js';
+
+test('real HTML and entry script: select, walk, three questions, save/load, shadow, exit and resume',async()=>{
+  const window=new Window({url:'http://localhost:5173/',settings:{disableJavaScriptFileLoading:true,disableCSSFileLoading:true,enableJavaScriptEvaluation:false}});
+  let clock=1000,id=0;const frames=new Map();
+  const originals=new Map();
+  const set=(name,value)=>{originals.set(name,Object.getOwnPropertyDescriptor(globalThis,name));Object.defineProperty(globalThis,name,{value,configurable:true,writable:true});};
+  set('window',window);set('document',window.document);set('localStorage',window.localStorage);set('CustomEvent',window.CustomEvent);set('WheelEvent',window.WheelEvent);
+  set('performance',{now:()=>clock});set('requestAnimationFrame',cb=>{frames.set(++id,cb);return id;});set('cancelAnimationFrame',key=>frames.delete(key));
+  window.matchMedia=()=>({matches:true,addEventListener(){},removeEventListener(){}});
+  const q=selector=>window.document.querySelector(selector);
+  const click=selector=>{assert.ok(q(selector),selector);q(selector).click();};
+  const key=key=>window.document.dispatchEvent(new window.KeyboardEvent('keydown',{key,bubbles:true,cancelable:true}));
+  const node=()=>q('[data-view="station"]').dataset.storyNode;
+  const step=(ms=6000)=>{for(let t=0;t<ms;t+=16){clock+=16;const queued=[...frames.values()];frames.clear();queued.forEach(cb=>cb(clock));}};
+  try{
+    window.document.write(await readFile(new URL('../index.html',import.meta.url),'utf8'));
+    await import(`../scene.js?ui-test=${Date.now()}`);
+    assert.equal(q('.view.active').dataset.view,'mainmenu');
+    click('.mainmenu-actions [data-open-view="settings"]');
+    click('[data-personnel-open]');assert.equal(q('.view.active').dataset.view,'explorer-dossier');
+    click('[data-dossier-return]');assert.equal(q('.view.active').dataset.view,'settings');
+    key('Escape');assert.equal(q('.view.active').dataset.view,'mainmenu','dossier must not replace the settings return destination');
+    click('.mainmenu-actions [data-open-view="entry"]');assert.equal(q('.view.active').dataset.view,'entry');
+    assert.equal(window.document.querySelectorAll('[data-view="entry"] [data-slot]').length,6);
+    click('[data-view="entry"] [data-slot="06"]');
+    assert.ok(q('.station-slot-actions button').disabled,'empty slots cannot be loaded');
+    assert.ok(q('.station-slot-actions button:nth-child(2)').disabled,'saving requires an active journey');
+    click('.station-slot-actions button:nth-child(3)');click('[data-view="entry"] [data-open-view="mainmenu"]');
+    click('.mainmenu-choice-start');assert.equal(q('.view.active').dataset.view,'character-select');
+    click('[data-character-choice="金钱为方"]');assert.equal(q('.view.active').dataset.view,'character-select');
+    click('[data-character-choice="大厦崩塌"]');assert.equal(q('.view.active').dataset.view,'station');assert.equal(node(),'arrival');assert.equal(q('#station-talk').open,false);
+    assert.equal(q('#station-grandmother-marker').hidden,false,'opening guides the player to the seated grandmother');
+    assert.equal(q('#station-talk-resume').hidden,true,'no dialogue overlay competes with the first view');
+    assert.equal(q('[data-hotspot="exit"]').hidden,true,'distant object labels do not reveal the dark road');
+    const visionStart=q('#station-player-vision').getAttribute('cx');
+    click('[data-hotspot="grandmother"]');step(10000);assert.equal(node(),'arrival');assert.ok(q('#station-talk').open);
+    assert.notEqual(q('#station-player-vision').getAttribute('cx'),visionStart,'local visibility follows movement');
+    click('#station-talk-close');assert.equal(q('#station-grandmother-marker').hidden,false,'closing the opening keeps the guidance available');
+    click('[data-hotspot="grandmother"]');step();click('#station-choices button');assert.equal(node(),'greeting');
+    assert.equal(q('#station-grandmother-marker').hidden,true,'the exclamation is consumed by starting the conversation');
+    click('#station-choices button');click('#station-choices button');click('#station-choices button');assert.equal(node(),'background');
+    key('Escape');assert.equal(q('#station-talk').open,false);assert.equal(q('#station-talk-resume').hidden,false);
+    click('#station-talk-resume');assert.equal(node(),'background');assert.ok(q('#station-talk').open);
+    key('3');assert.equal(node(),'value');
+    click('#station-talk-close');click('#station-save-button');assert.equal(q('.view.active').dataset.view,'entry');
+    click('[data-slot="01"]');assert.ok(q('#slot-dialog').open);
+    click('.station-slot-actions button:nth-child(2)');assert.equal(q('#slot-dialog').open,false);
+    const manual=JSON.parse(window.localStorage.getItem(`${SAVE_KEY}:01`));assert.equal(manual.node,'value');assert.equal(manual.answers.background,'student');
+    assert.equal(q('[data-view="entry"] [data-slot="01"]').dataset.saveStatus,'saved');
+    assert.equal(q('[data-view="entry"] [data-slot="01"] .entry-save-preview').hidden,false);
+    for(const slot of ['05','06']){
+      click(`[data-view="entry"] [data-slot="${slot}"]`);click('.station-slot-actions button:nth-child(2)');
+      assert.equal(JSON.parse(window.localStorage.getItem(`${SAVE_KEY}:${slot}`)).node,'value');
+    }
+    assert.match(q('#entry-save-summary').textContent,/3 \/ 6/);
+    window.localStorage.setItem(`${SAVE_KEY}:04`,'unreadable manual save');
+    click('#station-archive-return');click('#station-save-button');click('[data-view="entry"] [data-slot="04"]');
+    assert.ok(q('.station-slot-actions button').disabled);
+    assert.ok(q('.station-slot-actions button:nth-child(2)').disabled,'unreadable manual saves must not be overwritten');
+    assert.equal(window.localStorage.getItem(`${SAVE_KEY}:04`),'unreadable manual save');
+    click('.station-slot-actions button:nth-child(3)');
+    click('[data-slot="01"]');click('.station-slot-actions button');assert.equal(q('.view.active').dataset.view,'station');assert.equal(node(),'value');
+    click('#station-choices li:nth-child(2) button');click('#station-choices button');assert.equal(node(),'warning');
+    click('#station-choices li:nth-child(2) button');click('#station-choices button');assert.equal(node(),'shadow-intro');
+    click('#station-choices button');click('#station-choices li:nth-child(4) button');assert.equal(node(),'ready');
+    click('#station-journal-button');assert.ok(q('#station-notebook').open);assert.match(q('#station-notes').textContent,/待核实的预言/);click('#station-notebook [data-close-station-dialog]');
+    click('[data-hotspot="exit"]');step(10000);assert.equal(node(),'complete');assert.equal(q('#station-completion').hidden,false);
+    const completed=JSON.parse(window.localStorage.getItem(`${SAVE_KEY}:auto`));assert.equal(completed.completed,true);assert.equal(completed.shadow,'self');assert.equal(completed.answers.value,'truth');
+    click('#station-completion-menu');assert.equal(q('.view.active').dataset.view,'mainmenu');click('.mainmenu-choice-continue');assert.equal(node(),'complete');
+    click('#station-completion-menu');click('.mainmenu-choice-start');click('[data-character-choice="大厦崩塌"]');assert.equal(q('.view.active').dataset.view,'station');assert.equal(node(),'arrival');assert.equal(q('#station-talk').open,false);
+    const fresh=JSON.parse(window.localStorage.getItem(`${SAVE_KEY}:auto`));
+    assert.deepEqual({...fresh,updatedAt:null},{...newGame(),updatedAt:null},'start game resets all campaign progress without a continue/restart prompt');
+    assert.deepEqual(JSON.parse(window.localStorage.getItem(`${SAVE_KEY}:01`)),manual,'new game preserves manual saves');
+    // Return to a durable mid-conversation save and validate settings roundtrip.
+    click('#station-talk-close');click('#station-save-button');click('[data-slot="01"]');click('.station-slot-actions button');assert.equal(node(),'value');click('#station-talk-close');
+    click('#station-pause-button');click('#station-pause-settings');assert.equal(q('.view.active').dataset.view,'settings');
+    const beforeDossier=window.localStorage.getItem(`${SAVE_KEY}:auto`);
+    click('[data-personnel-open]');assert.equal(q('.view.active').dataset.view,'explorer-dossier');
+    click('#tab-profile');assert.equal(q('#dossier-profile').hidden,false);
+    key('Escape');assert.equal(q('.view.active').dataset.view,'settings');
+    click('[data-settings-return]');assert.equal(q('.view.active').dataset.view,'station');assert.equal(node(),'value');
+    // Existing view-change autosave refreshes updatedAt, but no story data may change.
+    assert.deepEqual({...JSON.parse(window.localStorage.getItem(`${SAVE_KEY}:auto`)),updatedAt:null},{...JSON.parse(beforeDossier),updatedAt:null},'browsing the original dossier preserves campaign progress');
+    click('#station-pause-button');click('#station-pause-menu');click('.mainmenu-choice-continue');assert.equal(node(),'value');assert.ok(q('#station-talk').open);
+    click('#station-talk-close');click('#station-pause-button');click('#station-pause-menu');click('.mainmenu-choice-start');
+    window.localStorage.setItem(`${SAVE_KEY}:auto`,'broken save');
+    click('[data-character-choice="大厦崩塌"]');assert.equal(q('.view.active').dataset.view,'station');assert.equal(node(),'arrival');assert.equal(q('#station-talk').open,false);
+    const recovered=JSON.parse(window.localStorage.getItem(`${SAVE_KEY}:auto`));
+    assert.deepEqual({...recovered,updatedAt:null},{...newGame(),updatedAt:null},'an unreadable autosave does not block starting a new game');
+    assert.deepEqual(JSON.parse(window.localStorage.getItem(`${SAVE_KEY}:01`)),manual,'starting over an unreadable autosave preserves manual saves');
+  }finally{
+    await window.happyDOM.abort();window.close();
+    for(const[name,descriptor]of originals){if(descriptor)Object.defineProperty(globalThis,name,descriptor);else delete globalThis[name];}
+  }
+});

@@ -1,0 +1,73 @@
+{
+  "schema": "northeast-disco-mj-environment-sample-v1",
+  "project": "东北迪斯科",
+  "purpose": "室内外环境资产方向样图；生成候选，不自动接入游戏",
+  "source_basis": "美术概念/MJ剧情场景40景雪夜_v1_20260917.json 的雪夜、写实、45度正交、16:9、Raw、V8.1、Relax 方向",
+  "name": "雪夜供热站：外院与炉房同屏",
+  "asset_scope": [
+    "室外院墙与入口",
+    "室内炉房",
+    "跨门槛动线",
+    "工业材质与道具"
+  ],
+  "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points, no perspective foreshortening; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment with Unreal Engine 5 visual quality, realistic materials, physically based shading and cinematic winter lighting. An old municipal heating station in a Northeast Chinese industrial town at snowy winter night. A single continuous playable space: the foreground outdoor service yard has compacted snow, tire tracks, a low brick boundary wall, a coal delivery bay, stacked coal sacks and exposed insulated heating pipes; a wide open metal doorway leads directly into a roof-cutaway boiler room with two heavy cast-iron boilers, valves, pressure gauges, a workbench and a narrow maintenance aisle. Show the complete threshold, wall thickness, interior floor and exterior paving in one coherent building, with clear walking routes around the equipment and out through the yard gate. Warm furnace light spills through the doorway onto cold blue-gray snow; a few dim overhead industrial lamps illuminate the interior. Frost on brick, soot on iron, damp concrete, worn paint, realistic snow crystals, soft contact shadows and restrained volumetric steam. No people. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+  "status": "superseded_missing_style_reference",
+  "human_approved": false,
+  "preflight": {
+    "ready": true,
+    "empty": true,
+    "folder": true,
+    "images": 0,
+    "personalization": "false",
+    "visibility": "hidden"
+  },
+  "submitted_at": "2026-10-18T05:10:45.641508+00:00",
+  "job_id": "81fbe047-0664-4de0-91c0-77a21fcb17b1",
+  "result_url": "https://www.midjourney.com/jobs/81fbe047-0664-4de0-91c0-77a21fcb17b1?index=0",
+  "last_status": {
+    "job_id": "81fbe047-0664-4de0-91c0-77a21fcb17b1",
+    "link_count": 0,
+    "links": [],
+    "text": "MJ\n13\nToday\nImagine\nSTRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete",
+    "images": [],
+    "visibility": "hidden",
+    "detail": {
+      "url": "https://www.midjourney.com/jobs/81fbe047-0664-4de0-91c0-77a21fcb17b1?index=0",
+      "visibility": "hidden",
+      "text": "MJ\nP\nDraft Mode\nExplore at draft quality and refine with variations.\n\nImagine\n\n2m\n\nStrict orthographic projection, 45 degree top down camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening; identical objects retain identical scale near and far. Unreal Engine 5 photorealistic 3D, physically based shading, cinematic winter lighting. Northeast Chinese municipal heating station, snowy winter night. Single continuous playable space: outdoor service yard with compacted snow, tire tracks, low brick boundary wall, coal delivery bay, stacked coal sacks, insulated heating pipes; wide open metal doorway leads into roof cutaway boiler room with two cast iron boilers, ",
+      "images": [
+        {
+          "loaded": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "loaded": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "loaded": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "loaded": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "loaded": false,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "loaded": false,
+          "width": 0,
+          "height": 0
+        }
+      ]
+    }
+  },
+  "status_checked_at": "2026-10-18T05:13:52.407985+00:00"
+}

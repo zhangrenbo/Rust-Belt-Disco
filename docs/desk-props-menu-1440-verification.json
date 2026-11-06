@@ -1,0 +1,35 @@
+{
+  "transport": "fixed work Chrome direct CDP 9223; task-created background target",
+  "storage": "isolated in-memory settings; real player data untouched",
+  "checks": [
+    {
+      "width": 1440,
+      "props": {
+        "x": 533.421875,
+        "y": 455.859375,
+        "width": 189.578125,
+        "height": 152.53125,
+        "top": 455.859375,
+        "right": 723,
+        "bottom": 608.390625,
+        "left": 533.421875
+      },
+      "bounded": true,
+      "noninteractive": true,
+      "background": "/assets/event-desk-bg-medal-marriage-v2.png",
+      "menuReachable": true
+    }
+  ],
+  "screens": [
+    {
+      "name": "menu-stationery",
+      "viewport": [
+        1440,
+        810
+      ],
+      "path": "E:\\东北迪斯科\\docs\\menu-stationery-1440.png"
+    }
+  ],
+  "errors": [],
+  "humanArtReview": "pending"
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="none">
+  <defs>
+    <filter id="penumbra" filterUnits="userSpaceOnUse" x="-160" y="-80" width="1920" height="1080" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+    <!-- Broad filled slats share the accepted projection contour. The gaps admit
+         daylight; all edges retain the same penumbra instead of a drawn outline. -->
+    <path id="slat" d="M-120 803 C100 741 256 687 374 652 C390 647 397 653 411 648 C654 578 865 510 1093 442 C1288 384 1472 329 1720 245 L1720 301 C1472 385 1288 440 1093 498 C865 566 654 634 411 704 C397 709 390 703 374 708 C256 743 100 797 -120 859 Z"/>
+  </defs>
+  <g fill="white" filter="url(#penumbra)">
+    <use href="#slat"/>
+    <use href="#slat" y="96"/>
+    <use href="#slat" y="192"/>
+    <use href="#slat" y="288"/>
+    <use href="#slat" y="384"/>
+    <use href="#slat" y="480"/>
+    <use href="#slat" y="576"/>
+    <use href="#slat" y="672"/>
+  </g>
+</svg>

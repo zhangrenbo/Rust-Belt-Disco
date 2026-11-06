@@ -1,0 +1,99 @@
+/* English labels use the existing paper/ink composition and original hit areas. */
+html[data-showcase-language="en"].ui-ink-logo .mainmenu-logo { display:none; }
+html[data-showcase-language="en"].ui-ink-logo .english-logo {
+  position:relative;z-index:2;width:17cqw;height:26cqw;margin-top:.8cqw;flex-shrink:0;
+}
+html[data-showcase-language="en"].ui-ink-logo .english-logo-png {
+  position:absolute;inset:0;
+  background:url('/assets/main-menu-logo-en.png') center / contain no-repeat;mix-blend-mode:screen;
+}
+@media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 3/2) {
+  html[data-showcase-language="en"].ui-ink-logo .event-center-menu .english-logo { margin-top:11.5cqw; }
+}
+html[data-showcase-language="en"].ui-ink-menu .mainmenu-choice img {visibility:hidden;}
+html[data-showcase-language="en"].ui-ink-menu .english-menu-label {
+  position:absolute;left:50%;top:50%;width:13cqw;height:6.64cqw;transform:translate(-50%,-50%);
+  background-image:url('/assets/menu-en-atlas.png');background-repeat:no-repeat;mix-blend-mode:screen;
+  background-size:200% 391.875%;pointer-events:none;
+}
+html[data-showcase-language="en"].ui-ink-menu .english-menu-label[data-sprite="start"] {background-position:100% 12.848%;}
+html[data-showcase-language="en"].ui-ink-menu .english-menu-label[data-sprite="saves"] {background-position:0 53.533%;width:9cqw;height:4.593cqw;}
+html[data-showcase-language="en"].ui-ink-menu .english-menu-label[data-sprite="settings"] {background-position:100% 53.533%;width:11cqw;height:5.615cqw;}
+html[data-showcase-language="en"].ui-ink-menu .english-menu-label[data-sprite="exit"] {background-position:0 97.43%;}
+html[data-showcase-language="en"].ui-ink-menu .english-menu-label[data-sprite="continue"] {background-position:100% 97.43%;}
+html[data-showcase-language="en"].ui-ink-character .english-character-label {
+  /* PNG crops belong to the photograph captions, not the oversized hit areas.
+     570 x 182 crop from a 1254-square atlas; equal X/Y pixel scaling. */
+  position:absolute;z-index:25;left:47.1%;top:56.25%;width:4.7%;aspect-ratio:570/182;
+  background:url('/assets/character-en-atlas.png') 4.678363% 21.641791% / 220% 689.010989% no-repeat;
+  transform:rotate(-12deg);transform-origin:center;mix-blend-mode:multiply;pointer-events:none;
+}
+html[data-showcase-language="en"].ui-ink-character .english-character-label[data-character-ink="wang"] {
+  left:55.15%;top:18.8%;width:4.3%;background-position:4.678363% 78.731343%;transform:rotate(12deg);
+}
+html[data-showcase-language="en"].ui-ink-character .english-character-label[data-character-ink="li"] {
+  left:31.8%;top:90.4%;width:4.8%;background-position:96.19883% 21.641791%;transform:rotate(-5deg);
+}
+html[data-showcase-language="en"] .folio-nav button b {font-size:.75cqw;letter-spacing:0;}
+html[data-showcase-language="en"].ui-ink-character .character-world .english-replaced-ink {visibility:hidden!important;}
+html[data-showcase-language="en"].ui-ink-character .english-character-synopsis {
+  /* Tight 593 x 438 crop; preserve glyph proportions on the original slip. */
+  position:absolute;left:52.95%;top:38.15%;width:5.7%;height:auto;aspect-ratio:593/438;z-index:25;pointer-events:none;
+  background:url('/assets/character-en-atlas.png') 95.007564% 85.294118% / 211.467116% 286.30137% no-repeat;
+  transform:rotate(-3deg);mix-blend-mode:multiply;
+}
+/* Keep the world-space anchors and rotation; reduce English ink uniformly to 2/3. */
+html[data-showcase-language="en"].ui-ink-character :is(.english-character-label,.english-character-synopsis) {
+  scale:calc(2 / 3);
+}
+html[data-showcase-language="en"] .settings-sheet {font-family:Georgia,serif;}
+html[data-showcase-language="en"] .setting-choice {letter-spacing:0;font-size:.85cqw;}
+html[data-showcase-language="en"] .settings-sheet-row h2 {font-size:1cqw;letter-spacing:0;}
+html[data-showcase-language="en"] .settings-paper-tab {font-size:.9cqw;letter-spacing:0;}
+html[data-showcase-language="en"] .settings-case-stamp {font-size:1.05cqw;letter-spacing:.04em;}
+html[data-showcase-language="en"] .dossier-handwritten-ink {display:none!important;}
+html[data-showcase-language="en"] .dossier-record-fields,
+html[data-showcase-language="en"] .dossier-character-note {letter-spacing:0;line-height:1.35;}
+html[data-showcase-language="en"] .explorer-dossier-tabs button {writing-mode:horizontal-tb;font-size:.85cqw;letter-spacing:0;}
+html[data-showcase-language="en"] .dossier-verification-stamp {font-size:.7cqw;letter-spacing:0;}
+html[data-showcase-language="en"] .entry-reference .entry-directory [data-save-title] {font-size:.78cqw!important;letter-spacing:0!important;}
+html[data-showcase-language="en"] .entry-reference .entry-directory [data-save-description],
+html[data-showcase-language="en"] .entry-reference .entry-directory [data-save-action] {letter-spacing:0!important;}
+html[data-showcase-language="en"] .mode-card.active::after {content:'Selected';}
+html[data-showcase-language="en"] .view-exploration .end-explore::before {content:'End exploration';letter-spacing:0;}
+html[data-showcase-language="en"] .record-heart::after {content:'Favorite';}
+html[data-showcase-language="en"] .record-repeat::after {content:'Repeat';}
+html[data-showcase-language="en"] .record-knob[data-record-previous]::after {content:'Previous';}
+html[data-showcase-language="en"] .record-knob[data-record-next]::after {content:'Next';}
+html[data-showcase-language="en"] .clue-note {font:700 1cqw Georgia,serif;color:#453323;}
+html[data-showcase-language="en"] .record-catalog-heading h2 {font-size:2.1cqw;letter-spacing:.025em;white-space:normal;line-height:1.1;}
+html[data-showcase-language="en"] .record-now h3 {font-size:2.4cqw;letter-spacing:0;}
+html[data-showcase-language="en"] .view-settings .settings-dossier-form .setting-choice {
+  min-width:0; width:100%; font-size:1.05cqw; letter-spacing:0; padding:.42cqw .35cqw; gap:.25cqw;
+}
+html[data-showcase-language="en"].ui-ink-dossier #dossier-record > :is(.dossier-identity,.dossier-record-fields,.dossier-background) {opacity:0;}
+html[data-showcase-language="en"].ui-ink-dossier #dossier-record::after {
+  content:'';position:absolute;inset:2.8cqw -.35cqw 2cqw;z-index:1;pointer-events:none;
+  background:url('/assets/dossier-en-atlas.png') 0 0 / 300% 100% no-repeat;mix-blend-mode:multiply;
+}
+html[data-showcase-language="en"].ui-ink-dossier [data-dossier-character="li"] #dossier-record::after {background-position:50% 0;}
+html[data-showcase-language="en"].ui-ink-dossier [data-dossier-character="wang"] #dossier-record::after {background-position:100% 0;}
+html[data-showcase-language="en"] .dossier-verification-stamp > span {font-size:.7cqw;letter-spacing:.04em;padding:0;}
+html[data-showcase-language="en"] .dossier-verification-stamp > strong {font-size:.85cqw;letter-spacing:.04em;padding:0;}
+html[data-showcase-language="en"] .view-explorer-dossier .dossier-identity {padding-top:3cqw;padding-bottom:.65cqw;}
+html[data-showcase-language="en"] .view-explorer-dossier .dossier-record-fields {margin:.8cqw 0;gap:.6cqw;font-size:.95cqw;}
+html[data-showcase-language="en"] .view-explorer-dossier .dossier-record-fields > div {grid-template-columns:7.2cqw 1fr;}
+html[data-showcase-language="en"] .dossier-background h3 {margin-bottom:.4cqw;font-size:1cqw;letter-spacing:0;}
+html[data-showcase-language="en"] .dossier-background .dossier-character-note {font:1.05cqw/1.4 Georgia,serif;letter-spacing:0;}
+
+.english-logo,.english-menu-label,.english-character-label,.english-character-synopsis {display:none;}
+html[data-showcase-language="en"].ui-ink-logo .english-logo,
+html[data-showcase-language="en"].ui-ink-menu .english-menu-label,
+html[data-showcase-language="en"].ui-ink-character .english-character-label,
+html[data-showcase-language="en"].ui-ink-character .english-character-synopsis {display:block;}
+html[data-showcase-language="en"]:not(.ui-ink-dossier) #dossier-record > :is(.dossier-identity,.dossier-record-fields,.dossier-background) {opacity:1;visibility:visible;}
+.ui-language-switch {position:absolute;right:2cqw;bottom:1.5cqw;z-index:40;border:0;padding:.7cqw 1.2cqw;background:#d8c49a;color:#372b20;font:700 1cqw Georgia,serif;box-shadow:1px 2px 3px #0005;transform:rotate(-1deg);cursor:pointer;}
+.ui-language-switch:focus-visible {outline:2px solid #a24028;outline-offset:3px;}
+.ui-language-switch small {display:block;font:.68cqw/1.5 Georgia,serif;letter-spacing:0;}
+.settings-language-tab {top:29cqw;}
+html[data-showcase-language="en"] .settings-language-tab {font-size:.9cqw;}

@@ -1,0 +1,153 @@
+{
+  "date": "2026-09-15",
+  "source": "E:\\东北迪斯科\\content\\story\\ink\\D0_序章.ink",
+  "sourceSha256": "97a5584708e338e36f5c2cd671d678cee351fdbb4a0eded3f7355438e7d98340",
+  "transport": "fixed work Google Chrome + direct CDP 9223; background task page",
+  "observed": [
+    {
+      "node": "arrival",
+      "speaker": "老太太",
+      "paragraphs": [
+        "我认识你，孩子"
+      ],
+      "choices": [
+        "继续"
+      ]
+    },
+    {
+      "node": "greeting",
+      "speaker": "董点事",
+      "paragraphs": [
+        "头部传来一阵剧痛，这个老奶奶说她认识我，但是我什么都想不起来了......"
+      ],
+      "choices": [
+        "继续"
+      ]
+    },
+    {
+      "node": "greeting-memory",
+      "speaker": "老太太",
+      "paragraphs": [
+        "你是那个可怕火灾的受害者和幸存者。孩子，我们都在等你，你是唯一一个目击者，只有你可能见过凶手的样子"
+      ],
+      "choices": [
+        "继续"
+      ]
+    },
+    {
+      "node": "greeting-memory",
+      "speaker": "老太太",
+      "paragraphs": [
+        "你是那个可怕火灾的受害者和幸存者。孩子，我们都在等你，你是唯一一个目击者，只有你可能见过凶手的样子"
+      ],
+      "choices": [
+        "继续"
+      ]
+    },
+    {
+      "node": "greeting-question",
+      "speaker": "老太太",
+      "paragraphs": [
+        "你不在的时候，镇子上还有很多人葬身火海...可惜你，孩子，你现在还记得你自己吗？"
+      ],
+      "choices": [
+        "继续"
+      ]
+    },
+    {
+      "node": "background",
+      "speaker": "老太太",
+      "paragraphs": [
+        "你在外面这些年，你是怎么活的？"
+      ],
+      "choices": [
+        "我在工地搬砖。",
+        "我在餐馆端盘子。",
+        "我在读夜校。",
+        "我在街上混日子。"
+      ]
+    },
+    {
+      "node": "value",
+      "speaker": "老太太",
+      "paragraphs": [
+        "孩子，你觉得什么对你来说最重要？"
+      ],
+      "choices": [
+        "活着。",
+        "真相。",
+        "钱。",
+        "公平。"
+      ]
+    },
+    {
+      "node": "fear",
+      "speaker": "老太太",
+      "paragraphs": [
+        "你最害怕什么？"
+      ],
+      "choices": [
+        "火。",
+        "孤独。",
+        "无能为力。",
+        "遗忘。"
+      ]
+    },
+    {
+      "node": "warning",
+      "speaker": "老太太",
+      "paragraphs": [
+        "孩子，我做了一个梦",
+        "那个杀死你母亲的凶手，我梦见他坐车回来了，他左手拿着，右手拿着，回到了这个小镇。 他会在镇上待七天。七天，孩子。 第七天过后……他就走了。再也找不到了。 你只有七天。"
+      ],
+      "choices": [
+        "那只是一个梦而已",
+        "好的奶奶，我记住了"
+      ]
+    },
+    {
+      "node": "dont-turn-left",
+      "speaker": "老太太",
+      "paragraphs": [
+        "那就好，孩子，记住，不要左转，不要左转..."
+      ],
+      "choices": [
+        "继续"
+      ]
+    },
+    {
+      "node": "shadow-intro",
+      "speaker": "黑影",
+      "paragraphs": [
+        "你最终还是回到了这里",
+        "我是你散不去的梦魇"
+      ],
+      "choices": [
+        "继续"
+      ]
+    },
+    {
+      "node": "shadow",
+      "speaker": "黑影",
+      "paragraphs": [
+        "我是世界上所有人的统治者，没有人可以逃脱，没有人可以解放，你们所有人都要取悦我",
+        "我会追随你到天涯海角 猜猜我是谁？"
+      ],
+      "choices": [
+        "是不自由",
+        "是不平等",
+        "是虚伪的道德",
+        "只有我自己的影子"
+      ]
+    }
+  ],
+  "checks": [
+    "Continue restores the corrected survivor speech at its saved node",
+    "Authored sequence reaches ready with three answers, warning and shadow",
+    "Damaged manual fixture preserved; all storage isolated in memory",
+    "No browser runtime errors"
+  ],
+  "audio": "silent output",
+  "electronWindowVerified": false,
+  "humanReview": "pending"
+}

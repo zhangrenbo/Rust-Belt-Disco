@@ -1,0 +1,367 @@
+{
+  "transport": "fixed work Chrome CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "isolated per-page in-memory storage; real saves untouched",
+  "manualSlotsSavedAndLoaded": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+  ],
+  "mainMenuAndStationUseEntry": true,
+  "legacyArchiveLinkUsesEntry": true,
+  "emptyReadAndNoJourneySaveDisabled": true,
+  "errors": [],
+  "screens": [
+    {
+      "state": "empty",
+      "viewport": [
+        1440,
+        810
+      ],
+      "slots": [
+        {
+          "slot": "01",
+          "status": "empty",
+          "title": "存档 01 · 空白档案",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 227.55142211914062,
+            "y": 225.98007202148438,
+            "width": 425.4128112792969,
+            "height": 145.61798095703125
+          },
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "title": "存档 02 · 空白档案",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 725.5187377929688,
+            "y": 234.6466827392578,
+            "width": 424.52496337890625,
+            "height": 142.6847381591797
+          },
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "title": "存档 03 · 空白档案",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 234.6551513671875,
+            "y": 424.54461669921875,
+            "width": 424.165283203125,
+            "height": 141.58270263671875
+          },
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "empty",
+          "title": "存档 04 · 空白档案",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 725.461669921875,
+            "y": 420.21002197265625,
+            "width": 424.63916015625,
+            "height": 143.05181884765625
+          },
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "title": "空白档案",
+          "background": "radial-gradient(circle at 15.12px 11.808px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 35.28px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 58.752px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 55.296px, rgba(138, 64, 59, 0.56) 55.872px, rgba(138, 64, 59, 0.56) 57.024px, rgba(0, 0, 0, 0) 57.6px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 10.656px, rgba(82, 110, 124, 0.173) 11.088px, rgba(82, 110, 124, 0.173) 11.952px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "bounds": {
+            "x": 257.402099609375,
+            "y": 630.4072265625,
+            "width": 424.02392578125,
+            "height": 75.32623291015625
+          },
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "title": "空白档案",
+          "background": "radial-gradient(circle at 15.12px 11.808px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 35.28px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 58.752px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 55.296px, rgba(138, 64, 59, 0.56) 55.872px, rgba(138, 64, 59, 0.56) 57.024px, rgba(0, 0, 0, 0) 57.6px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 10.656px, rgba(82, 110, 124, 0.173) 11.088px, rgba(82, 110, 124, 0.173) 11.952px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "bounds": {
+            "x": 702.370849609375,
+            "y": 630.4072265625,
+            "width": 424.02392578125,
+            "height": 75.32623291015625
+          },
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "state": "empty",
+      "viewport": [
+        896,
+        504
+      ],
+      "slots": [
+        {
+          "slot": "01",
+          "status": "empty",
+          "title": "存档 01 · 空白档案",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 141.59075927734375,
+            "y": 140.5993194580078,
+            "width": 264.7091064453125,
+            "height": 90.59823608398438
+          },
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "title": "存档 02 · 空白档案",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 451.4342956542969,
+            "y": 148.7118682861328,
+            "width": 264.1626892089844,
+            "height": 88.77313232421875
+          },
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "title": "存档 03 · 空白档案",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 148.45883178710938,
+            "y": 264.13604736328125,
+            "width": 263.9329528808594,
+            "height": 88.0872802734375
+          },
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "empty",
+          "title": "存档 04 · 空白档案",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 451.3988037109375,
+            "y": 260.07891845703125,
+            "width": 264.233642578125,
+            "height": 89.00152587890625
+          },
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "title": "空白档案",
+          "background": "radial-gradient(circle at 9.408px 7.3472px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), radial-gradient(circle at 9.408px 21.952px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), radial-gradient(circle at 9.408px 36.5568px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 34.4064px, rgba(138, 64, 59, 0.56) 34.7648px, rgba(138, 64, 59, 0.56) 35.4816px, rgba(0, 0, 0, 0) 35.84px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 6.6304px, rgba(82, 110, 124, 0.173) 6.8992px, rgba(82, 110, 124, 0.173) 7.4368px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "bounds": {
+            "x": 160.16824340820312,
+            "y": 392.2523193359375,
+            "width": 263.83538818359375,
+            "height": 46.870361328125
+          },
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "title": "空白档案",
+          "background": "radial-gradient(circle at 9.408px 7.3472px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), radial-gradient(circle at 9.408px 21.952px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), radial-gradient(circle at 9.408px 36.5568px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 34.4064px, rgba(138, 64, 59, 0.56) 34.7648px, rgba(138, 64, 59, 0.56) 35.4816px, rgba(0, 0, 0, 0) 35.84px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 6.6304px, rgba(82, 110, 124, 0.173) 6.8992px, rgba(82, 110, 124, 0.173) 7.4368px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "bounds": {
+            "x": 437.0276184082031,
+            "y": 392.2523193359375,
+            "width": 263.8354187011719,
+            "height": 46.870361328125
+          },
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "state": "saved",
+      "viewport": [
+        896,
+        504
+      ],
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "title": "存档 01 · 公交车站",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 141.59075927734375,
+            "y": 140.5993194580078,
+            "width": 264.7091064453125,
+            "height": 90.59823608398438
+          },
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "saved",
+          "title": "存档 02 · 公交车站",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 451.4342956542969,
+            "y": 145.9918670654297,
+            "width": 264.1626892089844,
+            "height": 88.77313232421875
+          },
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "saved",
+          "title": "存档 03 · 公交车站",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 146.01083374023438,
+            "y": 264.13604736328125,
+            "width": 263.9329528808594,
+            "height": 88.0872802734375
+          },
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "saved",
+          "title": "存档 04 · 公交车站",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 451.3988037109375,
+            "y": 261.43890380859375,
+            "width": 264.233642578125,
+            "height": 89.00155639648438
+          },
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "saved",
+          "title": "公交车站",
+          "background": "radial-gradient(circle at 9.408px 7.3472px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), radial-gradient(circle at 9.408px 21.952px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), radial-gradient(circle at 9.408px 36.5568px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 34.4064px, rgba(138, 64, 59, 0.56) 34.7648px, rgba(138, 64, 59, 0.56) 35.4816px, rgba(0, 0, 0, 0) 35.84px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 6.6304px, rgba(82, 110, 124, 0.173) 6.8992px, rgba(82, 110, 124, 0.173) 7.4368px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "bounds": {
+            "x": 160.16824340820312,
+            "y": 392.2523193359375,
+            "width": 263.83538818359375,
+            "height": 46.870361328125
+          },
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "saved",
+          "title": "公交车站",
+          "background": "radial-gradient(circle at 9.408px 7.3472px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), radial-gradient(circle at 9.408px 21.952px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), radial-gradient(circle at 9.408px 36.5568px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.896px, rgb(196, 184, 157) 0.9856px, rgb(196, 184, 157) 1.792px, rgba(0, 0, 0, 0) 1.8816px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 34.4064px, rgba(138, 64, 59, 0.56) 34.7648px, rgba(138, 64, 59, 0.56) 35.4816px, rgba(0, 0, 0, 0) 35.84px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 6.6304px, rgba(82, 110, 124, 0.173) 6.8992px, rgba(82, 110, 124, 0.173) 7.4368px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "bounds": {
+            "x": 437.0276184082031,
+            "y": 392.2523193359375,
+            "width": 263.8354187011719,
+            "height": 46.870361328125
+          },
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "state": "saved",
+      "viewport": [
+        1440,
+        810
+      ],
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "title": "存档 01 · 公交车站",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 227.55142211914062,
+            "y": 225.98007202148438,
+            "width": 425.4128112792969,
+            "height": 145.61798095703125
+          },
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "saved",
+          "title": "存档 02 · 公交车站",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 725.5187377929688,
+            "y": 231.92669677734375,
+            "width": 424.52496337890625,
+            "height": 142.68475341796875
+          },
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "saved",
+          "title": "存档 03 · 公交车站",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 232.2071533203125,
+            "y": 424.54461669921875,
+            "width": 424.165283203125,
+            "height": 141.58270263671875
+          },
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "saved",
+          "title": "存档 04 · 公交车站",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "bounds": {
+            "x": 725.461669921875,
+            "y": 421.57000732421875,
+            "width": 424.63916015625,
+            "height": 143.05181884765625
+          },
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "saved",
+          "title": "公交车站",
+          "background": "radial-gradient(circle at 15.12px 11.808px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 35.28px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 58.752px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 55.296px, rgba(138, 64, 59, 0.56) 55.872px, rgba(138, 64, 59, 0.56) 57.024px, rgba(0, 0, 0, 0) 57.6px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 10.656px, rgba(82, 110, 124, 0.173) 11.088px, rgba(82, 110, 124, 0.173) 11.952px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "bounds": {
+            "x": 257.402099609375,
+            "y": 630.4072265625,
+            "width": 424.02392578125,
+            "height": 75.32623291015625
+          },
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "saved",
+          "title": "公交车站",
+          "background": "radial-gradient(circle at 15.12px 11.808px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 35.28px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 58.752px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 55.296px, rgba(138, 64, 59, 0.56) 55.872px, rgba(138, 64, 59, 0.56) 57.024px, rgba(0, 0, 0, 0) 57.6px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 10.656px, rgba(82, 110, 124, 0.173) 11.088px, rgba(82, 110, 124, 0.173) 11.952px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "bounds": {
+            "x": 702.370849609375,
+            "y": 630.4072265625,
+            "width": 424.02392578125,
+            "height": 75.32623291015625
+          },
+          "reachable": true
+        }
+      ]
+    }
+  ]
+}

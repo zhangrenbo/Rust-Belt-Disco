@@ -1,0 +1,262 @@
+{
+ "quest_id": "YHDOG",
+ "quest_name": "云环老师的狗狗",
+ "dialogue_graphs": [
+ {
+ "graph_id": "YHDOG_V1_Graph",
+ "graph_name": "V1-接受任务（云环老师）",
+ "entry_node": "YHDOG_V1_N_Yunhuan_Start",
+ "nodes": [
+ {
+ "node_id": "YHDOG_V1_N_Yunhuan_Start",
+ "node_type": "LoopChoiceNode",
+ "speaker_id": "Yunhuan",
+ "opening_line": "HI，那边的勇者，你有看到我的小狗吗？",
+ "options": [
+ {
+ "choice_id": "YHDOG_V1_C_Yunhuan_Start_A",
+ "choice_text": "你的小狗？你的小狗丢了吗？",
+ "target_node": "YHDOG_V1_N_AfterChoiceA",
+ "is_exit_option": false
+ },
+ {
+ "choice_id": "YHDOG_V1_C_Yunhuan_Start_B",
+ "choice_text": "不感兴趣，离开",
+ "target_node": "YHDOG_V1_N_Reject",
+ "is_exit_option": true
+ }
+ ]
+ },
+ {
+ "node_id": "YHDOG_V1_N_AfterChoiceA",
+ "node_type": "DialogueLineNode",
+ "speaker_id": "Yunhuan",
+ "line_key": "YHDOG_V1_L_AfterA",
+ "line_text": "是呀，能不能给我找一下我的小狗呀~它最近不知道跑哪儿去了呢",
+ "next_node": "YHDOG_V1_N_SubChoice_A"
+ },
+ {
+ "node_id": "YHDOG_V1_N_SubChoice_A",
+ "node_type": "LoopChoiceNode",
+ "options": [
+ {
+ "choice_id": "YHDOG_V1_C_Yunhuan_Start_A1_Accept",
+ "choice_text": "好，我接受这个任务",
+ "target_node": "YHDOG_V1_N_TaskAccepted",
+ "is_exit_option": true,
+ "effects": ["Quest_YHDOG = Active"]
+ },
+ {
+ "choice_id": "YHDOG_V1_C_Yunhuan_Start_A2_Name",
+ "choice_text": "它叫什么名字？",
+ "target_node": "YHDOG_V1_N_NameDialog",
+ "return_after_choice": true
+ },
+ {
+ "choice_id": "YHDOG_V1_C_Yunhuan_Start_A3_Clue",
+ "choice_text": "那我需要很多线索",
+ "target_node": "YHDOG_V1_N_ClueDialog",
+ "return_after_choice": true
+ },
+ {
+ "choice_id": "YHDOG_V1_C_Yunhuan_Start_A4_WhyCare",
+ "choice_text": "我想知道你为什么这么在意它",
+ "target_node": "YHDOG_V1_N_WhyCareDialog",
+ "return_after_choice": true
+ },
+ {
+ "choice_id": "YHDOG_V1_C_Yunhuan_Start_A5_Abort",
+ "choice_text": "不行，我还有别的事情要做",
+ "target_node": "YHDOG_V1_N_Abort",
+ "is_exit_option": true,
+ "effects": ["Quest_YHDOG = Abandoned"]
+ }
+ ]
+ },
+ {
+ "node_id": "YHDOG_V1_N_NameDialog",
+ "node_type": "DialogueSequence",
+ "lines": [
+ {
+ "speaker_id": "Yunhuan",
+ "line_text": "名字嘛……我叫它'博博'。"
+ }
+ ],
+ "next_node": "YHDOG_V1_N_NameSubChoice"
+ },
+ {
+ "node_id": "YHDOG_V1_N_NameSubChoice",
+ "node_type": "ChoiceNode",
+ "options": [
+ {
+ "choice_id": "YHDOG_V1_C_Yunhuan_Start_A2_1_Call",
+ "choice_text": "你叫它它会回应吗？",
+ "target_node": "YHDOG_V1_N_CallResponse"
+ },
+ {
+ "choice_id": "YHDOG_V1_C_Yunhuan_Start_A2_2_DogOrHuman",
+ "choice_text": "它是狗还是人？",
+ "target_node": "YHDOG_V1_N_DogOrHuman"
+ }
+ ]
+ },
+ {
+ "node_id": "YHDOG_V1_N_CallResponse",
+ "node_type": "DialogueLineNode",
+ "speaker_id": "Yunhuan",
+ "line_text": "会的！你只要用很轻很软的声音说：'博博——'\\n\"它就会……装作没听见，然后偷偷看你一眼。\"",
+ "next_node": "YHDOG_V1_N_LoopReturn"
+ },
+ {
+ "node_id": "YHDOG_V1_N_DogOrHuman",
+ "node_type": "DialogueLineNode",
+ "speaker_id": "Yunhuan",
+ "line_text": "当然是狗狗呀！\\n\"至少……它自己有时候觉得自己是。\"",
+ "next_node": "YHDOG_V1_N_LoopReturn"
+ },
+ {
+ "node_id": "YHDOG_V1_N_LoopReturn",
+ "node_type": "LoopReturnNode",
+ "fallback_node": "YHDOG_V1_N_Task_Started"
+ },
+ {
+ "node_id": "YHDOG_V1_N_TaskAccepted",
+ "node_type": "EventNode",
+ "event_key": "YHDOG_QuestAccepted",
+ "next_node": "YHDOG_V1_N_Task_Started"
+ },
+ {
+ "node_id": "YHDOG_V1_N_Task_Started",
+ "node_type": "SetFlagNode",
+ "flag_key": "Quest_YHDOG",
+ "flag_value": "Active",
+ "next_node": "YHDOG_V1_N_End"
+ },
+ {
+ "node_id": "YHDOG_V1_N_Reject",
+ "node_type": "DialogueLineNode",
+ "speaker_id": "Yunhuan",
+ "line_text": "哼。",
+ "next_node": "YHDOG_V1_N_End"
+ },
+ {
+ "node_id": "YHDOG_V1_N_Abort",
+ "node_type": "DialogueLineNode",
+ "speaker_id": "Yunhuan",
+ "line_text": "那……算了吧。",
+ "next_node": "YHDOG_V1_N_End"
+ },
+ {
+ "node_id": "YHDOG_V1_N_End",
+ "node_type": "EndNode"
+ }
+ ]
+ },
+ {
+ "graph_id": "YHDOG_V1_5_Clue_Graph",
+ "graph_name": "V1.5-收集线索",
+ "description": "四个线索点的对话",
+ "clue_nodes": [
+ {
+ "location": "LOC_BackAlley",
+ "node_id": "YHDOG_V1_5_N_Clue_1_BackAlley",
+ "description": "学院后门小路线索点",
+ "choices": [
+ {
+ "choice_text": "观察脚印",
+ "effects": ["Clue_恐高 = 1"],
+ "description": "脚印很乱；多次折返终点指向高处边缘"
+ },
+ {
+ "choice_text": "捡起地上的小物件",
+ "effects": ["获得ITEM_捏扁的糖"],
+ "description": "捡到被捏扁的糖；糖纸写'啵'"
+ }
+ ]
+ },
+ {
+ "location": "LOC_Bridge",
+ "node_id": "YHDOG_V1_5_N_Clue_2_BridgeGuard",
+ "npc_id": "NPC_955",
+ "description": "桥边守卫线索点",
+ "opening_line": "勇者？你找谁？",
+ "choices": [
+ {
+ "choice_text": "我在找一只怕高的"狗"",
+ "sub_choices": [
+ {
+ "choice_text": "他往哪走了？",
+ "effects": ["Clue_黑发眼镜 = 1"],
+ "response": "往钟楼方向跑；到楼梯口不敢上去绕一大圈"
+ }
+ ]
+ },
+ {
+ "choice_text": "你确定那不是逃犯？",
+ "effects": ["Clue_黑发眼镜 = 1"],
+ "response": "不像；一路'啊啊啊'"
+ }
+ ]
+ },
+ {
+ "location": "LOC_Tavern",
+ "node_id": "YHDOG_V1_5_N_Clue_3_TavernBoss",
+ "npc_id": "NPC_5XX",
+ "description": "酒馆老板线索点",
+ "opening_line": "你问'狗'？我这儿丢了一根香肠！",
+ "choices": [
+ {
+ "choice_text": "香肠是它偷的？",
+ "effects": ["获得ITEM_博博代币 x1"],
+ "response": "不是偷是拿；还把奇怪铁片放桌上当钱"
+ }
+ ]
+ },
+ {
+ "location": "LOC_BellTower",
+ "node_id": "YHDOG_V1_5_N_Clue_4_StrayDog",
+ "npc_id": "NPC_5YY",
+ "description": "钟楼下流浪狗线索点",
+ "opening_line": "……汪。（很轻）",
+ "choices": [
+ {
+ "choice_text": "给它《捏扁的糖》",
+ "condition": "HasItem(ITEM_捏扁的糖)",
+ "sub_choices": [
+ {
+ "choice_text": "跟着它",
+ "effects": ["Hint_BasementVent = 1"],
+ "description": "带到地下室通风口；潮湿铁锈味 + 人类叹气声",
+ "next_graph": "YHDOG_V2_Graph"
+ }
+ ]
+ }
+ ]
+ }
+ ]
+ },
+ {
+ "graph_id": "YHDOG_V2_Graph",
+ "graph_name": "V2-找到博博（地下室）",
+ "entry_node": "YHDOG_V2_N_Bobo_Start",
+ "notes": "此图包含大量分支选择，建议使用LoopChoiceNode实现主菜单"
+ },
+ {
+ "graph_id": "YHDOG_V2_5_Follow_Graph",
+ "graph_name": "V2.5-博博跟随离开",
+ "entry_node": "YHDOG_V2_5_N_Follow_Step1_Stairs",
+ "notes": "包含3个LocationDialogueTrigger节点（楼梯、桥边、路上）"
+ },
+ {
+ "graph_id": "YHDOG_V3_Deliver_Graph",
+ "graph_name": "V3-交付任务（结局）",
+ "entry_node": "YHDOG_V3_N_Deliver_Start",
+ "notes": "包含4个结局分支（A/B/C/D）"
+ },
+ {
+ "graph_id": "YHDOG_V4_AfterVisit_Graph",
+ "graph_name": "V4-回访内容",
+ "notes": "根据不同结局显示不同回访对话"
+ }
+ ]
+}

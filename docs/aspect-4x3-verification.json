@@ -1,0 +1,649 @@
+{
+  "menu": {
+    "stage": {
+      "w": 1199.984375,
+      "h": 899.984375
+    },
+    "view": "mainmenu",
+    "items": [
+      {
+        "name": "event-center-menu",
+        "x": 177,
+        "y": 0,
+        "w": 246,
+        "h": 900,
+        "outside": false
+      },
+      {
+        "name": "mainmenu-choice is-current mainmenu-choice-start",
+        "x": 217,
+        "y": 466,
+        "w": 166,
+        "h": 50,
+        "outside": false
+      },
+      {
+        "name": "mainmenu-choice mainmenu-choice-compact",
+        "x": 217,
+        "y": 516,
+        "w": 166,
+        "h": 50,
+        "outside": false
+      },
+      {
+        "name": "mainmenu-choice mainmenu-choice-compact",
+        "x": 217,
+        "y": 567,
+        "w": 166,
+        "h": 50,
+        "outside": false
+      },
+      {
+        "name": "mainmenu-choice mainmenu-choice-exit",
+        "x": 217,
+        "y": 617,
+        "w": 166,
+        "h": 50,
+        "outside": false
+      },
+      {
+        "name": "ui-language-switch",
+        "x": 1065,
+        "y": 835,
+        "w": 112,
+        "h": 48,
+        "outside": false
+      }
+    ]
+  },
+  "character": {
+    "stage": {
+      "w": 1199.984375,
+      "h": 899.984375
+    },
+    "view": "character-select",
+    "items": [
+      {
+        "name": "character-camera",
+        "x": -374,
+        "y": 0,
+        "w": 1948,
+        "h": 900,
+        "outside": false
+      },
+      {
+        "name": "character-choice character-choice-top",
+        "x": 580,
+        "y": 4,
+        "w": 275,
+        "h": 282,
+        "outside": false
+      },
+      {
+        "name": "character-choice character-choice-center",
+        "x": 388,
+        "y": 300,
+        "w": 429,
+        "h": 270,
+        "outside": false
+      },
+      {
+        "name": "character-choice character-choice-bottom",
+        "x": 182,
+        "y": 535,
+        "w": 368,
+        "h": 332,
+        "outside": false
+      },
+      {
+        "name": "character-return",
+        "x": 16,
+        "y": 15,
+        "w": 68,
+        "h": 24,
+        "outside": false
+      }
+    ]
+  },
+  "settings": {
+    "stage": {
+      "w": 1199.984375,
+      "h": 899.984375
+    },
+    "view": "settings",
+    "items": [
+      {
+        "name": "settings-paper-tab",
+        "x": 54,
+        "y": 222,
+        "w": 127,
+        "h": 48,
+        "outside": false
+      },
+      {
+        "name": "settings-paper-tab settings-library-tab",
+        "x": 45,
+        "y": 305,
+        "w": 156,
+        "h": 63,
+        "outside": false
+      },
+      {
+        "name": "settings-paper-tab settings-library-tab settings-personnel-tab",
+        "x": 45,
+        "y": 381,
+        "w": 155,
+        "h": 60,
+        "outside": false
+      },
+      {
+        "name": "settings-paper-tab settings-library-tab settings-language-tab",
+        "x": 45,
+        "y": 458,
+        "w": 156,
+        "h": 63,
+        "outside": false
+      },
+      {
+        "name": "setting-choice",
+        "x": 414,
+        "y": 273,
+        "w": 136,
+        "h": 41,
+        "outside": false
+      },
+      {
+        "name": "setting-choice active",
+        "x": 581,
+        "y": 274,
+        "w": 136,
+        "h": 40,
+        "outside": false
+      },
+      {
+        "name": "setting-choice",
+        "x": 748,
+        "y": 274,
+        "w": 136,
+        "h": 39,
+        "outside": false
+      },
+      {
+        "name": "setting-choice",
+        "x": 414,
+        "y": 317,
+        "w": 99,
+        "h": 40,
+        "outside": false
+      },
+      {
+        "name": "setting-choice",
+        "x": 581,
+        "y": 317,
+        "w": 99,
+        "h": 39,
+        "outside": false
+      },
+      {
+        "name": "setting-choice active",
+        "x": 748,
+        "y": 317,
+        "w": 99,
+        "h": 39,
+        "outside": false
+      },
+      {
+        "name": "setting-toggle",
+        "x": 414,
+        "y": 363,
+        "w": 66,
+        "h": 35,
+        "outside": false
+      },
+      {
+        "name": "setting-toggle",
+        "x": 826,
+        "y": 363,
+        "w": 83,
+        "h": 35,
+        "outside": false
+      },
+      {
+        "name": "setting-toggle",
+        "x": 478,
+        "y": 535,
+        "w": 66,
+        "h": 35,
+        "outside": false
+      },
+      {
+        "name": "setting-toggle",
+        "x": 634,
+        "y": 535,
+        "w": 66,
+        "h": 35,
+        "outside": false
+      },
+      {
+        "name": "settings-ink-stamp",
+        "x": 415,
+        "y": 575,
+        "w": 148,
+        "h": 42,
+        "outside": false
+      },
+      {
+        "name": "settings-ink-stamp",
+        "x": 621,
+        "y": 575,
+        "w": 147,
+        "h": 41,
+        "outside": false
+      }
+    ]
+  },
+  "saves": {
+    "stage": {
+      "w": 1199.984375,
+      "h": 899.984375
+    },
+    "view": "entry",
+    "items": [
+      {
+        "name": "entry-directory",
+        "x": 0,
+        "y": 112,
+        "w": 1200,
+        "h": 900,
+        "outside": false
+      },
+      {
+        "name": "entry-card",
+        "x": 210,
+        "y": 350,
+        "w": 353,
+        "h": 159,
+        "outside": false
+      },
+      {
+        "name": "entry-card",
+        "x": 632,
+        "y": 350,
+        "w": 353,
+        "h": 159,
+        "outside": false
+      },
+      {
+        "name": "entry-card",
+        "x": 210,
+        "y": 554,
+        "w": 353,
+        "h": 159,
+        "outside": false
+      },
+      {
+        "name": "entry-card",
+        "x": 632,
+        "y": 554,
+        "w": 353,
+        "h": 159,
+        "outside": false
+      },
+      {
+        "name": "entry-dialogue-tab entry-secondary-tab",
+        "x": 189,
+        "y": 773,
+        "w": 396,
+        "h": 99,
+        "outside": false
+      },
+      {
+        "name": "entry-dialogue-tab entry-secondary-tab entry-exploration-tab",
+        "x": 609,
+        "y": 773,
+        "w": 395,
+        "h": 99,
+        "outside": false
+      },
+      {
+        "name": "entry-main-return",
+        "x": 1049,
+        "y": 135,
+        "w": 130,
+        "h": 42,
+        "outside": false
+      }
+    ]
+  },
+  "gallery": {
+    "stage": {
+      "w": 1199.984375,
+      "h": 899.984375
+    },
+    "view": "gallery",
+    "items": [
+      {
+        "name": "entry-main-return",
+        "x": 1068,
+        "y": 130,
+        "w": 62,
+        "h": 20,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 383,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 444,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "active",
+        "x": 1096,
+        "y": 504,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 565,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 625,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 685,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 524,
+        "y": 603,
+        "w": 36,
+        "h": 23,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 662,
+        "y": 602,
+        "w": 36,
+        "h": 23,
+        "outside": false
+      }
+    ]
+  },
+  "profile": {
+    "stage": {
+      "w": 1199.984375,
+      "h": 899.984375
+    },
+    "view": "profile",
+    "items": [
+      {
+        "name": "entry-main-return",
+        "x": 1068,
+        "y": 130,
+        "w": 62,
+        "h": 20,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 383,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 444,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 504,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "active",
+        "x": 1096,
+        "y": 565,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 625,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 1109,
+        "y": 685,
+        "w": 87,
+        "h": 56,
+        "outside": false
+      },
+      {
+        "name": "profile-seal",
+        "x": 887,
+        "y": 643,
+        "w": 85,
+        "h": 38,
+        "outside": false
+      }
+    ]
+  },
+  "dialogue": {
+    "stage": {
+      "w": 1199.984375,
+      "h": 899.984375
+    },
+    "view": "station",
+    "items": [
+      {
+        "name": "station-talk",
+        "x": 0,
+        "y": 0,
+        "w": 1200,
+        "h": 900,
+        "outside": false
+      },
+      {
+        "name": "station-line-next",
+        "x": 979,
+        "y": 848,
+        "w": 53,
+        "h": 22,
+        "outside": false
+      },
+      {
+        "name": "station-talk-close",
+        "x": 1038,
+        "y": 696,
+        "w": 54,
+        "h": 64,
+        "outside": false
+      }
+    ]
+  },
+  "exploration": {
+    "stage": {
+      "w": 1199.984375,
+      "h": 899.984375
+    },
+    "view": "exploration",
+    "items": [
+      {
+        "name": "BUTTON",
+        "x": 46,
+        "y": 26,
+        "w": 25,
+        "h": 21,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 76,
+        "y": 26,
+        "w": 25,
+        "h": 21,
+        "outside": false
+      },
+      {
+        "name": "active",
+        "x": 566,
+        "y": 12,
+        "w": 31,
+        "h": 26,
+        "outside": false
+      },
+      {
+        "name": "BUTTON",
+        "x": 603,
+        "y": 12,
+        "w": 31,
+        "h": 26,
+        "outside": false
+      },
+      {
+        "name": "clue-note clue-note-a",
+        "x": 480,
+        "y": 209,
+        "w": 240,
+        "h": 142,
+        "outside": false
+      },
+      {
+        "name": "clue-note clue-note-b",
+        "x": 709,
+        "y": 196,
+        "w": 238,
+        "h": 138,
+        "outside": false
+      },
+      {
+        "name": "clue-museum",
+        "x": 600,
+        "y": 513,
+        "w": 252,
+        "h": 216,
+        "outside": false
+      },
+      {
+        "name": "end-explore",
+        "x": 995,
+        "y": 843,
+        "w": 175,
+        "h": 39,
+        "outside": false
+      }
+    ]
+  },
+  "station": {
+    "stage": {
+      "w": 1199.984375,
+      "h": 899.984375
+    },
+    "view": "station",
+    "items": [
+      {
+        "name": "station-hotspot station-hotspot--grandmother",
+        "x": 634,
+        "y": 243,
+        "w": 96,
+        "h": 148,
+        "outside": false
+      },
+      {
+        "name": "station-toolbar",
+        "x": 924,
+        "y": 838,
+        "w": 240,
+        "h": 36,
+        "outside": false
+      },
+      {
+        "name": "station-journal-button",
+        "x": 924,
+        "y": 838,
+        "w": 93,
+        "h": 36,
+        "outside": false
+      },
+      {
+        "name": "station-save-button",
+        "x": 1027,
+        "y": 838,
+        "w": 52,
+        "h": 36,
+        "outside": false
+      },
+      {
+        "name": "station-pause-button",
+        "x": 1089,
+        "y": 838,
+        "w": 75,
+        "h": 36,
+        "outside": false
+      }
+    ]
+  },
+  "stationWorld": {
+    "world": [
+      1199.984375,
+      674.984375,
+      112.484375
+    ],
+    "shade": [
+      1199.984375,
+      674.984375,
+      112.484375
+    ]
+  },
+  "responsive": {
+    "wide": {
+      "w": 1280,
+      "h": 720
+    },
+    "compact": {
+      "w": 800,
+      "h": 600
+    }
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "checked_at": "2026-10-18T05:39:05.938705+00:00",
+  "summary": {
+    "detail_ready": 25,
+    "detail_404": 34,
+    "detail_unknown": 1
+  },
+  "results": [
+    {
+      "id": "ND-S01",
+      "job_id": "757cf5ac-b9d0-49df-9518-a77530606f01",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S02",
+      "job_id": "ab66ee13-c33b-4f2c-a26f-4e658e1c0666",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=4"
+    },
+    {
+      "id": "ND-S03",
+      "job_id": "ce351638-4000-4c70-9115-7fee2f3e326e",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S04",
+      "job_id": "20e5f166-bf69-4cc0-93c5-008596650ebe",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S05",
+      "job_id": "64baa67e-e15f-45be-b2cf-63e7db92a2bc",
+      "status": "detail_ready",
+      "evidence": "image_elements=9;loaded=0"
+    },
+    {
+      "id": "ND-S06",
+      "job_id": "8394717e-f36e-4723-8069-8a0754f2b7dd",
+      "status": "detail_ready",
+      "evidence": "image_elements=45;loaded=1"
+    },
+    {
+      "id": "ND-S07",
+      "job_id": "b1c14a85-492a-4a98-b9ad-c9a321baf37b",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=1"
+    },
+    {
+      "id": "ND-S08",
+      "job_id": "26f9b225-6862-47b9-9deb-468f648d436e",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S09",
+      "job_id": "e707a9b9-d551-4a54-bb99-c14b3889737b",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S10",
+      "job_id": "c196f29c-eb25-4223-8e07-a2366d9abf02",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S11",
+      "job_id": "e05c4f30-cac2-40f6-8d42-7b50f7817c2c",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S12",
+      "job_id": "92fcc0ad-945f-4d2c-b2f1-e285b20e5fc6",
+      "status": "detail_ready",
+      "evidence": "image_elements=9;loaded=0"
+    },
+    {
+      "id": "ND-S13",
+      "job_id": "fff16282-578c-44d8-b1a4-bf0d17b4f52b",
+      "status": "detail_ready",
+      "evidence": "image_elements=9;loaded=0"
+    },
+    {
+      "id": "ND-S14",
+      "job_id": "bc24a426-7aba-4b93-9520-6b400b7a70de",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=4"
+    },
+    {
+      "id": "ND-S15",
+      "job_id": "9dfaf4e9-aca3-4cad-b3d8-be980eab62bf",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S16",
+      "job_id": "9dca0df3-45de-41e1-ae48-7b2dbffc4928",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S17",
+      "job_id": "a6d78779-c25e-49da-ada4-59d7256967d2",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S18",
+      "job_id": "da18e407-3a68-4162-9922-9a357202af7f",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S19",
+      "job_id": "2b18c8df-2ca8-454b-b9cf-1645bc086c11",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S20",
+      "job_id": "e3f8ce41-361d-4c77-a4a2-66c284ed6471",
+      "status": "detail_ready",
+      "evidence": "image_elements=9;loaded=0"
+    },
+    {
+      "id": "ND-S21",
+      "job_id": "744a85eb-5158-4803-b33f-0efccaddcc0c",
+      "status": "detail_ready",
+      "evidence": "image_elements=9;loaded=0"
+    },
+    {
+      "id": "ND-S22",
+      "job_id": "b81c2189-d6ef-4da1-a062-a72934a15bda",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S23",
+      "job_id": "2450cbec-6662-4bd4-aa7f-a541f0053d5d",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S24",
+      "job_id": "719af725-995a-4201-a97f-6a6f321be5b3",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S25",
+      "job_id": "92267a68-9ab0-4849-9cf1-8fdbda678822",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S26",
+      "job_id": "2bec53b5-3737-4f4c-9656-137a3369588d",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S27",
+      "job_id": "09acaeae-de7c-4d06-8ae4-cb08a69faa67",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S28",
+      "job_id": "1068909b-7372-491a-9c26-ae0e769a13b3",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S29",
+      "job_id": "2c98c1c4-0424-4b9f-93e9-c2306f970687",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S30",
+      "job_id": "e007f5c2-1ed3-471d-89e9-2921d3d606b4",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S31",
+      "job_id": "90a60ed8-8c60-4fce-85dc-a1d90911c57b",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S32",
+      "job_id": "243137f4-4009-4abc-808e-af6803c3e266",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S33",
+      "job_id": "46f01f9e-7264-4d82-9a2d-60d80b4cc507",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S34",
+      "job_id": "462244ad-5026-4e29-b1d9-324fca9cac8c",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S35",
+      "job_id": "e248886d-a4c7-48f3-ad42-7f9c7a50e156",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-S36",
+      "job_id": "ca9b16df-1e98-4abc-bdb1-c3ea681dcb48",
+      "status": "detail_ready",
+      "evidence": "image_elements=43;loaded=0"
+    },
+    {
+      "id": "ND-S37",
+      "job_id": "79a174b8-332e-4afd-9f54-627f76e17abc",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S38",
+      "job_id": "df14bb18-9866-4754-aaa8-13f2de40b71f",
+      "status": "detail_ready",
+      "evidence": "image_elements=9;loaded=0"
+    },
+    {
+      "id": "ND-S39",
+      "job_id": "a64d4030-798f-4690-80c1-d839cad360a4",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-S40",
+      "job_id": "db569d50-8547-4f74-b74e-2128e8a983b8",
+      "status": "detail_ready",
+      "evidence": "image_elements=44;loaded=0"
+    },
+    {
+      "id": "ND-M41",
+      "job_id": "807740c1-cdee-4e84-9854-0175dd2486ec",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M42",
+      "job_id": "f47a5104-a15e-471c-8ebc-77155da28aeb",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M43",
+      "job_id": "99b5388e-9fd2-494a-afd5-99f08a88a3f9",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M44",
+      "job_id": "f47b5cbd-ce1e-45ad-86e1-c441241ba15b",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M45",
+      "job_id": "b0c8554d-7089-4cad-adc9-f02076ec3b00",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M46",
+      "job_id": "ffd8dbe0-ebbb-4f3e-8e2c-afbd245b7d9c",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M47",
+      "job_id": "a310a485-9ed8-42f3-af75-bc0f70525b5d",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M48",
+      "job_id": "0b82dd0f-871c-486e-9135-b0de35dc2dda",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M49",
+      "job_id": "ae51075c-12ae-49bc-bc7c-dc8740f6d18d",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M50",
+      "job_id": "7057e31f-9fd7-436b-92ff-12f87247ca8c",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M51",
+      "job_id": "38d94d5f-a747-4ec8-9379-440db045c52c",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M52",
+      "job_id": "4a39994c-d96f-4c67-a157-dfa955d97ad7",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M53",
+      "job_id": "0e7e6200-3071-476e-bb7c-b8d26ef1ece7",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M54",
+      "job_id": "517c6b65-e573-4e48-84a6-aa5eeb8224cb",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M55",
+      "job_id": "32103a9e-b641-48f1-85a3-ac4cc836d331",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M56",
+      "job_id": "22c50750-bc61-4b25-b598-aeefba02bf91",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M57",
+      "job_id": "070fa975-f800-4bd4-aabc-578a9916e84e",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M58",
+      "job_id": "6637ca6b-3a00-4f2e-8f41-4b87505b790d",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    },
+    {
+      "id": "ND-M59",
+      "job_id": "66d95ffd-e5bb-4fc6-b67a-0cf8fe6df015",
+      "status": "detail_unknown",
+      "evidence": "Organize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight mode\nzhangrenbo\nP\nDraft Mode\nExplore at draft quality and refine with variations."
+    },
+    {
+      "id": "ND-M60",
+      "job_id": "518766c3-1c5e-4b31-a87f-e2230a3f51c7",
+      "status": "detail_404",
+      "evidence": "job detail unavailable at audit time"
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "transport": "fixed work Chrome, direct target-specific CDP 9223",
+  "checks": [
+    {
+      "check": "Initial actual music output uses stored volume",
+      "values": {
+        "voice": 72,
+        "music": 54,
+        "sound": 84
+      },
+      "gain": 0.5400000214576721,
+      "rms": 0.00010830528088423718,
+      "saved": {
+        "music": 54
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "All three channels autosave without committing the graphics draft",
+      "values": {
+        "voice": 11,
+        "music": 23,
+        "sound": 78
+      },
+      "gain": 0.5400000214576721,
+      "rms": 0.0011126889468253953,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 23,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "Music gain changes immediately without restarting the source",
+      "values": {
+        "voice": 11,
+        "music": 23,
+        "sound": 78
+      },
+      "gain": 0.23000000417232513,
+      "rms": 0.0006133775147868006,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 23,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "Return and reopen retain all sliders and actual sound",
+      "values": {
+        "voice": 11,
+        "music": 23,
+        "sound": 78
+      },
+      "gain": 0.23000000417232513,
+      "rms": 0.0020114908008550363,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 23,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "Changing records retains the automatically saved music volume",
+      "values": {
+        "voice": 11,
+        "music": 23,
+        "sound": 78
+      },
+      "gain": 0.23000000417232513,
+      "rms": 0.012037620587897155,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 23,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "Record pause and resume retain volume",
+      "values": {
+        "voice": 11,
+        "music": 23,
+        "sound": 78
+      },
+      "gain": 0.23000000417232513,
+      "rms": 0.001641303078863288,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 23,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 3,
+      "view": "settings"
+    },
+    {
+      "check": "Escape retains mute and silences the real signal",
+      "values": {
+        "voice": 11,
+        "music": 0,
+        "sound": 78
+      },
+      "gain": 0,
+      "rms": 0,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 0,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 4,
+      "view": "settings"
+    },
+    {
+      "check": "Reload reads mute and other channels from actual namespaced localStorage",
+      "values": {
+        "voice": 11,
+        "music": 0,
+        "sound": 78
+      },
+      "gain": 0,
+      "rms": 0,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 0,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "A real pointer drag in the small window saves its actual gain",
+      "values": {
+        "voice": 11,
+        "music": 37,
+        "sound": 78
+      },
+      "gain": 0.3700000047683716,
+      "rms": 0.000912046689807353,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 37,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "Nonzero volume also survives reloading without Apply",
+      "values": {
+        "voice": 11,
+        "music": 37,
+        "sound": 78
+      },
+      "gain": 0.3700000047683716,
+      "rms": 7.524000957497427e-05,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 37,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "Restore defaults remains a preview until Apply",
+      "values": {
+        "voice": 72,
+        "music": 54,
+        "sound": 84
+      },
+      "gain": 0.3700000047683716,
+      "rms": 0.0006162390337346789,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 37,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "Leaving the defaults preview restores the last autosaved volume",
+      "values": {
+        "voice": 11,
+        "music": 37,
+        "sound": 78
+      },
+      "gain": 0.3700000047683716,
+      "rms": 0.0032084672540301246,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 37,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    },
+    {
+      "check": "Test data remains scoped and there are no JavaScript errors",
+      "values": {
+        "voice": 11,
+        "music": 37,
+        "sound": 78
+      },
+      "gain": 0.3700000047683716,
+      "rms": 0.0032084672540301246,
+      "saved": {
+        "mode": "手动窗口",
+        "voice": 11,
+        "music": 37,
+        "sound": 78,
+        "quality": "enhanced",
+        "name": false,
+        "replay": false,
+        "film": true,
+        "filmStrength": 65,
+        "filmMotion": true
+      },
+      "sourceCount": 1,
+      "view": "settings"
+    }
+  ],
+  "storage": "real browser localStorage under a unique test prefix; actual reloads; player keys untouched",
+  "audio": "actual Web Audio gain and analyser before a muted test sink; physical speakers not tested",
+  "errors": [],
+  "electronWindowVerified": false,
+  "sourceRegression": "Updated volume integration test fails on old code: return resets gain from .25 to .54; passes after the fix",
+  "checksCommand": "npm run check: 15 tests, 172 migrated hashes, 74 resource paths and production build passed",
+  "testStorageCleanup": "Completed in the QA finally block; only the unique test namespace was removed",
+  "backup": [
+    ".local/scene-before-volume-autosave-20260914.js",
+    ".local/volume-settings-before-autosave-20260914.test.js"
+  ]
+}

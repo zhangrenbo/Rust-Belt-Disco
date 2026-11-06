@@ -1,0 +1,621 @@
+{
+  "keep": [
+    {
+      "path": "assets/character-select/000_T_选人页面背景.png",
+      "bytes": 26389387,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/001_T_氛围雾2.png",
+      "bytes": 10312108,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/003_T_A000右下角的信息.png",
+      "bytes": 1190862,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/004_T_A000左边的信息.png",
+      "bytes": 644265,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/005_T_董点事的简介.png",
+      "bytes": 580162,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/006_T_A000照片.png",
+      "bytes": 735719,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/007_图层_2.png",
+      "bytes": 2165,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/008_点此开始游戏_大厦崩塌.png",
+      "bytes": 6116,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/009_T_关卡3背景.png",
+      "bytes": 702263,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/010_点此开始游戏_烈日灼心.png",
+      "bytes": 5143,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/011_T_王少鹏选人卡左背景.png",
+      "bytes": 1040708,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/012_T_王少鹏选人卡.png",
+      "bytes": 506731,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/013_图层_15.png",
+      "bytes": 2360,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/014_董点事.png",
+      "bytes": 2029,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/015_董点事简介_1.png",
+      "bytes": 4884,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/016_董点事简介_2.png",
+      "bytes": 5534,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/018_关卡3背景.png",
+      "bytes": 751072,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/019_关卡3便条.png",
+      "bytes": 695212,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/020_关卡3插画.png",
+      "bytes": 637329,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/021_图层_3.png",
+      "bytes": 2034,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/022_T_王少鹏选人卡下的箭头.png",
+      "bytes": 29084,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/023_董点事简介_3.png",
+      "bytes": 5039,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/024_董点事简介_4.png",
+      "bytes": 3399,
+      "used": true
+    },
+    {
+      "path": "assets/character-select/025_点此开始游戏_金钱为方.png",
+      "bytes": 6205,
+      "used": true
+    },
+    {
+      "path": "assets/disco-dialog-close-v1.png",
+      "bytes": 1044049,
+      "used": true
+    },
+    {
+      "path": "assets/disco-dialog-panel-v1.png",
+      "bytes": 1693232,
+      "used": true
+    },
+    {
+      "path": "assets/disco-entry-tab-v1.png",
+      "bytes": 1118827,
+      "used": true
+    },
+    {
+      "path": "assets/dongbei-portrait-li-zheng.png",
+      "bytes": 573742,
+      "used": true
+    },
+    {
+      "path": "assets/entry-evidence-board-notebooks-v3.png",
+      "bytes": 2685032,
+      "used": true
+    },
+    {
+      "path": "assets/entry-evidence-board-v2.png",
+      "bytes": 3616879,
+      "used": true
+    },
+    {
+      "path": "assets/entry-title-slip-v2.png",
+      "bytes": 2899198,
+      "used": true
+    },
+    {
+      "path": "assets/event-center-strip-v6.png",
+      "bytes": 1242716,
+      "used": true
+    },
+    {
+      "path": "assets/event-desk-bg-v2.png",
+      "bytes": 2531937,
+      "used": true
+    },
+    {
+      "path": "assets/event-dossier-bag-v1.png",
+      "bytes": 2315167,
+      "used": true
+    },
+    {
+      "path": "assets/event-dossier-handwriting-xiongshou-v1.png",
+      "bytes": 1444350,
+      "used": true
+    },
+    {
+      "path": "assets/evidence-ticket-v2.png",
+      "bytes": 2422187,
+      "used": true
+    },
+    {
+      "path": "assets/exploration-board-dongbei.png",
+      "bytes": 2368057,
+      "used": true
+    },
+    {
+      "path": "assets/exploration-dossier.png",
+      "bytes": 1467426,
+      "used": true
+    },
+    {
+      "path": "assets/main-menu-exit.png",
+      "bytes": 7952,
+      "used": true
+    },
+    {
+      "path": "assets/main-menu-logo.png",
+      "bytes": 43872,
+      "used": true
+    },
+    {
+      "path": "assets/main-menu-save-cropped-v2.png",
+      "bytes": 4917,
+      "used": true
+    },
+    {
+      "path": "assets/main-menu-settings-cropped-v2.png",
+      "bytes": 3735,
+      "used": true
+    },
+    {
+      "path": "assets/main-menu-start.png",
+      "bytes": 8957,
+      "used": true
+    },
+    {
+      "path": "exit-dialog-panel-v1.png",
+      "bytes": 2068158,
+      "used": true
+    },
+    {
+      "path": "media/characters/dong-reference.png",
+      "bytes": 933455,
+      "used": true
+    },
+    {
+      "path": "media/characters/dong.png",
+      "bytes": 1738992,
+      "used": true
+    },
+    {
+      "path": "media/characters/grandmother-reference.png",
+      "bytes": 2653488,
+      "used": true
+    },
+    {
+      "path": "media/characters/prototype-portrait.png",
+      "bytes": 275542,
+      "used": true
+    },
+    {
+      "path": "media/station-scene.png",
+      "bytes": 2705678,
+      "used": true
+    },
+    {
+      "path": "media/ui/title.png",
+      "bytes": 35215,
+      "used": true
+    },
+    {
+      "path": "media/video/intro.mp4",
+      "bytes": 5646250,
+      "used": true
+    },
+    {
+      "path": "media/video/title.mp4",
+      "bytes": 3175360,
+      "used": true
+    },
+    {
+      "path": "settings-apply-button-v1.png",
+      "bytes": 2233529,
+      "used": true
+    },
+    {
+      "path": "settings-dossier-art-v3.png",
+      "bytes": 2578349,
+      "used": true
+    },
+    {
+      "path": "settings-reset-button-v1.png",
+      "bytes": 1960755,
+      "used": true
+    }
+  ],
+  "unused": [
+    {
+      "path": "assets/background.png",
+      "bytes": 2578402,
+      "used": false
+    },
+    {
+      "path": "assets/disco-dialog-portrait-v1.png",
+      "bytes": 2941053,
+      "used": false
+    },
+    {
+      "path": "assets/dongbei-choice-intense.png",
+      "bytes": 134251,
+      "used": false
+    },
+    {
+      "path": "assets/dongbei-choice-normal.png",
+      "bytes": 123486,
+      "used": false
+    },
+    {
+      "path": "assets/dongbei-choice-rare.png",
+      "bytes": 160196,
+      "used": false
+    },
+    {
+      "path": "assets/dongbei-choice-weathered.png",
+      "bytes": 145226,
+      "used": false
+    },
+    {
+      "path": "assets/dongbei-dialog-close-backdrop.png",
+      "bytes": 74050,
+      "used": false
+    },
+    {
+      "path": "assets/dongbei-dialog-close-button.png",
+      "bytes": 10576,
+      "used": false
+    },
+    {
+      "path": "assets/dongbei-dialog-mood.png",
+      "bytes": 25041,
+      "used": false
+    },
+    {
+      "path": "assets/dongbei-dialog-nameplate.png",
+      "bytes": 127276,
+      "used": false
+    },
+    {
+      "path": "assets/dongbei-dialog-panel.png",
+      "bytes": 860158,
+      "used": false
+    },
+    {
+      "path": "assets/event-center-strip-v3.png",
+      "bytes": 2024503,
+      "used": false
+    },
+    {
+      "path": "assets/event-center-strip-v4.png",
+      "bytes": 2011975,
+      "used": false
+    },
+    {
+      "path": "assets/event-center-strip-v5.png",
+      "bytes": 1297582,
+      "used": false
+    },
+    {
+      "path": "assets/event-character-ticket-v4.png",
+      "bytes": 2259220,
+      "used": false
+    },
+    {
+      "path": "assets/event-desk-bg.png",
+      "bytes": 26389387,
+      "used": false
+    },
+    {
+      "path": "assets/event-dossier-bag-source-v1.png",
+      "bytes": 2501982,
+      "used": false
+    },
+    {
+      "path": "assets/event-dossier-book-v10.png",
+      "bytes": 2512462,
+      "used": false
+    },
+    {
+      "path": "assets/event-dossier-frame-v1.png",
+      "bytes": 1716933,
+      "used": false
+    },
+    {
+      "path": "assets/event-dossier-frame-v2.png",
+      "bytes": 1584908,
+      "used": false
+    },
+    {
+      "path": "assets/event-dossier-frame-v3.png",
+      "bytes": 1807462,
+      "used": false
+    },
+    {
+      "path": "assets/event-dossier-frame-v4.png",
+      "bytes": 1567278,
+      "used": false
+    },
+    {
+      "path": "assets/event-dossier-frame-v6.png",
+      "bytes": 1996311,
+      "used": false
+    },
+    {
+      "path": "assets/event-dossier-frame-v8.png",
+      "bytes": 2699145,
+      "used": false
+    },
+    {
+      "path": "assets/event-filmstrip-v1.png",
+      "bytes": 2226151,
+      "used": false
+    },
+    {
+      "path": "assets/event-filmstrip-v2.png",
+      "bytes": 1998463,
+      "used": false
+    },
+    {
+      "path": "assets/event-filmstrip-v4.png",
+      "bytes": 1148399,
+      "used": false
+    },
+    {
+      "path": "assets/event-filmstrip-v6.png",
+      "bytes": 1130730,
+      "used": false
+    },
+    {
+      "path": "assets/event-han-tiejun.png",
+      "bytes": 561107,
+      "used": false
+    },
+    {
+      "path": "assets/event-invitation-chroma-v2.png",
+      "bytes": 1854885,
+      "used": false
+    },
+    {
+      "path": "assets/event-invitation-cutout-v4.png",
+      "bytes": 1464900,
+      "used": false
+    },
+    {
+      "path": "assets/event-invitation-cutout-v6.png",
+      "bytes": 2066744,
+      "used": false
+    },
+    {
+      "path": "assets/event-invitation-cutout-v8.png",
+      "bytes": 1915401,
+      "used": false
+    },
+    {
+      "path": "assets/event-invitation-v1.png",
+      "bytes": 2744751,
+      "used": false
+    },
+    {
+      "path": "assets/event-invitation-v3.png",
+      "bytes": 2107167,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng-cutout-v4.png",
+      "bytes": 907565,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng-full-chroma-v2.png",
+      "bytes": 1393916,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng-full-v1.png",
+      "bytes": 1253151,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng-full-v3.png",
+      "bytes": 1711449,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng-hero-chroma-v5.png",
+      "bytes": 1480817,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng-hero-cutout-v7.png",
+      "bytes": 1210067,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng-hero-cutout-v8.png",
+      "bytes": 1160340,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng-hero-v6.png",
+      "bytes": 1777219,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng-selected-art-v1.png",
+      "bytes": 3334243,
+      "used": false
+    },
+    {
+      "path": "assets/event-li-zheng.png",
+      "bytes": 573742,
+      "used": false
+    },
+    {
+      "path": "assets/event-liu-guoqing.png",
+      "bytes": 554051,
+      "used": false
+    },
+    {
+      "path": "assets/event-progress-v3.png",
+      "bytes": 460680,
+      "used": false
+    },
+    {
+      "path": "assets/event-progress-v5.png",
+      "bytes": 1371514,
+      "used": false
+    },
+    {
+      "path": "assets/event-wang-shaopeng.png",
+      "bytes": 503578,
+      "used": false
+    },
+    {
+      "path": "assets/exploration-board.png",
+      "bytes": 2386154,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-any-key.png",
+      "bytes": 10624,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-brush-bg-v2.png",
+      "bytes": 2214432,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-brush-bg-v3.png",
+      "bytes": 2237881,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-brush-bg-v4.png",
+      "bytes": 2044831,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-brush-bg-v5.png",
+      "bytes": 2044613,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-brush-bg.png",
+      "bytes": 306606,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-loop.mp4",
+      "bytes": 3175360,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-save.png",
+      "bytes": 4917,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-settings-underline.png",
+      "bytes": 30459,
+      "used": false
+    },
+    {
+      "path": "assets/main-menu-settings.png",
+      "bytes": 4493,
+      "used": false
+    },
+    {
+      "path": "assets/settings-paper-stack.svg",
+      "bytes": 3616,
+      "used": false
+    },
+    {
+      "path": "assets/settings-window-reel-selector-v5.png",
+      "bytes": 827295,
+      "used": false
+    },
+    {
+      "path": "media/characters/dong-source-v1.png",
+      "bytes": 1738992,
+      "used": false
+    },
+    {
+      "path": "media/characters/grandmother-source-v1.png",
+      "bytes": 2228228,
+      "used": false
+    },
+    {
+      "path": "media/characters/grandmother-source-v2.png",
+      "bytes": 2162254,
+      "used": false
+    },
+    {
+      "path": "media/characters/grandmother-source-v3.png",
+      "bytes": 2160841,
+      "used": false
+    },
+    {
+      "path": "media/station-background.png",
+      "bytes": 2856356,
+      "used": false
+    },
+    {
+      "path": "media/station-reference.png",
+      "bytes": 1447773,
+      "used": false
+    }
+  ]
+}

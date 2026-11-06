@@ -1,0 +1,139 @@
+{
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "isolated page memory; reload seeded from actual applied JSON; player saves untouched",
+  "checks": [
+    "old settings gain the 65% default without losing mute",
+    "colour pass is active; stage geometry has no global filter",
+    "switch immediately previews off and disables strength",
+    "leaving without applying cancels the preview",
+    "zero is a complete bypass",
+    "zero survives a fresh page load",
+    "maximum strength activates the effect",
+    "motion can stop while colour remains",
+    "strength and disabled motion survive reload",
+    "reset restores film defaults",
+    "performance keeps colour and drops grain and motion",
+    "balanced keeps animated film texture without moving artwork",
+    "system reduced motion overrides film animation",
+    "motion resumes when system preference allows it",
+    "settings text stays still",
+    "hidden page disables film animation",
+    "settings controls reachable at 1440",
+    "settings controls reachable at 844",
+    "character selection still leads to the UI-only scene",
+    "UI-only return remains usable with the filter active",
+    "unrelated stored data preserved"
+  ],
+  "screens": [
+    {
+      "name": "on-menu",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "texture-mainmenu",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "off-menu",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "texture-settings",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "settings",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "settings",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "name": "texture-entry",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "texture-character-select",
+      "viewport": [
+        1440,
+        810
+      ]
+    }
+  ],
+  "errors": [],
+  "humanArtApproval": "pending",
+  "textureMeasurements": [
+    {
+      "quality": "enhanced",
+      "frames": 40,
+      "meanIntervalMs": 86.85641025637204,
+      "meanVisibleDust": 2.875,
+      "peakVisibleDust": 5,
+      "dustNodes": 5
+    },
+    {
+      "view": "mainmenu",
+      "artworkStable": true,
+      "grainFrames": 63,
+      "overlayFrames": 63,
+      "dustFrames": 91,
+      "scratchFrames": 5
+    },
+    {
+      "quality": "balanced",
+      "frames": 25,
+      "meanIntervalMs": 139.13333333314708,
+      "meanVisibleDust": 3.2,
+      "peakVisibleDust": 5,
+      "dustNodes": 5
+    },
+    {
+      "view": "settings",
+      "artworkStable": true,
+      "grainFrames": 29,
+      "overlayFrames": 29,
+      "dustFrames": 41,
+      "scratchFrames": 0
+    },
+    {
+      "view": "entry",
+      "artworkStable": true,
+      "grainFrames": 30,
+      "overlayFrames": 30,
+      "dustFrames": 43,
+      "scratchFrames": 0
+    },
+    {
+      "view": "character-select",
+      "artworkStable": true,
+      "grainFrames": 29,
+      "overlayFrames": 29,
+      "dustFrames": 44,
+      "scratchFrames": 6
+    }
+  ],
+  "performance": "quality fallbacks verified; target-device FPS not benchmarked"
+}

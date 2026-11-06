@@ -1,0 +1,66 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-job-v1",
+    "project":  "东北迪斯科",
+    "id":  "ND-S23",
+    "name":  "县医院·探望病人",
+    "kind":  "interior",
+    "source_scene_id":  "ND-S23",
+    "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D game map of a Northeast Chinese industrial town in winter. No characters or people. Show the full connected walking surface, entrances, exits, wall thickness, furniture bases and traversable gaps. An older county hospital ward in Northeast China. One bed along the left wall, metal bedside cabinet, IV stand, small visitor chair, curtained rear window, pale green lower walls and worn cream floor tiles. Door at front right opens onto a narrow corridor; preserve clear access on both sides of the bed. Realistic snow, damp concrete, worn brick, corroded metal, soft contact shadows, readable foreground and background depth. No signs with readable words. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people",
+    "status":  "rendered_visible",
+    "human_approved":  false,
+    "preflight":  {
+                      "ready":  true,
+                      "empty":  true,
+                      "folder":  true,
+                      "images":  0,
+                      "personalization":  "false",
+                      "visibility":  "hidden"
+                  },
+    "submitted_at":  "2026-10-18T05:29:57.890745+00:00",
+    "job_id":  "51bbbd81-15bb-41e6-afea-9e1e2320c201",
+    "result_url":  "https://www.midjourney.com/jobs/51bbbd81-15bb-41e6-afea-9e1e2320c201?index=0",
+    "verification_status":  "confirmed_visible",
+    "verification_attempt_at":  "2026-10-18T05:45:57.809823+00:00",
+    "verification_http_status":  200,
+    "verification_receipt_shape":  [
+                                       "success",
+                                       "failure"
+                                   ],
+    "verification_receipt":  {
+                                 "success":  [
+                                                 {
+                                                     "job_id":  "51bbbd81-15bb-41e6-afea-9e1e2320c201",
+                                                     "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D game map of a Northeast Chinese industrial town in winter. No characters or people. Show the full connected walking surface, entrances, exits, wall thickness, furniture bases and traversable gaps. An older county hospital ward in Northeast China. One bed along the left wall, metal bedside cabinet, IV stand, small visitor chair, curtained rear window, pale green lower walls and worn cream floor tiles. Door at front right opens onto a narrow corridor; preserve clear access on both sides of the bed. Realistic snow, damp concrete, worn brick, corroded metal, soft contact shadows, readable foreground and background depth. No signs with readable words. --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people --ar 16:9 --relax --raw --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --v 8.1",
+                                                     "is_queued":  false,
+                                                     "softban":  false,
+                                                     "event_type":  "diffusion",
+                                                     "job_type":  "v8-1_diffusion",
+                                                     "flags":  {
+                                                                   "mode":  "relaxed",
+                                                                   "visibility":  "public"
+                                                               },
+                                                     "meta":  {
+                                                                  "height":  816,
+                                                                  "width":  1456,
+                                                                  "batch_size":  4,
+                                                                  "parent_id":  null,
+                                                                  "parent_grid":  null
+                                                              },
+                                                     "optimisticJobIndex":  0,
+                                                     "personalization_codes":  null
+                                                 }
+                                             ],
+                                 "failure":  [
+
+                                             ]
+                             },
+    "verification_new_job_id":  "51bbbd81-15bb-41e6-afea-9e1e2320c201",
+    "verification_ui":  {
+                            "tail":  "grey sky, a winding road, a russian landscape, a field with tall grasses.\n+ use text\n--ar 66:41\n \nar 66:41\n--v 7\n \nv 7\nStyle Creator\nRerun\nUse\nTrash\nMore\nTo top\nLooking for more...\nLooking for more...\nfolder\n东北迪斯科参考图\n25/27\nP\nDraft Mode\nExplore at draft quality and refine with variations.\nConversational Mode\nRefine your prompt using text or voice.\nYour prompt was not submitted, you have reached the maximum number of prompts you can submit at once.",
+                            "folderText":  "25",
+                            "queued":  false,
+                            "promptTail":  false
+                        },
+    "prior_job_id":  "2450cbec-6662-4bd4-aa7f-a541f0053d5d",
+    "verification_evidence":  "Direct job page has image UI; image_elements=9; loaded=0"
+}

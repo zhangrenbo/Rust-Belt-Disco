@@ -1,0 +1,64 @@
+{
+  "schema": "maploom-reference-role-index-v1",
+  "date": "2026-09-06",
+  "comparisons": [
+    {"round": 1, "manifest": "../Tools/MapLoom3DWorkbench/artifacts/extref-r1-comparison-manifest.json", "status": "preserved"},
+    {"round": 2, "manifest": "../Tools/MapLoom3DWorkbench/artifacts/extref-r2-comparison-manifest.json", "status": "ready-for-human-review"}
+  ],
+  "policy": "图片以清单、批次、编号、SHA-256 和明确用途识别；不凭目录位置或外观猜测。未知来源图片不自动进入对照。AI 参考图与程序化模型截图不能互相冒充。",
+  "sources": [
+    {
+      "batchId": "ai-building-reference-20260906-01",
+      "role": "selected-exterior-reference",
+      "label": "本次选定的 AI 建筑外观参考",
+      "manifest": "AI建筑参考_20260906_提示词与清单.json",
+      "selectedIds": ["01", "02", "03", "04", "05", "06", "08", "09", "10", "11", "12"],
+      "removedIds": ["07"],
+      "usedInExteriorComparisonR1": true
+    },
+    {
+      "batchId": "ai-interior-reference-20260906-01",
+      "role": "separate-interior-reference",
+      "label": "另一工作流的 AI 室内参考",
+      "manifest": "AI室内参考_20260906_提示词与清单.json",
+      "usedInExteriorComparisonR1": false,
+      "note": "室内筛选与算法改动由其独立清单记录，本索引不改变其批准状态。"
+    },
+    {
+      "batchId": "ai-building-reference-20260906-01",
+      "renderSetId": "extref-r1-before",
+      "phase": "before",
+      "role": "procedural-exterior-render",
+      "label": "第一轮生成器修改前的真实网格截图",
+      "manifest": "../Tools/MapLoom3DWorkbench/artifacts/extref-r1-before-renders.json",
+      "usedInExteriorComparisonR1": true
+    },
+    {
+      "batchId": "ai-building-reference-20260906-01",
+      "renderSetId": "extref-r1-after",
+      "phase": "after",
+      "role": "procedural-exterior-render",
+      "label": "第一轮生成器修改后的真实网格截图",
+      "manifest": "../Tools/MapLoom3DWorkbench/artifacts/extref-r1-after-renders.json",
+      "usedInExteriorComparisonR1": true
+    },
+    {
+      "batchId": "ai-building-reference-20260906-01",
+      "renderSetId": "extref-r2-before",
+      "phase": "before",
+      "role": "procedural-exterior-render",
+      "label": "第二轮生成器修改前的真实网格截图",
+      "manifest": "../Tools/MapLoom3DWorkbench/artifacts/extref-r2-before-renders.json",
+      "usedInExteriorComparisonR2": true
+    },
+    {
+      "batchId": "ai-building-reference-20260906-01",
+      "renderSetId": "extref-r2-after",
+      "phase": "after",
+      "role": "procedural-exterior-render",
+      "label": "第二轮生成器修改后的真实网格截图",
+      "manifest": "../Tools/MapLoom3DWorkbench/artifacts/extref-r2-after-renders.json",
+      "usedInExteriorComparisonR2": true
+    }
+  ]
+}

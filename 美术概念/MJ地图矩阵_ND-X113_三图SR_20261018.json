@@ -1,0 +1,38 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-job-v2",
+    "project":  "东北迪斯科",
+    "id":  "ND-X113",
+    "name":  "仓库货架通道",
+    "kind":  "interior",
+    "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D game environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D map in a Northeast Chinese industrial town. No characters or people. Show full connected walking surfaces, entrances, exits, wall thickness, object bases and traversable gaps. A warehouse interior: tall shelving bays, pallet jack, receiving dock, small clerk station, rear fire door and a connected network of clear aisles. Realistic snow outside, damp concrete, worn brick, aged wood and corroded metal where appropriate; soft contact shadows and readable foreground and background depth. No signs with readable words. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people",
+    "status":  "rendered_folder_confirmed",
+    "human_approved":  false,
+    "verification_status":  "folder_complete_detail_unchecked",
+    "verification_attempt_at":  "2026-10-18T10:15:32.378449+00:00",
+    "verification_http_status":  200,
+    "verification_receipt_shape":  [
+                                       "success",
+                                       "failure"
+                                   ],
+    "verification_receipt":  {
+                                 "success":  [
+                                                 {
+                                                     "job_id":  "2882a700-1ba0-43c4-b7a2-efb759a4ed2c",
+                                                     "is_queued":  false
+                                                 }
+                                             ],
+                                 "failure":  [
+
+                                             ]
+                             },
+    "verification_new_job_id":  "2882a700-1ba0-43c4-b7a2-efb759a4ed2c",
+    "verification_ui":  {
+                            "tail":  ", watermark, people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore\nTo top\nLooking for more...\nLooking for more...\n11 queued jobs\nfolder\n东北迪斯科参考图\n100/113\nP\nDraft Mode\nExplore at draft quality and refine with variations.\nConversational Mode\nRefine your prompt using text or voice.\nYour prompt was not submitted, you have reached the maximum number of prompts you can submit at once.",
+                            "folderText":  "100",
+                            "queued":  false,
+                            "promptTail":  true
+                        },
+    "job_id":  "2882a700-1ba0-43c4-b7a2-efb759a4ed2c",
+    "result_url":  "https://www.midjourney.com/jobs/2882a700-1ba0-43c4-b7a2-efb759a4ed2c?index=0",
+    "verification_evidence":  "MJ folder showed 120 completed of 120 submitted, queue clear, on 2026-10-18; individual detail page not checked"
+}

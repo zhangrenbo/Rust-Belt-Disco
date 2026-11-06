@@ -1,0 +1,32 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {Window} from 'happy-dom';
+import {readFile} from 'node:fs/promises';
+import {installUiLanguage,UI_LANGUAGE_KEY} from '../src/core/ui-language.js';
+
+test('UI language is reversible, survives dynamic updates and never rewrites story or saves',async()=>{
+  const window=new Window({url:'http://localhost/',settings:{disableJavaScriptFileLoading:true,disableCSSFileLoading:true,enableJavaScriptEvaluation:false}});
+  const {document}=window;
+  window.HTMLImageElement.prototype.decode=()=>Promise.reject(new Error('Simulated asset failure'));
+  document.write(await readFile(new URL('../index.html',import.meta.url),'utf8'));
+  window.localStorage.setItem('journey:01','original save bytes');
+  const source=document.querySelector('.settings-paper-tabs').textContent;
+  const story=document.createElement('p');story.textContent='公交车站：董点事的回忆';
+  document.querySelector('[data-view="station"]').append(story);
+  const api=installUiLanguage({window,document});
+  assert.equal(api.language,'zh');
+  api.setLanguage('en');
+  assert.match(document.querySelector('.settings-paper-tabs').textContent,/Music library/);
+  assert.equal(story.textContent,'公交车站：董点事的回忆');
+  const label=document.querySelector('[data-dossier-return]');label.textContent='← 返回设置';
+  await new Promise(resolve=>setTimeout(resolve,10));
+  assert.equal(label.textContent,'← Back to settings');
+  api.setLanguage('zh');
+  assert.equal(label.textContent,'← 返回设置');
+  assert.ok(document.querySelector('.settings-paper-tabs').textContent.startsWith(source));
+  assert.equal(window.localStorage.getItem('journey:01'),'original save bytes');
+  assert.equal(window.localStorage.length,2);
+  assert.equal(window.localStorage.getItem(UI_LANGUAGE_KEY),'zh');
+  assert.ok(!document.documentElement.classList.contains('ui-ink-dossier'),'failed English decoding must not hide the accessible fallback');
+  api.destroy();await window.happyDOM.abort();window.close();
+});

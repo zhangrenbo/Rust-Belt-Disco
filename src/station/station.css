@@ -1,0 +1,188 @@
+/* The original menu and paper UI remain in app.css. These rules are scoped to A000. */
+[hidden]{display:none!important}.view-station{background:#263d3a}.view-station::before{display:none}.station-world{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:crosshair}.station-background{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;pointer-events:none;user-select:none}.station-route{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.station-route ellipse{stroke:#f3e2b4;stroke-width:2;fill:#e8d8a533}.station-person{position:absolute;width:10.5%;height:21%;transform:translate(-50%,-91%);pointer-events:none;contain:layout style}.station-person img{position:absolute;width:100%;height:100%;object-fit:contain;transform-origin:50% 91%;filter:brightness(.83) saturate(.8);user-select:none}.station-person i{position:absolute;left:34%;bottom:5%;width:34%;height:6%;border-radius:50%;background:#132a2580;filter:blur(2px)}.station-player.facing-left img{transform:scaleX(-1)}.station-grandmother{width:9.6%;height:19.6%}.station-shadow{opacity:.36;transform:translate(-50%,-91%) skewX(-8deg)}.station-shadow img{filter:brightness(0)}.station-hotspot{position:absolute;transform:translate(-50%,-100%);z-index:920;padding:.45cqw .8cqw .5cqw;border:1px solid #c7c5a465;border-radius:2px;background:#172925c9;color:#eee2c5;font:1cqw/1.4 'KaiTi','STKaiti',serif;letter-spacing:.06em;cursor:pointer;white-space:nowrap;box-shadow:0 .2cqw .5cqw #0004}.station-hotspot::after{content:'';position:absolute;bottom:-.7cqw;left:50%;height:.6cqw;width:1px;background:#e0cfa899}.station-hotspot:hover,.station-hotspot:focus-visible{background:#eee0bd;color:#283c35}.station-heading{position:absolute;top:2cqw;left:3cqw;z-index:1000;color:#eee6cc;text-shadow:0 2px 9px #071c17;pointer-events:none}.station-heading span{font:.75cqw/1.3 'Microsoft YaHei UI',sans-serif;letter-spacing:.14em}.station-heading h1{margin:.65cqw 0 .45cqw;font:3.1cqw/1.1 'KaiTi','STKaiti',serif;letter-spacing:.16em}.station-heading p{margin:0;font:1cqw/1.5 'KaiTi',serif;color:#d5d5bc}.station-toolbar{position:absolute;z-index:1000;bottom:2.2cqw;right:3cqw;display:flex;gap:.8cqw}.station-toolbar button,.station-talk-resume{padding:.7cqw 1cqw;border:1px solid #b2b09599;background:#263831e8;color:#e1d9bd;font:1.1cqw/1.3 'KaiTi',serif;cursor:pointer}.station-toolbar kbd{font:.7cqw/1 monospace;opacity:.6;margin-left:.3cqw}.station-help{position:absolute;left:3cqw;bottom:1.1cqw;z-index:1000;color:#e3ddc8;text-shadow:0 1px 5px #102821;font:.7cqw/1.4 'Microsoft YaHei UI',sans-serif;pointer-events:none}#station-status{position:absolute;left:3cqw;bottom:3cqw;max-width:50cqw;margin:0;z-index:1000;font:1cqw/1.5 'KaiTi',serif;color:#fff3cb;text-shadow:0 1px 5px #15291c;pointer-events:none}.station-memory-shade{position:absolute;inset:0;background:#070b0b;z-index:950;opacity:0;pointer-events:none;transition:opacity .7s}.view-station.is-memory .station-memory-shade{opacity:.82}.view-station.is-memory .station-shadow{z-index:970!important;opacity:.6}
+/* Opening: the scene enters fully black, then slowly reveals once the night backdrop is ready. */
+.station-opening-fade{position:absolute;inset:0;z-index:1200;background:#000;opacity:1;pointer-events:none}
+.station-opening-fade.is-revealing{opacity:0;transition:opacity 2.2s cubic-bezier(.33,.02,.22,1) .5s}
+@media(prefers-reduced-motion:reduce){.station-opening-fade.is-revealing{transition:none}}.station-talk-resume{position:absolute;z-index:1001;bottom:7cqw;left:50%;transform:translateX(-50%)}
+/* Night opening: the lamp stays fixed; the second visibility pool follows the feet.
+   Keep this mask below interaction targets and the approved dialogue shell. */
+.view-station { background: #010306; }
+.station-night-shade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 900;
+  pointer-events: none;
+}
+.station-player img { filter: brightness(.58) saturate(.65); }
+.station-hotspot--grandmother,
+.station-hotspot--grandmother:hover,
+.station-hotspot--grandmother:focus-visible {
+  width: 8%;
+  height: 22%;
+  transform: translate(-50%, -20%);
+  padding: 0;
+  border: 0;
+  border-radius: 45%;
+  background: transparent;
+  box-shadow: none;
+}
+.station-hotspot--grandmother::after { display: none; }
+.station-hotspot--grandmother:focus-visible {
+  outline: 2px solid #fff0b6;
+  outline-offset: .4cqw;
+}
+.station-quest-marker {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  place-items: center;
+  width: 2.6cqw;
+  height: 3.5cqw;
+  color: #fff0b6;
+  font: 900 3.3cqw/1 Georgia, serif;
+  text-shadow: 0 2px 2px #25170e, 0 0 .8cqw #efb652a0;
+  pointer-events: none;
+}
+.station-hotspot--grandmother:hover .station-quest-marker {
+  color: #fffbed;
+  text-shadow: 0 2px 2px #25170e, 0 0 1cqw #ffd685;
+}
+.view-station.is-arrival .station-help { color: #c1b9a5; }
+/* Use the approved dialogue shell, choice strips, name slip and panel from app.css. */
+.station-talk {
+  position: fixed;
+  inset: 0;
+  width: 100cqw;
+  height: 56.25cqw;
+  max-width: none;
+  max-height: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  color: #e8e5da;
+  box-shadow: none;
+}
+.station-talk:not([open]) { display: none; }
+.station-talk::backdrop { background: transparent; }
+/* Playable conversations: compact original art, readable copy, centered reply group. */
+.station-talk .disco-dialog-panel {
+  left: 14cqw;
+  bottom: 1.5cqw;
+  width: 76cqw;
+  height: 13cqw;
+}
+.station-talk .disco-dialog-portrait {
+  left: 3cqw;
+  top: 27cqw;
+  width: 20cqw;
+}
+.station-talk .disco-speaker {
+  left: 3.5cqw;
+  top: 50cqw;
+  width: 21cqw;
+  height: 4.5cqw;
+}
+.station-talk .disco-speaker strong { font-size: clamp(16px, 1.5cqw, 29px); }
+.station-talk .disco-speaker small { font-size: clamp(7px, .55cqw, 11px); }
+.station-talk .disco-choices {
+  top: 50%;
+  bottom: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 53cqw;
+  grid-template-columns: minmax(0, 1fr);
+  gap: .5cqw;
+}
+.station-talk .disco-choice { height: 5cqw; }
+.station-talk .disco-choice button span {
+  font-family: 'SimSun', 'Songti SC', 'Noto Serif CJK SC', serif;
+  font-weight: 400;
+  font-size: clamp(14px, 1.4cqw, 27px);
+  line-height: 1.25;
+  letter-spacing: .035em;
+}
+.station-talk .disco-choice button::before { font-size: clamp(10px, .9cqw, 18px); }
+.station-talk .disco-close { right: 9cqw; top: 40cqw; width: 4.5cqw; height: 5.3cqw; }
+.station-talk .disco-continue { right: 14cqw; bottom: 2.5cqw; font-size: clamp(8px, .65cqw, 13px); letter-spacing: .1em; }
+.station-portrait { aspect-ratio: 583 / 823; }
+.station-portrait-frame { display: block; width: 100%; height: 100%; }
+.station-portrait-photo {
+  position: absolute;
+  left: 23.5%;
+  top: 23%;
+  width: 52.6%;
+  height: 52.3%;
+  object-fit: cover;
+  transform: rotate(-2deg);
+}
+.station-portrait-photo.is-shadow { filter: brightness(.12); }
+.station-dialogue-copy {
+  left: 27cqw;
+  top: auto;
+  bottom: 1.5cqw;
+  width: 57cqw;
+  height: 13cqw;
+  min-height: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font: 400 clamp(17px, 1.65cqw, 32px)/1.6 'SimSun', 'Songti SC', 'Noto Serif CJK SC', serif;
+  letter-spacing: .025em;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+}
+.station-dialogue-copy:focus-visible { outline: 1px solid #d1c7ad70; outline-offset: .3cqw; }
+#station-dialogue-text { white-space: pre; }
+.station-dialogue-measure { position: absolute; visibility: hidden; white-space: pre; pointer-events: none; }
+#station-line-next {
+  position: absolute;
+  z-index: 10;
+  right: 14cqw;
+  bottom: 2.5cqw;
+  padding: .2cqw .7cqw;
+  border: 0;
+  background: transparent;
+  color: #e8e5da;
+  font: 400 clamp(12px, 1cqw, 20px)/1.4 'SimSun', 'Songti SC', serif;
+  cursor: pointer;
+}
+#station-line-next:hover { color: #fff9e8; }
+#station-line-next:focus-visible { outline: 1px solid #d1c7ad; }
+.station-talk:has(#station-line-next:not([hidden])) .disco-continue { right: auto; left: 27cqw; }
+.station-talk .disco-choice small {
+  display: block;
+  margin-top: .15cqw;
+  color: #d2cbb7;
+  font: clamp(10px, .95cqw, 19px)/1.2 'Microsoft YaHei UI', sans-serif;
+}
+.view-station:has(.station-talk[open]) :is(.station-toolbar, .station-help, #station-status, #station-hotspots) { visibility: hidden; }
+.station-paper-dialog{width:min(600px,90vw);max-height:85vh;overflow:auto;padding:38px 40px;background:#d8d4c5;color:#343c30;border:7px solid #a8a68f;box-shadow:0 0 0 1px #e1dcc8,0 15px 80px #000b;font-family:'Microsoft YaHei UI',sans-serif}.station-paper-dialog::backdrop{background:#0a1612a6}.station-paper-dialog h2{font:29px/1.4 'KaiTi',serif;margin:0 0 20px;letter-spacing:.1em}.station-paper-dialog h3{font:20px/1.4 'KaiTi',serif}.station-paper-dialog p,.station-paper-dialog li{font-size:14px;line-height:1.9}.station-dialog-close{position:absolute;right:12px;top:8px;background:none;border:0;color:#545844;font-size:24px;cursor:pointer}.station-pause-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.station-pause-actions button,.station-completion button{border:1px solid #737c65;background:#364837;color:#eee1bc;padding:12px 18px;font:17px/1.3 'KaiTi',serif;cursor:pointer}.station-notebook-date{color:#7c755b;border-bottom:1px solid #7c755b55;padding-bottom:12px}.station-stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}#station-stats dl{margin:0}#station-stats div{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #66704e33;font-size:13px}#station-stats dd{font-weight:bold;color:#723e2e;margin-left:10px}.station-note-caption{color:#7a705b}.station-completion{position:absolute;inset:0;z-index:1100;background:#15251edb;color:#e6dbc0;display:grid;place-items:center}.station-completion>div{max-width:64%;text-align:center}.station-completion span{font:1cqw/1.4 'KaiTi',serif;color:#c5b389}.station-completion h2{font:2.5cqw/1.5 'KaiTi',serif;letter-spacing:.12em}.station-completion p{font:1.1cqw/1.9 'Microsoft YaHei UI',sans-serif}.station-completion .station-next{color:#9fa98e;font-size:.9cqw}.station-completion button{font-size:1.2cqw;margin:1.4cqw .5cqw 0}.event-center-menu .mainmenu-choice-continue img{width:11.05cqw;height:auto}
+@media(max-width:850px){.station-hotspot{font-size:clamp(10px,1.2cqw,14px)}.station-toolbar button{font-size:clamp(10px,1.2cqw,15px)}.station-help{font-size:clamp(8px,.7cqw,11px)}}
+.station-archive-return{position:absolute;z-index:30;right:3cqw;bottom:2cqw;background:#35443a;color:#e9debd;border:1px solid #9b9d84;padding:.7cqw 1.4cqw;font:1.2cqw/1.4 'KaiTi',serif;cursor:pointer}.station-slot-actions button:disabled{opacity:.45;cursor:not-allowed}
+.event-center-menu .mainmenu-choice-continue { transform: translateY(-15px); }
+
+@media (min-aspect-ratio: 1/1) and (max-aspect-ratio: 3/2) {
+  /* The playable world and SVG visibility mask share 1600x900 coordinates.
+     Center that world intact in the taller 4:3 canvas; the outer strips hold
+     the HUD instead of stretching the artwork or changing hit testing. */
+  .station-world {
+    top: 9.375cqw;
+    bottom: auto;
+    height: 56.25cqw;
+  }
+  .station-background { object-fit: contain; }
+  .station-heading { top: 2.5cqw; }
+  .station-talk { height: 75cqw; }
+  .station-talk .disco-dialog-portrait { top: 45cqw; }
+  .station-talk .disco-speaker { top: 68cqw; }
+  .station-talk .disco-close { top: 58cqw; }
+}
+.entry-card .entry-save-preview { position:absolute; z-index:1; left:8.3%; top:10%; width:27.2%; height:73%; object-fit:cover; border-radius:.4cqw; pointer-events:none; filter:sepia(.16) saturate(.7) brightness(.8); }
+@media(prefers-reduced-motion:reduce){.station-memory-shade{transition:none}}

@@ -1,0 +1,38 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-job-v1",
+    "project":  "东北迪斯科",
+    "id":  "ND-S22",
+    "name":  "镇西火场·封锁后的民房",
+    "kind":  "exterior",
+    "source_scene_id":  "ND-S22",
+    "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D game map of a Northeast Chinese industrial town in winter. No characters or people. Show the full connected walking surface, entrances, exits, wall thickness, furniture bases and traversable gaps. A recently burned single-storey brick house on the west edge of a Northeast Chinese town. Soot-blackened doorway, damaged window frames, wet scorched walls and scattered roof tiles. Police cordon spans the front yard, access lane enters from front left, neighboring intact house with snow on its roof at right. Show the whole exterior footprint and the relationship between door, lane and boundary fence. Realistic snow, damp concrete, worn brick, corroded metal, soft contact shadows, readable foreground and background depth. No signs with readable words. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people",
+    "status":  "rendered_visible",
+    "human_approved":  false,
+    "preflight":  {
+                      "ready":  true,
+                      "empty":  true,
+                      "folder":  true,
+                      "images":  0,
+                      "personalization":  "false",
+                      "visibility":  "hidden"
+                  },
+    "submitted_at":  "2026-10-18T05:29:49.408602+00:00",
+    "job_id":  "b35f85a1-2927-41ca-a4c0-765093906f71",
+    "result_url":  "https://www.midjourney.com/jobs/b35f85a1-2927-41ca-a4c0-765093906f71?index=0",
+    "verification_status":  "confirmed_visible",
+    "verification_attempt_at":  "2026-10-18T05:45:30.362153+00:00",
+    "verification_http_status":  200,
+    "verification_receipt_shape":  [
+                                       "success",
+                                       "failure"
+                                   ],
+    "verification_new_job_id":  "b35f85a1-2927-41ca-a4c0-765093906f71",
+    "verification_ui":  {
+                            "tail":  "grey sky, a winding road, a russian landscape, a field with tall grasses.\n+ use text\n--ar 66:41\n \nar 66:41\n--v 7\n \nv 7\nStyle Creator\nRerun\nUse\nTrash\nMore\nTo top\nLooking for more...\nLooking for more...\nfolder\n东北迪斯科参考图\n25/26\nP\nDraft Mode\nExplore at draft quality and refine with variations.\nConversational Mode\nRefine your prompt using text or voice.\nYour prompt was not submitted, you have reached the maximum number of prompts you can submit at once.",
+                            "folderText":  "25",
+                            "queued":  false,
+                            "promptTail":  false
+                        },
+    "prior_job_id":  "b81c2189-d6ef-4da1-a062-a72934a15bda",
+    "verification_evidence":  "2026-10-18 MJ folder count and direct job detail check; old API job_id alone is not proof of submission"
+}

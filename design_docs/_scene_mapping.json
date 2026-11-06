@@ -1,0 +1,2182 @@
+{
+  "D0": {
+    "A001": {
+      "old_code": "A001",
+      "sheet": "D0",
+      "prefix": "A",
+      "time": "",
+      "task_name": "直到大厦崩塌",
+      "scene_raw": "残破版，序章便利店",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "便利店",
+          "source": "whole_node",
+          "new_code": "A001_便利店"
+        }
+      ]
+    },
+    "A002_1": {
+      "old_code": "A002_1",
+      "sheet": "D0",
+      "prefix": "A",
+      "time": "",
+      "task_name": "一代人的葬礼",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "A002_未知"
+        }
+      ]
+    },
+    "B001V1": {
+      "old_code": "B001V1",
+      "sheet": "D0",
+      "prefix": "B",
+      "time": "1天-06时",
+      "task_name": "噩梦时分",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B001_未知"
+        }
+      ]
+    },
+    "B002V2": {
+      "old_code": "B002V2",
+      "sheet": "D0",
+      "prefix": "B",
+      "time": "",
+      "task_name": "冰山一角",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B004_未知"
+        }
+      ]
+    },
+    "B001V2": {
+      "old_code": "B001V2",
+      "sheet": "D0",
+      "prefix": "B",
+      "time": "1天-08时",
+      "task_name": "冰山之下",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B002_未知"
+        }
+      ]
+    },
+    "B002V1": {
+      "old_code": "B002V1",
+      "sheet": "D0",
+      "prefix": "B",
+      "time": "1天-10时",
+      "task_name": "冰山一角",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B003_未知"
+        }
+      ]
+    },
+    "B003V1": {
+      "old_code": "B003V1",
+      "sheet": "D0",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B005_未知"
+        }
+      ]
+    },
+    "C002：": {
+      "old_code": "C002：",
+      "sheet": "D0",
+      "prefix": "C",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "self_contained",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "C001_未知"
+        }
+      ]
+    },
+    "C003": {
+      "old_code": "C003",
+      "sheet": "D0",
+      "prefix": "C",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "C002_未知"
+        }
+      ]
+    },
+    "C004": {
+      "old_code": "C004",
+      "sheet": "D0",
+      "prefix": "C",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "C003_未知"
+        }
+      ]
+    }
+  },
+  "D1": {
+    "A003": {
+      "old_code": "A003",
+      "sheet": "D1",
+      "prefix": "A",
+      "time": "1天-06时",
+      "task_name": "新的一天",
+      "scene_raw": "叔叔家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A003_叔叔家"
+        }
+      ]
+    },
+    "A004": {
+      "old_code": "A004",
+      "sheet": "D1",
+      "prefix": "A",
+      "time": "1天-08时",
+      "task_name": "谋生与探索",
+      "scene_raw": "",
+      "type": "multi_route",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "修车铺",
+          "label": "【A路线-修车店】",
+          "source": "route",
+          "new_code": "A004_修车铺"
+        },
+        {
+          "scene": "家",
+          "label": "【B路线-留在家】",
+          "source": "route",
+          "new_code": "A005_家"
+        },
+        {
+          "scene": "便利店",
+          "label": "【C路线-去便利店】",
+          "source": "route",
+          "new_code": "A006_便利店"
+        },
+        {
+          "scene": "诊所",
+          "label": "【D路线-去诊所】",
+          "source": "route",
+          "new_code": "A007_诊所"
+        },
+        {
+          "scene": "派出所",
+          "label": "【E路线-去派出所】",
+          "source": "route",
+          "new_code": "A008_派出所"
+        }
+      ]
+    },
+    "A006": {
+      "old_code": "A006",
+      "sheet": "D1",
+      "prefix": "A",
+      "time": "1天-12时",
+      "task_name": "",
+      "scene_raw": "修车店/叔叔家/面馆",
+      "type": "route_variant",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "修车铺",
+          "label": "【修车店路线】",
+          "source": "route",
+          "new_code": "A009_修车铺"
+        },
+        {
+          "scene": "镇上",
+          "label": "【便利店/镇上路线】",
+          "source": "route",
+          "new_code": "A010_镇上"
+        },
+        {
+          "scene": "叔叔家",
+          "label": "【留在家/镇上路线】",
+          "source": "route",
+          "new_code": "A011_叔叔家"
+        }
+      ]
+    },
+    "A007": {
+      "old_code": "A007",
+      "sheet": "D1",
+      "prefix": "A",
+      "time": "1天-14时",
+      "task_name": "小镇午后",
+      "scene_raw": "镇子各处",
+      "type": "free_explore",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "东山坟地",
+          "label": "*去东山坟地看父亲",
+          "source": "explore",
+          "new_code": "A012_东山坟地"
+        },
+        {
+          "scene": "便利店",
+          "label": "*去废弃便利店",
+          "source": "explore",
+          "new_code": "A013_便利店"
+        },
+        {
+          "scene": "职高",
+          "label": "*去镇上的职高看看",
+          "source": "explore",
+          "new_code": "A014_职高"
+        },
+        {
+          "scene": "镇上",
+          "label": "*在镇上闲逛",
+          "source": "explore",
+          "new_code": "A015_镇上"
+        },
+        {
+          "scene": "家",
+          "label": "*回家",
+          "source": "explore",
+          "new_code": "A016_家"
+        }
+      ]
+    },
+    "A008": {
+      "old_code": "A008",
+      "sheet": "D1",
+      "prefix": "A",
+      "time": "1天-18时",
+      "task_name": "回家与少年心事",
+      "scene_raw": "叔叔家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A017_叔叔家"
+        }
+      ]
+    },
+    "A010": {
+      "old_code": "A010",
+      "sheet": "D1",
+      "prefix": "A",
+      "time": "1天-22时",
+      "task_name": "漫长的夜",
+      "scene_raw": "叔叔家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A018_叔叔家"
+        }
+      ]
+    },
+    "B003": {
+      "old_code": "B003",
+      "sheet": "D1",
+      "prefix": "B",
+      "time": "1天-06时",
+      "task_name": "噩梦时分",
+      "scene_raw": "李正家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "李正家",
+          "source": "whole_node",
+          "new_code": "B006_李正家"
+        }
+      ]
+    },
+    "B005": {
+      "old_code": "B005",
+      "sheet": "D1",
+      "prefix": "B",
+      "time": "1天-08时",
+      "task_name": "分岔路",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B007_未知"
+        }
+      ]
+    },
+    "B005_A 镇公安局": {
+      "old_code": "B005_A 镇公安局",
+      "sheet": "D1",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "镇公安局",
+      "type": "single",
+      "format": "self_contained",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B008_派出所"
+        }
+      ]
+    },
+    "B007 12:00 午间与午后": {
+      "old_code": "B007 12:00 午间与午后",
+      "sheet": "D1",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "self_contained",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B010_未知"
+        }
+      ]
+    },
+    "B009 18:00 裂痕与烈焰": {
+      "old_code": "B009 18:00 裂痕与烈焰",
+      "sheet": "D1",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "李正家→火灾现场",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "李正家",
+          "source": "whole_node",
+          "new_code": "B011_李正家"
+        }
+      ]
+    },
+    "B005_B 在家": {
+      "old_code": "B005_B 在家",
+      "sheet": "D1",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B009_未知"
+        }
+      ]
+    },
+    "B011 09:00—14:00 在家": {
+      "old_code": "B011 09:00—14:00 在家",
+      "sheet": "D1",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B013_未知"
+        }
+      ]
+    },
+    "B012 15:00 背叛": {
+      "old_code": "B012 15:00 背叛",
+      "sheet": "D1",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B014_未知"
+        }
+      ]
+    },
+    "B009_HOME": {
+      "old_code": "B009_HOME",
+      "sheet": "D1",
+      "prefix": "B",
+      "time": "1天-18时",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B012_未知"
+        }
+      ]
+    },
+    "C005": {
+      "old_code": "C005",
+      "sheet": "D1",
+      "prefix": "C",
+      "time": "",
+      "task_name": "今天的开始",
+      "scene_raw": "王少鹏的家/诊所",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "家",
+          "source": "whole_node",
+          "new_code": "C004_家"
+        }
+      ]
+    },
+    "C006": {
+      "old_code": "C006",
+      "sheet": "D1",
+      "prefix": "C",
+      "time": "",
+      "task_name": "悬壶济世",
+      "scene_raw": "中医抗癌馆",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C005_诊所"
+        }
+      ]
+    },
+    "C008": {
+      "old_code": "C008",
+      "sheet": "D1",
+      "prefix": "C",
+      "time": "1天-17时",
+      "task_name": "",
+      "scene_raw": "诊所/街上",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C006_诊所"
+        }
+      ]
+    },
+    "C009": {
+      "old_code": "C009",
+      "sheet": "D1",
+      "prefix": "C",
+      "time": "1天-21时",
+      "task_name": "烧伤的病人",
+      "scene_raw": "中医抗癌馆",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C007_诊所"
+        }
+      ]
+    }
+  },
+  "D2": {
+    "A011": {
+      "old_code": "A011",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-07时",
+      "task_name": "镇子上的消息",
+      "scene_raw": "叔叔家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A019_叔叔家"
+        }
+      ]
+    },
+    "A012": {
+      "old_code": "A012",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-09时",
+      "task_name": "选择今天的行动",
+      "scene_raw": "叔叔家门口",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A020_叔叔家"
+        }
+      ]
+    },
+    "A013_C 镇上闲逛——可选路线": {
+      "old_code": "A013_C 镇上闲逛——可选路线",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "镇上",
+      "type": "free_explore",
+      "format": "self_contained",
+      "new_nodes": [
+        {
+          "scene": "河边",
+          "label": "*去河边看看",
+          "source": "explore",
+          "new_code": "A021_河边"
+        },
+        {
+          "scene": "职高",
+          "label": "*去职高附近转转",
+          "source": "explore",
+          "new_code": "A022_职高"
+        },
+        {
+          "scene": "便利店",
+          "label": "*去便利店坐会儿",
+          "source": "explore",
+          "new_code": "A023_便利店"
+        }
+      ]
+    },
+    "A013_A": {
+      "old_code": "A013_A",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-10时",
+      "task_name": "火灾现场",
+      "scene_raw": "镇西民房废墟",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "火场",
+          "source": "whole_node",
+          "new_code": "A024_火场"
+        }
+      ]
+    },
+    "A013_B": {
+      "old_code": "A013_B",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-09时",
+      "task_name": "送表弟上学",
+      "scene_raw": "去职高的路上→职高门口",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "职高",
+          "source": "whole_node",
+          "new_code": "A025_职高"
+        }
+      ]
+    },
+    "A013_B2 | 门卫对话": {
+      "old_code": "A013_B2 | 门卫对话",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "self_contained",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "A026_未知"
+        }
+      ]
+    },
+    "A013_C": {
+      "old_code": "A013_C",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-10时",
+      "task_name": "镇上闲逛",
+      "scene_raw": "镇子各处",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "镇上",
+          "source": "whole_node",
+          "new_code": "A027_镇上"
+        }
+      ]
+    },
+    "A013_D": {
+      "old_code": "A013_D",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-10时",
+      "task_name": "叔叔的修车店",
+      "scene_raw": "修车店",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "修车铺",
+          "source": "whole_node",
+          "new_code": "A028_修车铺"
+        }
+      ]
+    },
+    "A013_E": {
+      "old_code": "A013_E",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "王少鹏的诊所",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "A029_诊所"
+        }
+      ]
+    },
+    "A013_F": {
+      "old_code": "A013_F",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "",
+      "task_name": "县医院",
+      "scene_raw": "县医院烧伤科",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "县医院",
+          "source": "whole_node",
+          "new_code": "A030_县医院"
+        }
+      ]
+    },
+    "A014": {
+      "old_code": "A014",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-12时",
+      "task_name": "午饭",
+      "scene_raw": "叔叔家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A033_叔叔家"
+        }
+      ]
+    },
+    "A015_MENU": {
+      "old_code": "A015_MENU",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-14时",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "free_explore",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "职高",
+          "label": "*去职高看看",
+          "source": "explore",
+          "new_code": "A036_职高"
+        },
+        {
+          "scene": "诊所",
+          "label": "*去王少鹏的诊所",
+          "source": "explore",
+          "new_code": "A037_诊所"
+        },
+        {
+          "scene": "县医院",
+          "label": "*去县医院看看那个被烧的人",
+          "source": "explore",
+          "new_code": "A038_县医院"
+        },
+        {
+          "scene": "家",
+          "label": "*回家等表弟放学",
+          "source": "explore",
+          "new_code": "A039_家"
+        }
+      ]
+    },
+    "A014_MSG": {
+      "old_code": "A014_MSG",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "A034_未知"
+        }
+      ]
+    },
+    "A015": {
+      "old_code": "A015",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-14时",
+      "task_name": "母亲的遗物",
+      "scene_raw": "叔叔家二楼/阁楼",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A040_叔叔家"
+        }
+      ]
+    },
+    "A016": {
+      "old_code": "A016",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-18时",
+      "task_name": "表弟放学",
+      "scene_raw": "叔叔家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A041_叔叔家"
+        }
+      ]
+    },
+    "A017": {
+      "old_code": "A017",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-20时",
+      "task_name": "叔叔的酒话",
+      "scene_raw": "叔叔家客厅",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A043_叔叔家"
+        }
+      ]
+    },
+    "A018": {
+      "old_code": "A018",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-22时",
+      "task_name": "母亲的歌",
+      "scene_raw": "叔叔家二楼，夜晚",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A044_叔叔家"
+        }
+      ]
+    },
+    "A016_MEET": {
+      "old_code": "A016_MEET",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "2天-18时",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "A042_未知"
+        }
+      ]
+    },
+    "B013": {
+      "old_code": "B013",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-06时",
+      "task_name": "",
+      "scene_raw": "李正家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "李正家",
+          "source": "whole_node",
+          "new_code": "B015_李正家"
+        }
+      ]
+    },
+    "B014": {
+      "old_code": "B014",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-08时",
+      "task_name": "",
+      "scene_raw": "镇公安局会议室",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B016_派出所"
+        }
+      ]
+    },
+    "B014_AFTER": {
+      "old_code": "B014_AFTER",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-08时（通报会后）",
+      "task_name": "",
+      "scene_raw": "镇公安局走廊",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B017_派出所"
+        }
+      ]
+    },
+    "B015": {
+      "old_code": "B015",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-10时",
+      "task_name": "",
+      "scene_raw": "镇公安局档案室",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B018_派出所"
+        }
+      ]
+    },
+    "B016_MSG": {
+      "old_code": "B016_MSG",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B020_未知"
+        }
+      ]
+    },
+    "B016": {
+      "old_code": "B016",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-12时",
+      "task_name": "",
+      "scene_raw": "公安局或镇上",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B021_派出所"
+        }
+      ]
+    },
+    "B017_A": {
+      "old_code": "B017_A",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-14时",
+      "task_name": "县医院",
+      "scene_raw": "县医院烧伤科",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "县医院",
+          "source": "whole_node",
+          "new_code": "B022_县医院"
+        }
+      ]
+    },
+    "B017_B": {
+      "old_code": "B017_B",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-14时",
+      "task_name": "诊所走访 [轻度交汇]",
+      "scene_raw": "王少鹏的中医抗癌馆",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "B023_诊所"
+        }
+      ]
+    },
+    "B017_C": {
+      "old_code": "B017_C",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-14时",
+      "task_name": "找老同事",
+      "scene_raw": "镇上/退休警员家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "镇上",
+          "source": "whole_node",
+          "new_code": "B024_镇上"
+        }
+      ]
+    },
+    "B017_D": {
+      "old_code": "B017_D",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-14时",
+      "task_name": "继续查档案",
+      "scene_raw": "公安局档案室",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B025_派出所"
+        }
+      ]
+    },
+    "B017_E": {
+      "old_code": "B017_E",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "职高",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "职高",
+          "source": "whole_node",
+          "new_code": "B026_职高"
+        }
+      ]
+    },
+    "B018": {
+      "old_code": "B018",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-18时",
+      "task_name": "回家",
+      "scene_raw": "李正家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "李正家",
+          "source": "whole_node",
+          "new_code": "B027_李正家"
+        }
+      ]
+    },
+    "B019": {
+      "old_code": "B019",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "2天-21时",
+      "task_name": "暗夜的发现",
+      "scene_raw": "公安局/李正家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B028_派出所"
+        }
+      ]
+    },
+    "C010_PRE": {
+      "old_code": "C010_PRE",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "",
+      "task_name": "血是浓的",
+      "scene_raw": "职高天台",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "职高",
+          "source": "whole_node",
+          "new_code": "C008_职高"
+        }
+      ]
+    },
+    "C010": {
+      "old_code": "C010",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "2天-08时",
+      "task_name": "消息",
+      "scene_raw": "王少鹏家/诊所",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C009_诊所"
+        }
+      ]
+    },
+    "C011": {
+      "old_code": "C011",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "2天-10时",
+      "task_name": "日常",
+      "scene_raw": "中医抗癌馆",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C010_诊所"
+        }
+      ]
+    },
+    "C012": {
+      "old_code": "C012",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "2天-14时",
+      "task_name": "哥的电话",
+      "scene_raw": "诊所",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C012_诊所"
+        }
+      ]
+    },
+    "C012_PHARMACY": {
+      "old_code": "C012_PHARMACY",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "C013_未知"
+        }
+      ]
+    },
+    "C012_HOSPITAL": {
+      "old_code": "C012_HOSPITAL",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "C014_未知"
+        }
+      ]
+    },
+    "C013": {
+      "old_code": "C013",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "2天-16时",
+      "task_name": "老奶奶的回访（可选）",
+      "scene_raw": "诊所或街上",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C015_诊所"
+        }
+      ]
+    },
+    "C014": {
+      "old_code": "C014",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "2天-18时",
+      "task_name": "晚上的选择",
+      "scene_raw": "诊所/镇上",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C016_诊所"
+        }
+      ]
+    },
+    "C015": {
+      "old_code": "C015",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "2天-22时",
+      "task_name": "深夜来客",
+      "scene_raw": "诊所/家",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C018_诊所"
+        }
+      ]
+    },
+    "A014：叔叔接到宏大电话": {
+      "old_code": "A014：叔叔接到宏大电话",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "A035_未知"
+        }
+      ]
+    },
+    "A013_A火场：": {
+      "old_code": "A013_A火场：",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "A031_未知"
+        }
+      ]
+    },
+    "A013_C镇上闲逛：": {
+      "old_code": "A013_C镇上闲逛：",
+      "sheet": "D2",
+      "prefix": "A",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "A032_未知"
+        }
+      ]
+    },
+    "B015旧档案：": {
+      "old_code": "B015旧档案：",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B019_未知"
+        }
+      ]
+    },
+    "B019夜间推理：": {
+      "old_code": "B019夜间推理：",
+      "sheet": "D2",
+      "prefix": "B",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "B029_未知"
+        }
+      ]
+    },
+    "C011诊所：": {
+      "old_code": "C011诊所：",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "C011_未知"
+        }
+      ]
+    },
+    "C014傍晚：": {
+      "old_code": "C014傍晚：",
+      "sheet": "D2",
+      "prefix": "C",
+      "time": "",
+      "task_name": "",
+      "scene_raw": "",
+      "type": "single",
+      "format": "multiline",
+      "new_nodes": [
+        {
+          "scene": "未知",
+          "source": "whole_node",
+          "new_code": "C017_未知"
+        }
+      ]
+    }
+  },
+  "D4": {
+    "A020": {
+      "old_code": "A020",
+      "sheet": "D4",
+      "prefix": "A",
+      "time": "4天-08时",
+      "task_name": "纵火余震",
+      "scene_raw": "火场/修车铺/镇上",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "火场",
+          "label": "*去D3夜火场看看",
+          "source": "explore",
+          "new_code": "A045_火场"
+        },
+        {
+          "scene": "面馆",
+          "label": "*去面馆",
+          "source": "explore",
+          "new_code": "A046_面馆"
+        },
+        {
+          "scene": "修车铺",
+          "label": "*去叔叔修车铺",
+          "source": "explore",
+          "new_code": "A047_修车铺"
+        },
+        {
+          "scene": "镇上",
+          "label": "*在镇上走走",
+          "source": "explore",
+          "new_code": "A048_镇上"
+        }
+      ]
+    },
+    "A021": {
+      "old_code": "A021",
+      "sheet": "D4",
+      "prefix": "A",
+      "time": "4天-14时",
+      "task_name": "朱启渲死讯",
+      "scene_raw": "各处",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "label": "*去找李正",
+          "source": "explore",
+          "new_code": "A049_派出所"
+        },
+        {
+          "scene": "县医院",
+          "label": "*去医院",
+          "source": "explore",
+          "new_code": "A050_县医院"
+        },
+        {
+          "scene": "镇上",
+          "label": "*找刘小红",
+          "source": "explore",
+          "new_code": "A051_镇上"
+        },
+        {
+          "scene": "叔叔家",
+          "label": "*回叔叔那/在镇上待着",
+          "source": "explore",
+          "new_code": "A052_叔叔家"
+        }
+      ]
+    },
+    "A022": {
+      "old_code": "A022",
+      "sheet": "D4",
+      "prefix": "A",
+      "time": "4天-20时",
+      "task_name": "Fire3·嫌疑人被烧",
+      "scene_raw": "叔叔家/外面",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "label": "*在叔叔家",
+          "source": "explore",
+          "new_code": "A053_叔叔家"
+        },
+        {
+          "scene": "外面",
+          "label": "*在外面",
+          "source": "explore",
+          "new_code": "A054_外面"
+        }
+      ]
+    },
+    "B022": {
+      "old_code": "B022",
+      "sheet": "D4",
+      "prefix": "B",
+      "time": "4天-08时",
+      "task_name": "信3·D3火场·与陈国涛对立",
+      "scene_raw": "家门口/派出所/火场",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "火场",
+          "label": "*去D3夜火场勘察",
+          "source": "explore",
+          "new_code": "B030_火场"
+        },
+        {
+          "scene": "镇上",
+          "label": "*找密码线索",
+          "source": "explore",
+          "new_code": "B031_镇上"
+        }
+      ]
+    },
+    "B023": {
+      "old_code": "B023",
+      "sheet": "D4",
+      "prefix": "B",
+      "time": "4天-14时",
+      "task_name": "朱启渲死亡·锁定嫌疑人",
+      "scene_raw": "派出所/各处",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B032_派出所"
+        }
+      ]
+    },
+    "B024": {
+      "old_code": "B024",
+      "sheet": "D4",
+      "prefix": "B",
+      "time": "4天-20时",
+      "task_name": "Fire3·嫌疑人被烧",
+      "scene_raw": "嫌疑人家附近/派出所",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "镇上",
+          "source": "whole_node",
+          "new_code": "B033_镇上"
+        }
+      ]
+    },
+    "C019": {
+      "old_code": "C019",
+      "sheet": "D4",
+      "prefix": "C",
+      "time": "4天-08时",
+      "task_name": "婚后第一天",
+      "scene_raw": "诊所二楼/诊所/镇上",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "label": "*去诊所开门",
+          "source": "explore",
+          "new_code": "C019_诊所"
+        },
+        {
+          "scene": "家",
+          "label": "*在家陪小燕",
+          "source": "explore",
+          "new_code": "C020_家"
+        },
+        {
+          "scene": "家",
+          "label": "*回复「为什么？」",
+          "source": "explore",
+          "new_code": "C021_家"
+        }
+      ]
+    },
+    "C020": {
+      "old_code": "C020",
+      "sheet": "D4",
+      "prefix": "C",
+      "time": "4天-14时",
+      "task_name": "朱启渲死讯·WSP反应",
+      "scene_raw": "诊所/各处",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "县医院",
+          "label": "*去看奶奶",
+          "source": "explore",
+          "new_code": "C022_县医院"
+        },
+        {
+          "scene": "师傅家",
+          "label": "*找师傅",
+          "source": "explore",
+          "new_code": "C023_师傅家"
+        }
+      ]
+    },
+    "C021": {
+      "old_code": "C021",
+      "sheet": "D4",
+      "prefix": "C",
+      "time": "4天-20时",
+      "task_name": "又一场火·小燕\"别出去\"",
+      "scene_raw": "家/诊所",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "家",
+          "source": "whole_node",
+          "new_code": "C024_家"
+        }
+      ]
+    }
+  },
+  "D5": {
+    "A023": {
+      "old_code": "A023",
+      "sheet": "D5",
+      "prefix": "A",
+      "time": "5天-08时",
+      "task_name": "深雾·最后的线索窗口",
+      "scene_raw": "职高/修车铺/各处",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "职高",
+          "label": "*去职高",
+          "source": "explore",
+          "new_code": "A055_职高"
+        },
+        {
+          "scene": "修车铺",
+          "label": "*去叔叔修车铺",
+          "source": "explore",
+          "new_code": "A056_修车铺"
+        },
+        {
+          "scene": "派出所",
+          "label": "*找李正",
+          "source": "explore",
+          "new_code": "A057_派出所"
+        }
+      ]
+    },
+    "A024": {
+      "old_code": "A024",
+      "sheet": "D5",
+      "prefix": "A",
+      "time": "5天-14时",
+      "task_name": "群架/日常",
+      "scene_raw": "修车铺/镇上",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "修车铺",
+          "source": "whole_node",
+          "new_code": "A058_修车铺"
+        }
+      ]
+    },
+    "A025": {
+      "old_code": "A025",
+      "sheet": "D5",
+      "prefix": "A",
+      "time": "5天-20时",
+      "task_name": "Fire4·防线内着火",
+      "scene_raw": "叔叔家/修车铺/外面",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A059_叔叔家"
+        }
+      ]
+    },
+    "B025": {
+      "old_code": "B025",
+      "sheet": "D5",
+      "prefix": "B",
+      "time": "5天-08时",
+      "task_name": "信4·纪律威胁",
+      "scene_raw": "家/派出所",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "家",
+          "source": "whole_node",
+          "new_code": "B034_家"
+        }
+      ]
+    },
+    "B026": {
+      "old_code": "B026",
+      "sheet": "D5",
+      "prefix": "B",
+      "time": "5天-14时",
+      "task_name": "保险箱/群架余波",
+      "scene_raw": "派出所",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B035_派出所"
+        }
+      ]
+    },
+    "B027": {
+      "old_code": "B027",
+      "sheet": "D5",
+      "prefix": "B",
+      "time": "5天-20时",
+      "task_name": "Fire4+老婆",
+      "scene_raw": "巡逻线/家",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "镇上",
+          "source": "whole_node",
+          "new_code": "B036_镇上"
+        }
+      ]
+    },
+    "C022": {
+      "old_code": "C022",
+      "sheet": "D5",
+      "prefix": "C",
+      "time": "5天-08时",
+      "task_name": "△○",
+      "scene_raw": "家/诊所",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "家",
+          "source": "whole_node",
+          "new_code": "C025_家"
+        }
+      ]
+    },
+    "C023": {
+      "old_code": "C023",
+      "sheet": "D5",
+      "prefix": "C",
+      "time": "5天-14时",
+      "task_name": "群架远观/诊所日常",
+      "scene_raw": "诊所/远处",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C026_诊所"
+        }
+      ]
+    },
+    "C024": {
+      "old_code": "C024",
+      "sheet": "D5",
+      "prefix": "C",
+      "time": "5天-20时",
+      "task_name": "Fire4·你知道是谁",
+      "scene_raw": "家/诊所",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "家",
+          "source": "whole_node",
+          "new_code": "C027_家"
+        }
+      ]
+    }
+  },
+  "D6": {
+    "A026": {
+      "old_code": "A026",
+      "sheet": "D6",
+      "prefix": "A",
+      "time": "6天-08时",
+      "task_name": "安静的早晨",
+      "scene_raw": "叔叔家/修车铺",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "修车铺",
+          "label": "*去修车铺帮叔叔",
+          "source": "explore",
+          "new_code": "A060_修车铺"
+        },
+        {
+          "scene": "镇上",
+          "label": "*去镇上走走",
+          "source": "explore",
+          "new_code": "A061_镇上"
+        },
+        {
+          "scene": "便利店废墟",
+          "label": "*去便利店旧址",
+          "source": "explore",
+          "new_code": "A062_便利店废墟"
+        }
+      ]
+    },
+    "A027": {
+      "old_code": "A027",
+      "sheet": "D6",
+      "prefix": "A",
+      "time": "6天-14时",
+      "task_name": "预言者之死",
+      "scene_raw": "镇上/老槐树",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "回忆",
+          "label": "*回忆D0",
+          "source": "explore",
+          "new_code": "A063_回忆"
+        },
+        {
+          "scene": "派出所",
+          "label": "*找李正",
+          "source": "explore",
+          "new_code": "A064_派出所"
+        }
+      ]
+    },
+    "A028": {
+      "old_code": "A028",
+      "sheet": "D6",
+      "prefix": "A",
+      "time": "6天-20时",
+      "task_name": "没有火光的夜晚",
+      "scene_raw": "叔叔家",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "叔叔家",
+          "source": "whole_node",
+          "new_code": "A065_叔叔家"
+        }
+      ]
+    },
+    "B028": {
+      "old_code": "B028",
+      "sheet": "D6",
+      "prefix": "B",
+      "time": "6天-08时",
+      "task_name": "无信的早晨",
+      "scene_raw": "宿舍/派出所",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "label": "*去派出所整理案件",
+          "source": "explore",
+          "new_code": "B037_派出所"
+        },
+        {
+          "scene": "修车铺",
+          "label": "*去找董点事交换最后的信息",
+          "source": "explore",
+          "new_code": "B038_修车铺"
+        }
+      ]
+    },
+    "B029": {
+      "old_code": "B029",
+      "sheet": "D6",
+      "prefix": "B",
+      "time": "6天-14时",
+      "task_name": "预言者死亡+最后调查",
+      "scene_raw": "镇上/派出所",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "镇上",
+          "source": "whole_node",
+          "new_code": "B039_镇上"
+        }
+      ]
+    },
+    "B030": {
+      "old_code": "B030",
+      "sheet": "D6",
+      "prefix": "B",
+      "time": "6天-20时",
+      "task_name": "没有火的夜晚",
+      "scene_raw": "宿舍/派出所",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "宿舍",
+          "source": "whole_node",
+          "new_code": "B040_宿舍"
+        }
+      ]
+    },
+    "C025": {
+      "old_code": "C025",
+      "sheet": "D6",
+      "prefix": "C",
+      "time": "6天-08时",
+      "task_name": "空白纸条",
+      "scene_raw": "家/诊所",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "label": "*去诊所开门",
+          "source": "explore",
+          "new_code": "C028_诊所"
+        },
+        {
+          "scene": "县医院",
+          "label": "*去看预言者遗体",
+          "source": "explore",
+          "new_code": "C029_县医院"
+        }
+      ]
+    },
+    "C026": {
+      "old_code": "C026",
+      "sheet": "D6",
+      "prefix": "C",
+      "time": "6天-14时",
+      "task_name": "最后的选择",
+      "scene_raw": "诊所后屋",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "诊所后屋",
+          "source": "whole_node",
+          "new_code": "C030_诊所后屋"
+        }
+      ]
+    },
+    "C027": {
+      "old_code": "C027",
+      "sheet": "D6",
+      "prefix": "C",
+      "time": "6天-20时",
+      "task_name": "最后一夜",
+      "scene_raw": "诊所/家",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "诊所",
+          "source": "whole_node",
+          "new_code": "C031_诊所"
+        }
+      ]
+    }
+  },
+  "D7": {
+    "A029": {
+      "old_code": "A029",
+      "sheet": "D7",
+      "prefix": "A",
+      "time": "7天-08时",
+      "task_name": "集体葬礼",
+      "scene_raw": "叔叔家/镇东空地",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "label": "*找李正",
+          "source": "explore",
+          "new_code": "A066_派出所"
+        },
+        {
+          "scene": "修车铺",
+          "label": "*回修车铺",
+          "source": "explore",
+          "new_code": "A067_修车铺"
+        },
+        {
+          "scene": "便利店",
+          "label": "*去便利店废墟",
+          "source": "explore",
+          "new_code": "A068_便利店"
+        }
+      ]
+    },
+    "A030": {
+      "old_code": "A030",
+      "sheet": "D7",
+      "prefix": "A",
+      "time": "7天-14时",
+      "task_name": "三线汇合·真相拼图",
+      "scene_raw": "修车铺/派出所",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "镇上",
+          "label": "*去镇上最后一次",
+          "source": "explore",
+          "new_code": "A069_镇上"
+        },
+        {
+          "scene": "修车铺",
+          "label": "*在修车铺等",
+          "source": "explore",
+          "new_code": "A070_修车铺"
+        }
+      ]
+    },
+    "A031": {
+      "old_code": "A031",
+      "sheet": "D7",
+      "prefix": "A",
+      "time": "7天-20时",
+      "task_name": "最终对决",
+      "scene_raw": "便利店废墟",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "便利店废墟",
+          "source": "whole_node",
+          "new_code": "A071_便利店废墟"
+        }
+      ]
+    },
+    "B031": {
+      "old_code": "B031",
+      "sheet": "D7",
+      "prefix": "B",
+      "time": "7天-08时",
+      "task_name": "最后一个工作日",
+      "scene_raw": "宿舍/镇东空地",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "label": "*回派出所整理证据",
+          "source": "explore",
+          "new_code": "B041_派出所"
+        },
+        {
+          "scene": "修车铺",
+          "label": "*去找董点事",
+          "source": "explore",
+          "new_code": "B042_修车铺"
+        },
+        {
+          "scene": "县医院",
+          "label": "*去医院查尸检结果（条件：D6要求了尸检）",
+          "source": "explore",
+          "new_code": "B043_县医院"
+        }
+      ]
+    },
+    "B032": {
+      "old_code": "B032",
+      "sheet": "D7",
+      "prefix": "B",
+      "time": "7天-14时",
+      "task_name": "所有证据指向同一人",
+      "scene_raw": "派出所/修车铺",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "source": "whole_node",
+          "new_code": "B044_派出所"
+        }
+      ]
+    },
+    "B033": {
+      "old_code": "B033",
+      "sheet": "D7",
+      "prefix": "B",
+      "time": "7天-20时",
+      "task_name": "最终对决",
+      "scene_raw": "便利店废墟",
+      "type": "single",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "便利店废墟",
+          "source": "whole_node",
+          "new_code": "B045_便利店废墟"
+        }
+      ]
+    },
+    "C028": {
+      "old_code": "C028",
+      "sheet": "D7",
+      "prefix": "C",
+      "time": "7天-08时",
+      "task_name": "葬礼——站在人群外面",
+      "scene_raw": "诊所后屋/镇东空地",
+      "type": "route_variant",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "诊所后屋",
+          "label": "【对奶奶说话——三个选择对应D6路线】",
+          "source": "route",
+          "new_code": "C032_诊所后屋"
+        }
+      ]
+    },
+    "C029": {
+      "old_code": "C029",
+      "sheet": "D7",
+      "prefix": "C",
+      "time": "7天-14时",
+      "task_name": "沉默还是开口",
+      "scene_raw": "诊所/各处",
+      "type": "free_explore",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "派出所",
+          "label": "*去找李正/董点事——说出真相",
+          "source": "explore",
+          "new_code": "C033_派出所"
+        },
+        {
+          "scene": "镇上",
+          "label": "*去找哥哥——最后一次见面",
+          "source": "explore",
+          "new_code": "C034_镇上"
+        }
+      ]
+    },
+    "C030": {
+      "old_code": "C030",
+      "sheet": "D7",
+      "prefix": "C",
+      "time": "7天-20时",
+      "task_name": "双生对决",
+      "scene_raw": "便利店废墟（或诊所后屋——如果不去）",
+      "type": "route_variant",
+      "format": "stub",
+      "new_nodes": [
+        {
+          "scene": "便利店废墟",
+          "label": "【如果选择去——C-揭发/C-对决路线】",
+          "source": "route",
+          "new_code": "C035_便利店废墟"
+        },
+        {
+          "scene": "诊所后屋",
+          "label": "【如果选择不去——C-沉默路线】",
+          "source": "route",
+          "new_code": "C036_诊所后屋"
+        }
+      ]
+    }
+  }
+}

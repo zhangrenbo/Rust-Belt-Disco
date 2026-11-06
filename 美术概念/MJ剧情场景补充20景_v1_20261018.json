@@ -1,0 +1,568 @@
+{
+  "schema": "northeast-disco-mj-story-scenes-gap-v1",
+  "created": "2026-10-18",
+  "basis": "content/story/source-documents/场景地图.md and 美术概念/MJ剧情场景40景雪夜_v1_20260917.json",
+  "direction": "winter orthographic 45 degree photorealistic 3D UE5 quality; D7 cold rain",
+  "folder": {
+    "id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+    "name": "东北迪斯科参考图"
+  },
+  "params": {
+    "ar": "16:9",
+    "raw": true,
+    "v": "8.1",
+    "relax": true,
+    "personalization": false,
+    "style_references": []
+  },
+  "scenes": [
+    {
+      "id": "ND-S41",
+      "map_id": "S01",
+      "name": "叔叔家客厅·主要室内枢纽",
+      "day": "D1–D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Roof and near wall removed from a modest working-class Northeast Chinese home living room. Worn sofa against the left wall, old CRT television opposite, family photograph of two factory-worker brothers at the rear, doorway to kitchen on the left, staircase to the upstairs bedrooms on the right, front door opening to the same small courtyard as scene ND-S09. Leave continuous walking routes between all three exits. An adult uncle in a padded jacket sits on the sofa with an enamel tea mug. Late winter afternoon, pale light through courtyard-facing windows, warm lamp beside the sofa, thin snow visible beyond the front door. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "2726f947-7eaa-405f-93a0-1138e3b2acfc",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:11:19.123795+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/2726f947-7eaa-405f-93a0-1138e3b2acfc?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"2726f947-7eaa-405f-93a0-1138e3b2acfc\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, PBR materials. Roof and near wall removed from a modest working class Northeast Chinese home living room. Worn sofa ag",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S42",
+      "map_id": "S01",
+      "name": "叔叔家厨房·灶台与院门",
+      "day": "D1–D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Cutaway of the small kitchen joined to the uncle home living room. White lower ceramic wall tiles, coal stove, dented aluminum pots, enamel basin, narrow dining counter, open doorway at right to the living room and service door at front left to the courtyard from scene ND-S09. One aunt in a thick cardigan carries a pot toward the stove. Keep both doors and the floor passage clear. Cold winter morning through the courtyard door, warm stove and ceiling bulb, snow just beyond the threshold. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "ebe55906-e118-417f-b86f-3e9de299c54a",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:11:32.088004+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/ebe55906-e118-417f-b86f-3e9de299c54a?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"ebe55906-e118-417f-b86f-3e9de299c54a\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based surface shading, bounced light, soft contact shadows. Cutaway small kitchen adjoining a home living r",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S43",
+      "map_id": "S01",
+      "name": "叔叔家阁楼·母亲遗物",
+      "day": "D2",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Small dusty attic above the uncle family house, accessible from a narrow stair at front right. Low sloping rafters, two stacked trunks, cloth-wrapped cardboard boxes, an old factory-worker suitcase, family photographs and a folded coat laid on a wooden crate. No legible written text. One young adult man in a dark padded coat kneels beside an open box. Preserve access to the stair and a small rear window. Late winter daylight enters the little window, faint dust in the beam, snow on the roof outside, no theatrical spotlight. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "c60f3fce-25ed-4b50-93a0-86a207515769",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:11:44.407231+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/c60f3fce-25ed-4b50-93a0-86a207515769?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"c60f3fce-25ed-4b50-93a0-86a207515769\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera, parallel edges remain parallel, no vanishing points, no perspective foreshortening, identical objects retain same scale near and far. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Small dusty attic above a family house, ",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S44",
+      "map_id": "S02",
+      "name": "省道修车店外空地·通往叔叔家",
+      "day": "D1–D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Exterior of the corrugated metal roadside tire repair shed from scene ND-S08. Open work bay at left, stacked truck tires and a small sign frame by the entrance, gravel forecourt with one parked motorcycle, two-lane provincial road beyond, footpath toward the uncle family courtyard at right. Keep the connection between road, shed, and house legible. One bundled mechanic rolls a tire across the forecourt. Overcast winter daytime, thin snow along road edges, wet tire tracks and grey slush, clear near-ground navigation. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "b656c4e0-9aea-4442-87e4-3e80f391a4a3",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:11:55.636220+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/b656c4e0-9aea-4442-87e4-3e80f391a4a3?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"b656c4e0-9aea-4442-87e4-3e80f391a4a3\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera, parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Exterior of a corrugated metal roadside tire repair shed: open work bay at left, stacked t",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S45",
+      "map_id": "S05",
+      "name": "公安局大厅·接待入口",
+      "day": "D1–D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Roofless cutaway of the entrance lobby of an older three-storey Chinese small-town police station. Glass front door at front, plain reception counter left, benches and notice boards along the right wall, central corridor leading toward the office area of scene ND-S11, stairs at back right. No readable text or emblems. One bundled visitor speaks with a desk officer. Open walking route from the front door to corridor and stair. Cold winter daylight at the entrance, ordinary fluorescent ceiling light, damp boot marks near the door. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "e9172aac-6aa6-40ea-9351-ee20ceb94454",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:12:08.247395+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/e9172aac-6aa6-40ea-9351-ee20ceb94454?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"e9172aac-6aa6-40ea-9351-ee20ceb94454\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera, no vanishing points, no perspective foreshortening, parallel edges remain parallel, identical objects same scale near and far. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Roofless cutaway, entrance lobby of an older th",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S46",
+      "map_id": "S05",
+      "name": "公安局会议室·案情通报",
+      "day": "D2",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Police station meeting room beside the corridor from scene ND-S11. Long rectangular table with simple chairs, folders and enamel mugs, district map pinned on rear wall without readable labels, plain whiteboard at left without legible text, door at front right back to the corridor. Three adult Chinese officers in winter work clothes sit spaced along the table discussing files, faces secondary to the spatial layout. Overcast winter daylight through two windows, cool fluorescent light and quiet grey-green walls. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "dcefa262-f3b8-49fb-87ad-451403e697e6",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:12:18.525495+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/dcefa262-f3b8-49fb-87ad-451403e697e6?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"dcefa262-f3b8-49fb-87ad-451403e697e6\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera, parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Police station meeting room adjoining corridor. Long rectangular table with simple chairs,",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S47",
+      "map_id": "S05",
+      "name": "公安局楼下停车场·私下会面",
+      "day": "D2–D6",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Small outdoor parking court directly below the old police station from scenes ND-S11 and ND-S45. Rear building entrance, short concrete stair, three worn parked cars and one motorcycle, fence and gate to town street. Two adult men in dark winter coats speak beside the farthest car while keeping a clear path between stair, gate and corridor entrance. Winter evening after light snow, sodium streetlamp reflected in damp asphalt, distant town fog restrained. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "ad66dff4-1410-420b-bf57-cdc8d483f008",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:12:30.367179+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/ad66dff4-1410-420b-bf57-cdc8d483f008?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"ad66dff4-1410-420b-bf57-cdc8d483f008\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Small outdoor parking court behind an old police station. Rear building entrance, short co",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S48",
+      "map_id": "S06",
+      "name": "李正家客厅与厨房·家庭日常",
+      "day": "D1–D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Cutaway of the modest apartment connected to the bedroom from scene ND-S13. Small living room with worn sofa, low tea table, family photograph and coat rack; tiny practical kitchen through an open doorway at left with breakfast table, kettle and enamel bowls; bedroom doorway at rear right and entrance at front. One fully clothed adult woman prepares tea in the kitchen, one adult man hangs a winter coat near the entrance. Pale winter morning window light with one warm kitchen bulb, no dream or apparition. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "d584e20e-74f7-4dcd-bde4-5eeacef8c508",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:12:38.826857+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/d584e20e-74f7-4dcd-bde4-5eeacef8c508?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"d584e20e-74f7-4dcd-bde4-5eeacef8c508\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening; identical objects retain identical scale near and far. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Cutaway of a modest apartment: smal",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S49",
+      "map_id": "S07",
+      "name": "镇中心十字路口·空间枢纽",
+      "day": "D1–D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Orthographic view of the main Northeast Chinese small-town crossroads connecting four walkable streets. Worn two-storey shops, bus stop direction on one branch, clinic direction on another, road toward police station, and pedestrian lane toward the burned family shop. Traffic light, patched asphalt, snowbanks kept off the walking routes. Two bundled pedestrians cross at different corners, no crowd. Late winter overcast daylight, sparse snow, wet road, clear silhouettes and navigable sight lines. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "a45b34fe-b9d3-4e73-94ff-f5941de5b06d",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:12:48.982979+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/a45b34fe-b9d3-4e73-94ff-f5941de5b06d?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"a45b34fe-b9d3-4e73-94ff-f5941de5b06d\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Northeast Chinese small town crossroads connecting four walkable streets. Worn two storey ",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S50",
+      "map_id": "S07",
+      "name": "供销社·主街旁旧商店",
+      "day": "D1–D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Exterior and shallow cutaway of an old supply cooperative store on the same town main street as scenes ND-S18 and ND-S19. Faded sign area without readable characters, broad shop doorway, old wooden counter and shelves just inside, small alley at right linking back to the crossroads. One bundled shopkeeper stands behind the counter, one passerby approaches from the street. Keep both shop entry and alley open. Clear winter daytime before the later heavy fog, dry snow along curb, cool natural light with restrained warm interior bulbs. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted_queue_job_id_pending",
+      "job_id": null,
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:12:57.502409+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0,
+        "job_ids_found": []
+      },
+      "queue_verified_at": "2026-10-18T05:13:33.164047+00:00",
+      "recovery_note": "Midjourney Create grid showed matching supply cooperative prompt and Queued after missing submit receipt; do not resubmit. Recover job_id from finished grid.",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S51",
+      "map_id": "S09",
+      "name": "东山坟地·旧墓区",
+      "day": "D2–D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Older section of the East Hill cemetery adjoining the father grave area from scene ND-S20. Uneven stone steps enter from the front, weathered small graves among leafless trees, low retaining wall and a distant view down toward the newer graves. No readable inscriptions. One adult visitor in a padded coat walks between graves with hands at sides. Keep a visible path back to the new grave section. Winter afternoon, snow caught on stone edges, low grey sky and quiet diffuse light. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "2c396783-58c9-41cc-b115-03bb6c881587",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:13:35.815377+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/2c396783-58c9-41cc-b115-03bb6c881587?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"2c396783-58c9-41cc-b115-03bb6c881587\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Older East Hill cemetery section adjoining a newer grave area. Uneven weathered stone step",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S52",
+      "map_id": "S10",
+      "name": "职高校内教学楼·通往天台",
+      "day": "D2–D5",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Cutaway of a modest Chinese vocational school inner courtyard and ground-floor corridor, beyond the locked gate from scene ND-S28. Classroom doors on the left, stairwell toward roof access at rear, plain workshop doorway on the right, fence and gate visible toward the front. Two fully clothed students in winter jackets cross the courtyard. Clear path from gate to stair and classroom corridor. Cloudy winter daytime, patches of snow along courtyard walls, ordinary fluorescent light inside corridor. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "1e4b7fa9-fc54-4073-bbc7-393a4a82b7fc",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:13:45.147318+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/1e4b7fa9-fc54-4073-bbc7-393a4a82b7fc?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"1e4b7fa9-fc54-4073-bbc7-393a4a82b7fc\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Cutaway of a modest Chinese vocational school inner courtyard and ground floor corridor. C",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S53",
+      "map_id": "S11",
+      "name": "县医院走廊·烧伤科门外",
+      "day": "D2–D4",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Long older county hospital corridor leading to the burn ward from scene ND-S23. Reception counter at near left, metal bench on the right, closed ward door at the far end with a plain guard chair beside it, stair door at front right. No readable signs. One seated attendant in winter uniform watches the corridor while one adult visitor carrying a coat waits near the bench. Keep route to ward and stair legible. Cold winter daylight through high windows, fluorescent ceiling tubes, clean but worn cream and green surfaces. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "632d4ae0-6599-4610-8831-f7038549e124",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:13:53.307723+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/632d4ae0-6599-4610-8831-f7038549e124?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"632d4ae0-6599-4610-8831-f7038549e124\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera, parallel edges remain parallel, no vanishing points, no perspective foreshortening, identical objects retain same scale near and far. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Older county hospital corridor leading t",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S54",
+      "map_id": "S13",
+      "name": "婚礼饭店门口·入场",
+      "day": "D3",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Exterior entrance to a modest small-town wedding restaurant, leading directly into the banquet hall from scene ND-S30. Shallow steps, plain glass doors, cloth wedding decorations without readable writing, courtyard parking at left and a side passage at right toward the service rooms. A small group of bundled adult guests enters; no crowd blocking doors or side passage. Winter afternoon with thickening fog and snow piled beside the steps, warm indoor light visible through glass. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "a1792896-fd25-4e6b-a15a-0263c27389a5",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:14:02.031565+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/a1792896-fd25-4e6b-a15a-0263c27389a5?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"a1792896-fd25-4e6b-a15a-0263c27389a5\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Exterior entrance to a modest small town wedding restaurant leading into a banquet hall. S",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S55",
+      "map_id": "S13",
+      "name": "婚礼后屋·奶奶所在房间",
+      "day": "D3",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Quiet back room behind the wedding banquet hall, reachable by a service passage from scene ND-S30. Single bed against left wall, wooden chair and small bedside table, enamel basin, folded coat, little rear window, fabric curtain at the doorway. An elderly woman in a thick cardigan rests seated on the bed while one adult man in a winter shirt stands by the chair. Doorway and space around the bed clear; no medical apparatus or spectacle. Muted winter daylight through the small window, distant warm banquet light from the passage, gentle shadows. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "f7b69aa2-bb0a-4845-b5fd-220641ff032d",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:14:10.572710+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/f7b69aa2-bb0a-4845-b5fd-220641ff032d?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"f7b69aa2-bb0a-4845-b5fd-220641ff032d\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Quiet back room behind a wedding banquet hall, accessed via a service passage. Full playab",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S56",
+      "map_id": "S14",
+      "name": "便利店旁胡同深处·夜间调查",
+      "day": "D3",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Deep end of the narrow brick alley connecting to the burned convenience shop exterior from scenes ND-S04 and ND-S32. Shop wall and rear service doorway at left, boundary wall at right, old utility pole and drainage channel leading to the back, dead-end fence far away. Empty of people, no violence or victim. Maintain a visible walkable corridor from the street entry to the far end. Late winter night, dense drifting fog, patchy snow and wet brick, one distant streetlamp with restrained light. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "b775b2da-e34a-411a-90ce-5e086a7693b5",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:14:19.614121+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/b775b2da-e34a-411a-90ce-5e086a7693b5?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"b775b2da-e34a-411a-90ce-5e086a7693b5\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Narrow brick alley, deep end connecting to a burned convenience shop exterior. Shop wall a",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S57",
+      "map_id": "S16",
+      "name": "镇东河边空地·D7水位",
+      "day": "D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Open ground at the east edge of the town beside the swollen river, connected to the main street by one raised muddy path. Wide bank, low embankment, leafless trees and funeral area position from scene ND-S39 visible at a distance but without a duplicate canopy. Waterline clearly high against the embankment; broad free space for player movement. Empty of people. Cold heavy night rain after fog clears, wind-ruffled river water, pale storm cloud and restrained town lights, no snow falling. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted_queue_job_id_pending",
+      "job_id": null,
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:14:28.421768+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0,
+        "job_ids_found": []
+      },
+      "queue_verified_at": "2026-10-18T05:14:54.905401+00:00",
+      "recovery_note": "Midjourney Create grid showed matching swollen river prompt and Queued after missing submit receipt; do not resubmit. Recover job_id from finished grid.",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S58",
+      "map_id": "S17",
+      "name": "刘小红母亲家门口·街巷入口",
+      "day": "D4–D5",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Exterior of the modest east-town home whose interior appears in scene ND-S34. Narrow brick lane at front, worn gate, two entrance steps, low wall, small window with curtains and a side route back toward the main street. One middle-aged woman in a padded winter coat stands at the half-open door speaking to one adult visitor outside. Keep the gate and lane passable. Winter late afternoon with dense fog between buildings, damp stone steps and snow remnants by wall base. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "7d8eaca5-3405-41de-a5d6-d3d4bfe68079",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:15:00.018675+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/7d8eaca5-3405-41de-a5d6-d3d4bfe68079?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"7d8eaca5-3405-41de-a5d6-d3d4bfe68079\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based surface shading, bounced light, soft contact shadows. Exterior of a modest east town brick home. Narr",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S59",
+      "map_id": "S04",
+      "name": "王氏中医馆门面·前后入口",
+      "day": "D1–D7",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. Exterior of the small traditional medicine clinic whose front room is scene ND-S14 and back room is scene ND-S15. Street-facing wooden shop door, front windows revealing medicine drawers, narrow side passage to a rear service door, upstairs apartment window above. Adjacent low shops connect it to the town main street. One adult patient in a padded coat approaches the front door. Keep front entry and side passage distinct. Overcast winter daytime, thin snow along curb, modest warm interior light behind glass. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "650c3e51-c6c6-4009-8519-bfb48c0a8176",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:15:09.083395+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/650c3e51-c6c6-4009-8519-bfb48c0a8176?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"650c3e51-c6c6-4009-8519-bfb48c0a8176\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Exterior of a small traditional medicine clinic: street facing wooden shop door, front win",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    },
+    {
+      "id": "ND-S60",
+      "map_id": "S07",
+      "name": "D6主街·无火无信的空镇",
+      "day": "D6",
+      "source": "content/story/source-documents/场景地图.md",
+      "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the scene. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. Complete playable area visible with connected paths, clear entrances and solid architectural depth. The same Northeast town main street footprint as scenes ND-S18 and ND-S19, with the cooperative storefront, clinic turnoff and crossroads aligned consistently. No pedestrians or traffic. Bare trees, closed shutters, uncollected snow along curbs, clear central walking route. A single empty chair near a storefront, no supernatural figure. Very late winter dusk, fog thinning after several dense days, cold blue-grey light and a few ordinary streetlamps. Realistic damp concrete, worn wood, corroded metal and rough brickwork as applicable, physically based surface shading, bounced light and soft contact shadows. Natural subdued winter colors, clear readable walking area. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+      "status": "accepted",
+      "job_id": "50a98eca-2c52-442b-8e31-bea925b5d0a5",
+      "variants": [],
+      "grouped": false,
+      "human_review": "pending",
+      "preflight": {
+        "folder": true,
+        "images": 0,
+        "personalization": "false"
+      },
+      "submitted_at": "2026-10-18T05:15:17.182489+00:00",
+      "submit_receipt": {
+        "http": 200,
+        "collections_snapshots": 0
+      },
+      "result_url": "https://www.midjourney.com/jobs/50a98eca-2c52-442b-8e31-bea925b5d0a5?index=0",
+      "service_rephrased_prompt": "{\"success\": [{\"job_id\": \"50a98eca-2c52-442b-8e31-bea925b5d0a5\", \"prompt\": \"Strict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Northeast town main street footprint matching scenes ND S18/ND S19: cooperative storefront",
+      "camera_review": "pending_individual_visual_audit",
+      "integration_allowed": false
+    }
+  ],
+  "camera_calibration": {
+    "status": "user_reported_camera_drift_20261018",
+    "reference": "美术概念/固定机位_正交45度_场景构图参考.png",
+    "note": "Prompt text alone did not lock the camera. Do not bulk rerun or integrate until visual calibration.",
+    "visual_pass": false
+  }
+}

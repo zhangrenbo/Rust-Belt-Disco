@@ -1,0 +1,163 @@
+{
+  "request": [
+    "继续加浓边缘橙色和色散",
+    "设置页显示主页老动画质感"
+  ],
+  "changes": "Warm soft-light opacity 1 with stronger localized orange; existing shared film layers calibrated for pale paper, no new timer and no artwork motion.",
+  "qa": {
+    "transport": "fixed work Chrome, direct CDP 9223, task-created background target",
+    "storage": "isolated memory; user data untouched",
+    "viewport": [
+      844,
+      475
+    ],
+    "screenshot": "E:\\东北迪斯科\\docs\\settings-film-color-844.png",
+    "menuFilm": {
+      "quality": "enhanced",
+      "film": "on",
+      "filmMotion": "on",
+      "musicState": "suspended",
+      "musicTrack": "menu",
+      "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)"
+    },
+    "layout": {
+      "lights": [
+        {
+          "display": "block",
+          "z": "6",
+          "pointer": "none",
+          "blend": "multiply",
+          "background": "linear-gradient(155deg, rgba(140, 145, 136, 0.4), rgba(83, 103, 97, 0.61) 73%, rgba(48, 76, 70, 0.62))"
+        },
+        {
+          "display": "block",
+          "z": "7",
+          "pointer": "none",
+          "blend": "soft-light",
+          "background": "linear-gradient(105deg, rgba(0, 0, 0, 0) 0%, rgba(244, 156, 56, 0.4) 9%, rgb(255, 121, 0) 20%, rgba(255, 181, 50, 0.533) 40%, rgba(255, 158, 18, 0.5) 65%, rgba(0, 0, 0, 0) 84%)"
+        }
+      ],
+      "buttons": [
+        {
+          "name": "返回",
+          "hit": true
+        },
+        {
+          "name": "音乐库",
+          "hit": true
+        },
+        {
+          "name": "人物档案",
+          "hit": true
+        },
+        {
+          "name": "自动窗口",
+          "hit": true
+        },
+        {
+          "name": "手动窗口",
+          "hit": true
+        },
+        {
+          "name": "全屏模式",
+          "hit": true
+        },
+        {
+          "name": "性能",
+          "hit": true
+        },
+        {
+          "name": "平衡",
+          "hit": true
+        },
+        {
+          "name": "增强",
+          "hit": true
+        },
+        {
+          "name": "开启",
+          "hit": true
+        },
+        {
+          "name": "胶片强度",
+          "hit": true
+        },
+        {
+          "name": "动态开",
+          "hit": true
+        },
+        {
+          "name": "语音音量",
+          "hit": true
+        },
+        {
+          "name": "音乐音量",
+          "hit": true
+        },
+        {
+          "name": "音效音量",
+          "hit": true
+        },
+        {
+          "name": "关闭",
+          "hit": true
+        },
+        {
+          "name": "关闭",
+          "hit": true
+        },
+        {
+          "name": "恢复默认",
+          "hit": true
+        },
+        {
+          "name": "应用设置",
+          "hit": true
+        }
+      ],
+      "occlusion": {
+        "width": "25.3125px",
+        "height": "109.719px",
+        "left": "124.912px",
+        "top": "130.82px"
+      },
+      "film": "on",
+      "motion": "on",
+      "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)",
+      "grainOpacity": "0.39",
+      "footerBackgrounds": [
+        "rgba(0, 0, 0, 0)",
+        "rgba(0, 0, 0, 0)"
+      ]
+    },
+    "motion": {
+      "grainFrames": 91,
+      "dustFrames": 110,
+      "scratchFrames": 8,
+      "artAndTextStable": true
+    },
+    "checks": [
+      "all visible controls reachable",
+      "light layers do not intercept input",
+      "same film pass as main menu",
+      "bottom actions keep transparent backgrounds",
+      "grain moves; dust and scratches appear",
+      "artwork and text remain stable",
+      "music library opens and returns without dossier lighting",
+      "personnel dossier opens and Escape returns",
+      "film and motion switches still work",
+      "Return goes to main menu"
+    ],
+    "errors": [],
+    "humanArtReview": "pending"
+  },
+  "build": "passed; D:/CodexData/home/settings-light-build",
+  "httpCurrent": true,
+  "hashes": {
+    "app.css": "520e5ba6398bbeaa48a2dccc9440c6b665e7dd13faf5ff4b545ab287c89537c5",
+    "src/core/retro-film.css": "6bd5e5e3f851a869bd1fdd538114b9e7435d0b9bdf3f6edc965b01003437095f",
+    "src/core/retro-film.js": "f3408d2d4436e749a59de56d46cfa86dab1fd8616c5a5a735d2a2bc27f386849",
+    "public/assets/settings-shadow-penumbra.svg": "8e18218a2bf26f9209fa45deb7e388091bda83952d8ec2e245262020919ca595"
+  },
+  "humanArtReview": "pending"
+}

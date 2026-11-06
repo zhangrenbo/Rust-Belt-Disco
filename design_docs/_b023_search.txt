@@ -1,0 +1,60 @@
+Total hits for 'B023': 5
+  path=/42390a41/721bde9a/e943462cb742b87e
+  title=【如果李正NPC也来了诊所——极罕见三线同场】 条件：董点事在诊所 + 李正（NPC）下午选了B023_诊所来走访 → 门开了，李正走进来。 → 三个人在一个小
+
+  path=/42390a41/b04d0801/268dfcb9/4221daf758ca9f0a
+  title=*去王少鹏的诊所走访（他是第一个接诊的人） → B023_诊所 [轻度交汇点]
+
+  path=/42390a41/b04d080107850290
+  title=B023_诊所
+
+  path=/42390a41/b04d0801/ca37a84a/84689e718d317b3e
+  title=如果下午去了诊所（B023_诊所）： 你想起下午在王少鹏诊所看到的。 帘子后面的老人——十几年的植物人。 一个卖假药的人在认真照顾一个植物人。 他紧张是因为你是
+
+  path=/42390a41/0d9c8b5d/d5e6ef76/60f0496ac03b798b
+  title=如果李正（NPC）来了诊所（B023_诊所）： → 已有设计，警察上门走访 → 心跳加速。他是来查案的。他会不会查到哥哥？ → 取决于D1选择：    如果D1
+
+
+D2 top-level branches (first 3):
+  [0] id=721bde9a title=玩家扮演董点事 第二天全天 NPC默认：李正正常上班→勘察现场→查旧案→走访；王少鹏开诊所→接待走访→买药
+      child: A019_叔叔家
+      child: A020_叔叔家
+      child: A024_火场
+      child: A025_职高
+      child: A027_镇上
+      child: A028_修车铺
+      child: A029_诊所
+      child: A030_县医院
+      child: A_VOCATIONAL 2天-下午 职高探索 游戏场景：职高 （D1下午自由探索已可去职高门口；D2可进入内部）
+      child: A033_叔叔家
+      child: A034_未知
+      child: A040_叔叔家
+      child: A041_叔叔家
+      child: A043_叔叔家
+      child: A044_叔叔家
+      child: A042_未知
+  [1] id=b04d0801 title=玩家扮演李正 第二天全天 NPC默认：董点事在叔叔家→翻找遗物→听歌；王少鹏开诊所→买药→见“哥”
+      child: B015_李正家
+      child: B016_派出所
+      child: B017_派出所
+      child: B018_派出所
+      child: B020_未知
+      child: B021_派出所
+      child: B022_县医院
+      child: B023_诊所
+      child: B024_镇上
+      child: B025_派出所
+      child: B026_职高
+      child: B027_李正家
+      child: MEET_D2 2天-18时 见面：李正与董点事 游戏场景：面馆 / 叔叔家门口 ——三条线第一次正式交汇
+      child: B028_派出所
+  [2] id=0d9c8b5d title=玩家扮演王少鹏 第二天全天 NPC默认：董点事在叔叔家→翻找遗物→听歌；李正正常上班→勘察现场→查旧案
+      child: C008_职高
+      child: C009_诊所
+      child: C010_诊所
+      child: C012_诊所
+      child: C013_未知
+      child: C014_未知
+      child: C015_诊所
+      child: C016_诊所
+      child: C018_诊所

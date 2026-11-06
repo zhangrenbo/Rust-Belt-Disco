@@ -1,0 +1,79 @@
+{
+  "transport": "fixed work Chrome + direct CDP 9223; task-created background page",
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-before-default-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -389,
+              "y": -107,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "none",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-before-top-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -389,
+              "y": 0,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "none",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    }
+  ],
+  "errors": [],
+  "realPlayerData": "untouched; isolated memory storage",
+  "audio": "test output muted",
+  "selectionAndReturn": false,
+  "humanArtReview": "pending",
+  "electronWorkbenchInspected": false
+}

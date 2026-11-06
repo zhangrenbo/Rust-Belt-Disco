@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="none">
+  <defs>
+    <filter id="penumbra" filterUnits="userSpaceOnUse" x="-160" y="-80" width="1920" height="1080" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+    <!-- Perspective: thickness = 70 - .01925*x, pitch = 120 - .033*x.
+         Slats and gaps both compress toward the right; the first upper edge stays put. -->
+    <path id="slat" d="M-120 803 C100 741 256 687 374 652 C390 647 397 653 411 648 C654 578 865 510 1093 442 C1288 384 1472 329 1720 245 L1720 281.89 C1472 370.664 1288 429.206 1093 490.96 C865 563.349 654 635.411 411 710.088 C397 715.358 390 709.493 374 714.801 C256 752.072 100 809.075 -120 875.31 Z"/>
+  </defs>
+  <g fill="white" filter="url(#penumbra)">
+    <use href="#slat"/>
+    <use href="#slat" transform="matrix(1 -.033 0 1 0 120)"/>
+    <use href="#slat" transform="matrix(1 -.066 0 1 0 240)"/>
+    <use href="#slat" transform="matrix(1 -.099 0 1 0 360)"/>
+    <use href="#slat" transform="matrix(1 -.132 0 1 0 480)"/>
+    <use href="#slat" transform="matrix(1 -.165 0 1 0 600)"/>
+    <use href="#slat" transform="matrix(1 -.198 0 1 0 720)"/>
+    <use href="#slat" transform="matrix(1 -.231 0 1 0 840)"/>
+  </g>
+</svg>

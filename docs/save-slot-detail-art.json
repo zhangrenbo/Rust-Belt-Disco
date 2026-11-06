@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-14",
+  "request": "玩家点击槽位后的“档案槽位01 / 这是一个空白槽位，可以在这里保存当前旅程”不能用纯程序对话框，要求跑图片。",
+  "tool": "image_gen",
+  "reference": "public/assets/save-archive-heading-panel-v1.png",
+  "source": "D:/CodexData/home/generated_images/01a09e6a-16f0-7233-a896-d2eba18e6244/exec-c0e598c8-aa1c-4e6b-8d08-d85e75c36285.png",
+  "output": "public/assets/save-slot-detail-panel-v1.png",
+  "prompt": "Using the provided archive title asset only as a material and palette reference, create a NEW standalone illustrated game UI panel: a small case-file detail card for a 1980s Northeast China detective mystery game. This is a new much TALLER object, not the narrow reference title holder. Landscape 3:2 canvas, one complete isolated object filling about 90% of the canvas, seen straight from above without perspective distortion. A warm ivory heavy paper case card rests on a thin dark desaturated olive-grey cloth-covered dossier backing, with just a slim uneven fabric edge visible behind the paper. The paper has slightly irregular worn fibrous edges, a softly bent lower right corner, a faint old horizontal fold, restrained tiny age marks around its edges and soft tactile painted shading. A small dull steel paper clip holds the top-left corner, confined to the outer edge. Soft warm light from upper left and a shallow attached contact shadow. Match the reference's muted, hand-painted, physically convincing vintage paper, old office materials and understated wear. Paper color #d8ccb3, cloth #41483d, printing ink #74382e, quiet brown-black details. Leave a broad clean blank header region inside the paper at x=18%-82%, y=20%-34% of the canvas for an editable Chinese title. A single very fine faded red horizontal rule at y=39% from x=16% to x=84%, with a short faded vertical margin rule near x=15% between y=39%-64%. Leave the central text region x=20%-80%, y=44%-64% CALM, BLANK and readable. Leave the bottom third y=69%-86% blank clean paper to receive three separate game buttons later. All lines and textures feel printed on actual paper. Keep paper interior light enough for dark red Chinese lettering. No compartments, no photo frame, no photographs, no large ornaments, no loose props, no background scene, no extra panels. Absolutely NO text, letters, Chinese characters, digits, words, pseudo-writing, logos or watermark anywhere. The game will overlay the changing slot number, status and clickable labels as real HTML. Deliver a genuine RGBA PNG with fully TRANSPARENT alpha outside the full object's irregular silhouette, no painted checkerboard, no white or colored background. Save the final image directly in the existing E:/东北迪斯科/public/assets/save-slot-detail-panel-v1.png; do not create an output subfolder. Preserve the reference image.",
+  "naturalSize": [
+    1536,
+    1024
+  ],
+  "mode": "RGB",
+  "transparency": "Generated exterior contains painted checkerboard; runtime uses dedicated SVG silhouette mask. The RGB original is preserved byte for byte.",
+  "mask": "public/assets/save-slot-detail-outline.svg",
+  "design": {
+    "palette": {
+      "paper": "#d8ccb3",
+      "cloth": "#41483d",
+      "title": "#853a2d",
+      "body": "#553e31"
+    },
+    "type": {
+      "title": "SimSun / Songti SC",
+      "body": "KaiTi / STKaiti"
+    },
+    "layout": "Title in upper writing area; current slot description beneath the image's red rule; three existing paper-image buttons along bottom.",
+    "physicalArt": "new generated panel with thin olive cloth backing, heavy worn paper, folded corner and dull metal paper clip",
+    "dynamicElements": "slot number, description, actual native buttons and enabled/disabled state remain HTML"
+  },
+  "preserved": "Source assets, original save format, six slots, UI-only gameplay state; pre-edit files in .local/before-slot-detail-20260914-*",
+  "visualAcceptance": "pending user review",
+  "sha256": "a47510123723cf0d1d9f8ecbb0f2986b2308f36788e14a91cc44d6290cadc6fc",
+  "sourceCopyIdentical": true,
+  "maskSha256": "a1a9b72942a4ca0aa7ff6cc4136a0581707e7624fb85e52cb0ec0866eb7fbc54"
+}

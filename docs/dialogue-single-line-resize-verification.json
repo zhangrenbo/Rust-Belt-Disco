@@ -1,0 +1,77 @@
+{
+  "resize_sequence": [
+    1440,
+    640,
+    1058
+  ],
+  "noLostOrDuplicatedText": true,
+  "singleLine": true,
+  "observations": [
+    {
+      "text": "头部传来一阵剧痛，这个老奶奶说她认识我，",
+      "textRect": {
+        "x": 388.796875,
+        "y": 675.796875,
+        "w": 487.09375,
+        "h": 38.015625
+      },
+      "panel": {
+        "x": 201.59375,
+        "y": 601.21875,
+        "w": 1094.390625,
+        "h": 187.1875
+      },
+      "copy": {
+        "x": 388.796875,
+        "y": 601.21875,
+        "w": 820.796875,
+        "h": 187.1875
+      },
+      "rectCount": 1,
+      "font": "SimSun, \"Songti SC\", \"Noto Serif CJK SC\", serif",
+      "fontSize": 23.76,
+      "scrollWidth": 821,
+      "clientWidth": 821,
+      "more": true,
+      "choicesHidden": true
+    },
+    {
+      "text": "但是我什么都想不起来了......",
+      "textRect": {
+        "x": 172.796875,
+        "y": 295.21875,
+        "w": 248.234375,
+        "h": 27.1875
+      },
+      "panel": {
+        "x": 89.59375,
+        "y": 267.21875,
+        "w": 486.390625,
+        "h": 83.1875
+      },
+      "copy": {
+        "x": 172.796875,
+        "y": 267.21875,
+        "w": 364.796875,
+        "h": 83.1875
+      },
+      "rectCount": 1,
+      "font": "SimSun, \"Songti SC\", \"Noto Serif CJK SC\", serif",
+      "fontSize": 17,
+      "scrollWidth": 365,
+      "clientWidth": 365,
+      "more": false,
+      "choicesHidden": false
+    }
+  ],
+  "renderedFonts": {
+    "fonts": [
+      {
+        "familyName": "SimSun",
+        "postScriptName": "SimSun",
+        "isCustomFont": false,
+        "glyphCount": 17
+      }
+    ]
+  }
+}

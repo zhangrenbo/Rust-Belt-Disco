@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-14",
+  "scope": "Settings form left column and heading",
+  "changes": [
+    "Removed six English subtitle nodes from the production HTML",
+    "Eight labels use real KaiTi glyphs with weight 400 and no synthetic bold",
+    "Seven row labels are single-line, centred and equal-height",
+    "Red field, paper-revealing glyphs, double frame and distress retained"
+  ],
+  "verification": {
+    "viewports": [
+      [
+        1058,
+        595
+      ],
+      [
+        844,
+        475
+      ]
+    ],
+    "checks": 26,
+    "actualFont": "KaiTi, confirmed using Chrome CSS.getPlatformFontsForNode for all eight labels at both sizes",
+    "build": "passed",
+    "migrationHashes": 172,
+    "resourcePaths": 70
+  },
+  "screens": [
+    "E:\\东北迪斯科\\docs\\settings-chinese-kaiti-1058.png",
+    "E:\\东北迪斯科\\docs\\settings-chinese-kaiti-844.png"
+  ],
+  "storage": "isolated in-memory fixtures; real player data untouched",
+  "assistantVisualInspection": "Both game-stage screenshots inspected",
+  "humanArtReview": "pending",
+  "workbenchWindowDirectlyVerified": false,
+  "backups": [
+    ".local/index-before-settings-chinese-labels-20260914.html",
+    ".local/app-before-settings-chinese-labels-20260914.css"
+  ]
+}

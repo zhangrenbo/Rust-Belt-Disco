@@ -1,0 +1,294 @@
+﻿[
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\background.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\background.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\disco-dialog-portrait-v1.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\disco-dialog-portrait-v1.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\dongbei-choice-intense.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\dongbei-choice-intense.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\dongbei-choice-normal.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\dongbei-choice-normal.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\dongbei-choice-rare.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\dongbei-choice-rare.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\dongbei-choice-weathered.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\dongbei-choice-weathered.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\dongbei-dialog-close-backdrop.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\dongbei-dialog-close-backdrop.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\dongbei-dialog-close-button.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\dongbei-dialog-close-button.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\dongbei-dialog-mood.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\dongbei-dialog-mood.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\dongbei-dialog-nameplate.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\dongbei-dialog-nameplate.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\dongbei-dialog-panel.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\dongbei-dialog-panel.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-center-strip-v3.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-center-strip-v3.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-center-strip-v4.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-center-strip-v4.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-center-strip-v5.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-center-strip-v5.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-character-ticket-v4.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-character-ticket-v4.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-desk-bg.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-desk-bg.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-dossier-bag-source-v1.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-dossier-bag-source-v1.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-dossier-book-v10.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-dossier-book-v10.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-dossier-frame-v1.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-dossier-frame-v1.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-dossier-frame-v2.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-dossier-frame-v2.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-dossier-frame-v3.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-dossier-frame-v3.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-dossier-frame-v4.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-dossier-frame-v4.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-dossier-frame-v6.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-dossier-frame-v6.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-dossier-frame-v8.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-dossier-frame-v8.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-filmstrip-v1.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-filmstrip-v1.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-filmstrip-v2.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-filmstrip-v2.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-filmstrip-v4.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-filmstrip-v4.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-filmstrip-v6.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-filmstrip-v6.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-han-tiejun.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-han-tiejun.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-invitation-chroma-v2.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-invitation-chroma-v2.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-invitation-cutout-v4.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-invitation-cutout-v4.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-invitation-cutout-v6.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-invitation-cutout-v6.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-invitation-cutout-v8.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-invitation-cutout-v8.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-invitation-v1.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-invitation-v1.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-invitation-v3.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-invitation-v3.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng-cutout-v4.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng-cutout-v4.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng-full-chroma-v2.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng-full-chroma-v2.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng-full-v1.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng-full-v1.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng-full-v3.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng-full-v3.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng-hero-chroma-v5.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng-hero-chroma-v5.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng-hero-cutout-v7.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng-hero-cutout-v7.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng-hero-cutout-v8.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng-hero-cutout-v8.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng-hero-v6.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng-hero-v6.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng-selected-art-v1.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng-selected-art-v1.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-li-zheng.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-li-zheng.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-liu-guoqing.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-liu-guoqing.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-progress-v3.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-progress-v3.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-progress-v5.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-progress-v5.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\event-wang-shaopeng.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\event-wang-shaopeng.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\exploration-board.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\exploration-board.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-any-key.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-any-key.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-brush-bg-v2.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-brush-bg-v2.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-brush-bg-v3.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-brush-bg-v3.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-brush-bg-v4.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-brush-bg-v4.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-brush-bg-v5.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-brush-bg-v5.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-brush-bg.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-brush-bg.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-loop.mp4",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-loop.mp4"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-save.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-save.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-settings-underline.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-settings-underline.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\main-menu-settings.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\main-menu-settings.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\settings-paper-stack.svg",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\settings-paper-stack.svg"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\assets\\settings-window-reel-selector-v5.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\assets\\settings-window-reel-selector-v5.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\media\\characters\\dong-source-v1.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\media\\characters\\dong-source-v1.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\media\\characters\\grandmother-source-v1.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\media\\characters\\grandmother-source-v1.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\media\\characters\\grandmother-source-v2.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\media\\characters\\grandmother-source-v2.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\media\\characters\\grandmother-source-v3.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\media\\characters\\grandmother-source-v3.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\media\\station-background.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\media\\station-background.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\public\\media\\station-reference.png",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public\\media\\station-reference.png"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\src\\game",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\inactive\\src\\game"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\src\\main.js",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\inactive\\src\\main.js"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\src\\styles.css",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\inactive\\src\\styles.css"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\src\\core\\settings.js",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\inactive\\src\\core\\settings.js"
+    },
+    {
+        "source":  "E:\\东北迪斯科\\src\\core\\media.js",
+        "target":  "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\inactive\\src\\core\\media.js"
+    }
+]

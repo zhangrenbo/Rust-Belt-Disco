@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-09-13T12:18:40Z",
+  "checks": [
+    {
+      "check": "saved initial volume drives real audio",
+      "slider": 54,
+      "gain": 0.5400000214576721,
+      "rms": 0.0012771633233712879,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 1
+    },
+    {
+      "check": "keyboard volume changes sound before Apply",
+      "slider": 100,
+      "gain": 1,
+      "rms": 0.0018865486370855877,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 1
+    },
+    {
+      "check": "zero immediately silences the real signal",
+      "slider": 0,
+      "gain": 0,
+      "rms": 0,
+      "state": "muted",
+      "track": "menu",
+      "sourceCount": 1
+    },
+    {
+      "check": "pointer volume matches actual output gain",
+      "slider": 30,
+      "gain": 0.30000001192092896,
+      "rms": 0.0007940696142238669,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 1
+    },
+    {
+      "check": "preview leaves saved settings unchanged",
+      "slider": 30,
+      "gain": 0.30000001192092896,
+      "rms": 0.0007582865470442231,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 1
+    },
+    {
+      "check": "record library uses the same draft volume on another track",
+      "slider": 30,
+      "gain": 0.30000001192092896,
+      "rms": 0.015468160027101474,
+      "state": "loading",
+      "track": "station",
+      "sourceCount": 1
+    },
+    {
+      "check": "record pause silences playback",
+      "slider": 30,
+      "gain": 0.30000001192092896,
+      "rms": 0,
+      "state": "paused",
+      "track": "station",
+      "sourceCount": 2
+    },
+    {
+      "check": "record resume preserves shared volume",
+      "slider": 30,
+      "gain": 0.30000001192092896,
+      "rms": 0.00791433219255633,
+      "state": "playing",
+      "track": "station",
+      "sourceCount": 3
+    },
+    {
+      "check": "record track changes preserve zero volume",
+      "slider": 0,
+      "gain": 0,
+      "rms": 0,
+      "state": "muted",
+      "track": "station",
+      "sourceCount": 5
+    },
+    {
+      "check": "Apply saves shared mute",
+      "slider": 0,
+      "gain": 0,
+      "rms": 0,
+      "state": "muted",
+      "track": "menu",
+      "sourceCount": 6
+    },
+    {
+      "check": "cancel restores saved audio and slider together",
+      "slider": 0,
+      "gain": 0,
+      "rms": 0,
+      "state": "muted",
+      "track": "menu",
+      "sourceCount": 6
+    },
+    {
+      "check": "restore defaults changes sound immediately",
+      "slider": 54,
+      "gain": 0.5400000214576721,
+      "rms": 0.024856521216017596,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 6
+    },
+    {
+      "check": "saved volume is restored on a fresh page",
+      "slider": 53,
+      "gain": 0.5299999713897705,
+      "rms": 0,
+      "state": "loading",
+      "track": "menu",
+      "sourceCount": 0
+    },
+    {
+      "check": "compact pointer volume reaches actual audio",
+      "slider": 70,
+      "gain": 0.699999988079071,
+      "rms": 1.0593829929591785e-06,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 1
+    },
+    {
+      "check": "unrelated data is preserved",
+      "slider": 70,
+      "gain": 0.699999988079071,
+      "rms": 1.0593829929591785e-06,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 1
+    }
+  ],
+  "errors": [],
+  "audio": "Real Web Audio analyser before a QA-only silent output sink; physical speaker not tested",
+  "storage": "Isolated in-memory settings; saved JSON seeds the fresh-page check; player saves untouched",
+  "browser": "Fixed work Chrome via direct CDP 9223; dedicated background target only",
+  "automatedTests": "15/15 passed",
+  "migratedHashes": 172,
+  "resourcePaths": 60,
+  "build": "passed",
+  "sourceHashes": {
+    "scene.js": "385b27149e64c91a102cfc516461722ba7362f4159757e95b7a00ab50be202e1",
+    "src/core/music.js": "455848cc9406b8c41eb116cc0cc2456a7d74f79da16bf71dfa25fc9eef2b4193",
+    "src/core/music-library.js": "48ac8651eb3a1b5db985257d6b95ce9990dccac7c5b438a87e693719a376310f",
+    "tests/volume-settings.test.js": "37dd45651665c6a2bb3fada617ef264d0c38dd999996fd9a75bd183ac4601b20"
+  }
+}

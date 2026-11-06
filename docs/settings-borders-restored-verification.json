@@ -1,0 +1,19 @@
+{
+  "change": "Restored the 14 right-side settings controls to transparent paper, red text and thick double borders",
+  "sourceVerification": "Settings CSS block exactly matches the prior bordered version in .local/app-before-settings-right-knockout-20260914.css",
+  "build": "npm run build passed",
+  "preserved": [
+    "existing control dimensions and centered layout",
+    "left red knockout labels",
+    "bottom action stamps",
+    "settings logic"
+  ],
+  "browser": "Reused fixed work Chrome profile, direct CDP 9223",
+  "currentVisualVerification": "Not completed: Playwright CDP initialization timed out at 10 and 30 seconds; direct browser WebSocket responded, but the isolated test page did not reach ready state within the bounded wait",
+  "currentScreenshots": [],
+  "browserSafety": "No browser restarted; only the target created for the direct CDP check was closed",
+  "storage": "Test target used isolated in-memory storage and muted audio; real player data untouched",
+  "designDecision": "User rejected the solid red variant as too heavy and explicitly requested the earlier bordered design",
+  "backup": ".local/app-before-settings-borders-restored-20260914.css",
+  "electronWindowVerified": false
+}

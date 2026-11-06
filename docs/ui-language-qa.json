@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "English Start enters real A000 gameplay; original Chinese dossiers restore",
+    "Repeated language changes preserve all save/settings bytes; Continue works",
+    "No runtime exceptions; four English PNGs decoded"
+  ],
+  "errors": [],
+  "scope": "Chrome web build; isolated saves, muted audio; not Electron"
+}

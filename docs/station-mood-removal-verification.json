@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-15",
+  "checks": [
+    "Saved monologue opens",
+    "Target label removed; other dialogue mood retained",
+    "Next spoken dialogue renders without the label",
+    "Close works",
+    "Resume works",
+    "Escape works",
+    "No runtime errors; unrelated data intact"
+  ],
+  "screenshot": "E:\\东北迪斯科\\docs\\station-mood-removed-1058.png",
+  "gameBounds": {
+    "x": 0.109375,
+    "y": 0,
+    "width": 1057.765625,
+    "height": 594.984375
+  },
+  "storage": "isolated memory fixture; real saves untouched",
+  "transport": "fixed work Google Chrome direct CDP 9223",
+  "audio": "silent",
+  "tests": 20,
+  "migratedHashes": 172,
+  "resourcePaths": 79,
+  "build": "passed",
+  "electronWindowVerified": false
+}

@@ -1,0 +1,218 @@
+{
+  "transport": "fixed work Chrome + direct CDP 9223; task-created background page",
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-v2-default-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -389,
+              "y": -107,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v2.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -389,
+              "y": -107,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "polygon(34% 0px, 51.3% 0px, 52.45% 34.1%, 35.6% 37.2%, 35.15% 36.6%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-v2-top-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -389,
+              "y": 0,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v2.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -389,
+              "y": 0,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "polygon(34% 0px, 51.3% 0px, 52.45% 34.1%, 35.6% 37.2%, 35.15% 36.6%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-v2-default-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -228,
+              "y": -63,
+              "width": 1299.75,
+              "height": 600.875
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v2.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -228,
+              "y": -63,
+              "width": 1299.75,
+              "height": 600.875
+            },
+            "clip": "polygon(34% 0px, 51.3% 0px, 52.45% 34.1%, 35.6% 37.2%, 35.15% 36.6%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-v2-top-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -228,
+              "y": 0,
+              "width": 1299.75,
+              "height": 600.875
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v2.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -228,
+              "y": 0,
+              "width": 1299.75,
+              "height": 600.875
+            },
+            "clip": "polygon(34% 0px, 51.3% 0px, 52.45% 34.1%, 35.6% 37.2%, 35.15% 36.6%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    }
+  ],
+  "errors": [],
+  "realPlayerData": "untouched; isolated memory storage",
+  "audio": "test output muted",
+  "selectionAndReturn": true,
+  "humanArtReview": "pending",
+  "electronWorkbenchInspected": false,
+  "assistantVisualInspection": [
+    "docs/character-newspaper-v2-default-1440.png",
+    "docs/character-newspaper-v2-default-844.png"
+  ],
+  "headlineVisibleAtDefaultCamera": true,
+  "buildChecks": {
+    "build": "passed",
+    "migratedFileHashes": 172,
+    "resourcePaths": 74
+  },
+  "assetManifest": "docs/character-newspaper-art.json"
+}

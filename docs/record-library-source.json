@@ -1,0 +1,26 @@
+﻿{
+    "reference":  "E:\\抖音开发者工具\\PNG_UI_HTML复刻\\037_唱片库",
+    "operation":  "Read-only source; tonearm copied unchanged; HTML/CSS composition adapted for the game",
+    "sources":  [
+                    {
+                        "path":  "E:\\抖音开发者工具\\PNG_UI_HTML复刻\\037_唱片库\\index.html",
+                        "sha256":  "798064adb1ad7855a10ec23b1091ba990a51062bfc9adcd55f2f613558545107"
+                    },
+                    {
+                        "path":  "E:\\抖音开发者工具\\PNG_UI_HTML复刻\\037_唱片库\\styles.css",
+                        "sha256":  "a1deb4ee8bcbbb755442626b0e24689475147f16bedf8816906c177909e1e88b"
+                    },
+                    {
+                        "path":  "E:\\抖音开发者工具\\PNG_UI_HTML复刻\\037_唱片库\\script.js",
+                        "sha256":  "7be8c4f4798744ef374243c10b2796e155f94e6e53212fdbb1e36100207378be"
+                    },
+                    {
+                        "path":  "E:\\抖音开发者工具\\PNG_UI_HTML复刻\\037_唱片库\\tonearm-reference-v2.png",
+                        "sha256":  "93c99b9255b237334798db32ee0d4fddf337ce2d99dde27d5734beb4ed30e32e"
+                    }
+                ],
+    "copiedAsset":  {
+                        "path":  "public/assets/record-tonearm.png",
+                        "sha256":  "93c99b9255b237334798db32ee0d4fddf337ce2d99dde27d5734beb4ed30e32e"
+                    }
+}

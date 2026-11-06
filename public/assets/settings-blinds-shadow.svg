@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="none">
+  <defs>
+    <filter id="penumbra" filterUnits="userSpaceOnUse" x="-160" y="-80" width="1920" height="1080" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+    <!-- Strong perspective: thickness = 140 - .063*x, pitch = 240 - .108*x.
+         The left doubles in size; the right and first upper edge stay put. -->
+    <path id="slat" d="M-120 803 C100 741 256 687 374 652 C390 647 397 653 411 648 C654 578 865 510 1093 442 C1288 384 1472 329 1720 245 L1720 276.64 C1472 376.264 1288 442.856 1093 513.141 C865 595.505 654 676.798 411 762.107 C397 767.989 390 762.43 374 768.438 C256 810.872 100 874.7 -120 950.56 Z"/>
+  </defs>
+  <g fill="white" filter="url(#penumbra)">
+    <use href="#slat"/>
+    <use href="#slat" transform="matrix(1 -.108 0 1 0 240)"/>
+    <use href="#slat" transform="matrix(1 -.216 0 1 0 480)"/>
+    <use href="#slat" transform="matrix(1 -.324 0 1 0 720)"/>
+    <use href="#slat" transform="matrix(1 -.432 0 1 0 960)"/>
+    <use href="#slat" transform="matrix(1 -.540 0 1 0 1200)"/>
+    <use href="#slat" transform="matrix(1 -.648 0 1 0 1440)"/>
+    <use href="#slat" transform="matrix(1 -.756 0 1 0 1680)"/>
+  </g>
+</svg>

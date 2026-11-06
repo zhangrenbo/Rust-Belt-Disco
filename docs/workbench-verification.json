@@ -1,0 +1,18 @@
+﻿{
+    "checkedAt":  "2026-09-09T06:35:08.5312425Z",
+    "title":  "东北迪斯科工作台",
+    "windowCount":  1,
+    "windowPid":  61248,
+    "shortcut":  "C:\\Users\\W11\\Desktop\\东北迪斯科工作台.lnk",
+    "preview":  "http://127.0.0.1:5173/",
+    "configuration":  "C:\\Users\\W11\\AppData\\Roaming\\小游戏AI工作台\\东北迪斯科",
+    "desktopPreviewObserved":  true,
+    "readyCodexTerminals":  4,
+    "repeatShortcutReusedSameWindow":  true,
+    "gameTestsPassed":  6,
+    "storyCombinations":  768,
+    "verifiedMigratedFiles":  172,
+    "httpResourcesPassed":  48,
+    "screenshot":  "docs/workbench-desktop.png",
+    "interactiveFeatures":  "Reused original implementation; not individually regression tested"
+}

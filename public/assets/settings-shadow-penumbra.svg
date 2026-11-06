@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" preserveAspectRatio="none">
+  <defs>
+    <filter id="penumbra" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+  </defs>
+  <!-- A filled shadow field, not a stroked line. Small contour changes follow the
+       transition onto the raised envelope; the far edge has a continuous penumbra. -->
+  <path fill="white" filter="url(#penumbra)" d="M-120 803 C100 741 256 687 374 652 C390 647 397 653 411 648 C654 578 865 510 1093 442 C1288 384 1472 329 1720 245 L1720 1080 H-120 Z"/>
+</svg>

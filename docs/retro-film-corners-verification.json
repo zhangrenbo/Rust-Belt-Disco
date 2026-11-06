@@ -1,0 +1,129 @@
+{
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "checks": [
+    "both texture layers share a centre-to-corner alpha mask",
+    "all existing dust nodes and animation are retained",
+    "controls remain reachable at 1440",
+    "controls remain reachable at 844",
+    "filter off still bypasses masked layers",
+    "cancel restores moving texture",
+    "reduced motion still stops snow",
+    "QA browsing preserves storage"
+  ],
+  "maskMeasurements": [
+    {
+      "layer": "grain",
+      "viewport": [
+        1440,
+        810
+      ],
+      "renderedAlphaOutOf255": {
+        "center": 46,
+        "topLeft": 228,
+        "topRight": 228,
+        "bottomLeft": 228,
+        "bottomRight": 228,
+        "topMiddle": 156
+      }
+    },
+    {
+      "layer": "projector-edge-snow",
+      "viewport": [
+        1440,
+        810
+      ],
+      "renderedAlphaOutOf255": {
+        "center": 46,
+        "topLeft": 228,
+        "topRight": 228,
+        "bottomLeft": 228,
+        "bottomRight": 228,
+        "topMiddle": 156
+      }
+    },
+    {
+      "layer": "grain",
+      "viewport": [
+        844,
+        475
+      ],
+      "renderedAlphaOutOf255": {
+        "center": 46,
+        "topLeft": 227,
+        "topRight": 227,
+        "bottomLeft": 227,
+        "bottomRight": 227,
+        "topMiddle": 155
+      }
+    },
+    {
+      "layer": "projector-edge-snow",
+      "viewport": [
+        844,
+        475
+      ],
+      "renderedAlphaOutOf255": {
+        "center": 46,
+        "topLeft": 227,
+        "topRight": 227,
+        "bottomLeft": 227,
+        "bottomRight": 227,
+        "topMiddle": 155
+      }
+    }
+  ],
+  "screens": [
+    {
+      "name": "menu",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "settings",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "mask-grain",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "mask-projector-edge-snow",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "settings",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "name": "mask-grain",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "name": "mask-projector-edge-snow",
+      "viewport": [
+        844,
+        475
+      ]
+    }
+  ],
+  "errors": [],
+  "humanArtApproval": "pending",
+  "scope": "CSS alpha distribution only; source art, dust count and update timing preserved; temporary black/white raster probes validate actual mask rendering."
+}

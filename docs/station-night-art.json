@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-13",
+  "source": "public/media/station-scene.png",
+  "output": "public/media/station-night.png",
+  "tool": "image_gen",
+  "prompt": "Edit this existing painterly 2D game environment for the opening night scene of a Chinese mystery game. Keep the EXACT same canvas aspect ratio (1672x941, 16:9), high oblique camera, bus shelter geometry and size, road layout, old round bus-stop sign, trees, telephone poles and composition so existing 2D navigation remains aligned. Change the bright sunny afternoon to a very dark moonless night: absolutely no daylight or sun dapples. Trees and both far roads disappear into near-black blue charcoal darkness, with only faint nearby shapes. The ONLY strong illumination is one old warm tungsten streetlamp attached to the FRONT RIGHT corner of the bus shelter at about x1020 y185, with a curved metal bracket just above the shelter roof, casting a natural warm downward light onto the shelter bench, the elderly woman's face and a small pool on the pavement immediately in front of the shelter. The rest of the road is extremely dim, subtle cold reflected light only. REMOVE the standing woman in the street completely. Place this same elderly Chinese woman, with swept gray hair, wrinkled face, worn charcoal jacket, long gray skirt and cloth shoes, SEATED INSIDE the shelter on the right half of the wooden bench. Her torso centered x950, face x950 y287, seat y350, shoes around x950 y430. She is visibly sitting with bent knees and both feet on the shelter pavement, hands folded on her lap. Her head turns toward the approaching player in the lower-left foreground and she looks directly that way. Her face must be discernible in the warm streetlight. Exactly ONE woman, no other people. Preserve handmade teal/olive painterly brushwork, physical weathering, old rural northeastern Chinese roadside atmosphere. No interface, NO exclamation mark (it will be a separate interactive layer), no new text, no watermark, no vignette frame, no visible transparency pattern. Complete opaque game background. Save the finished image directly as E:/东北迪斯科/public/media/station-night.png, next to the source; do not create a new output folder.",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a0999f-b8ee-75d3-8631-c272faa45626/exec-970153bd-c5e3-43a1-b4c4-c7ee300d41ea.png",
+  "notes": "原底图保留；新底图含路灯及坐在候车亭内、朝向玩家的老奶奶。感叹号、人物点击区域、玩家与移动视野都是独立运行时图层。输出复制到原图同目录；未创建项目输出文件夹。",
+  "approval": "等待用户画面验收，非 Steam 实机素材",
+  "sourceSha256": "5eca03b99d2d2b40f223d0ddb7987207b8de1fe2988054323325c1909c2dda50",
+  "outputSha256": "af64af15fb31ec65237e93c4bdbc9756d1fb00c62bf4d348713799e9123b1584",
+  "dimensions": [
+    1672,
+    941
+  ]
+}

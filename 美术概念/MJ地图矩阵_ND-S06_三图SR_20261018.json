@@ -1,0 +1,24 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-job-v1",
+    "project":  "东北迪斯科",
+    "id":  "ND-S06",
+    "name":  "叔叔家·葬礼后的饭桌",
+    "kind":  "interior",
+    "source_scene_id":  "ND-S06",
+    "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D game map of a Northeast Chinese industrial town in winter. No characters or people. Show the full connected walking surface, entrances, exits, wall thickness, furniture bases and traversable gaps. An ordinary Northeast Chinese family dining room connected through an open doorway to a small kitchen. Square wooden dining table at center with simple vegetable dishes, rice bowls and enamel cups; worn sofa against left wall, old CRT television opposite, framed photograph of two young factory-worker brothers on the rear wall. Keep doorway, table approach and seating paths clear. Realistic snow, damp concrete, worn brick, corroded metal, soft contact shadows, readable foreground and background depth. No signs with readable words. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people",
+    "status":  "rendered_visible",
+    "human_approved":  false,
+    "preflight":  {
+                      "ready":  true,
+                      "empty":  true,
+                      "folder":  true,
+                      "images":  0,
+                      "personalization":  "false",
+                      "visibility":  "hidden"
+                  },
+    "submitted_at":  "2026-10-18T05:28:06.262683+00:00",
+    "job_id":  "8394717e-f36e-4723-8069-8a0754f2b7dd",
+    "result_url":  "https://www.midjourney.com/jobs/8394717e-f36e-4723-8069-8a0754f2b7dd?index=0",
+    "verification_status":  "confirmed_visible",
+    "verification_evidence":  "2026-10-18 MJ folder count and direct job detail check; old API job_id alone is not proof of submission"
+}

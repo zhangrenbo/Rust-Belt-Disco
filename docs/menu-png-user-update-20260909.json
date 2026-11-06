@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-09",
+  "files": [
+    {
+      "source": "UI参考/东北迪斯科/assets/main-menu-save.png",
+      "runtime": "public/assets/main-menu-save.png",
+      "sha256": "091e62589fe57605cdce108ea5c8cdf80f900987ef5e1df5ff74f5904e717e4d",
+      "bytes": 9481,
+      "canvas": [
+        137,
+        59
+      ],
+      "visibleWidth": 114
+    },
+    {
+      "source": "UI参考/东北迪斯科/assets/main-menu-settings.png",
+      "runtime": "public/assets/main-menu-settings.png",
+      "sha256": "2000c8990be04e08e3d7e9e4dd690dbbcb37c881cc6c262934a6316cbb1ced03",
+      "bytes": 8847,
+      "canvas": [
+        137,
+        59
+      ],
+      "visibleWidth": 114
+    }
+  ],
+  "entry": "index.html",
+  "referenceHtmlUnchanged": true,
+  "priorVersion": "cropped-v2 files retained"
+}

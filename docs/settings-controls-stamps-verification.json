@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-14",
+  "request": "Settings right-side controls and text use red double-line ink stamps",
+  "implementation": "app.css: scoped settings-dossier-form styles; existing stamp mask, transparent paper background, selected-state squares and native controls retained",
+  "screens": [
+    "E:\\东北迪斯科\\docs\\settings-controls-stamps-1440.png",
+    "E:\\东北迪斯科\\docs\\settings-controls-stamps-844.png",
+    "E:\\东北迪斯科\\docs\\settings-controls-stamps-1058.png"
+  ],
+  "viewports": [
+    [
+      1440,
+      810
+    ],
+    [
+      844,
+      475
+    ],
+    [
+      1058,
+      595
+    ]
+  ],
+  "checks": 35,
+  "detailedStampChecks": {
+    "viewport": [
+      1058,
+      595
+    ],
+    "count": 22,
+    "doubleFrames": true,
+    "textFits": true,
+    "independentInputBehavior": true
+  },
+  "build": "passed",
+  "migrationHashes": 172,
+  "resourcePaths": 70,
+  "storage": "isolated memory; real player data untouched",
+  "capture": "game stage only; no outer preview bars",
+  "assistantVisualInspection": "all three screenshots inspected",
+  "humanArtReview": "pending",
+  "workbenchWindowDirectlyVerified": false,
+  "backup": ".local/app-before-settings-controls-stamps-20260914.css"
+}

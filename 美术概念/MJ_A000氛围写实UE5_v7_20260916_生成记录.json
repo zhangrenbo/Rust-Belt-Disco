@@ -1,0 +1,111 @@
+{
+  "scene": "A000 冬夜积雪公交站",
+  "folder": "东北迪斯科参考图",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "source_context": [
+    "content/story/ink/D0_序章.ink",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json"
+  ],
+  "status": "completed",
+  "prompt": "Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. A snow-covered bus stop in an old industrial neighborhood of Northeast China at night, elevated 45-degree three-quarter view. One elderly woman in a thick dark winter coat sits quietly on a wooden bench beneath a rusty corrugated-metal shelter. Snow lies heavily on the shelter roof, low brick walls and a parked truck. Footprints and tire tracks cross the snow and wet slush on the road. Weathered red-brick workers housing and shuttered shops recede into a thin layer of winter fog. A single dim streetlamp softly illuminates the woman and drifting snowflakes, a few distant windows glow through the darkness. Realistic snow crystals, damp concrete, corroded metal and rough brickwork, physically based surface shading, bounced light, soft contact shadows, subtle volumetric fog, strong three-dimensional depth. Natural subdued winter colors, quiet, lonely, cold, immersive atmosphere. A continuous full-scale street with open pavement in the foreground. --ar 16:9 --raw --v 8.1 --relax --no painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+  "user_correction": "还是不对，要不你写，氛围感，3D写实的，UE5质感的",
+  "style_decision": "本轮按最新写实方向，由助手决定去掉手绘油画、固定青橙配色及三张插画风格参考；原索引保留，不代表用户永久撤销三图。",
+  "references": [],
+  "expected_style_references": [],
+  "human_review": "direction_improved_camera_revision_requested",
+  "visual_review": "pending",
+  "in_game_integration": "not_applied",
+  "downloads": [],
+  "previous_job_id": "9f214dfb-a408-49c0-9036-5b800c8baed7",
+  "preflight": {
+    "folder": true,
+    "images": 0,
+    "attached": 0,
+    "personalization": "false"
+  },
+  "submitted_at": "2026-09-15T23:03:28.722789+00:00",
+  "source_sha256": {
+    "content/story/ink/D0_序章.ink": "97a5584708e338e36f5c2cd671d678cee351fdbb4a0eded3f7355438e7d98340",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json": "6b54524f769e04332cb71ef68121751fd0ff1433b069a3e5dc2323fa758384ba"
+  },
+  "submit_receipt": {
+    "accepted": [
+      {
+        "job_id": "20710fa1-5e9a-4f8b-ada6-4b8bb43e7fa5",
+        "prompt": "Atmospheric photorealistic 3D environment, Unreal Engine 5 quality, cinematic lighting, physically based shading. Snow covered bus stop in an old industrial neighborhood of Northeast China, at night, elevated 45 degree three quarter view. An elderly woman in a thick dark winter coat sits quietly on a wooden bench beneath a rusty corrugated metal shelter heavy with snow. Low brick walls and a parked truck blanketed in snow. Footprints and tire tracks cross wet slush on the road. Weathered red brick workers' housing and shuttered shops recede into winter fog. A single dim streetlamp softly illuminates the woman and drifting snowflakes; distant windows glow faintly. Realistic snow crystals, damp concrete, corroded metal, rough brickwork, bounced light, soft contact shadows, subtle volumetric fog, strong depth. Open pavement in the foreground. Natural subdued winter palette, quiet, lonely, cold, immersive atmosphere. --no painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people --ar 16:9 --relax --raw --v 8.1",
+        "is_queued": false,
+        "job_type": "v8-1_diffusion",
+        "flags": {
+          "mode": "relaxed",
+          "visibility": "public"
+        },
+        "meta": {
+          "height": 816,
+          "width": 1456,
+          "batch_size": 4,
+          "parent_id": null,
+          "parent_grid": null
+        },
+        "personalization_codes": null
+      }
+    ],
+    "http": 200
+  },
+  "job_id": "20710fa1-5e9a-4f8b-ada6-4b8bb43e7fa5",
+  "post_submit_text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight Mode\nzhangrenbo\nStarting...\nAtmospheric photorealistic 3D environment, Unreal Engine 5 quality, cinematic lighting, physically based shading. Snow covered bus stop in an old industrial neighborhood of Northeast China, at night, elevated 45 degree three quarter view. An elderly woman in a thick dark winter coat sits quietly on a wooden bench beneath a rusty corrugated metal shelter heavy with snow. Low brick walls and a parked truck blanketed in snow. Footprints and tire tracks cross wet slush on the road. Weathered red brick workers' housing and shuttered shops recede into winter fog. A single dim streetlamp softly illuminates the woman and drifting snowflakes; distant windows glow faintly. Realistic snow crystals, damp concrete, corroded metal, rough brickwork, bounced light, soft contact shadows, subtle volumetric fog, strong depth. Open pavement in the foreground. Natural subdued winter palette, quiet, lonely, cold, immersive atmosphere.\n+ use text\n--no painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people\n \nno painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\nUnreal Engine 5 3D game environment render, physically based materials, realistic global illumination, soft volumetric lighting, solid geometry, deep spatial layering, painterly hand painted textures inspired by Disco Elysium. Overhead isometric three quarter 45 degree view of a snow covered industrial neighborhood in northeastern China, winter night. A weathered bus shelter with corrugated metal roof and wooden bench, thick snow piled on top; one elderly woman in a padded dark coat sits at the bench end, hands in lap. Cracked asphalt with footprints, tire tracks, and dark slush. Red brick workers' housing, low factory walls, shuttered shops, and a snow dusted parked utility truck line the street. Rusted drainpipes, overhead wires, peeling metal, rough brick with visible depth and relief. Warm amber streetlamp lights the woman and falling snow; cool blue teal ambient light fills the street. Muted teal and amber palette, worn 1980s socialist era aesthetic, quiet, cold, desolate.",
+  "result_url": "https://www.midjourney.com/jobs/20710fa1-5e9a-4f8b-ada6-4b8bb43e7fa5?index=0",
+  "no_style_references_verified": true,
+  "realistic_ue5_prompt_verified": true,
+  "service_rephrased_prompt": true,
+  "last_status": {
+    "job_id": "20710fa1-5e9a-4f8b-ada6-4b8bb43e7fa5",
+    "links": [
+      {
+        "href": "/jobs/20710fa1-5e9a-4f8b-ada6-4b8bb43e7fa5?index=0&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/20710fa1-5e9a-4f8b-ada6-4b8bb43e7fa5?index=1&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/20710fa1-5e9a-4f8b-ada6-4b8bb43e7fa5?index=2&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/20710fa1-5e9a-4f8b-ada6-4b8bb43e7fa5?index=3&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      }
+    ],
+    "text": "Atmospheric photorealistic 3D environment, Unreal Engine 5 quality, cinematic lighting, physically based shading. Snow covered bus stop in an old industrial neighborhood of Northeast China, at night, elevated 45 degree three quarter view. An elderly woman in a thick dark winter coat sits quietly on a wooden bench beneath a rusty corrugated metal shelter heavy with snow. Low brick walls and a parked truck blanketed in snow. Footprints and tire tracks cross wet slush on the road. Weathered red brick workers' housing and shuttered shops recede into winter fog. A single dim streetlamp softly illuminates the woman and drifting snowflakes; distant windows glow faintly. Realistic snow crystals, damp concrete, corroded metal, rough brickwork, bounced light, soft contact shadows, subtle volumetric fog, strong depth. Open pavement in the foreground. Natural subdued winter palette, quiet, lonely, cold, immersive atmosphere.\n+ use text\n--no painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people\n \nno painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore",
+    "folderSelected": true
+  },
+  "status_checked_at": "2026-09-15T23:05:24.913136+00:00",
+  "preview_images_loaded": true,
+  "group_membership_verified": true,
+  "user_review_note": "好一点了，但是，你没有写45度正交俯视角"
+}

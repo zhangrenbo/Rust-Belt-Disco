@@ -1,0 +1,474 @@
+{
+  "date": "2026-09-15",
+  "checks": [
+    "Continue opens actual saved dialogue",
+    "1440/greeting: combined reply bounds centered on both stage axes",
+    "1440/greeting: all choices accept input and stay above the panel",
+    "844/greeting: combined reply bounds centered on both stage axes",
+    "844/greeting: all choices accept input and stay above the panel",
+    "1440/four-choices: combined reply bounds centered on both stage axes",
+    "1440/four-choices: all choices accept input and stay above the panel",
+    "1058/four-choices: combined reply bounds centered on both stage axes",
+    "1058/four-choices: all choices accept input and stay above the panel",
+    "844/four-choices: combined reply bounds centered on both stage axes",
+    "844/four-choices: all choices accept input and stay above the panel",
+    "1440/three-choice-layout-fixture: combined reply bounds centered on both stage axes",
+    "1440/three-choice-layout-fixture: all choices accept input and stay above the panel",
+    "844/three-choice-layout-fixture: combined reply bounds centered on both stage axes",
+    "844/three-choice-layout-fixture: all choices accept input and stay above the panel",
+    "1440: Home returns to the first dialogue line",
+    "1440/warning: combined reply bounds centered on both stage axes",
+    "1440/warning: all choices accept input and stay above the panel",
+    "1440: long dialogue is fully reachable by keyboard",
+    "844: Home returns to the first dialogue line",
+    "844/warning: combined reply bounds centered on both stage axes",
+    "844/warning: all choices accept input and stay above the panel",
+    "844: long dialogue is fully reachable by keyboard",
+    "Close collapses dialogue and exposes Resume",
+    "Resume restores dialogue",
+    "Escape collapses dialogue",
+    "Unrelated data preserved and no exceptions"
+  ],
+  "screens": [
+    "E:\\东北迪斯科\\docs\\dialogue-centered-greeting-1440.png",
+    "E:\\东北迪斯科\\docs\\dialogue-centered-greeting-844.png",
+    "E:\\东北迪斯科\\docs\\dialogue-centered-four-choices-1440.png",
+    "E:\\东北迪斯科\\docs\\dialogue-centered-four-choices-1058.png",
+    "E:\\东北迪斯科\\docs\\dialogue-centered-four-choices-844.png",
+    "E:\\东北迪斯科\\docs\\dialogue-centered-three-choice-layout-fixture-1440.png",
+    "E:\\东北迪斯科\\docs\\dialogue-centered-three-choice-layout-fixture-844.png",
+    "E:\\东北迪斯科\\docs\\dialogue-centered-warning-1440.png",
+    "E:\\东北迪斯科\\docs\\dialogue-centered-warning-844.png"
+  ],
+  "measurements": [
+    {
+      "name": "greeting",
+      "width": 1440,
+      "metrics": {
+        "panel": {
+          "x": 201.59375,
+          "y": 601.21875,
+          "w": 1094.390625,
+          "h": 187.1875
+        },
+        "copy": {
+          "x": 388.796875,
+          "y": 626.390625,
+          "w": 820.796875,
+          "h": 101.609375
+        },
+        "font": 20.16,
+        "scrollHeight": 102,
+        "clientHeight": 102,
+        "choices": [
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 369,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          }
+        ]
+      }
+    },
+    {
+      "name": "greeting",
+      "width": 844,
+      "metrics": {
+        "panel": {
+          "x": 118.15625,
+          "y": 352.5,
+          "w": 641.4375,
+          "h": 109.71875
+        },
+        "copy": {
+          "x": 227.875,
+          "y": 367.25,
+          "w": 481.078125,
+          "h": 69.703125
+        },
+        "font": 14,
+        "scrollHeight": 70,
+        "clientHeight": 70,
+        "choices": [
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 216.40625,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          }
+        ]
+      }
+    },
+    {
+      "name": "four-choices",
+      "width": 1440,
+      "metrics": {
+        "panel": {
+          "x": 201.59375,
+          "y": 601.21875,
+          "w": 1094.390625,
+          "h": 187.1875
+        },
+        "copy": {
+          "x": 388.796875,
+          "y": 626.390625,
+          "w": 820.796875,
+          "h": 31.234375
+        },
+        "font": 20.16,
+        "scrollHeight": 31,
+        "clientHeight": 31,
+        "choices": [
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 250.21875,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          },
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 329.40625,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          },
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 408.59375,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          },
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 487.78125,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          }
+        ]
+      }
+    },
+    {
+      "name": "four-choices",
+      "width": 1058,
+      "metrics": {
+        "panel": {
+          "x": 148.1875,
+          "y": 441.625,
+          "w": 803.890625,
+          "h": 137.5
+        },
+        "copy": {
+          "x": 285.703125,
+          "y": 460.125,
+          "w": 602.921875,
+          "h": 22.953125
+        },
+        "font": 14.8087,
+        "scrollHeight": 23,
+        "clientHeight": 23,
+        "choices": [
+          {
+            "rect": {
+              "x": 248.6796875,
+              "y": 183.8125,
+              "w": 560.609375,
+              "h": 52.875
+            },
+            "font": 14.8087
+          },
+          {
+            "rect": {
+              "x": 248.6796875,
+              "y": 241.96875,
+              "w": 560.609375,
+              "h": 52.875
+            },
+            "font": 14.8087
+          },
+          {
+            "rect": {
+              "x": 248.6796875,
+              "y": 300.125,
+              "w": 560.609375,
+              "h": 52.875
+            },
+            "font": 14.8087
+          },
+          {
+            "rect": {
+              "x": 248.6796875,
+              "y": 358.28125,
+              "w": 560.609375,
+              "h": 52.875
+            },
+            "font": 14.8087
+          }
+        ]
+      }
+    },
+    {
+      "name": "four-choices",
+      "width": 844,
+      "metrics": {
+        "panel": {
+          "x": 118.15625,
+          "y": 352.5,
+          "w": 641.4375,
+          "h": 109.71875
+        },
+        "copy": {
+          "x": 227.875,
+          "y": 367.25,
+          "w": 481.078125,
+          "h": 21.6875
+        },
+        "font": 14,
+        "scrollHeight": 22,
+        "clientHeight": 22,
+        "choices": [
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 146.796875,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          },
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 193.203125,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          },
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 239.609375,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          },
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 286.015625,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          }
+        ]
+      }
+    },
+    {
+      "name": "three-choice-layout-fixture",
+      "width": 1440,
+      "metrics": {
+        "panel": {
+          "x": 201.59375,
+          "y": 601.21875,
+          "w": 1094.390625,
+          "h": 187.1875
+        },
+        "copy": {
+          "x": 388.796875,
+          "y": 626.390625,
+          "w": 820.796875,
+          "h": 31.234375
+        },
+        "font": 20.16,
+        "scrollHeight": 31,
+        "clientHeight": 31,
+        "choices": [
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 289.8125,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          },
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 369,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          },
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 448.1875,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          }
+        ]
+      }
+    },
+    {
+      "name": "three-choice-layout-fixture",
+      "width": 844,
+      "metrics": {
+        "panel": {
+          "x": 118.15625,
+          "y": 352.5,
+          "w": 641.4375,
+          "h": 109.71875
+        },
+        "copy": {
+          "x": 227.875,
+          "y": 367.25,
+          "w": 481.078125,
+          "h": 21.6875
+        },
+        "font": 14,
+        "scrollHeight": 22,
+        "clientHeight": 22,
+        "choices": [
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 170,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          },
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 216.40625,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          },
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 262.8125,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          }
+        ]
+      }
+    },
+    {
+      "name": "warning",
+      "width": 1440,
+      "metrics": {
+        "panel": {
+          "x": 201.59375,
+          "y": 601.21875,
+          "w": 1094.390625,
+          "h": 187.1875
+        },
+        "copy": {
+          "x": 388.796875,
+          "y": 626.390625,
+          "w": 820.796875,
+          "h": 123.828125
+        },
+        "font": 20.16,
+        "scrollHeight": 143,
+        "clientHeight": 124,
+        "choices": [
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 329.40625,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          },
+          {
+            "rect": {
+              "x": 338.40625,
+              "y": 408.59375,
+              "w": 763.1875,
+              "h": 72
+            },
+            "font": 20.16
+          }
+        ]
+      }
+    },
+    {
+      "name": "warning",
+      "width": 844,
+      "metrics": {
+        "panel": {
+          "x": 118.15625,
+          "y": 352.5,
+          "w": 641.4375,
+          "h": 109.71875
+        },
+        "copy": {
+          "x": 227.875,
+          "y": 367.25,
+          "w": 481.078125,
+          "h": 72.578125
+        },
+        "font": 14,
+        "scrollHeight": 120,
+        "clientHeight": 73,
+        "choices": [
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 193.203125,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          },
+          {
+            "rect": {
+              "x": 198.34375,
+              "y": 239.609375,
+              "w": 447.3125,
+              "h": 42.1875
+            },
+            "font": 14
+          }
+        ]
+      }
+    }
+  ],
+  "storage": "isolated memory fixture; real saves untouched",
+  "transport": "fixed work Chrome direct CDP 9223",
+  "audio": "silent",
+  "electronWindowVerified": false,
+  "artReview": "pending user review",
+  "threeChoiceFixture": "Temporary removal of fourth DOM choice for layout only; restored before actual gameplay continues. Existing story has 1, 2 or 4 replies."
+}

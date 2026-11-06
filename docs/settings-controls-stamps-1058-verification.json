@@ -1,0 +1,451 @@
+{
+  "transport": "fixed work Google Chrome, direct CDP 9223; task-created background target",
+  "storage": "isolated memory; real player data untouched",
+  "audio": "test target output muted",
+  "viewport": [
+    1058,
+    595
+  ],
+  "screenshot": "E:\\东北迪斯科\\docs\\settings-controls-stamps-1058.png",
+  "layout": {
+    "stamps": [
+      {
+        "text": "未查明凶手",
+        "rect": {
+          "x": 757.1980590820312,
+          "y": 42.12974548339844,
+          "width": 193.0726318359375,
+          "height": 73.33425903320312
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(150, 47, 39)",
+        "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+        "border": "1px",
+        "font": "SimSun, \"Songti SC\", serif",
+        "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, 0, 0)",
+        "pointer": "none"
+      },
+      {
+        "text": "恢复默认",
+        "rect": {
+          "x": 365.6024169921875,
+          "y": 407.3252258300781,
+          "width": 130.029541015625,
+          "height": 37.34954833984375
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(150, 47, 39)",
+        "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+        "border": "1px",
+        "font": "SimSun, \"Songti SC\", serif",
+        "transform": "matrix(0.999507, -0.0314108, 0.0314108, 0.999507, 0, 0)",
+        "pointer": "auto"
+      },
+      {
+        "text": "应用设置",
+        "rect": {
+          "x": 547.6279296875,
+          "y": 407.77227783203125,
+          "width": 129.822265625,
+          "height": 36.4554443359375
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "color": "rgb(150, 47, 39)",
+        "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+        "border": "1px",
+        "font": "SimSun, \"Songti SC\", serif",
+        "transform": "matrix(0.999701, 0.0244322, -0.0244322, 0.999701, 0, 0)",
+        "pointer": "auto"
+      }
+    ],
+    "controls": [
+      {
+        "name": "返回",
+        "hit": true
+      },
+      {
+        "name": "音乐库",
+        "hit": true
+      },
+      {
+        "name": "人物档案",
+        "hit": true
+      },
+      {
+        "name": "自动窗口",
+        "hit": true
+      },
+      {
+        "name": "手动窗口",
+        "hit": true
+      },
+      {
+        "name": "全屏模式",
+        "hit": true
+      },
+      {
+        "name": "性能",
+        "hit": true
+      },
+      {
+        "name": "平衡",
+        "hit": true
+      },
+      {
+        "name": "增强",
+        "hit": true
+      },
+      {
+        "name": "开启",
+        "hit": true
+      },
+      {
+        "name": "胶片强度",
+        "hit": true
+      },
+      {
+        "name": "动态开",
+        "hit": true
+      },
+      {
+        "name": "语音音量",
+        "hit": true
+      },
+      {
+        "name": "音乐音量",
+        "hit": true
+      },
+      {
+        "name": "音效音量",
+        "hit": true
+      },
+      {
+        "name": "关闭",
+        "hit": true
+      },
+      {
+        "name": "关闭",
+        "hit": true
+      },
+      {
+        "name": "恢复默认",
+        "hit": true
+      },
+      {
+        "name": "应用设置",
+        "hit": true
+      }
+    ],
+    "heading": {
+      "x": 242.0664825439453,
+      "y": 94.22084045410156,
+      "width": 111.57017517089844,
+      "height": 32.886444091796875
+    },
+    "form": {
+      "x": 242.328125,
+      "y": 95.1875,
+      "width": 558.5,
+      "height": 359.625
+    },
+    "film": "on",
+    "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)"
+  },
+  "defaults": {
+    "voice": 72,
+    "music": 54,
+    "sound": 84
+  },
+  "controlStamps": [
+    {
+      "text": "环境设置",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "窗口模式DISPLAY",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "自动窗口",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "手动窗口",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(124, 37, 31)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(150, 47, 39, 0.07)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "全屏模式",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "画面效果GRAPHICS",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "性能",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "平衡",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "增强",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(124, 37, 31)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(150, 47, 39, 0.07)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "老动画胶片",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "开启",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(124, 37, 31)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(150, 47, 39, 0.07)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "65",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "\"Courier New\", monospace",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "动态开",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(124, 37, 31)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(150, 47, 39, 0.07)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "语音音量VOICE",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "72",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "\"Courier New\", monospace",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "音乐音量MUSIC",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "0",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "\"Courier New\", monospace",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "音效音量SOUND",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "84",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "\"Courier New\", monospace",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "剧情设置STORY",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "关闭",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    },
+    {
+      "text": "关闭",
+      "outer": "1px",
+      "inner": "1px",
+      "innerContent": "\"\"",
+      "color": "rgb(150, 47, 39)",
+      "font": "SimSun, \"Songti SC\", serif",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+      "background": "rgba(0, 0, 0, 0)",
+      "innerPointer": "none",
+      "fits": true
+    }
+  ],
+  "captureSelector": "[data-screenshot-root]",
+  "captureBounds": {
+    "x": 0.109375,
+    "y": 0,
+    "width": 1057.765625,
+    "height": 594.984375
+  },
+  "checks": [
+    "three correct stamp labels",
+    "transparent red ink with distress mask and frames",
+    "stamps inside viewport",
+    "all controls reachable",
+    "shared main-menu film preserved",
+    "22 headings, labels, choices, switches and numeric readouts have double frames and distress masks; text fits",
+    "All six window/graphics choices remain mutually exclusive; window mode kept as unsaved draft",
+    "All four switches respond to mouse and keyboard; disabled film strength retained",
+    "Film strength and three volume sliders update stamped numeric readouts at 0 and 100",
+    "Control preview leaves saved settings unchanged until Apply",
+    "Restore defaults works from keyboard without saving prematurely",
+    "stamp hover feedback visible",
+    "Apply settings click saves changed volume",
+    "applied settings survive leaving and reopening settings",
+    "settings stamps hide in music library and return correctly"
+  ],
+  "errors": [],
+  "humanArtReview": "pending"
+}

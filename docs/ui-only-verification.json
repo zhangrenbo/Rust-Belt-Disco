@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-13",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "task-created page; in-memory fixtures; real saves untouched",
+  "checks": [
+    "opening the application shows the homepage without a notice",
+    "Start only opens character selection without a notice",
+    "confirming a new game enters a separate placeholder scene",
+    "pure black fills 1440x810",
+    "exact horizontally centered notice at 1440",
+    "visible return button below the notice at 1440",
+    "pure black fills 844x475",
+    "exact horizontally centered notice at 844",
+    "visible return button below the notice at 844",
+    "pure black fills 390x844",
+    "exact horizontally centered notice at 390",
+    "visible return button below the notice at 390",
+    "Enter activates the focused return button and returns to the homepage",
+    "continue enters the placeholder scene",
+    "return button exits continued game to the homepage",
+    "Escape exits the new-game placeholder scene to the homepage",
+    "saved-slot writing is disabled",
+    "load closes the slot dialog and enters the placeholder scene",
+    "return button exits loaded game to the homepage",
+    "personnel UI remains available",
+    "settings returns to the menu",
+    "all saved data is unchanged",
+    "station neither initialized nor loaded its background",
+    "a direct gameplay URL also enters the placeholder scene",
+    "no runtime errors"
+  ],
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\ui-only-notice-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "background": "rgb(0, 0, 0)",
+      "buttonBackground": "rgba(0, 0, 0, 0)",
+      "buttonArt": "url(\"http://127.0.0.1:5173/settings-reset-button-v1.png\")",
+      "buttonFont": "KaiTi, STKaiti, serif",
+      "buttonInk": "rgb(118, 43, 39)",
+      "width": 1440,
+      "height": 810,
+      "text": "仅UI展示，无可游玩内容",
+      "textX": 600.75,
+      "textY": 332.84375,
+      "textWidth": 238.484375,
+      "textHeight": 27,
+      "buttonText": "返回主菜单",
+      "buttonVisible": true,
+      "corners": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\ui-only-notice-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "background": "rgb(0, 0, 0)",
+      "buttonBackground": "rgba(0, 0, 0, 0)",
+      "buttonArt": "url(\"http://127.0.0.1:5173/settings-reset-button-v1.png\")",
+      "buttonFont": "KaiTi, STKaiti, serif",
+      "buttonInk": "rgb(118, 43, 39)",
+      "width": 844,
+      "height": 475,
+      "text": "仅UI展示，无可游玩内容",
+      "textX": 333.671875,
+      "textY": 176.953125,
+      "textWidth": 176.65625,
+      "textHeight": 20,
+      "buttonText": "返回主菜单",
+      "buttonVisible": true,
+      "corners": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\ui-only-notice-390.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "background": "rgb(0, 0, 0)",
+      "buttonBackground": "rgba(0, 0, 0, 0)",
+      "buttonArt": "url(\"http://127.0.0.1:5173/settings-reset-button-v1.png\")",
+      "buttonFont": "KaiTi, STKaiti, serif",
+      "buttonInk": "rgb(118, 43, 39)",
+      "width": 390,
+      "height": 844,
+      "text": "仅UI展示，无可游玩内容",
+      "textX": 106.671875,
+      "textY": 361.453125,
+      "textWidth": 176.65625,
+      "textHeight": 20,
+      "buttonText": "返回主菜单",
+      "buttonVisible": true,
+      "corners": true
+    }
+  ],
+  "errors": []
+}

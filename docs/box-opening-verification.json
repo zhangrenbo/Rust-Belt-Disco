@@ -1,0 +1,91 @@
+{
+  "view": "box",
+  "sizes": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "stage": [
+        1440,
+        810
+      ],
+      "outside": [],
+      "ratio": 1.2499929356579729,
+      "scroll": false
+    },
+    {
+      "viewport": [
+        1200,
+        900
+      ],
+      "stage": [
+        1199.984375,
+        899.984375
+      ],
+      "outside": [],
+      "ratio": 1.250016954899966,
+      "scroll": false
+    },
+    {
+      "viewport": [
+        800,
+        600
+      ],
+      "stage": [
+        799.984375,
+        599.984375
+      ],
+      "outside": [],
+      "ratio": 1.25,
+      "scroll": false
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "stage": [
+        693.328125,
+        389.984375
+      ],
+      "outside": [],
+      "ratio": 1.2500146722225483,
+      "scroll": false
+    },
+    {
+      "viewport": [
+        640,
+        900
+      ],
+      "stage": [
+        640,
+        360
+      ],
+      "outside": [],
+      "ratio": 1.25,
+      "scroll": false
+    },
+    {
+      "viewport": [
+        1920,
+        600
+      ],
+      "stage": [
+        1066.65625,
+        599.984375
+      ],
+      "outside": [],
+      "ratio": 1.2499809262226291,
+      "scroll": false
+    }
+  ],
+  "dragAndReload": true,
+  "solution": {
+    "actions": 22,
+    "remaining": 0,
+    "parcelEnabled": true
+  },
+  "undoResetPickup": true,
+  "errors": []
+}

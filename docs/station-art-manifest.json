@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-09",
+  "tool": "built-in image_gen",
+  "humanArtApproval": "pending",
+  "generations": [
+    {
+      "key": "station",
+      "prompt": "Use case: stylized-concept. Asset: finished raster background for a 2D point-and-click isometric game, 16:9 landscape. Reference image 1 provides the actual bus shelter, Northeast Chinese small-town summer morning setting, worn teal wood, golden mist, expressive painterly brushwork. Recompose that setting viewed from a FIXED HIGH OBLIQUE camera approximately 40 degrees looking down, with near orthographic projection. No horizon, no black letterbox bars. The small worn bus shelter and benches sit in the upper middle at x40–65%, y22–46%; low concrete boarding pavement open across the central and lower image, including a broad uninterrupted WALKABLE AREA x12–88%, y50–82%, with a few subtle expansion seams. An old bus route sign near x30%,y45%. Road continues to the right edge at y60–75%, another path branches left at y55–65%. Trees, weeds, telephone poles and old boundary walls frame only the upper and side edges. Keep foreground centre open for characters and bottom 15% quiet for game overlay. Intimate roadside bus stop, no railway tracks, no large station building. Muted teal, desaturated olive and amber sunlight consistent with reference. Entire scene painted, tangible worn materials, crisp readable ground silhouettes, strong depth through painted occlusion only. NO people, cars, animals, HUD, interface, text, grid overlay or labels. Single full-bleed scene.",
+      "references": [
+        "E:/东北迪斯科/public/media/station-reference.png"
+      ],
+      "outputHint": "Generated images are saved to D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99 as D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99\\exec-c4f1291a-91a5-4844-8701-9c8488eb9c95.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "key": "grandmother",
+      "prompt": "Use case: identity-preserve. Asset: one transparent PNG full-body 2D game character sprite. Use image 1 as exact reference for this elderly Chinese fortune-teller woman's face, dark gray swept hair, wrinkled cheekbones, worn charcoal cotton jacket, gray skirt, thin frame and painted brushwork. Reconstruct her entire figure STANDING, slightly hunched, wearing simple old flat cloth shoes, both feet visible, hands quietly together near waist holding the same small fortune sticks. Fixed high oblique/isometric game camera looking down about 35 degrees, three-quarter pose facing lower-left. Preserve her identity and muted painterly colors. One figure only, 512x768 portrait canvas with 8% margin. CRITICAL truly transparent RGBA alpha=0 outside figure, no paper backdrop, no gray background, no checkered pattern, no floor or baked cast shadow. No letters, no labels, no UI. Not a portrait card. Sharp legible silhouette for displaying at 110 pixels high.",
+      "references": [
+        "E:/东北迪斯科/public/media/characters/grandmother-reference.png"
+      ],
+      "outputHint": "Generated images are saved to D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99 as D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99\\exec-6a7e5100-7154-44e1-97d7-23c708024cd4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "key": "dong",
+      "prompt": "Use case: identity-preserve. Asset: one transparent PNG full-body 2D game character sprite. Image 1 defines Dong Dianshi, this young Chinese man about 20 years old: preserve his short messy black hair, angular thin face, dark padded jacket with open offwhite collar, quiet stubborn expression, brushwork and desaturated teal/brown colors. Extend to his full figure, wearing practical straight dark trousers and scuffed dark shoes, both feet visible, arms relaxed, one hand holding a small worn canvas travel bag. Fixed high oblique/isometric game camera looking down about 35 degrees, three-quarter pose facing lower-right. Standing neutral ready-to-walk pose, slightly separated feet. One figure only, 512x768 portrait canvas with 8% margin. CRITICAL truly transparent RGBA alpha=0 outside figure. No gray backdrop, no paper, no checkered pattern, no scene, no floor or baked shadow, no text, no UI. Preserve painterly realism, expressive textured brushwork, readable silhouette at 120 pixels high. Do not make a portrait card.",
+      "references": [
+        "E:/东北迪斯科/public/media/characters/dong-reference.png"
+      ],
+      "outputHint": "Generated images are saved to D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99 as D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99\\exec-65efb1d7-ff38-475b-83fa-993fb8b8a7b3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "alphaAttempts": [
+    {
+      "prompt": "Edit target image 1. Remove ONLY the fake gray-and-white checkerboard background completely, replacing it with REAL transparent alpha=0 pixels. Preserve every existing pixel of the elderly woman, her clothing, face, hands and shoes and maintain the exact 1024x1536 canvas and figure placement. This is a game sprite cutout. Export a true RGBA PNG with transparent exterior, NOT a picture of transparency, NOT a white, black, gray or patterned background. Keep the entire head and both feet. No new shadows or halo. No other changes.",
+      "outputHint": "Generated images are saved to D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99 as D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99\\exec-7fb41176-a5d4-4d41-8912-91487d7a0940.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "result": "RGB with baked checkerboard; rejected for runtime"
+    },
+    {
+      "prompt": "Image 1 is a correctly transparent RGBA game sprite and defines the required transparent output format and high-angle full-body framing. Image 2 defines the elderly woman's identity, hair, wrinkled face, charcoal jacket, long gray skirt, painterly brushwork. Edit image 1: replace the young man with this elderly woman, standing slightly hunched with old cloth shoes, both feet visible and her hands together holding fortune sticks. Keep the output as RGBA with actual zero alpha surrounding the figure, exactly like image 1, retaining clean semi-transparent painted edges. No solid backdrop, no white or gray squares, no simulated transparency pattern. Only the woman, full body, high oblique 35-degree game camera, same full-body scale and margins as image 1. 1024x1536.",
+      "outputHint": "Generated images are saved to D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99 as D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99\\exec-5d28d895-07d7-42a3-8391-14cdcdd92df4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "result": "RGB with baked checkerboard; rejected for runtime"
+    }
+  ],
+  "finalScene": {
+    "path": "public/media/station-scene.png",
+    "prompt": "Precise compositing edit. Image 1 is the finished game background and must remain PIXEL-ALIGNED: keep its exact 1672x941 canvas, camera, shelter, route sign, pavement, plants, colors and all geometry unchanged. Image 2 is identity reference for the elderly Chinese woman. Insert ONE small standing elderly woman matching that face, swept gray hair, worn charcoal jacket and long gray skirt on the pavement just in front of the bus shelter. Her feet must touch image coordinate x910,y481 (54.4% across,51.1% down). Her full-body height should be about 160 pixels (17% of image height). High oblique game viewpoint, facing slightly lower-left, hands together around her fortune sticks, naturally hunched, full body and shoes visible. Match the scene's painterly teal/olive brushwork and overhead warm daylight with a short faint ground shadow. The woman is a small in-world character, not a large portrait. Preserve all other pixels, NO other people. Output ONE opaque complete background containing her. No text, no checkerboard, no transparency, no UI, no panels.",
+    "outputHint": "Generated images are saved to D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99 as D:\\CodexData\\home\\generated_images\\01a079d0-d3e0-7291-8fb8-65f45b180a99\\exec-5f55a95a-fe14-49d8-a203-64a35ced1895.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "notes": "Stationary grandmother painted into the scene; blocked navigation reserves her body/foot area. No standalone false-alpha grandmother is loaded."
+  },
+  "player": {
+    "path": "public/media/characters/dong.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 1088756,
+    "corners": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "unusedArchive": "E:\\东北迪斯科_Unity备份_20260909\\html-draft-before-station\\unused-public",
+  "scope": "New scene artwork used in implementation, not approved generator output or a screenshot of runtime."
+}

@@ -1,0 +1,229 @@
+{
+  "date": "2026-09-16",
+  "hoverChecks": [
+    {
+      "width": 1440,
+      "choice": 1,
+      "before": {
+        "x": 338.40625,
+        "y": 250.21875,
+        "w": 763.1875,
+        "h": 72,
+        "transform": "none",
+        "filter": "saturate(0.7) brightness(0.86) drop-shadow(rgba(119, 123, 124, 0.282) 1.728px 2.304px 1.296px) drop-shadow(rgba(75, 79, 80, 0.38) 4.32px 5.472px 3.168px)",
+        "color": "rgb(231, 226, 215)",
+        "hover": false,
+        "focus": false
+      },
+      "hover": {
+        "x": 338.40625,
+        "y": 250.21875,
+        "w": 763.1875,
+        "h": 72,
+        "transform": "none",
+        "filter": "saturate(0.7) brightness(0.86) brightness(1.18) saturate(1.08) drop-shadow(rgba(115, 119, 120, 0.333) 2.304px 2.88px 1.44px) drop-shadow(rgba(70, 74, 75, 0.44) 5.472px 6.912px 3.744px)",
+        "color": "rgb(255, 249, 232)",
+        "hover": true,
+        "focus": false
+      },
+      "panelUnchanged": true
+    },
+    {
+      "width": 1440,
+      "choice": 2,
+      "before": {
+        "x": 338.40625,
+        "y": 329.40625,
+        "w": 763.1875,
+        "h": 72,
+        "transform": "none",
+        "filter": "sepia(0.38) saturate(1.45) brightness(0.9) drop-shadow(rgba(119, 123, 124, 0.282) 1.728px 2.304px 1.296px) drop-shadow(rgba(75, 79, 80, 0.38) 4.32px 5.472px 3.168px)",
+        "color": "rgb(231, 226, 215)",
+        "hover": false,
+        "focus": false
+      },
+      "hover": {
+        "x": 338.40625,
+        "y": 329.40625,
+        "w": 763.1875,
+        "h": 72,
+        "transform": "none",
+        "filter": "sepia(0.38) saturate(1.45) brightness(0.9) brightness(1.18) saturate(1.08) drop-shadow(rgba(115, 119, 120, 0.333) 2.304px 2.88px 1.44px) drop-shadow(rgba(70, 74, 75, 0.44) 5.472px 6.912px 3.744px)",
+        "color": "rgb(255, 249, 232)",
+        "hover": true,
+        "focus": false
+      },
+      "panelUnchanged": true
+    },
+    {
+      "width": 1440,
+      "choice": 3,
+      "before": {
+        "x": 338.40625,
+        "y": 408.59375,
+        "w": 763.1875,
+        "h": 72,
+        "transform": "none",
+        "filter": "sepia(0.2) hue-rotate(55deg) saturate(0.75) brightness(0.82) drop-shadow(rgba(119, 123, 124, 0.282) 1.728px 2.304px 1.296px) drop-shadow(rgba(75, 79, 80, 0.38) 4.32px 5.472px 3.168px)",
+        "color": "rgb(231, 226, 215)",
+        "hover": false,
+        "focus": false
+      },
+      "hover": {
+        "x": 338.40625,
+        "y": 408.59375,
+        "w": 763.1875,
+        "h": 72,
+        "transform": "none",
+        "filter": "sepia(0.2) hue-rotate(55deg) saturate(0.75) brightness(0.82) brightness(1.18) saturate(1.08) drop-shadow(rgba(115, 119, 120, 0.333) 2.304px 2.88px 1.44px) drop-shadow(rgba(70, 74, 75, 0.44) 5.472px 6.912px 3.744px)",
+        "color": "rgb(255, 249, 232)",
+        "hover": true,
+        "focus": false
+      },
+      "panelUnchanged": true
+    },
+    {
+      "width": 1440,
+      "choice": 4,
+      "before": {
+        "x": 338.40625,
+        "y": 487.78125,
+        "w": 763.1875,
+        "h": 72,
+        "transform": "none",
+        "filter": "hue-rotate(145deg) saturate(0.78) brightness(0.74) drop-shadow(rgba(119, 123, 124, 0.282) 1.728px 2.304px 1.296px) drop-shadow(rgba(75, 79, 80, 0.38) 4.32px 5.472px 3.168px)",
+        "color": "rgb(231, 226, 215)",
+        "hover": false,
+        "focus": false
+      },
+      "hover": {
+        "x": 338.40625,
+        "y": 487.78125,
+        "w": 763.1875,
+        "h": 72,
+        "transform": "none",
+        "filter": "hue-rotate(145deg) saturate(0.78) brightness(0.74) brightness(1.18) saturate(1.08) drop-shadow(rgba(115, 119, 120, 0.333) 2.304px 2.88px 1.44px) drop-shadow(rgba(70, 74, 75, 0.44) 5.472px 6.912px 3.744px)",
+        "color": "rgb(255, 249, 232)",
+        "hover": true,
+        "focus": false
+      },
+      "panelUnchanged": true
+    },
+    {
+      "width": 844,
+      "choice": 1,
+      "before": {
+        "x": 198.34375,
+        "y": 146.796875,
+        "w": 447.3125,
+        "h": 42.1875,
+        "transform": "none",
+        "filter": "saturate(0.7) brightness(0.86) drop-shadow(rgba(119, 123, 124, 0.282) 1.0128px 1.3504px 0.7596px) drop-shadow(rgba(75, 79, 80, 0.38) 2.532px 3.2072px 1.8568px)",
+        "color": "rgb(231, 226, 215)",
+        "hover": false,
+        "focus": false
+      },
+      "hover": {
+        "x": 198.34375,
+        "y": 146.796875,
+        "w": 447.3125,
+        "h": 42.1875,
+        "transform": "none",
+        "filter": "saturate(0.7) brightness(0.86) brightness(1.18) saturate(1.08) drop-shadow(rgba(115, 119, 120, 0.333) 1.3504px 1.688px 0.844px) drop-shadow(rgba(70, 74, 75, 0.44) 3.2072px 4.0512px 2.1944px)",
+        "color": "rgb(255, 249, 232)",
+        "hover": true,
+        "focus": false
+      },
+      "panelUnchanged": true
+    },
+    {
+      "width": 844,
+      "choice": 2,
+      "before": {
+        "x": 198.34375,
+        "y": 193.203125,
+        "w": 447.3125,
+        "h": 42.1875,
+        "transform": "none",
+        "filter": "sepia(0.38) saturate(1.45) brightness(0.9) drop-shadow(rgba(119, 123, 124, 0.282) 1.0128px 1.3504px 0.7596px) drop-shadow(rgba(75, 79, 80, 0.38) 2.532px 3.2072px 1.8568px)",
+        "color": "rgb(231, 226, 215)",
+        "hover": false,
+        "focus": false
+      },
+      "hover": {
+        "x": 198.34375,
+        "y": 193.203125,
+        "w": 447.3125,
+        "h": 42.1875,
+        "transform": "none",
+        "filter": "sepia(0.38) saturate(1.45) brightness(0.9) brightness(1.18) saturate(1.08) drop-shadow(rgba(115, 119, 120, 0.333) 1.3504px 1.688px 0.844px) drop-shadow(rgba(70, 74, 75, 0.44) 3.2072px 4.0512px 2.1944px)",
+        "color": "rgb(255, 249, 232)",
+        "hover": true,
+        "focus": false
+      },
+      "panelUnchanged": true
+    },
+    {
+      "width": 844,
+      "choice": 3,
+      "before": {
+        "x": 198.34375,
+        "y": 239.609375,
+        "w": 447.3125,
+        "h": 42.1875,
+        "transform": "none",
+        "filter": "sepia(0.2) hue-rotate(55deg) saturate(0.75) brightness(0.82) drop-shadow(rgba(119, 123, 124, 0.282) 1.0128px 1.3504px 0.7596px) drop-shadow(rgba(75, 79, 80, 0.38) 2.532px 3.2072px 1.8568px)",
+        "color": "rgb(231, 226, 215)",
+        "hover": false,
+        "focus": false
+      },
+      "hover": {
+        "x": 198.34375,
+        "y": 239.609375,
+        "w": 447.3125,
+        "h": 42.1875,
+        "transform": "none",
+        "filter": "sepia(0.2) hue-rotate(55deg) saturate(0.75) brightness(0.82) brightness(1.18) saturate(1.08) drop-shadow(rgba(115, 119, 120, 0.333) 1.3504px 1.688px 0.844px) drop-shadow(rgba(70, 74, 75, 0.44) 3.2072px 4.0512px 2.1944px)",
+        "color": "rgb(255, 249, 232)",
+        "hover": true,
+        "focus": false
+      },
+      "panelUnchanged": true
+    },
+    {
+      "width": 844,
+      "choice": 4,
+      "before": {
+        "x": 198.34375,
+        "y": 286.015625,
+        "w": 447.3125,
+        "h": 42.1875,
+        "transform": "none",
+        "filter": "hue-rotate(145deg) saturate(0.78) brightness(0.74) drop-shadow(rgba(119, 123, 124, 0.282) 1.0128px 1.3504px 0.7596px) drop-shadow(rgba(75, 79, 80, 0.38) 2.532px 3.2072px 1.8568px)",
+        "color": "rgb(231, 226, 215)",
+        "hover": false,
+        "focus": false
+      },
+      "hover": {
+        "x": 198.34375,
+        "y": 286.015625,
+        "w": 447.3125,
+        "h": 42.1875,
+        "transform": "none",
+        "filter": "hue-rotate(145deg) saturate(0.78) brightness(0.74) brightness(1.18) saturate(1.08) drop-shadow(rgba(115, 119, 120, 0.333) 1.3504px 1.688px 0.844px) drop-shadow(rgba(70, 74, 75, 0.44) 3.2072px 4.0512px 2.1944px)",
+        "color": "rgb(255, 249, 232)",
+        "hover": true,
+        "focus": false
+      },
+      "panelUnchanged": true
+    }
+  ],
+  "keyboardFocusStable": true,
+  "keyboardSelection": true,
+  "mouseSelection": true,
+  "runtimeErrors": [],
+  "storage": "isolated memory; real saves untouched",
+  "audio": "silent",
+  "transport": "fixed work Google Chrome direct CDP",
+  "electronWindowVerified": false
+}

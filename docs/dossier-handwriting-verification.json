@@ -1,0 +1,156 @@
+{
+  "ui": "inspected #dossier-record handwritten lettering plus red flower and ordinary key",
+  "characters": [
+    {
+      "id": "dong",
+      "name": "董点事"
+    },
+    {
+      "id": "li",
+      "name": "李正"
+    },
+    {
+      "id": "wang",
+      "name": "王少鹏"
+    }
+  ],
+  "characterCount": 3,
+  "checks": [
+    "original book is retained and four side buttons remain",
+    "dong: side button selects its name and portrait",
+    "dong: generated ink matches selected record and retains accessible text",
+    "li: side button selects its name and portrait",
+    "li: generated ink matches selected record and retains accessible text",
+    "wang: side button selects its name and portrait",
+    "wang: generated ink matches selected record and retains accessible text",
+    "dossier contains only identity, location and biography",
+    "paper page covers tab roots but names remain clickable",
+    "keyboard arrows change character and actual portrait together",
+    "End selects the last available character",
+    "compact role buttons and return are reachable and labels fit",
+    "return and all four side tabs use the original independent paper PNG",
+    "Chinese record has a distinct name, metadata and biography",
+    "record text fits on the original paper",
+    "identity, place and introductory text match the selected character",
+    "new props are bounded, noninteractive and preserve original book",
+    "rapid switching keeps latest portrait, text and ink together",
+    "return preserves settings draft",
+    "Escape returns to settings",
+    "music still opens with mute preserved",
+    "nested return reaches the original main menu",
+    "character browsing preserves storage",
+    "failed ink load retains visible correct HTML record",
+    "ink recovers after failed download"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/dossier-handwriting-dong-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/dossier-handwriting-dong-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "path": "docs/dossier-handwriting-dong-1058.png",
+      "viewport": [
+        1058,
+        595
+      ]
+    },
+    {
+      "path": "docs/dossier-handwriting-li-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/dossier-handwriting-li-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "path": "docs/dossier-handwriting-wang-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/dossier-handwriting-wang-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    }
+  ],
+  "errors": [],
+  "allFourConfigured": false,
+  "scope": "Original character records and portraits; no playable content.",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "targetId": "C23D1C687F71BB1841FF2E679D7A5AE3",
+  "storage": "isolated memory; player data unchanged",
+  "humanArtReview": "pending",
+  "assistantVisualReview": "All seven game-stage screenshots inspected at 1440x810, 1058x595 and 844x475: three correct records, handwriting follows the original paper; verification stamp retained; ordinary flat key and small red flower visible with no exterior checkerboard. Human art approval remains pending.",
+  "build": "passed",
+  "tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "migratedHashes": 172,
+  "resourcePaths": 73,
+  "assetChecks": [
+    {
+      "path": "public/assets/exploration-dossier-redflower-key-v1.png",
+      "bytes": 2277945,
+      "sha256": "b169b3385cc5182d5e4fe1cc7e5a2f5163fdaf10cc49942c6ae288e7388195fd",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-handwriting-dong-v1.png",
+      "bytes": 972526,
+      "sha256": "7fca9450e31f0226c74ac4bc7e4db46775d40cd40cd997186bb89e8267047d9e",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-handwriting-li-v1.png",
+      "bytes": 952104,
+      "sha256": "2669f5d2bf49fc498149e2e4fd50ef8c4d2ebf23dcc51056e81326be52b6664b",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-handwriting-wang-v1.png",
+      "bytes": 875976,
+      "sha256": "2cf8fbd8271df6869bc09251b25e004ff566f9ebe28e6ef64b965e9163fcb295",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-key-mask.svg",
+      "bytes": 354,
+      "sha256": "f39b791c651bd3ac7cd2f52fa18681a18a09acce3d138155780c6c23d514feb4",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-redflower-mask.svg",
+      "bytes": 379,
+      "sha256": "e5c149def7c821a3e61f8fca00bb36885a0a63134c3f9422286a1919c2a3ea0b",
+      "buildMatch": true,
+      "httpStatus": 200
+    }
+  ],
+  "electronWindowVerification": "not performed"
+}

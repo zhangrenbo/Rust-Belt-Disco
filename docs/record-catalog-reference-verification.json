@@ -1,0 +1,165 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Google Chrome, direct target-specific CDP 9223; unique background page",
+  "connectionNote": "Playwright browser-wide attachment timed out at 10 and 30 seconds. Direct Browser.getVersion and target-specific CDP worked; no restart or unrelated tab manipulation.",
+  "checks": [
+    "Actual theme recording plays through the silent QA sink",
+    "Reference-based paper and both real game thumbnails decode",
+    "Left player artwork and needle projection remain intact",
+    "1440: all visible controls receive pointer input inside the game",
+    "1440: heading, both credits and footer fit their printed areas",
+    "1440: old-animation film and two paper shadows cover the catalog",
+    "1058: all visible controls receive pointer input inside the game",
+    "1058: heading, both credits and footer fit their printed areas",
+    "1058: old-animation film and two paper shadows cover the catalog",
+    "844: all visible controls receive pointer input inside the game",
+    "844: heading, both credits and footer fit their printed areas",
+    "844: old-animation film and two paper shadows cover the catalog",
+    "Playback advances the progress slider",
+    "Pause stops actual audio and the record rotation",
+    "Seeking while paused changes the real playback position",
+    "Resume starts at the selected position",
+    "Clicking the cover selects the actual station recording",
+    "The red strip follows the selected recording",
+    "Clicking a title returns to the theme",
+    "Next track remains functional",
+    "Previous track remains functional",
+    "Favorites side tab shows a usable empty collection",
+    "Adding a favorite updates the filter and stored collection",
+    "Removing the last favorite returns keyboard focus to its side tab",
+    "All side tab restores both recordings and selected-tab state",
+    "Favorites side tab also works from the keyboard",
+    "Loop button changes the real source loop state",
+    "Keyboard focus remains visible on the player",
+    "Enter pauses actual playback",
+    "Reduced motion disables record rotation",
+    "Return restores settings and scene music",
+    "Escape returns to settings",
+    "Unrelated settings and player saves remain untouched",
+    "No JavaScript errors"
+  ],
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-catalog-reference-playing-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-catalog-reference-playing-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-catalog-reference-playing-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-catalog-reference-paused-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-catalog-reference-station-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-catalog-reference-empty-favorites-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-catalog-reference-favorite-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 810,
+      "heading": "700 52.56px / 60.444px SimSun, \"Songti SC\", serif",
+      "paper": "url(\"http://127.0.0.1:5173/record-catalog-paper-reference-v4.png\")",
+      "selected": "menu",
+      "filterAll": "true"
+    },
+    {
+      "width": 1058,
+      "height": 595,
+      "heading": "700 38.6084px / 44.3997px SimSun, \"Songti SC\", serif",
+      "paper": "url(\"http://127.0.0.1:5173/record-catalog-paper-reference-v4.png\")",
+      "selected": "menu",
+      "filterAll": "true"
+    },
+    {
+      "width": 844,
+      "height": 475,
+      "heading": "700 30.806px / 35.4269px SimSun, \"Songti SC\", serif",
+      "paper": "url(\"http://127.0.0.1:5173/record-catalog-paper-reference-v4.png\")",
+      "selected": "menu",
+      "filterAll": "true"
+    }
+  ],
+  "errors": [],
+  "storage": "isolated in-memory fixtures; real player data untouched",
+  "audio": "real Web Audio before silent QA output; speakers not inspected",
+  "humanArtReview": "pending",
+  "electronWindowVerified": false
+}

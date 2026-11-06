@@ -1,0 +1,383 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Chrome, background target-specific direct CDP 9223",
+  "checks": [
+    "Stamp resource loads: save-ticket-ink-mask.svg",
+    "Stamp resource loads: save-ticket-stamp-rim.svg",
+    "Edited reference decodes at 1672 by 941",
+    "1440: all six artwork positions receive clicks",
+    "1440: titles and descriptions fit their printed fields",
+    "1440: independent masked ticket art with no legacy borders",
+    "1440: live empty, saved and damaged states",
+    "1440: existing film layers stay above artwork without intercepting input",
+    "1440: six complete stamps retain live titles and nonblocking rims",
+    "1440: slot 01 lifts its paper and exposes its action",
+    "1440: slot 01 opens the correct detail and permitted actions",
+    "1440: slot 02 lifts its paper and exposes its action",
+    "1440: slot 02 opens the correct detail and permitted actions",
+    "1440: slot 03 lifts its paper and exposes its action",
+    "1440: slot 03 opens the correct detail and permitted actions",
+    "1440: slot 04 lifts its paper and exposes its action",
+    "1440: slot 04 opens the correct detail and permitted actions",
+    "1440: slot 05 lifts its paper and exposes its action",
+    "1440: slot 05 opens the correct detail and permitted actions",
+    "1440: slot 06 lifts its paper and exposes its action",
+    "1440: slot 06 opens the correct detail and permitted actions",
+    "1058: all six artwork positions receive clicks",
+    "1058: titles and descriptions fit their printed fields",
+    "1058: independent masked ticket art with no legacy borders",
+    "1058: live empty, saved and damaged states",
+    "1058: existing film layers stay above artwork without intercepting input",
+    "1058: six complete stamps retain live titles and nonblocking rims",
+    "1058: slot 01 lifts its paper and exposes its action",
+    "1058: slot 01 opens the correct detail and permitted actions",
+    "1058: slot 02 lifts its paper and exposes its action",
+    "1058: slot 02 opens the correct detail and permitted actions",
+    "1058: slot 03 lifts its paper and exposes its action",
+    "1058: slot 03 opens the correct detail and permitted actions",
+    "1058: slot 04 lifts its paper and exposes its action",
+    "1058: slot 04 opens the correct detail and permitted actions",
+    "1058: slot 05 lifts its paper and exposes its action",
+    "1058: slot 05 opens the correct detail and permitted actions",
+    "1058: slot 06 lifts its paper and exposes its action",
+    "1058: slot 06 opens the correct detail and permitted actions",
+    "844: all six artwork positions receive clicks",
+    "844: titles and descriptions fit their printed fields",
+    "844: independent masked ticket art with no legacy borders",
+    "844: live empty, saved and damaged states",
+    "844: existing film layers stay above artwork without intercepting input",
+    "844: six complete stamps retain live titles and nonblocking rims",
+    "844: slot 01 lifts its paper and exposes its action",
+    "844: slot 01 opens the correct detail and permitted actions",
+    "844: slot 02 lifts its paper and exposes its action",
+    "844: slot 02 opens the correct detail and permitted actions",
+    "844: slot 03 lifts its paper and exposes its action",
+    "844: slot 03 opens the correct detail and permitted actions",
+    "844: slot 04 lifts its paper and exposes its action",
+    "844: slot 04 opens the correct detail and permitted actions",
+    "844: slot 05 lifts its paper and exposes its action",
+    "844: slot 05 opens the correct detail and permitted actions",
+    "844: slot 06 lifts its paper and exposes its action",
+    "844: slot 06 opens the correct detail and permitted actions",
+    "Hover clearly changes the paper shadow",
+    "Pressing the paper gives a distinct pressed state",
+    "Releasing opens the actual archive detail",
+    "Reduced motion retains feedback without moving paper",
+    "Keyboard focus is visible on the next ticket",
+    "Keyboard opens the saved ticket",
+    "Escape closes detail and retains archive page",
+    "Reading an effective save enters the existing UI-only scene",
+    "UI-only return goes to main menu",
+    "Reference return button goes to main menu",
+    "Browsing and reading preserved all fixture data",
+    "All six empty states are live",
+    "Fixture state restored; unrelated data intact",
+    "Escape from the archive returns to main menu",
+    "No JavaScript exceptions"
+  ],
+  "screens": [
+    {
+      "state": "mixed",
+      "viewport": [
+        1440,
+        810
+      ],
+      "path": "E:\\东北迪斯科\\docs\\save-ink-stamp-mixed-1440.png",
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "state": "mixed",
+      "viewport": [
+        1058,
+        595
+      ],
+      "path": "E:\\东北迪斯科\\docs\\save-ink-stamp-mixed-1058.png",
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "state": "mixed",
+      "viewport": [
+        844,
+        475
+      ],
+      "path": "E:\\东北迪斯科\\docs\\save-ink-stamp-mixed-844.png",
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    },
+    {
+      "state": "hover",
+      "path": "E:\\东北迪斯科\\docs\\save-ink-stamp-hover-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "state": "empty",
+      "viewport": [
+        1440,
+        810
+      ],
+      "path": "E:\\东北迪斯科\\docs\\save-ink-stamp-empty-1440.png",
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "state": "empty",
+      "viewport": [
+        1058,
+        595
+      ],
+      "path": "E:\\东北迪斯科\\docs\\save-ink-stamp-empty-1058.png",
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "state": "empty",
+      "viewport": [
+        844,
+        475
+      ],
+      "path": "E:\\东北迪斯科\\docs\\save-ink-stamp-empty-844.png",
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    }
+  ],
+  "layouts": [
+    [
+      {
+        "slot": "01",
+        "state": "empty",
+        "title": "存档 01 · 空白档案",
+        "rect": {
+          "x": 251.46875,
+          "y": 213.46875,
+          "width": 423.71875,
+          "height": 142.875
+        }
+      },
+      {
+        "slot": "02",
+        "state": "saved",
+        "title": "存档 02 · 公交车站",
+        "rect": {
+          "x": 757.890625,
+          "y": 213.46875,
+          "width": 423.71875,
+          "height": 142.875
+        }
+      },
+      {
+        "slot": "03",
+        "state": "empty",
+        "title": "存档 03 · 空白档案",
+        "rect": {
+          "x": 251.46875,
+          "y": 397.671875,
+          "width": 423.71875,
+          "height": 142.875
+        }
+      },
+      {
+        "slot": "04",
+        "state": "error",
+        "title": "存档 04 · 存档无法读取",
+        "rect": {
+          "x": 757.890625,
+          "y": 397.671875,
+          "width": 423.71875,
+          "height": 142.875
+        }
+      },
+      {
+        "slot": "05",
+        "state": "empty",
+        "title": "空白档案",
+        "rect": {
+          "x": 227.359375,
+          "y": 594.796875,
+          "width": 475.40625,
+          "height": 88.65625
+        }
+      },
+      {
+        "slot": "06",
+        "state": "empty",
+        "title": "空白档案",
+        "rect": {
+          "x": 730.328125,
+          "y": 594.796875,
+          "width": 473.671875,
+          "height": 88.65625
+        }
+      }
+    ],
+    [
+      {
+        "slot": "01",
+        "state": "empty",
+        "title": "存档 01 · 空白档案",
+        "rect": {
+          "x": 184.828125,
+          "y": 156.796875,
+          "width": 311.25,
+          "height": 104.953125
+        }
+      },
+      {
+        "slot": "02",
+        "state": "saved",
+        "title": "存档 02 · 公交车站",
+        "rect": {
+          "x": 556.828125,
+          "y": 156.796875,
+          "width": 311.25,
+          "height": 104.953125
+        }
+      },
+      {
+        "slot": "03",
+        "state": "empty",
+        "title": "存档 03 · 空白档案",
+        "rect": {
+          "x": 184.828125,
+          "y": 292.109375,
+          "width": 311.25,
+          "height": 104.953125
+        }
+      },
+      {
+        "slot": "04",
+        "state": "error",
+        "title": "存档 04 · 存档无法读取",
+        "rect": {
+          "x": 556.828125,
+          "y": 292.109375,
+          "width": 311.25,
+          "height": 104.953125
+        }
+      },
+      {
+        "slot": "05",
+        "state": "empty",
+        "title": "空白档案",
+        "rect": {
+          "x": 167.125,
+          "y": 436.90625,
+          "width": 349.203125,
+          "height": 65.125
+        }
+      },
+      {
+        "slot": "06",
+        "state": "empty",
+        "title": "空白档案",
+        "rect": {
+          "x": 536.578125,
+          "y": 436.90625,
+          "width": 347.9375,
+          "height": 65.125
+        }
+      }
+    ],
+    [
+      {
+        "slot": "01",
+        "state": "empty",
+        "title": "存档 01 · 空白档案",
+        "rect": {
+          "x": 147.390625,
+          "y": 125.234375,
+          "width": 248.34375,
+          "height": 83.734375
+        }
+      },
+      {
+        "slot": "02",
+        "state": "saved",
+        "title": "存档 02 · 公交车站",
+        "rect": {
+          "x": 444.203125,
+          "y": 125.234375,
+          "width": 248.34375,
+          "height": 83.734375
+        }
+      },
+      {
+        "slot": "03",
+        "state": "empty",
+        "title": "存档 03 · 空白档案",
+        "rect": {
+          "x": 147.390625,
+          "y": 233.203125,
+          "width": 248.34375,
+          "height": 83.734375
+        }
+      },
+      {
+        "slot": "04",
+        "state": "error",
+        "title": "存档 04 · 存档无法读取",
+        "rect": {
+          "x": 444.203125,
+          "y": 233.203125,
+          "width": 248.34375,
+          "height": 83.734375
+        }
+      },
+      {
+        "slot": "05",
+        "state": "empty",
+        "title": "空白档案",
+        "rect": {
+          "x": 133.25,
+          "y": 348.734375,
+          "width": 278.640625,
+          "height": 51.953125
+        }
+      },
+      {
+        "slot": "06",
+        "state": "empty",
+        "title": "空白档案",
+        "rect": {
+          "x": 428.046875,
+          "y": 348.734375,
+          "width": 277.625,
+          "height": 51.953125
+        }
+      }
+    ]
+  ],
+  "errors": [],
+  "storage": "isolated in-memory fixtures; actual player saves untouched",
+  "audio": "silent QA output",
+  "humanArtReview": "pending",
+  "electronWindowVerified": false
+}

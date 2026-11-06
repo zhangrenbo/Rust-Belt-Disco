@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-14",
+  "request": "画面右边瓶子左边、董点事panel右边增加被压住的三好学生奖状",
+  "wordingAssumption": "User typed 被拼字压住, interpreted as 被瓶子压住. Optional clarification was asked; no explicit confirmation recorded.",
+  "source": "public/assets/character-select/000_T_选人页面背景.png",
+  "contextReference": "docs/character-newspaper-v3-default-1440.png",
+  "output": "public/assets/character-select/000_T_选人页面背景_瓶压三好学生奖状_v1.png",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-178c-7661-bae2-405728ecd14c/exec-8a4e6e8e-e0e3-4030-b56c-88b430114523.png",
+  "generator": "image_gen",
+  "prompt": "Edit the FIRST provided image, the ORIGINAL wide background of the Chinese mystery game 东北迪斯科. The SECOND image is the actual in-game screenshot ONLY to show where existing separate character cards sit. DO NOT flatten those separate cards or the UI into the output. Deliver an edited version of the FIRST background image at the same wide 7007:3238 aspect ratio.\n\nAdd ONE old physical Chinese “三好学生” school award certificate on the existing cracked tabletop, in the space RIGHT of Dong Dianshi's central information panel and LEFT of the large bottles/jars at the right. The user's key requirement is that the EXISTING RIGHT-SIDE BOTTLE actually pins down one corner of this certificate. It must look like an object IN the scene, sharing its lighting, perspective and surface contact.\n\nPLACEMENT in normalized coordinates of the FIRST full background:\nThe central character card overlays occupy x=40%-60%, y=35%-62%; keep the new paper clearly to their RIGHT. Put the certificate mainly in x=62%-79%, y=39%-61%. It is a modest landscape paper lying slightly counterclockwise on the same horizontal surface, roughly corners (62%,43%), (78%,36.5%), (80%,54%), (64%,61%). Its UPPER RIGHT corner extends physically UNDER the base of the EXISTING LEFTMOST of the right-side bottles, near x=75%-81%, y=35%-43%. The existing bottle bottom must OCCLUDE that corner. Preserve the bottle's exact original silhouette, location, scale, neck, glass reflections and contents. Do not add another bottle, do not move the existing bottles, and do not place the paper on top of them. The magnifying glass and other right-side props stay unchanged.\n\nPHYSICAL INTEGRATION IS CRITICAL:\nThis is a thin old Chinese school certificate lying against the same cracked surface as the central papers, viewed from the exact same camera and obeying the same foreshortening. The bottle is resting ON the upper-right part of the paper, flattening it there. Show a narrow dark contact shadow at the bottle-paper junction, a gently spreading bottle shadow across the adjacent paper in the source light direction, and the slight edge deformation from the bottle's weight. The paper's exposed edge casts a short soft shadow onto the tabletop; its bottom left corner is just slightly curled. Warm upper-left lamp light, dark olive-grey shadows toward the right, muted reflected light, same atmospheric softness and dimness as the existing papers. Avoid a bright clean rectangle or independently lit cutout. Integrate paper, bottle contact, cast shadow and surrounding surface TOGETHER at this exact location. Do not give the paper an opaque dark border halo.\n\nCERTIFICATE DESIGN:\nA believable worn 1980s northeastern Chinese school award sheet. Thin faded cream-grey paper, fine age spots and fold marks, restrained red printed ornamental border with tiny traditional floral details, very subtle red five-pointed-star/ray motif at the top. Modest faded red heading “奖状”, a smaller red “三好学生” designation, and a few dark-grey Songti printed lines:\n“董点事同学：”\n“在本学年度被评为三好学生。”\n“特发此状，以资鼓励。”\nA small faded round school seal near the lower-right portion, partly in the bottle shadow. Avoid inventing any specific real school, date or official signature; generic tiny printed lines are sufficient.\nThe lettering is naturally printed into the old paper, relatively small. The award is background storytelling, not a large attention-grabbing headline or an interactive UI panel. Use simplified Chinese only on this new certificate, no English.\n\nPreserve ALL other regions of the first image: lamp, tabletop cracks, central photo/papers, original top document, wood, books, arrows, magnifier, wires, cups, framing, focus and atmosphere. Existing newspaper/badge and character UI from the SECOND screenshot will remain separate game layers; do NOT duplicate or edit them in this output. No added watermark, subtitle or explanatory label.\n\nSave the full generated image into the existing folder E:/东北迪斯科/public/assets/character-select/ as 000_T_选人页面背景_瓶压三好学生奖状_v1.png. Preserve originals and previous revisions; no new output folder.",
+  "design": {
+    "placement": "To the right of Dong Dianshi's panel, left of the bottles, upper-right paper corner underneath the left bottle.",
+    "material": "Grey-cream aged school certificate with faded red border, five-pointed star, small grey body print, creases and slightly curled exposed paper edge.",
+    "text": [
+      "奖状",
+      "董点事同学：",
+      "在本学年度被评为三好学生。",
+      "特发此状，以资鼓励。",
+      "三好学生"
+    ],
+    "integration": "Certificate, bottle occlusion, contact/cast shadows and tabletop are drawn together at source coordinates."
+  },
+  "runtime": "Replace only the character-world base-image reference with the new full-scene background. Keep the original 7007x3238 file and prior images. Existing newspaper, police badge, fog, character cards and input layers remain separate and unchanged. No additional floating certificate layer or runtime repositioning.",
+  "backupFiles": [
+    ".local/index-before-character-certificate-20260914-202206.html",
+    ".local/app-before-character-certificate-20260914-202206.css"
+  ],
+  "verification": "docs/character-certificate-v1-verification.json",
+  "humanArtReview": "pending",
+  "electronWorkbenchInspected": false,
+  "sourceSha256": "0669d5022e90c507e6996780f3ecaa80178d07edc8e4f783700fc1790f24265d",
+  "sourceSize": [
+    7007,
+    3238
+  ],
+  "contextReferenceSha256": "2eea8cc94b99c328122e2ab41ea8c9b0fdc9ee193a2c02a9c61263093aee7d87",
+  "outputSha256": "d5d53dfe690a461d5126de538af764d743c88bce5547a8105328b4da0e8dc769",
+  "dimensions": [
+    1844,
+    853
+  ],
+  "mode": "RGB",
+  "matchesGeneratedOriginal": true,
+  "buildMatches": true,
+  "httpHead": 200,
+  "otherCharacterMarkupUnchanged": true,
+  "buildChecks": {
+    "build": "passed",
+    "migratedFileHashes": 172,
+    "resourcePaths": 74
+  }
+}

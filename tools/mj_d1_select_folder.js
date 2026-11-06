@@ -1,0 +1,1 @@
+(()=>{const e=[...document.querySelectorAll('div')].find(e=>e.childElementCount===0&&e.textContent==='东北迪斯科参考图');if(!e)throw Error('Expected project folder missing');e.dataset.d1Folder='true';return {label:e.textContent,visible:e.getBoundingClientRect().width>0}})()

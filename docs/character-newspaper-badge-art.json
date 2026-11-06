@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-14",
+  "requests": [
+    "报纸太明显、字太大、不像报纸；改成低对比的真实多栏小字旧报纸",
+    "在左下角李正的信息左下角放一个警徽"
+  ],
+  "source": "public/assets/character-select/000_T_选人页面背景.png",
+  "output": "public/assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-178c-7661-bae2-405728ecd14c/exec-aef2a6d0-450f-4c44-bef9-fb3dcfe56059.png",
+  "generator": "image_gen",
+  "prompt": "Edit the supplied ORIGINAL game background image of 东北迪斯科. Replace ONLY the little framed foreign-handwriting document at the very top, just left of center (original x=36.5%-50%, y=0%-20%), with a modest folded piece of an old Chinese NEWSPAPER. The newspaper should blend into this environment as incidental set dressing.\n\nThe user rejected a previous version because it shouted the story in huge text and looked like an advertisement board. The key requirement is an AUTHENTIC SMALL-TYPE MULTI-COLUMN NEWSPAPER, with the 王少鹏 story quietly embedded as one minor article. It is fine for the print to require close inspection. DO NOT enlarge the text to make the story instantly readable in the game. No poster-sized headline, no billboard, no cure-all advertising layout, no big bottle graphic, no thick cardboard or wooden frame.\n\nKeep the full original 7007:3238 wide aspect ratio and the original scene's perspective, cracks, lamp, wood planks, central papers and photo, arrows, peripheral clutter, shading, camera, and depth of field. All changes should stay within the top newspaper prop region.\n\nReplace the old framed document with a thin, slightly folded piece of 1980s Chinese LOCAL NEWSPRINT. Width roughly 14% of full canvas, from x=36% to50.5%; its top runs off the image and its lower edge ends around y=25%-27%. Keep it subtly tilted like the original document. This is a soft flexible newspaper sheet with a narrow dog-eared corner, soft uneven torn outer edges, a cross fold, very fine wrinkles, faint printing visible through the reverse, subtle grey foxing. No rigid border around the paper. It rests flat with a weak natural contact shadow. The newsprint is muted GREY-BEIGE (not golden yellow), close in brightness to nearby aged paper; printing is faded charcoal-grey, not solid heavy black. Match the dim upper-left lamplight. This newspaper must not become the focal point.\n\nReal newspaper visual structure:\n- THREE narrow justified columns containing many tightly set lines of TINY simplified-Chinese Songti body type. Thin vertical column separators. Several short normal newspaper article headings only about 1.3x body type. Body text should cover almost the whole sheet; no large empty margins.\n- A modest newspaper masthead “北方生活报” at the top edge, partly cropped off canvas, no box surrounding it.\n- A tiny monochrome halftone photo of a northeastern town street and a clinic facade, no portrait and no product bottle. It occupies at most one-sixth of the paper and fits into one column.\n- Short headings for other local-news fillers, such as “街巷新事” and “便民消息”. All text on THIS newspaper is simplified Chinese, no Latin letters and no foreign cursive.\n- In the lower-left or middle column, one SMALL article headed “街坊口中的神医”. This heading must be small like any minor newspaper article, at most 1.3x the body font, not across all columns.\n- The modest article should contain: “本镇诊所王少鹏自配药酒，声称能包治百病。消息传开，街坊纷纷登门，一时议论不断。” The name 王少鹏 and claim 包治百病 are only part of the small article text, with no oversized name or emphasized slogan. Include them clearly if possible, naturally following the column.\n- Other column body print should visually read as dense old Chinese typesetting, not rows of a single repeated glyph, fake handwriting, or lines pretending to be text.\n\nRestrained and believable aged local newspaper in the existing game's dimensional painterly scene. Do not add UI, labels, captions or watermarks, and do not modify any other documents outside the target region.\nSave the full edited output directly in the existing folder E:/东北迪斯科/public/assets/character-select/ as 000_T_选人页面背景_神医报纸_v3.png. Preserve previous files; no new output folder.\n\nADDITIONAL USER-REQUESTED EDIT IN THIS SAME BACKGROUND:\nPlace one SMALL aged Chinese police BADGE in the lower-left area next to the lower-left corner of Li Zheng's information cards (the character cards are separate UI layers and are NOT present in this source). The badge must sit on the background at EXACT full-canvas coordinates approximately x=25.3% to29.0%, y=79.5% to89.0%. It should not go at the bottom edge of the entire canvas. Keep the whole badge inside this coordinate box, so it remains visible in the existing game camera and lies just LEFT of the character photo card whose left edge is x=29.9%. Do not generate any character cards or portraits.\n\nThe badge is a single physical metal Chinese police emblem laid flat against the cracked surface, slightly rotated about 12 degrees. Compact shield silhouette, subtly aged silver metal wreath, a small dark red national-emblem-like crest at top, deep desaturated blue enamel at the center, small “公安” lettering. Realistic shallow metal relief with rubbed raised edges and tarnished recesses, worn but recognizable, same dim lamplight from upper left and a short soft contact shadow. No ID wallet, no large text label, no floating glow, no surrounding frame, no new paper underneath. Its apparent size must be modest, roughly comparable to one-third the width of the lower character photo, not a focal-point enlargement. Everything outside the upper newspaper and this tiny lower-left badge stays as in the original image.",
+  "newspaper": {
+    "type": "Grey-beige newsprint with three fine-type columns, narrow rules, a small halftone street photo, a folded corner and short local articles.",
+    "story": "The Wang Shaopeng medicine-liquor claim is a small article headed 街坊口中的神医; no oversized name or cure-all slogan.",
+    "previousRevision": "v2 explicitly rejected by user: too obvious, type too big, did not look like a newspaper."
+  },
+  "badge": {
+    "description": "Small worn metal Chinese police emblem with 公安 lettering, red crest, dark enamel and a contact shadow.",
+    "placement": "Left of Li Zheng's photo, alongside its lower half, fully inside the default game frame.",
+    "selector": ".character-police-badge-art",
+    "transform": "translate(-3.5%, 7.3%) scale(.58)",
+    "transformOrigin": "30.6% 77%",
+    "zIndex": 3
+  },
+  "integration": "Only the top newspaper region and the small badge are shown from the new full-frame PNG, using two clipped image layers. Both use the existing character-camera coordinate system. All other regions retain the original 7007x3238 source. No programmatic image cropping/editing.",
+  "backupFiles": [
+    ".local/index-before-character-paper-badge-20260914-195127.html",
+    ".local/app-before-character-paper-badge-20260914-195127.css",
+    ".local/character-newspaper-art-before-v3-20260914-195127.json"
+  ],
+  "verification": "docs/character-newspaper-v3-verification.json",
+  "humanArtReview": "pending",
+  "electronWorkbenchInspected": false,
+  "sourceSha256": "0669d5022e90c507e6996780f3ecaa80178d07edc8e4f783700fc1790f24265d",
+  "sourceSize": [
+    7007,
+    3238
+  ],
+  "outputSha256": "52675b612821506c10e9e270b307617706305938d232386f1656c78dce750d61",
+  "dimensions": [
+    1844,
+    853
+  ],
+  "mode": "RGB",
+  "matchesGeneratedOriginal": true,
+  "buildMatches": true,
+  "httpHead": 200,
+  "originalCharacterMarkupUnchanged": true,
+  "buildChecks": {
+    "build": "passed",
+    "migratedFileHashes": 172,
+    "resourcePaths": 74
+  }
+}

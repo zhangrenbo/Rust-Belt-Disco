@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "covered": true,
+      "foreground": "1",
+      "hit": true,
+      "lang": "zh-CN"
+    },
+    {
+      "width": 1440,
+      "covered": true,
+      "foreground": "1",
+      "hit": true,
+      "lang": "en"
+    },
+    {
+      "width": 844,
+      "covered": true,
+      "foreground": "1",
+      "hit": true,
+      "lang": "zh-CN"
+    },
+    {
+      "width": 844,
+      "covered": true,
+      "foreground": "1",
+      "hit": true,
+      "lang": "en"
+    }
+  ],
+  "method": "isolated muted background Chrome direct CDP",
+  "humanReview": "pending"
+}

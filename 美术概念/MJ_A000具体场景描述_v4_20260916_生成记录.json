@@ -1,0 +1,504 @@
+{
+  "status": "completed",
+  "scene": "A000 夏夜夜间公交站",
+  "prompt": "an overhead isometric view of an old industrial neighborhood in northeastern China on a summer night. a weathered roadside bus shelter has a corrugated metal roof and a long wooden bench. one elderly woman in a dark cloth jacket sits at the end of the bench, her hands resting in her lap. cracked asphalt and uneven concrete paving extend from the lower left foreground to the shelter and continue along the street. red brick workers housing, low factory walls, shuttered small shops and a parked utility truck line the road behind it. peeling paint, rusted drainpipes, overhead wires and weeds growing along the curb mark the aging street. a dim streetlamp lights the bench and a small patch of pavement, with a few lit windows further down the block. dark fence posts and the edge of a low brick wall frame the immediate foreground without blocking the open pavement. the overall atmosphere is quiet, worn, industrial, and deserted. --ar 16:9 --raw --v 8.1 --relax --sw 150 --no snow, interface, exclamation mark, watermark, extra people",
+  "folder": "东北迪斯科参考图",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "references": [
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\fb4f6676e9c54108b4e69a0a8ef1e976.jpg",
+      "sha256": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "mj_upload_id": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/5ee101825ce90c95edf109f05ab983bcca14f57f48c76b2f20c356a5e6d4255a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\a5ad1b480b3a9a5605f52871df477cd6.jpg",
+      "sha256": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "mj_upload_id": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/4d906ff042374b674894b72cbdcbf9363b61abe620c0cb54156834396880838c_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\45545f073194fce9bb504dac8efd1d1e.jpg",
+      "sha256": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "mj_upload_id": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/6e711d2ead5110af8b56d0f50b636917fcf2a966f7b1ac02e188114d75b1305a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    }
+  ],
+  "expected_style_references": [
+    "https://s.mj.run/A6_BtdGjcfo",
+    "https://s.mj.run/l2YC6AxG5Es",
+    "https://s.mj.run/tHRcou4Txfk"
+  ],
+  "preflight_style_items": {
+    "category": "SR",
+    "items": [
+      {
+        "type": "image",
+        "image": {
+          "imageData": {
+            "type": "otherUrls",
+            "src": "https://s.mj.run/A6_BtdGjcfo"
+          },
+          "iw": 0,
+          "sw": 100,
+          "cw": 0,
+          "ow": 0,
+          "ew": 0,
+          "sf": 0,
+          "ef": 0
+        }
+      },
+      {
+        "type": "image",
+        "image": {
+          "imageData": {
+            "type": "otherUrls",
+            "src": "https://s.mj.run/l2YC6AxG5Es"
+          },
+          "iw": 0,
+          "sw": 100,
+          "cw": 0,
+          "ow": 0,
+          "ew": 0,
+          "sf": 0,
+          "ef": 0
+        }
+      },
+      {
+        "type": "image",
+        "image": {
+          "imageData": {
+            "type": "otherUrls",
+            "src": "https://s.mj.run/tHRcou4Txfk"
+          },
+          "iw": 0,
+          "sw": 100,
+          "cw": 0,
+          "ow": 0,
+          "ew": 0,
+          "sf": 0,
+          "ef": 0
+        }
+      }
+    ],
+    "imageErrors": {}
+  },
+  "source_context": [
+    "content/story/ink/D0_序章.ink",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json"
+  ],
+  "human_review": "pending",
+  "in_game_integration": "not_applied",
+  "downloads": [],
+  "original_composer_backup": "E:\\东北迪斯科\\.local\\mj-a000-v4-original-composer-20260916.json",
+  "preflight": {
+    "folder": true,
+    "images": 0,
+    "personalization": "false"
+  },
+  "submitted_at": "2026-09-15T22:08:44.085174+00:00",
+  "source_sha256": {
+    "content/story/ink/D0_序章.ink": "97a5584708e338e36f5c2cd671d678cee351fdbb4a0eded3f7355438e7d98340",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json": "6b54524f769e04332cb71ef68121751fd0ff1433b069a3e5dc2323fa758384ba"
+  },
+  "submit_receipt": {
+    "accepted": [
+      {
+        "job_id": "097f04f5-691c-48df-851c-069abaa2d2fe",
+        "prompt": "an overhead isometric view of an old industrial neighborhood in northeastern China on a summer night. a weathered roadside bus shelter has a corrugated metal roof and a long wooden bench. one elderly woman in a dark cloth jacket sits at the end of the bench, her hands resting in her lap. cracked asphalt and uneven concrete paving extend from the lower left foreground to the shelter and continue along the street. red brick workers housing, low factory walls, shuttered small shops and a parked utility truck line the road behind it. peeling paint, rusted drainpipes, overhead wires and weeds growing along the curb mark the aging street. a dim streetlamp lights the bench and a small patch of pavement, with a few lit windows further down the block. dark fence posts and the edge of a low brick wall frame the immediate foreground without blocking the open pavement. the overall atmosphere is quiet, worn, industrial, and deserted. --no snow, interface, exclamation mark, watermark, extra people --ar 16:9 --relax --raw --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --v 8.1",
+        "is_queued": false,
+        "job_type": "v8-1_diffusion",
+        "flags": {
+          "mode": "relaxed",
+          "visibility": "public"
+        },
+        "meta": {
+          "height": 816,
+          "width": 1456,
+          "batch_size": 4,
+          "parent_id": null,
+          "parent_grid": null
+        },
+        "personalization_codes": null
+      }
+    ],
+    "http": 200
+  },
+  "job_id": "097f04f5-691c-48df-851c-069abaa2d2fe",
+  "post_submit_text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight Mode\nzhangrenbo\nStarting...\nan overhead isometric view of an old industrial neighborhood in northeastern China on a summer night. a weathered roadside bus shelter has a corrugated metal roof and a long wooden bench. one elderly woman in a dark cloth jacket sits at the end of the bench, her hands resting in her lap. cracked asphalt and uneven concrete paving extend from the lower left foreground to the shelter and continue along the street. red brick workers housing, low factory walls, shuttered small shops and a parked utility truck line the road behind it. peeling paint, rusted drainpipes, overhead wires and weeds growing along the curb mark the aging street. a dim streetlamp lights the bench and a small patch of pavement, with a few lit windows further down the block. dark fence posts and the edge of a low brick wall frame the immediate foreground without blocking the open pavement. the overall atmosphere is quiet, worn, industrial, and deserted.\n+ use text\n--no snow, interface, exclamation mark, watermark, extra people\n \nno snow, interface, exclamation mark, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\nan overhead isometric view of a snowy industrial courtyard. a central circular stone plaza features a dark, spired monument. two figures, one in an orange coat and one in a white coat, walk across the snow patched ground. the area is filled with military style vehicles, trailers, and shipping containers covered in snow. weathered lettering \"aln\" is visible on a truck in the upper left, and \"and\" is written on a yellow container on the left. dark, burnt wooden pilings stand in the immediate foreground, framing the snow covered scene as light snowflakes fall. the overall atmosphere is cold, industrial, and desolate.\n+ use text\n--ar 16:9\n \nar 16:9\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore\nan isometric perspective of a cold, snow dusted industrial settlement. two individuals are walking on a snowy path: one wears an orange jacket and brown trousers, and the other wears a white jacket with a dark hood. they are walking near a central, dark metal monument standing on a circular stone platform with stairs. surrounding them are v",
+  "last_status": {
+    "job_id": "097f04f5-691c-48df-851c-069abaa2d2fe",
+    "links": [
+      {
+        "href": "/jobs/097f04f5-691c-48df-851c-069abaa2d2fe?index=0&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/097f04f5-691c-48df-851c-069abaa2d2fe?index=1&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/097f04f5-691c-48df-851c-069abaa2d2fe?index=2&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/097f04f5-691c-48df-851c-069abaa2d2fe?index=3&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      }
+    ],
+    "text": "an overhead isometric view of an old industrial neighborhood in northeastern China on a summer night. a weathered roadside bus shelter has a corrugated metal roof and a long wooden bench. one elderly woman in a dark cloth jacket sits at the end of the bench, her hands resting in her lap. cracked asphalt and uneven concrete paving extend from the lower left foreground to the shelter and continue along the street. red brick workers housing, low factory walls, shuttered small shops and a parked utility truck line the road behind it. peeling paint, rusted drainpipes, overhead wires and weeds growing along the curb mark the aging street. a dim streetlamp lights the bench and a small patch of pavement, with a few lit windows further down the block. dark fence posts and the edge of a low brick wall frame the immediate foreground without blocking the open pavement. the overall atmosphere is quiet, worn, industrial, and deserted.\n+ use text\n--no snow, interface, exclamation mark, watermark, extra people\n \nno snow, interface, exclamation mark, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore",
+    "folderSelected": true
+  },
+  "status_checked_at": "2026-09-15T22:12:07.804246+00:00",
+  "preview_images_loaded": true,
+  "review_target_id": "C9F64FC7E60B12319895C45FAD79EAAC",
+  "detail_metadata": {
+    "url": "https://www.midjourney.com/jobs/097f04f5-691c-48df-851c-069abaa2d2fe?index=0",
+    "text": "old industrial neighborhood in northeastern China on a summer night. a weathered roadside bus shelter has a corrugated metal roof and a long wooden bench. one elderly woman in a dark cloth jacket sits at the end of the bench, her hands resting in her lap. cracked asphalt and uneven concrete paving extend from the lower left foreground to the shelter and continue along the street. red brick workers housing, low factory walls, shuttered small shops and a parked utility truck line the road behind it. peeling paint, rusted drainpipes, overhead wires and weeds growing along the curb mark the aging street. a dim streetlamp lights the bench and a small patch of pavement, with a few lit windows further down the block. dark fence posts and the edge of a low brick wall frame the immediate foreground without blocking the open pavement. the overall atmosphere is quiet, worn, industrial, and deserted.\n+ use text\n--no snow, interface, exclamation mark, watermark, extra people\n \nno snow, interface, exclamation mark, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\nan isometric perspective of a cold, snow dusted industrial settlement. two individuals are walking on a snowy path: one wears an orange jacket and brown trousers, and the other wears a white jacket with a dark hood. they are walking near a central, dark metal monument standing on a circular stone platform with stairs. surrounding them are various heavy duty vehicles, some with tracks and others with large wheels, alongside cargo crates and steel framing. some industrial containers show faded stenciled letters such as \"aln\" on the top left and \"and\" on a container below it. the scene is partially obscured in the foreground by dark, vertical charred pillars, and a light flurry of snow fills the air.\n+ use text\n--ar 16:9\n \nar 16:9\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore\nan overhead isometric view of a snowy industrial courtyard. a central circular stone plaza features a dark, spired monument. two figures, one in an orange coat and one in a white coat, walk across the snow patched ground. the area is filled with military style vehicles, trailers, and shipping containers covered in snow. weathered lettering \"aln\" is visible on a truck in the upper left, and \"and\" is written on a yellow container on the left. dark, burnt wooden pilings stand in the immediate foreground, framing the snow covered scene as light snowflakes fall. the overall atmosphere is cold, industrial, and desolate.\n+ use text\n--ar 16:9\n \nar 16:9\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore\nLooking for more...\nLooking for more...\nP\nDraft Mode\nCreate much faster with draft quality images.\nConversational Mode\nRefine your prompt using text or voice.\nStarting...\n\nImagine\n\n0m\n\nan overhead isometric view of an old industrial neighborhood in northeastern China on a summer night. a weathered roadside bus shelter has a corrugated metal roof and a long wooden bench. one elderly woman in a dark cloth jacket sits at the end of the bench, her hands resting in her lap. cracked asphalt and uneven concrete paving extend from the lower left foreground to the shelter and continue along the street. red brick workers housing, low factory walls, shuttered small shops and a parked utility truck line the road behind it. peeling paint, rusted drainpipes, overhead wires and weeds growing along the curb mark the aging street. a dim streetlamp lights the bench and a small patch of pavement, with a few lit windows further down the block. dark fence posts and the edge of a low brick wall frame the immediate foreground without blocking the open pavement. the overall atmosphere is quiet, worn, industrial, and deserted.\n\n+ use text\n--no snow, interface, exclamation mark, watermark, extra people\n \nno snow, interface, exclamation mark, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nUse\nImage\nStyle\nPrompt",
+    "images": [],
+    "buttons": [
+      {
+        "title": "",
+        "text": "Light Mode"
+      },
+      {
+        "title": "My Account",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Concepts to exclude from your prompt",
+        "text": "--no snow, interface, exclamation mark, watermark, extra peo"
+      },
+      {
+        "title": "Image aspect ratio",
+        "text": "--ar 16:9\n \nar 16:9"
+      },
+      {
+        "title": "More literal prompt interpretation",
+        "text": "--raw\n \nraw"
+      },
+      {
+        "title": "Style Reference weight",
+        "text": "--sw 150\n \nsw 150"
+      },
+      {
+        "title": "Version",
+        "text": "--v 8.1\n \nv 8.1"
+      },
+      {
+        "title": "",
+        "text": "Style Creator"
+      },
+      {
+        "title": "",
+        "text": "Run batch as HD"
+      },
+      {
+        "title": "",
+        "text": "Rerun"
+      },
+      {
+        "title": "",
+        "text": "Use"
+      },
+      {
+        "title": "",
+        "text": "Cancel"
+      },
+      {
+        "title": "",
+        "text": "More"
+      },
+      {
+        "title": "Trash Image",
+        "text": ""
+      },
+      {
+        "title": "Like Image (L)",
+        "text": ""
+      },
+      {
+        "title": "Trash Image",
+        "text": ""
+      },
+      {
+        "title": "Like Image (L)",
+        "text": ""
+      },
+      {
+        "title": "Trash Image",
+        "text": ""
+      },
+      {
+        "title": "Like Image (L)",
+        "text": ""
+      },
+      {
+        "title": "Trash Image",
+        "text": ""
+      },
+      {
+        "title": "Like Image (L)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Image aspect ratio",
+        "text": "--ar 16:9\n \nar 16:9"
+      },
+      {
+        "title": "",
+        "text": "Style Creator"
+      },
+      {
+        "title": "",
+        "text": "Run batch as HD"
+      },
+      {
+        "title": "",
+        "text": "Rerun"
+      },
+      {
+        "title": "",
+        "text": "Use"
+      },
+      {
+        "title": "",
+        "text": "Trash"
+      },
+      {
+        "title": "",
+        "text": "More"
+      },
+      {
+        "title": "Trash Image",
+        "text": ""
+      },
+      {
+        "title": "Like Image (L)",
+        "text": ""
+      },
+      {
+        "title": "Trash Image",
+        "text": ""
+      },
+      {
+        "title": "Like Image (L)",
+        "text": ""
+      },
+      {
+        "title": "Trash Image",
+        "text": ""
+      },
+      {
+        "title": "Like Image (L)",
+        "text": ""
+      },
+      {
+        "title": "Trash Image",
+        "text": ""
+      },
+      {
+        "title": "Like Image (L)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Image aspect ratio",
+        "text": "--ar 16:9\n \nar 16:9"
+      },
+      {
+        "title": "",
+        "text": "Style Creator"
+      },
+      {
+        "title": "",
+        "text": "Run batch as HD"
+      },
+      {
+        "title": "",
+        "text": "Rerun"
+      },
+      {
+        "title": "",
+        "text": "Use"
+      },
+      {
+        "title": "",
+        "text": "Trash"
+      },
+      {
+        "title": "",
+        "text": "More"
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": "P"
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": "Draft Mode\nCreate much faster with draft quality images."
+      },
+      {
+        "title": "",
+        "text": "Conversational Mode\nRefine your prompt using text or voice."
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "Close",
+        "text": ""
+      },
+      {
+        "title": "Options",
+        "text": ""
+      },
+      {
+        "title": "Download Image",
+        "text": ""
+      },
+      {
+        "title": "Like Image (L)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Style Reference (--sref)",
+        "text": ""
+      },
+      {
+        "title": "Concepts to exclude from your prompt",
+        "text": "--no snow, interface, exclamation mark, watermark, extra peo"
+      },
+      {
+        "title": "Image aspect ratio",
+        "text": "--ar 16:9\n \nar 16:9"
+      },
+      {
+        "title": "More literal prompt interpretation",
+        "text": "--raw\n \nraw"
+      },
+      {
+        "title": "Style Reference weight",
+        "text": "--sw 150\n \nsw 150"
+      },
+      {
+        "title": "Version",
+        "text": "--v 8.1\n \nv 8.1"
+      },
+      {
+        "title": "Add to Folder",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": "Use"
+      },
+      {
+        "title": "",
+        "text": "Image"
+      },
+      {
+        "title": "",
+        "text": "Style"
+      },
+      {
+        "title": "",
+        "text": "Prompt"
+      }
+    ]
+  },
+  "group_membership_verified": true
+}

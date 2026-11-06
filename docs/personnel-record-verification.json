@@ -1,0 +1,71 @@
+{
+  "ui": "existing book with character side tabs",
+  "characters": [
+    {
+      "id": "dong",
+      "name": "董点事"
+    },
+    {
+      "id": "li",
+      "name": "李正"
+    },
+    {
+      "id": "wang",
+      "name": "王少鹏"
+    }
+  ],
+  "characterCount": 3,
+  "checks": [
+    "original book is retained and four side buttons remain",
+    "dong: side button selects its name and portrait",
+    "li: side button selects its name and portrait",
+    "wang: side button selects its name and portrait",
+    "dossier contains only identity, location and biography",
+    "paper page covers tab roots but names remain clickable",
+    "keyboard arrows change character and actual portrait together",
+    "End selects the last available character",
+    "compact role buttons and return are reachable and labels fit",
+    "return and all four side tabs use the original independent paper PNG",
+    "Chinese record has a distinct name, metadata and biography",
+    "record text fits on the original paper",
+    "identity, place and introductory text match the selected character",
+    "return preserves settings draft",
+    "Escape returns to settings",
+    "music still opens with mute preserved",
+    "nested return reaches the original main menu",
+    "character browsing preserves storage"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/personnel-record-dong-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/personnel-record-li-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/personnel-record-wang-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/personnel-record-compact-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    }
+  ],
+  "errors": [],
+  "allFourConfigured": false,
+  "scope": "Portrait and UI preview switching; no playable content."
+}

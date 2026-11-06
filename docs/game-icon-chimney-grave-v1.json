@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-15",
+  "brief": "为东北迪斯科制作游戏icon，主题为工厂烟囱和坟墓，保留本游戏的质感。",
+  "generator": "image_gen",
+  "source": "D:/CodexData/home/generated_images/01a09e6a-16f0-7233-a896-d2eba18e6244/exec-ffff33c1-e9a3-4f8e-abe8-6ebea2a2ed88.png",
+  "asset": "public/assets/game-icon-chimney-grave-v1.png",
+  "design": "方形图标；旧红砖烟囱、前景浅灰石碑与低矮工厂轮廓，灰白烟带及近地雾统一景物。暗灰背景、有限赭红与石灰色；无文字，无十字架。",
+  "human_review": "rejected_by_user",
+  "followup": "用户改为明确要求从董点事选人卡原画裁出图标，见game-icon-dong-crop-v1.json。",
+  "application_integration": "not_applied",
+  "original_preserved": true
+}

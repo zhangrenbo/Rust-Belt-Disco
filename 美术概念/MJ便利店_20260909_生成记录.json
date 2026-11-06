@@ -1,0 +1,46 @@
+{
+  "project": "东北迪斯科",
+  "request_date": "2026-09-09",
+  "requirement": "有货架的便利店，一名角色正在把商品摆上货架；沿用东北迪斯科画风，生成后归入东北迪斯科参考图分组。",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "folder_name": "东北迪斯科参考图",
+  "status": "completed_and_grouped",
+  "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting. A complete small neighborhood convenience store interior in a 1980s Northeast China town in winter, approximately 7 by 6 metres. Strict 45-degree elevated isometric three-quarter view with orthographic projection, roof removed and the two camera-facing walls cut away so the entire shop layout is visible, full floor footprint kept inside the frame. Three parallel waist-to-chest-high freestanding metal grocery shelving units with clear walkable aisles, wall shelves along the back, rows of canned food, glass sauce bottles, paper-wrapped biscuits, enamel cups and neatly stacked cardboard packages; a small worn wooden checkout counter with a glass display case near the entrance, an old mechanical cash register. EXACTLY ONE adult Chinese shopkeeper wearing a faded blue padded work jacket and dark trousers is restocking a shelf: standing with both feet on the aisle floor beside the shelving, body turned toward the shelf, one hand supporting a small cardboard carton at waist height while the other hand places a red-labeled tin upright onto a chest-height shelf among matching tins; clearly readable arm-to-shelf contact and natural working posture. An open delivery carton rests on the floor beside the shopkeeper, leaving the aisle passable. Worn terrazzo floor, faded pale plaster with muted green lower walls, chipped painted steel shelf uprights, scuffed wood, modest period-accurate shop fittings. Frosted entrance glazing and a small patch of snow outside the doorway, cold blue-green winter daylight through the window mixed with warm amber tungsten shop lighting. Muted teal-and-amber palette, visible expressive oil-paint brushstrokes on materials, believable solid 3D forms, soft contact shadows, atmospheric Northeast Chinese small-town narrative game environment, crisp readable shelves and one small full-body working character, centered composition --ar 4:3 --style raw --v 8.1 --relax --no text, watermark, logo, neon, modern supermarket, anime, pixel art, fisheye, multiple people, extra limbs",
+  "style_reference_images": [],
+  "personalization_enabled_before_submission": false,
+  "job_id": "3aaa5af6-52b2-41fd-a60b-561f29754eda",
+  "images": [
+    {
+      "index": 0,
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=0"
+    },
+    {
+      "index": 1,
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=1"
+    },
+    {
+      "index": 2,
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=2"
+    },
+    {
+      "index": 3,
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=3"
+    }
+  ],
+  "group_membership_verified": true,
+  "downloaded": false,
+  "submitted_at": "2026-09-08T19:13:51.850Z",
+  "actual_server_prompt": "Stylized 3D render, painterly oil paint brushstroke textures, Disco Elysium aesthetic. 1980s Northeast China town convenience store interior, ~7×6m, winter. Strict 45 degree isometric three quarter orthographic view, roof and two camera facing walls removed, full floor visible. Three waist high freestanding metal shelving units with walkable aisles; back wall shelves stocked with canned food, glass sauce bottles, paper wrapped biscuits, enamel cups, cardboard packages. Small worn wooden checkout counter with glass display case and mechanical cash register near entrance. Exactly one adult Chinese shopkeeper in faded blue padded work jacket, standing in aisle restocking a shelf  one hand holding a cardboard carton at waist height, other hand placing a red labeled tin on a chest high shelf; open delivery carton on floor beside them. Worn terrazzo floor, muted green lower walls, chipped steel shelf uprights. Frosted entrance glazing, snow outside, cold blue green daylight mixed with warm amber tungsten light. Muted teal and amber palette, expressive brushstrokes, soft contact shadows, centered composition. --no text, watermark, logo, neon, modern supermarket, anime, pixel art, fisheye, multiple people, extra limbs --ar 4:3 --relax --raw --v 8.1",
+  "submit_metadata": {
+    "isMobile": null,
+    "imagePrompts": 0,
+    "imageReferences": 0,
+    "characterReferences": 0,
+    "depthReferences": 0,
+    "lightboxOpen": null
+  },
+  "folder_count_verified": 8660,
+  "verified_at": "2026-09-08T19:17:52.032Z",
+  "native_auto_grouping": true,
+  "visual_quality_review": "pending_user_review"
+}

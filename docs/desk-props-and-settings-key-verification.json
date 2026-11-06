@@ -1,0 +1,153 @@
+{
+  "checkedAt": "2026-09-13T23:50:34.491161+08:00",
+  "transport": "fixed work Chrome direct CDP 9223; task-created background target",
+  "storage": "isolated in-memory settings; real player data untouched",
+  "screens": [
+    {
+      "name": "menu-stationery",
+      "viewport": [
+        1440,
+        810
+      ],
+      "path": "E:\\东北迪斯科\\docs\\menu-stationery-1440.png"
+    },
+    {
+      "name": "settings-no-key",
+      "viewport": [
+        1440,
+        810
+      ],
+      "path": "E:\\东北迪斯科\\docs\\settings-no-key-1440.png"
+    },
+    {
+      "name": "menu-stationery",
+      "viewport": [
+        844,
+        475
+      ],
+      "path": "E:\\东北迪斯科\\docs\\menu-stationery-844.png"
+    },
+    {
+      "name": "settings-no-key",
+      "viewport": [
+        844,
+        475
+      ],
+      "path": "E:\\东北迪斯科\\docs\\settings-no-key-844.png"
+    }
+  ],
+  "checks": [
+    {
+      "width": 1440,
+      "props": {
+        "x": 533.421875,
+        "y": 455.859375,
+        "width": 189.578125,
+        "height": 152.53125,
+        "top": 455.859375,
+        "right": 723,
+        "bottom": 608.390625,
+        "left": 533.421875
+      },
+      "bounded": true,
+      "noninteractive": true,
+      "background": "/assets/event-desk-bg-medal-marriage-v2.png",
+      "menuReachable": true
+    },
+    {
+      "width": 1440,
+      "props": {
+        "x": 533.421875,
+        "y": 455.859375,
+        "width": 189.578125,
+        "height": 152.53125,
+        "top": 455.859375,
+        "right": 723,
+        "bottom": 608.390625,
+        "left": 533.421875
+      },
+      "bounded": true,
+      "noninteractive": true,
+      "background": "/assets/event-desk-bg-medal-marriage-v2.png",
+      "menuReachable": true
+    },
+    {
+      "width": 844,
+      "props": {
+        "x": 312.640625,
+        "y": 267.3125,
+        "width": 111.109375,
+        "height": 89.390625,
+        "top": 267.3125,
+        "right": 423.75,
+        "bottom": 356.703125,
+        "left": 312.640625
+      },
+      "bounded": true,
+      "noninteractive": true,
+      "background": "/assets/event-desk-bg-medal-marriage-v2.png",
+      "menuReachable": true
+    },
+    {
+      "width": 844,
+      "props": {
+        "x": 312.640625,
+        "y": 267.3125,
+        "width": 111.109375,
+        "height": 89.390625,
+        "top": 267.3125,
+        "right": 423.75,
+        "bottom": 356.703125,
+        "left": 312.640625
+      },
+      "bounded": true,
+      "noninteractive": true,
+      "background": "/assets/event-desk-bg-medal-marriage-v2.png",
+      "menuReachable": true
+    }
+  ],
+  "errors": [],
+  "navigation": "settings, record library, return to settings and return to menu passed in each scenario",
+  "visualReview": "all four screenshots inspected: small props visible, key and ring absent, controls clear",
+  "humanArtReview": "pending",
+  "build": "passed",
+  "migratedHashes": 172,
+  "resourcePaths": 64,
+  "assets": [
+    {
+      "path": "public/assets/menu-stationery-art.png",
+      "sha256": "0a1c11f860e722c6d85b2cac42ad62833984e4c2a3b68c0e0f2a8850e8dd088c",
+      "http": 200,
+      "bytes": 1781468,
+      "buildMatches": true
+    },
+    {
+      "path": "public/assets/menu-stationery-mask.svg",
+      "sha256": "a5fbbbea8e15d4cb548323cb29b638ac357241e17162111abc2bdbb37623e82c",
+      "http": 200,
+      "bytes": 307,
+      "buildMatches": true
+    },
+    {
+      "path": "public/settings-dossier-art-v5-no-key.png",
+      "sha256": "fedb2091691014d16f30e476198b05dd9363c865472242a0484ea16a2c1afb69",
+      "http": 200,
+      "bytes": 2233542,
+      "buildMatches": true
+    },
+    {
+      "path": "public/settings-dossier-art-v3.png",
+      "sha256": "1d7842cf00ae0d5a5b27f9f08628c0666b5281bd70870b28a4d4b3eb6282232e",
+      "http": 200,
+      "bytes": 2578349,
+      "buildMatches": true
+    },
+    {
+      "path": "public/assets/event-desk-bg-medal-marriage-v2.png",
+      "sha256": "24664d5c5c80f13d2482c7370d09b0c1b6efb68c0aeba25ebd934eed08343bfd",
+      "http": 200,
+      "bytes": 1722431,
+      "buildMatches": true
+    }
+  ]
+}

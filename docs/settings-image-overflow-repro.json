@@ -1,0 +1,36 @@
+{
+  "method": "Current HTML with pre-library CSS injected only into isolated Chrome test page",
+  "measurements": {
+    "tab": {
+      "x": 65.37603759765625,
+      "y": 131.2838592529297,
+      "width": 152.9041748046875,
+      "height": 57.072906494140625,
+      "top": 131.2838592529297,
+      "right": 218.28021240234375,
+      "bottom": 188.3567657470703,
+      "left": 65.37603759765625
+    },
+    "image": {
+      "x": 48.22821044921875,
+      "y": 131.53469848632812,
+      "width": 2122.861572265625,
+      "height": 821.7628173828125,
+      "top": 131.53469848632812,
+      "right": 2171.0897827148438,
+      "bottom": 953.2975158691406,
+      "left": 48.22821044921875
+    },
+    "stage": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 810,
+      "top": 0,
+      "right": 1440,
+      "bottom": 810,
+      "left": 0
+    },
+    "imageOversized": true
+  }
+}

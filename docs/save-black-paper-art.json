@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-14",
+  "request": "先把存档票据左侧印着22B的图片改成纯黑纸面，有纸张纹理，暂时不要文字。",
+  "tool": "image_gen",
+  "source": "public/assets/evidence-ticket-v2.png",
+  "sourceSha256": "a145b00fca6109f0e8851ef39105e27d309f876e6da960b21e309b0160e1c2b8",
+  "output": "public/assets/evidence-ticket-black-paper-v1.png",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a0999f-b8ee-75d3-8631-c272faa45626/exec-ea781068-5b7b-446c-8baa-7dd86995c743.png",
+  "prompt": "Make a precise local edit to this existing 2172x724 transparent RGBA game save-ticket PNG. The user wants the dark rectangular paper area at the LEFT to be plain black paper with texture and absolutely NO lettering. In ONLY that left dark panel (approximately x188..822, y159..534), completely remove ALL printed marks: the large '22B', the central outlined rectangle/symbol, the 'NO DATA' text, and the faint interior printed framing lines. Replace their pixels seamlessly with continuous matte deep-black paper fibers. The whole dark panel should be a clean, blank black paper surface: very dark near-black base, restrained fine fibers and subtle natural unevenness visible only as low-contrast charcoal grain, with slight real paper wear. No white scratch marks shaped like letters, no patchy erased-text ghosts, no symbols, no photograph, no scene image, no ornamental outline, no new content. Keep the same outer rounded-rectangle shape, position, size and naturally worn paper edge of the dark panel. Preserve the ENTIRE surrounding cream ticket paper, torn and scalloped silhouette, perforations, vertical division, right-hand horizontal writing rules, folds, stains, light, colors, exact canvas dimensions and genuine alpha channel exactly as closely as possible. This is a minimal edit of the source asset, not a redesign. Outside the cream ticket must remain truly transparent; do not paint a black, white or checkerboard backdrop. Return the full standalone corrected ticket PNG at 2172x724, not a crop or scene mockup. Save beside the source in the existing folder as E:/东北迪斯科/public/assets/evidence-ticket-black-paper-v1.png without creating any new folder.",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "mode": "RGB",
+  "integration": "保留原 RGBA 票据作为底层，entry-card::after 使用新图，仅在左侧黑纸区域显示（clip-path inset(9% 61.8% 15% 8.4% round .65cqw)），与底层使用相同 100% 145% 布局。右侧纸张、撕边和原透明外轮廓由原图保留。生成图外部棋盘纹不作为透明，整个外部区域不进入画面。",
+  "removed": [
+    "22B",
+    "NO DATA",
+    "中间方框符号",
+    "黑纸上的内框印线"
+  ],
+  "preserved": "原文件、票据纸边及右侧纸张、存档中文状态、已存档场景预览与交互。",
+  "browserReport": "docs/save-black-paper-verification.json",
+  "visualAcceptance": "待用户确认",
+  "outputSha256": "4b65a2e33c300cbd1a01177aa2f0e7a9cbef420a1dba2a214814cb254e7c9b91",
+  "originalPreserved": true,
+  "buildMatches": true,
+  "checks": {
+    "migrationHashes": 172,
+    "resourcePaths": 68,
+    "screens": 3,
+    "sixSlotsReachable": true,
+    "loadAndReturn": true
+  },
+  "visualCheck": "三种实际窗口已目视确认：黑纸无22B、NO DATA及中间符号，纹理可见，棋盘背景未进入画面。"
+}

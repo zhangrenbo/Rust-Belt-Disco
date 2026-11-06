@@ -1,0 +1,1 @@
+(()=>{const r=window.__d1Submission;if(!r)return {released:false};if(r.http!==200||r.accepted?.length!==1||r.accepted[0].job_id!=='e6632382-6cfb-426b-b7ec-8f2334d63816')throw Error('Observer does not belong to the known completed previous job');delete window.__d1Submission;return {released:true,previousJob:r.accepted[0].job_id}})()

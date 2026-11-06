@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "terminals": 4,
+  "agents": [
+    "终端 1",
+    "终端 2",
+    "终端 3",
+    "终端 4"
+  ],
+  "inspectorButtons": 5,
+  "inspectorSelected": true,
+  "tellAiEnabled": true,
+  "inspectorLabelsFollowTypes": true,
+  "inspectorLayouts": [
+    {
+      "width": 1440,
+      "reachable": true
+    },
+    {
+      "width": 1080,
+      "reachable": true
+    }
+  ],
+  "inspectorWrites": [
+    {
+      "side": "left",
+      "existingSession": true,
+      "noSubmit": true
+    },
+    {
+      "side": "right",
+      "existingSession": true,
+      "noSubmit": true
+    },
+    {
+      "side": "third",
+      "existingSession": true,
+      "noSubmit": true
+    },
+    {
+      "side": "fourth",
+      "existingSession": true,
+      "noSubmit": true
+    }
+  ],
+  "scope": "shared Electron shell; isolated smoke-test profile, fixture HTML and PowerShell sessions",
+  "userWorkbenchRestarted": false,
+  "runtimeActivation": "next workbench launch; current user sessions preserved",
+  "screenshots": [
+    "E:\\blender\\tool\\html-dual-ai-workbench\\artifacts\\inspector-four-1440.png",
+    "E:\\blender\\tool\\html-dual-ai-workbench\\artifacts\\inspector-four-1080.png"
+  ],
+  "userVisualApproval": false
+}

@@ -1,0 +1,58 @@
+{
+  "checks": [
+    "theme audio decoded and playing",
+    "reference turntable and real two-track catalog visible",
+    "record rotation follows playback",
+    "pause stops real audio and record",
+    "pointer seek preserves pause and updates real position",
+    "resume starts source from seek position",
+    "keyboard seek controls audio source",
+    "next loads actual station audio",
+    "previous restores theme without refetching decoder",
+    "empty favorites has honest state and disabled skip",
+    "favorite persists independently and filter updates",
+    "repeat switch changes source looping",
+    "nonlooping track actually ends",
+    "play after end starts from beginning",
+    "system reduced motion stops record rotation",
+    "compact controls stay visible and unobstructed",
+    "compact next remains usable",
+    "return restores original theme and settings",
+    "mute survives track switches",
+    "Escape returns settings without losing draft or mute",
+    "unrelated storage untouched"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/record-library-playing-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/record-library-empty-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/record-library-compact-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "path": "docs/record-library-settings-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    }
+  ],
+  "errors": [],
+  "audio": "Web Audio analyser before a QA-only silent output sink; physical speaker not inspected",
+  "humanArtReview": "pending"
+}

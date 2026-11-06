@@ -1,0 +1,41 @@
+{
+  "purpose": "用户指定的三张极乐迪斯科实机截图，共同用作 Midjourney Style References",
+  "category": "SR",
+  "references": [
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\fb4f6676e9c54108b4e69a0a8ef1e976.jpg",
+      "sha256": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "mj_upload_id": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/5ee101825ce90c95edf109f05ab983bcca14f57f48c76b2f20c356a5e6d4255a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\a5ad1b480b3a9a5605f52871df477cd6.jpg",
+      "sha256": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "mj_upload_id": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/4d906ff042374b674894b72cbdcbf9363b61abe620c0cb54156834396880838c_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\45545f073194fce9bb504dac8efd1d1e.jpg",
+      "sha256": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "mj_upload_id": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/6e711d2ead5110af8b56d0f50b636917fcf2a966f7b1ac02e188114d75b1305a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    }
+  ],
+  "verified_at": "2026-09-15T15:27:52.659145+00:00",
+  "accepted_style_reference_group": [
+    "https://s.mj.run/A6_BtdGjcfo",
+    "https://s.mj.run/l2YC6AxG5Es",
+    "https://s.mj.run/tHRcou4Txfk"
+  ],
+  "reusable_parameter": "--sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150",
+  "verified_job_id": "c1615a39-3d4a-46c8-9e41-76110fa1c116"
+}

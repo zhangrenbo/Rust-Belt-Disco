@@ -1,0 +1,174 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Google Chrome, direct target-specific CDP 9223; unique background page",
+  "connectionNote": "Reused the working target-specific CDP method from the previous catalog revision; no restart or unrelated tab manipulation.",
+  "checks": [
+    "Actual theme recording plays through the silent QA sink",
+    "Reference-based paper and both real game thumbnails decode",
+    "Catalog always shows all tracks without category tabs",
+    "Left player artwork and needle projection remain intact",
+    "Orange refraction is clipped to the same two paper shadows",
+    "The moving black tonearm shadow includes a soft orange offset",
+    "1440: all visible controls receive pointer input inside the game",
+    "1440: heading, both credits and footer fit their printed areas",
+    "1440: old-animation film and two paper shadows cover the catalog",
+    "1058: all visible controls receive pointer input inside the game",
+    "1058: heading, both credits and footer fit their printed areas",
+    "1058: old-animation film and two paper shadows cover the catalog",
+    "844: all visible controls receive pointer input inside the game",
+    "844: heading, both credits and footer fit their printed areas",
+    "844: old-animation film and two paper shadows cover the catalog",
+    "Playback advances the progress slider",
+    "Pause stops actual audio and the record rotation",
+    "Seeking while paused changes the real playback position",
+    "Raised needle retains the orange edge and original down-left projection",
+    "Resume starts at the selected position",
+    "Clicking the cover selects the actual station recording",
+    "The red strip follows the selected recording",
+    "Clicking a title returns to the theme",
+    "Next track remains functional",
+    "Previous track remains functional",
+    "Adding a favorite preserves the complete track list",
+    "Removing a favorite keeps its row visible and keyboard focus intact",
+    "Loop button changes the real source loop state",
+    "Keyboard focus remains visible on the player",
+    "Enter pauses actual playback",
+    "Reduced motion disables record rotation",
+    "Return restores settings and scene music",
+    "Escape returns to settings",
+    "Unrelated settings and player saves remain untouched",
+    "No JavaScript errors"
+  ],
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-orange-shadow-before-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-orange-shadow-playing-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-orange-shadow-playing-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-orange-shadow-playing-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-orange-shadow-paused-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-orange-shadow-station-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-orange-shadow-favorite-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 810,
+      "heading": "700 52.56px / 60.444px SimSun, \"Songti SC\", serif",
+      "paper": "url(\"http://127.0.0.1:5173/record-catalog-paper-reference-v4.png\")",
+      "selected": "menu",
+      "visibleTracks": 2
+    },
+    {
+      "width": 1058,
+      "height": 595,
+      "heading": "700 38.6084px / 44.3997px SimSun, \"Songti SC\", serif",
+      "paper": "url(\"http://127.0.0.1:5173/record-catalog-paper-reference-v4.png\")",
+      "selected": "menu",
+      "visibleTracks": 2
+    },
+    {
+      "width": 844,
+      "height": 475,
+      "heading": "700 30.806px / 35.4269px SimSun, \"Songti SC\", serif",
+      "paper": "url(\"http://127.0.0.1:5173/record-catalog-paper-reference-v4.png\")",
+      "selected": "menu",
+      "visibleTracks": 2
+    }
+  ],
+  "errors": [],
+  "storage": "isolated in-memory fixtures; real player data untouched",
+  "audio": "real Web Audio before silent QA output; speakers not inspected",
+  "humanArtReview": "User retained the other lighting effects but rejected the tonearm projection: it must grow toward the lower-left",
+  "electronWindowVerified": false,
+  "change": "Localized orange edges on the two catalog-paper shadows and the moving tonearm projection",
+  "scope": "#settings-music-library only; src/core/music-library.css",
+  "sourceGeometryVerification": "Original arm and shadow transforms, transform origins, fade mask and opacity match the preserved CSS",
+  "visualReview": "1058 before/after, 844 playing and 1440 raised-needle captures inspected; warm fringes follow the shadows and paper clipping",
+  "build": "npm run build passed; 172 migrated hashes and 74 resource paths verified",
+  "backup": ".local/music-library-before-orange-shadow-20260914.css",
+  "qa": "Reused qa-record-catalog-native-cdp.py with current player artwork reference, output prefix and three shadow-edge assertions adjusted in memory",
+  "tonearmSupersededBy": "docs/record-shadow-perspective-verification.json"
+}

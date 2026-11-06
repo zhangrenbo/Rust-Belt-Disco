@@ -1,0 +1,1126 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "isolated in-memory fixtures; physical audio output muted; real player saves untouched",
+  "checks": [
+    {
+      "name": "1440 empty: artwork, alpha mask and all content fit",
+      "passed": true
+    },
+    {
+      "name": "1440 empty: save/load availability and control hits",
+      "passed": true
+    },
+    {
+      "name": "1440 saved: artwork, alpha mask and all content fit",
+      "passed": true
+    },
+    {
+      "name": "1440 saved: save/load availability and control hits",
+      "passed": true
+    },
+    {
+      "name": "1440 damaged: artwork, alpha mask and all content fit",
+      "passed": true
+    },
+    {
+      "name": "1440 damaged: save/load availability and control hits",
+      "passed": true
+    },
+    {
+      "name": "1058 empty: artwork, alpha mask and all content fit",
+      "passed": true
+    },
+    {
+      "name": "1058 empty: save/load availability and control hits",
+      "passed": true
+    },
+    {
+      "name": "1058 saved: artwork, alpha mask and all content fit",
+      "passed": true
+    },
+    {
+      "name": "1058 saved: save/load availability and control hits",
+      "passed": true
+    },
+    {
+      "name": "1058 damaged: artwork, alpha mask and all content fit",
+      "passed": true
+    },
+    {
+      "name": "1058 damaged: save/load availability and control hits",
+      "passed": true
+    },
+    {
+      "name": "844 empty: artwork, alpha mask and all content fit",
+      "passed": true
+    },
+    {
+      "name": "844 empty: save/load availability and control hits",
+      "passed": true
+    },
+    {
+      "name": "844 saved: artwork, alpha mask and all content fit",
+      "passed": true
+    },
+    {
+      "name": "844 saved: save/load availability and control hits",
+      "passed": true
+    },
+    {
+      "name": "844 damaged: artwork, alpha mask and all content fit",
+      "passed": true
+    },
+    {
+      "name": "844 damaged: save/load availability and control hits",
+      "passed": true
+    },
+    {
+      "name": "All six slot numbers and paper close button",
+      "passed": true
+    },
+    {
+      "name": "Clicking blank paper keeps the detail card open",
+      "passed": true
+    },
+    {
+      "name": "Outside click closes",
+      "passed": true
+    },
+    {
+      "name": "Escape closes and stays on archive page",
+      "passed": true
+    },
+    {
+      "name": "Visible keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "Keyboard return closes",
+      "passed": true
+    },
+    {
+      "name": "Existing save opens UI showcase and returns to menu",
+      "passed": true
+    },
+    {
+      "name": "All isolated saved data remain identical",
+      "passed": true
+    },
+    {
+      "name": "No page errors",
+      "passed": true
+    }
+  ],
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-slot-detail-empty-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "state": "empty",
+      "slot": "01",
+      "dialog": {
+        "x": 390,
+        "y": 185,
+        "width": 660,
+        "height": 440
+      },
+      "background": "none",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "art": "assets/save-slot-detail-panel-v1.png",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-slot-detail-outline.svg\")",
+      "naturalSize": [
+        1536,
+        1024
+      ],
+      "description": "这是一个空白槽位，可以在这里保存当前旅程。",
+      "disabled": [
+        true,
+        true,
+        false
+      ],
+      "content": [
+        {
+          "text": "档案槽位 01",
+          "bounds": {
+            "x": 521.394775390625,
+            "y": 279.17840576171875,
+            "width": 216.19482421875,
+            "height": 57.4088134765625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "这是一个空白槽位，可以在这里保存当前旅程。",
+          "bounds": {
+            "x": 522,
+            "y": 374.1875,
+            "width": 409.1875,
+            "height": 64.21875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "关闭档案详情",
+          "bounds": {
+            "x": 955.5338745117188,
+            "y": 231.61572265625,
+            "width": 47.0416259765625,
+            "height": 53.0498046875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "读取存档",
+          "bounds": {
+            "x": 495.2135925292969,
+            "y": 496.4103088378906,
+            "width": 141.57278442382812,
+            "height": 57.398162841796875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "保存到这里",
+          "bounds": {
+            "x": 649.2603759765625,
+            "y": 496.53253173828125,
+            "width": 141.479248046875,
+            "height": 57.1536865234375
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回",
+          "bounds": {
+            "x": 803.0745849609375,
+            "y": 496.04412841796875,
+            "width": 141.850830078125,
+            "height": 58.1304931640625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        }
+      ],
+      "bodyAboveButtons": true,
+      "insideViewport": true,
+      "named": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-slot-detail-saved-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "state": "saved",
+      "slot": "02",
+      "dialog": {
+        "x": 390,
+        "y": 185,
+        "width": 660,
+        "height": 440
+      },
+      "background": "none",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "art": "assets/save-slot-detail-panel-v1.png",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-slot-detail-outline.svg\")",
+      "naturalSize": [
+        1536,
+        1024
+      ],
+      "description": "董点事 · 公交车站 · 旅程进行中。保存会覆盖这个槽位，读取会返回该进度。",
+      "disabled": [
+        false,
+        true,
+        false
+      ],
+      "content": [
+        {
+          "text": "档案槽位 02",
+          "bounds": {
+            "x": 521.394775390625,
+            "y": 279.17840576171875,
+            "width": 216.19482421875,
+            "height": 57.4088134765625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "董点事 · 公交车站 · 旅程进行中。保存会覆盖这个槽位，读取会返回该进度。",
+          "bounds": {
+            "x": 522,
+            "y": 374.1875,
+            "width": 409.1875,
+            "height": 64.21875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "关闭档案详情",
+          "bounds": {
+            "x": 955.5338745117188,
+            "y": 231.61572265625,
+            "width": 47.0416259765625,
+            "height": 53.0498046875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "读取存档",
+          "bounds": {
+            "x": 495.2135925292969,
+            "y": 496.4103088378906,
+            "width": 141.57278442382812,
+            "height": 57.398162841796875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "覆盖保存",
+          "bounds": {
+            "x": 649.2603759765625,
+            "y": 496.53253173828125,
+            "width": 141.479248046875,
+            "height": 57.1536865234375
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回",
+          "bounds": {
+            "x": 803.0745849609375,
+            "y": 496.04412841796875,
+            "width": 141.850830078125,
+            "height": 58.1304931640625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        }
+      ],
+      "bodyAboveButtons": true,
+      "insideViewport": true,
+      "named": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-slot-detail-damaged-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "state": "damaged",
+      "slot": "04",
+      "dialog": {
+        "x": 390,
+        "y": 185,
+        "width": 660,
+        "height": 440
+      },
+      "background": "none",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "art": "assets/save-slot-detail-panel-v1.png",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-slot-detail-outline.svg\")",
+      "naturalSize": [
+        1536,
+        1024
+      ],
+      "description": "该存档无法读取，原始数据已保留。可以选择其他槽位。",
+      "disabled": [
+        true,
+        true,
+        false
+      ],
+      "content": [
+        {
+          "text": "档案槽位 04",
+          "bounds": {
+            "x": 521.394775390625,
+            "y": 279.17840576171875,
+            "width": 216.19482421875,
+            "height": 57.4088134765625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "该存档无法读取，原始数据已保留。可以选择其他槽位。",
+          "bounds": {
+            "x": 522,
+            "y": 374.1875,
+            "width": 409.1875,
+            "height": 64.21875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "关闭档案详情",
+          "bounds": {
+            "x": 955.5338745117188,
+            "y": 231.61572265625,
+            "width": 47.0416259765625,
+            "height": 53.0498046875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "读取存档",
+          "bounds": {
+            "x": 495.2135925292969,
+            "y": 496.4103088378906,
+            "width": 141.57278442382812,
+            "height": 57.398162841796875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "保存到这里",
+          "bounds": {
+            "x": 649.2603759765625,
+            "y": 496.53253173828125,
+            "width": 141.479248046875,
+            "height": 57.1536865234375
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回",
+          "bounds": {
+            "x": 803.0745849609375,
+            "y": 496.04412841796875,
+            "width": 141.850830078125,
+            "height": 58.1304931640625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        }
+      ],
+      "bodyAboveButtons": true,
+      "insideViewport": true,
+      "named": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-slot-detail-empty-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "state": "empty",
+      "slot": "01",
+      "dialog": {
+        "x": 199,
+        "y": 77.5,
+        "width": 660,
+        "height": 440
+      },
+      "background": "none",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "art": "assets/save-slot-detail-panel-v1.png",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-slot-detail-outline.svg\")",
+      "naturalSize": [
+        1536,
+        1024
+      ],
+      "description": "这是一个空白槽位，可以在这里保存当前旅程。",
+      "disabled": [
+        true,
+        true,
+        false
+      ],
+      "content": [
+        {
+          "text": "档案槽位 01",
+          "bounds": {
+            "x": 330.3947448730469,
+            "y": 171.6783905029297,
+            "width": 216.19485473632812,
+            "height": 57.408843994140625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "这是一个空白槽位，可以在这里保存当前旅程。",
+          "bounds": {
+            "x": 331,
+            "y": 266.6875,
+            "width": 409.1875,
+            "height": 64.21875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "关闭档案详情",
+          "bounds": {
+            "x": 764.5338745117188,
+            "y": 124.11572265625,
+            "width": 47.0416259765625,
+            "height": 53.0498046875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "读取存档",
+          "bounds": {
+            "x": 304.2135925292969,
+            "y": 388.9103088378906,
+            "width": 141.57281494140625,
+            "height": 57.39813232421875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "保存到这里",
+          "bounds": {
+            "x": 458.2603759765625,
+            "y": 389.03253173828125,
+            "width": 141.479248046875,
+            "height": 57.1536865234375
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回",
+          "bounds": {
+            "x": 612.0745849609375,
+            "y": 388.54412841796875,
+            "width": 141.850830078125,
+            "height": 58.1304931640625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        }
+      ],
+      "bodyAboveButtons": true,
+      "insideViewport": true,
+      "named": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-slot-detail-saved-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "state": "saved",
+      "slot": "02",
+      "dialog": {
+        "x": 199,
+        "y": 77.5,
+        "width": 660,
+        "height": 440
+      },
+      "background": "none",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "art": "assets/save-slot-detail-panel-v1.png",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-slot-detail-outline.svg\")",
+      "naturalSize": [
+        1536,
+        1024
+      ],
+      "description": "董点事 · 公交车站 · 旅程进行中。保存会覆盖这个槽位，读取会返回该进度。",
+      "disabled": [
+        false,
+        true,
+        false
+      ],
+      "content": [
+        {
+          "text": "档案槽位 02",
+          "bounds": {
+            "x": 330.3947448730469,
+            "y": 171.6783905029297,
+            "width": 216.19485473632812,
+            "height": 57.408843994140625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "董点事 · 公交车站 · 旅程进行中。保存会覆盖这个槽位，读取会返回该进度。",
+          "bounds": {
+            "x": 331,
+            "y": 266.6875,
+            "width": 409.1875,
+            "height": 64.21875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "关闭档案详情",
+          "bounds": {
+            "x": 764.5338745117188,
+            "y": 124.11572265625,
+            "width": 47.0416259765625,
+            "height": 53.0498046875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "读取存档",
+          "bounds": {
+            "x": 304.2135925292969,
+            "y": 388.9103088378906,
+            "width": 141.57281494140625,
+            "height": 57.39813232421875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "覆盖保存",
+          "bounds": {
+            "x": 458.2603759765625,
+            "y": 389.03253173828125,
+            "width": 141.479248046875,
+            "height": 57.1536865234375
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回",
+          "bounds": {
+            "x": 612.0745849609375,
+            "y": 388.54412841796875,
+            "width": 141.850830078125,
+            "height": 58.1304931640625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        }
+      ],
+      "bodyAboveButtons": true,
+      "insideViewport": true,
+      "named": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-slot-detail-damaged-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "state": "damaged",
+      "slot": "04",
+      "dialog": {
+        "x": 199,
+        "y": 77.5,
+        "width": 660,
+        "height": 440
+      },
+      "background": "none",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "art": "assets/save-slot-detail-panel-v1.png",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-slot-detail-outline.svg\")",
+      "naturalSize": [
+        1536,
+        1024
+      ],
+      "description": "该存档无法读取，原始数据已保留。可以选择其他槽位。",
+      "disabled": [
+        true,
+        true,
+        false
+      ],
+      "content": [
+        {
+          "text": "档案槽位 04",
+          "bounds": {
+            "x": 330.3947448730469,
+            "y": 171.6783905029297,
+            "width": 216.19485473632812,
+            "height": 57.408843994140625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "该存档无法读取，原始数据已保留。可以选择其他槽位。",
+          "bounds": {
+            "x": 331,
+            "y": 266.6875,
+            "width": 409.1875,
+            "height": 64.21875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "关闭档案详情",
+          "bounds": {
+            "x": 764.5338745117188,
+            "y": 124.11572265625,
+            "width": 47.0416259765625,
+            "height": 53.0498046875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "读取存档",
+          "bounds": {
+            "x": 304.2135925292969,
+            "y": 388.9103088378906,
+            "width": 141.57281494140625,
+            "height": 57.39813232421875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "保存到这里",
+          "bounds": {
+            "x": 458.2603759765625,
+            "y": 389.03253173828125,
+            "width": 141.479248046875,
+            "height": 57.1536865234375
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回",
+          "bounds": {
+            "x": 612.0745849609375,
+            "y": 388.54412841796875,
+            "width": 141.850830078125,
+            "height": 58.1304931640625
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        }
+      ],
+      "bodyAboveButtons": true,
+      "insideViewport": true,
+      "named": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-slot-detail-empty-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "state": "empty",
+      "slot": "01",
+      "dialog": {
+        "x": 94.25,
+        "y": 19,
+        "width": 655.5,
+        "height": 437
+      },
+      "background": "none",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "art": "assets/save-slot-detail-panel-v1.png",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-slot-detail-outline.svg\")",
+      "naturalSize": [
+        1536,
+        1024
+      ],
+      "description": "这是一个空白槽位，可以在这里保存当前旅程。",
+      "disabled": [
+        true,
+        true,
+        false
+      ],
+      "content": [
+        {
+          "text": "档案槽位 01",
+          "bounds": {
+            "x": 224.7424774169922,
+            "y": 112.52440643310547,
+            "width": 214.71815490722656,
+            "height": 57.02930450439453
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "这是一个空白槽位，可以在这里保存当前旅程。",
+          "bounds": {
+            "x": 225.34375,
+            "y": 206.90625,
+            "width": 406.40625,
+            "height": 63.8125
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "关闭档案详情",
+          "bounds": {
+            "x": 655.9389038085938,
+            "y": 65.29988098144531,
+            "width": 46.7159423828125,
+            "height": 52.681488037109375
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "读取存档",
+          "bounds": {
+            "x": 198.74752807617188,
+            "y": 328.29205322265625,
+            "width": 140.59869384765625,
+            "height": 56.9940185546875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "保存到这里",
+          "bounds": {
+            "x": 351.7470703125,
+            "y": 328.4134521484375,
+            "width": 140.50582885742188,
+            "height": 56.751220703125
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回",
+          "bounds": {
+            "x": 504.5157470703125,
+            "y": 327.9283752441406,
+            "width": 140.874755859375,
+            "height": 57.72137451171875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        }
+      ],
+      "bodyAboveButtons": true,
+      "insideViewport": true,
+      "named": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-slot-detail-saved-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "state": "saved",
+      "slot": "02",
+      "dialog": {
+        "x": 94.25,
+        "y": 19,
+        "width": 655.5,
+        "height": 437
+      },
+      "background": "none",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "art": "assets/save-slot-detail-panel-v1.png",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-slot-detail-outline.svg\")",
+      "naturalSize": [
+        1536,
+        1024
+      ],
+      "description": "董点事 · 公交车站 · 旅程进行中。保存会覆盖这个槽位，读取会返回该进度。",
+      "disabled": [
+        false,
+        true,
+        false
+      ],
+      "content": [
+        {
+          "text": "档案槽位 02",
+          "bounds": {
+            "x": 224.7424774169922,
+            "y": 112.52440643310547,
+            "width": 214.71815490722656,
+            "height": 57.02930450439453
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "董点事 · 公交车站 · 旅程进行中。保存会覆盖这个槽位，读取会返回该进度。",
+          "bounds": {
+            "x": 225.34375,
+            "y": 206.90625,
+            "width": 406.40625,
+            "height": 63.8125
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "关闭档案详情",
+          "bounds": {
+            "x": 655.9389038085938,
+            "y": 65.29988098144531,
+            "width": 46.7159423828125,
+            "height": 52.681488037109375
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "读取存档",
+          "bounds": {
+            "x": 198.74752807617188,
+            "y": 328.29205322265625,
+            "width": 140.59869384765625,
+            "height": 56.9940185546875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "覆盖保存",
+          "bounds": {
+            "x": 351.7470703125,
+            "y": 328.4134521484375,
+            "width": 140.50582885742188,
+            "height": 56.751220703125
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回",
+          "bounds": {
+            "x": 504.5157470703125,
+            "y": 327.9283752441406,
+            "width": 140.874755859375,
+            "height": 57.72137451171875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        }
+      ],
+      "bodyAboveButtons": true,
+      "insideViewport": true,
+      "named": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-slot-detail-damaged-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "state": "damaged",
+      "slot": "04",
+      "dialog": {
+        "x": 94.25,
+        "y": 19,
+        "width": 655.5,
+        "height": 437
+      },
+      "background": "none",
+      "color": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "art": "assets/save-slot-detail-panel-v1.png",
+      "mask": "url(\"http://127.0.0.1:5173/assets/save-slot-detail-outline.svg\")",
+      "naturalSize": [
+        1536,
+        1024
+      ],
+      "description": "该存档无法读取，原始数据已保留。可以选择其他槽位。",
+      "disabled": [
+        true,
+        true,
+        false
+      ],
+      "content": [
+        {
+          "text": "档案槽位 04",
+          "bounds": {
+            "x": 224.7424774169922,
+            "y": 112.52440643310547,
+            "width": 214.71815490722656,
+            "height": 57.02930450439453
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "该存档无法读取，原始数据已保留。可以选择其他槽位。",
+          "bounds": {
+            "x": 225.34375,
+            "y": 206.90625,
+            "width": 406.40625,
+            "height": 63.8125
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "关闭档案详情",
+          "bounds": {
+            "x": 655.9389038085938,
+            "y": 65.29988098144531,
+            "width": 46.7159423828125,
+            "height": 52.681488037109375
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "读取存档",
+          "bounds": {
+            "x": 198.74752807617188,
+            "y": 328.29205322265625,
+            "width": 140.59869384765625,
+            "height": 56.9940185546875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "保存到这里",
+          "bounds": {
+            "x": 351.7470703125,
+            "y": 328.4134521484375,
+            "width": 140.50582885742188,
+            "height": 56.751220703125
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        },
+        {
+          "text": "返回",
+          "bounds": {
+            "x": 504.5157470703125,
+            "y": 327.9283752441406,
+            "width": 140.874755859375,
+            "height": 57.72137451171875
+          },
+          "textFits": true,
+          "inside": true,
+          "hit": true
+        }
+      ],
+      "bodyAboveButtons": true,
+      "insideViewport": true,
+      "named": true
+    }
+  ],
+  "errors": [],
+  "visualAcceptance": "pending user review",
+  "electronWorkbench": "not directly inspected",
+  "assetChecks": [
+    {
+      "path": "assets/save-slot-detail-panel-v1.png",
+      "httpStatus": 200,
+      "buildIdentical": true,
+      "sha256": "a47510123723cf0d1d9f8ecbb0f2986b2308f36788e14a91cc44d6290cadc6fc"
+    },
+    {
+      "path": "assets/save-slot-detail-outline.svg",
+      "httpStatus": 200,
+      "buildIdentical": true,
+      "sha256": "a1a9b72942a4ca0aa7ff6cc4136a0581707e7624fb85e52cb0ec0866eb7fbc54"
+    },
+    {
+      "path": "settings-reset-button-v1.png",
+      "httpStatus": 200,
+      "buildIdentical": true,
+      "sha256": "ffcd8d99cabd6af9284cbdf7b74cab7f70adddd007688bb55e8306d1a06eb36d"
+    },
+    {
+      "path": "assets/disco-dialog-close-v1.png",
+      "httpStatus": 200,
+      "buildIdentical": true,
+      "sha256": "242fccfa1485652a3716eb58b3565af2583460863f5c5c0320f00c6531c97bbb"
+    }
+  ],
+  "automatedChecks": {
+    "testsPassed": 15,
+    "migratedHashes": 172,
+    "resourcePaths": 70,
+    "build": "passed"
+  },
+  "visualInspection": {
+    "by": "assistant",
+    "viewports": [
+      1440,
+      1058,
+      844
+    ],
+    "observed": "Paper silhouette excludes generated checkerboard; title, description and paper buttons fit all three archive states.",
+    "humanApproval": false
+  }
+}

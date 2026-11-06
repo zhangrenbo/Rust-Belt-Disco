@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Chrome + direct target CDP",
+  "removedSelector": "nav.clue-switcher.dossier-switcher",
+  "otherExplorationSwitcherRetained": true,
+  "characterSwitching": true,
+  "returnButtonAndEscape": true,
+  "storage": "isolated memory; real player data unchanged",
+  "audio": "test output muted",
+  "screenshot": "docs/dossier-switcher-removed-1058.png",
+  "gameBounds": {
+    "x": 0.109375,
+    "y": 0,
+    "width": 1057.765625,
+    "height": 594.984375
+  },
+  "build": "passed",
+  "errors": [],
+  "electronWorkbenchInspected": false
+}

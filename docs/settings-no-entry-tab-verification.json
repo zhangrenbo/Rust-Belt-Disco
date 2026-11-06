@@ -1,0 +1,38 @@
+{
+  "browser": "Chrome/152.0.7977.83",
+  "control": "Direct Chrome CDP 9223",
+  "captures": [
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "screenshot": "docs/settings-no-entry-tab-1440.png"
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "screenshot": "docs/settings-no-entry-tab-844.png"
+    }
+  ],
+  "metrics": {
+    "image": "/settings-dossier-art-v4.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mask": "url(\"http://127.0.0.1:5173/settings-dossier-art-v3.png\")",
+    "navLabels": [
+      "返回"
+    ],
+    "returnReachable": true,
+    "point": {
+      "x": 83.11718368530273,
+      "y": 93.796875
+    },
+    "pageErrors": []
+  },
+  "returnView": "mainmenu"
+}

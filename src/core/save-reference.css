@@ -1,0 +1,330 @@
+/* The reference defines a 1672 × 941 canvas. A clean desk sits underneath
+   six independent, silhouette-masked paper buttons with live state. */
+.view-entry.entry-reference { background: #34332f; }
+.view-entry.entry-reference::before,
+.view-entry.entry-reference::after { content: none; }
+.entry-reference-art {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+  user-select: none;
+}
+
+.view-entry.entry-reference .entry-directory {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  transform: none;
+  background: none;
+  box-shadow: none;
+  clip-path: none;
+  pointer-events: none;
+}
+.view-entry.entry-reference .entry-directory > header,
+.view-entry.entry-reference .entry-directory .entry-grid {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  transform: none;
+  filter: none;
+  background: none;
+  box-shadow: none;
+  clip-path: none;
+  pointer-events: none;
+}
+.view-entry.entry-reference .entry-directory > header > b {
+  position: absolute;
+  inset: auto;
+  left: calc(580 / 1672 * 100%);
+  top: calc(94 / 941 * 100%);
+  width: calc(515 / 1672 * 100%);
+  height: calc(38 / 941 * 100%);
+  display: grid;
+  place-items: center;
+  margin: 0;
+  color: #302c25;
+  font: 700 1.8cqw/1 "SimSun", "Songti SC", serif;
+  letter-spacing: .16em;
+  text-indent: .16em;
+  text-shadow: none;
+  white-space: nowrap;
+  mix-blend-mode: multiply;
+}
+
+/* Accessible copy remains available without doubling the reference's printing. */
+.view-entry.entry-reference .entry-brand,
+.view-entry.entry-reference .entry-directory > footer,
+.view-entry.entry-reference .entry-directory > header > :is(span, small),
+.view-entry.entry-reference .entry-directory [data-slot] > :is(span, i) {
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 1px;
+  height: 1px;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  transform: none;
+  border: 0;
+  pointer-events: none;
+}
+
+.view-entry.entry-reference .entry-directory [data-slot] {
+  position: absolute;
+  inset: auto;
+  left: calc(var(--slot-x) / 1672 * 100%);
+  top: calc(var(--slot-y) / 941 * 100%);
+  width: calc(var(--slot-w) / 1672 * 100%);
+  height: calc(var(--slot-h) / 941 * 100%);
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  transform: none;
+  filter: drop-shadow(.08cqw .18cqw .12cqw #0007);
+  clip-path: none;
+  overflow: visible;
+  text-align: left;
+  pointer-events: auto;
+  cursor: pointer;
+  transform-origin: 50% 12%;
+  transition: transform 180ms ease, filter 180ms ease;
+}
+.entry-reference [data-slot="01"] { --slot-x: 292; --slot-y: 248; --slot-w: 492; --slot-h: 166; }
+.entry-reference [data-slot="02"] { --slot-x: 880; --slot-y: 248; --slot-w: 492; --slot-h: 166; }
+.entry-reference [data-slot="03"] { --slot-x: 292; --slot-y: 462; --slot-w: 492; --slot-h: 166; }
+.entry-reference [data-slot="04"] { --slot-x: 880; --slot-y: 462; --slot-w: 492; --slot-h: 166; }
+.entry-reference [data-slot="05"] { --slot-x: 264; --slot-y: 691; --slot-w: 552; --slot-h: 103; }
+.entry-reference [data-slot="06"] { --slot-x: 848; --slot-y: 691; --slot-w: 550; --slot-h: 103; }
+
+.view-entry.entry-reference .entry-directory [data-slot]::after,
+.view-entry.entry-reference .entry-directory [data-save-title]::after { content: none; }
+.view-entry.entry-reference .entry-directory [data-slot]::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: auto;
+  left: 0;
+  top: calc(-14 / var(--slot-h) * 100%);
+  width: 100%;
+  height: calc((var(--slot-h) + 14) / var(--slot-h) * 100%);
+  border: 0;
+  box-shadow: none;
+  background-image: url('/assets/save-archive-reference-v1.png');
+  background-repeat: no-repeat;
+  background-size: calc(1672 / var(--slot-w) * 100%) calc(941 / (var(--slot-h) + 14) * 100%);
+  background-position: calc(var(--slot-x) / (1672 - var(--slot-w)) * 100%) calc((var(--slot-y) - 14) / (941 - var(--slot-h) - 14) * 100%);
+  transform: none;
+  filter: none;
+  clip-path: none;
+  opacity: 1;
+  mask-image: var(--ticket-mask);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  pointer-events: none;
+}
+.entry-reference [data-slot="01"] { --ticket-mask: url('/assets/save-ticket-mask-01.svg'); }
+.entry-reference [data-slot="02"] { --ticket-mask: url('/assets/save-ticket-mask-02.svg'); }
+.entry-reference [data-slot="03"] { --ticket-mask: url('/assets/save-ticket-mask-03.svg'); }
+.entry-reference [data-slot="04"] { --ticket-mask: url('/assets/save-ticket-mask-04.svg'); }
+.entry-reference [data-slot="05"] { --ticket-mask: url('/assets/save-ticket-mask-05.svg'); }
+.entry-reference [data-slot="06"] { --ticket-mask: url('/assets/save-ticket-mask-06.svg'); }
+.view-entry.entry-reference .entry-directory [data-slot] > [data-save-title] {
+  position: absolute;
+  inset: auto;
+  top: calc(28 / 166 * 100%);
+  left: calc(174 / 492 * 100%);
+  width: calc(202 / 492 * 100%);
+  max-width: none;
+  height: calc(35 / 166 * 100%);
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  color: #922e27;
+  font: 700 1.04cqw/1 "SimSun", "Songti SC", serif;
+  letter-spacing: .01em;
+  text-shadow: .012cqw .008cqw 0 currentColor;
+  -webkit-text-stroke: .016cqw currentColor;
+  transform: rotate(var(--stamp-angle, -.35deg));
+  white-space: nowrap;
+  mix-blend-mode: multiply;
+  mask-image: url('/assets/save-ticket-ink-mask.svg');
+  mask-size: 13.4cqw 3.6cqw;
+  mask-position: var(--stamp-ink-x, 0%) var(--stamp-ink-y, 0%);
+  mask-repeat: repeat;
+  transition: color 140ms ease;
+}
+/* The faint line on the source paper remains as a light ink impression below
+   this uneven double rim. The shared mask wears text and frame together. */
+.view-entry.entry-reference .entry-directory [data-slot] > [data-save-title]::before {
+  content: "";
+  position: absolute;
+  inset: -.035cqw;
+  background: currentColor;
+  mask: url('/assets/save-ticket-stamp-rim.svg') center / 100% 100% no-repeat;
+  pointer-events: none;
+}
+.entry-reference [data-slot="02"] { --stamp-angle: .25deg; --stamp-ink-x: 31%; --stamp-ink-y: 57%; }
+.entry-reference [data-slot="03"] { --stamp-angle: -.2deg; --stamp-ink-x: 62%; --stamp-ink-y: 24%; }
+.entry-reference [data-slot="04"] { --stamp-angle: .35deg; --stamp-ink-x: 84%; --stamp-ink-y: 76%; }
+.entry-reference [data-slot="05"] { --stamp-angle: -.45deg; --stamp-ink-x: 18%; --stamp-ink-y: 42%; }
+.entry-reference [data-slot="06"] { --stamp-angle: .3deg; --stamp-ink-x: 73%; --stamp-ink-y: 63%; }
+.view-entry.entry-reference .entry-directory .entry-card[data-save-status="error"] > [data-save-title] {
+  font-size: .89cqw;
+  letter-spacing: 0;
+}
+.view-entry.entry-reference .entry-directory [data-slot] > [data-save-description] {
+  position: absolute;
+  inset: auto;
+  top: calc(83 / 166 * 100%);
+  left: calc(184 / 492 * 100%);
+  width: calc(275 / 492 * 100%);
+  max-width: none;
+  height: calc(25 / 166 * 100%);
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #40392e;
+  font: 700 .78cqw/1.3 "KaiTi", "STKaiti", serif;
+  letter-spacing: .09em;
+  text-shadow: none;
+  transform: none;
+  opacity: 1;
+  white-space: nowrap;
+  mix-blend-mode: multiply;
+}
+.view-entry.entry-reference .entry-directory .entry-secondary-tab > [data-save-title] {
+  left: calc(106 / 552 * 100%);
+  top: calc(20 / 103 * 100%);
+  width: calc(125 / 552 * 100%);
+  height: calc(34 / 103 * 100%);
+  font-size: 1.16cqw;
+}
+.view-entry.entry-reference .entry-directory .entry-secondary-tab[data-save-status="error"] > [data-save-title] { font-size: 1cqw; }
+.view-entry.entry-reference .entry-directory .entry-secondary-tab > [data-save-description] {
+  left: calc(117 / 552 * 100%);
+  top: calc(64 / 103 * 100%);
+  width: calc(330 / 552 * 100%);
+  height: calc(22 / 103 * 100%);
+}
+.view-entry.entry-reference .entry-directory .entry-card .entry-save-preview {
+  left: calc(27 / 492 * 100%);
+  top: calc(22 / 166 * 100%);
+  width: calc(120 / 492 * 100%);
+  height: calc(119 / 166 * 100%);
+  border-radius: .15cqw;
+  object-fit: cover;
+  filter: sepia(.2) saturate(.65) brightness(.82);
+  pointer-events: none;
+}
+.view-entry.entry-reference .entry-directory [data-slot]:is(:hover, :focus-visible) > [data-save-title] { color: #ad4031; }
+.view-entry.entry-reference .entry-directory [data-slot]:is(:hover, :focus-visible) {
+  z-index: 10;
+  transform: translateY(-.38cqw) rotate(-.35deg) scale(1.012);
+  filter: drop-shadow(.22cqw .65cqw .35cqw #0009) brightness(1.07);
+}
+.view-entry.entry-reference .entry-directory [data-slot]:active {
+  transform: translateY(.06cqw) scale(.995);
+  filter: drop-shadow(.04cqw .1cqw .07cqw #0008) brightness(.98);
+  transition-duration: 70ms;
+}
+.view-entry.entry-reference .entry-directory [data-slot] > [data-save-action] {
+  position: absolute;
+  z-index: 2;
+  inset: auto;
+  left: calc(250 / 492 * 100%);
+  top: calc(130 / 166 * 100%);
+  width: calc(125 / 492 * 100%);
+  height: calc(20 / 166 * 100%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  clip-path: none;
+  overflow: visible;
+  transform: none;
+  color: #864c3d;
+  font: 700 .68cqw/1 "KaiTi", "STKaiti", serif;
+  letter-spacing: .06em;
+  opacity: .85;
+  white-space: nowrap;
+  transition: color 140ms ease;
+}
+.view-entry.entry-reference .entry-directory .entry-secondary-tab > [data-save-action] {
+  left: calc(300 / 552 * 100%);
+  top: calc(62 / 103 * 100%);
+  width: calc(125 / 552 * 100%);
+  height: calc(22 / 103 * 100%);
+}
+.view-entry.entry-reference .entry-directory [data-slot]:is(:hover, :focus-visible) > [data-save-action] { color: #ae3927; opacity: 1; }
+.view-entry.entry-reference .entry-hint {
+  position: absolute;
+  z-index: 6;
+  top: calc(805 / 941 * 100%);
+  left: 25%;
+  bottom: auto;
+  width: 50%;
+  margin: 0;
+  padding: .4cqw 0;
+  background: none;
+  color: #ccbea3;
+  font: .74cqw/1.4 "KaiTi", "STKaiti", serif;
+  text-align: center;
+  text-shadow: 0 1px 2px #000;
+  clip-path: none;
+  transform: none;
+  filter: none;
+  pointer-events: none;
+}
+.view-entry.entry-reference .entry-directory [data-slot]:active > [data-save-title] { opacity: .75; }
+.view-entry.entry-reference .entry-directory [data-slot]:focus-visible {
+  outline: .14cqw solid #b1976d;
+  outline-offset: .28cqw;
+}
+
+.view-entry.entry-reference .entry-main-return {
+  inset: auto;
+  left: calc(1461 / 1672 * 100%);
+  top: calc(24 / 941 * 100%);
+  width: calc(181 / 1672 * 100%);
+  height: calc(44 / 941 * 100%);
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  color: #c5b9a4;
+  font: 400 1.06cqw/1 "KaiTi", "STKaiti", serif;
+  letter-spacing: .08em;
+}
+.view-entry.entry-reference .entry-main-return:hover { color: #f0e1c8; background: #e7d3a40a; }
+.view-entry.entry-reference .entry-main-return:active { color: #a79376; }
+@media (prefers-reduced-motion: reduce) {
+  .view-entry.entry-reference .entry-directory [data-slot] { transition: none; }
+  .view-entry.entry-reference .entry-directory [data-slot]:is(:hover, :focus-visible, :active) { transform: none; }
+  .view-entry.entry-reference .entry-directory [data-slot] > [data-save-title] { transition: none; }
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-14",
+  "request": "存档 UI 顶部“选择你要读取的档案”需要专门的独立图片 panel，不复用现有素材。",
+  "tool": "image_gen",
+  "source": "全新生成；未传入或复用既有图片",
+  "output": "public/assets/save-archive-heading-panel-v1.png",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a0999f-b8ee-75d3-8631-c272faa45626/exec-6fc8308f-6118-48f4-811d-8359c2c1a50e.png",
+  "prompt": "Create a BRAND-NEW standalone 2D game UI title-panel asset, designed specifically for the save/load archive screen of a 1980s Northeast China mystery game. ONE isolated horizontal archive label holder, viewed straight from above, no perspective foreshortening. Very wide, slender composition: canvas 1800 x 250 pixels (7.2:1 aspect), the entire object nearly fills the canvas with a small 12-pixel margin all around. It must be a self-contained finished physical panel, NOT an entire screen or mockup. Design a narrow worn dark olive-grey painted steel backplate with subtly irregular clipped corners, a fine exposed dull metal rim and two small recessed slotted screw heads near the far left and right ends. Inside the backplate, a single long warm ivory paper label is held under very thin upper and lower metal lips. Paper has restrained fine fibers, a small crease near the left edge and slightly aged edges, but a calm clean flat central surface for clearly reading a short Chinese title. A very fine faded brick-red ruled line runs across the paper near its lower edge. Balance the physical detail with the existing game's old paper tickets and embossed metal archive desk: tactile materials, soft warm light from upper left, extremely subtle attached contact shadow, muted contrast and worn printed-era object design. Preserve a broad quiet blank writing area throughout the central 85 percent of the panel, with no large clips, ornaments, cutouts or divisions interrupting it. Create a distinct new silhouette and construction; do not recreate a generic existing rusty metal tab, long button or reuse any old artwork. Palette: muted olive steel #41483d, exposed metal #79766a, ivory paper #d8ccb3, faded red rule #7b3c2d. Absolutely NO words, NO Chinese characters, NO letters, NO numbers, NO symbols, NO logo, NO watermark, NO additional objects, NO scene background. The title and metadata will be added as editable HTML separately. Deliver a genuine transparent RGBA PNG with clean alpha outside the complete panel: no simulated checkerboard or background color painted into the image. Save directly in the existing project assets folder E:/东北迪斯科/public/assets/save-archive-heading-panel-v1.png, without creating any new output folder.",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "integration": "存档页顶部独立 img 图层；仅在该标题处使用；完整 PNG 保留透明留白，文字为独立 HTML。撤下该处复用的 disco-entry-tab-v1.png，原素材其他用途保留。",
+  "visualAcceptance": "待用户确认",
+  "sha256": "762dee5748159e5467dc409887077a94825d310d07dc06f7e998b06d3054a95d",
+  "buildMatches": true,
+  "checks": {
+    "tests": 15,
+    "migrationHashes": 172,
+    "resourcePaths": 67,
+    "browserReport": "docs/save-heading-panel-verification.json"
+  },
+  "visualCheck": "已目视检查三种实际窗口，透明轮廓正常，标题完整清晰；用户美术验收待定"
+}

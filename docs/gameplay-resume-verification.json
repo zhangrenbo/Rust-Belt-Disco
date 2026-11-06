@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-15",
+  "transport": "fixed work Chrome, direct background target CDP 9223",
+  "checks": [
+    "Launch stays on the homepage and does not write an auto save",
+    "Start first opens character selection without starting a journey",
+    "Confirmed Dong starts the existing playable night opening",
+    "1440: seated grandmother and marker accept input",
+    "844: seated grandmother and marker accept input",
+    "Actual walking moves the player and local light",
+    "Arrival dialogue opens only after approaching the grandmother",
+    "Original questions advance and retain answers",
+    "Warning and shadow choices unlock the exit",
+    "Settings returns to the same active journey",
+    "Saving is enabled for an active journey",
+    "Manual slot stores the actual progress",
+    "Continue restores real progress",
+    "New game keeps existing manual slots",
+    "Damaged manual data cannot be overwritten or loaded",
+    "Reading a manual slot restores the playable scene",
+    "Walking to the exit completes the existing A000 chapter",
+    "Unrelated and damaged manual data remain untouched",
+    "No runtime exceptions",
+    "Direct ui-only route returns safely to the menu without a campaign",
+    "Direct station route returns safely to the menu without a campaign"
+  ],
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\gameplay-resume-opening-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\gameplay-resume-opening-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\gameplay-resume-complete-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    }
+  ],
+  "storage": "isolated in-memory fixtures; real player saves untouched",
+  "audio": "silent QA output",
+  "electronWindowVerified": false,
+  "scope": "Existing Dong/A000 restored. Li/Wang playable routes and subsequent chapters remain unimplemented."
+}

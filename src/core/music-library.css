@@ -1,0 +1,219 @@
+/* Adapted from the user's 037_唱片库 composition; all selectors stay local. */
+.view-settings.is-record-library > :is(.settings-dossier-art, .settings-case-stamp, .settings-paper-tabs, .settings-dossier-form, .settings-board-actions) { display: none; }
+.record-library[hidden] { display: none; }
+.record-library {
+  --record-paper: #e4dcc8; --record-ink: #514b3a; --record-red: #962f27;
+  position: absolute; inset: 0; isolation: isolate; overflow: hidden;
+  color: var(--record-paper); background: #303b38 url('/assets/event-desk-bg-v2.png') center / cover;
+  font-family: 'KaiTi', 'STKaiti', serif;
+}
+.record-library::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(ellipse at 37% 0%, #f6e4bb52, transparent 64%),
+    linear-gradient(90deg, #19271f25, transparent 56%), linear-gradient(0deg, #17261e52, transparent 62%);
+}
+.record-library::after {
+  content: ''; position: absolute; inset: 0; z-index: 2; pointer-events: none;
+  background: radial-gradient(ellipse at 32% -8%, #fff2cf33, transparent 65%);
+  mix-blend-mode: screen;
+}
+.record-return {
+  position: absolute; z-index: 10; left: 2.2cqw; top: 2cqw; width: 12.5cqw; height: 4.6cqw;
+  padding: .2cqw 1cqw 0; border: 0; background: url('/assets/entry-title-slip-v2.png') center / 100% 100% no-repeat;
+  color: #494233; font-size: 1.5cqw; font-weight: 700; letter-spacing: .1em; cursor: pointer;
+  transform: rotate(-3deg); filter: brightness(1.08) drop-shadow(.15cqw .22cqw .2cqw #0005);
+  transition: transform .16s, color .16s;
+}
+.record-return:hover { color: var(--record-red); transform: rotate(-2deg) translateY(-.15cqw); }
+.record-return:active { transform: rotate(-3deg) translateY(.1cqw); }
+.record-turntable { position: absolute; inset: 0 auto 0 0; width: 56cqw; }
+.record-plane {
+  position: absolute; top: -16.6cqw; left: -10cqw; width: 65cqw; aspect-ratio: 1;
+  transform: perspective(60cqw) rotateX(43deg); transform-origin: center; transform-style: preserve-3d;
+  filter: drop-shadow(0 .9cqw 1.5cqw #0008);
+}
+.record-vinyl {
+  position: absolute; inset: 0; border-radius: 50%; overflow: hidden;
+  border: 0; background: url('/assets/record-vinyl-painted-v1.png') center / 100% 100% no-repeat;
+  box-shadow: none;
+  animation: disco-record-spin 16s linear infinite; animation-play-state: paused;
+}
+.record-vinyl::before { content: none; }
+.record-label {
+  position: absolute; inset: 21.2cqw; display: grid; place-items: center; border-radius: 50%;
+  background: transparent; border: 0; box-shadow: none;
+}
+.record-label img { width: 9.7cqw; height: 16cqw; object-fit: contain; opacity: .94; filter: sepia(.32) brightness(1.04); }
+.record-label span { position: absolute; right: 1.2cqw; bottom: 7cqw; font: 1cqw 'Courier New', monospace; opacity: .7; }
+.record-sheen {
+  position: absolute; inset: 0; border-radius: 50%; pointer-events: none;
+  background: conic-gradient(from 135deg, transparent 0 10deg, #f6efcf1b 20deg, #f6efcf55 28deg, #e6e6c518 35deg, transparent 47deg 190deg, #edf0da27 215deg, transparent 240deg);
+  mask-image: radial-gradient(circle, transparent 0 28%, #000 42% 66%, transparent 71%);
+}
+.record-spindle {
+  position: absolute; top: calc(50% - .45cqw); left: calc(50% - .45cqw); width: .9cqw; aspect-ratio: 1; border-radius: 50%;
+  background: radial-gradient(circle at 30% 25%, #eee1bc, #958762 44%, #252b22 78%); box-shadow: .12cqw .3cqw .3cqw #000;
+}
+.record-tonearm { position: absolute; z-index: 3; top: -1.5cqw; left: 29cqw; width: 29cqw; aspect-ratio: 1453 / 1083; transform-origin: 65% 44%; transform: rotate(-9deg); transition: transform .7s ease; pointer-events: none; }
+.record-tonearm::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: url('/assets/record-tonearm.png') center / 100% 100% no-repeat;
+  /* Anchor at the stylus. Perspective expands the projection progressively
+     toward the lower-left, instead of stamping a uniformly flattened copy. */
+  transform-origin: 48.5% 91.2%;
+  transform: translate(-1.4cqw, 1.5cqw) perspective(31cqw) rotateY(38deg) matrix(.88, .12, 1.12, -.58, 0, 0);
+  mask-image: linear-gradient(180deg, #0004, #0008 26%, #000d 62%, #000 92%);
+  /* A faint warm tint stays inside the soft edge rather than drawing an orange rim. */
+  filter: brightness(0) drop-shadow(-.1cqw .08cqw .2cqw #b4763b45) blur(.5cqw); opacity: .55;
+  transition: transform .7s ease, filter .7s ease, opacity .7s ease;
+}
+.record-tonearm img { position: relative; display: block; width: 100%; height: 100%; object-fit: contain; filter: saturate(.56) brightness(1.16) contrast(.94) drop-shadow(-.12cqw .2cqw .13cqw #0008); }
+.record-library.is-playing .record-vinyl { animation-play-state: running; }
+.record-library.is-playing .record-tonearm { transform: rotate(-1.2deg); }
+.record-library.is-playing .record-tonearm::before {
+  transform: translate(-.12cqw, .2cqw) perspective(27cqw) rotateY(38deg) matrix(.78, .08, .86, -.48, 0, 0);
+  filter: brightness(0) drop-shadow(-.07cqw .05cqw .14cqw #b4763b45) blur(.3cqw); opacity: .72;
+}
+.record-player-console {
+  position: absolute; z-index: 4; left: .2cqw; top: 34cqw; width: 54.2cqw; aspect-ratio: 2043 / 770;
+  container-type: inline-size;
+}
+.record-player-paper {
+  position: absolute; inset: 0; z-index: 0;
+  background: url('/assets/record-player-reference-panel-v2.png') center / 100% 100% no-repeat;
+  mask: url('/assets/record-player-reference-outline.svg') center / 100% 100% no-repeat;
+  pointer-events: none;
+}
+/* Positions follow the supplied artwork; cqw below is relative to the console. */
+.record-now { position: absolute; z-index: 1; left: 30%; top: 17%; width: 43%; text-align: center; color: #793e2e; text-shadow: none; }
+.record-now h3 { margin: 0; font: 700 3.15cqw/1.18 'SimSun', 'Songti SC', Georgia, serif; letter-spacing: .065em; white-space: nowrap; }
+.record-now h3 { mask: url('/assets/save-stamp-ink-mask.svg') 0 0 / 96px 48px repeat; }
+.record-now p { margin: 2.3cqw 0 0; color: #695240; font: 1.65cqw/1.3 'KaiTi', 'STKaiti', serif; white-space: nowrap; }
+.record-timeline { position: absolute; z-index: 1; left: 30.8%; top: 44.8%; width: 42.2%; display: grid; grid-template-columns: 1fr 1fr; align-items: center; color: #654a38; font: 1.6cqw/1.2 'SimSun', 'Songti SC', serif; font-variant-numeric: tabular-nums; }
+.record-timeline time:first-child { grid-column: 1; grid-row: 2; }
+.record-timeline time:last-child { grid-column: 2; grid-row: 2; text-align: right; }
+.record-timeline input {
+  --record-progress: 0%; grid-column: 1 / -1; grid-row: 1;
+  width: 100%; min-width: 0; height: 3.6cqw; appearance: none; margin: 0; cursor: pointer; background: transparent;
+}
+.record-timeline input::-webkit-slider-runnable-track { height: .55cqw; border-radius: 1cqw; background: linear-gradient(90deg, #bd7953 var(--record-progress), #695342 var(--record-progress)); box-shadow: 0 -.1cqw .1cqw #40261d80, 0 .1cqw #fff0d79c; }
+.record-timeline input::-moz-range-track { height: .55cqw; border-radius: 1cqw; background: linear-gradient(90deg, #bd7953 var(--record-progress), #695342 var(--record-progress)); box-shadow: 0 -.1cqw .1cqw #40261d80, 0 .1cqw #fff0d79c; }
+.record-timeline input::-webkit-slider-thumb { appearance: none; width: 1.7cqw; height: 1.7cqw; margin-top: -.575cqw; border: .09cqw solid #fff3d6; border-radius: 50%; background: #ead4af; box-shadow: 0 .15cqw .3cqw #5433247a, 0 0 .65cqw #d67b4266; }
+.record-timeline input::-moz-range-thumb { width: 1.7cqw; height: 1.7cqw; border: .09cqw solid #fff3d6; border-radius: 50%; background: #ead4af; box-shadow: 0 .15cqw .3cqw #5433247a, 0 0 .65cqw #d67b4266; }
+.record-timeline input:disabled { opacity: .5; cursor: wait; }
+.record-transport { position: absolute; inset: 0; z-index: 1; display: block; pointer-events: none; }
+.record-knob {
+  position: absolute; top: 69.3%; display: flex; justify-content: center; align-items: center; gap: .55cqw;
+  width: 9.5%; height: 17%; padding: .2cqw .45cqw;
+  border: 0; border-radius: .7cqw; cursor: pointer; color: #704b3b;
+  background: transparent; box-shadow: none; transform: translateY(-50%); pointer-events: auto;
+  text-shadow: 0 .07cqw #ffedcd5c; transition: color .15s, transform .15s;
+}
+.record-knob[data-record-favorite] { left: 29.1%; }
+.record-knob[data-record-previous] { left: 40.6%; }
+.record-knob[data-record-next] { left: 63.2%; width: 10.6%; }
+.record-knob[data-record-repeat] { left: 75.9%; }
+.record-knob::after { font: 700 1.85cqw/1 'KaiTi', 'STKaiti', serif; letter-spacing: .02em; white-space: nowrap; }
+.record-knob:hover { color: #8c3429; }
+.record-knob:active { transform: translateY(calc(-50% + .15cqw)) scale(.98); }
+.record-knob:disabled { cursor: default; opacity: .4; }
+.record-play { left: 52.45%; width: 8.1%; height: auto; aspect-ratio: 1; border-radius: 50%; color: #fff0d2; }
+.record-play::after { content: none; }
+.record-play:hover { color: #fff7e6; box-shadow: 0 0 1.1cqw #f0b3793d; }
+.record-play-icon { width: 0; height: 0; margin-left: .45cqw; border-top: 1.4cqw solid transparent; border-bottom: 1.4cqw solid transparent; border-left: 2.3cqw solid currentColor; }
+.record-play.is-playing .record-play-icon { width: 2.6cqw; height: 2.6cqw; margin: 0; border: 0; background: linear-gradient(90deg, currentColor 0 33%, transparent 33% 67%, currentColor 67%); }
+.record-heart span { color: transparent; font: 2.3cqw/1 'Segoe UI Symbol', sans-serif; -webkit-text-stroke: .1cqw #805341; }
+.record-heart::after { content: '收藏'; }
+.record-heart[aria-pressed='true'] { color: var(--record-red); }
+.record-heart[aria-pressed='true'] span { color: var(--record-red); -webkit-text-stroke-color: var(--record-red); }
+.record-repeat { font: 2.8cqw/1 Georgia, serif; }
+.record-repeat::after { content: '循环'; }
+.record-repeat[aria-pressed='true'] { color: var(--record-red); }
+.record-repeat[aria-pressed='true']::after { text-decoration: underline; text-decoration-thickness: .1cqw; text-underline-offset: .35cqw; }
+.record-knob[data-record-previous]::after { content: '上一首'; }
+.record-knob[data-record-next]::after { content: '下一首'; }
+.record-skip { position: relative; flex-shrink: 0; width: 1.8cqw; height: 1.9cqw; border-right: .15cqw solid currentColor; }
+.record-skip::before { content: ''; position: absolute; top: 0; left: 0; border-top: .95cqw solid transparent; border-bottom: .95cqw solid transparent; border-left: 1.5cqw solid currentColor; }
+.record-skip.is-back { transform: rotate(180deg); }
+/* The user's 175158 reference: a printed music sleeve and live red selection. */
+.record-catalog {
+  --catalog-ink: #382b24; --catalog-muted: #75604e; --catalog-red: #842e32;
+  position: absolute; z-index: 5; left: 53.3cqw; top: 2.2cqw; width: 45.4cqw; height: 52cqw;
+  padding: 6.8cqw 7.3cqw 5cqw 7cqw; color: var(--catalog-ink);
+  transform: rotate(-1.7deg); transform-origin: 50% 50%;
+  filter: drop-shadow(.2cqw .4cqw .65cqw #0006);
+}
+.record-catalog-paper {
+  position: absolute; inset: 0 2.6cqw 0 0; z-index: 1; pointer-events: none;
+  background: url('/record-catalog-paper-reference-v4.png') center / 100% 100% no-repeat;
+  mask: url('/record-catalog-outline.svg') center / 100% 100% no-repeat;
+  mask-mode: luminance;
+}
+/* Two spaced diagonal bands on the sheet, above the midline. No light layer
+   crosses the vinyl, steel clip or cloth backing. */
+.record-catalog::before, .record-catalog::after {
+  content: ''; position: absolute; inset: 0 2.6cqw 0 0; pointer-events: none;
+  clip-path: polygon(10.7% 10.5%, 90.5% 8%, 93% 13%, 92.3% 31%,
+    94% 56%, 93% 85%, 90.5% 92%, 12% 95%, 10% 80%, 10.5% 52%);
+}
+.record-catalog::after {
+  z-index: 3;
+  mix-blend-mode: multiply;
+  background: linear-gradient(162deg,
+    transparent 0% 29%, #5d655a12 31%, #4b564757 34%, #4b564757 36%, transparent 40%,
+    transparent 49%, #5d655a12 51%, #4b56474d 54%, #4b56474d 56%, transparent 60%);
+}
+.record-catalog::before {
+  /* Match the settings paper: narrow orange refraction at each lit shadow edge. */
+  z-index: 4; mix-blend-mode: soft-light;
+  background: linear-gradient(105deg, transparent 0%, #f49c3866 9%, #ff7900 20%,
+    #ffb53288 40%, #ff9e1280 65%, transparent 84%);
+  mask: linear-gradient(162deg,
+    transparent 0% 27.5%, #0004 29%, #000d 31%, #0006 32.5%, transparent 34%,
+    transparent 47.5%, #0004 49%, #000c 51%, #0006 52.5%, transparent 54%);
+}
+.record-catalog > :not(.record-catalog-paper) { position: relative; z-index: 2; }
+.record-catalog-heading { display: flex; justify-content: space-between; align-items: center; gap: .8cqw; min-height: 6.2cqw; }
+.record-catalog-heading h2 {
+  margin: 0; padding: 0; color: var(--catalog-ink); border: 0; box-shadow: none;
+  font: 700 3.65cqw/1.15 'SimSun', 'Songti SC', serif; letter-spacing: .12em; white-space: nowrap;
+  mask: url('/assets/save-stamp-ink-mask.svg') 0 0 / 96px 48px repeat;
+}
+.record-catalog-title > p { margin: .6cqw 0 0 .15cqw; color: #564536; font: .68cqw/1.3 Arial, sans-serif; letter-spacing: .31em; }
+.record-catalog-note { margin: -.6cqw .2cqw 0 0; color: #534137; font: 400 1.5cqw/1.65 'KaiTi', 'STKaiti', serif; transform: rotate(-6deg); white-space: nowrap; }
+.record-catalog-note span { padding-left: .7cqw; }
+.record-catalog-meta { display: flex; justify-content: space-between; margin-top: 1.15cqw; padding-bottom: .8cqw; border-bottom: 1px solid #765b4147; font: .95cqw/1.4 'KaiTi', 'STKaiti', serif; letter-spacing: .08em; color: var(--catalog-muted); }
+.record-track-list { list-style: none; padding: 0 .35cqw; margin: .25cqw -.35cqw 0; max-height: 18.5cqw; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #8a6c54 transparent; }
+.record-track { position: relative; isolation: isolate; display: grid; grid-template-columns: 1.4cqw minmax(0, 1fr) 3.2cqw 2.4cqw; align-items: center; gap: .5cqw; min-height: 5.8cqw; border-bottom: 1px dotted #79654d55; }
+.record-track::before { content: ''; position: absolute; inset: .3cqw -.25cqw; z-index: -1; background: transparent; pointer-events: none; clip-path: polygon(.2% 2%, 99.8% 0, 100% 98%, 0 100%); mask-image: linear-gradient(#0009, #0009), url('/assets/save-stamp-ink-mask.svg'); mask-size: 100% 100%, 96px 48px; mask-composite: add; }
+.record-track[hidden] { display: none; }
+.record-track.is-current { color: #f0ddbe; border-bottom-color: transparent; }
+.record-track.is-current::before { background: var(--catalog-red); }
+.record-track-number { text-align: center; font: .9cqw 'Courier New', monospace; opacity: .8; }
+.record-track-main { display: grid; grid-template-columns: 3.7cqw minmax(0, 1fr); align-items: center; gap: .85cqw; border: 0; padding: .7cqw 0; background: transparent; text-align: left; cursor: pointer; min-width: 0; }
+.record-track-cover { display: block; width: 3.7cqw; height: 3.7cqw; object-fit: cover; border-radius: .12cqw; filter: saturate(.65) sepia(.15); box-shadow: 0 .1cqw .15cqw #261e1a42; }
+.record-track-copy { min-width: 0; }
+.record-track-main:hover strong { text-decoration: underline; text-underline-offset: .3cqw; }
+.record-track-main:active { transform: translateY(.08cqw); }
+.record-track-main strong {
+  display: block; color: var(--catalog-ink); font: 700 1.5cqw/1.45 'SimSun', 'Songti SC', Georgia, serif;
+  letter-spacing: .035em; mask: url('/assets/save-stamp-ink-mask.svg') 0 0 / 96px 48px repeat;
+}
+.record-track.is-current .record-track-main strong { color: #f4e2c5; }
+.record-track-main small { display: block; margin-top: .35cqw; color: var(--catalog-muted); font: .92cqw/1.5 'KaiTi', 'STKaiti', serif; }
+.record-track.is-current .record-track-main small { color: #e5c5a7; }
+.record-track > time { text-align: center; font: .94cqw 'Courier New', monospace; letter-spacing: .03em; }
+.record-track-heart { border: 0; padding: .8cqw .2cqw; background: transparent; color: transparent; -webkit-text-stroke: .08cqw #73604f; font: 2cqw 'Segoe UI Symbol', sans-serif; cursor: pointer; transition: transform .15s; }
+.record-track-heart[aria-pressed='true'] { color: #962f36; -webkit-text-stroke-color: #962f36; }
+.record-track.is-current .record-track-heart { -webkit-text-stroke-color: #e4bca4; }
+.record-track.is-current .record-track-heart[aria-pressed='true'] { color: #f06872; -webkit-text-stroke-color: #f06872; }
+.record-track-heart:hover { transform: scale(1.12); }
+.record-track-heart:active { transform: scale(.93); }
+.record-catalog .record-catalog-footer { position: absolute; bottom: 6.6cqw; left: 18cqw; right: 7.3cqw; border: 0; padding: 0; text-align: right; }
+.record-catalog-footer p { margin: .55cqw 0 0; color: #594838; font: .85cqw/1.65 'KaiTi', 'STKaiti', serif; }
+.record-catalog-footer .record-status { min-height: 1.6em; color: #713c32; font: 1.05cqw/1.6 'KaiTi', 'STKaiti', serif; }
+.view-settings .record-library :is(button, input):focus-visible { outline: .15cqw solid #a65846; outline-offset: .25cqw; }
+.view-settings .record-library :is(.record-knob, .record-timeline input):focus-visible { outline-color: #853a2d; }
+.record-library.is-page-hidden .record-vinyl { animation-play-state: paused; }
+@keyframes disco-record-spin { from { transform: rotate(-7deg); } to { transform: rotate(353deg); } }
+@media (prefers-reduced-motion: reduce) { .record-vinyl { animation: none; } .record-library *, .record-library *::before { transition: none; } }

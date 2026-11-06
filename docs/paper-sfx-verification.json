@@ -1,0 +1,223 @@
+{
+  "transport": "persistent work Chrome, direct target-specific CDP 9223",
+  "checks": [
+    {
+      "check": "No paper sound during initial page load",
+      "passed": true
+    },
+    {
+      "check": "Opening settings turns paper once",
+      "count": 1,
+      "peakRms": 0.06262751811789488,
+      "gain": 0.8399999737739563,
+      "durations": [
+        0.4304375
+      ]
+    },
+    {
+      "check": "Hover does not rustle",
+      "count": 0,
+      "peakRms": 0,
+      "gain": 0.8399999737739563,
+      "durations": []
+    },
+    {
+      "check": "Selecting the already selected quality is silent",
+      "count": 0,
+      "peakRms": 0,
+      "gain": 0.8399999737739563,
+      "durations": []
+    },
+    {
+      "check": "A setting stamp makes one soft contact",
+      "count": 1,
+      "peakRms": 0.06611220026704369,
+      "gain": 0.8399999737739563,
+      "durations": [
+        0.27670833333333333
+      ]
+    },
+    {
+      "check": "Music mute does not mute the independent sound channel",
+      "passed": true
+    },
+    {
+      "check": "Opening record library turns paper with music muted",
+      "count": 1,
+      "peakRms": 0.09400120902043646,
+      "gain": 0.8399999737739563,
+      "durations": [
+        0.7686458333333334
+      ]
+    },
+    {
+      "check": "Changing the record on its paper list makes a short rustle",
+      "count": 1,
+      "peakRms": 0.050803265863927714,
+      "gain": 0.8399999737739563,
+      "durations": [
+        0.23060416666666667
+      ]
+    },
+    {
+      "check": "Escape from record library turns paper once",
+      "count": 1,
+      "peakRms": 0.06262751811789488,
+      "gain": 0.8399999737739563,
+      "durations": [
+        0.4304375
+      ]
+    },
+    {
+      "check": "Opening personnel records turns paper",
+      "count": 1,
+      "peakRms": 0.09400120902043646,
+      "gain": 0.8399999737739563,
+      "durations": [
+        0.7686458333333334
+      ]
+    },
+    {
+      "check": "Selecting another character paper tab rustles",
+      "count": 1,
+      "peakRms": 0.05066949193706693,
+      "gain": 0.8399999737739563,
+      "durations": [
+        0.23060416666666667
+      ]
+    },
+    {
+      "check": "Keyboard arrow switches the paper tab with the same sound",
+      "count": 1,
+      "peakRms": 0.050803265863927714,
+      "gain": 0.8399999737739563,
+      "durations": [
+        0.23060416666666667
+      ]
+    },
+    {
+      "check": "Reselecting the same character is silent",
+      "count": 0,
+      "peakRms": 0,
+      "gain": 0.8399999737739563,
+      "durations": []
+    },
+    {
+      "check": "Disabled fourth character is silent",
+      "count": 0,
+      "peakRms": 0,
+      "gain": 0.8399999737739563,
+      "durations": []
+    },
+    {
+      "check": "Returning from the book turns paper",
+      "count": 1,
+      "peakRms": 0.06262751811789488,
+      "gain": 0.8399999737739563,
+      "durations": [
+        0.4304375
+      ]
+    },
+    {
+      "check": "Sound zero suppresses the slider audition",
+      "count": 0,
+      "peakRms": 0,
+      "gain": 0,
+      "durations": []
+    },
+    {
+      "check": "Muted sound remains silent inside the library",
+      "count": 0,
+      "peakRms": 0,
+      "gain": 0,
+      "durations": []
+    },
+    {
+      "check": "Muted return does not queue a future sound",
+      "count": 0,
+      "peakRms": 0,
+      "gain": 0,
+      "durations": []
+    },
+    {
+      "check": "Music volume changes leave sound at zero",
+      "passed": true
+    },
+    {
+      "check": "Actual small-window sound slider auditions once on release",
+      "count": 1,
+      "peakRms": 0.01628662357581867,
+      "gain": 0.27000001072883606,
+      "durations": [
+        0.23060416666666667
+      ]
+    },
+    {
+      "check": "Return retains the new volume without Apply",
+      "count": 1,
+      "peakRms": 0.03000482435257826,
+      "gain": 0.27000001072883606,
+      "durations": [
+        0.7686458333333334
+      ]
+    },
+    {
+      "check": "Opening save archive turns paper",
+      "count": 1,
+      "peakRms": 0.020130275037487357,
+      "gain": 0.27000001072883606,
+      "durations": [
+        0.4304375
+      ]
+    },
+    {
+      "check": "Opening a save ticket makes a short paper sound",
+      "count": 1,
+      "peakRms": 0.007891798663427914,
+      "gain": 0.27000001072883606,
+      "durations": [
+        0.23060416666666667
+      ]
+    },
+    {
+      "check": "Escape closes the save ticket with a short paper sound",
+      "count": 1,
+      "peakRms": 0.016161852188496462,
+      "gain": 0.27000001072883606,
+      "durations": [
+        0.23060416666666667
+      ]
+    },
+    {
+      "check": "Reload retains sound gain and stays silent until input",
+      "passed": true
+    },
+    {
+      "check": "Reloaded UI plays at the stored sound level",
+      "count": 1,
+      "peakRms": 0.020130275037487357,
+      "gain": 0.27000001072883606,
+      "durations": [
+        0.4304375
+      ]
+    },
+    {
+      "check": "Apply settings stamps once",
+      "count": 1,
+      "peakRms": 0.021379123263129882,
+      "gain": 0.27000001072883606,
+      "durations": [
+        0.27670833333333333
+      ]
+    },
+    {
+      "check": "Player keys remain isolated and no JavaScript errors occurred",
+      "passed": true
+    }
+  ],
+  "audio": "Real decoded files, Web Audio sources, independent gain and analyser before silent output; physical speakers not auditioned.",
+  "storage": "Unique real localStorage test prefix across reloads, cleaned after testing; player keys untouched.",
+  "humanListeningApproved": false,
+  "electronWindowVerified": false,
+  "errors": []
+}

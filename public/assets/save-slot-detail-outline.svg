@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024">
+  <!-- Runtime silhouette: the generated RGB image has a painted checkerboard outside the dossier. -->
+  <path fill="white" d="M40 127 Q40 111 57 96 L84 72 Q91 68 110 68 C120 50 150 52 163 68 L1438 68 Q1450 68 1461 79 L1488 106 Q1496 113 1496 132 L1496 893 Q1496 908 1486 919 L1458 946 Q1448 955 1427 955 L96 955 Q83 955 72 944 L48 919 Q40 908 40 889 Z"/>
+</svg>

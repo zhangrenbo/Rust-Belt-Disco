@@ -1,0 +1,70 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-job-v1",
+    "project":  "东北迪斯科",
+    "id":  "ND-M60",
+    "name":  "婚礼厅与偏房连通",
+    "kind":  "interior",
+    "source_scene_id":  null,
+    "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D game map of a Northeast Chinese industrial town in winter. No characters or people. Show the full connected walking surface, entrances, exits, wall thickness, furniture bases and traversable gaps. Rural wedding banquet hall connected to a quieter side room and rear exit, roof-cutaway playable interior. Realistic snow, damp concrete, worn brick, corroded metal, soft contact shadows, readable foreground and background depth. No signs with readable words. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people",
+    "status":  "rendered_visible",
+    "human_approved":  false,
+    "preflight":  {
+                      "ready":  true,
+                      "empty":  true,
+                      "folder":  true,
+                      "images":  0,
+                      "personalization":  "false",
+                      "visibility":  "hidden"
+                  },
+    "submitted_at":  "2026-10-18T05:32:31.487040+00:00",
+    "last_status":  {
+                        "job_id":  "518766c3-1c5e-4b31-a87f-e2230a3f51c7",
+                        "link_count":  0,
+                        "links":  [
+
+                                  ],
+                        "text":  "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight mode\nzhangrenbo\nToday\n10% Complete\nStrict orthographic projection, 45 degree top down camera. Parallel edges remain parallel, no vanishing points or perspective foreshortening; identical scale near and far. Photorealistic 3D, physically based shading, cinematic winter lighting, clear architectural depth. 2.5D game ",
+                        "images":  [
+
+                                   ],
+                        "visibility":  "hidden",
+                        "detail":  {
+                                       "url":  "https://www.midjourney.com/jobs/518766c3-1c5e-4b31-a87f-e2230a3f51c7?index=0",
+                                       "visibility":  "hidden",
+                                       "text":  "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight mode\nzhangrenbo\nP\nDraft Mode\nExplore at draft quality and refine with variations.",
+                                       "images":  [
+
+                                                  ]
+                                   }
+                    },
+    "status_checked_at":  "2026-10-18T05:34:36.120446+00:00",
+    "prior_job_id":  "518766c3-1c5e-4b31-a87f-e2230a3f51c7",
+    "verification_status":  "confirmed_visible",
+    "verification_attempt_at":  "2026-10-18T05:56:22.337049+00:00",
+    "verification_http_status":  200,
+    "verification_receipt_shape":  [
+                                       "success",
+                                       "failure"
+                                   ],
+    "verification_receipt":  {
+                                 "success":  [
+                                                 {
+                                                     "job_id":  "480c35d2-32ac-4676-8ddd-1f1e44856d7d",
+                                                     "is_queued":  true
+                                                 }
+                                             ],
+                                 "failure":  [
+
+                                             ]
+                             },
+    "verification_new_job_id":  "480c35d2-32ac-4676-8ddd-1f1e44856d7d",
+    "verification_ui":  {
+                            "tail":  "xt, watermark, people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore\nTo top\nLooking for more...\nLooking for more...\n11 queued jobs\nfolder\n东北迪斯科参考图\n47/60\nP\nDraft Mode\nExplore at draft quality and refine with variations.\nConversational Mode\nRefine your prompt using text or voice.\nYour prompt was not submitted, you have reached the maximum number of prompts you can submit at once.",
+                            "folderText":  "47",
+                            "queued":  false,
+                            "promptTail":  true
+                        },
+    "job_id":  "480c35d2-32ac-4676-8ddd-1f1e44856d7d",
+    "result_url":  "https://www.midjourney.com/jobs/480c35d2-32ac-4676-8ddd-1f1e44856d7d?index=0",
+    "verification_evidence":  "Direct result page showed Creation actions and 3 loaded images on 2026-10-18"
+}

@@ -1,0 +1,277 @@
+{
+  "date": "2026-09-14",
+  "checks": [
+    "main menu ready",
+    "settings transition finished",
+    "real theme audio plays through silent QA sink",
+    "1440 playing: head and pipe project visibly down-left onto platter; stylus contact retained",
+    "1440: pause stops real audio",
+    "1440 paused: head and pipe project visibly down-left onto platter; stylus contact retained",
+    "1440: all player controls remain reachable",
+    "1440: seek works beneath projection without resuming",
+    "1440: resume restarts actual audio",
+    "844 playing: head and pipe project visibly down-left onto platter; stylus contact retained",
+    "844: pause stops real audio",
+    "844 paused: head and pipe project visibly down-left onto platter; stylus contact retained",
+    "844: all player controls remain reachable",
+    "844: seek works beneath projection without resuming",
+    "844: resume restarts actual audio",
+    "reduced motion disables projection transitions",
+    "return restores settings and preserves storage"
+  ],
+  "screenshots": [
+    "docs/record-shadow-left-down-playing-1440.png",
+    "docs/record-shadow-left-down-paused-1440.png",
+    "docs/record-shadow-left-down-playing-844.png",
+    "docs/record-shadow-left-down-paused-844.png"
+  ],
+  "measurements": [
+    {
+      "points": [
+        {
+          "name": "head",
+          "body": {
+            "x": 696.759664663779,
+            "y": 133.43612613552884
+          },
+          "cast": {
+            "x": 571.8089743176199,
+            "y": 335.50278763461563
+          },
+          "dx": -124.95069034615904,
+          "dy": 202.0666614990868
+        },
+        {
+          "name": "pipe",
+          "body": {
+            "x": 574.0311995823051,
+            "y": 38.27077032591092
+          },
+          "cast": {
+            "x": 394.44075373933845,
+            "y": 376.47266527028
+          },
+          "dx": -179.5904458429667,
+          "dy": 338.2018949443691
+        },
+        {
+          "name": "stylus",
+          "body": {
+            "x": 623.22482772129,
+            "y": 263.670819012384
+          },
+          "cast": {
+            "x": 621.5575006204116,
+            "y": 266.58638437266677
+          },
+          "dx": -1.667327100878424,
+          "dy": 2.9155653602827556
+        }
+      ],
+      "filter": "brightness(0) blur(4.32px)",
+      "opacity": "0.72",
+      "pointer": "none",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.533) 26%, rgba(0, 0, 0, 0.867) 62%, rgb(0, 0, 0) 92%)",
+      "transform": "matrix(0.78, 0.08, 0.86, -0.48, -1.728, 2.88)",
+      "origin": "202.533px 283.86px",
+      "playing": true,
+      "viewport": [
+        1440,
+        810
+      ],
+      "state": "playing"
+    },
+    {
+      "points": [
+        {
+          "name": "head",
+          "body": {
+            "x": 699.1427593156226,
+            "y": 132.2205604415628
+          },
+          "cast": {
+            "x": 564.474404131973,
+            "y": 390.50909990476123
+          },
+          "dx": -134.66835518364962,
+          "dy": 258.2885394631984
+        },
+        {
+          "name": "pipe",
+          "body": {
+            "x": 564.6345038383148,
+            "y": 54.591858824065966
+          },
+          "cast": {
+            "x": 358.06558861130486,
+            "y": 465.9163286274111
+          },
+          "dx": -206.56891522700994,
+          "dy": 411.3244698033451
+        },
+        {
+          "name": "stylus",
+          "body": {
+            "x": 643.96314156792,
+            "y": 271.23000190294
+          },
+          "cast": {
+            "x": 627.4303169103769,
+            "y": 295.7177844994576
+          },
+          "dx": -16.532824657543188,
+          "dy": 24.487782596517604
+        }
+      ],
+      "filter": "brightness(0) blur(7.2px)",
+      "opacity": "0.55",
+      "pointer": "none",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.533) 26%, rgba(0, 0, 0, 0.867) 62%, rgb(0, 0, 0) 92%)",
+      "transform": "matrix(0.88, 0.12, 1.12, -0.58, -20.16, 21.6)",
+      "origin": "202.533px 283.86px",
+      "playing": false,
+      "viewport": [
+        1440,
+        810
+      ],
+      "state": "paused"
+    },
+    {
+      "points": [
+        {
+          "name": "head",
+          "body": {
+            "x": 408.37424842560415,
+            "y": 78.33085471714573
+          },
+          "cast": {
+            "x": 335.141213876873,
+            "y": 196.7613009499789
+          },
+          "dx": -73.23303454873115,
+          "dy": 118.43044623283318
+        },
+        {
+          "name": "pipe",
+          "body": {
+            "x": 336.4436384564709,
+            "y": 22.554938563261786
+          },
+          "cast": {
+            "x": 231.18654972964785,
+            "y": 220.7735261367472
+          },
+          "dx": -105.25708872682307,
+          "dy": 198.21858757348542
+        },
+        {
+          "name": "stylus",
+          "body": {
+            "x": 365.2758029277436,
+            "y": 154.66072955998402
+          },
+          "cast": {
+            "x": 364.2985173521511,
+            "y": 156.3697528885948
+          },
+          "dx": -0.9772855755924752,
+          "dy": 1.7090233286107832
+        }
+      ],
+      "filter": "brightness(0) blur(2.532px)",
+      "opacity": "0.72",
+      "pointer": "none",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.533) 26%, rgba(0, 0, 0, 0.867) 62%, rgb(0, 0, 0) 92%)",
+      "transform": "matrix(0.78, 0.08, 0.86, -0.48, -1.0128, 1.688)",
+      "origin": "118.704px 166.369px",
+      "playing": true,
+      "viewport": [
+        844,
+        475
+      ],
+      "state": "playing"
+    },
+    {
+      "points": [
+        {
+          "name": "head",
+          "body": {
+            "x": 409.77097318916094,
+            "y": 77.61835643563336
+          },
+          "cast": {
+            "x": 330.84219052490687,
+            "y": 229.0005237945299
+          },
+          "dx": -78.92878266425407,
+          "dy": 151.38216735889654
+        },
+        {
+          "name": "pipe",
+          "body": {
+            "x": 330.93629074728403,
+            "y": 32.120594938008665
+          },
+          "cast": {
+            "x": 209.86697493749648,
+            "y": 273.1963087198712
+          },
+          "dx": -121.06931580978755,
+          "dy": 241.07571378186253
+        },
+        {
+          "name": "stylus",
+          "body": {
+            "x": 377.430426574576,
+            "y": 159.091073944132
+          },
+          "cast": {
+            "x": 367.74026771409774,
+            "y": 173.44382990689633
+          },
+          "dx": -9.690158860478277,
+          "dy": 14.35275596276432
+        }
+      ],
+      "filter": "brightness(0) blur(4.22px)",
+      "opacity": "0.55",
+      "pointer": "none",
+      "mask": "linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.533) 26%, rgba(0, 0, 0, 0.867) 62%, rgb(0, 0, 0) 92%)",
+      "transform": "matrix(0.88, 0.12, 1.12, -0.58, -11.816, 12.66)",
+      "origin": "118.704px 166.369px",
+      "playing": false,
+      "viewport": [
+        844,
+        475
+      ],
+      "state": "paused"
+    }
+  ],
+  "errors": [],
+  "targetId": "63F12D2D1990E5A50D67804082AEF003",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "storage": "isolated memory; player data untouched",
+  "audio": "real analyser before silent QA sink",
+  "humanArtReview": "pending",
+  "assistantVisualReview": "Inspected playing and raised/paused stage screenshots at 1440x810 and 844x475. Head and pipe shadows visibly extend down-left over the vinyl; paused projection is more distant and softer. Final user approval pending.",
+  "build": "passed",
+  "contentVerification": {
+    "migratedHashes": 172,
+    "resourcePaths": 70
+  },
+  "sourceAsset": {
+    "path": "public/assets/record-tonearm.png",
+    "sha256": "93c99b9255b237334798db32ee0d4fddf337ce2d99dde27d5734beb4ed30e32e",
+    "edited": false
+  },
+  "backup": ".local/music-library-before-left-down-shadow-20260914.css",
+  "design": {
+    "direction": "Screen-relative down-left: decreasing x and increasing y; light comes from upper right. Project the raised head and bent arm onto the vinyl about the stylus contact point, not an offset duplicate of the upright arm.",
+    "origin": "48.5% 91.2%",
+    "playing": "translate(-.12cqw, .2cqw) matrix(.78, .08, .86, -.48, 0, 0); blur .3cqw; opacity .72",
+    "paused": "translate(-1.4cqw, 1.5cqw) matrix(.88, .12, 1.12, -.58, 0, 0); blur .5cqw; opacity .55",
+    "falloff": "Static alpha gradient softens the distant pipe end; pointer events none; original .7s arm transition reused. No new timing loop.",
+    "palette": "Existing dark vinyl; transparent black projection; original arm material retained.",
+    "type": "No typography change."
+  }
+}

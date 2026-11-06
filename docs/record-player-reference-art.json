@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-14",
+  "request": "左下角的位置改成这个美术",
+  "source": "C:/Users/W11/Downloads/ChatGPT Image 2026年9月14日 19_50_33.png",
+  "editedBesideSource": "C:/Users/W11/Downloads/record-player-reference-clean-v1.png",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-16f0-7233-a896-d2eba18e6244/exec-a3890c1f-ebf4-4e54-b08a-704cebde66cd.png",
+  "output": "public/assets/record-player-reference-panel-v2.png",
+  "mask": "public/assets/record-player-reference-outline.svg",
+  "generator": "image_gen",
+  "prompt": "Prepare this EXACT user-supplied 2043 x 770 horizontal music player artwork for use as an interactive game UI. This is a careful cleanup edit, not a redesign. Keep the canvas at exactly 2043 x 770, preserve the original panel, album sleeve, black vinyl record, warm old ivory paper, irregular torn edges, leather backing and brass pin, every button face and the round oxblood/brass playback button, the printed decorative quote and equalizer bars, original lighting, geometry and positions. Do not replace the composition or add new design elements.\n\nOnly make these precise removals so live HTML text and controls can be overlaid:\n1. Remove the large dark-red Chinese main song title in the upper middle, approximately x 740-1350, y 128-209. Restore its paper and very faint circular printed lines. Keep the cursive English 'Northeast Disco' immediately beneath that title as a decorative game-brand line.\n2. Remove the track credit line at x 825-1250, y 258-300. Restore clean matching paper. Leave the right-hand handwritten quote and decorative small lettering unchanged.\n3. Completely remove the progress bar, its orange glow and round thumb, and BOTH printed time values (2:16 and 4:00), throughout x 618-1505, y 355-439. Restore seamless paper under these elements. Do NOT leave a ghost bar or a second timeline. Preserve the small decorative brown equalizer print to the right.\n4. Keep all four small raised ivory rectangular button plates in their exact positions (approximately [595,494,787,575], [831,494,1026,575], [1291,494,1508,575], [1552,494,1743,575]). Remove only their printed icons, labels and underline so every plate has a blank, seamless ivory face. Preserve plate shape, bevels, edge highlights and contact shadows.\n5. Keep the entire central circular oxblood play/pause button and brass rings exactly at their original location and size, approximately center [1154,535], radius 80. Remove ONLY the two white pause bars from its center. Restore the oxblood face seamlessly, retaining the warm top-left rim highlight and original shading. Do not replace it with a new button.\n6. Remove the out-of-focus plant leaves/foreground blur that cross the panel near the lower-left corner; reconstruct the existing panel/album area they obscure. Remove ALL background outside the actual panel and its small attached paper slips and make that exterior TRANSPARENT (true alpha if supported). Preserve the panel's complete natural silhouette and all of its components; do not trim the left album or the attached right paper. Do not add a checkerboard design onto the panel.\nDo not alter the album sleeve artwork or any of the static decorative lettering on it. Do not add text, watermarks, new numbers, new icons, headings, branding or objects. The result must look exactly like the source artwork with the specified live-UI regions cleared. Save the edited PNG directly beside the supplied source in the existing folder as C:/Users/W11/Downloads/record-player-reference-clean-v1.png; do not create a new output folder.",
+  "scope": "Only the bottom-left player card. Use the user's actual composition, with live title, credit, timeline and five controls over the cleared artwork. Preserve the large record, needle, right catalog and shared old-animation film.",
+  "layout": {
+    "consoleInStage": {
+      "left": ".2cqw",
+      "top": "34cqw",
+      "width": "54.2cqw",
+      "aspect": "2043/770"
+    },
+    "buttonCentersInArtwork": {
+      "favorite": [
+        690,
+        535
+      ],
+      "previous": [
+        929,
+        535
+      ],
+      "play": [
+        1154,
+        535
+      ],
+      "next": [
+        1400,
+        535
+      ],
+      "repeat": [
+        1647,
+        535
+      ]
+    },
+    "timelineInArtwork": {
+      "start": [
+        630,
+        383
+      ],
+      "end": [
+        1490,
+        383
+      ]
+    }
+  },
+  "design": {
+    "palette": [
+      "#793e2e",
+      "#ead4af",
+      "#695342",
+      "#fff0d2",
+      "#bd7953"
+    ],
+    "type": "SimSun live title, KaiTi credit and labels, source decorative lettering retained.",
+    "principle": "Retain the exact reference artwork's paper, album sleeve and brass-rimmed button, clear only static UI states; the native buttons and input follow the painted faces."
+  },
+  "humanArtReview": "pending",
+  "electronWindowVerified": false,
+  "sourceSha256": "127aa38bbfa982a965e72b83095bf42fc480ac99e51bad6833b4b87d119942d5",
+  "outputSha256": "cc8d669be221e041f1fe0a391fb5e10cb04f0b7966f1dde8577012a1106c3953",
+  "editedBesideSourceSha256": "cc8d669be221e041f1fe0a391fb5e10cb04f0b7966f1dde8577012a1106c3953",
+  "generatedOriginalSha256": "cc8d669be221e041f1fe0a391fb5e10cb04f0b7966f1dde8577012a1106c3953",
+  "dimensions": [
+    2043,
+    770
+  ],
+  "mode": "RGB",
+  "exterior": "RGB checkerboard outside the physical panel is excluded by the aligned SVG silhouette; no raster resizing or cropping.",
+  "decorativeElements": "Album sleeve, English brand line, right quote, printed equalizer and small paper tag remain static artwork. Track title, credit, times, slider and all five control states are live HTML.",
+  "largeRecordAndNeedleCssUnchanged": true,
+  "rightCatalogCssUnchanged": true,
+  "playerControllerUnchanged": true,
+  "assets": [
+    {
+      "path": "assets/record-player-reference-panel-v2.png",
+      "sha256": "cc8d669be221e041f1fe0a391fb5e10cb04f0b7966f1dde8577012a1106c3953",
+      "httpHead": 200,
+      "buildMatches": true
+    },
+    {
+      "path": "assets/record-player-reference-outline.svg",
+      "sha256": "6d0b4af914b360f86ca105786d4afc94b2a1ec3cf6166e4ac44d40505bc8a7dd",
+      "httpHead": 200,
+      "buildMatches": true
+    }
+  ],
+  "checks": {
+    "existingTestsPassed": 15,
+    "migratedHashes": 172,
+    "resourcePaths": 74,
+    "buildPassed": true,
+    "browserChecks": 36
+  },
+  "verification": "docs/record-player-reference-verification.json",
+  "qaScript": "scripts/qa-record-player-reference-cdp.py"
+}

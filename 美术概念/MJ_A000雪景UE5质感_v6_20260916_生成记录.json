@@ -1,0 +1,147 @@
+{
+  "folder": "东北迪斯科参考图",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "references": [
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\fb4f6676e9c54108b4e69a0a8ef1e976.jpg",
+      "sha256": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "mj_upload_id": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/5ee101825ce90c95edf109f05ab983bcca14f57f48c76b2f20c356a5e6d4255a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\a5ad1b480b3a9a5605f52871df477cd6.jpg",
+      "sha256": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "mj_upload_id": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/4d906ff042374b674894b72cbdcbf9363b61abe620c0cb54156834396880838c_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\45545f073194fce9bb504dac8efd1d1e.jpg",
+      "sha256": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "mj_upload_id": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/6e711d2ead5110af8b56d0f50b636917fcf2a966f7b1ac02e188114d75b1305a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    }
+  ],
+  "expected_style_references": [
+    "https://s.mj.run/A6_BtdGjcfo",
+    "https://s.mj.run/l2YC6AxG5Es",
+    "https://s.mj.run/tHRcou4Txfk"
+  ],
+  "source_context": [
+    "content/story/ink/D0_序章.ink",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json"
+  ],
+  "status": "completed",
+  "scene": "A000 冬夜积雪公交站",
+  "prompt": "Unreal Engine 5 style 3D game environment render, physically based materials, realistic global illumination, soft volumetric lighting, solid three-dimensional geometry and deep spatial layering, with painterly hand-painted surface textures inspired by Disco Elysium. An overhead isometric three-quarter 45-degree view of a snow-covered industrial neighborhood in northeastern China on a winter night. A weathered roadside bus shelter with a corrugated metal roof and a long wooden bench, thick snow piled on the roof and along the curb. One elderly woman in a padded dark winter coat sits at the end of the bench, hands resting in her lap. Uneven snow covers cracked asphalt and concrete paving, with compressed footprints, tire tracks and small patches of wet dark slush. A broad open walking route leads from the lower left foreground to the shelter. Red brick workers housing, low factory walls, shuttered small shops and a parked utility truck with snow on its hood and roof line the street. Rusted drainpipes, overhead wires, peeling painted metal and rough brick have visible depth, thickness and surface relief. Snow-covered dark fence posts and a low brick wall frame the immediate foreground. A warm amber streetlamp lights the woman, bench and falling snowflakes; cool blue-teal ambient light fills the street. Granular snow, damp asphalt reflections, rough metal, wooden grain, soft contact shadows under every object, bounced light beneath the shelter. Worn 1980s Northeast China socialist-era buildings and street furniture. Muted teal-and-amber palette, hand-painted brushwork integrated into the material surfaces, clearly modeled 3D forms. The continuous street fills the frame, quiet, cold, industrial and desolate. --ar 16:9 --raw --v 8.1 --relax --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --no interface, exclamation mark, watermark, text, extra people",
+  "user_correction": "我需要雪，需要 UE5的质感，3D的感觉",
+  "supersedes": "A000此前夏夜及--no snow限制；保留夜间公交站和老太太，增强3D质感。",
+  "human_review": "rejected_by_user",
+  "visual_review": "pending",
+  "in_game_integration": "not_applied",
+  "downloads": [],
+  "previous_job_id": "f9725079-64c6-4e14-9e80-a1e1f3e2f826",
+  "preflight": {
+    "folder": true,
+    "images": 0,
+    "personalization": "false"
+  },
+  "submitted_at": "2026-09-15T22:33:16.073682+00:00",
+  "source_sha256": {
+    "content/story/ink/D0_序章.ink": "97a5584708e338e36f5c2cd671d678cee351fdbb4a0eded3f7355438e7d98340",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json": "6b54524f769e04332cb71ef68121751fd0ff1433b069a3e5dc2323fa758384ba"
+  },
+  "submit_receipt": {
+    "accepted": [
+      {
+        "job_id": "9f214dfb-a408-49c0-9036-5b800c8baed7",
+        "prompt": "Unreal Engine 5 3D game environment render, physically based materials, realistic global illumination, soft volumetric lighting, solid geometry, deep spatial layering, painterly hand painted textures inspired by Disco Elysium. Overhead isometric three quarter 45 degree view of a snow covered industrial neighborhood in northeastern China, winter night. A weathered bus shelter with corrugated metal roof and wooden bench, thick snow piled on top; one elderly woman in a padded dark coat sits at the bench end, hands in lap. Cracked asphalt with footprints, tire tracks, and dark slush. Red brick workers' housing, low factory walls, shuttered shops, and a snow dusted parked utility truck line the street. Rusted drainpipes, overhead wires, peeling metal, rough brick with visible depth and relief. Warm amber streetlamp lights the woman and falling snow; cool blue teal ambient light fills the street. Muted teal and amber palette, worn 1980s socialist era aesthetic, quiet, cold, desolate. --no interface, exclamation mark, watermark, text, extra people --ar 16:9 --relax --raw --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --v 8.1",
+        "is_queued": false,
+        "job_type": "v8-1_diffusion",
+        "flags": {
+          "mode": "relaxed",
+          "visibility": "public"
+        },
+        "meta": {
+          "height": 816,
+          "width": 1456,
+          "batch_size": 4,
+          "parent_id": null,
+          "parent_grid": null
+        },
+        "personalization_codes": null
+      }
+    ],
+    "http": 200
+  },
+  "job_id": "9f214dfb-a408-49c0-9036-5b800c8baed7",
+  "post_submit_text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight Mode\nzhangrenbo\nStarting...\nUnreal Engine 5 3D game environment render, physically based materials, realistic global illumination, soft volumetric lighting, solid geometry, deep spatial layering, painterly hand painted textures inspired by Disco Elysium. Overhead isometric three quarter 45 degree view of a snow covered industrial neighborhood in northeastern China, winter night. A weathered bus shelter with corrugated metal roof and wooden bench, thick snow piled on top; one elderly woman in a padded dark coat sits at the bench end, hands in lap. Cracked asphalt with footprints, tire tracks, and dark slush. Red brick workers' housing, low factory walls, shuttered shops, and a snow dusted parked utility truck line the street. Rusted drainpipes, overhead wires, peeling metal, rough brick with visible depth and relief. Warm amber streetlamp lights the woman and falling snow; cool blue teal ambient light fills the street. Muted teal and amber palette, worn 1980s socialist era aesthetic, quiet, cold, desolate.\n+ use text\n--no interface, exclamation mark, watermark, text, extra people\n \nno interface, exclamation mark, watermark, text, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\nStylized 3D render, painterly hand painted brushstroke textures, Disco Elysium oil painting aesthetic in 3D. Three quarter 45 degree top down isometric view. Old industrial neighborhood, northeastern China, summer night, 1980s socialist era. A weathered roadside bus shelter with corrugated metal roof and long wooden bench; one elderly woman in dark cloth jacket sits at the bench end, hands in lap. Cracked asphalt and uneven concrete paving extend across the scene. Red brick workers' housing, low factory walls, shuttered shops, parked utility truck line the road. Peeling paint, rusted drainpipes, overhead wires, weeds along curb. Dim streetlamp illuminates bench and pavement; a few lit windows further down. Dark fence posts and low brick wall frame the foreground. Quiet, worn, industrial, deserted atmosphere. Muted teal and amber palette, cool teal ambient night light, soft amber streetlamp glow. Visible brushstrokes across brick, metal, wood, paving. Full street environment",
+  "result_url": "https://www.midjourney.com/jobs/9f214dfb-a408-49c0-9036-5b800c8baed7?index=0",
+  "actual_style_references": [
+    "https://s.mj.run/A6_BtdGjcfo",
+    "https://s.mj.run/l2YC6AxG5Es",
+    "https://s.mj.run/tHRcou4Txfk"
+  ],
+  "three_style_references_verified": true,
+  "snow_and_ue5_prompt_verified": true,
+  "service_rephrased_prompt": true,
+  "last_status": {
+    "job_id": "9f214dfb-a408-49c0-9036-5b800c8baed7",
+    "links": [
+      {
+        "href": "/jobs/9f214dfb-a408-49c0-9036-5b800c8baed7?index=0&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/9f214dfb-a408-49c0-9036-5b800c8baed7?index=1&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/9f214dfb-a408-49c0-9036-5b800c8baed7?index=2&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/9f214dfb-a408-49c0-9036-5b800c8baed7?index=3&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      }
+    ],
+    "text": "Vary Subtle\nVary Strong\nAnimate\nUnreal Engine 5 3D game environment render, physically based materials, realistic global illumination, soft volumetric lighting, solid geometry, deep spatial layering, painterly hand painted textures inspired by Disco Elysium. Overhead isometric three quarter 45 degree view of a snow covered industrial neighborhood in northeastern China, winter night. A weathered bus shelter with corrugated metal roof and wooden bench, thick snow piled on top; one elderly woman in a padded dark coat sits at the bench end, hands in lap. Cracked asphalt with footprints, tire tracks, and dark slush. Red brick workers' housing, low factory walls, shuttered shops, and a snow dusted parked utility truck line the street. Rusted drainpipes, overhead wires, peeling metal, rough brick with visible depth and relief. Warm amber streetlamp lights the woman and falling snow; cool blue teal ambient light fills the street. Muted teal and amber palette, worn 1980s socialist era aesthetic, quiet, cold, desolate.\n+ use text\n--no interface, exclamation mark, watermark, text, extra people\n \nno interface, exclamation mark, watermark, text, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore",
+    "folderSelected": true
+  },
+  "status_checked_at": "2026-09-15T22:34:40.754818+00:00",
+  "preview_images_loaded": true,
+  "group_membership_verified": true,
+  "user_review_note": "还是不对，要不你写，氛围感，3D写实的，UE5质感的"
+}

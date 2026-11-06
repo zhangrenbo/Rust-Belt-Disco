@@ -1,0 +1,49 @@
+{
+  "jobId": "3aaa5af6-52b2-41fd-a60b-561f29754eda",
+  "folder": {
+    "id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+    "title": "东北迪斯科参考图",
+    "count": 8660,
+    "newImages": [
+      {
+        "id": "3aaa5af6-52b2-41fd-a60b-561f29754eda",
+        "index": 3
+      },
+      {
+        "id": "3aaa5af6-52b2-41fd-a60b-561f29754eda",
+        "index": 0
+      },
+      {
+        "id": "3aaa5af6-52b2-41fd-a60b-561f29754eda",
+        "index": 1
+      },
+      {
+        "id": "3aaa5af6-52b2-41fd-a60b-561f29754eda",
+        "index": 2
+      }
+    ]
+  },
+  "images": [
+    {
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=0",
+      "loaded": true,
+      "width": 509
+    },
+    {
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=1",
+      "loaded": true,
+      "width": 509
+    },
+    {
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=2",
+      "loaded": true,
+      "width": 509
+    },
+    {
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=3",
+      "loaded": true,
+      "width": 509
+    }
+  ],
+  "verifiedAt": "2026-09-08T19:17:52.032Z"
+}

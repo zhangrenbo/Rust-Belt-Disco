@@ -1,0 +1,169 @@
+{
+  "transport": "fixed work Chrome direct CDP 9223; task target only",
+  "browser": "Chrome/152.0.7977.83",
+  "storage": "isolated per-page memory; persisted mute seeded from previous applied settings",
+  "verification": "live Web Audio output measured after master gain; does not verify physical speakers",
+  "visibilityTest": "synthetic visibility event in task page; real tabs untouched",
+  "pageErrors": [],
+  "measurements": [
+    {
+      "step": "main-menu-audible",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.5400000214576721,
+      "rms": 0.0010034553491981525,
+      "sourcesCreated": 1,
+      "durations": [
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "settings-zero-is-silent",
+      "state": "muted",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0,
+      "rms": 0,
+      "sourcesCreated": 1,
+      "durations": [
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "settings-volume-restored",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.5599299073219299,
+      "rms": 0.002842057570486642,
+      "sourcesCreated": 1,
+      "durations": [
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "station-dialogue-ducked",
+      "state": "playing",
+      "track": "station",
+      "context": "running",
+      "masterGain": 0.38999998569488525,
+      "rms": 0.03003470527317697,
+      "sourcesCreated": 2,
+      "durations": [
+        240.0135,
+        54.857125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "archive-keeps-station",
+      "state": "playing",
+      "track": "station",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.018732829005658494,
+      "sourcesCreated": 2,
+      "durations": [
+        240.0135,
+        54.857125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "settings-keeps-station",
+      "state": "playing",
+      "track": "station",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.008032528642051088,
+      "sourcesCreated": 2,
+      "durations": [
+        240.0135,
+        54.857125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "menu-restored",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.04503413755266854,
+      "sourcesCreated": 3,
+      "durations": [
+        240.0135,
+        54.857125,
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "hidden-suspended",
+      "state": "suspended",
+      "track": "menu",
+      "context": "suspended",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.04503413755266854,
+      "sourcesCreated": 3,
+      "durations": [
+        240.0135,
+        54.857125,
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "visible-resumes-same-loop",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.036794378228929406,
+      "sourcesCreated": 3,
+      "durations": [
+        240.0135,
+        54.857125,
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "saved-mute-restored-on-fresh-page",
+      "state": "muted",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0,
+      "rms": 0,
+      "sourcesCreated": 1,
+      "durations": [
+        240.0135
+      ],
+      "allLooping": true
+    }
+  ],
+  "checkedAt": "2026-09-13T07:41:46.774295+00:00",
+  "theme": {
+    "title": "东北迪斯科主页曲",
+    "source": "C:\\Users\\W11\\Downloads\\东北迪斯科主页曲.mp3",
+    "local": "public\\media\\music\\dongbei-disco-theme.mp3",
+    "bytes": 5483116,
+    "sha256": "484fea59d32259b515e3511d201a270dd311806670e1c5809bdc9b92a3e1ed32",
+    "sourceUnaltered": true,
+    "buildMatchesSource": true,
+    "httpMatchesSource": true,
+    "httpContentType": "audio/mpeg",
+    "decodedDurationSeconds": 240.0135
+  },
+  "checks": {
+    "nodeTests": "9/9 passed",
+    "migratedHashes": 172,
+    "resourcePaths": 58,
+    "build": "passed"
+  },
+  "humanReview": "User designated this track as the theme; physical speaker playback not tested."
+}

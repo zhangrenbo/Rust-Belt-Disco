@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-13",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "task-created page; isolated memory fixture; real saves untouched",
+  "menuReachable": true,
+  "continueAndReturn": true,
+  "savedDataUnchanged": true,
+  "visualAcceptance": "pending user review",
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\menu-marriage-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "background": "/assets/event-desk-bg-medal-marriage-v2.png",
+      "naturalSize": [
+        1671,
+        941
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "bag": {
+        "x": 709.265625,
+        "y": 120.953125,
+        "width": 496.796875,
+        "height": 620.765625
+      },
+      "buttons": [
+        {
+          "label": "继续游戏",
+          "reachable": true
+        },
+        {
+          "label": "开始游戏",
+          "reachable": true
+        },
+        {
+          "label": "存档",
+          "reachable": true
+        },
+        {
+          "label": "设置",
+          "reachable": true
+        },
+        {
+          "label": "退出游戏",
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\menu-marriage-1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "background": "/assets/event-desk-bg-medal-marriage-v2.png",
+      "naturalSize": [
+        1671,
+        941
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "bag": {
+        "x": 979.03125,
+        "y": 161.265625,
+        "width": 662.390625,
+        "height": 827.6875
+      },
+      "buttons": [
+        {
+          "label": "继续游戏",
+          "reachable": true
+        },
+        {
+          "label": "开始游戏",
+          "reachable": true
+        },
+        {
+          "label": "存档",
+          "reachable": true
+        },
+        {
+          "label": "设置",
+          "reachable": true
+        },
+        {
+          "label": "退出游戏",
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\menu-marriage-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "background": "/assets/event-desk-bg-medal-marriage-v2.png",
+      "naturalSize": [
+        1671,
+        941
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "bag": {
+        "x": 389.921875,
+        "y": 71.015625,
+        "width": 291.171875,
+        "height": 363.828125
+      },
+      "buttons": [
+        {
+          "label": "继续游戏",
+          "reachable": true
+        },
+        {
+          "label": "开始游戏",
+          "reachable": true
+        },
+        {
+          "label": "存档",
+          "reachable": true
+        },
+        {
+          "label": "设置",
+          "reachable": true
+        },
+        {
+          "label": "退出游戏",
+          "reachable": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

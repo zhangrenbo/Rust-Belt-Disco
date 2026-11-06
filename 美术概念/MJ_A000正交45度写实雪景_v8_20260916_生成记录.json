@@ -1,0 +1,110 @@
+{
+  "scene": "A000 冬夜积雪公交站",
+  "folder": "东北迪斯科参考图",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "source_context": [
+    "content/story/ink/D0_序章.ink",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json"
+  ],
+  "references": [],
+  "expected_style_references": [],
+  "status": "completed",
+  "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Camera tilted downward exactly 45 degrees, diagonal view of the street. Parallel projection: parallel edges remain parallel, no vanishing points, no perspective foreshortening with distance; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment, Unreal Engine 5 visual quality, realistic materials and cinematic lighting. A snow-covered bus stop in an old industrial neighborhood of Northeast China at night. One elderly woman in a thick dark winter coat sits quietly on a wooden bench beneath a rusty corrugated-metal shelter. Snow lies heavily on the shelter roof, low brick walls and a parked truck. Footprints and tire tracks cross the snow and wet slush on the road. Weathered red-brick workers housing and shuttered shops recede into a thin layer of winter fog. A single dim streetlamp softly illuminates the woman and drifting snowflakes, a few distant windows glow through the darkness. Realistic snow crystals, damp concrete, corroded metal and rough brickwork, physically based surface shading, bounced light, soft contact shadows, subtle volumetric fog, strong three-dimensional depth. Natural subdued winter colors, quiet, lonely, cold, immersive atmosphere. A continuous full-scale street with open pavement in the foreground. --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+  "user_correction": "好一点了，但是，你没有写45度正交俯视角",
+  "human_review": "pending",
+  "visual_review": "pending",
+  "in_game_integration": "not_applied",
+  "downloads": [],
+  "previous_job_id": "20710fa1-5e9a-4f8b-ada6-4b8bb43e7fa5",
+  "camera_requirement": "正交投影；向下倾斜45度；平行线不汇聚；同尺寸物体不随距离缩放。仅明确相机，沿用v7写实雪夜方向。",
+  "preflight": {
+    "folder": true,
+    "images": 0,
+    "attached": 0,
+    "personalization": "false"
+  },
+  "submitted_at": "2026-09-16T07:55:02.102712+00:00",
+  "source_sha256": {
+    "content/story/ink/D0_序章.ink": "97a5584708e338e36f5c2cd671d678cee351fdbb4a0eded3f7355438e7d98340",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json": "6b54524f769e04332cb71ef68121751fd0ff1433b069a3e5dc2323fa758384ba"
+  },
+  "submit_receipt": {
+    "accepted": [
+      {
+        "job_id": "e7c933c9-2604-4d6f-bb34-d051959e27bf",
+        "prompt": "Strict orthographic projection, 45 degree top down diagonal camera, no vanishing points, no perspective foreshortening, parallel edges remain parallel, identical objects retain identical scale near and far. Atmospheric photorealistic 3D, Unreal Engine 5 quality, cinematic lighting. Snow covered bus stop, old industrial Northeast China neighborhood, night. Elderly woman in thick dark winter coat sits quietly on a wooden bench beneath a rusty corrugated metal shelter. Heavy snow on shelter roof and low brick walls. Parked truck nearby. Footprints and tire tracks in snow and wet slush. Weathered red brick workers' housing and shuttered shops receding into winter fog. Single dim streetlamp softly illuminates the woman and drifting snowflakes; distant windows glow faintly. Realistic snow crystals, damp concrete, corroded metal, rough brickwork, physically based shading, bounced light, soft contact shadows, volumetric fog. Subdued natural winter colors, quiet, lonely, cold atmosphere. Open pavement foreground. --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people --ar 16:9 --relax --raw --v 8.1",
+        "is_queued": false,
+        "job_type": "v8-1_diffusion",
+        "flags": {
+          "mode": "relaxed",
+          "visibility": "public"
+        },
+        "meta": {
+          "height": 816,
+          "width": 1456,
+          "batch_size": 4,
+          "parent_id": null,
+          "parent_grid": null
+        },
+        "personalization_codes": null
+      }
+    ],
+    "http": 200
+  },
+  "job_id": "e7c933c9-2604-4d6f-bb34-d051959e27bf",
+  "post_submit_text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight Mode\nzhangrenbo\nStarting...\nStrict orthographic projection, 45 degree top down diagonal camera, no vanishing points, no perspective foreshortening, parallel edges remain parallel, identical objects retain identical scale near and far. Atmospheric photorealistic 3D, Unreal Engine 5 quality, cinematic lighting. Snow covered bus stop, old industrial Northeast China neighborhood, night. Elderly woman in thick dark winter coat sits quietly on a wooden bench beneath a rusty corrugated metal shelter. Heavy snow on shelter roof and low brick walls. Parked truck nearby. Footprints and tire tracks in snow and wet slush. Weathered red brick workers' housing and shuttered shops receding into winter fog. Single dim streetlamp softly illuminates the woman and drifting snowflakes; distant windows glow faintly. Realistic snow crystals, damp concrete, corroded metal, rough brickwork, physically based shading, bounced light, soft contact shadows, volumetric fog. Subdued natural winter colors, quiet, lonely, cold atmosphere. Open pavement foreground.\n+ use text\n--no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people\n \nno perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\nAtmospheric photorealistic 3D environment, Unreal Engine 5 quality, cinematic lighting, physically based shading. Snow covered bus stop in an old industrial neighborhood of Northeast China, at night, elevated 45 degree three quarter view. An elderly woman in a thick dark winter coat sits quietly on a wooden bench beneath a rusty corrugated metal shelter heavy with snow. Low brick walls and a parked truck blanketed in snow. Footprints and tire tracks cross wet slush on the road. Weathered red brick workers' housing and shuttered shops recede into winter fog. A single dim streetlamp softly illuminates the woman and drifting snowflakes; distant windows glow faintly. Realistic snow crystals, damp concrete, corroded metal, rough brickwork, bounced light, soft contact shadows, s",
+  "result_url": "https://www.midjourney.com/jobs/e7c933c9-2604-4d6f-bb34-d051959e27bf?index=0",
+  "camera_prompt_receipt_verified": true,
+  "projection_visual_verification": "pending",
+  "service_rephrased_prompt": true,
+  "last_status": {
+    "job_id": "e7c933c9-2604-4d6f-bb34-d051959e27bf",
+    "links": [
+      {
+        "href": "/jobs/e7c933c9-2604-4d6f-bb34-d051959e27bf?index=0&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/e7c933c9-2604-4d6f-bb34-d051959e27bf?index=1&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/e7c933c9-2604-4d6f-bb34-d051959e27bf?index=2&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/e7c933c9-2604-4d6f-bb34-d051959e27bf?index=3&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      }
+    ],
+    "text": "Strict orthographic projection, 45 degree top down diagonal camera, no vanishing points, no perspective foreshortening, parallel edges remain parallel, identical objects retain identical scale near and far. Atmospheric photorealistic 3D, Unreal Engine 5 quality, cinematic lighting. Snow covered bus stop, old industrial Northeast China neighborhood, night. Elderly woman in thick dark winter coat sits quietly on a wooden bench beneath a rusty corrugated metal shelter. Heavy snow on shelter roof and low brick walls. Parked truck nearby. Footprints and tire tracks in snow and wet slush. Weathered red brick workers' housing and shuttered shops receding into winter fog. Single dim streetlamp softly illuminates the woman and drifting snowflakes; distant windows glow faintly. Realistic snow crystals, damp concrete, corroded metal, rough brickwork, physically based shading, bounced light, soft contact shadows, volumetric fog. Subdued natural winter colors, quiet, lonely, cold atmosphere. Open pavement foreground.\n+ use text\n--no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people\n \nno perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore",
+    "folderSelected": true
+  },
+  "status_checked_at": "2026-09-16T07:56:39.623764+00:00",
+  "preview_images_loaded": true,
+  "group_membership_verified": true
+}

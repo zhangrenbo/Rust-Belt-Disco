@@ -1,0 +1,351 @@
+{
+  "transport": "fixed work Chrome CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "isolated per-page in-memory storage",
+  "noSaveHidden": true,
+  "savedVisible": true,
+  "continueRestoresSave": true,
+  "errors": [],
+  "screens": [
+    {
+      "name": "no-save",
+      "viewport": [
+        1440,
+        810
+      ],
+      "items": [
+        {
+          "label": "开始游戏",
+          "button": {
+            "x": 260.640625,
+            "y": 479.796875,
+            "width": 198.71875,
+            "height": 59.75
+          },
+          "image": {
+            "x": 280.4375,
+            "y": 480.15625,
+            "width": 159.109375,
+            "height": 59.03125
+          },
+          "reachable": true
+        },
+        {
+          "label": "存档",
+          "button": {
+            "x": 260.640625,
+            "y": 540.40625,
+            "width": 198.71875,
+            "height": 59.75
+          },
+          "image": {
+            "x": 315.359375,
+            "y": 551.0625,
+            "width": 89.265625,
+            "height": 38.4375
+          },
+          "reachable": true
+        },
+        {
+          "label": "设置",
+          "button": {
+            "x": 260.640625,
+            "y": 601.015625,
+            "width": 198.71875,
+            "height": 59.75
+          },
+          "image": {
+            "x": 315.359375,
+            "y": 611.671875,
+            "width": 89.265625,
+            "height": 38.4375
+          },
+          "reachable": true
+        },
+        {
+          "label": "退出游戏",
+          "button": {
+            "x": 260.640625,
+            "y": 661.625,
+            "width": 198.71875,
+            "height": 59.75
+          },
+          "image": {
+            "x": 281.15625,
+            "y": 669.71875,
+            "width": 157.671875,
+            "height": 43.546875
+          },
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "name": "with-save",
+      "viewport": [
+        1440,
+        810
+      ],
+      "items": [
+        {
+          "label": "继续游戏",
+          "button": {
+            "x": 260.640625,
+            "y": 479.796875,
+            "width": 198.71875,
+            "height": 59.75
+          },
+          "image": {
+            "x": 280.4375,
+            "y": 485.65625,
+            "width": 159.109375,
+            "height": 48.015625
+          },
+          "reachable": true
+        },
+        {
+          "label": "开始游戏",
+          "button": {
+            "x": 260.640625,
+            "y": 540.40625,
+            "width": 198.71875,
+            "height": 59.75
+          },
+          "image": {
+            "x": 280.4375,
+            "y": 540.765625,
+            "width": 159.109375,
+            "height": 59.03125
+          },
+          "reachable": true
+        },
+        {
+          "label": "存档",
+          "button": {
+            "x": 260.640625,
+            "y": 601.015625,
+            "width": 198.71875,
+            "height": 59.75
+          },
+          "image": {
+            "x": 315.359375,
+            "y": 611.671875,
+            "width": 89.265625,
+            "height": 38.4375
+          },
+          "reachable": true
+        },
+        {
+          "label": "设置",
+          "button": {
+            "x": 260.640625,
+            "y": 661.625,
+            "width": 198.71875,
+            "height": 59.75
+          },
+          "image": {
+            "x": 315.359375,
+            "y": 672.28125,
+            "width": 89.265625,
+            "height": 38.4375
+          },
+          "reachable": true
+        },
+        {
+          "label": "退出游戏",
+          "button": {
+            "x": 260.640625,
+            "y": 722.234375,
+            "width": 198.71875,
+            "height": 59.75
+          },
+          "image": {
+            "x": 281.15625,
+            "y": 730.328125,
+            "width": 157.671875,
+            "height": 43.546875
+          },
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "name": "with-save",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "items": [
+        {
+          "label": "继续游戏",
+          "button": {
+            "x": 347.515625,
+            "y": 639.734375,
+            "width": 264.953125,
+            "height": 79.671875
+          },
+          "image": {
+            "x": 373.90625,
+            "y": 647.5625,
+            "width": 212.15625,
+            "height": 64.015625
+          },
+          "reachable": true
+        },
+        {
+          "label": "开始游戏",
+          "button": {
+            "x": 347.515625,
+            "y": 720.546875,
+            "width": 264.953125,
+            "height": 79.671875
+          },
+          "image": {
+            "x": 373.90625,
+            "y": 721.015625,
+            "width": 212.15625,
+            "height": 78.71875
+          },
+          "reachable": true
+        },
+        {
+          "label": "存档",
+          "button": {
+            "x": 347.515625,
+            "y": 801.359375,
+            "width": 264.953125,
+            "height": 79.671875
+          },
+          "image": {
+            "x": 420.46875,
+            "y": 815.5625,
+            "width": 119.03125,
+            "height": 51.25
+          },
+          "reachable": true
+        },
+        {
+          "label": "设置",
+          "button": {
+            "x": 347.515625,
+            "y": 882.171875,
+            "width": 264.953125,
+            "height": 79.671875
+          },
+          "image": {
+            "x": 420.46875,
+            "y": 896.375,
+            "width": 119.03125,
+            "height": 51.25
+          },
+          "reachable": true
+        },
+        {
+          "label": "退出游戏",
+          "button": {
+            "x": 347.515625,
+            "y": 962.984375,
+            "width": 264.953125,
+            "height": 79.671875
+          },
+          "image": {
+            "x": 374.875,
+            "y": 973.78125,
+            "width": 210.234375,
+            "height": 58.0625
+          },
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "name": "with-save",
+      "viewport": [
+        844,
+        475
+      ],
+      "items": [
+        {
+          "label": "继续游戏",
+          "button": {
+            "x": 152.7578125,
+            "y": 281.328125,
+            "width": 116.46875,
+            "height": 35.015625
+          },
+          "image": {
+            "x": 164.3671875,
+            "y": 284.765625,
+            "width": 93.25,
+            "height": 28.140625
+          },
+          "reachable": true
+        },
+        {
+          "label": "开始游戏",
+          "button": {
+            "x": 152.7578125,
+            "y": 316.84375,
+            "width": 116.46875,
+            "height": 35.015625
+          },
+          "image": {
+            "x": 164.3671875,
+            "y": 317.046875,
+            "width": 93.25,
+            "height": 34.59375
+          },
+          "reachable": true
+        },
+        {
+          "label": "存档",
+          "button": {
+            "x": 152.7578125,
+            "y": 352.359375,
+            "width": 116.46875,
+            "height": 35.015625
+          },
+          "image": {
+            "x": 184.8359375,
+            "y": 358.609375,
+            "width": 52.3125,
+            "height": 22.515625
+          },
+          "reachable": true
+        },
+        {
+          "label": "设置",
+          "button": {
+            "x": 152.7578125,
+            "y": 387.875,
+            "width": 116.46875,
+            "height": 35.015625
+          },
+          "image": {
+            "x": 184.8359375,
+            "y": 394.125,
+            "width": 52.3125,
+            "height": 22.515625
+          },
+          "reachable": true
+        },
+        {
+          "label": "退出游戏",
+          "button": {
+            "x": 152.7578125,
+            "y": 423.390625,
+            "width": 116.46875,
+            "height": 35.015625
+          },
+          "image": {
+            "x": 164.7890625,
+            "y": 428.140625,
+            "width": 92.40625,
+            "height": 25.515625
+          },
+          "reachable": true
+        }
+      ]
+    }
+  ]
+}

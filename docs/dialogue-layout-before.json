@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-15",
+  "checks": [
+    "Continue opens actual saved dialogue"
+  ],
+  "screens": [
+    "E:\\东北迪斯科\\docs\\dialogue-layout-before-1440.png"
+  ],
+  "measurements": [
+    {
+      "name": "before",
+      "width": 1440,
+      "metrics": {
+        "panel": {
+          "x": 17.265625,
+          "y": 549.375,
+          "w": 1336.3125,
+          "h": 227.515625
+        },
+        "copy": {
+          "x": 439.1875,
+          "y": 616.3125,
+          "w": 720,
+          "h": 83.515625
+        },
+        "font": 11.952,
+        "scrollHeight": 84,
+        "clientHeight": 84,
+        "choices": [
+          {
+            "rect": {
+              "x": 410.390625,
+              "y": 123.828125,
+              "w": 619.1875,
+              "h": 79.90625
+            },
+            "font": 12.384
+          }
+        ]
+      }
+    }
+  ],
+  "storage": "isolated memory fixture; real saves untouched",
+  "transport": "fixed work Chrome direct CDP 9223",
+  "audio": "silent",
+  "electronWindowVerified": false,
+  "artReview": "pending user review"
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-13",
+  "request": "我希望，更干净一点，更有光的感觉一点",
+  "source": "public/record-catalog-paper-v2.png",
+  "output": "public/record-catalog-paper-light-v3.png",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a0999f-b7d9-7260-a759-98a27eb2d949/exec-1e3f4fa4-e61d-41c8-b580-e062ff7dfc0e.png",
+  "tool": "image_gen",
+  "prompt": "Edit this existing 1122x1402 portrait game UI paper-and-folder asset. Make a carefully localized MATERIAL AND LIGHTING revision only. Preserve the exact canvas dimensions, silhouette, all sheet outlines and positions, folder outline, printed perimeter frame, binder clip position and its hole, and the entire exterior background pixel geometry so the existing UI silhouette mask still aligns. The user wants it cleaner and more luminous while retaining the same vintage paper game art style. Remove about 80 percent of muddy brown stains, soot-like grime, dark spotting and dirty edge discoloration from the paper. Reduce the prominence of dense surface cracks and embossed-looking fibers by about half; keep a fine, natural paper grain and gentle aging. Paper should be a clean warm ivory, with a broad softly lit region from the UPPER LEFT, gentle warm reflected light, and readable midtones across the center, without white clipping. Keep the existing torn edge outlines and layered physical thickness, but make edge fibers lighter and less dirty. The clothbound folder should remain muted olive grey with softly visible cloth weave, cleaner with less grime, preserving depth. Give the existing steel clip a subtle clean warm silver highlight on its top-left edge and a soft reflection, retaining natural patina and contact shadow. Reduce heavy muddy crevice darkness while keeping contact shadows clear. Keep the center empty for HTML text. Do not add text, numbers, symbols, objects, embellishments, beams, lens flares, sparkles, or new tears. Do not redraw or move any outline or change the perspective. Do not turn it into flat white vector paper. Keep the original exterior background exactly as supplied; the application already masks it. Save the edited PNG directly alongside the source as E:/东北迪斯科/public/record-catalog-paper-light-v3.png, without creating a new folder.",
+  "scope": "Music library only: clean and illuminate the paper material; soften the page darkening and shadows; strengthen warm highlights on vinyl and tonearm; lighten existing paper controls. Existing contours, separate HTML text, controls and playback logic retained.",
+  "mask": "public/record-catalog-outline.svg",
+  "browserReport": "docs/record-library-light-verification.json",
+  "humanArtReview": "pending",
+  "sourceSha256": "944523061c4fa6b9ca4adb40062787c9ef988eb809e2051e9c2026ed524104fa",
+  "outputSha256": "3b267e62b11397cf81a47a31f98bfa05c9ddfcd6d4de69f4b1b1c2e24f2de0fc",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "mode": "RGB",
+  "checks": {
+    "buildMatches": true,
+    "httpHead": 200,
+    "browserChecks": 9
+  }
+}

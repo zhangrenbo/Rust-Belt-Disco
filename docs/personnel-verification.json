@@ -1,0 +1,39 @@
+{
+  "ui": "existing explorer-dossier book from UI参考/东北迪斯科",
+  "checks": [
+    "personnel entry remains below the music entry",
+    "entry opens the original full-screen book, new panel is absent",
+    "existing portrait loads and return leads to settings",
+    "existing level tab opens its panel",
+    "existing profile tab opens its panel",
+    "existing insight tab opens its panel",
+    "existing attribute tab opens its panel",
+    "existing keyboard tab navigation works",
+    "return and all four book tabs remain reachable at compact size",
+    "return keeps unapplied settings drafts",
+    "Escape returns to settings",
+    "music entry still opens and preserves mute",
+    "settings still returns to the original main menu",
+    "original exploration route still remembers exploration",
+    "Escape from exploration dossier returns to exploration",
+    "dossier navigation does not write a campaign or apply draft settings"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/personnel-original-book-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/personnel-original-compact-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    }
+  ],
+  "errors": [],
+  "scope": "Entry and return navigation only; original UI demo attributes are not live campaign data."
+}

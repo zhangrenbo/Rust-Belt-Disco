@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-15",
+  "removed": ".station-objective / #station-objective",
+  "checks": [
+    "Playable saved scene loads",
+    "Dialogue opens and can be closed",
+    "Upper-right objective panel is absent after the opening",
+    "Pause and resume remain functional",
+    "No runtime errors"
+  ],
+  "screenshot": "docs/station-without-objective-1058.png",
+  "bounds": {
+    "x": 0.109375,
+    "y": 0,
+    "width": 1057.765625,
+    "height": 594.984375
+  },
+  "errors": [],
+  "storage": "isolated in-memory save",
+  "audio": "silent test output",
+  "transport": "fixed work Chrome, direct target CDP 9223"
+}

@@ -1,0 +1,118 @@
+/* Painted-cel colour print: warm whites, lifted blacks, fine emulsion grain.
+   A separate backdrop pass keeps native dialogue layers and input geometry sharp. */
+.stage { --film-strength: .65; }
+.stage > :is(.grain, .projector-film, .projector-edge-snow, .projector-edge-flicker) {
+  display: none;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  user-select: none;
+}
+.stage[data-film="on"] > .projector-film {
+  display: block;
+  z-index: 70;
+  backdrop-filter: sepia(calc(var(--film-strength) * .38))
+    saturate(calc(1 - var(--film-strength) * .12))
+    contrast(calc(1 - var(--film-strength) * .17))
+    brightness(calc(1 + var(--film-strength) * .075));
+  background:
+    radial-gradient(ellipse at 48% 38%, #ffe8bb12 0%, transparent 66%),
+    linear-gradient(125deg, #c27e5810, transparent 44%, #6e898710);
+}
+.stage[data-film="on"] > .projector-edge-flicker {
+  display: block;
+  z-index: 71;
+  opacity: var(--film-strength);
+  background: radial-gradient(ellipse at 50% 48%, transparent 44%, #39251c18 73%, #1a110c7a 100%);
+  box-shadow: inset 0 0 1.6cqw #23180e45;
+}
+.stage[data-film="on"] > .grain {
+  display: block;
+  z-index: 72;
+  inset: -48px;
+  opacity: calc(var(--film-strength) * .46);
+  filter: contrast(1.5);
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' seed='17' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Cpath fill='%23808080' d='M0 0h192v192H0z' filter='url(%23grain)'/%3E%3C/svg%3E");
+  background-size: 192px 192px;
+}
+/* Only the emulsion and damage layer move. Scenery, props and text stay fixed. */
+.stage[data-film="on"] > .grain {
+  background-position: var(--film-grain-x, 0px) var(--film-grain-y, 0px);
+}
+.stage[data-film="on"][data-film-motion="on"] > .projector-edge-snow {
+  display: block;
+  z-index: 73;
+  opacity: calc(var(--film-strength) * 1.1);
+  translate: var(--film-overlay-x, 0px) var(--film-overlay-y, 0px);
+}
+/* Keep the centre quiet and let the same snow build gradually toward all four corners. */
+.stage > :is(.grain, .projector-edge-snow) {
+  mask-image: radial-gradient(ellipse farthest-corner at 50% 50%,
+    #0000002e 0%, #0000002e 15%, #0000005c 40%, #000000ad 70%, #000 100%);
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+.stage > .grain { mask-size: calc(100% - 96px) calc(100% - 96px); }
+.projector-edge-snow > i {
+  position: absolute;
+  left: var(--mark-x);
+  top: var(--mark-y);
+  width: var(--mark-width);
+  height: var(--mark-height);
+  color: var(--mark-color);
+  opacity: var(--mark-opacity);
+  transform: rotate(var(--mark-rotation));
+  pointer-events: none;
+}
+.film-dust {
+  background: currentColor;
+  clip-path: polygon(14% 0, 77% 9%, 100% 36%, 82% 88%, 35% 100%, 0 68%, 10% 27%);
+}
+.film-fiber {
+  border-top: max(.5px, .045cqw) solid currentColor;
+  border-radius: 60% 20% 45% 30%;
+}
+.projector-edge-snow > .film-scratch {
+  width: clamp(.55px, .055cqw, .9px);
+  transform-origin: top;
+  background: linear-gradient(transparent, currentColor 12%, currentColor 25%, transparent 29%,
+    currentColor 34%, currentColor 67%, transparent 69%, currentColor 75%, transparent);
+}
+.stage[data-quality="performance"] > .grain { display: none; }
+/* Settings and its record library share the same dark surround over the full UI. */
+.stage[data-film="on"]:has(> .view-settings.active) > .projector-edge-flicker {
+  z-index: 90;
+  opacity: clamp(0, calc(var(--film-strength) * 1.54), 1);
+  background: #020202f5;
+  backdrop-filter: blur(clamp(2px, .35cqw, 6px));
+  mask-image: radial-gradient(ellipse farthest-corner at 50% 50%,
+    transparent 35%, #0000003d 57%, #000000a6 79%, #000000f0 94%, #000 100%);
+  mask-repeat: no-repeat;
+  box-shadow: none;
+}
+/* The settings and record-library papers need a stronger emulsion response than the dark menu.
+   Reuse the same moving grain and damage pass; never move the UI or duplicate timers. */
+.stage[data-film="on"]:has(> .view-settings.active) > .grain {
+  opacity: calc(var(--film-strength) * .6);
+  filter: contrast(2.25);
+}
+.stage[data-film="on"][data-film-motion="on"]:has(> .view-settings.active) > .projector-edge-snow {
+  opacity: calc(var(--film-strength) * 1.1);
+}
+.stage[data-film="on"]:has(> .view-settings.active) > .projector-edge-snow > .film-dust {
+  scale: 1.2;
+}
+@media (prefers-reduced-motion: reduce) {
+  .stage[data-film="on"] > .projector-edge-snow { display: none; }
+}
+
+/* One additional line on the existing paper settings sheet. */
+.settings-dossier-form { height: 34cqw; }
+.settings-film-controls { display: flex; align-items: center; gap: .8cqw; }
+.settings-film-strength { display: flex; align-items: center; gap: .65cqw; flex: 1; min-width: 0; }
+.settings-film-strength input { min-width: 0; }
+.settings-film-strength output { font-size: 1.15cqw; }
+.settings-film-controls > .setting-toggle { flex-shrink: 0; white-space: nowrap; }
+.settings-film-controls [data-film-motion] { font-size: .8cqw; }
+.settings-film-controls input:disabled { opacity: .35; cursor: not-allowed; }

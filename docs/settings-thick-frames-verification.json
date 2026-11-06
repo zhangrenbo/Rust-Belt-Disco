@@ -1,0 +1,26 @@
+{
+  "change": "Thicker outer and inner red stamp frames for the 14 right-side settings controls, with centered text/markers and additional inner clearance",
+  "outerBorder": "max(2px, .22cqw)",
+  "innerBorder": "max(2px, .14cqw)",
+  "frameGap": ".2cqw",
+  "contentPadding": "calc(.2cqw + max(2px, .14cqw) + max(2px, .16cqw))",
+  "captureSelector": "[data-screenshot-root]",
+  "reports": [
+    "docs/settings-thick-frames-1058-verification.json",
+    "docs/settings-thick-frames-844-verification.json"
+  ],
+  "screenshots": [
+    "docs/settings-thick-frames-1058.png",
+    "docs/settings-thick-frames-844.png"
+  ],
+  "checksPassed": 22,
+  "errors": [],
+  "visualReview": "Both game-only captures inspected: text/markers centered and clear of inner frames; no clipped controls",
+  "build": "npm run build passed",
+  "browser": "Fixed work Google Chrome, direct CDP 9223",
+  "storage": "Isolated in-memory settings; real player data untouched",
+  "audio": "Muted test target output",
+  "userWorkbenchDirectlyVerified": false,
+  "humanArtReview": "pending",
+  "backup": ".local/app-before-settings-thick-frames-20260914.css"
+}

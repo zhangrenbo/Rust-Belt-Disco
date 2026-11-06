@@ -1,0 +1,325 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "checks": [
+    "Shared enabled film has only the original 53 damage nodes",
+    "1440: full-stage layers overlay the catalog and player without blocking controls",
+    "1058: full-stage layers overlay the catalog and player without blocking controls",
+    "844: full-stage layers overlay the catalog and player without blocking controls",
+    "Music pause works under the film and leaves film animation running",
+    "Observed 9 seconds of changing grain, dust and real scratches with fixed artwork and text",
+    "Actual rendered vignette darkens all four corners while preserving the center",
+    "Playback resumes with the filter on",
+    "Progress remains draggable under all film layers",
+    "Shared off switch completely hides film on the library",
+    "Strength zero is also a complete bypass",
+    "Maximum strength follows the existing control",
+    "Static option keeps colour and dark corners but stops moving damage",
+    "Default reset restores the same 65 percent filter",
+    "System reduced motion stops damage on this screen too",
+    "Motion resumes with the same damage nodes",
+    "Page-hidden stops the existing film animation",
+    "Page-visible resumes film animation",
+    "Escape returns with the identical settings-page filter",
+    "Main menu retains its previous film treatment",
+    "Unsaved previews leave all stored player and settings data identical"
+  ],
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-film-on-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-film-on-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-film-on-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-film-vignette-isolated-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-film-without-vignette-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-film-off-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    }
+  ],
+  "layers": [
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "film": "on",
+      "motion": "on",
+      "strength": "0.65",
+      "nodes": 53,
+      "layers": [
+        {
+          "selector": ".projector-film",
+          "display": "block",
+          "zIndex": "70",
+          "opacity": "1",
+          "filter": "none",
+          "mask": "none",
+          "backdrop": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)",
+          "pointerEvents": "none"
+        },
+        {
+          "selector": ".grain",
+          "display": "block",
+          "zIndex": "72",
+          "opacity": "0.39",
+          "filter": "contrast(2.25)",
+          "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+          "backdrop": "none",
+          "pointerEvents": "none"
+        },
+        {
+          "selector": ".projector-edge-snow",
+          "display": "block",
+          "zIndex": "73",
+          "opacity": "0.715",
+          "filter": "none",
+          "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+          "backdrop": "none",
+          "pointerEvents": "none"
+        },
+        {
+          "selector": ".projector-edge-flicker",
+          "display": "block",
+          "zIndex": "90",
+          "opacity": "1",
+          "filter": "none",
+          "mask": "radial-gradient(rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.24) 57%, rgba(0, 0, 0, 0.65) 79%, rgba(0, 0, 0, 0.94) 94%, rgb(0, 0, 0) 100%)",
+          "backdrop": "blur(5.04px)",
+          "pointerEvents": "none"
+        }
+      ],
+      "dustScale": "1.2"
+    },
+    {
+      "viewport": [
+        1058,
+        595
+      ],
+      "film": "on",
+      "motion": "on",
+      "strength": "0.65",
+      "nodes": 53,
+      "layers": [
+        {
+          "selector": ".projector-film",
+          "display": "block",
+          "zIndex": "70",
+          "opacity": "1",
+          "filter": "none",
+          "mask": "none",
+          "backdrop": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)",
+          "pointerEvents": "none"
+        },
+        {
+          "selector": ".grain",
+          "display": "block",
+          "zIndex": "72",
+          "opacity": "0.39",
+          "filter": "contrast(2.25)",
+          "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+          "backdrop": "none",
+          "pointerEvents": "none"
+        },
+        {
+          "selector": ".projector-edge-snow",
+          "display": "block",
+          "zIndex": "73",
+          "opacity": "0.715",
+          "filter": "none",
+          "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+          "backdrop": "none",
+          "pointerEvents": "none"
+        },
+        {
+          "selector": ".projector-edge-flicker",
+          "display": "block",
+          "zIndex": "90",
+          "opacity": "1",
+          "filter": "none",
+          "mask": "radial-gradient(rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.24) 57%, rgba(0, 0, 0, 0.65) 79%, rgba(0, 0, 0, 0.94) 94%, rgb(0, 0, 0) 100%)",
+          "backdrop": "blur(3.70218px)",
+          "pointerEvents": "none"
+        }
+      ],
+      "dustScale": "1.2"
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "film": "on",
+      "motion": "on",
+      "strength": "0.65",
+      "nodes": 53,
+      "layers": [
+        {
+          "selector": ".projector-film",
+          "display": "block",
+          "zIndex": "70",
+          "opacity": "1",
+          "filter": "none",
+          "mask": "none",
+          "backdrop": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)",
+          "pointerEvents": "none"
+        },
+        {
+          "selector": ".grain",
+          "display": "block",
+          "zIndex": "72",
+          "opacity": "0.39",
+          "filter": "contrast(2.25)",
+          "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+          "backdrop": "none",
+          "pointerEvents": "none"
+        },
+        {
+          "selector": ".projector-edge-snow",
+          "display": "block",
+          "zIndex": "73",
+          "opacity": "0.715",
+          "filter": "none",
+          "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+          "backdrop": "none",
+          "pointerEvents": "none"
+        },
+        {
+          "selector": ".projector-edge-flicker",
+          "display": "block",
+          "zIndex": "90",
+          "opacity": "1",
+          "filter": "none",
+          "mask": "radial-gradient(rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.24) 57%, rgba(0, 0, 0, 0.65) 79%, rgba(0, 0, 0, 0.94) 94%, rgb(0, 0, 0) 100%)",
+          "backdrop": "blur(2.954px)",
+          "pointerEvents": "none"
+        }
+      ],
+      "dustScale": "1.2"
+    }
+  ],
+  "motion": {
+    "samples": 101,
+    "grainPositions": 101,
+    "overlayPositions": 101,
+    "meanVisibleDust": 36.59405940594059,
+    "scratchFrames": 7,
+    "artworkStable": true,
+    "recordWasPaused": true
+  },
+  "pixelComparison": {
+    "center": {
+      "on": 83.55102040816327,
+      "withoutVignette": 83.55102040816327,
+      "ratio": 1.0
+    },
+    "topLeft": {
+      "on": 11.476190476190476,
+      "withoutVignette": 73.70748299319727,
+      "ratio": 0.1556991232118136
+    },
+    "topRight": {
+      "on": 5.931972789115647,
+      "withoutVignette": 27.877551020408163,
+      "ratio": 0.2127867252318204
+    },
+    "bottomLeft": {
+      "on": 6.877551020408163,
+      "withoutVignette": 36.36734693877551,
+      "ratio": 0.18911335578002242
+    },
+    "bottomRight": {
+      "on": 8.659863945578232,
+      "withoutVignette": 47.006802721088434,
+      "ratio": 0.18422575976845154
+    }
+  },
+  "errors": [],
+  "storage": "isolated in-memory storage; physical audio output muted",
+  "humanArtApproval": "pending",
+  "electronWorkbench": "not directly inspected",
+  "automatedChecks": {
+    "testsPassed": 15,
+    "migratedHashes": 172,
+    "resourcePaths": 70,
+    "build": "passed",
+    "unqueriedStylesheetCurrent": true
+  },
+  "stylesheetSha256": "2bfbff4b2dc61aecc690926181a741ded66882623b14c10a60c2027e63c0f702",
+  "assistantVisualInspection": {
+    "viewports": [
+      1440,
+      1058,
+      844
+    ],
+    "observed": "The four edges visibly darken above both player and catalog while central paper text remains readable; controls fit.",
+    "humanApproval": false
+  }
+}

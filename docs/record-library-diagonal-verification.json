@@ -1,0 +1,59 @@
+{
+  "checks": [
+    "theme audio decoded and playing",
+    "reference turntable and real two-track catalog visible",
+    "diagonal light is clipped to catalog paper, with no full-screen blinds",
+    "tonearm casts a silhouette shadow on the turntable",
+    "catalog heading and song titles use red printed type",
+    "new paper artwork loads with the existing silhouette",
+    "lit controls still pause real playback",
+    "raised tonearm shadow becomes farther and softer when paused",
+    "paper light and arm shadow do not block progress seeking",
+    "button hover keeps its own material and remains reachable",
+    "lit controls resume real playback",
+    "all compact controls remain unobstructed under the light layer",
+    "catalog text fits its writing area",
+    "return restores the settings page",
+    "settings has the two lower paper shadows and no blinds mask",
+    "storage and settings controls remain intact"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/record-library-diagonal-playing-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/record-library-diagonal-paused-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/record-library-diagonal-compact-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "path": "docs/record-library-diagonal-settings-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "path": "docs/record-library-diagonal-settings-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    }
+  ],
+  "errors": [],
+  "humanArtReview": "pending"
+}

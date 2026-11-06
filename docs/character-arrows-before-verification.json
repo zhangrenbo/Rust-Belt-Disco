@@ -1,0 +1,139 @@
+{
+  "transport": "fixed work Chrome + direct CDP 9223; task-created background page",
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-arrows-before-default-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景_瓶压三好学生奖状_v1.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -389,
+              "y": -107,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -389,
+              "y": -107,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "polygon(32.8% 0px, 50.2% 0px, 51.7% 22.6%, 50.8% 25.3%, 33.5% 27.4%, 32.95% 26.7%)",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -181.61062622070312,
+              "y": 299.2357177734375,
+              "width": 1286.204345703125,
+              "height": 594.3912353515625
+            },
+            "clip": "polygon(29.7% 69.4%, 30.8% 69.7%, 31.7% 69.1%, 32.5% 70.2%, 32.7% 72%, 33.3% 72.3%, 34.2% 77%, 33.7% 80.4%, 32.4% 83.2%, 30.9% 84.6%, 29.2% 84%, 27.7% 82.1%, 26.8% 78.7%, 27% 74.3%, 27.6% 72%, 28.7% 71.5%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-arrows-before-top-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景_瓶压三好学生奖状_v1.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -389,
+              "y": 0,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -389,
+              "y": 0,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "polygon(32.8% 0px, 50.2% 0px, 51.7% 22.6%, 50.8% 25.3%, 33.5% 27.4%, 32.95% 26.7%)",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -181.61062622070312,
+              "y": 406.2357177734375,
+              "width": 1286.204345703125,
+              "height": 594.3912353515625
+            },
+            "clip": "polygon(29.7% 69.4%, 30.8% 69.7%, 31.7% 69.1%, 32.5% 70.2%, 32.7% 72%, 33.3% 72.3%, 34.2% 77%, 33.7% 80.4%, 32.4% 83.2%, 30.9% 84.6%, 29.2% 84%, 27.7% 82.1%, 26.8% 78.7%, 27% 74.3%, 27.6% 72%, 28.7% 71.5%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    }
+  ],
+  "errors": [],
+  "realPlayerData": "untouched; isolated memory storage",
+  "audio": "test output muted",
+  "selectionAndReturn": false,
+  "humanArtReview": "pending",
+  "electronWorkbenchInspected": false
+}

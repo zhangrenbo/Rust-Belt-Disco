@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-14",
+  "requests": ["票据右侧文字要红色、印章式美学", "四张纸条偏大并遮盖背景，需要缩小"],
+  "palette": {"title": "#962f27", "description": "#914137", "action": "#8a3028"},
+  "type": {"title": "SimSun / Songti SC，粗体", "support": "KaiTi / STKaiti，红色印字"},
+  "inkMask": "public/assets/save-stamp-ink-mask.svg",
+  "inkMaskMethod": "自行编写的静态 SVG 噪声 alpha 蒙版，仅作用于标题与细章框；说明小字不叠加断墨，保持可读。",
+  "paperSizeCqw": {"before": [29.35, 9.5], "after": [22.4, 7.25]},
+  "paperAreaReduction": "约42%",
+  "layout": "上方四票按两列22.4cqw、两行7.25cqw排布；两列中心间距缩小，图像和文字在缩小后的真实点击区域内定位。",
+  "behavior": "六槽标题、说明和操作仍使用现有动态存档数据；新旧、空白、损坏状态保留。",
+  "verification": "docs/save-stamp-verification.json",
+  "checks": {"migrationHashes": 172, "resourcePaths": 69, "build": "passed", "viewports": [[1440,810],[1920,1080],[844,475]], "sixSlotsReachable": true, "loadAndReturn": true, "savedDataUnchanged": true},
+  "visualAcceptance": "待用户评价"
+}

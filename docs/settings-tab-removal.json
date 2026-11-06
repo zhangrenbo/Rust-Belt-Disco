@@ -1,0 +1,12 @@
+{
+  "purpose": "移除设置页左侧下方原“总入口”纸条及其阴影，修复档案夹与纸张纹理；保留上方返回纸条。",
+  "mode": "built-in image_gen",
+  "source": "public/settings-dossier-art-v3.png",
+  "output": "public/settings-dossier-art-v4.png",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "alphaHandling": "Generated output is RGB. The settings image uses the original v3 RGBA alpha as a CSS mask to preserve the existing transparent outer silhouette.",
+  "prompt": "Use case: precise-object-edit.\nAsset type: production PNG background for an existing game settings screen.\nImage 1 is the edit target. Edit this exact supplied image, do not redesign it.\nPrimary request: completely remove ONLY the LOWER of the TWO beige horizontal paper tabs protruding from the LEFT edge of the large central white paper stack. The tab to remove occupies approximately x=4.5%-15.5%, y=27.5%-37.5% of the full image (around x=75-260, y=259-353 in the supplied 1672x941 image). Remove that entire small paper strip, all torn edges, and its cast shadow. Reconstruct the dark patterned binder cover and vertical layered grey paper edges behind it so they continue naturally through the removed area, with matching paper grain, shading, light, and seams.\nKeep the UPPER left beige paper tab at y=15%-24.5% completely unchanged, since the game's Return button sits there.\nInvariants: Keep the complete composition, framing, positions, relative scale, colors, fine textures, top and central blank paper sheets and border, bottom pocket, binder clip, right key, magnifying glass and photographs unchanged. Preserve the existing genuine transparent exterior around the dossier with an RGBA alpha channel. Do not introduce new labels, tabs, text, decorations, smudges or flat cover-up rectangles. Preserve the original 1672x941 canvas dimensions if possible, with exactly the same full-image proportions and alignment. The only visual change must be the absence of the lower left paper tab and the natural restored surface that it covered.\nOutput: one full replacement PNG background, no UI text."
+}

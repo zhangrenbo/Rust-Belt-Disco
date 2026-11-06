@@ -1,0 +1,214 @@
+{
+  "stats": {
+    "jobsScanned": 23912,
+    "uniqueJobs": 23912,
+    "matchedJobs": 2296,
+    "unlikedImages": 8656,
+    "skippedLikedImages": 295,
+    "skippedHiddenJobs": 12,
+    "skippedVideos": 154,
+    "buckets": {
+      "雪景或冬季": 3324,
+      "极乐迪斯科或东北": 3016,
+      "45度或等距建筑室内": 5276,
+      "3D或PBR建筑室内": 5805,
+      "中国年代生活": 3075
+    },
+    "excludedOtherProjectJobs": 1078
+  },
+  "samples": {
+    "雪景或冬季": [
+      {
+        "id": "1a452f5f-e07e-4132-bfdd-1f0fada35456",
+        "prompt": "Snow-covered alpine chalet front facade, dark timber and white stone, steep snow-dusted roof with icicles, massive chimney with hearty smoke, window boxes packed with red christmas roses and frost-hardy cyclamen, snowdrops and crocus pushing through snow in foreground, wreath of pine and dried red berries on the door, evergreen shrubs trimmed with ",
+        "images": 4
+      },
+      {
+        "id": "91dfc5ba-9d31-4d7d-8642-d4dbd56b5505",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, FULL BUILDING exterior of a locomotive depot roundhouse (机务段), a fan of tracks and a turntable, a snow-covered 1980s Northeast China socialist-era building in deep winter, weathered concrete and red brick u",
+        "images": 4
+      },
+      {
+        "id": "6ef5fe9f-edc2-4ee9-a88e-91a87cfef93b",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, FULL BUILDING exterior of a billiards and games hall (台球游戏厅), frosted windows and a cracked glass door, a snow-covered 1980s Northeast China socialist-era building in deep winter, weathered concrete and red",
+        "images": 4
+      },
+      {
+        "id": "2f2ebaf6-a993-4e19-b298-3d03cdff11c2",
+        "prompt": "ChatGPT 说： a front-on orthographic view, zero perspective, small winter shrub with multiple thin branches, slightly rounded silhouette, dry brown twigs with sparse remaining leaves dusted lightly with snow, uneven branch density showing natural growth pattern, subtle frost along upper edges, neutral snowy ground beneath, soft cold daylight, cinemat",
+        "images": 4
+      },
+      {
+        "id": "ea9f374d-6c68-4d23-9363-cd550937ecc2",
+        "prompt": "seamless tileable top-down orthographic gritty winter road texture, reflective puddles, micro cracks, salt stains, granular ice, subtle double yellow paint remnants, photorealistic PBR material texture",
+        "images": 4
+      }
+    ],
+    "极乐迪斯科或东北": [
+      {
+        "id": "fb20d180-18b4-479c-81f0-21259d2b9991",
+        "prompt": "stylized 3D environment concept art with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and cinematic lighting, a WIDE COMPLETE ENVIRONMENT SCENE of a panoramic night view from the hill above town, winding roads, scattered amber windows, black factory silhouettes, railway lights and a froze",
+        "images": 4
+      },
+      {
+        "id": "dda7dd35-74bc-477f-98d4-2d53501d9b04",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, FULL BUILDING exterior of a fabric and cloth shop (布店), bolts of colorful fabric stacked in a snowy window display, a snow-covered 1980s Northeast China socialist-era building in deep winter, weathered conc",
+        "images": 4
+      },
+      {
+        "id": "e49ef193-dac2-4fc3-81f0-741c4db33a31",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, a full atmospheric establishing shot of the exterior of a bleak winter-field OUTDOOR CRIME SCENE scorched ground where a body was burned, an abandoned gasoline can, cold grey light, a 1980s Northeast China ",
+        "images": 4
+      },
+      {
+        "id": "591f6e2f-3202-4e14-bfd5-8a260773f888",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, a SINGLE isolated game-asset prop of a folding wooden chair (折叠椅), a 1980s Northeast China socialist-era household object, period-accurate, worn and weathered, centered in frame, three-quarter 45-degree vie",
+        "images": 3
+      },
+      {
+        "id": "7d386a3e-59a4-42e1-a336-c336f87b464c",
+        "prompt": "1980s China industrial outskirts, old state-owned factory in the distance, smokestacks emitting thick dark smoke, foreground weathered concrete wall, cracked plaster, faded propaganda posters partially torn, a traditional Chinese funeral wreath hanging on the wall, black-and-white portrait photo at center, artificial paper flowers slightly yellowed",
+        "images": 3
+      }
+    ],
+    "45度或等距建筑室内": [
+      {
+        "id": "fb20d180-18b4-479c-81f0-21259d2b9991",
+        "prompt": "stylized 3D environment concept art with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and cinematic lighting, a WIDE COMPLETE ENVIRONMENT SCENE of a panoramic night view from the hill above town, winding roads, scattered amber windows, black factory silhouettes, railway lights and a froze",
+        "images": 4
+      },
+      {
+        "id": "e6d0b26f-e005-4663-827b-b2e1c8658343",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, a SMALL ISOLATED PROP VIGNETTE of a wooden office desk with a green-shaded lamp, a black rotary-dial telephone, stacked files and a flip calendar, a 1980s Northeast China socialist-era furniture grouping, p",
+        "images": 4
+      },
+      {
+        "id": "d1c5664f-ffb3-4119-b655-20e3eeb4db22",
+        "prompt": "isometric 45° top-down, orthographic camera, photoreal/PBR realism; a **small Chinese town in winter**, viewed from 45° isometric angle, placed on a large rectangular ground base (地台) about 20×16 meters, thickness 0.05 m; two- and three-story mixed-use brick and concrete buildings with snow-covered roofs, icicles hanging from eaves, and frost on wi",
+        "images": 4
+      },
+      {
+        "id": "abf10e1a-40f5-4ec2-a6a1-82e772318920",
+        "prompt": "orthographic isometric 45° view, a full interior wall segment inside an old room, shown from a pulled-back isometric angle with no close-up distortion, the wall built from aged plaster with uneven surface texture, soft cracks near the corners, faint moisture stains rising from the baseboard, a wooden-framed window set into the wall with slightly wa",
+        "images": 4
+      },
+      {
+        "id": "fa677bee-f16f-4eb4-8c19-94571ef7f453",
+        "prompt": "isometric 45° top-down, orthographic camera, photoreal/PBR realism; a **Chinese commercial street in winter**, viewed from 45° isometric angle, placed on a rectangular base (地台) about 20×14 meters, thickness 0.05 m; two sides of the street lined with low-rise mixed-use brick and concrete buildings, 2-3 floors tall, with shopfronts on the ground lev",
+        "images": 4
+      }
+    ],
+    "3D或PBR建筑室内": [
+      {
+        "id": "fb20d180-18b4-479c-81f0-21259d2b9991",
+        "prompt": "stylized 3D environment concept art with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and cinematic lighting, a WIDE COMPLETE ENVIRONMENT SCENE of a panoramic night view from the hill above town, winding roads, scattered amber windows, black factory silhouettes, railway lights and a froze",
+        "images": 4
+      },
+      {
+        "id": "0e34eace-6747-4e11-a2ac-a46038ece247",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, a SMALL ISOLATED PROP VIGNETTE of a wooden shelf of stacked tape reels beside a turntable record player and an amplifier, a 1980s Northeast China socialist-era furniture grouping, period-accurate, worn and ",
+        "images": 4
+      },
+      {
+        "id": "0beae6df-9922-475c-900d-af2a8def7106",
+        "prompt": "https://s.mj.run/Yw7DHKtReso isometric game art of an old witch's house, made from wood and rock, small courtyard with a wooden fence around it, a dark gray roof on top, surrounded by a desert environment, 2d game art style, flat shading, in a salt lake environment, high-angle shot, ambient lighting, low-poly model, stylized 3d, simple design, dark",
+        "images": 4
+      },
+      {
+        "id": "390b0f33-a895-4043-b3fe-be5f8317d4e2",
+        "prompt": "isometric 45° top-down orthographic view, photoreal/PBR realism, a tall coastal lighthouse standing on a rocky shore, cylindrical white concrete tower with red top cap and glass lantern room, faint rust streaks running from metal joints, weathered paint showing salt stains and erosion from sea wind, narrow balcony railing encircling the lantern roo",
+        "images": 4
+      },
+      {
+        "id": "15c652c4-26bf-40bb-961e-78c379153a07",
+        "prompt": "front-on orthographic, zero perspective, old red brick wall with narrow mortar, galvanized conduit one vertical + one horizontal with clamps and small junction box, right-upper warm wall sconce casting soft local glow only, layered torn posters & flyers (unreadable), glue residue and peel marks, concrete cap with rain streaks, mild grime at bottom,",
+        "images": 4
+      }
+    ],
+    "中国年代生活": [
+      {
+        "id": "fb20d180-18b4-479c-81f0-21259d2b9991",
+        "prompt": "stylized 3D environment concept art with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and cinematic lighting, a WIDE COMPLETE ENVIRONMENT SCENE of a panoramic night view from the hill above town, winding roads, scattered amber windows, black factory silhouettes, railway lights and a froze",
+        "images": 4
+      },
+      {
+        "id": "690e0808-59bd-475c-80d1-3f1792fc5825",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, FULL BUILDING exterior of a butcher shop (肉铺), metal hooks in the window and a thick wooden chopping block visible, a snow-covered 1980s Northeast China socialist-era building in deep winter, weathered conc",
+        "images": 4
+      },
+      {
+        "id": "dcd8994b-3a9d-4bd3-a6a0-71761bfa1fb4",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, a SINGLE isolated game-asset VEHICLE of a flatbed tricycle stacked with winter cabbages (拉白菜的三轮车), a 1980s Northeast China socialist-era vehicle, period-accurate, worn and weathered with a little dried mud ",
+        "images": 3
+      },
+      {
+        "id": "6fd2971c-5b85-41cf-80d4-49f167510ba9",
+        "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, a SINGLE isolated game-asset prop of an enamel tea tray with matching cups (搪瓷茶盘), a 1980s Northeast China socialist-era household object, period-accurate, worn and weathered, centered in frame, three-quart",
+        "images": 4
+      },
+      {
+        "id": "1ae6af92-de1b-42ae-b477-d01fb0551aee",
+        "prompt": "isometric 45-degree top-down view, strict orthographic projection, a narrow street in a 1980s northeastern Chinese industrial town, both sides lined with continuous grey brick buildings, 1-2 story structures forming a tight corridor street, weathered lime walls, exposed bricks, cracked concrete pavement with puddles and dirt, small convenience stor",
+        "images": 4
+      }
+    ]
+  },
+  "excludedSamples": [
+    {
+      "id": "c18b769d-cfdb-4063-b84f-1373e914d20a",
+      "prompt": "full-body key art illustration of a young anime heroine with light silver-lavender hair, futuristic blue tactical outfit with black armor straps and matching blue goggles on her head, holding a large round shield with white and blue energy panels, standing alone in a vast cyberpunk neon city at night: towering skyscrap",
+      "cues": [
+        "3D或PBR建筑室内"
+      ]
+    },
+    {
+      "id": "9badaf0f-064d-4578-8cbb-cc2e03b5c822",
+      "prompt": "lush PAINTERLY digital concept art, highly detailed dark-fantasy storybook illustration, hand-painted with rich visible brushwork, a vertical portal-view scene, a vertical frozen canyon in winter forest, the left and right walls dark stone dusted with snow and lined with icicles, between them a deep blue crevasse with ",
+      "cues": [
+        "雪景或冬季"
+      ]
+    },
+    {
+      "id": "0c5a2809-a698-444b-b926-dcb58b3ef605",
+      "prompt": "lush PAINTERLY digital concept art, highly detailed dark-fantasy storybook illustration, hand-painted with rich visible brushwork, a side-scrolling forest environment, the canopy of a dead ancient forest, bare skeletal branches forming a web against the sky, the dead trees covered in grey-green moss and pale lichen, th",
+      "cues": [
+        "雪景或冬季"
+      ]
+    },
+    {
+      "id": "5c68161b-97c8-42f6-a830-d1f3c055799b",
+      "prompt": "lush PAINTERLY digital concept art, highly detailed dark-fantasy storybook illustration, hand-painted with rich visible brushwork, a side-scrolling forest environment, a forest stream in deep winter, the water surface partially frozen with clear ice showing the dark water flowing beneath, frost-covered moss and ferns o",
+      "cues": [
+        "雪景或冬季"
+      ]
+    },
+    {
+      "id": "9039c990-56b2-4dc2-996b-a576154ed2e1",
+      "prompt": "lush PAINTERLY digital concept art, highly detailed dark-fantasy storybook illustration, hand-painted with rich visible brushwork, a side-scrolling forest environment, a stone road through subarctic dwarf forest, twisted stunted trees no taller than a person with thick gnarled trunks wrapped in pale grey-green lichen, ",
+      "cues": [
+        "雪景或冬季"
+      ]
+    },
+    {
+      "id": "43786b57-a996-4875-95eb-16b1f5c3a652",
+      "prompt": "lush PAINTERLY digital concept art, highly detailed dark-fantasy storybook illustration, hand-painted with rich visible brushwork, a side-scrolling forest environment, a stone road through forest during spring thaw, patches of melting snow on the mossy stones and in shadowed corners, streams of snowmelt running alongsi",
+      "cues": [
+        "雪景或冬季"
+      ]
+    },
+    {
+      "id": "9a03396a-376b-4a33-aa45-d7bcc9b7519c",
+      "prompt": "lush PAINTERLY digital concept art, highly detailed dark-fantasy storybook illustration, hand-painted with rich visible brushwork, a side-scrolling forest environment, a stone road through winter forest after freezing fog, every branch and vine coated in white hoarfrost crystals, the moss on the stones frozen and britt",
+      "cues": [
+        "雪景或冬季"
+      ]
+    },
+    {
+      "id": "d87c51bb-494f-4986-b8dc-b7815d7186dd",
+      "prompt": "lush PAINTERLY digital concept art, highly detailed dark-fantasy storybook illustration, hand-painted with rich visible brushwork, a side-scrolling forest environment, a stone road through spring forest with cherry blossom trees in full bloom, pink-white petals drifting down and carpeting the mossy stone path, the tree",
+      "cues": [
+        "雪景或冬季"
+      ]
+    }
+  ]
+}

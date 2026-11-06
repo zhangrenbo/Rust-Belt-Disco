@@ -1,0 +1,768 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "task-created page; isolated memory fixtures; real saves untouched",
+  "dedicatedImage": true,
+  "redStampLabels": true,
+  "sixSlotsReachable": true,
+  "loadAndReturn": true,
+  "savedDataUnchanged": true,
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-stamp-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 395.64581298828125,
+        "y": 97.74977111816406,
+        "width": 593.9427490234375,
+        "height": 93.20358276367188
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "bounds": {
+            "x": 296.2860107421875,
+            "y": 238.5402374267578,
+            "width": 324.662353515625,
+            "height": 111.12263488769531
+          },
+          "paperSize": [
+            "322.547px",
+            "104.391px"
+          ],
+          "labels": [
+            {
+              "text": "存档 01 · 公交车站",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "董点事 · 旅程进行中",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "读取档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "bounds": {
+            "x": 766.0526123046875,
+            "y": 246.85960388183594,
+            "width": 323.972900390625,
+            "height": 108.88392639160156
+          },
+          "paperSize": [
+            "322.547px",
+            "104.391px"
+          ],
+          "labels": [
+            {
+              "text": "存档 02 · 空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "bounds": {
+            "x": 303.24200439453125,
+            "y": 422.220703125,
+            "width": 323.71038818359375,
+            "height": 108.04296875
+          },
+          "paperSize": [
+            "322.547px",
+            "104.391px"
+          ],
+          "labels": [
+            {
+              "text": "存档 03 · 空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "bounds": {
+            "x": 766.009033203125,
+            "y": 418.0601806640625,
+            "width": 324.06005859375,
+            "height": 109.1640625
+          },
+          "paperSize": [
+            "322.547px",
+            "104.391px"
+          ],
+          "labels": [
+            {
+              "text": "存档 04 · 存档无法读取",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "原始数据已保留",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "bounds": {
+            "x": 257.402099609375,
+            "y": 630.4072265625,
+            "width": 424.02392578125,
+            "height": 75.32623291015625
+          },
+          "paperSize": [
+            "423.359px",
+            "71.2656px"
+          ],
+          "labels": [
+            {
+              "text": "空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "bounds": {
+            "x": 702.370849609375,
+            "y": 630.4072265625,
+            "width": 424.02392578125,
+            "height": 75.32623291015625
+          },
+          "paperSize": [
+            "423.359px",
+            "71.2656px"
+          ],
+          "labels": [
+            {
+              "text": "空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-stamp-1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 527.5328979492188,
+        "y": 130.33297729492188,
+        "width": 791.9342651367188,
+        "height": 124.28717041015625
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "bounds": {
+            "x": 395.0584411621094,
+            "y": 318.0586853027344,
+            "width": 432.8987121582031,
+            "height": 148.16384887695312
+          },
+          "paperSize": [
+            "430.078px",
+            "139.188px"
+          ],
+          "labels": [
+            {
+              "text": "存档 01 · 公交车站",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "董点事 · 旅程进行中",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "读取档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "bounds": {
+            "x": 1021.4242553710938,
+            "y": 326.7512512207031,
+            "width": 431.97955322265625,
+            "height": 145.17874145507812
+          },
+          "paperSize": [
+            "430.078px",
+            "139.188px"
+          ],
+          "labels": [
+            {
+              "text": "存档 02 · 空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "bounds": {
+            "x": 402.173095703125,
+            "y": 562.9712524414062,
+            "width": 431.62939453125,
+            "height": 144.0574951171875
+          },
+          "paperSize": [
+            "430.078px",
+            "139.188px"
+          ],
+          "labels": [
+            {
+              "text": "存档 03 · 空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "bounds": {
+            "x": 1021.3662719726562,
+            "y": 558.6238403320312,
+            "width": 432.09564208984375,
+            "height": 145.55230712890625
+          },
+          "paperSize": [
+            "430.078px",
+            "139.188px"
+          ],
+          "labels": [
+            {
+              "text": "存档 04 · 存档无法读取",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "原始数据已保留",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "bounds": {
+            "x": 343.228759765625,
+            "y": 840.54296875,
+            "width": 565.35498046875,
+            "height": 100.4453125
+          },
+          "paperSize": [
+            "564.469px",
+            "95.0312px"
+          ],
+          "labels": [
+            {
+              "text": "空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "bounds": {
+            "x": 936.510009765625,
+            "y": 840.54296875,
+            "width": 565.35498046875,
+            "height": 100.4453125
+          },
+          "paperSize": [
+            "564.469px",
+            "95.0312px"
+          ],
+          "labels": [
+            {
+              "text": "空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-stamp-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 231.8953399658203,
+        "y": 57.41657638549805,
+        "width": 348.11553955078125,
+        "height": 54.61996841430664
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "bounds": {
+            "x": 173.66127014160156,
+            "y": 139.93341064453125,
+            "width": 190.28684997558594,
+            "height": 65.1331787109375
+          },
+          "paperSize": [
+            "189.047px",
+            "61.1875px"
+          ],
+          "labels": [
+            {
+              "text": "存档 01 · 公交车站",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "董点事 · 旅程进行中",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "读取档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "bounds": {
+            "x": 448.9883117675781,
+            "y": 150.18948364257812,
+            "width": 189.88278198242188,
+            "height": 63.821044921875
+          },
+          "paperSize": [
+            "189.047px",
+            "61.1875px"
+          ],
+          "labels": [
+            {
+              "text": "存档 02 · 空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "bounds": {
+            "x": 182.58026123046875,
+            "y": 247.58590698242188,
+            "width": 189.72885131835938,
+            "height": 63.32818603515625
+          },
+          "paperSize": [
+            "189.047px",
+            "61.1875px"
+          ],
+          "labels": [
+            {
+              "text": "存档 03 · 空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "bounds": {
+            "x": 448.9627990722656,
+            "y": 242.45738220214844,
+            "width": 189.93380737304688,
+            "height": 63.98524475097656
+          },
+          "paperSize": [
+            "189.047px",
+            "61.1875px"
+          ],
+          "labels": [
+            {
+              "text": "存档 04 · 存档无法读取",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "原始数据已保留",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "bounds": {
+            "x": 150.86776733398438,
+            "y": 369.60693359375,
+            "width": 248.51446533203125,
+            "height": 44.1455078125
+          },
+          "paperSize": [
+            "248.125px",
+            "41.7656px"
+          ],
+          "labels": [
+            {
+              "text": "空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "bounds": {
+            "x": 411.6646423339844,
+            "y": 369.60693359375,
+            "width": 248.51449584960938,
+            "height": 44.1455078125
+          },
+          "paperSize": [
+            "248.125px",
+            "41.7656px"
+          ],
+          "labels": [
+            {
+              "text": "空白档案",
+              "color": "rgb(150, 47, 39)",
+              "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "暂无存档记录",
+              "color": "rgb(145, 65, 55)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            },
+            {
+              "text": "查看档案 →",
+              "color": "rgb(138, 48, 40)",
+              "mask": "none",
+              "insideTicket": true,
+              "insideLabel": true
+            }
+          ],
+          "reachable": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "visualAcceptance": "pending user review"
+}

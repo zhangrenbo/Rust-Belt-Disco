@@ -1,0 +1,166 @@
+{
+  "transport": "fixed work Chrome direct CDP 9223; task target only",
+  "browser": "Chrome/152.0.7977.83",
+  "storage": "isolated per-page memory; persisted mute seeded from previous applied settings",
+  "verification": "live Web Audio output measured after master gain; does not verify physical speakers",
+  "visibilityTest": "synthetic visibility event in task page; real tabs untouched",
+  "checkedAt": "2026-09-13T07:47:46Z",
+  "autoplay": {
+    "audibleBeforeInput": false,
+    "context": "suspended",
+    "state": "suspended"
+  },
+  "mainMenuCornerCloseRemoved": true,
+  "pageErrors": [],
+  "measurements": [
+    {
+      "step": "main-menu-audible",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.5400000214576721,
+      "rms": 0.0011681699204642226,
+      "sourcesCreated": 1,
+      "durations": [
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "settings-zero-is-silent",
+      "state": "muted",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0,
+      "rms": 0,
+      "sourcesCreated": 1,
+      "durations": [
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "settings-volume-restored",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.2665975093841553,
+      "rms": 0.0013766691189619168,
+      "sourcesCreated": 1,
+      "durations": [
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "station-dialogue-ducked",
+      "state": "playing",
+      "track": "station",
+      "context": "running",
+      "masterGain": 0.38999998569488525,
+      "rms": 0.020465916754787344,
+      "sourcesCreated": 2,
+      "durations": [
+        240.0135,
+        54.857125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "archive-keeps-station",
+      "state": "playing",
+      "track": "station",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.022798363883988305,
+      "sourcesCreated": 2,
+      "durations": [
+        240.0135,
+        54.857125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "settings-keeps-station",
+      "state": "playing",
+      "track": "station",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.016619982750756386,
+      "sourcesCreated": 2,
+      "durations": [
+        240.0135,
+        54.857125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "menu-restored",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.00555240214208291,
+      "sourcesCreated": 3,
+      "durations": [
+        240.0135,
+        54.857125,
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "hidden-suspended",
+      "state": "suspended",
+      "track": "menu",
+      "context": "suspended",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.00555240214208291,
+      "sourcesCreated": 3,
+      "durations": [
+        240.0135,
+        54.857125,
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "visible-resumes-same-loop",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.006119154198892636,
+      "sourcesCreated": 3,
+      "durations": [
+        240.0135,
+        54.857125,
+        240.0135
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "saved-mute-restored-on-fresh-page",
+      "state": "muted",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0,
+      "rms": 0,
+      "sourcesCreated": 1,
+      "durations": [
+        240.0135
+      ],
+      "allLooping": true
+    }
+  ],
+  "mainMenuScreenshot": "docs/menu-no-corner-x-1440.png",
+  "screenshotVisuallyInspected": true,
+  "menuControlsReachableAt844x475": true,
+  "menuExitDialogAndCancel": "passed",
+  "unitTests": "11/11 passed",
+  "build": "passed",
+  "migratedHashes": 172,
+  "resourcePaths": 58,
+  "additionalScreenshot": "844x475 capture timed out; DOM hit tests and exit/cancel verified separately",
+  "workbenchAutoplay": "Installed Electron type definitions default to no-user-gesture-required; shared shell has no override. Actual workbench audio not instrumented."
+}

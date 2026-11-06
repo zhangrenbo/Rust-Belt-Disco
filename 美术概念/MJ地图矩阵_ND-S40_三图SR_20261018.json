@@ -1,0 +1,24 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-job-v1",
+    "project":  "东北迪斯科",
+    "id":  "ND-S40",
+    "name":  "便利店废墟·最终对峙构图",
+    "kind":  "exterior",
+    "source_scene_id":  "ND-S40",
+    "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D game map of a Northeast Chinese industrial town in winter. No characters or people. Show the full connected walking surface, entrances, exits, wall thickness, furniture bases and traversable gaps. Roofless ruins of a burned family convenience store in Northeast China. Only half of a soot-blackened brick wall and one doorway frame remain standing. The old checkout counter survives at the back, rusted broken shelf remains along the left wall and a fallen central shelf row leave a clear aisle from the front-right doorway to the counter. Small withered flowers in a corner. Use the roofless condition specified for the final confrontation, while preserving the earlier stores ground footprint and checkout position. Realistic snow, damp concrete, worn brick, corroded metal, soft contact shadows, readable foreground and background depth. No signs with readable words. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people",
+    "status":  "rendered_visible",
+    "human_approved":  false,
+    "preflight":  {
+                      "ready":  true,
+                      "empty":  true,
+                      "folder":  true,
+                      "images":  0,
+                      "personalization":  "false",
+                      "visibility":  "visible"
+                  },
+    "submitted_at":  "2026-10-18T05:31:37.582288+00:00",
+    "job_id":  "db569d50-8547-4f74-b74e-2128e8a983b8",
+    "result_url":  "https://www.midjourney.com/jobs/db569d50-8547-4f74-b74e-2128e8a983b8?index=0",
+    "verification_status":  "confirmed_visible",
+    "verification_evidence":  "2026-10-18 MJ folder count and direct job detail check; old API job_id alone is not proof of submission"
+}

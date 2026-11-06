@@ -1,0 +1,24 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-job-v1",
+    "project":  "东北迪斯科",
+    "id":  "ND-S36",
+    "name":  "陈国涛办公室·保险箱打开",
+    "kind":  "interior",
+    "source_scene_id":  "ND-S36",
+    "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D game map of a Northeast Chinese industrial town in winter. No characters or people. Show the full connected walking surface, entrances, exits, wall thickness, furniture bases and traversable gaps. A modest Chinese police chiefs office inside an old station: wooden desk in rear left, two visitor chairs, steel filing cabinet at left, a small grey wall safe at standing chest height behind a removed framed landscape painting. The painting leans against the wall below the already-open safe. Three stacks of old paper documents, a brown envelope and a USB stick are visible inside. Window with closed blinds at right, office entrance at front with a clear route to the safe. Paper contents are illegible. Realistic snow, damp concrete, worn brick, corroded metal, soft contact shadows, readable foreground and background depth. No signs with readable words. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people",
+    "status":  "rendered_visible",
+    "human_approved":  false,
+    "preflight":  {
+                      "ready":  true,
+                      "empty":  true,
+                      "folder":  true,
+                      "images":  0,
+                      "personalization":  "false",
+                      "visibility":  "visible"
+                  },
+    "submitted_at":  "2026-10-18T05:31:07.191766+00:00",
+    "job_id":  "ca9b16df-1e98-4abc-bdb1-c3ea681dcb48",
+    "result_url":  "https://www.midjourney.com/jobs/ca9b16df-1e98-4abc-bdb1-c3ea681dcb48?index=0",
+    "verification_status":  "confirmed_visible",
+    "verification_evidence":  "2026-10-18 MJ folder count and direct job detail check; old API job_id alone is not proof of submission"
+}

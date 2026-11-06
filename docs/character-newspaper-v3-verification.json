@@ -1,0 +1,299 @@
+{
+  "transport": "fixed work Chrome + direct CDP 9223; task-created background page",
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-v3-default-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -389,
+              "y": -107,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -389,
+              "y": -107,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "polygon(32.8% 0px, 50.2% 0px, 51.7% 22.6%, 50.8% 25.3%, 33.5% 27.4%, 32.95% 26.7%)",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -181.61062622070312,
+              "y": 299.2357177734375,
+              "width": 1286.204345703125,
+              "height": 594.3912353515625
+            },
+            "clip": "polygon(29.7% 69.4%, 30.8% 69.7%, 31.7% 69.1%, 32.5% 70.2%, 32.7% 72%, 33.3% 72.3%, 34.2% 77%, 33.7% 80.4%, 32.4% 83.2%, 30.9% 84.6%, 29.2% 84%, 27.7% 82.1%, 26.8% 78.7%, 27% 74.3%, 27.6% 72%, 28.7% 71.5%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on",
+        "badge": {
+          "bounds": {
+            "left": 169.52316015625001,
+            "right": 251.84023828125004,
+            "top": 711.7432351074219,
+            "bottom": 796.7411817626953
+          },
+          "leftOfLiPhoto": true,
+          "lowerHalf": true,
+          "fullyVisible": true
+        }
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-v3-top-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -389,
+              "y": 0,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -389,
+              "y": 0,
+              "width": 2217.59375,
+              "height": 1024.8125
+            },
+            "clip": "polygon(32.8% 0px, 50.2% 0px, 51.7% 22.6%, 50.8% 25.3%, 33.5% 27.4%, 32.95% 26.7%)",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -181.61062622070312,
+              "y": 406.2357177734375,
+              "width": 1286.204345703125,
+              "height": 594.3912353515625
+            },
+            "clip": "polygon(29.7% 69.4%, 30.8% 69.7%, 31.7% 69.1%, 32.5% 70.2%, 32.7% 72%, 33.3% 72.3%, 34.2% 77%, 33.7% 80.4%, 32.4% 83.2%, 30.9% 84.6%, 29.2% 84%, 27.7% 82.1%, 26.8% 78.7%, 27% 74.3%, 27.6% 72%, 28.7% 71.5%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-v3-default-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -228,
+              "y": -63,
+              "width": 1299.75,
+              "height": 600.875
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -228,
+              "y": -63,
+              "width": 1299.75,
+              "height": 600.875
+            },
+            "clip": "polygon(32.8% 0px, 50.2% 0px, 51.7% 22.6%, 50.8% 25.3%, 33.5% 27.4%, 32.95% 26.7%)",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -106.44735717773438,
+              "y": 175.18682861328125,
+              "width": 753.85498046875,
+              "height": 348.50750732421875
+            },
+            "clip": "polygon(29.7% 69.4%, 30.8% 69.7%, 31.7% 69.1%, 32.5% 70.2%, 32.7% 72%, 33.3% 72.3%, 34.2% 77%, 33.7% 80.4%, 32.4% 83.2%, 30.9% 84.6%, 29.2% 84%, 27.7% 82.1%, 26.8% 78.7%, 27% 74.3%, 27.6% 72%, 28.7% 71.5%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on",
+        "badge": {
+          "bounds": {
+            "left": 99.35505249023439,
+            "right": 147.6017712402344,
+            "top": 417.0510386962891,
+            "bottom": 466.8876122436523
+          },
+          "leftOfLiPhoto": true,
+          "lowerHalf": true,
+          "fullyVisible": true
+        }
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-newspaper-v3-top-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "metrics": {
+        "art": [
+          {
+            "src": "assets/character-select/000_T_选人页面背景.png",
+            "size": [
+              7007,
+              3238
+            ],
+            "rect": {
+              "x": -228,
+              "y": 0,
+              "width": 1299.75,
+              "height": 600.875
+            },
+            "clip": "none",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -228,
+              "y": 0,
+              "width": 1299.75,
+              "height": 600.875
+            },
+            "clip": "polygon(32.8% 0px, 50.2% 0px, 51.7% 22.6%, 50.8% 25.3%, 33.5% 27.4%, 32.95% 26.7%)",
+            "pointer": "none"
+          },
+          {
+            "src": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+            "size": [
+              1844,
+              853
+            ],
+            "rect": {
+              "x": -106.44735717773438,
+              "y": 238.18682861328125,
+              "width": 753.85498046875,
+              "height": 348.50750732421875
+            },
+            "clip": "polygon(29.7% 69.4%, 30.8% 69.7%, 31.7% 69.1%, 32.5% 70.2%, 32.7% 72%, 33.3% 72.3%, 34.2% 77%, 33.7% 80.4%, 32.4% 83.2%, 30.9% 84.6%, 29.2% 84%, 27.7% 82.1%, 26.8% 78.7%, 27% 74.3%, 27.6% 72%, 28.7% 71.5%)",
+            "pointer": "none"
+          }
+        ],
+        "choices": 3,
+        "film": "on"
+      }
+    }
+  ],
+  "errors": [],
+  "realPlayerData": "untouched; isolated memory storage",
+  "audio": "test output muted",
+  "selectionAndReturn": true,
+  "humanArtReview": "pending",
+  "electronWorkbenchInspected": false,
+  "assistantVisualInspection": [
+    "docs/character-newspaper-v3-default-1440.png",
+    "docs/character-newspaper-v3-default-844.png"
+  ],
+  "buildChecks": {
+    "build": "passed",
+    "migratedFileHashes": 172,
+    "resourcePaths": 74
+  },
+  "assetManifest": "docs/character-newspaper-badge-art.json"
+}

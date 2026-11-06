@@ -1,0 +1,317 @@
+{
+  "request": "保留单条明暗边界与下方整片阴影；避免硬亮线。用户表示半影好一点，但拒绝橙色的做作感。",
+  "implementation": "单一填充投影蒙版，柔和半影；蒙版偏移差产生边缘透光。最终保留形状，暖色改用较淡、局部变化的 soft-light，取消连续橙褐色涂抹感。",
+  "files": [
+    "app.css",
+    "public/assets/settings-shadow-penumbra.svg"
+  ],
+  "hashes": {
+    "app.css": "252fc9cff31a1174ecb3a37521ba16b4e6bb86c348ad828c454c51198f9904be",
+    "public/assets/settings-shadow-penumbra.svg": "8e18218a2bf26f9209fa45deb7e388091bda83952d8ec2e245262020919ca595"
+  },
+  "checks": [
+    {
+      "transport": "fixed work Chrome, direct CDP 9223, task-created background target",
+      "storage": "isolated memory; user data untouched",
+      "viewport": [
+        844,
+        475
+      ],
+      "screenshot": "E:\\东北迪斯科\\docs\\settings-penumbra-844.png",
+      "menuFilm": {
+        "quality": "enhanced",
+        "film": "on",
+        "filmMotion": "on",
+        "musicState": "suspended",
+        "musicTrack": "menu",
+        "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)"
+      },
+      "layout": {
+        "lights": [
+          {
+            "display": "block",
+            "z": "6",
+            "pointer": "none",
+            "blend": "multiply",
+            "background": "linear-gradient(155deg, rgba(140, 145, 136, 0.4), rgba(83, 103, 97, 0.61) 73%, rgba(48, 76, 70, 0.62))"
+          },
+          {
+            "display": "block",
+            "z": "7",
+            "pointer": "none",
+            "blend": "soft-light",
+            "background": "linear-gradient(105deg, rgba(0, 0, 0, 0) 0%, rgba(244, 156, 56, 0.24) 9%, rgba(255, 148, 0, 0.76) 20%, rgba(255, 214, 143, 0.314) 40%, rgba(255, 179, 62, 0.27) 65%, rgba(0, 0, 0, 0) 84%)"
+          }
+        ],
+        "buttons": [
+          {
+            "name": "返回",
+            "hit": true
+          },
+          {
+            "name": "音乐库",
+            "hit": true
+          },
+          {
+            "name": "人物档案",
+            "hit": true
+          },
+          {
+            "name": "自动窗口",
+            "hit": true
+          },
+          {
+            "name": "手动窗口",
+            "hit": true
+          },
+          {
+            "name": "全屏模式",
+            "hit": true
+          },
+          {
+            "name": "性能",
+            "hit": true
+          },
+          {
+            "name": "平衡",
+            "hit": true
+          },
+          {
+            "name": "增强",
+            "hit": true
+          },
+          {
+            "name": "开启",
+            "hit": true
+          },
+          {
+            "name": "胶片强度",
+            "hit": true
+          },
+          {
+            "name": "动态开",
+            "hit": true
+          },
+          {
+            "name": "语音音量",
+            "hit": true
+          },
+          {
+            "name": "音乐音量",
+            "hit": true
+          },
+          {
+            "name": "音效音量",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "恢复默认",
+            "hit": true
+          },
+          {
+            "name": "应用设置",
+            "hit": true
+          }
+        ],
+        "occlusion": {
+          "width": "25.3125px",
+          "height": "109.719px",
+          "left": "124.912px",
+          "top": "130.82px"
+        },
+        "film": "on",
+        "motion": "on",
+        "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)",
+        "grainOpacity": "0.312",
+        "footerBackgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)"
+        ]
+      },
+      "motion": {
+        "grainFrames": 59,
+        "dustFrames": 94,
+        "scratchFrames": 11,
+        "artAndTextStable": true
+      },
+      "checks": [
+        "all visible controls reachable",
+        "light layers do not intercept input",
+        "same film pass as main menu",
+        "bottom actions keep transparent backgrounds",
+        "grain moves; dust and scratches appear",
+        "artwork and text remain stable",
+        "music library opens and returns without dossier lighting",
+        "personnel dossier opens and Escape returns",
+        "film and motion switches still work",
+        "Return goes to main menu"
+      ],
+      "errors": [],
+      "humanArtReview": "pending"
+    },
+    {
+      "transport": "fixed work Chrome, direct CDP 9223, task-created background target",
+      "storage": "isolated memory; user data untouched",
+      "viewport": [
+        1440,
+        810
+      ],
+      "screenshot": "E:\\东北迪斯科\\docs\\settings-penumbra-1440.png",
+      "menuFilm": {
+        "quality": "enhanced",
+        "film": "on",
+        "filmMotion": "on",
+        "musicState": "suspended",
+        "musicTrack": "menu",
+        "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)"
+      },
+      "layout": {
+        "lights": [
+          {
+            "display": "block",
+            "z": "6",
+            "pointer": "none",
+            "blend": "multiply",
+            "background": "linear-gradient(155deg, rgba(140, 145, 136, 0.4), rgba(83, 103, 97, 0.61) 73%, rgba(48, 76, 70, 0.62))"
+          },
+          {
+            "display": "block",
+            "z": "7",
+            "pointer": "none",
+            "blend": "soft-light",
+            "background": "linear-gradient(105deg, rgba(0, 0, 0, 0) 0%, rgba(244, 156, 56, 0.24) 9%, rgba(255, 148, 0, 0.76) 20%, rgba(255, 214, 143, 0.314) 40%, rgba(255, 179, 62, 0.27) 65%, rgba(0, 0, 0, 0) 84%)"
+          }
+        ],
+        "buttons": [
+          {
+            "name": "返回",
+            "hit": true
+          },
+          {
+            "name": "音乐库",
+            "hit": true
+          },
+          {
+            "name": "人物档案",
+            "hit": true
+          },
+          {
+            "name": "自动窗口",
+            "hit": true
+          },
+          {
+            "name": "手动窗口",
+            "hit": true
+          },
+          {
+            "name": "全屏模式",
+            "hit": true
+          },
+          {
+            "name": "性能",
+            "hit": true
+          },
+          {
+            "name": "平衡",
+            "hit": true
+          },
+          {
+            "name": "增强",
+            "hit": true
+          },
+          {
+            "name": "开启",
+            "hit": true
+          },
+          {
+            "name": "胶片强度",
+            "hit": true
+          },
+          {
+            "name": "动态开",
+            "hit": true
+          },
+          {
+            "name": "语音音量",
+            "hit": true
+          },
+          {
+            "name": "音乐音量",
+            "hit": true
+          },
+          {
+            "name": "音效音量",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "恢复默认",
+            "hit": true
+          },
+          {
+            "name": "应用设置",
+            "hit": true
+          }
+        ],
+        "occlusion": {
+          "width": "43.1875px",
+          "height": "187.188px",
+          "left": "213.12px",
+          "top": "223.2px"
+        },
+        "film": "on",
+        "motion": "on",
+        "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)",
+        "grainOpacity": "0.312",
+        "footerBackgrounds": [
+          "rgba(0, 0, 0, 0)",
+          "rgba(0, 0, 0, 0)"
+        ]
+      },
+      "motion": {
+        "grainFrames": 60,
+        "dustFrames": 101,
+        "scratchFrames": 6,
+        "artAndTextStable": true
+      },
+      "checks": [
+        "all visible controls reachable",
+        "light layers do not intercept input",
+        "same film pass as main menu",
+        "bottom actions keep transparent backgrounds",
+        "grain moves; dust and scratches appear",
+        "artwork and text remain stable",
+        "music library opens and returns without dossier lighting",
+        "personnel dossier opens and Escape returns",
+        "film and motion switches still work",
+        "Return goes to main menu"
+      ],
+      "errors": [],
+      "humanArtReview": "pending"
+    }
+  ],
+  "httpCurrent": true,
+  "build": "passed; D:/CodexData/home/settings-light-build",
+  "contentVerification": "172 hashes and 66 resource paths passed before final colour-only adjustment",
+  "humanArtReview": "pending; user acknowledged improvement of shadow only, not final colour approval",
+  "rejectedVariants": [
+    "crossed window bars",
+    "hard single emissive line",
+    "strong orange-brown band"
+  ]
+}

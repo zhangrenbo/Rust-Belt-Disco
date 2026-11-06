@@ -1,0 +1,63 @@
+{
+  "checks": [
+    {
+      "twoThirdsUniformScale": [
+        {
+          "name": "wang",
+          "widthRatio": 0.6666658495029602,
+          "heightRatio": 0.6666664615566374,
+          "centerDelta": 0
+        },
+        {
+          "name": "dong",
+          "widthRatio": 0.6666666666666666,
+          "heightRatio": 0.6666651653815666,
+          "centerDelta": 0
+        },
+        {
+          "name": "li",
+          "widthRatio": 0.6666670399896066,
+          "heightRatio": 0.6666676100584431,
+          "centerDelta": 0
+        },
+        {
+          "name": "synopsis",
+          "widthRatio": 0.6666679081408428,
+          "heightRatio": 0.666666259075277,
+          "centerDelta": 0
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "width": 1440,
+      "uniformPngScaling": true,
+      "worldAnchors": true,
+      "correctVisibility": true
+    },
+    {
+      "language": "en",
+      "width": 844,
+      "uniformPngScaling": true,
+      "worldAnchors": true,
+      "correctVisibility": true
+    },
+    {
+      "language": "zh",
+      "width": 1440,
+      "uniformPngScaling": true,
+      "worldAnchors": true,
+      "correctVisibility": true
+    },
+    {
+      "language": "zh",
+      "width": 844,
+      "uniformPngScaling": true,
+      "worldAnchors": true,
+      "correctVisibility": true
+    }
+  ],
+  "errors": [],
+  "storage": "isolated; muted Chrome direct CDP",
+  "humanReview": "pending"
+}

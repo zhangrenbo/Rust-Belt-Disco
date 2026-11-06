@@ -1,0 +1,391 @@
+================================================================
+东北迪斯科 · 美术场景需求表（MidJourney提示词版）
+================================================================
+视角统一：45度俯视角（Isometric 45-degree overhead view）
+风格基调：东北后工业小镇，2005年前后，衰败与怀旧并存
+色调方向：整体低饱和，灰蓝+暖黄为主，雾天偏青白，夜晚偏深蓝+暖橙灯光
+共用后缀：--ar 16:9 --s 750 --v 6.1
+
+场景总数：18个（室内10 + 室外8）
+变体总数：约45个
+================================================================
+
+
+================================================================
+场景01 · 便利店废墟（室内）
+================================================================
+场景编号：SC01
+使用位置：A001_便利店调查 / A002_便利店废墟 / A026_暗格铁盒 / A031_最终对决 / Sheet4_最终审判
+功能：十三年前纵火现场 / A线调查核心 / D7最终对决地点
+变体需求：白天/傍晚/夜晚 × 无雾/薄雾/浓雾（约4组合）
+
+【空间要素】
+- 一层门面房约40平米，废弃十三年
+- 墙壁熏黑但立着，屋顶大部分塌了能看到天
+- 正对门：柜台（母亲以前坐的位置），柜台后墙上停在2:17的钟
+- 左侧：烧毁货架的金属骨架，地上碎玻璃+灰
+- 右侧：相对完整的墙，墙角翘起的地板（暗格入口）
+- 地面：水泥地，汽油燃烧的放射状焦痕，十三年灰尘和雨水渍
+
+【SC01-A · 白天】
+Isometric 45-degree overhead view, interior of a burned-out abandoned convenience store in a small northeastern Chinese industrial town, 40 square meters single-story shopfront, blackened concrete walls still standing, roof mostly collapsed revealing grey overcast sky, a shaft of pale daylight falling onto a wooden checkout counter in the center, a wall clock behind the counter frozen at 2:17 AM, left wall lined with skeletal metal shelving frames with melted remnants, scattered broken glass and grey ash covering cracked concrete floor, radial gasoline burn patterns on the ground, right wall relatively intact with a loose floor tile in the corner, thirteen years of accumulated dust and rainwater stains, faded Chinese product labels barely visible, atmosphere of frozen time and quiet devastation, muted desaturated palette with warm amber undertones from the daylight beam, detailed game environment concept art, subtle volumetric light --ar 16:9 --s 750 --v 6.1
+
+【SC01-B · 夜晚 · 手电光源】
+Isometric 45-degree overhead view, same burned-out convenience store interior at night, near total darkness except for a single flashlight beam cutting through dusty air, the beam illuminating the checkout counter and stopped clock at 2:17, dramatic shadows cast by skeletal metal shelves, broken glass glinting in the flashlight, burn patterns on floor barely visible in darkness, collapsed roof showing starless black sky, oppressive claustrophobic atmosphere, deep blue-black shadows with harsh white flashlight cone, noir thriller mood, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC01-C · D7最终对决 · 暴雨夜晚】
+Isometric 45-degree overhead view, burned-out convenience store interior at night during heavy rainstorm, rain pouring through collapsed roof creating curtains of water, puddles on the concrete floor reflecting a single emergency lantern's warm orange glow, the checkout counter wet and glistening, stopped clock at 2:17 barely visible through the rain, skeletal metal shelves casting long shadows in the flickering light, a single figure standing behind the counter in silhouette, gasoline burn patterns on the floor glistening wet, thunder-lit atmosphere of final confrontation, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC01-D · 傍晚 · 薄雾】
+Isometric 45-degree overhead view, burned-out convenience store at dusk, warm golden-hour light filtering through collapsed roof mixing with thin fog drifting inside, the checkout counter bathed in amber glow, clock at 2:17 catching the last light, fog softening the harsh edges of burned walls, skeletal shelves casting long shadows, a melancholy nostalgic atmosphere, as if the ruins remember being a warm family shop, muted warm palette, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景02 · 修车铺+叔叔家（室内）
+================================================================
+场景编号：SC02
+使用位置：A003_起床 / A006_午饭 / A010_晚上聊天 / A017_D3召集 / A024_D5群架集结 / A026_D6对话 / A028_D6最后一夜
+功能：A线大本营 / 叔叔对话 / 好感度系统 / D5群架集结地
+常驻NPC：老韩（修车铺伙计）
+变体需求：白天/夜晚 + D5群架后（打斗痕迹）+ D6叔叔受伤（约4组合）
+
+【空间要素·修车铺（前）】
+- 铁皮棚子约30平米，三面铁皮一面开口朝主街
+- 地面油污，两辆半修的摩托，轮胎堆，工具架（扳手/撬棒/千斤顶）
+- 木桌+两把折叠椅，桌上烟灰缸/搪瓷茶缸/老式收音机
+- 角落小火炉+旧报纸堆
+
+【空间要素·后院+住处（后）】
+- 后门出去4×4小院，晒着衣服，枯死的花盆
+- 两间住处：外间厨房+餐桌，里间卧室×2
+- 厨房：灶台/铝锅/搪瓷碗/炒勺，冰箱上贴着奖状
+- 董点事房间：单人床/书桌/足球海报/床头旧照片
+
+【SC02-A · 白天 · 正常】
+Isometric 45-degree overhead view, a roadside motorcycle repair shop in a small northeastern Chinese town, corrugated metal shed about 30 square meters open on one side facing the street, oil-stained concrete floor, two half-repaired motorcycles on stands, stacks of old tires, a metal tool rack with wrenches and tire irons, a weathered wooden table with two folding chairs in the center, enamel tea mug and overflowing ashtray on the table, a small portable radio playing, a coal stove in the corner with stacked old newspapers, connected to a small courtyard in the back with hanging laundry and a dead potted plant, beyond the courtyard a simple two-room living quarters visible through an open door, warm lived-in working-class atmosphere, natural daylight, oil and rust color palette, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC02-B · 夜晚 · 叔叔聊天】
+Isometric 45-degree overhead view, same repair shop at night, single bare light bulb casting warm yellow cone of light over the wooden table, two people sitting across from each other with tea mugs between them, radio softly playing, the open front of the shed showing dark empty street beyond, motorcycles and tires in shadow, intimate warm island of light in surrounding darkness, cigarette smoke curling upward, quiet late-night conversation atmosphere, warm amber against deep blue-black, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC02-C · D5群架后 · 白天】
+Isometric 45-degree overhead view, same repair shop showing aftermath of a fight, overturned folding chairs, scattered tools on the ground, a cracked enamel mug, tire iron with marks on it, blood spots on the concrete floor, one motorcycle knocked over, the tool rack partially collapsed, the wooden table still standing but with fresh scratches and dents, daylight revealing the damage clearly, tense aftermath atmosphere, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景03 · 派出所（室内）
+================================================================
+场景编号：SC03
+使用位置：B005_上班 / B013_通报会 / B014_旧档案 / B017_档案室 / B022_例会 / B025_信4 / B028_D6整理遗物 / B032_D7证据汇总
+功能：B线大本营 / 档案室 / 保险箱 / 陈国涛办公室 / B线住所（二楼）
+变体需求：白天/夜晚 + D2通报会 + D5保险箱开启后 + D6调令（约4组合）
+
+【空间要素·一楼】
+- 走廊：贴着"为人民服务"，左手接待窗口
+- 李正办公室：两张对面办公桌，案卷/茶杯/台灯/老式电话
+- 王涛办公室：隔壁，桌面整洁得不正常，一盒没开封的烟
+- 陈国涛办公室：空的，抽屉锁着，角落有保险箱
+- 档案室：走廊尽头铁门，铁皮柜按年份排旧案卷
+- 会议室：长桌+八把椅子，墙挂辖区地图
+
+【空间要素·二楼·李正宿舍】
+- 后楼梯上去的单间，单人床/衣柜/小桌
+- 桌上台灯+老婆照片+牛栏山二锅头
+
+【SC03-A · 白天 · 办公日常】
+Isometric 45-degree overhead view, interior of a small-town Chinese police station from the mid-2000s, a long corridor with pale green painted walls and fluorescent tube lighting, a red banner reading "Serve the People" above a reception window, two offices visible side by side, the main office has two desks facing each other piled with case files and manila folders, an old rotary telephone, enamel tea mugs with lids, a desk lamp, the adjacent office unnaturally tidy with a single unopened cigarette pack, further down the corridor an iron door leads to an archive room with rows of metal filing cabinets, at corridor end a meeting room with a long table and wall-mounted district map with case location pins, institutional pale green and beige color scheme, flickering fluorescent light, atmosphere of bureaucratic decay, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC03-B · 夜晚 · 李正加班】
+Isometric 45-degree overhead view, same police station at night, corridor dark except for light spilling from one office doorway, inside the lit office a single desk lamp illuminates stacked case files, an ashtray overflowing with cigarette butts, a half-empty bottle of baijiu, a framed photo of a woman face-down on the desk, the window showing dark rainy street outside, upstairs a small single room visible through stairwell with a bare bed and more files, lonely late-night investigation atmosphere, warm desk lamp glow against institutional darkness, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景04 · 中医抗癌馆+王家（室内）
+================================================================
+场景编号：SC04
+使用位置：C006_诊所日常 / C009_奶奶 / C011_D2天台回来 / C017_D3婚礼新郎 / C019_D4婚后 / C022_D5纸条 / C025_D6空白纸 / C029_D7抉择
+功能：C线大本营 / 王少鹏诊所 / 奶奶病房 / WYP纸条出现地
+常驻NPC：高飞（诊所小雇员）
+变体需求：白天/夜晚 + D3婚礼装饰残留 + D6纸条排列（约3组合）
+
+【空间要素·一楼·诊所】
+- 门面房，铁门半掩，手写招牌"王氏中医馆"
+- 药柜（抽屉贴手写标签），脉诊桌+脉枕/处方笺/毛笔/砚台
+- 墙上三面锦旗+伪造资质证书
+- 角落旧冰箱（藏着真正的西药）
+- 布帘后→后屋
+
+【空间要素·一楼·后屋（奶奶病房）】
+- 病床+鼻管+呼吸机+心电监护仪
+- 床头柜药瓶/纸巾/老照片
+- 窗帘拉着，光线昏暗，消毒水味
+
+【空间要素·二楼·王家住处】
+- 客厅：沙发/电视/茶几（茶几上D3起每天出现WYP纸条）
+- 卧室：双人床/衣柜（角落有大一号的衣服）
+- 书房：抽屉锁着（里面有WSP的笔记本+旧户口复印件）
+
+【SC04-A · 白天 · 诊所营业】
+Isometric 45-degree overhead view, a fraudulent traditional Chinese medicine clinic in a small northeastern Chinese town, single-story shopfront with a half-open iron door and hand-painted sign reading "Wang's Chinese Medicine Hall", inside: a wall of wooden medicine drawers with handwritten labels, a pulse-reading desk with a wrist pillow and calligraphy brush set arranged for show, three silk banners with "Miraculous Healer" calligraphy on the wall alongside fake certificates, an old refrigerator in the corner slightly ajar revealing modern pill bottles hidden inside, a fabric curtain separating the front clinic from a back room where an elderly woman lies on a hospital bed connected to a ventilator and heart monitor, dim light filtering through drawn curtains in the back, upstairs a modest apartment visible through a stairway with a tea table holding a small folded paper note, the contrast between fake traditional facade and hidden modern reality, warm front room versus clinical cold back room, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC04-B · 夜晚 · 后屋呼吸机】
+Isometric 45-degree overhead view, same clinic at night, front shop dark and closed, only the back room lit by a medical monitor's green glow, ventilator rhythmically pulsing in the darkness, the elderly woman's silhouette on the hospital bed, upstairs apartment dimly lit showing a man sitting alone at the tea table staring at a small paper with a single symbol on it, the building divided between eerie medical green below and lonely warm yellow above, quiet dread atmosphere, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景05 · 县医院烧伤科（室内）
+================================================================
+场景编号：SC05
+使用位置：A013_F_探望 / B017_A_调查 / B023_D4死讯
+功能：朱启渲病房 / D2-D4调查场景
+变体需求：白天（朱启渲在）/ 白天（D4死后床空）= 2
+
+【SC05-A · 有病人】
+Isometric 45-degree overhead view, a hospital burn ward room in a small Chinese county hospital, sterile white-tiled corridor with harsh fluorescent lighting and lingering smell of disinfectant suggested by yellow-stained walls, a single hospital bed with a heavily bandaged figure wrapped in white gauze covering 60 percent of the body, IV drip stand, heart rate monitor with green line, a clipboard with medical charts hanging from the bed rail, a plastic chair by the door for a guard, the window showing grey sky, cold clinical atmosphere with undertones of human suffering, pale green and white institutional palette, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC05-B · 床空了（D4后）】
+Isometric 45-degree overhead view, same hospital burn ward room but the bed is empty, sheets folded neatly, IV stand pushed to the corner, heart monitor turned off with blank screen, the clipboard still hanging but with a "deceased" stamp visible, the plastic chair empty, afternoon light through the window casting long shadows across the vacant bed, quiet emptiness where a person used to be, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景06 · 面馆（室内）
+================================================================
+场景编号：SC06
+使用位置：A006_午饭 / A014_D2午饭 / B007_午饭 / B019_D3传闻 / C014_D2午饭
+功能：吃饭+听闲话 / 镇子日常氛围 / 面馆老板娘传闻中转站
+变体需求：白天一版 + D6收拾关门版 = 2
+
+【SC06-A · 白天 · 营业中】
+Isometric 45-degree overhead view, a tiny noodle shop in a northeastern Chinese small town, four square wooden tables with bench seating, steam rising from a large pot of boiling noodles behind a narrow counter, a middle-aged woman in an apron wiping bowls behind the counter, hand-written chalk menu on the wall showing beef noodles 8 yuan and plain noodles 5 yuan with faded prices, a window seat overlooking the main street where passersby can be seen, one table occupied by elderly men chatting over bowls, warm steam filling the small space, comforting working-class eatery atmosphere, warm amber lighting mixed with daylight from the street window, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC06-B · D6 · 收拾关门】
+Isometric 45-degree overhead view, same noodle shop but half-packed up, chairs stacked on two tables, boxes on the floor, the menu board taken down leaving a clean rectangle on the grimy wall, the owner wrapping bowls in newspaper, the large noodle pot cold and empty, the window showing rain-soaked empty street, end-of-an-era atmosphere, preparing to leave forever, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景07 · 陈国涛家（室内）
+================================================================
+场景编号：SC07
+使用位置：B025_D5最后通牒 / B026_保险箱线 / B029_D6对质
+功能：D4-D6对质场景 / 权力结构暗线
+变体需求：白天/夜晚 = 2
+
+【SC07-A · 白天】
+Isometric 45-degree overhead view, interior of a retired Chinese police officer's house in a small town, a standalone single-story house, entering through an iron gate into a small neglected courtyard with unpicked rotting fruit under fruit trees, inside the living room: an old-style sofa with doily covers, a glass coffee table with an elaborate gongfu tea set always brewing, a CRT television playing with no one watching, a retirement group photo hanging on the wall, curtains always drawn casting dim filtered light, the tea set is a prop for the owner's nervous hands, a sense of someone hiding behind performed normalcy, claustrophobic secretive atmosphere, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景08 · 婚礼饭店（室内）——D3专用
+================================================================
+场景编号：SC08
+使用位置：A018_D3婚礼 / B020_D3婚礼 / C017_D3新郎
+功能：D3婚礼核心场景 / 三线交汇 / 刘小红对峙 / 师傅线索
+变体需求：仅一版（D3下午→晚上灯光渐变）
+
+【空间要素·三区域】
+- 正厅：十二张圆桌红桌布，喜字气球，唢呐班舞台
+- 偏房：侧面小房间，旧沙发+啤酒箱（刘小红对话地点）
+- 后屋：厨房旁储物间，奶奶轮椅+氧气瓶
+
+【SC08-A · D3下午 · 婚礼进行中】
+Isometric 45-degree overhead view, a wedding banquet in a small-town Chinese restaurant, twelve round tables with red tablecloths and red double-happiness characters on walls, red balloons and paper streamers, a small stage with a suona horn band performing next to loudspeakers, firecrackers debris scattered on the tile floor, cigarette smoke haze filling the room, one table conspicuously empty on the groom's side with only an elderly man sitting alone, the bride's side packed with loud relatives, a side room visible through a doorway with an old sofa and beer crate boxes where a thin short-haired woman sits alone drinking, in the back a storage room where an elderly woman in a wheelchair sits connected to an oxygen tank hidden from guests, fog visible through the restaurant windows mixing red celebration with white mist outside, chaotic festive atmosphere with undercurrent of secrets, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景09 · 殡仪馆（室内）——D0专用
+================================================================
+场景编号：SC09
+使用位置：A000_D0序章_葬礼 / A002_葬礼
+功能：D0序章·父亲葬礼
+变体需求：仅一版
+
+【SC09-A · D0 · 父亲葬礼】
+Isometric 45-degree overhead view, a small-town Chinese funeral parlor, a simple mourning hall with a single wooden coffin at center surrounded by white paper flower wreaths and white cloth draping, couplet banners with mourning calligraphy, a funeral band performing upbeat northeastern folk music on a small platform creating jarring contrast with death, rows of metal folding chairs mostly empty showing how few friends the deceased had, an older man standing at the entrance greeting sparse arrivals, incense smoke rising from a burner, black and white portrait photo of the deceased on a stand behind the coffin, harsh fluorescent lighting making everything look pale, atmosphere of lonely impoverished death, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景10 · 宏大地产办公室（室内）
+================================================================
+场景编号：SC10
+使用位置：A004_D1遭遇 / A007_D1宏大 / A013_A_D2施压
+功能：D1-D4宏大矛盾线 / 合同场景
+变体需求：白天一版 + D6人去楼空版 = 2
+
+【SC10-A · 白天 · 营业中】
+Isometric 45-degree overhead view, a temporary real estate office in a small northeastern Chinese town, a rented shopfront across from the town government building with "Hongda Real Estate" in red vinyl letters on the glass door, inside: two cheap office desks with stacked printed contracts and calculators, a row of plastic chairs for visitors, wall covered with glossy renderings of urban apartment buildings from distant cities that look completely out of place in this decaying town, a briefcase on one desk, promotional flyers scattered, the temporary transient feel of people who do not plan to stay, bright artificial lighting against dirty windows, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC10-B · D6后 · 人去楼空】
+Isometric 45-degree overhead view, same real estate office but completely abandoned, desks cleared, chairs overturned, the wall renderings torn down leaving tape marks, a single forgotten contract on the floor, the glass door locked with a chain, dust already settling, they left overnight, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景11 · 主街（室外）——核心导航场景
+================================================================
+场景编号：SC11
+使用位置：全线通用（A/B/C线每日多次经过），场景间移动枢纽
+功能：镇子主干道 / 连接所有场景 / 自由行走 / NPC遭遇
+变体需求：白天/傍晚/夜晚 × 无雾/薄雾/浓雾（约4组合，建议动态叠加层）
+
+【空间要素】
+- 南北向水泥路约500米，两侧二三层老旧建筑
+- 路面坑洼，电线杆+褪色横幅（"建设新农村"）
+- 南段：便利店+胡同口
+- 中段：修车铺/面馆/老槐树十字路口
+- 北段：中医馆/镇政府/派出所/宏大办公室
+- 沿街：关门店铺（"旺铺转让"）/墙上小广告/野狗/晒太阳老人
+
+【SC11-A · 白天 · 无雾】
+Isometric 45-degree overhead view, the main street of a small declining northeastern Chinese industrial town, a 500-meter north-south concrete road with potholes and cracks, two to three story grey concrete and brick buildings lining both sides, some shops shuttered with faded "For Lease" signs, utility poles with sagging power lines and a sun-bleached propaganda banner reading "Build a New Countryside", a few elderly people sitting on stools outside doorways, a stray dog trotting down the center of the empty road, scattered small advertisements pasted on walls, a motorcycle parked at an angle, the south end showing burned ruins of a shop, the center a large old locust tree at a T-junction, the north end showing slightly newer buildings including a police station, overcast grey sky typical of northeastern China, atmosphere of post-industrial decline and quiet abandonment, muted grey-blue palette with occasional warm detail, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC11-B · 夜晚 · 浓雾】
+Isometric 45-degree overhead view, same main street at night engulfed in thick fog, visibility reduced to 10 meters, a few streetlights creating isolated cones of hazy orange light in the white fog, building facades dissolving into mist, the road surface wet and reflective, a single figure walking seen only as a dark silhouette, the locust tree at the junction a massive dark shape looming in fog, complete silence implied, deeply unsettling atmosphere where anything could be hiding just out of sight, horror game aesthetic, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC11-C · 傍晚 · 薄雾】
+Isometric 45-degree overhead view, same main street at dusk with thin fog rolling in, puddles in potholes reflecting the amber sky, a few shops closing early with owners pulling down metal shutters, moving trucks parked near houses where families are packing, the locust tree silhouetted against orange sunset behind fog, streetlights flickering on one by one, a sense of the town slowly emptying, transitional anxious atmosphere, warm sunset colors fighting cold fog, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC11-D · D7 · 暴雨】
+Isometric 45-degree overhead view, same main street during heavy torrential rain, puddles everywhere on the potholed road, streetlights dim through sheets of rain, very few people visible, abandoned belongings on sidewalks getting soaked, shuttered shops with "For Lease" signs peeling in the wet, the locust tree battered by wind and rain, a funeral procession visible in the distance heading east, oppressive grey rain-curtain atmosphere, dark grey-green palette, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景12 · 便利店外部+胡同（室外）
+================================================================
+场景编号：SC12
+使用位置：A019_D3夜胡同事件 / A031_D7进入最终对决 / B021_D3夜
+功能：便利店入口 / D3夜胡同强奸事件 / D7进入最终对决
+变体需求：白天 + D3夜特殊版 + D7暴雨版（约3组合）
+
+【SC12-A · 白天】
+Isometric 45-degree overhead view, exterior of a burned-out convenience store on the south end of a small-town main street in northeastern China, a single-story shopfront with a tilted unreadable sign blackened by smoke, two stone steps leading to a doorframe with no door, windows half-bricked up, weeds growing from cracks in the front steps, next to the shop a narrow 2-meter-wide alley between brick walls leading to a dead end with no streetlight, across the street a row of residential buildings where someone used to watch the shop lights every night from a second-floor window, the alley entrance dark even in daylight, atmosphere of urban decay and haunted memory, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC12-B · D3夜 · 胡同事件】
+Isometric 45-degree overhead view, the dark narrow alley beside the burned convenience store at night, 2-meter-wide passage between high brick walls, no streetlight, near total darkness, faint light from the main street at the alley entrance creating a silhouette effect, the dead-end visible in deep shadow, wet ground, high tension crime scene atmosphere, claustrophobic dangerous space, the main street visible at the entrance showing fog and distant dim lights, noir thriller mood, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC12-C · D7 · 暴雨夜】
+Isometric 45-degree overhead view, same convenience store exterior during heavy nighttime rain, rain cascading off the remaining roof edges, the stone steps slick and glistening, water streaming past the doorless entrance, the alley dark with rain echoing between brick walls, from outside the shop interior dimly visible showing a figure standing inside behind the counter silhouette against flickering lantern light, the moment before the final confrontation, ominous and inevitable atmosphere, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景13 · 老槐树广场（室外）
+================================================================
+场景编号：SC13
+使用位置：C008_预言者 / A027_D6预言者死 / B029_D6报案 / C025_D6死讯
+功能：预言者据点 / D6死亡现场 / 镇子记忆象征 / NPC聚集点
+变体需求：白天/傍晚 = 2 + D6特殊版（预言者遗体）= 3
+
+【SC13-A · 白天 · 日常】
+Isometric 45-degree overhead view, a T-junction in a small northeastern Chinese town dominated by a massive hundred-year-old locust tree, its canopy covering half the street in dappled shade, beneath the tree: a weathered wicker armchair with a ceramic mug on the armrest, faded chess grid scratched into the concrete ground where old men gather, a few elderly residents sitting on low stools chatting, surrounding buildings with some windows shuttered indicating families who already moved away, fallen locust pods scattered on the ground, a peaceful gathering place that serves as the town's memory, warm green-filtered light through leaves, nostalgic communal atmosphere, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC13-B · D6 · 预言者之死】
+Isometric 45-degree overhead view, same locust tree plaza but with a crowd gathered around the wicker chair, an elderly woman slumped motionless in the chair as if sleeping but clearly dead, a black walking cane leaning against the chair, a small note folded on her lap, a 1987 steel mill group photo tucked in the chair cushion, some onlookers covering mouths, the town doctor examining her, overcast sky, a few raindrops beginning to fall on the locust leaves, the death of the town's oldest memory, solemn quiet atmosphere, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景14 · 河边堤坝（室外）
+================================================================
+场景编号：SC14
+使用位置：A013_C_散步 / A016_D1表弟 / A023_D5调查 / A027_D6河边 / B018_D2 / C013_D2
+功能：环境叙事 / 钓鱼老人对话 / 散步场景
+变体需求：白天/薄雾/暴雨（约3组合）
+
+【SC14-A · 白天】
+Isometric 45-degree overhead view, a concrete river embankment on the east side of a small northeastern Chinese town, eight stone steps leading down to the water, the river calm and grey under overcast sky, willow trees along the bank with drooping branches touching the water, a dirt path leading back toward town, an old man fishing from the bottom step with a bamboo rod, across the river flat farmland stretching to the horizon, the distant silhouette of an abandoned steel mill smokestack, peaceful but watchful atmosphere, the river as quiet witness, grey-green palette, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC14-B · 薄雾】
+Isometric 45-degree overhead view, same river embankment shrouded in thin fog, the river surface barely visible through mist, willow branches disappearing into white haze, the stone steps fading into fog at the waterline, the dirt path muddy, the farmland across the river invisible behind the fog wall, the steel mill smokestack a ghostly silhouette, the fishing old man absent, quiet eerie solitude, grey-white palette, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC14-C · 暴雨】
+Isometric 45-degree overhead view, same river embankment during heavy rain, the river surface churning with raindrops, willow branches whipping in wind, the stone steps slick and wet, the dirt path turned to mud, rain curtain obscuring the farmland beyond, the steel mill smokestack barely visible through downpour, no one fishing, raw natural force atmosphere, dark grey-brown palette, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景15 · 职高校园+天台（室外）
+================================================================
+场景编号：SC15
+使用位置：C010_PRE_D2天台 / A023_D5门卫 / B025_D5天台搜查
+功能：D2 C线天台场景 / D5门卫翻转点（双胞胎） / WYP观察点
+变体需求：白天/傍晚 = 2 + 雾天版 = 3
+
+【SC15-A · 校园 · 白天】
+Isometric 45-degree overhead view, an abandoned vocational high school campus in a small northeastern Chinese town, a rusted iron gate with a tiny guard booth where an elderly man reads a newspaper, beyond the gate a cracked concrete playground with a bent basketball hoop and a bare flagpole, a four-story grey concrete teaching building with most classroom windows dark and some broken, student graffiti still visible on corridor walls through open windows, weeds growing through concrete cracks, the school atop a slight hill giving it elevation over the town, atmosphere of abandoned youth and institutional decay, overcast sky, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC15-B · 天台 · 傍晚】
+Isometric 45-degree overhead view, the rooftop of a four-story vocational school building at dusk, reached by a metal door from the stairwell now propped open, flat concrete roof with puddles, a low parapet wall around the edges, from this height the entire small town is visible below: the main street running north-south, the burned convenience store at the south end, the old locust tree at the center junction, the repair shop, the police station, and beyond the town the river embankment and distant farmland, the steel mill smokestack in the northwest, wind strong at this height suggested by clothes drying line whipping, the perfect observation point overlooking everything, a sleeping bag and empty bottles in one corner suggesting someone has been living here, orange sunset sky with approaching storm clouds, omniscient vantage point atmosphere, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景16 · 镇东空地（室外）——葬礼场地
+================================================================
+场景编号：SC16
+使用位置：A000_D0葬礼 / A029_D7集体葬礼 / B031_D7葬礼 / C028_D7葬礼旁观
+功能：D0父亲葬礼出发地 / D7集体葬礼
+变体需求：D0版（一口棺材）/ D7版（多口棺材+暴雨）= 2
+
+【SC16-A · D0 · 一口棺材】
+Isometric 45-degree overhead view, an open dirt lot at the east edge of a small northeastern Chinese town, formerly a steel mill loading yard now empty, a simple temporary tent shelter erected with one wooden coffin inside, white paper flower wreaths flanking the coffin, very few folding chairs set up, only a handful of mourners present, a suona horn player performing next to the tent, beyond the lot the river visible in the distance under grey sky, sparse lonely funeral for a man who died with few friends, atmosphere of impoverished solitary death, muted earth tones, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC16-B · D7 · 集体葬礼 · 暴雨】
+Isometric 45-degree overhead view, same open lot but now holding 3 to 8 wooden coffins arranged in rows under multiple tents, white cloth and wreaths everywhere, the entire remaining town population gathered, the suona band playing the same tunes as D0 but now for many dead, heavy rain pouring, the ground muddy with puddles forming between coffins, mourners huddled under umbrellas and plastic sheets, the stark contrast between one coffin at the start and many at the end, the town's collective grief, D0 to D7 bookend, somber overwhelming atmosphere, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景17 · 车站（室外）——D0专用
+================================================================
+场景编号：SC17
+使用位置：A000_D0开场
+功能：D0开场·董点事到达镇上 / 预言者初次登场
+变体需求：仅一版
+
+【SC17-A · D0 · 到达】
+Isometric 45-degree overhead view, a tiny rural bus station in northeastern China, just a corrugated metal shelter roof over two concrete benches on a small paved area beside a national highway, a rusted bus stop sign with the town name barely legible, a schedule board on the shelter wall showing most routes cancelled with red X marks, a single long-distance bus pulling away in the background trailing exhaust, a young man standing with a small bag looking at the empty town road ahead, on one bench an old woman sitting very still watching him with knowing eyes, her hand reaching out as if to grab his wrist, sparse dry weeds along the road edge, the first impression of a dying town, grey desolate arrival atmosphere, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+场景18 · 国道/修车铺外（室外）
+================================================================
+场景编号：SC18
+使用位置：A004_D1遭遇宏大 / A024_D5群架 / A013_D_修车铺外
+功能：修车铺外部环境 / D5群架战场
+变体需求：白天/夜晚 = 2 + D5群架特殊版 = 3
+
+【SC18-A · 白天 · 日常】
+Isometric 45-degree overhead view, a two-lane national highway on the outskirts of a small northeastern Chinese town, the asphalt road stretching in both directions with occasional truck passing, on one side a corrugated metal repair shop shed open to the road showing tires and motorcycles inside, a hand-painted sign reading "Flat Tire Repair" nailed to a post, across the road empty farmland and wasteland, in the far distance the skeletal silhouette of an abandoned steel mill with a single tall smokestack, power lines running along the road, a few weeds growing from road cracks, quiet rural highway atmosphere, wide open and exposed, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+【SC18-B · D5 · 群架】
+Isometric 45-degree overhead view, the road in front of the repair shop during a violent brawl, two groups facing off: on one side the repair shop owner and his friends wielding tire irons and wrenches from the shop, on the other side men in black gloves and dark jackets swinging wooden clubs, the repair shop entrance behind the defenders, scattered tools and broken items on the ground, some combatants grappling, tense violent confrontation in an otherwise quiet rural setting, dust kicked up from the fight, dynamic action composition, detailed game environment concept art --ar 16:9 --s 750 --v 6.1
+
+
+================================================================
+附录：场景制作优先级
+================================================================
+
+P0（必须精细制作）：
+  SC01 便利店废墟（~4变体）
+  SC11 主街（~4变体，建议动态叠加层）
+  SC02 修车铺+叔叔家（~4变体）
+  SC03 派出所（~4变体）
+  SC04 中医馆+王家（~3变体）
+
+P1（重要但可适当简化）：
+  SC12 便利店外+胡同（~3变体）
+  SC14 河边堤坝（~3变体）
+  SC08 婚礼饭店（1变体）
+  SC15 职高+天台（3变体）
+
+P2（功能性场景）：
+  SC05 县医院（2变体）
+  SC06 面馆（2变体）
+  SC07 陈国涛家（2变体）
+  SC13 老槐树广场（3变体）
+
+P3（一次性/简单）：
+  SC09 殡仪馆（1变体）
+  SC10 宏大办公室（2变体）
+  SC16 镇东空地（2变体）
+  SC17 车站（1变体）
+  SC18 国道/修车铺外（3变体）
+
+================================================================
+变体总量：约45个场景变体
+主街+便利店外建议用动态叠加系统（雾层/光照层/NPC层分离）
+其余场景用预制变体即可
+================================================================

@@ -1,0 +1,181 @@
+{
+  "date": "2026-09-20",
+  "results": [
+    {
+      "width": 1440,
+      "node": "greeting",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "greeting-memory",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "greeting-question",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "background",
+      "lineCount": 1,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "value",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "fear",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "warning",
+      "lineCount": 9,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "doubt",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "alive",
+      "lineCount": 1,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "dont-turn-left",
+      "lineCount": 1,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "shadow-intro",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 1440,
+      "node": "shadow",
+      "lineCount": 3,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "greeting",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "greeting-memory",
+      "lineCount": 3,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "greeting-question",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "background",
+      "lineCount": 1,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "value",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "fear",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "warning",
+      "lineCount": 9,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "doubt",
+      "lineCount": 3,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "alive",
+      "lineCount": 1,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "dont-turn-left",
+      "lineCount": 1,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "shadow-intro",
+      "lineCount": 2,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    },
+    {
+      "width": 844,
+      "node": "shadow",
+      "lineCount": 3,
+      "exactSourcePreserved": true,
+      "oneLineAndCentered": true
+    }
+  ],
+  "screens": [],
+  "storage": "isolated memory; real player data untouched",
+  "audio": "silent",
+  "transport": "fixed work Google Chrome direct CDP",
+  "electronWindowVerified": false,
+  "humanReview": "pending",
+  "font": "SimSun; provisional default, no explicit user font selection yet",
+  "advance": "click/Space/Enter; no automatic timer"
+}

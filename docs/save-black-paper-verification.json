@@ -1,0 +1,228 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "task-created page; isolated memory fixtures; real saves untouched",
+  "dedicatedImage": true,
+  "blankBlackPaperAsset": "assets/evidence-ticket-black-paper-v1.png",
+  "sixSlotsReachable": true,
+  "loadAndReturn": true,
+  "savedDataUnchanged": true,
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-black-paper-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 395.64581298828125,
+        "y": 97.74977111816406,
+        "width": 593.9427490234375,
+        "height": 93.20358276367188
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 136.797,
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 136.797,
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 136.797,
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 136.797,
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "background": "radial-gradient(circle at 15.12px 11.808px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 35.28px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 58.752px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 55.296px, rgba(138, 64, 59, 0.56) 55.872px, rgba(138, 64, 59, 0.56) 57.024px, rgba(0, 0, 0, 0) 57.6px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 10.656px, rgba(82, 110, 124, 0.173) 11.088px, rgba(82, 110, 124, 0.173) 11.952px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "blackPaper": "none",
+          "blackPaperHeight": 19.4375,
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "background": "radial-gradient(circle at 15.12px 11.808px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 35.28px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), radial-gradient(circle at 15.12px 58.752px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.44px, rgb(196, 184, 157) 1.584px, rgb(196, 184, 157) 2.88px, rgba(0, 0, 0, 0) 3.024px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 55.296px, rgba(138, 64, 59, 0.56) 55.872px, rgba(138, 64, 59, 0.56) 57.024px, rgba(0, 0, 0, 0) 57.6px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 10.656px, rgba(82, 110, 124, 0.173) 11.088px, rgba(82, 110, 124, 0.173) 11.952px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "blackPaper": "none",
+          "blackPaperHeight": 19.4375,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-black-paper-1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 527.5328979492188,
+        "y": 130.33297729492188,
+        "width": 791.9342651367188,
+        "height": 124.28717041015625
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 182.391,
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 182.391,
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 182.391,
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 182.391,
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "background": "radial-gradient(circle at 20.16px 15.744px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.92px, rgb(196, 184, 157) 2.112px, rgb(196, 184, 157) 3.84px, rgba(0, 0, 0, 0) 4.032px), radial-gradient(circle at 20.16px 47.04px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.92px, rgb(196, 184, 157) 2.112px, rgb(196, 184, 157) 3.84px, rgba(0, 0, 0, 0) 4.032px), radial-gradient(circle at 20.16px 78.336px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.92px, rgb(196, 184, 157) 2.112px, rgb(196, 184, 157) 3.84px, rgba(0, 0, 0, 0) 4.032px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 73.728px, rgba(138, 64, 59, 0.56) 74.496px, rgba(138, 64, 59, 0.56) 76.032px, rgba(0, 0, 0, 0) 76.8px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 14.208px, rgba(82, 110, 124, 0.173) 14.784px, rgba(82, 110, 124, 0.173) 15.936px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "blackPaper": "none",
+          "blackPaperHeight": 25.9219,
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "background": "radial-gradient(circle at 20.16px 15.744px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.92px, rgb(196, 184, 157) 2.112px, rgb(196, 184, 157) 3.84px, rgba(0, 0, 0, 0) 4.032px), radial-gradient(circle at 20.16px 47.04px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.92px, rgb(196, 184, 157) 2.112px, rgb(196, 184, 157) 3.84px, rgba(0, 0, 0, 0) 4.032px), radial-gradient(circle at 20.16px 78.336px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 1.92px, rgb(196, 184, 157) 2.112px, rgb(196, 184, 157) 3.84px, rgba(0, 0, 0, 0) 4.032px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 73.728px, rgba(138, 64, 59, 0.56) 74.496px, rgba(138, 64, 59, 0.56) 76.032px, rgba(0, 0, 0, 0) 76.8px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 14.208px, rgba(82, 110, 124, 0.173) 14.784px, rgba(82, 110, 124, 0.173) 15.936px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "blackPaper": "none",
+          "blackPaperHeight": 25.9219,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-black-paper-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 231.8953399658203,
+        "y": 57.41657638549805,
+        "width": 348.11553955078125,
+        "height": 54.61996841430664
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 80.1719,
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 80.1719,
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 80.1719,
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "background": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-v2.png\")",
+          "blackPaper": "url(\"http://127.0.0.1:5173/assets/evidence-ticket-black-paper-v1.png\")",
+          "blackPaperHeight": 80.1719,
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "background": "radial-gradient(circle at 8.862px 6.9208px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.844px, rgb(196, 184, 157) 0.9284px, rgb(196, 184, 157) 1.688px, rgba(0, 0, 0, 0) 1.7724px), radial-gradient(circle at 8.862px 20.678px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.844px, rgb(196, 184, 157) 0.9284px, rgb(196, 184, 157) 1.688px, rgba(0, 0, 0, 0) 1.7724px), radial-gradient(circle at 8.862px 34.4352px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.844px, rgb(196, 184, 157) 0.9284px, rgb(196, 184, 157) 1.688px, rgba(0, 0, 0, 0) 1.7724px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 32.4096px, rgba(138, 64, 59, 0.56) 32.7472px, rgba(138, 64, 59, 0.56) 33.4224px, rgba(0, 0, 0, 0) 33.76px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 6.2456px, rgba(82, 110, 124, 0.173) 6.4988px, rgba(82, 110, 124, 0.173) 7.0052px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "blackPaper": "none",
+          "blackPaperHeight": 11.3906,
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "background": "radial-gradient(circle at 8.862px 6.9208px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.844px, rgb(196, 184, 157) 0.9284px, rgb(196, 184, 157) 1.688px, rgba(0, 0, 0, 0) 1.7724px), radial-gradient(circle at 8.862px 20.678px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.844px, rgb(196, 184, 157) 0.9284px, rgb(196, 184, 157) 1.688px, rgba(0, 0, 0, 0) 1.7724px), radial-gradient(circle at 8.862px 34.4352px, rgb(75, 71, 62) 0px, rgb(75, 71, 62) 0.844px, rgb(196, 184, 157) 0.9284px, rgb(196, 184, 157) 1.688px, rgba(0, 0, 0, 0) 1.7724px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 32.4096px, rgba(138, 64, 59, 0.56) 32.7472px, rgba(138, 64, 59, 0.56) 33.4224px, rgba(0, 0, 0, 0) 33.76px), repeating-linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 6.2456px, rgba(82, 110, 124, 0.173) 6.4988px, rgba(82, 110, 124, 0.173) 7.0052px), linear-gradient(103deg, rgb(213, 203, 180), rgb(195, 183, 159) 48%, rgb(209, 198, 173) 78%, rgb(183, 171, 148))",
+          "blackPaper": "none",
+          "blackPaperHeight": 11.3906,
+          "reachable": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "visualAcceptance": "pending user review"
+}

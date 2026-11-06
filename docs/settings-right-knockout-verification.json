@@ -1,0 +1,1462 @@
+{
+  "transport": "fixed work Google Chrome, direct CDP 9223; unique background test target",
+  "storage": "isolated in-memory store, real player data untouched",
+  "audio": "real graph with silent test output",
+  "checks": [
+    "Approved action stamps, left labels and form placement match the previous CSS",
+    "1440: every visible control is inside the game and receives clicks",
+    "1440: all ten controls use borderless red fields and uninked text with distinct selection marks",
+    "1440: all four numeric fields are borderless red with complete uninked digits",
+    "1440: parent multiply lets uninked glyphs show the paper",
+    "1440: shared film remains enabled",
+    "1058: every visible control is inside the game and receives clicks",
+    "1058: all ten controls use borderless red fields and uninked text with distinct selection marks",
+    "1058: all four numeric fields are borderless red with complete uninked digits",
+    "1058: parent multiply lets uninked glyphs show the paper",
+    "1058: shared film remains enabled",
+    "844: every visible control is inside the game and receives clicks",
+    "844: all ten controls use borderless red fields and uninked text with distinct selection marks",
+    "844: all four numeric fields are borderless red with complete uninked digits",
+    "844: parent multiply lets uninked glyphs show the paper",
+    "844: shared film remains enabled",
+    "data-mode choice 自动窗口",
+    "data-mode choice 手动窗口",
+    "data-mode choice 全屏模式",
+    "data-quality choice performance",
+    "data-quality choice balanced",
+    "data-quality choice enhanced",
+    "button[data-film-toggle] mouse toggles state and ink mark",
+    "button[data-film-toggle] keyboard restores state",
+    "button[data-film-motion] mouse toggles state and ink mark",
+    "button[data-film-motion] keyboard restores state",
+    "[data-game-toggle=name] mouse toggles state and ink mark",
+    "[data-game-toggle=name] keyboard restores state",
+    "[data-game-toggle=replay] mouse toggles state and ink mark",
+    "[data-game-toggle=replay] keyboard restores state",
+    "[data-film-strength] keyboard reaches both limits and displays values",
+    "[data-audio-channel=voice] keyboard reaches both limits and displays values",
+    "[data-audio-channel=music] keyboard reaches both limits and displays values",
+    "[data-audio-channel=sound] keyboard reaches both limits and displays values",
+    "Restore previews defaults without writing changes",
+    "Volume track receives real pointer input",
+    "Apply saves the selected value",
+    "Saved settings survive returning and reopening",
+    "Record library hides settings stamps",
+    "Return restores the form and applied value",
+    "Reduced motion disables stamp transitions",
+    "Unrelated player data remains intact in the isolated test store",
+    "No JavaScript errors"
+  ],
+  "errors": [],
+  "screenshots": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\settings-right-knockout-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\settings-right-knockout-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\settings-right-knockout-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\settings-right-knockout-keyboard-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "controls": [
+        {
+          "name": "返回",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "音乐库",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "人物档案",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "自动窗口",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "手动窗口",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "全屏模式",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "性能",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "平衡",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "增强",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "老动画胶片",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "胶片强度",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "胶片动态",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "语音音量",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "音乐音量",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "音效音量",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "默认称呼",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "重播剧情",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "恢复默认",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "应用设置",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        }
+      ],
+      "stamps": [
+        {
+          "name": "自动窗口",
+          "width": 163.63302612304688,
+          "font": "19.008px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "手动窗口",
+          "width": 163.4111328125,
+          "font": "19.008px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "全屏模式",
+          "width": 163.222900390625,
+          "font": "19.008px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "性能",
+          "width": 119.00216674804688,
+          "font": "19.008px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "平衡",
+          "width": 118.77606201171875,
+          "font": "19.008px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "增强",
+          "width": 118.5850830078125,
+          "font": "19.008px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "开启",
+          "width": 77.38351440429688,
+          "font": "16.704px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "动态开",
+          "width": 96.6416015625,
+          "font": "16.704px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "关闭",
+          "width": 77.383544921875,
+          "font": "16.704px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "关闭",
+          "width": 77.383544921875,
+          "font": "16.704px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        }
+      ],
+      "film": "on"
+    },
+    {
+      "viewport": [
+        1058,
+        595
+      ],
+      "controls": [
+        {
+          "name": "返回",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "音乐库",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "人物档案",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "自动窗口",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "手动窗口",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "全屏模式",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "性能",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "平衡",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "增强",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "老动画胶片",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "胶片强度",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "胶片动态",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "语音音量",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "音乐音量",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "音效音量",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "默认称呼",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "重播剧情",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "恢复默认",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "应用设置",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        }
+      ],
+      "stamps": [
+        {
+          "name": "自动窗口",
+          "width": 120.18707275390625,
+          "font": "13.9625px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "手动窗口",
+          "width": 120.024169921875,
+          "font": "13.9625px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "全屏模式",
+          "width": 119.8858642578125,
+          "font": "13.9625px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "性能",
+          "width": 87.41299438476562,
+          "font": "13.9625px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "平衡",
+          "width": 87.2469482421875,
+          "font": "13.9625px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "增强",
+          "width": 87.106689453125,
+          "font": "13.9625px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "开启",
+          "width": 56.361083984375,
+          "font": "12.2701px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "动态开",
+          "width": 70.2939453125,
+          "font": "12.2701px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "关闭",
+          "width": 56.361083984375,
+          "font": "12.2701px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "关闭",
+          "width": 56.361083984375,
+          "font": "12.2701px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        }
+      ],
+      "film": "on"
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "controls": [
+        {
+          "name": "返回",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "音乐库",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "人物档案",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "自动窗口",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "手动窗口",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "全屏模式",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "性能",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "平衡",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "增强",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "老动画胶片",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "胶片强度",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "胶片动态",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "语音音量",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "音乐音量",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "音效音量",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "默认称呼",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "重播剧情",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "恢复默认",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        },
+        {
+          "name": "应用设置",
+          "hit": true,
+          "inside": true,
+          "overflow": false
+        }
+      ],
+      "stamps": [
+        {
+          "name": "自动窗口",
+          "width": 95.89508056640625,
+          "font": "11.1408px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "手动窗口",
+          "width": 95.76507568359375,
+          "font": "11.1408px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "全屏模式",
+          "width": 95.65478515625,
+          "font": "11.1408px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "性能",
+          "width": 69.74456787109375,
+          "font": "11.1408px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "平衡",
+          "width": 69.612060546875,
+          "font": "11.1408px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "增强",
+          "width": 69.500244140625,
+          "font": "11.1408px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "开启",
+          "width": 44.2161865234375,
+          "font": "9.7904px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "动态开",
+          "width": 54.9407958984375,
+          "font": "9.7904px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(124, 37, 31)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": true,
+          "tick": "visible"
+        },
+        {
+          "name": "关闭",
+          "width": 44.2161865234375,
+          "font": "9.7904px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        },
+        {
+          "name": "关闭",
+          "width": 44.2161865234375,
+          "font": "9.7904px",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "border": "0px",
+          "inner": "0px",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "selected": false,
+          "tick": "hidden"
+        }
+      ],
+      "film": "on"
+    }
+  ],
+  "protectedBefore": [
+    {
+      "selector": ".settings-board-actions",
+      "items": [
+        {
+          "text": "恢复默认\n        应用设置",
+          "color": "rgb(36, 35, 31)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "none",
+          "mixBlendMode": "normal",
+          "font": "\"Microsoft YaHei UI\", \"PingFang SC\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "border": "0px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            409.34375,
+            558.5,
+            33.3125
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-board-actions [data-reset-settings]",
+      "items": [
+        {
+          "text": "恢复默认",
+          "color": "rgb(150, 47, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "SimSun, \"Songti SC\", serif",
+          "fontSize": "16.3954px",
+          "fontWeight": "700",
+          "border": "1px",
+          "inner": "1px",
+          "transform": "matrix(0.999507, -0.0314108, 0.0314108, 0.999507, 0, 0)",
+          "bounds": [
+            365.6024169921875,
+            407.3252258300781,
+            130.029541015625,
+            37.34954833984375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-board-actions [data-save-settings]",
+      "items": [
+        {
+          "text": "应用设置",
+          "color": "rgb(150, 47, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "SimSun, \"Songti SC\", serif",
+          "fontSize": "16.3954px",
+          "fontWeight": "700",
+          "border": "1px",
+          "inner": "1px",
+          "transform": "matrix(0.999701, 0.0244322, -0.0244322, 0.999701, 0, 0)",
+          "bounds": [
+            547.6279296875,
+            407.77227783203125,
+            129.822265625,
+            36.4554443359375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-case-stamp",
+      "items": [
+        {
+          "text": "未查明凶手",
+          "color": "rgb(150, 47, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "SimSun, \"Songti SC\", serif",
+          "fontSize": "21.1553px",
+          "fontWeight": "700",
+          "border": "1px",
+          "inner": "1px",
+          "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, 0, 0)",
+          "bounds": [
+            757.1980590820312,
+            42.12974548339844,
+            193.0726318359375,
+            73.33425903320312
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-sheet-heading h1",
+      "items": [
+        {
+          "text": "环境设置",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "20.0975px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "matrix(0.999848, -0.0174524, 0.0174524, 0.999848, 0, 0)",
+          "bounds": [
+            242.0448455810547,
+            94.16963195800781,
+            117.50407409667969,
+            35.520111083984375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-sheet-row h2",
+      "items": [
+        {
+          "text": "窗口模式",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            145.015625,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "画面效果",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            183.09375,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "老动画胶片",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            221.171875,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "剧情设置",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            373.484375,
+            90.953125,
+            29.609375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-row-label",
+      "items": [
+        {
+          "text": "语音音量",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            259.25,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "音乐音量",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            297.328125,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "音效音量",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            335.40625,
+            90.953125,
+            29.609375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-art-backdrop",
+      "items": []
+    },
+    {
+      "selector": ".settings-dossier-form",
+      "items": [
+        {
+          "text": "环境设置\n            \n            ",
+          "color": "rgb(150, 47, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "none",
+          "mixBlendMode": "multiply",
+          "font": "\"Microsoft YaHei UI\", \"PingFang SC\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "border": "0px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            95.1875,
+            558.5,
+            359.625
+          ]
+        }
+      ]
+    }
+  ],
+  "protectedAfter": [
+    {
+      "selector": ".settings-board-actions",
+      "items": [
+        {
+          "text": "恢复默认\n        应用设置",
+          "color": "rgb(36, 35, 31)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "none",
+          "mixBlendMode": "normal",
+          "font": "\"Microsoft YaHei UI\", \"PingFang SC\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "border": "0px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            409.34375,
+            558.5,
+            33.3125
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-board-actions [data-reset-settings]",
+      "items": [
+        {
+          "text": "恢复默认",
+          "color": "rgb(150, 47, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "SimSun, \"Songti SC\", serif",
+          "fontSize": "16.3954px",
+          "fontWeight": "700",
+          "border": "1px",
+          "inner": "1px",
+          "transform": "matrix(0.999507, -0.0314108, 0.0314108, 0.999507, 0, 0)",
+          "bounds": [
+            365.6024169921875,
+            407.3252258300781,
+            130.029541015625,
+            37.34954833984375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-board-actions [data-save-settings]",
+      "items": [
+        {
+          "text": "应用设置",
+          "color": "rgb(150, 47, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "SimSun, \"Songti SC\", serif",
+          "fontSize": "16.3954px",
+          "fontWeight": "700",
+          "border": "1px",
+          "inner": "1px",
+          "transform": "matrix(0.999701, 0.0244322, -0.0244322, 0.999701, 0, 0)",
+          "bounds": [
+            547.6279296875,
+            407.77227783203125,
+            129.822265625,
+            36.4554443359375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-case-stamp",
+      "items": [
+        {
+          "text": "未查明凶手",
+          "color": "rgb(150, 47, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "SimSun, \"Songti SC\", serif",
+          "fontSize": "21.1553px",
+          "fontWeight": "700",
+          "border": "1px",
+          "inner": "1px",
+          "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, 0, 0)",
+          "bounds": [
+            757.1980590820312,
+            42.12974548339844,
+            193.0726318359375,
+            73.33425903320312
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-sheet-heading h1",
+      "items": [
+        {
+          "text": "环境设置",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "20.0975px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "matrix(0.999848, -0.0174524, 0.0174524, 0.999848, 0, 0)",
+          "bounds": [
+            242.0448455810547,
+            94.16963195800781,
+            117.50407409667969,
+            35.520111083984375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-sheet-row h2",
+      "items": [
+        {
+          "text": "窗口模式",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            145.015625,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "画面效果",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            183.09375,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "老动画胶片",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            221.171875,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "剧情设置",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            373.484375,
+            90.953125,
+            29.609375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-row-label",
+      "items": [
+        {
+          "text": "语音音量",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            259.25,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "音乐音量",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            297.328125,
+            90.953125,
+            29.609375
+          ]
+        },
+        {
+          "text": "音效音量",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(150, 47, 39)",
+          "image": "none",
+          "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+          "mixBlendMode": "multiply",
+          "font": "KaiTi, STKaiti, SimSun, \"Songti SC\", serif",
+          "fontSize": "13.5394px",
+          "fontWeight": "400",
+          "border": "1px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            335.40625,
+            90.953125,
+            29.609375
+          ]
+        }
+      ]
+    },
+    {
+      "selector": ".settings-art-backdrop",
+      "items": []
+    },
+    {
+      "selector": ".settings-dossier-form",
+      "items": [
+        {
+          "text": "环境设置\n            \n            ",
+          "color": "rgb(150, 47, 39)",
+          "background": "rgba(0, 0, 0, 0)",
+          "image": "none",
+          "mask": "none",
+          "mixBlendMode": "multiply",
+          "font": "\"Microsoft YaHei UI\", \"PingFang SC\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "border": "0px",
+          "inner": "0px",
+          "transform": "none",
+          "bounds": [
+            242.328125,
+            95.1875,
+            558.5,
+            359.625
+          ]
+        }
+      ]
+    }
+  ],
+  "humanArtReview": "rejected by user: red fields feel too heavy; restore the previous bordered design",
+  "electronWindowVerified": false,
+  "change": "14 right-side settings controls: borderless red ink fields, paper-revealing knockout text and selected ticks",
+  "build": "npm run build passed",
+  "visualReview": "1440, 1058, and 844 game-only captures inspected: no frame strokes; complete text and selected marks",
+  "reusedQa": "Existing scripts/qa-settings-button-world-cdp.py with in-memory expectations updated for borderless knockout controls; original historical script unchanged",
+  "backup": ".local/app-before-settings-right-knockout-20260914.css",
+  "supersededBy": "settings-borders-restored-verification.json"
+}

@@ -1,0 +1,368 @@
+{
+  "checks": [
+    "Accepted paper shadows and orange refraction are unchanged",
+    "1058 True: projection grows progressively toward lower-left",
+    "1058 True: warm tint is subtle and the original black shadow remains",
+    "1058 False: projection grows progressively toward lower-left",
+    "1058 False: warm tint is subtle and the original black shadow remains",
+    "1058: playback controls remain reachable",
+    "1440 True: projection grows progressively toward lower-left",
+    "1440 True: warm tint is subtle and the original black shadow remains",
+    "1440 False: projection grows progressively toward lower-left",
+    "1440 False: warm tint is subtle and the original black shadow remains",
+    "1440: playback controls remain reachable",
+    "844 True: projection grows progressively toward lower-left",
+    "844 True: warm tint is subtle and the original black shadow remains",
+    "844 False: projection grows progressively toward lower-left",
+    "844 False: warm tint is subtle and the original black shadow remains",
+    "844: playback controls remain reachable",
+    "Resume still drives actual audio",
+    "Return restores settings",
+    "Player data stays untouched"
+  ],
+  "before": {
+    "samples": [
+      {
+        "name": "near",
+        "x": 456.6814827826318,
+        "y": 195.8174577106863,
+        "w": 0.99999957965,
+        "widthScale": 0.6198350886785652
+      },
+      {
+        "name": "middle",
+        "x": 425.9308990634494,
+        "y": 250.51332136397107,
+        "w": 0.91976005935,
+        "widthScale": 0.7266654634515054
+      },
+      {
+        "name": "far",
+        "x": 251.5867225713927,
+        "y": 321.2057082790211,
+        "w": 0.6377063731874999,
+        "widthScale": 1.5237875021725642
+      }
+    ],
+    "corners": [
+      0.363302123,
+      0.879071573,
+      1.3029194605,
+      0.7871500105
+    ],
+    "transform": "matrix3d(0.612514, 0.0835572, -0.480216, 0.00168145, 0.675336, -0.476078, -0.529469, 0.0018539, 0.619164, -0.00583712, 0.788011, -0.00275917, -1.26932, 2.11553, 0, 1)",
+    "origin": "148.774px 208.506px",
+    "filter": "brightness(0) drop-shadow(rgba(180, 118, 59, 0.27) -0.740436px 0.528883px 1.48087px) blur(3.1733px)",
+    "opacity": "0.72",
+    "playing": true
+  },
+  "measurements": [
+    {
+      "viewport": [
+        1058,
+        595
+      ],
+      "samples": [
+        {
+          "name": "near",
+          "x": 456.6814827826318,
+          "y": 195.8174577106863,
+          "w": 0.99999957965,
+          "widthScale": 0.6198350886785652
+        },
+        {
+          "name": "middle",
+          "x": 425.9308990634494,
+          "y": 250.51332136397107,
+          "w": 0.91976005935,
+          "widthScale": 0.7266654634515054
+        },
+        {
+          "name": "far",
+          "x": 251.5867225713927,
+          "y": 321.2057082790211,
+          "w": 0.6377063731874999,
+          "widthScale": 1.5237875021725642
+        }
+      ],
+      "corners": [
+        0.363302123,
+        0.879071573,
+        1.3029194605,
+        0.7871500105
+      ],
+      "transform": "matrix3d(0.612514, 0.0835572, -0.480216, 0.00168145, 0.675336, -0.476078, -0.529469, 0.0018539, 0.619164, -0.00583712, 0.788011, -0.00275917, -1.26932, 2.11553, 0, 1)",
+      "origin": "148.774px 208.506px",
+      "filter": "brightness(0) drop-shadow(rgba(180, 118, 59, 0.27) -0.740436px 0.528883px 1.48087px) blur(3.1733px)",
+      "opacity": "0.72",
+      "playing": true
+    },
+    {
+      "viewport": [
+        1058,
+        595
+      ],
+      "samples": [
+        {
+          "name": "near",
+          "x": 460.9949804844952,
+          "y": 217.21622712681557,
+          "w": 0.99999958695,
+          "widthScale": 0.7037575077540489
+        },
+        {
+          "name": "middle",
+          "x": 422.9240493001706,
+          "y": 292.69389366355426,
+          "w": 0.8946761552,
+          "widthScale": 0.8663633808743125
+        },
+        {
+          "name": "far",
+          "x": 205.718770628884,
+          "y": 414.51014455149624,
+          "w": 0.5972771136499999,
+          "widthScale": 1.9571499026131494
+        }
+      ],
+      "corners": [
+        0.3157491804,
+        0.8225615304,
+        1.3033141804000001,
+        0.7965018304
+      ],
+      "transform": "matrix3d(0.668982, 0.146215, -0.541782, 0.00165224, 0.851431, -0.546635, -0.689541, 0.00210285, 0.651249, -0.0381296, 0.788011, -0.00240315, -14.8087, 15.8665, 0, 1)",
+      "origin": "148.774px 208.506px",
+      "filter": "brightness(0) drop-shadow(rgba(180, 118, 59, 0.27) -1.05777px 0.846213px 2.11553px) blur(5.28883px)",
+      "opacity": "0.55",
+      "playing": false
+    },
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "samples": [
+        {
+          "name": "near",
+          "x": 621.5574857420074,
+          "y": 266.5863846843338,
+          "w": 1.000000111159,
+          "widthScale": 0.6198336363546327
+        },
+        {
+          "name": "middle",
+          "x": 579.691594025866,
+          "y": 341.04946647532665,
+          "w": 0.9197556620992,
+          "widthScale": 0.7266725595004827
+        },
+        {
+          "name": "far",
+          "x": 342.33951014612086,
+          "y": 437.29238626123777,
+          "w": 0.637697822722,
+          "widthScale": 1.5238296763461034
+        }
+      ],
+      "corners": [
+        0.36329094370000004,
+        0.8790612931,
+        1.3029215431,
+        0.7871511937
+      ],
+      "transform": "matrix3d(0.612514, 0.0835572, -0.480216, 0.00123512, 0.675336, -0.476078, -0.529469, 0.0013618, 0.619164, -0.00583712, 0.788011, -0.00202678, -1.728, 2.88, 0, 1)",
+      "origin": "202.533px 283.86px",
+      "filter": "brightness(0) drop-shadow(rgba(180, 118, 59, 0.27) -1.008px 0.72px 2.016px) blur(4.32px)",
+      "opacity": "0.72",
+      "playing": true
+    },
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "samples": [
+        {
+          "name": "near",
+          "x": 627.4303003274376,
+          "y": 295.717787126042,
+          "w": 1.000000109224,
+          "widthScale": 0.7037552895949292
+        },
+        {
+          "name": "middle",
+          "x": 575.5981072693693,
+          "y": 398.47355548722055,
+          "w": 0.8946712785712,
+          "widthScale": 0.8663685790955342
+        },
+        {
+          "name": "far",
+          "x": 279.8994894272125,
+          "y": 564.313464625729,
+          "w": 0.597276783742,
+          "widthScale": 1.9571350945199697
+        }
+      ],
+      "corners": [
+        0.31575579519999997,
+        0.8225478736,
+        1.3033046235999999,
+        0.7965125451999999
+      ],
+      "transform": "matrix3d(0.668982, 0.146215, -0.541782, 0.00121367, 0.851431, -0.546635, -0.689541, 0.00154467, 0.651249, -0.0381296, 0.788011, -0.00176526, -20.16, 21.6, 0, 1)",
+      "origin": "202.533px 283.86px",
+      "filter": "brightness(0) drop-shadow(rgba(180, 118, 59, 0.27) -1.44px 1.152px 2.88px) blur(7.2px)",
+      "opacity": "0.55",
+      "playing": false
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "samples": [
+        {
+          "name": "near",
+          "x": 364.2985834696698,
+          "y": 156.36975150363702,
+          "w": 0.9999991571926,
+          "widthScale": 0.6198366209505176
+        },
+        {
+          "name": "middle",
+          "x": 339.76138773867166,
+          "y": 200.01188539204708,
+          "w": 0.9197617625000001,
+          "widthScale": 0.7266693682314458
+        },
+        {
+          "name": "far",
+          "x": 200.65410549655877,
+          "y": 256.4172686330082,
+          "w": 0.6377130285379999,
+          "widthScale": 1.5237812926158765
+        }
+      ],
+      "corners": [
+        0.3633133261999999,
+        0.8790750012,
+        1.302914276,
+        0.787152601
+      ],
+      "transform": "matrix3d(0.612514, 0.0835572, -0.480216, 0.00210732, 0.675336, -0.476078, -0.529469, 0.00232345, 0.619164, -0.00583712, 0.788011, -0.00345801, -1.0128, 1.688, 0, 1)",
+      "origin": "118.704px 166.369px",
+      "filter": "brightness(0) drop-shadow(rgba(180, 118, 59, 0.27) -0.5908px 0.422px 1.1816px) blur(2.532px)",
+      "opacity": "0.72",
+      "playing": true
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "samples": [
+        {
+          "name": "near",
+          "x": 367.74034567008516,
+          "y": 173.44381755985728,
+          "w": 0.9999991239106,
+          "widthScale": 0.7037595977232612
+        },
+        {
+          "name": "middle",
+          "x": 337.3618418883773,
+          "y": 233.66832270563623,
+          "w": 0.8946731891,
+          "widthScale": 0.8663736415453565
+        },
+        {
+          "name": "far",
+          "x": 164.05360777972183,
+          "y": 330.8669080106978,
+          "w": 0.597275881778,
+          "widthScale": 1.9571779741486255
+        }
+      ],
+      "corners": [
+        0.31575076459999996,
+        0.8225545895999999,
+        1.3033095284,
+        0.7965057034
+      ],
+      "transform": "matrix3d(0.668982, 0.146215, -0.541782, 0.00207072, 0.851431, -0.546635, -0.689541, 0.00263546, 0.651249, -0.0381296, 0.788011, -0.00301181, -11.816, 12.66, 0, 1)",
+      "origin": "118.704px 166.369px",
+      "filter": "brightness(0) drop-shadow(rgba(180, 118, 59, 0.27) -0.844px 0.6752px 1.688px) blur(4.22px)",
+      "opacity": "0.55",
+      "playing": false
+    }
+  ],
+  "screenshots": [
+    "E:\\东北迪斯科\\docs\\record-shadow-perspective-before-1058.png",
+    "E:\\东北迪斯科\\docs\\record-shadow-perspective-playing-1058.png",
+    "E:\\东北迪斯科\\docs\\record-shadow-perspective-raised-1058.png",
+    "E:\\东北迪斯科\\docs\\record-shadow-perspective-playing-1440.png",
+    "E:\\东北迪斯科\\docs\\record-shadow-perspective-raised-1440.png",
+    "E:\\东北迪斯科\\docs\\record-shadow-perspective-playing-844.png",
+    "E:\\东北迪斯科\\docs\\record-shadow-perspective-raised-844.png"
+  ],
+  "transport": "Fixed work Chrome, direct target-specific CDP; isolated memory and silent audio",
+  "humanArtReview": "pending",
+  "electronWindowVerified": false,
+  "request": "Projection must grow progressively toward the image lower-left; the previous uniform affine shadow looked false",
+  "build": "npm run build passed",
+  "visualReview": "1058 playing and raised-needle captures plus 844 playing inspected; paper lighting retained and bright orange rim suppressed",
+  "farToNearWidthScale": [
+    {
+      "viewport": [
+        1058,
+        595
+      ],
+      "playing": true,
+      "ratio": 2.458375671214657
+    },
+    {
+      "viewport": [
+        1058,
+        595
+      ],
+      "playing": false,
+      "ratio": 2.781000388698005
+    },
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "playing": true,
+      "ratio": 2.4584494725198436
+    },
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "playing": false,
+      "ratio": 2.780988112567462
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "playing": true,
+      "ratio": 2.4583595759139922
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "playing": false,
+      "ratio": 2.7810320178656305
+    }
+  ],
+  "geometryNote": "Widths compare equal source-image horizontal segments. Coordinates are normalized by homogeneous w before the parent transform; measurements follow an actual screenshot render to avoid stale transition state.",
+  "backup": ".local/music-library-before-projective-shadow-20260914.css"
+}

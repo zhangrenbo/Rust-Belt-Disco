@@ -1,0 +1,149 @@
+{
+  "transport": "fixed work Chrome direct CDP 9223; task target only",
+  "browser": "Chrome/152.0.7977.83",
+  "storage": "isolated per-page memory; persisted mute seeded from previous applied settings",
+  "verification": "live Web Audio output measured after master gain; does not verify physical speakers",
+  "visibilityTest": "synthetic visibility event in task page; real tabs untouched",
+  "pageErrors": [],
+  "measurements": [
+    {
+      "step": "main-menu-audible",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.5400000214576721,
+      "rms": 0.0019518112126047345,
+      "sourcesCreated": 1,
+      "durations": [
+        50.5263125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "settings-zero-is-silent",
+      "state": "muted",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0,
+      "rms": 0,
+      "sourcesCreated": 1,
+      "durations": [
+        50.5263125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "settings-volume-restored",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.2665975093841553,
+      "rms": 0.010215938487046106,
+      "sourcesCreated": 1,
+      "durations": [
+        50.5263125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "station-dialogue-ducked",
+      "state": "playing",
+      "track": "station",
+      "context": "running",
+      "masterGain": 0.38999998569488525,
+      "rms": 0.052809929222337446,
+      "sourcesCreated": 2,
+      "durations": [
+        50.5263125,
+        54.857125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "archive-keeps-station",
+      "state": "playing",
+      "track": "station",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.022798363883988305,
+      "sourcesCreated": 2,
+      "durations": [
+        50.5263125,
+        54.857125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "settings-keeps-station",
+      "state": "playing",
+      "track": "station",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.008613541889859385,
+      "sourcesCreated": 2,
+      "durations": [
+        50.5263125,
+        54.857125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "menu-restored",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.0419785737961209,
+      "sourcesCreated": 3,
+      "durations": [
+        50.5263125,
+        54.857125,
+        50.5263125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "hidden-suspended",
+      "state": "suspended",
+      "track": "menu",
+      "context": "suspended",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.0419785737961209,
+      "sourcesCreated": 3,
+      "durations": [
+        50.5263125,
+        54.857125,
+        50.5263125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "visible-resumes-same-loop",
+      "state": "playing",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0.6000000238418579,
+      "rms": 0.043195214613295264,
+      "sourcesCreated": 3,
+      "durations": [
+        50.5263125,
+        54.857125,
+        50.5263125
+      ],
+      "allLooping": true
+    },
+    {
+      "step": "saved-mute-restored-on-fresh-page",
+      "state": "muted",
+      "track": "menu",
+      "context": "running",
+      "masterGain": 0,
+      "rms": 0,
+      "sourcesCreated": 1,
+      "durations": [
+        50.5263125
+      ],
+      "allLooping": true
+    }
+  ]
+}

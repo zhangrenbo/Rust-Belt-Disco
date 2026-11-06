@@ -1,0 +1,215 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Chrome, direct target-specific background CDP 9223",
+  "checks": [
+    "All six original Li layers are present and fully opaque",
+    "Both fog planes reuse the original PNG above and below the Li stack",
+    "Complementary masks avoid doubling the lower fog",
+    "All three papers, photo and ink have coordinated grading",
+    "1440: both fog planes follow the same camera geometry",
+    "1440: Li is clickable through fog and fully in view",
+    "1058: both fog planes follow the same camera geometry",
+    "1058: Li is clickable through fog and fully in view",
+    "844: both fog planes follow the same camera geometry",
+    "844: Li is clickable through fog and fully in view",
+    "Li keyboard selection enters the existing UI showcase",
+    "Return and storage protection remain intact",
+    "No runtime errors"
+  ],
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-li-atmosphere-default-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-li-atmosphere-lower-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-li-atmosphere-default-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-li-atmosphere-lower-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-li-atmosphere-default-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\character-li-atmosphere-lower-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "width": 1440,
+      "li": [
+        {
+          "src": "assets/character-select/009_T_关卡3背景.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92) drop-shadow(rgba(20, 27, 22, 0.5) 1.152px 1.728px 1.296px) drop-shadow(rgba(23, 29, 24, 0.24) 3.6px 5.04px 4.032px)",
+          "z": "9"
+        },
+        {
+          "src": "assets/character-select/010_点此开始游戏_烈日灼心.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92)",
+          "z": "13"
+        },
+        {
+          "src": "assets/character-select/018_关卡3背景.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92) drop-shadow(rgba(20, 27, 22, 0.5) 1.152px 1.728px 1.296px) drop-shadow(rgba(23, 29, 24, 0.24) 3.6px 5.04px 4.032px)",
+          "z": "17"
+        },
+        {
+          "src": "assets/character-select/019_关卡3便条.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92) drop-shadow(rgba(20, 27, 22, 0.5) 1.152px 1.728px 1.296px) drop-shadow(rgba(23, 29, 24, 0.24) 3.6px 5.04px 4.032px)",
+          "z": "18"
+        },
+        {
+          "src": "assets/character-select/020_关卡3插画.png",
+          "filter": "saturate(0.52) brightness(0.83) contrast(0.9) drop-shadow(rgba(20, 27, 22, 0.45) 1.152px 1.872px 1.296px) drop-shadow(rgba(23, 29, 24, 0.22) 3.168px 4.464px 3.312px)",
+          "z": "19"
+        },
+        {
+          "src": "assets/character-select/021_图层_3.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92)",
+          "z": "20"
+        }
+      ],
+      "fog": "linear-gradient(rgba(0, 0, 0, 0) 60%, rgb(0, 0, 0) 70%)"
+    },
+    {
+      "width": 1058,
+      "li": [
+        {
+          "src": "assets/character-select/009_T_关卡3背景.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92) drop-shadow(rgba(20, 27, 22, 0.5) 0.846213px 1.26932px 0.951989px) drop-shadow(rgba(23, 29, 24, 0.24) 2.64441px 3.70218px 2.96174px)",
+          "z": "9"
+        },
+        {
+          "src": "assets/character-select/010_点此开始游戏_烈日灼心.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92)",
+          "z": "13"
+        },
+        {
+          "src": "assets/character-select/018_关卡3背景.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92) drop-shadow(rgba(20, 27, 22, 0.5) 0.846213px 1.26932px 0.951989px) drop-shadow(rgba(23, 29, 24, 0.24) 2.64441px 3.70218px 2.96174px)",
+          "z": "17"
+        },
+        {
+          "src": "assets/character-select/019_关卡3便条.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92) drop-shadow(rgba(20, 27, 22, 0.5) 0.846213px 1.26932px 0.951989px) drop-shadow(rgba(23, 29, 24, 0.24) 2.64441px 3.70218px 2.96174px)",
+          "z": "18"
+        },
+        {
+          "src": "assets/character-select/020_关卡3插画.png",
+          "filter": "saturate(0.52) brightness(0.83) contrast(0.9) drop-shadow(rgba(20, 27, 22, 0.45) 0.846213px 1.3751px 0.951989px) drop-shadow(rgba(23, 29, 24, 0.22) 2.32708px 3.27907px 2.43286px)",
+          "z": "19"
+        },
+        {
+          "src": "assets/character-select/021_图层_3.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92)",
+          "z": "20"
+        }
+      ],
+      "fog": "linear-gradient(rgba(0, 0, 0, 0) 60%, rgb(0, 0, 0) 70%)"
+    },
+    {
+      "width": 844,
+      "li": [
+        {
+          "src": "assets/character-select/009_T_关卡3背景.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92) drop-shadow(rgba(20, 27, 22, 0.5) 0.6752px 1.0128px 0.7596px) drop-shadow(rgba(23, 29, 24, 0.24) 2.11px 2.954px 2.3632px)",
+          "z": "9"
+        },
+        {
+          "src": "assets/character-select/010_点此开始游戏_烈日灼心.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92)",
+          "z": "13"
+        },
+        {
+          "src": "assets/character-select/018_关卡3背景.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92) drop-shadow(rgba(20, 27, 22, 0.5) 0.6752px 1.0128px 0.7596px) drop-shadow(rgba(23, 29, 24, 0.24) 2.11px 2.954px 2.3632px)",
+          "z": "17"
+        },
+        {
+          "src": "assets/character-select/019_关卡3便条.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92) drop-shadow(rgba(20, 27, 22, 0.5) 0.6752px 1.0128px 0.7596px) drop-shadow(rgba(23, 29, 24, 0.24) 2.11px 2.954px 2.3632px)",
+          "z": "18"
+        },
+        {
+          "src": "assets/character-select/020_关卡3插画.png",
+          "filter": "saturate(0.52) brightness(0.83) contrast(0.9) drop-shadow(rgba(20, 27, 22, 0.45) 0.6752px 1.0972px 0.7596px) drop-shadow(rgba(23, 29, 24, 0.22) 1.8568px 2.6164px 1.9412px)",
+          "z": "19"
+        },
+        {
+          "src": "assets/character-select/021_图层_3.png",
+          "filter": "saturate(0.45) brightness(0.8) contrast(0.92)",
+          "z": "20"
+        }
+      ],
+      "fog": "linear-gradient(rgba(0, 0, 0, 0) 60%, rgb(0, 0, 0) 70%)"
+    }
+  ],
+  "errors": [],
+  "storage": "isolated memory; player data untouched",
+  "audio": "silent QA output",
+  "humanArtReview": "pending",
+  "electronWindowVerified": false,
+  "pixelComparison": "Not completed: Page.captureScreenshot timed out during isolated fog-on/off controls in three attempts. Normal scene captures succeeded. No numeric fog pixel claim; attempt script preserved in .local."
+}

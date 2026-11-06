@@ -1,0 +1,297 @@
+{
+  "date": "2026-09-14",
+  "transport": "persistent work Google Chrome + direct CDP 9223",
+  "checks": [
+    "Real theme audio plays through muted QA sink",
+    "Both generated assets decode and replace procedural vinyl",
+    "Original catalog artwork, paper shadows and separate tonearm remain",
+    "1440: all visible controls are reachable",
+    "1440: title, slider and buttons fit on generated paper",
+    "1058: all visible controls are reachable",
+    "1058: title, slider and buttons fit on generated paper",
+    "844: all visible controls are reachable",
+    "844: title, slider and buttons fit on generated paper",
+    "Painted record rotates during actual playback",
+    "Real playback advances the slider",
+    "Pause stops audio and rotation",
+    "Paper slider seeks while preserving pause",
+    "Resume starts from the selected audio position",
+    "Next selects actual station recording",
+    "Previous restores theme",
+    "Empty collection remains usable",
+    "Favorite updates the real filter and isolated storage",
+    "Repeat control changes actual looping",
+    "Keyboard focus is visible on paper",
+    "Keyboard pauses playback",
+    "Reduced motion disables painted-record rotation",
+    "Return restores settings and scene theme",
+    "Escape returns to settings",
+    "Player saves and unrelated settings are untouched"
+  ],
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-image-playing-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "paper": {
+        "x": 50.390625,
+        "y": 475.1875,
+        "width": 691.1875,
+        "height": 295.1875
+      },
+      "title": {
+        "x": 122.390625,
+        "y": 511.1875,
+        "width": 561.59375,
+        "height": 74.296875
+      },
+      "timeline": {
+        "x": 93.59375,
+        "y": 619.1875,
+        "width": 583.1875,
+        "height": 36
+      },
+      "controls": {
+        "x": 80.625,
+        "y": 678.234375,
+        "width": 619.1875,
+        "height": 62.625
+      },
+      "vinyl": "url(\"http://127.0.0.1:5173/assets/record-vinyl-painted-v1.png\")",
+      "paperAsset": "url(\"http://127.0.0.1:5173/assets/record-player-paper-v1.png\")",
+      "paperMask": "url(\"http://127.0.0.1:5173/assets/record-player-paper-outline.svg\")",
+      "titleColor": "rgb(133, 58, 45)",
+      "track": "menu"
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-image-playing-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "gameBounds": {
+        "x": 0.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375
+      },
+      "paper": {
+        "x": 37.125,
+        "y": 349.0625,
+        "width": 507.71875,
+        "height": 216.828125
+      },
+      "title": {
+        "x": 90.015625,
+        "y": 375.5,
+        "width": 412.515625,
+        "height": 54.5625
+      },
+      "timeline": {
+        "x": 68.859375,
+        "y": 454.828125,
+        "width": 428.390625,
+        "height": 26.4375
+      },
+      "controls": {
+        "x": 59.34375,
+        "y": 498.203125,
+        "width": 454.828125,
+        "height": 46
+      },
+      "vinyl": "url(\"http://127.0.0.1:5173/assets/record-vinyl-painted-v1.png\")",
+      "paperAsset": "url(\"http://127.0.0.1:5173/assets/record-player-paper-v1.png\")",
+      "paperMask": "url(\"http://127.0.0.1:5173/assets/record-player-paper-outline.svg\")",
+      "titleColor": "rgb(133, 58, 45)",
+      "track": "menu"
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-image-playing-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "paper": {
+        "x": 29.53125,
+        "y": 278.640625,
+        "width": 405.109375,
+        "height": 173.015625
+      },
+      "title": {
+        "x": 71.734375,
+        "y": 299.734375,
+        "width": 329.15625,
+        "height": 43.53125
+      },
+      "timeline": {
+        "x": 54.859375,
+        "y": 363.03125,
+        "width": 341.8125,
+        "height": 21.09375
+      },
+      "controls": {
+        "x": 47.25,
+        "y": 397.640625,
+        "width": 362.90625,
+        "height": 36.703125
+      },
+      "vinyl": "url(\"http://127.0.0.1:5173/assets/record-vinyl-painted-v1.png\")",
+      "paperAsset": "url(\"http://127.0.0.1:5173/assets/record-player-paper-v1.png\")",
+      "paperMask": "url(\"http://127.0.0.1:5173/assets/record-player-paper-outline.svg\")",
+      "titleColor": "rgb(133, 58, 45)",
+      "track": "menu"
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-image-paused-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "paper": {
+        "x": 50.390625,
+        "y": 475.1875,
+        "width": 691.1875,
+        "height": 295.1875
+      },
+      "title": {
+        "x": 122.390625,
+        "y": 511.1875,
+        "width": 561.59375,
+        "height": 74.296875
+      },
+      "timeline": {
+        "x": 93.59375,
+        "y": 619.1875,
+        "width": 583.1875,
+        "height": 36
+      },
+      "controls": {
+        "x": 80.625,
+        "y": 678.234375,
+        "width": 619.1875,
+        "height": 62.625
+      },
+      "vinyl": "url(\"http://127.0.0.1:5173/assets/record-vinyl-painted-v1.png\")",
+      "paperAsset": "url(\"http://127.0.0.1:5173/assets/record-player-paper-v1.png\")",
+      "paperMask": "url(\"http://127.0.0.1:5173/assets/record-player-paper-outline.svg\")",
+      "titleColor": "rgb(133, 58, 45)",
+      "track": "menu"
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\record-library-image-empty-favorites-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "paper": {
+        "x": 29.53125,
+        "y": 278.640625,
+        "width": 405.109375,
+        "height": 173.015625
+      },
+      "title": {
+        "x": 71.734375,
+        "y": 299.734375,
+        "width": 329.15625,
+        "height": 43.53125
+      },
+      "timeline": {
+        "x": 54.859375,
+        "y": 363.03125,
+        "width": 341.8125,
+        "height": 21.09375
+      },
+      "controls": {
+        "x": 47.25,
+        "y": 397.640625,
+        "width": 362.90625,
+        "height": 36.703125
+      },
+      "vinyl": "url(\"http://127.0.0.1:5173/assets/record-vinyl-painted-v1.png\")",
+      "paperAsset": "url(\"http://127.0.0.1:5173/assets/record-player-paper-v1.png\")",
+      "paperMask": "url(\"http://127.0.0.1:5173/assets/record-player-paper-outline.svg\")",
+      "titleColor": "rgb(133, 58, 45)",
+      "track": "menu"
+    }
+  ],
+  "errors": [],
+  "storage": "isolated memory fixtures; real player data untouched",
+  "audio": "real Web Audio analyser before silent QA output sink; physical speaker not inspected",
+  "visualAcceptance": "pending user review",
+  "electronWorkbench": "not directly inspected",
+  "assetChecks": [
+    {
+      "path": "assets/record-vinyl-painted-v1.png",
+      "httpStatus": 200,
+      "buildIdentical": true,
+      "sha256": "c11c31f851616082d8355dd838f165171d19254657e39ff2a61208d432fe8bb6"
+    },
+    {
+      "path": "assets/record-player-paper-v1.png",
+      "httpStatus": 200,
+      "buildIdentical": true,
+      "sha256": "ae25e999ce079db5bf99d4ec8d691786d13c7ba52eba2b19b6751a38a23c9ff4"
+    },
+    {
+      "path": "assets/record-player-paper-outline.svg",
+      "httpStatus": 200,
+      "buildIdentical": true,
+      "sha256": "476839dc68831d40aa612068cd5951e6b6317526c9441fd54dd8caf83567873f"
+    },
+    {
+      "path": "record-catalog-paper-light-v3.png",
+      "httpStatus": 200,
+      "buildIdentical": true,
+      "sha256": "3b267e62b11397cf81a47a31f98bfa05c9ddfcd6d4de69f4b1b1c2e24f2de0fc"
+    },
+    {
+      "path": "assets/record-tonearm.png",
+      "httpStatus": 200,
+      "buildIdentical": true,
+      "sha256": "93c99b9255b237334798db32ee0d4fddf337ce2d99dde27d5734beb4ed30e32e"
+    }
+  ],
+  "automatedChecks": {
+    "testsPassed": 15,
+    "migratedHashes": 172,
+    "rootResourcePaths": 70,
+    "additionalMusicAssetsChecked": 5,
+    "build": "passed",
+    "unqueriedEntryCurrent": true
+  },
+  "assistantVisualInspection": {
+    "viewports": [
+      1440,
+      1058,
+      844
+    ],
+    "result": "Paper silhouette removes the generated checkerboard; current title, seek bar and five buttons fit; vinyl grooves and tonearm remain visible.",
+    "humanApproval": false
+  }
+}

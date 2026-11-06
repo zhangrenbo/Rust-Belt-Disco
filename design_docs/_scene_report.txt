@@ -1,0 +1,393 @@
+======================================================================
+场景化重构分析报告
+======================================================================
+
+原始编号节点总数: 112
+重构后节点总数:   152
+净增加: 40
+
+节点类型统计:
+  free_explore: 20
+  multi_route: 1
+  route_variant: 3
+  single: 91
+
+最终编号: A=71, B=45, C=36
+
+------------------------------------------------------------
+Sheet: D0 (10 old → 10 new)
+------------------------------------------------------------
+  A001 [single] fmt=multiline time= scene="残破版，序章便利店"
+    → A001_便利店 (scene=便利店, whole_node)
+  A002_1 [single] fmt=multiline time= scene=""
+    → A002_未知 (scene=未知, whole_node)
+  B001V1 [single] fmt=multiline time=1天-06时 scene=""
+    → B001_未知 (scene=未知, whole_node)
+  B001V2 [single] fmt=multiline time=1天-08时 scene=""
+    → B002_未知 (scene=未知, whole_node)
+  B002V1 [single] fmt=multiline time=1天-10时 scene=""
+    → B003_未知 (scene=未知, whole_node)
+  B002V2 [single] fmt=multiline time= scene=""
+    → B004_未知 (scene=未知, whole_node)
+  B003V1 [single] fmt=multiline time= scene=""
+    → B005_未知 (scene=未知, whole_node)
+  C002： [single] fmt=self_contained time= scene=""
+    → C001_未知 (scene=未知, whole_node)
+  C003 [single] fmt=multiline time= scene=""
+    → C002_未知 (scene=未知, whole_node)
+  C004 [single] fmt=multiline time= scene=""
+    → C003_未知 (scene=未知, whole_node)
+
+------------------------------------------------------------
+Sheet: D1 (19 old → 29 new)
+------------------------------------------------------------
+  A003 [single] fmt=multiline time=1天-06时 scene="叔叔家"
+    → A003_叔叔家 (scene=叔叔家, whole_node)
+  A004 [multi_route] fmt=multiline time=1天-08时 scene=""
+    → A004_修车铺 (scene=修车铺, route)
+      label: 【A路线-修车店】
+    → A005_家 (scene=家, route)
+      label: 【B路线-留在家】
+    → A006_便利店 (scene=便利店, route)
+      label: 【C路线-去便利店】
+    → A007_诊所 (scene=诊所, route)
+      label: 【D路线-去诊所】
+    → A008_派出所 (scene=派出所, route)
+      label: 【E路线-去派出所】
+  A006 [route_variant] fmt=multiline time=1天-12时 scene="修车店/叔叔家/面馆"
+    → A009_修车铺 (scene=修车铺, route)
+      label: 【修车店路线】
+    → A010_镇上 (scene=镇上, route)
+      label: 【便利店/镇上路线】
+    → A011_叔叔家 (scene=叔叔家, route)
+      label: 【留在家/镇上路线】
+  A007 [free_explore] fmt=multiline time=1天-14时 scene="镇子各处"
+    → A012_东山坟地 (scene=东山坟地, explore)
+      label: *去东山坟地看父亲
+    → A013_便利店 (scene=便利店, explore)
+      label: *去废弃便利店
+    → A014_职高 (scene=职高, explore)
+      label: *去镇上的职高看看
+    → A015_镇上 (scene=镇上, explore)
+      label: *在镇上闲逛
+    → A016_家 (scene=家, explore)
+      label: *回家
+  A008 [single] fmt=multiline time=1天-18时 scene="叔叔家"
+    → A017_叔叔家 (scene=叔叔家, whole_node)
+  A010 [single] fmt=multiline time=1天-22时 scene="叔叔家"
+    → A018_叔叔家 (scene=叔叔家, whole_node)
+  B003 [single] fmt=multiline time=1天-06时 scene="李正家"
+    → B006_李正家 (scene=李正家, whole_node)
+  B005 [single] fmt=multiline time=1天-08时 scene=""
+    → B007_未知 (scene=未知, whole_node)
+  B005_A 镇公安局 [single] fmt=self_contained time= scene="镇公安局"
+    → B008_派出所 (scene=派出所, whole_node)
+  B005_B 在家 [single] fmt=multiline time= scene=""
+    → B009_未知 (scene=未知, whole_node)
+  B007 12:00 午间与午后 [single] fmt=self_contained time= scene=""
+    → B010_未知 (scene=未知, whole_node)
+  B009 18:00 裂痕与烈焰 [single] fmt=multiline time= scene="李正家→火灾现场"
+    → B011_李正家 (scene=李正家, whole_node)
+  B009_HOME [single] fmt=multiline time=1天-18时 scene=""
+    → B012_未知 (scene=未知, whole_node)
+  B011 09:00—14:00 在家 [single] fmt=multiline time= scene=""
+    → B013_未知 (scene=未知, whole_node)
+  B012 15:00 背叛 [single] fmt=multiline time= scene=""
+    → B014_未知 (scene=未知, whole_node)
+  C005 [single] fmt=multiline time= scene="王少鹏的家/诊所"
+    → C004_家 (scene=家, whole_node)
+  C006 [single] fmt=multiline time= scene="中医抗癌馆"
+    → C005_诊所 (scene=诊所, whole_node)
+  C008 [single] fmt=multiline time=1天-17时 scene="诊所/街上"
+    → C006_诊所 (scene=诊所, whole_node)
+  C009 [single] fmt=multiline time=1天-21时 scene="中医抗癌馆"
+    → C007_诊所 (scene=诊所, whole_node)
+
+------------------------------------------------------------
+Sheet: D2 (47 old → 52 new)
+------------------------------------------------------------
+  A011 [single] fmt=multiline time=2天-07时 scene="叔叔家"
+    → A019_叔叔家 (scene=叔叔家, whole_node)
+  A012 [single] fmt=multiline time=2天-09时 scene="叔叔家门口"
+    → A020_叔叔家 (scene=叔叔家, whole_node)
+  A013_C 镇上闲逛——可选路线 [free_explore] fmt=self_contained time= scene="镇上"
+    → A021_河边 (scene=河边, explore)
+      label: *去河边看看
+    → A022_职高 (scene=职高, explore)
+      label: *去职高附近转转
+    → A023_便利店 (scene=便利店, explore)
+      label: *去便利店坐会儿
+  A013_A [single] fmt=multiline time=2天-10时 scene="镇西民房废墟"
+    → A024_火场 (scene=火场, whole_node)
+  A013_B [single] fmt=multiline time=2天-09时 scene="去职高的路上→职高门口"
+    → A025_职高 (scene=职高, whole_node)
+  A013_B2 | 门卫对话 [single] fmt=self_contained time= scene=""
+    → A026_未知 (scene=未知, whole_node)
+  A013_C [single] fmt=multiline time=2天-10时 scene="镇子各处"
+    → A027_镇上 (scene=镇上, whole_node)
+  A013_D [single] fmt=multiline time=2天-10时 scene="修车店"
+    → A028_修车铺 (scene=修车铺, whole_node)
+  A013_E [single] fmt=multiline time= scene="王少鹏的诊所"
+    → A029_诊所 (scene=诊所, whole_node)
+  A013_F [single] fmt=multiline time= scene="县医院烧伤科"
+    → A030_县医院 (scene=县医院, whole_node)
+  A013_A火场： [single] fmt=multiline time= scene=""
+    → A031_未知 (scene=未知, whole_node)
+  A013_C镇上闲逛： [single] fmt=multiline time= scene=""
+    → A032_未知 (scene=未知, whole_node)
+  A014 [single] fmt=multiline time=2天-12时 scene="叔叔家"
+    → A033_叔叔家 (scene=叔叔家, whole_node)
+  A014_MSG [single] fmt=multiline time= scene=""
+    → A034_未知 (scene=未知, whole_node)
+  A014：叔叔接到宏大电话 [single] fmt=multiline time= scene=""
+    → A035_未知 (scene=未知, whole_node)
+  A015_MENU [free_explore] fmt=multiline time=2天-14时 scene=""
+    → A036_职高 (scene=职高, explore)
+      label: *去职高看看
+    → A037_诊所 (scene=诊所, explore)
+      label: *去王少鹏的诊所
+    → A038_县医院 (scene=县医院, explore)
+      label: *去县医院看看那个被烧的人
+    → A039_家 (scene=家, explore)
+      label: *回家等表弟放学
+  A015 [single] fmt=multiline time=2天-14时 scene="叔叔家二楼/阁楼"
+    → A040_叔叔家 (scene=叔叔家, whole_node)
+  A016 [single] fmt=multiline time=2天-18时 scene="叔叔家"
+    → A041_叔叔家 (scene=叔叔家, whole_node)
+  A016_MEET [single] fmt=multiline time=2天-18时 scene=""
+    → A042_未知 (scene=未知, whole_node)
+  A017 [single] fmt=multiline time=2天-20时 scene="叔叔家客厅"
+    → A043_叔叔家 (scene=叔叔家, whole_node)
+  A018 [single] fmt=multiline time=2天-22时 scene="叔叔家二楼，夜晚"
+    → A044_叔叔家 (scene=叔叔家, whole_node)
+  B013 [single] fmt=multiline time=2天-06时 scene="李正家"
+    → B015_李正家 (scene=李正家, whole_node)
+  B014 [single] fmt=multiline time=2天-08时 scene="镇公安局会议室"
+    → B016_派出所 (scene=派出所, whole_node)
+  B014_AFTER [single] fmt=multiline time=2天-08时（通报会后） scene="镇公安局走廊"
+    → B017_派出所 (scene=派出所, whole_node)
+  B015 [single] fmt=multiline time=2天-10时 scene="镇公安局档案室"
+    → B018_派出所 (scene=派出所, whole_node)
+  B015旧档案： [single] fmt=multiline time= scene=""
+    → B019_未知 (scene=未知, whole_node)
+  B016_MSG [single] fmt=multiline time= scene=""
+    → B020_未知 (scene=未知, whole_node)
+  B016 [single] fmt=multiline time=2天-12时 scene="公安局或镇上"
+    → B021_派出所 (scene=派出所, whole_node)
+  B017_A [single] fmt=multiline time=2天-14时 scene="县医院烧伤科"
+    → B022_县医院 (scene=县医院, whole_node)
+  B017_B [single] fmt=multiline time=2天-14时 scene="王少鹏的中医抗癌馆"
+    → B023_诊所 (scene=诊所, whole_node)
+  B017_C [single] fmt=multiline time=2天-14时 scene="镇上/退休警员家"
+    → B024_镇上 (scene=镇上, whole_node)
+  B017_D [single] fmt=multiline time=2天-14时 scene="公安局档案室"
+    → B025_派出所 (scene=派出所, whole_node)
+  B017_E [single] fmt=multiline time= scene="职高"
+    → B026_职高 (scene=职高, whole_node)
+  B018 [single] fmt=multiline time=2天-18时 scene="李正家"
+    → B027_李正家 (scene=李正家, whole_node)
+  B019 [single] fmt=multiline time=2天-21时 scene="公安局/李正家"
+    → B028_派出所 (scene=派出所, whole_node)
+  B019夜间推理： [single] fmt=multiline time= scene=""
+    → B029_未知 (scene=未知, whole_node)
+  C010_PRE [single] fmt=multiline time= scene="职高天台"
+    → C008_职高 (scene=职高, whole_node)
+  C010 [single] fmt=multiline time=2天-08时 scene="王少鹏家/诊所"
+    → C009_诊所 (scene=诊所, whole_node)
+  C011 [single] fmt=multiline time=2天-10时 scene="中医抗癌馆"
+    → C010_诊所 (scene=诊所, whole_node)
+  C011诊所： [single] fmt=multiline time= scene=""
+    → C011_未知 (scene=未知, whole_node)
+  C012 [single] fmt=multiline time=2天-14时 scene="诊所"
+    → C012_诊所 (scene=诊所, whole_node)
+  C012_PHARMACY [single] fmt=multiline time= scene=""
+    → C013_未知 (scene=未知, whole_node)
+  C012_HOSPITAL [single] fmt=multiline time= scene=""
+    → C014_未知 (scene=未知, whole_node)
+  C013 [single] fmt=multiline time=2天-16时 scene="诊所或街上"
+    → C015_诊所 (scene=诊所, whole_node)
+  C014 [single] fmt=multiline time=2天-18时 scene="诊所/镇上"
+    → C016_诊所 (scene=诊所, whole_node)
+  C014傍晚： [single] fmt=multiline time= scene=""
+    → C017_未知 (scene=未知, whole_node)
+  C015 [single] fmt=multiline time=2天-22时 scene="诊所/家"
+    → C018_诊所 (scene=诊所, whole_node)
+
+------------------------------------------------------------
+Sheet: D4 (9 old → 20 new)
+------------------------------------------------------------
+  A020 [free_explore] fmt=stub time=4天-08时 scene="火场/修车铺/镇上"
+    → A045_火场 (scene=火场, explore)
+      label: *去D3夜火场看看
+    → A046_面馆 (scene=面馆, explore)
+      label: *去面馆
+    → A047_修车铺 (scene=修车铺, explore)
+      label: *去叔叔修车铺
+    → A048_镇上 (scene=镇上, explore)
+      label: *在镇上走走
+  A021 [free_explore] fmt=stub time=4天-14时 scene="各处"
+    → A049_派出所 (scene=派出所, explore)
+      label: *去找李正
+    → A050_县医院 (scene=县医院, explore)
+      label: *去医院
+    → A051_镇上 (scene=镇上, explore)
+      label: *找刘小红
+    → A052_叔叔家 (scene=叔叔家, explore)
+      label: *回叔叔那/在镇上待着
+  A022 [free_explore] fmt=stub time=4天-20时 scene="叔叔家/外面"
+    → A053_叔叔家 (scene=叔叔家, explore)
+      label: *在叔叔家
+    → A054_外面 (scene=外面, explore)
+      label: *在外面
+  B022 [free_explore] fmt=stub time=4天-08时 scene="家门口/派出所/火场"
+    → B030_火场 (scene=火场, explore)
+      label: *去D3夜火场勘察
+    → B031_镇上 (scene=镇上, explore)
+      label: *找密码线索
+  B023 [single] fmt=stub time=4天-14时 scene="派出所/各处"
+    → B032_派出所 (scene=派出所, whole_node)
+  B024 [single] fmt=stub time=4天-20时 scene="嫌疑人家附近/派出所"
+    → B033_镇上 (scene=镇上, whole_node)
+  C019 [free_explore] fmt=stub time=4天-08时 scene="诊所二楼/诊所/镇上"
+    → C019_诊所 (scene=诊所, explore)
+      label: *去诊所开门
+    → C020_家 (scene=家, explore)
+      label: *在家陪小燕
+    → C021_家 (scene=家, explore)
+      label: *回复「为什么？」
+  C020 [free_explore] fmt=stub time=4天-14时 scene="诊所/各处"
+    → C022_县医院 (scene=县医院, explore)
+      label: *去看奶奶
+    → C023_师傅家 (scene=师傅家, explore)
+      label: *找师傅
+  C021 [single] fmt=stub time=4天-20时 scene="家/诊所"
+    → C024_家 (scene=家, whole_node)
+
+------------------------------------------------------------
+Sheet: D5 (9 old → 11 new)
+------------------------------------------------------------
+  A023 [free_explore] fmt=stub time=5天-08时 scene="职高/修车铺/各处"
+    → A055_职高 (scene=职高, explore)
+      label: *去职高
+    → A056_修车铺 (scene=修车铺, explore)
+      label: *去叔叔修车铺
+    → A057_派出所 (scene=派出所, explore)
+      label: *找李正
+  A024 [single] fmt=stub time=5天-14时 scene="修车铺/镇上"
+    → A058_修车铺 (scene=修车铺, whole_node)
+  A025 [single] fmt=stub time=5天-20时 scene="叔叔家/修车铺/外面"
+    → A059_叔叔家 (scene=叔叔家, whole_node)
+  B025 [single] fmt=stub time=5天-08时 scene="家/派出所"
+    → B034_家 (scene=家, whole_node)
+  B026 [single] fmt=stub time=5天-14时 scene="派出所"
+    → B035_派出所 (scene=派出所, whole_node)
+  B027 [single] fmt=stub time=5天-20时 scene="巡逻线/家"
+    → B036_镇上 (scene=镇上, whole_node)
+  C022 [single] fmt=stub time=5天-08时 scene="家/诊所"
+    → C025_家 (scene=家, whole_node)
+  C023 [single] fmt=stub time=5天-14时 scene="诊所/远处"
+    → C026_诊所 (scene=诊所, whole_node)
+  C024 [single] fmt=stub time=5天-20时 scene="家/诊所"
+    → C027_家 (scene=家, whole_node)
+
+------------------------------------------------------------
+Sheet: D6 (9 old → 14 new)
+------------------------------------------------------------
+  A026 [free_explore] fmt=stub time=6天-08时 scene="叔叔家/修车铺"
+    → A060_修车铺 (scene=修车铺, explore)
+      label: *去修车铺帮叔叔
+    → A061_镇上 (scene=镇上, explore)
+      label: *去镇上走走
+    → A062_便利店废墟 (scene=便利店废墟, explore)
+      label: *去便利店旧址
+  A027 [free_explore] fmt=stub time=6天-14时 scene="镇上/老槐树"
+    → A063_回忆 (scene=回忆, explore)
+      label: *回忆D0
+    → A064_派出所 (scene=派出所, explore)
+      label: *找李正
+  A028 [single] fmt=stub time=6天-20时 scene="叔叔家"
+    → A065_叔叔家 (scene=叔叔家, whole_node)
+  B028 [free_explore] fmt=stub time=6天-08时 scene="宿舍/派出所"
+    → B037_派出所 (scene=派出所, explore)
+      label: *去派出所整理案件
+    → B038_修车铺 (scene=修车铺, explore)
+      label: *去找董点事交换最后的信息
+  B029 [single] fmt=stub time=6天-14时 scene="镇上/派出所"
+    → B039_镇上 (scene=镇上, whole_node)
+  B030 [single] fmt=stub time=6天-20时 scene="宿舍/派出所"
+    → B040_宿舍 (scene=宿舍, whole_node)
+  C025 [free_explore] fmt=stub time=6天-08时 scene="家/诊所"
+    → C028_诊所 (scene=诊所, explore)
+      label: *去诊所开门
+    → C029_县医院 (scene=县医院, explore)
+      label: *去看预言者遗体
+  C026 [single] fmt=stub time=6天-14时 scene="诊所后屋"
+    → C030_诊所后屋 (scene=诊所后屋, whole_node)
+  C027 [single] fmt=stub time=6天-20时 scene="诊所/家"
+    → C031_诊所 (scene=诊所, whole_node)
+
+------------------------------------------------------------
+Sheet: D7 (9 old → 16 new)
+------------------------------------------------------------
+  A029 [free_explore] fmt=stub time=7天-08时 scene="叔叔家/镇东空地"
+    → A066_派出所 (scene=派出所, explore)
+      label: *找李正
+    → A067_修车铺 (scene=修车铺, explore)
+      label: *回修车铺
+    → A068_便利店 (scene=便利店, explore)
+      label: *去便利店废墟
+  A030 [free_explore] fmt=stub time=7天-14时 scene="修车铺/派出所"
+    → A069_镇上 (scene=镇上, explore)
+      label: *去镇上最后一次
+    → A070_修车铺 (scene=修车铺, explore)
+      label: *在修车铺等
+  A031 [single] fmt=stub time=7天-20时 scene="便利店废墟"
+    → A071_便利店废墟 (scene=便利店废墟, whole_node)
+  B031 [free_explore] fmt=stub time=7天-08时 scene="宿舍/镇东空地"
+    → B041_派出所 (scene=派出所, explore)
+      label: *回派出所整理证据
+    → B042_修车铺 (scene=修车铺, explore)
+      label: *去找董点事
+    → B043_县医院 (scene=县医院, explore)
+      label: *去医院查尸检结果（条件：D6要求了尸检）
+  B032 [single] fmt=stub time=7天-14时 scene="派出所/修车铺"
+    → B044_派出所 (scene=派出所, whole_node)
+  B033 [single] fmt=stub time=7天-20时 scene="便利店废墟"
+    → B045_便利店废墟 (scene=便利店废墟, whole_node)
+  C028 [route_variant] fmt=stub time=7天-08时 scene="诊所后屋/镇东空地"
+    → C032_诊所后屋 (scene=诊所后屋, route)
+      label: 【对奶奶说话——三个选择对应D6路线】
+  C029 [free_explore] fmt=stub time=7天-14时 scene="诊所/各处"
+    → C033_派出所 (scene=派出所, explore)
+      label: *去找李正/董点事——说出真相
+    → C034_镇上 (scene=镇上, explore)
+      label: *去找哥哥——最后一次见面
+  C030 [route_variant] fmt=stub time=7天-20时 scene="便利店废墟（或诊所后屋——如果不去）"
+    → C035_便利店废墟 (scene=便利店废墟, route)
+      label: 【如果选择去——C-揭发/C-对决路线】
+    → C036_诊所后屋 (scene=诊所后屋, route)
+      label: 【如果选择不去——C-沉默路线】
+
+------------------------------------------------------------
+场景名使用频率:
+  未知: 28次
+  派出所: 18次
+  诊所: 17次
+  叔叔家: 15次
+  镇上: 13次
+  修车铺: 11次
+  家: 10次
+  职高: 7次
+  县医院: 7次
+  便利店: 5次
+  李正家: 4次
+  便利店废墟: 4次
+  火场: 3次
+  诊所后屋: 3次
+  东山坟地: 1次
+  河边: 1次
+  面馆: 1次
+  外面: 1次
+  师傅家: 1次
+  回忆: 1次
+  宿舍: 1次

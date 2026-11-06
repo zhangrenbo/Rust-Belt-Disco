@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "task-created page; isolated memory fixtures; real saves untouched",
+  "dedicatedImage": true,
+  "sixSlotsReachable": true,
+  "loadAndReturn": true,
+  "savedDataUnchanged": true,
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-heading-panel-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 395.64581298828125,
+        "y": 97.74977111816406,
+        "width": 593.9427490234375,
+        "height": 93.20358276367188
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-heading-panel-1920.png",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 527.5328979492188,
+        "y": 130.33297729492188,
+        "width": 791.9342651367188,
+        "height": 124.28717041015625
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-heading-panel-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 231.8953399658203,
+        "y": 57.41657638549805,
+        "width": 348.11553955078125,
+        "height": 54.61996841430664
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "reachable": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "visualAcceptance": "pending user review"
+}

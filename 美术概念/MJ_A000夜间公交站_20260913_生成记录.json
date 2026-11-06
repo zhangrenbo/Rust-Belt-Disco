@@ -1,0 +1,168 @@
+{
+  "project": "东北迪斯科",
+  "scene": "A000 开场：黑夜中的路灯公交站与老奶奶",
+  "request_date": "2026-09-13",
+  "user_brief": "黑暗的夜里，玩家只能看到周围的一部分内容；路灯照亮公交车站，一位老奶奶坐在里面看向玩家，头顶感叹号指引点击。",
+  "status": "downloaded",
+  "human_review": "rejected_by_user",
+  "generation_paused_by_user": true,
+  "rejection_reason": "用户明确认为这轮画面质量非常差并要求停止；指出助手错误理解了既定场景方向。",
+  "prompt_audit_after_rejection": {
+    "incorrect_direction": "2D hand-painted；约35度镜头；负面提示词包含3D render",
+    "prior_scene_direction": "油画笔触的立体/3D场景，45度俯视等距构图",
+    "style_reference_correction": "原工作流本来就不附加场景图片/风格引用且个性化关闭；不能将没有sref归因于偏离要求。",
+    "next_action": "保持停止，保留被否定原图，不将其接入或当作认可的风格基准。"
+  },
+  "in_game_integration": "not_applied",
+  "browser": "Existing fixed work Google Chrome profile, direct CDP 127.0.0.1:9223",
+  "source_context": [
+    "AGENTS.md",
+    "content/story/ink/D0_序章.ink:A000",
+    "docs/station-art-manifest.json"
+  ],
+  "direction": "用户本次明确要求黑夜，优先于旧稿清晨。二维手绘油画背景，俯斜视角，16:9；局部暖色灯光与大片暗部；奶奶坐在站内回望画面前方玩家所在方向。首轮包含感叹号的整体视觉候选，后续正式交互标记应独立于场景图层。",
+  "prompt": "2D hand-painted point-and-click adventure game opening scene, expressive oil brushwork, Disco Elysium painterly realism, worn muted teal and ochre materials. Deep moonless night in an old Northeast Chinese small town, midsummer. Fixed elevated three-quarter camera looking down about 35 degrees, wide 16:9 composition. Most of the frame is near-black darkness: the player can see ONLY a small local patch of pavement and a roadside bus shelter. A SINGLE old streetlamp beside the shelter casts a tightly contained amber cone, revealing the weathered teal metal shelter, corrugated roof, wooden bench and a few cracked paving slabs. Beyond this small pool of light the road, walls and summer weeds quickly disappear into darkness. Inside the shelter sits EXACTLY ONE elderly Chinese grandmother, thin lined face, gray hair tied back, faded charcoal cloth jacket and dark trousers, both feet resting on the pavement, hands resting on a wooden cane. Her body faces the foreground and she turns her face toward the viewer, watching the approaching player. She is the clear focal point, face gently visible under the lamp. A single small clean pale-yellow exclamation mark floats directly above her head, clearly separate from the lamp. Shelter occupies the middle-right, foreground-left has a short open approach fading into black. Intimate readable game scene, strong painted silhouettes, dense dark edges, no visible horizon. --ar 16:9 --v 8.1 --raw --relax --s 100 --no daylight, sunrise, moon, neon, snow, cars, buses, crowd, extra people, captions, logos, watermark, photorealism, 3D render, pixel art",
+  "jobs": [
+    {
+      "job_id": "a83d0edb-a4c6-4868-8b90-4d66d96df204",
+      "prompt": "2D hand painted point and click adventure game opening scene, expressive oil brushwork, Disco Elysium painterly realism, worn muted teal and ochre palette. Deep moonless midsummer night, old Northeast Chinese small town. Fixed elevated three quarter camera, ~35° downward angle, wide 16:9. Frame is near black darkness except one tight amber cone from a single old streetlamp beside a weathered teal metal bus shelter with corrugated roof, wooden bench, cracked paving slabs. Beyond the light pool, road, walls, and summer weeds dissolve into darkness. Exactly one elderly Chinese grandmother sits inside the shelter: thin lined face, gray hair tied back, faded charcoal jacket, dark trousers, feet on pavement, hands on wooden cane. Body faces foreground, face turned toward viewer. She is the focal point, gently lit. A small pale yellow exclamation mark floats above her head. Shelter middle right; foreground left fades to black. Strong painted silhouettes, dense dark edges, no visible horizon. --no daylight, sunrise, moon, neon, snow, cars, buses, crowd, extra people, captions, logos, watermark, photorealism, 3D render, pixel art --ar 16:9 --relax --raw --v 8.1",
+      "is_queued": false,
+      "event_type": "diffusion",
+      "job_type": "v8-1_diffusion",
+      "flags": {
+        "mode": "relaxed",
+        "visibility": "public"
+      },
+      "meta": {
+        "height": 816,
+        "width": 1456,
+        "batch_size": 4,
+        "parent_id": null,
+        "parent_grid": null
+      }
+    }
+  ],
+  "submission_attempted_at": "2026-09-13T09:23:55.135554+00:00",
+  "submit_receipt": {
+    "responses": [
+      {
+        "path": "/api/prompt-session-log",
+        "status": 200
+      },
+      {
+        "path": "/api/submit-jobs",
+        "status": 200
+      }
+    ],
+    "accepted": [
+      {
+        "job_id": "a83d0edb-a4c6-4868-8b90-4d66d96df204",
+        "prompt": "2D hand painted point and click adventure game opening scene, expressive oil brushwork, Disco Elysium painterly realism, worn muted teal and ochre palette. Deep moonless midsummer night, old Northeast Chinese small town. Fixed elevated three quarter camera, ~35° downward angle, wide 16:9. Frame is near black darkness except one tight amber cone from a single old streetlamp beside a weathered teal metal bus shelter with corrugated roof, wooden bench, cracked paving slabs. Beyond the light pool, road, walls, and summer weeds dissolve into darkness. Exactly one elderly Chinese grandmother sits inside the shelter: thin lined face, gray hair tied back, faded charcoal jacket, dark trousers, feet on pavement, hands on wooden cane. Body faces foreground, face turned toward viewer. She is the focal point, gently lit. A small pale yellow exclamation mark floats above her head. Shelter middle right; foreground left fades to black. Strong painted silhouettes, dense dark edges, no visible horizon. --no daylight, sunrise, moon, neon, snow, cars, buses, crowd, extra people, captions, logos, watermark, photorealism, 3D render, pixel art --ar 16:9 --relax --raw --v 8.1",
+        "is_queued": false,
+        "event_type": "diffusion",
+        "job_type": "v8-1_diffusion",
+        "flags": {
+          "mode": "relaxed",
+          "visibility": "public"
+        },
+        "meta": {
+          "height": 816,
+          "width": 1456,
+          "batch_size": 4,
+          "parent_id": null,
+          "parent_grid": null
+        }
+      }
+    ]
+  },
+  "post_submit_text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight Mode\nzhangrenbo\nToday\nYesterday\nStarting...\n2D hand painted point and click adventure game opening scene, expressive oil brushwork, Disco Elysium painterly realism, worn muted teal and ochre palette. Deep moonless midsummer night, old Northeast Chinese small town. Fixed elevated three quarter camera, ~35° downward angle, wide 16:9. Frame is near black darkness except one tight amber cone from a single old streetlamp beside a weathered teal metal bus shelter with corrugated roof, wooden bench, cracked paving slabs. Beyond the light pool, road, walls, and summer weeds dissolve into darkness. Exactly one elderly Chinese grandmother sits inside the shelter: thin lined face, gray hair tied back, faded charcoal jacket, dark trousers, feet on pavement, hands on wooden cane. Body faces foreground, face turned toward viewer. She is the focal point, gently lit. A small pale yellow exclamation mark floats above her head. Shelter middle right; foreground left fades to black. Strong painted silhouettes, dense dark edges, no visible horizon.\n+ use text\n--no daylight, sunrise, moon, neon, snow, cars, buses, crowd, extra people, captions, logos, watermark, photorealism, 3D render, pixel art\n \nno daylight, sunrise, moon, neon, snow, cars, buses, crowd, extra people, captions, logos, watermark, photorealism, 3D render, pixel art\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\n16 bit pixel art. Pre industrial magic academy weapons storeroom. Strict side scrolling flat orthographic front elevation cutaway - no perspective, no vanishing point, no converging lines, no 3D depth. Continuous stone back wall parallel to picture plane. Tall Gothic pointed windows, pale mint teal daylight, aged brown stone pillars, dark oak beams, warm amber candles. Muted brown and teal palette. LEFT: heavy oak weapons cabinet with hung steel swords, wooden shields, upright spear rack. CENTER: low oak maintenance workbench a",
+  "last_status": {
+    "job_id": "a83d0edb-a4c6-4868-8b90-4d66d96df204",
+    "links": [
+      {
+        "href": "/jobs/a83d0edb-a4c6-4868-8b90-4d66d96df204?index=0",
+        "images": [
+          {
+            "loaded": true,
+            "width": 256,
+            "height": 143
+          }
+        ]
+      },
+      {
+        "href": "/jobs/a83d0edb-a4c6-4868-8b90-4d66d96df204?index=1",
+        "images": [
+          {
+            "loaded": true,
+            "width": 256,
+            "height": 143
+          }
+        ]
+      },
+      {
+        "href": "/jobs/a83d0edb-a4c6-4868-8b90-4d66d96df204?index=2",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/a83d0edb-a4c6-4868-8b90-4d66d96df204?index=3",
+        "images": [
+          {
+            "loaded": true,
+            "width": 256,
+            "height": 143
+          }
+        ]
+      }
+    ],
+    "text": "100% Complete\n2D hand painted point and click adventure game opening scene, expressive oil brushwork, Disco Elysium painterly realism, worn muted teal and ochre palette. Deep moonless midsummer night, old Northeast Chinese small town. Fixed elevated three quarter camera, ~35° downward angle, wide 16:9. Frame is near black darkness except one tight amber cone from a single old streetlamp beside a weathered teal metal bus shelter with corrugated roof, wooden bench, cracked paving slabs. Beyond the light pool, road, walls, and summer weeds dissolve into darkness. Exactly one elderly Chinese grandmother sits inside the shelter: thin lined face, gray hair tied back, faded charcoal jacket, dark trousers, feet on pavement, hands on wooden cane. Body faces foreground, face turned toward viewer. She is the focal point, gently lit. A small pale yellow exclamation mark floats above her head. Shelter middle right; foreground left fades to black. Strong painted silhouettes, dense dark edges, no visible horizon.\n+ use text\n--no daylight, sunrise, moon, neon, snow, cars, buses, crowd, extra people, captions, logos, watermark, photorealism, 3D render, pixel art\n \nno daylight, sunrise, moon, neon, snow, cars, buses, crowd, extra people, captions, logos, watermark, photorealism, 3D render, pixel art\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore"
+  },
+  "status_checked_at": "2026-09-13T09:24:38.600690+00:00",
+  "downloads": [
+    {
+      "index": 0,
+      "job_url": "https://www.midjourney.com/jobs/a83d0edb-a4c6-4868-8b90-4d66d96df204?index=0",
+      "path": "E:\\东北迪斯科\\美术概念\\MJ_A000_night_bus_stop_a83d0edb-a4c6-4868-8b90-4d66d96df204_i0.png",
+      "bytes": 1198535,
+      "native_state": "completed",
+      "guid": "8f310c3b-e118-419b-86c3-abe7c95b07ab",
+      "suggested_filename": "zhangrenbo_2D_hand_painted_point_and_click_adventure_game_ope_a83d0edb-a4c6-4868-8b90-4d66d96df204_0.png",
+      "completed_at": "2026-09-13T09:25:41.716115+00:00"
+    },
+    {
+      "index": 1,
+      "job_url": "https://www.midjourney.com/jobs/a83d0edb-a4c6-4868-8b90-4d66d96df204?index=1",
+      "path": "E:\\东北迪斯科\\美术概念\\MJ_A000_night_bus_stop_a83d0edb-a4c6-4868-8b90-4d66d96df204_i1.png",
+      "bytes": 1270736,
+      "native_state": "completed",
+      "guid": "613f7ab6-0274-4176-9635-be548c502066",
+      "suggested_filename": "zhangrenbo_2D_hand_painted_point_and_click_adventure_game_ope_a83d0edb-a4c6-4868-8b90-4d66d96df204_1.png",
+      "completed_at": "2026-09-13T09:26:01.620490+00:00"
+    },
+    {
+      "index": 2,
+      "job_url": "https://www.midjourney.com/jobs/a83d0edb-a4c6-4868-8b90-4d66d96df204?index=2",
+      "path": "E:\\东北迪斯科\\美术概念\\MJ_A000_night_bus_stop_a83d0edb-a4c6-4868-8b90-4d66d96df204_i2.png",
+      "bytes": 1347620,
+      "native_state": "completed",
+      "guid": "e735afcc-e5c0-438f-8ade-0c68447fda75",
+      "suggested_filename": "zhangrenbo_2D_hand_painted_point_and_click_adventure_game_ope_a83d0edb-a4c6-4868-8b90-4d66d96df204_2.png",
+      "completed_at": "2026-09-13T09:27:45.017282+00:00"
+    },
+    {
+      "index": 3,
+      "job_url": "https://www.midjourney.com/jobs/a83d0edb-a4c6-4868-8b90-4d66d96df204?index=3",
+      "path": "E:\\东北迪斯科\\美术概念\\MJ_A000_night_bus_stop_a83d0edb-a4c6-4868-8b90-4d66d96df204_i3.png",
+      "bytes": 1007907,
+      "native_state": "completed",
+      "guid": "e000a351-ec3f-488c-9a60-2426afa5b505",
+      "suggested_filename": "zhangrenbo_2D_hand_painted_point_and_click_adventure_game_ope_a83d0edb-a4c6-4868-8b90-4d66d96df204_3.png",
+      "completed_at": "2026-09-13T09:28:20.747410+00:00"
+    }
+  ]
+}

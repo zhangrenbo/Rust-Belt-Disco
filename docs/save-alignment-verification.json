@@ -1,0 +1,939 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "browser": "152.0.7977.83",
+  "storage": "task-created page; isolated memory fixtures; real saves untouched",
+  "dedicatedImage": true,
+  "sixSlotsReachable": true,
+  "loadAndReturn": true,
+  "savedDataUnchanged": true,
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-alignment-1058.png",
+      "viewport": [
+        1058,
+        595
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 290.73565673828125,
+        "y": 71.8052749633789,
+        "width": 436.2943115234375,
+        "height": 68.46758270263672
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "reachable": true
+        }
+      ],
+      "labels": [
+        {
+          "slot": "01",
+          "width": 237,
+          "height": 77,
+          "labels": [
+            {
+              "text": "存档 01 · 公交车站",
+              "x": 104.25,
+              "y": 5.35938,
+              "width": 95.2969,
+              "height": 17.8438,
+              "font": "8.46212px",
+              "transform": "matrix(0.99961, -0.0279216, 0.0279216, 0.99961, 0, 0)",
+              "scrollWidth": 93,
+              "clientWidth": 93
+            },
+            {
+              "text": "董点事 · 旅程进行中",
+              "x": 107.953,
+              "y": 36.0312,
+              "width": 110.016,
+              "height": 6.32812,
+              "font": "5.28883px",
+              "transform": "none",
+              "scrollWidth": 110,
+              "clientWidth": 110
+            },
+            {
+              "text": "读取档案 →",
+              "x": 183.922,
+              "y": 58.2812,
+              "width": 34.0625,
+              "height": 5.8125,
+              "font": "5.81771px",
+              "transform": "none",
+              "scrollWidth": 34,
+              "clientWidth": 34
+            }
+          ]
+        },
+        {
+          "slot": "02",
+          "width": 237,
+          "height": 77,
+          "labels": [
+            {
+              "text": "存档 02 · 空白档案",
+              "x": 104.25,
+              "y": 5.35938,
+              "width": 95.2969,
+              "height": 17.8438,
+              "font": "8.46212px",
+              "transform": "matrix(0.999816, 0.0191974, -0.0191974, 0.999816, 0, 0)",
+              "scrollWidth": 93,
+              "clientWidth": 93
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 107.953,
+              "y": 36.0312,
+              "width": 110.016,
+              "height": 6.32812,
+              "font": "5.28883px",
+              "transform": "none",
+              "scrollWidth": 110,
+              "clientWidth": 110
+            },
+            {
+              "text": "查看档案 →",
+              "x": 183.922,
+              "y": 58.2812,
+              "width": 34.0625,
+              "height": 5.8125,
+              "font": "5.81771px",
+              "transform": "none",
+              "scrollWidth": 34,
+              "clientWidth": 34
+            }
+          ]
+        },
+        {
+          "slot": "03",
+          "width": 237,
+          "height": 77,
+          "labels": [
+            {
+              "text": "存档 03 · 空白档案",
+              "x": 104.25,
+              "y": 5.35938,
+              "width": 95.2969,
+              "height": 17.8438,
+              "font": "8.46212px",
+              "transform": "matrix(0.99961, -0.0279216, 0.0279216, 0.99961, 0, 0)",
+              "scrollWidth": 93,
+              "clientWidth": 93
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 107.953,
+              "y": 36.0312,
+              "width": 110.016,
+              "height": 6.32812,
+              "font": "5.28883px",
+              "transform": "none",
+              "scrollWidth": 110,
+              "clientWidth": 110
+            },
+            {
+              "text": "查看档案 →",
+              "x": 183.922,
+              "y": 58.2812,
+              "width": 34.0625,
+              "height": 5.8125,
+              "font": "5.81771px",
+              "transform": "none",
+              "scrollWidth": 34,
+              "clientWidth": 34
+            }
+          ]
+        },
+        {
+          "slot": "04",
+          "width": 237,
+          "height": 77,
+          "labels": [
+            {
+              "text": "存档 04 · 存档无法读取",
+              "x": 104.25,
+              "y": 5.35938,
+              "width": 113.234,
+              "height": 17.8438,
+              "font": "8.46212px",
+              "transform": "matrix(0.999816, 0.0191974, -0.0191974, 0.999816, 0, 0)",
+              "scrollWidth": 111,
+              "clientWidth": 111
+            },
+            {
+              "text": "原始数据已保留",
+              "x": 107.953,
+              "y": 36.0312,
+              "width": 110.016,
+              "height": 6.32812,
+              "font": "5.28883px",
+              "transform": "none",
+              "scrollWidth": 110,
+              "clientWidth": 110
+            },
+            {
+              "text": "查看档案 →",
+              "x": 183.922,
+              "y": 58.2812,
+              "width": 34.0625,
+              "height": 5.8125,
+              "font": "5.81771px",
+              "transform": "none",
+              "scrollWidth": 34,
+              "clientWidth": 34
+            }
+          ]
+        },
+        {
+          "slot": "05",
+          "width": 309,
+          "height": 50,
+          "labels": [
+            {
+              "text": "空白档案",
+              "x": 53.7345,
+              "y": 7.93324,
+              "width": 57.25,
+              "height": 17.6875,
+              "font": "10.2603px",
+              "transform": "matrix(0.99961, -0.0279216, 0.0279216, 0.99961, 0, 0)",
+              "scrollWidth": 55,
+              "clientWidth": 55
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 58.8118,
+              "y": 29.829,
+              "width": 34.0781,
+              "height": 6.09375,
+              "font": "5.07727px",
+              "transform": "none",
+              "scrollWidth": 34,
+              "clientWidth": 34
+            },
+            {
+              "text": "查看档案 →",
+              "x": 261.75,
+              "y": 40.4066,
+              "width": 34.75,
+              "height": 5.8125,
+              "font": "5.81771px",
+              "transform": "none",
+              "scrollWidth": 35,
+              "clientWidth": 35
+            }
+          ]
+        },
+        {
+          "slot": "06",
+          "width": 309,
+          "height": 50,
+          "labels": [
+            {
+              "text": "空白档案",
+              "x": 53.7345,
+              "y": 7.93324,
+              "width": 57.25,
+              "height": 17.6875,
+              "font": "10.2603px",
+              "transform": "matrix(0.999816, 0.0191974, -0.0191974, 0.999816, 0, 0)",
+              "scrollWidth": 55,
+              "clientWidth": 55
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 58.8118,
+              "y": 29.829,
+              "width": 34.0781,
+              "height": 6.09375,
+              "font": "5.07727px",
+              "transform": "none",
+              "scrollWidth": 34,
+              "clientWidth": 34
+            },
+            {
+              "text": "查看档案 →",
+              "x": 261.75,
+              "y": 40.4066,
+              "width": 34.75,
+              "height": 5.8125,
+              "font": "5.81771px",
+              "transform": "none",
+              "scrollWidth": 35,
+              "clientWidth": 35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-alignment-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 395.64581298828125,
+        "y": 97.74977111816406,
+        "width": 593.9427490234375,
+        "height": 93.20358276367188
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "reachable": true
+        }
+      ],
+      "labels": [
+        {
+          "slot": "01",
+          "width": 323,
+          "height": 104,
+          "labels": [
+            {
+              "text": "存档 01 · 公交车站",
+              "x": 141.906,
+              "y": 7.29688,
+              "width": 129.062,
+              "height": 23.5625,
+              "font": "11.52px",
+              "transform": "matrix(0.99961, -0.0279216, 0.0279216, 0.99961, 0, 0)",
+              "scrollWidth": 127,
+              "clientWidth": 127
+            },
+            {
+              "text": "董点事 · 旅程进行中",
+              "x": 146.953,
+              "y": 49.0625,
+              "width": 149.781,
+              "height": 8.64062,
+              "font": "7.2px",
+              "transform": "none",
+              "scrollWidth": 150,
+              "clientWidth": 150
+            },
+            {
+              "text": "读取档案 →",
+              "x": 250.328,
+              "y": 79.3281,
+              "width": 46.4219,
+              "height": 7.92188,
+              "font": "7.92px",
+              "transform": "none",
+              "scrollWidth": 46,
+              "clientWidth": 46
+            }
+          ]
+        },
+        {
+          "slot": "02",
+          "width": 323,
+          "height": 104,
+          "labels": [
+            {
+              "text": "存档 02 · 空白档案",
+              "x": 141.906,
+              "y": 7.29688,
+              "width": 129.062,
+              "height": 23.5625,
+              "font": "11.52px",
+              "transform": "matrix(0.999816, 0.0191974, -0.0191974, 0.999816, 0, 0)",
+              "scrollWidth": 127,
+              "clientWidth": 127
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 146.953,
+              "y": 49.0625,
+              "width": 149.781,
+              "height": 8.64062,
+              "font": "7.2px",
+              "transform": "none",
+              "scrollWidth": 150,
+              "clientWidth": 150
+            },
+            {
+              "text": "查看档案 →",
+              "x": 250.328,
+              "y": 79.3281,
+              "width": 46.4219,
+              "height": 7.92188,
+              "font": "7.92px",
+              "transform": "none",
+              "scrollWidth": 46,
+              "clientWidth": 46
+            }
+          ]
+        },
+        {
+          "slot": "03",
+          "width": 323,
+          "height": 104,
+          "labels": [
+            {
+              "text": "存档 03 · 空白档案",
+              "x": 141.906,
+              "y": 7.29688,
+              "width": 129.062,
+              "height": 23.5625,
+              "font": "11.52px",
+              "transform": "matrix(0.99961, -0.0279216, 0.0279216, 0.99961, 0, 0)",
+              "scrollWidth": 127,
+              "clientWidth": 127
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 146.953,
+              "y": 49.0625,
+              "width": 149.781,
+              "height": 8.64062,
+              "font": "7.2px",
+              "transform": "none",
+              "scrollWidth": 150,
+              "clientWidth": 150
+            },
+            {
+              "text": "查看档案 →",
+              "x": 250.328,
+              "y": 79.3281,
+              "width": 46.4219,
+              "height": 7.92188,
+              "font": "7.92px",
+              "transform": "none",
+              "scrollWidth": 46,
+              "clientWidth": 46
+            }
+          ]
+        },
+        {
+          "slot": "04",
+          "width": 323,
+          "height": 104,
+          "labels": [
+            {
+              "text": "存档 04 · 存档无法读取",
+              "x": 141.906,
+              "y": 7.29688,
+              "width": 153.469,
+              "height": 23.5625,
+              "font": "11.52px",
+              "transform": "matrix(0.999816, 0.0191974, -0.0191974, 0.999816, 0, 0)",
+              "scrollWidth": 151,
+              "clientWidth": 151
+            },
+            {
+              "text": "原始数据已保留",
+              "x": 146.953,
+              "y": 49.0625,
+              "width": 149.781,
+              "height": 8.64062,
+              "font": "7.2px",
+              "transform": "none",
+              "scrollWidth": 150,
+              "clientWidth": 150
+            },
+            {
+              "text": "查看档案 →",
+              "x": 250.328,
+              "y": 79.3281,
+              "width": 46.4219,
+              "height": 7.92188,
+              "font": "7.92px",
+              "transform": "none",
+              "scrollWidth": 46,
+              "clientWidth": 46
+            }
+          ]
+        },
+        {
+          "slot": "05",
+          "width": 421,
+          "height": 69,
+          "labels": [
+            {
+              "text": "空白档案",
+              "x": 73.152,
+              "y": 10.8,
+              "width": 80.2969,
+              "height": 23.3438,
+              "font": "13.968px",
+              "transform": "matrix(0.99961, -0.0279216, 0.0279216, 0.99961, 0, 0)",
+              "scrollWidth": 78,
+              "clientWidth": 78
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 80.064,
+              "y": 40.608,
+              "width": 46.4375,
+              "height": 8.28125,
+              "font": "6.912px",
+              "transform": "none",
+              "scrollWidth": 46,
+              "clientWidth": 46
+            },
+            {
+              "text": "查看档案 →",
+              "x": 357,
+              "y": 55.008,
+              "width": 47.375,
+              "height": 7.92188,
+              "font": "7.92px",
+              "transform": "none",
+              "scrollWidth": 47,
+              "clientWidth": 47
+            }
+          ]
+        },
+        {
+          "slot": "06",
+          "width": 421,
+          "height": 69,
+          "labels": [
+            {
+              "text": "空白档案",
+              "x": 73.152,
+              "y": 10.8,
+              "width": 80.2969,
+              "height": 23.3438,
+              "font": "13.968px",
+              "transform": "matrix(0.999816, 0.0191974, -0.0191974, 0.999816, 0, 0)",
+              "scrollWidth": 78,
+              "clientWidth": 78
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 80.064,
+              "y": 40.608,
+              "width": 46.4375,
+              "height": 8.28125,
+              "font": "6.912px",
+              "transform": "none",
+              "scrollWidth": 46,
+              "clientWidth": 46
+            },
+            {
+              "text": "查看档案 →",
+              "x": 357,
+              "y": 55.008,
+              "width": 47.375,
+              "height": 7.92188,
+              "font": "7.92px",
+              "transform": "none",
+              "scrollWidth": 47,
+              "clientWidth": 47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-alignment-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "asset": "assets/save-archive-heading-panel-v1.png",
+      "naturalSize": [
+        2172,
+        724
+      ],
+      "title": "选择你要读取的档案",
+      "titleInside": true,
+      "bounds": {
+        "x": 231.8953399658203,
+        "y": 57.41657638549805,
+        "width": 348.11553955078125,
+        "height": 54.61996841430664
+      },
+      "background": "none",
+      "slots": [
+        {
+          "slot": "01",
+          "status": "saved",
+          "reachable": true
+        },
+        {
+          "slot": "02",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "03",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "04",
+          "status": "error",
+          "reachable": true
+        },
+        {
+          "slot": "05",
+          "status": "empty",
+          "reachable": true
+        },
+        {
+          "slot": "06",
+          "status": "empty",
+          "reachable": true
+        }
+      ],
+      "labels": [
+        {
+          "slot": "01",
+          "width": 189,
+          "height": 61,
+          "labels": [
+            {
+              "text": "存档 01 · 公交车站",
+              "x": 83.1719,
+              "y": 4.28125,
+              "width": 76.4688,
+              "height": 14.625,
+              "font": "6.752px",
+              "transform": "matrix(0.99961, -0.0279216, 0.0279216, 0.99961, 0, 0)",
+              "scrollWidth": 74,
+              "clientWidth": 74
+            },
+            {
+              "text": "董点事 · 旅程进行中",
+              "x": 86.125,
+              "y": 28.75,
+              "width": 87.7812,
+              "height": 5.0625,
+              "font": "4.22px",
+              "transform": "none",
+              "scrollWidth": 88,
+              "clientWidth": 88
+            },
+            {
+              "text": "读取档案 →",
+              "x": 146.734,
+              "y": 46.5,
+              "width": 27.2031,
+              "height": 4.64062,
+              "font": "4.642px",
+              "transform": "none",
+              "scrollWidth": 27,
+              "clientWidth": 27
+            }
+          ]
+        },
+        {
+          "slot": "02",
+          "width": 189,
+          "height": 61,
+          "labels": [
+            {
+              "text": "存档 02 · 空白档案",
+              "x": 83.1719,
+              "y": 4.28125,
+              "width": 76.4688,
+              "height": 14.625,
+              "font": "6.752px",
+              "transform": "matrix(0.999816, 0.0191974, -0.0191974, 0.999816, 0, 0)",
+              "scrollWidth": 74,
+              "clientWidth": 74
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 86.125,
+              "y": 28.75,
+              "width": 87.7812,
+              "height": 5.0625,
+              "font": "4.22px",
+              "transform": "none",
+              "scrollWidth": 88,
+              "clientWidth": 88
+            },
+            {
+              "text": "查看档案 →",
+              "x": 146.734,
+              "y": 46.5,
+              "width": 27.2031,
+              "height": 4.64062,
+              "font": "4.642px",
+              "transform": "none",
+              "scrollWidth": 27,
+              "clientWidth": 27
+            }
+          ]
+        },
+        {
+          "slot": "03",
+          "width": 189,
+          "height": 61,
+          "labels": [
+            {
+              "text": "存档 03 · 空白档案",
+              "x": 83.1719,
+              "y": 4.28125,
+              "width": 76.4688,
+              "height": 14.625,
+              "font": "6.752px",
+              "transform": "matrix(0.99961, -0.0279216, 0.0279216, 0.99961, 0, 0)",
+              "scrollWidth": 74,
+              "clientWidth": 74
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 86.125,
+              "y": 28.75,
+              "width": 87.7812,
+              "height": 5.0625,
+              "font": "4.22px",
+              "transform": "none",
+              "scrollWidth": 88,
+              "clientWidth": 88
+            },
+            {
+              "text": "查看档案 →",
+              "x": 146.734,
+              "y": 46.5,
+              "width": 27.2031,
+              "height": 4.64062,
+              "font": "4.642px",
+              "transform": "none",
+              "scrollWidth": 27,
+              "clientWidth": 27
+            }
+          ]
+        },
+        {
+          "slot": "04",
+          "width": 189,
+          "height": 61,
+          "labels": [
+            {
+              "text": "存档 04 · 存档无法读取",
+              "x": 83.1719,
+              "y": 4.28125,
+              "width": 90.7344,
+              "height": 14.625,
+              "font": "6.752px",
+              "transform": "matrix(0.999816, 0.0191974, -0.0191974, 0.999816, 0, 0)",
+              "scrollWidth": 89,
+              "clientWidth": 89
+            },
+            {
+              "text": "原始数据已保留",
+              "x": 86.125,
+              "y": 28.75,
+              "width": 87.7812,
+              "height": 5.0625,
+              "font": "4.22px",
+              "transform": "none",
+              "scrollWidth": 88,
+              "clientWidth": 88
+            },
+            {
+              "text": "查看档案 →",
+              "x": 146.734,
+              "y": 46.5,
+              "width": 27.2031,
+              "height": 4.64062,
+              "font": "4.642px",
+              "transform": "none",
+              "scrollWidth": 27,
+              "clientWidth": 27
+            }
+          ]
+        },
+        {
+          "slot": "05",
+          "width": 246,
+          "height": 40,
+          "labels": [
+            {
+              "text": "空白档案",
+              "x": 42.8752,
+              "y": 6.33,
+              "width": 46.0781,
+              "height": 14.5,
+              "font": "8.1868px",
+              "transform": "matrix(0.99961, -0.0279216, 0.0279216, 0.99961, 0, 0)",
+              "scrollWidth": 44,
+              "clientWidth": 44
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 46.9264,
+              "y": 23.8008,
+              "width": 27.2188,
+              "height": 4.84375,
+              "font": "4.0512px",
+              "transform": "none",
+              "scrollWidth": 27,
+              "clientWidth": 27
+            },
+            {
+              "text": "查看档案 →",
+              "x": 208.422,
+              "y": 32.2408,
+              "width": 27.75,
+              "height": 4.64062,
+              "font": "4.642px",
+              "transform": "none",
+              "scrollWidth": 28,
+              "clientWidth": 28
+            }
+          ]
+        },
+        {
+          "slot": "06",
+          "width": 246,
+          "height": 40,
+          "labels": [
+            {
+              "text": "空白档案",
+              "x": 42.8752,
+              "y": 6.33,
+              "width": 46.0781,
+              "height": 14.5,
+              "font": "8.1868px",
+              "transform": "matrix(0.999816, 0.0191974, -0.0191974, 0.999816, 0, 0)",
+              "scrollWidth": 44,
+              "clientWidth": 44
+            },
+            {
+              "text": "暂无存档记录",
+              "x": 46.9264,
+              "y": 23.8008,
+              "width": 27.2188,
+              "height": 4.84375,
+              "font": "4.0512px",
+              "transform": "none",
+              "scrollWidth": 27,
+              "clientWidth": 27
+            },
+            {
+              "text": "查看档案 →",
+              "x": 208.422,
+              "y": 32.2408,
+              "width": 27.75,
+              "height": 4.64062,
+              "font": "4.642px",
+              "transform": "none",
+              "scrollWidth": 28,
+              "clientWidth": 28
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "visualAcceptance": "pending user review",
+  "scope": "Only section.view.view-entry in the root index.html; CSS placement changes in app.css",
+  "labelsChecks": [
+    {
+      "viewport": [
+        1058,
+        595
+      ],
+      "textFits": true,
+      "fourTicketsInsideWritingRows": true
+    },
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "textFits": true,
+      "fourTicketsInsideWritingRows": true
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "textFits": true,
+      "fourTicketsInsideWritingRows": true
+    }
+  ],
+  "visualInspection": "Assistant visually inspected all three screenshots; final user art review pending",
+  "userFeedback": "Existing text and paper combination liked; alignment correction requested",
+  "preserved": [
+    "Original PNG artwork",
+    "22.4 x 7.25 cqw upper ticket size",
+    "Red ink and stamp masks",
+    "Six-slot save behavior"
+  ],
+  "backup": ".local/app-before-save-alignment-20260914.css",
+  "build": "passed",
+  "migrationHashesVerified": 172,
+  "resourcePathsVerified": 68,
+  "workbenchWindowDirectlyVerified": false
+}

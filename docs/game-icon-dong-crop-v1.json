@@ -1,0 +1,57 @@
+{
+    "date":  "2026-09-15",
+    "request":  "从指认的董点事选人卡原画剪出游戏icon",
+    "selected_element":  "button.character-choice.character-choice-center[data-character-choice=\"大厦崩塌\"]",
+    "source":  "E:\\东北迪斯科\\public\\assets\\character-select\\006_T_A000照片.png",
+    "source_sha256":  "de2ad33ce79c2993af9595f1c863e6c0974fa1d4d74334eb8e85ebd67a96ed2b",
+    "source_size":  [
+                        644,
+                        839
+                    ],
+    "crop_box_left_top_right_bottom":  [
+                                           145,
+                                           175,
+                                           495,
+                                           525
+                                       ],
+    "png":  "E:\\东北迪斯科\\public\\assets\\character-select\\game-icon-dong-crop-v1.png",
+    "png_size":  [
+                     350,
+                     350
+                 ],
+    "png_exact_source_pixels":  true,
+    "ico":  "E:\\东北迪斯科\\public\\assets\\character-select\\game-icon-dong-crop-v1.ico",
+    "ico_sizes":  [
+                      [
+                          16,
+                          16
+                      ],
+                      [
+                          24,
+                          24
+                      ],
+                      [
+                          32,
+                          32
+                      ],
+                      [
+                          48,
+                          48
+                      ],
+                      [
+                          64,
+                          64
+                      ],
+                      [
+                          128,
+                          128
+                      ],
+                      [
+                          256,
+                          256
+                      ]
+                  ],
+    "processing":  "PNG only crops existing pixels; ICO derives standard resized frames from that crop. No generation, repainting, recoloring or source edits.",
+    "human_review":  "pending",
+    "application_integration":  "2026-09-16: workbench desktop shortcut updated and read back; launcher passes Dong ICO to Electron BrowserWindow. Existing window not restarted; window icon takes effect next launch."
+}

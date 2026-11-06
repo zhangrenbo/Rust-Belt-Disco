@@ -1,0 +1,144 @@
+{
+  "scene": "A000 夏夜夜间公交站",
+  "folder": "东北迪斯科参考图",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "references": [
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\fb4f6676e9c54108b4e69a0a8ef1e976.jpg",
+      "sha256": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "mj_upload_id": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/5ee101825ce90c95edf109f05ab983bcca14f57f48c76b2f20c356a5e6d4255a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\a5ad1b480b3a9a5605f52871df477cd6.jpg",
+      "sha256": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "mj_upload_id": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/4d906ff042374b674894b72cbdcbf9363b61abe620c0cb54156834396880838c_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\45545f073194fce9bb504dac8efd1d1e.jpg",
+      "sha256": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "mj_upload_id": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/6e711d2ead5110af8b56d0f50b636917fcf2a966f7b1ac02e188114d75b1305a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    }
+  ],
+  "expected_style_references": [
+    "https://s.mj.run/A6_BtdGjcfo",
+    "https://s.mj.run/l2YC6AxG5Es",
+    "https://s.mj.run/tHRcou4Txfk"
+  ],
+  "source_context": [
+    "content/story/ink/D0_序章.ink",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json"
+  ],
+  "status": "completed",
+  "prompt": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting. a three-quarter 45-degree top-down view. an overhead isometric view of an old industrial neighborhood in northeastern China on a summer night. a weathered roadside bus shelter has a corrugated metal roof and a long wooden bench. one elderly woman in a dark cloth jacket sits at the end of the bench, her hands resting in her lap. cracked asphalt and uneven concrete paving extend from the lower left foreground to the shelter and continue along the street. red brick workers housing, low factory walls, shuttered small shops and a parked utility truck line the road behind it. peeling paint, rusted drainpipes, overhead wires and weeds growing along the curb mark the aging street. a dim streetlamp lights the bench and a small patch of pavement, with a few lit windows further down the block. dark fence posts and the edge of a low brick wall frame the immediate foreground without blocking the open pavement. the overall atmosphere is quiet, worn, industrial, and deserted. 1980s Northeast China socialist-era buildings and street furniture, period-accurate, worn and weathered. muted teal-and-amber palette, cool teal ambient night light and soft amber streetlamp light. VISIBLE BRUSHSTROKES and painterly oil-painted textures across brick, metal, wood and paving, with clear three-dimensional forms. a continuous full street environment filling the frame. no text. --ar 16:9 --raw --v 8.1 --relax --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --no snow, interface, exclamation mark, watermark, extra people",
+  "human_review": "pending",
+  "in_game_integration": "not_applied",
+  "downloads": [],
+  "original_composer_draft": "stylized 3D render with PAINTERLY hand-painted brushstroke textures, Disco Elysium oil-painting aesthetic translated into 3D form and lighting, a SMALL ISOLATED PROP VIGNETTE of an old reclining barber chair facing a mirror stand, a straight razor, scissors and a draping cloth on a tray, a 1980s Northeast China socialist-era furniture grouping, period-accurate, worn and weathered, the small arrangement centered in frame, three-quarter 45-degree top-down view, isolated on a plain soft neutral grey background, soft even studio lighting, muted teal-and-amber palette, VISIBLE BRUSHSTROKES and painterly oil-painted texture, the whole grouping fully in frame, no people, no text VIGB2",
+  "style_mix": "用户明确要求合并具体工业场景描述与手绘笔触、3D形体光照、青橙色调；仍为A000完整公交站，省略理发道具、孤立灰底、无人及VIGB2道具编号。",
+  "previous_job_id": "097f04f5-691c-48df-851c-069abaa2d2fe",
+  "preflight": {
+    "folder": true,
+    "images": 0,
+    "personalization": "false"
+  },
+  "submitted_at": "2026-09-15T22:11:31.333804+00:00",
+  "source_sha256": {
+    "content/story/ink/D0_序章.ink": "97a5584708e338e36f5c2cd671d678cee351fdbb4a0eded3f7355438e7d98340",
+    "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json": "6b54524f769e04332cb71ef68121751fd0ff1433b069a3e5dc2323fa758384ba"
+  },
+  "submit_receipt": {
+    "accepted": [
+      {
+        "job_id": "f9725079-64c6-4e14-9e80-a1e1f3e2f826",
+        "prompt": "Stylized 3D render, painterly hand painted brushstroke textures, Disco Elysium oil painting aesthetic in 3D. Three quarter 45 degree top down isometric view. Old industrial neighborhood, northeastern China, summer night, 1980s socialist era. A weathered roadside bus shelter with corrugated metal roof and long wooden bench; one elderly woman in dark cloth jacket sits at the bench end, hands in lap. Cracked asphalt and uneven concrete paving extend across the scene. Red brick workers' housing, low factory walls, shuttered shops, parked utility truck line the road. Peeling paint, rusted drainpipes, overhead wires, weeds along curb. Dim streetlamp illuminates bench and pavement; a few lit windows further down. Dark fence posts and low brick wall frame the foreground. Quiet, worn, industrial, deserted atmosphere. Muted teal and amber palette, cool teal ambient night light, soft amber streetlamp glow. Visible brushstrokes across brick, metal, wood, paving. Full street environment filling the frame. No text. --no snow, interface, exclamation mark, watermark, extra people --ar 16:9 --relax --raw --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --v 8.1",
+        "is_queued": false,
+        "job_type": "v8-1_diffusion",
+        "flags": {
+          "mode": "relaxed",
+          "visibility": "public"
+        },
+        "meta": {
+          "height": 816,
+          "width": 1456,
+          "batch_size": 4,
+          "parent_id": null,
+          "parent_grid": null
+        },
+        "personalization_codes": null
+      }
+    ],
+    "http": 200
+  },
+  "job_id": "f9725079-64c6-4e14-9e80-a1e1f3e2f826",
+  "post_submit_text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight Mode\nzhangrenbo\nStarting...\nStylized 3D render, painterly hand painted brushstroke textures, Disco Elysium oil painting aesthetic in 3D. Three quarter 45 degree top down isometric view. Old industrial neighborhood, northeastern China, summer night, 1980s socialist era. A weathered roadside bus shelter with corrugated metal roof and long wooden bench; one elderly woman in dark cloth jacket sits at the bench end, hands in lap. Cracked asphalt and uneven concrete paving extend across the scene. Red brick workers' housing, low factory walls, shuttered shops, parked utility truck line the road. Peeling paint, rusted drainpipes, overhead wires, weeds along curb. Dim streetlamp illuminates bench and pavement; a few lit windows further down. Dark fence posts and low brick wall frame the foreground. Quiet, worn, industrial, deserted atmosphere. Muted teal and amber palette, cool teal ambient night light, soft amber streetlamp glow. Visible brushstrokes across brick, metal, wood, paving. Full street environment filling the frame. No text.\n+ use text\n--no snow, interface, exclamation mark, watermark, extra people\n \nno snow, interface, exclamation mark, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\nan overhead isometric view of an old industrial neighborhood in northeastern China on a summer night. a weathered roadside bus shelter has a corrugated metal roof and a long wooden bench. one elderly woman in a dark cloth jacket sits at the end of the bench, her hands resting in her lap. cracked asphalt and uneven concrete paving extend from the lower left foreground to the shelter and continue along the street. red brick workers housing, low factory walls, shuttered small shops and a parked utility truck line the road behind it. peeling paint, rusted drainpipes, overhead wires and weeds growing along the curb mark the aging street. a dim streetlamp lights the bench and a small patch of pavement, with a few lit windows further down the block. dark fence posts and the edge of a low brick wall frame the immediate foreground without blocking the open pavement. the overall atmosphere is quiet, worn, industrial, and deserted.\n+ use text\n--no snow, interfa",
+  "actual_style_references": [
+    "https://s.mj.run/A6_BtdGjcfo",
+    "https://s.mj.run/l2YC6AxG5Es",
+    "https://s.mj.run/tHRcou4Txfk"
+  ],
+  "three_style_references_verified": true,
+  "result_url": "https://www.midjourney.com/jobs/f9725079-64c6-4e14-9e80-a1e1f3e2f826?index=0",
+  "service_rephrased_prompt": true,
+  "last_status": {
+    "job_id": "f9725079-64c6-4e14-9e80-a1e1f3e2f826",
+    "links": [
+      {
+        "href": "/jobs/f9725079-64c6-4e14-9e80-a1e1f3e2f826?index=0&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/f9725079-64c6-4e14-9e80-a1e1f3e2f826?index=1&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/f9725079-64c6-4e14-9e80-a1e1f3e2f826?index=2&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/f9725079-64c6-4e14-9e80-a1e1f3e2f826?index=3&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 1141,
+            "height": 640
+          }
+        ]
+      }
+    ],
+    "text": "Vary Subtle\nVary Strong\nAnimate\nStylized 3D render, painterly hand painted brushstroke textures, Disco Elysium oil painting aesthetic in 3D. Three quarter 45 degree top down isometric view. Old industrial neighborhood, northeastern China, summer night, 1980s socialist era. A weathered roadside bus shelter with corrugated metal roof and long wooden bench; one elderly woman in dark cloth jacket sits at the bench end, hands in lap. Cracked asphalt and uneven concrete paving extend across the scene. Red brick workers' housing, low factory walls, shuttered shops, parked utility truck line the road. Peeling paint, rusted drainpipes, overhead wires, weeds along curb. Dim streetlamp illuminates bench and pavement; a few lit windows further down. Dark fence posts and low brick wall frame the foreground. Quiet, worn, industrial, deserted atmosphere. Muted teal and amber palette, cool teal ambient night light, soft amber streetlamp glow. Visible brushstrokes across brick, metal, wood, paving. Full street environment filling the frame. No text.\n+ use text\n--no snow, interface, exclamation mark, watermark, extra people\n \nno snow, interface, exclamation mark, watermark, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore",
+    "folderSelected": true
+  },
+  "status_checked_at": "2026-09-15T22:13:01.690652+00:00",
+  "preview_images_loaded": true,
+  "group_membership_verified": true
+}

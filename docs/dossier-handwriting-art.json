@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-14",
+  "scope": "Only the user-inspected #dossier-record text and two small props on its existing character-dossier book.",
+  "requests": [
+    "Stronger handwritten lettering, image-to-image, aligned to the exact paper UI.",
+    "Small red-flower sticker at lower right.",
+    "One very ordinary Chinese household lock key on the left."
+  ],
+  "design": {
+    "palette": {
+      "ink": "#34312c",
+      "stamp": "#933b32",
+      "flower": "#a4483c",
+      "paper": "#d9caba",
+      "key": "#b4aa92"
+    },
+    "type": "Three image-to-image handwritten fountain-pen record overlays, one per configured character. Existing red verification stamp stays HTML. The HTML name/role/place/biography remain as the accessible source and a loading/error fallback.",
+    "layout": "Original article bounds retained; each ink overlay fills the same 21.9cqw by 24cqw rectangle. Transparent-paper blending through white-background ink images. Small flower on lower-right writing-sheet corner; key on lower-left exposed leather.",
+    "principles": "Preserve the original book, paper grain, photos, four paper side tabs, and content. No new frame, numerical character stats, generic icons, or invented fourth character."
+  },
+  "assets": [
+    {
+      "kind": "two new props",
+      "source": "public/assets/exploration-dossier.png",
+      "layoutReference": "docs/personnel-stamp-dong-1440.png",
+      "output": "public/assets/exploration-dossier-redflower-key-v1.png",
+      "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-177e-71f3-9d05-361e1c77ce71/exec-feb3c2d5-4d36-45cc-9bfa-ae71d4ee4c94.png",
+      "prompt": "Make ONLY two small local additions to this exact existing open character-dossier book artwork. Image 1 is the SOURCE artwork to edit. Image 2 only shows the game's real composition and separate portrait/text overlays; do NOT bake that interface, Chinese text, extra portrait, tabs, buttons, or background into the output. Return only the complete edited source artwork with exactly the original canvas size, framing, transparent exterior and book geometry. (1) Add ONE small red-flower reward STICKER at the lower-right corner of the blank RIGHT writing sheet, just ABOVE the top edge of the brown leather pocket, near source coordinates x1230,y596 on the 1485x1036 canvas. About 56 pixels across. A simple old Chinese school reward paper sticker: five rounded deep-red printed petals, a tiny muted yellow center, thin ivory die-cut paper edge, slightly worn matte paper, almost flat with a very subtle contact shadow. No stem, leaves, text, smiley face, bow, realistic fresh flower, wax seal or large badge. It should not cover the dotted writing area above y565 or protrude beyond the page. (2) Add ONE very ORDINARY household lock KEY on the LEFT lower exposed leather corner, centered around x249,y801, occupying approximately x181..341,y745..843. A small flat nickel-plated brass single-edge key of the common type used for Chinese household padlocks and old cylinder door locks: plain rounded rectangular/oval flat bow with one small circular hole, a straight thin flat blade, one side with 5 simple teeth cut into the edge. Slight silver-gray tarnish and fine scratches, modest metal thickness, soft contact shadow. Place diagonally with the plain bow toward lower-left and toothed tip toward upper-right. No ornate antique skeleton key, no long cylindrical shaft, no decorative bow, no modern car fob, no electronics, no keyring and no label. Keep this key on the left lower margin, clear of the portrait's face and the writing sheet. Preserve the original left portrait and papers exactly even though the game later overlays its own character portrait there. Preserve all original book leather, seam, blank right page, dots, page wear, folded clipping, source English side tabs, cord, lighting and alpha as closely as possible. Do not redraw or replace the book or paper. No added UI text or watermarks. Save the edited PNG beside the source as E:/东北迪斯科/public/assets/exploration-dossier-redflower-key-v1.png. Do not create a folder.",
+      "integration": "Only the new key and red-flower regions are displayed through separate SVG contour masks. No generated full book replaces the original; masks also open the key bow hole. The flower is reduced to a small 3.7cqw width."
+    },
+    {
+      "kind": "Dong handwriting",
+      "source": "public/assets/dossier-ink-layout-dong.png",
+      "output": "public/assets/dossier-handwriting-dong-v1.png",
+      "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-177e-71f3-9d05-361e1c77ce71/exec-6b65d596-238f-4db7-9f7a-f9c93009ba77.png",
+      "prompt": "Image-to-image lettering edit. Transform the existing Chinese text in this EXACT layout reference into genuinely HANDWRITTEN Chinese fountain-pen writing. Output a LETTERING-ONLY overlay on a mathematically clean PURE WHITE (#FFFFFF) flat background. No paper texture, no book, no image border, no vignette, no shadows, no objects, no stamps, no decorative marks. Keep the portrait layout's original aspect ratio 316:346, but render at high resolution around 948x1038. Preserve every text block's normalized position, relative size, blank space, and the precise line wrapping shown in the reference. TOP RIGHT must remain empty for a separately rendered red verification stamp. Entire bottom 20 percent stays pure white. The required text is exactly these lines, preserving simplified Chinese and punctuation:\n董点事\n[blank spacing as reference]\n身份        返乡青年\n出场地点    公交车站\n[blank spacing as reference]\n人物简介\n在外打工三年，回到了小镇。故事从返\n乡的公交车站开始。\nSquare-bracket instructions are NOT text; do not draw them. No missing, added, substituted or duplicated characters. In particular the name is 董点事, and the sentence must exactly read 在外打工三年，回到了小镇。故事从返乡的公交车站开始。 across those two lines. Make this look like a person filled out a case file by hand using a fine/medium fountain pen in dark warm charcoal-black ink (#34312c). The name is a larger quick handwritten personal name, energetic but legible, without a printed bold typeface. Other lines use natural small running-regular handwriting, not standardized printed KaiTi: subtly uneven baseline, slightly varied character widths and slants, visible pressure changes, occasional joined strokes and dry pen beginnings, a few darker ink pools. Readability is essential, keep every character fully recognizable. Deliberately replace the uniform typeset character forms with freehand writing, not merely rotate the existing type. Maintain approximately the same character size and block widths as the source, so the ink aligns with the original UI's old dotted paper when overlaid. No underlines or extra rules; those are already in the game background. Pure WHITE exterior and spaces between the ink strokes. Save directly beside the source as E:/东北迪斯科/public/assets/dossier-handwriting-dong-v1.png, no new folder."
+    },
+    {
+      "kind": "li handwriting",
+      "source": "public/assets/dossier-ink-layout-li.png",
+      "styleReference": "public/assets/dossier-handwriting-dong-v1.png",
+      "output": "public/assets/dossier-handwriting-li-v1.png",
+      "prompt": "Image-to-image lettering edit. Image 1 is the precise LAYOUT and TEXT reference for this character. Image 2 is the HANDWRITING STYLE reference from the same case file. Output only the exact text from IMAGE 1, in the same natural fountain-pen hand as IMAGE 2. Do NOT copy the name, occupation, place or biography from Image 2. Keep a clean PURE WHITE #FFFFFF flat canvas, aspect ratio 316:346, around 1200x1314 or comparable high resolution. Preserve normalized text block positions, blank upper-right space for the separate red verification stamp, and approximately the letter sizing from Image 1. Make the name larger and personally handwritten, other text fine/medium running-regular Chinese handwriting with pressure variation, slightly uneven baselines and slants, dark warm charcoal-black ink. Fully readable freehand writing, no standardized typeset KaiTi. No paper texture, gray wash, shadows, books, stamps, objects, rules, underline, extra label or decoration. Entire bottom 20 percent stays white. The required simplified Chinese text and exact line wrapping are:\n李正\n\n身份        镇上警官\n出场地点    李正家\n\n人物简介\n镇上的警官。从家中出发，在出警与调\n查中走进小镇的故事。\nKeep exactly that wording and punctuation, no missing, substituted, duplicated or added characters. The full biography must read exactly: 镇上的警官。从家中出发，在出警与调查中走进小镇的故事。\nLeave all white space exactly white. Save directly beside Image 1 as E:/东北迪斯科/public/assets/dossier-handwriting-li-v1.png. Do not create an output folder.",
+      "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-177e-71f3-9d05-361e1c77ce71/exec-f8e79945-05b1-4658-b1c5-ac7a8d6eac1f.png"
+    },
+    {
+      "kind": "wang handwriting",
+      "source": "public/assets/dossier-ink-layout-wang.png",
+      "styleReference": "public/assets/dossier-handwriting-dong-v1.png",
+      "output": "public/assets/dossier-handwriting-wang-v1.png",
+      "prompt": "Image-to-image lettering edit. Image 1 is the precise LAYOUT and TEXT reference for this character. Image 2 is the HANDWRITING STYLE reference from the same case file. Output only the exact text from IMAGE 1, in the same natural fountain-pen hand as IMAGE 2. Do NOT copy the name, occupation, place or biography from Image 2. Keep a clean PURE WHITE #FFFFFF flat canvas, aspect ratio 316:346, around 1200x1314 or comparable high resolution. Preserve normalized text block positions, blank upper-right space for the separate red verification stamp, and approximately the letter sizing from Image 1. Make the name larger and personally handwritten, other text fine/medium running-regular Chinese handwriting with pressure variation, slightly uneven baselines and slants, dark warm charcoal-black ink. Fully readable freehand writing, no standardized typeset KaiTi. No paper texture, gray wash, shadows, books, stamps, objects, rules, underline, extra label or decoration. Entire bottom 20 percent stays white. The required simplified Chinese text and exact line wrapping are:\n王少鹏\n\n身份        诊所经营者\n出场地点    家中／诊所\n\n人物简介\n经营着镇上的诊所。他的一天，从家中\n与诊所开始。\nKeep exactly that wording and punctuation, no missing, substituted, duplicated or added characters. The full biography must read exactly: 经营着镇上的诊所。他的一天，从家中与诊所开始。\nLeave all white space exactly white. Save directly beside Image 1 as E:/东北迪斯科/public/assets/dossier-handwriting-wang-v1.png. Do not create an output folder.",
+      "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-177e-71f3-9d05-361e1c77ce71/exec-9027e13f-5269-442b-858a-d18779996f2f.png"
+    }
+  ],
+  "sourceMethod": "Layout references captured from only #dossier-record in an isolated Chrome CDP page, with white background and the separate stamp hidden; not crops of the protected UI reference art.",
+  "originalsPreserved": true,
+  "humanArtApproval": "pending",
+  "verification": "docs/dossier-handwriting-verification.json",
+  "backups": [
+    ".local/app-before-dossier-handwritten-20260914.css",
+    ".local/index-before-dossier-handwritten-20260914.html",
+    ".local/dossier-characters-before-handwritten-20260914.js"
+  ],
+  "assetChecks": [
+    {
+      "path": "public/assets/exploration-dossier-redflower-key-v1.png",
+      "bytes": 2277945,
+      "sha256": "b169b3385cc5182d5e4fe1cc7e5a2f5163fdaf10cc49942c6ae288e7388195fd",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-handwriting-dong-v1.png",
+      "bytes": 972526,
+      "sha256": "7fca9450e31f0226c74ac4bc7e4db46775d40cd40cd997186bb89e8267047d9e",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-handwriting-li-v1.png",
+      "bytes": 952104,
+      "sha256": "2669f5d2bf49fc498149e2e4fd50ef8c4d2ebf23dcc51056e81326be52b6664b",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-handwriting-wang-v1.png",
+      "bytes": 875976,
+      "sha256": "2cf8fbd8271df6869bc09251b25e004ff566f9ebe28e6ef64b965e9163fcb295",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-key-mask.svg",
+      "bytes": 354,
+      "sha256": "f39b791c651bd3ac7cd2f52fa18681a18a09acce3d138155780c6c23d514feb4",
+      "buildMatch": true,
+      "httpStatus": 200
+    },
+    {
+      "path": "public/assets/dossier-redflower-mask.svg",
+      "bytes": 379,
+      "sha256": "e5c149def7c821a3e61f8fca00bb36885a0a63134c3f9422286a1919c2a3ea0b",
+      "buildMatch": true,
+      "httpStatus": 200
+    }
+  ],
+  "generatedCopiesIdentical": true,
+  "assistantVisualReview": "All seven game-stage screenshots inspected at 1440x810, 1058x595 and 844x475: three correct records, handwriting follows the original paper; verification stamp retained; ordinary flat key and small red flower visible with no exterior checkerboard. Human art approval remains pending."
+}

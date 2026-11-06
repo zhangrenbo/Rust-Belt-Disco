@@ -1,0 +1,49 @@
+{
+  "film": "on",
+  "motion": "on",
+  "strength": "0.65",
+  "nodes": 53,
+  "layers": [
+    {
+      "selector": ".projector-film",
+      "display": "block",
+      "zIndex": "70",
+      "opacity": "1",
+      "filter": "none",
+      "mask": "none",
+      "backdrop": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)",
+      "pointerEvents": "none"
+    },
+    {
+      "selector": ".grain",
+      "display": "block",
+      "zIndex": "72",
+      "opacity": "0.299",
+      "filter": "contrast(1.5)",
+      "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+      "backdrop": "none",
+      "pointerEvents": "none"
+    },
+    {
+      "selector": ".projector-edge-snow",
+      "display": "block",
+      "zIndex": "73",
+      "opacity": "0.715",
+      "filter": "none",
+      "mask": "radial-gradient(rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0.18) 15%, rgba(0, 0, 0, 0.36) 40%, rgba(0, 0, 0, 0.68) 70%, rgb(0, 0, 0) 100%)",
+      "backdrop": "none",
+      "pointerEvents": "none"
+    },
+    {
+      "selector": ".projector-edge-flicker",
+      "display": "block",
+      "zIndex": "71",
+      "opacity": "0.65",
+      "filter": "none",
+      "mask": "none",
+      "backdrop": "none",
+      "pointerEvents": "none"
+    }
+  ],
+  "dustScale": "none"
+}

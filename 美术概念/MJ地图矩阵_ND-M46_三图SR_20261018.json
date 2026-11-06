@@ -1,0 +1,49 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-job-v1",
+    "project":  "东北迪斯科",
+    "id":  "ND-M46",
+    "name":  "叔叔家与修车棚连通",
+    "kind":  "exterior",
+    "source_scene_id":  null,
+    "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D game map of a Northeast Chinese industrial town in winter. No characters or people. Show the full connected walking surface, entrances, exits, wall thickness, furniture bases and traversable gaps. Snow-covered family courtyard connected by a gate and footpath to a roadside vehicle repair shed. Realistic snow, damp concrete, worn brick, corroded metal, soft contact shadows, readable foreground and background depth. No signs with readable words. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people",
+    "status":  "rendered_visible",
+    "human_approved":  false,
+    "preflight":  {
+                      "ready":  true,
+                      "empty":  true,
+                      "folder":  true,
+                      "images":  0,
+                      "personalization":  "false",
+                      "visibility":  "visible"
+                  },
+    "submitted_at":  "2026-10-18T05:31:54.892270+00:00",
+    "prior_job_id":  "ffd8dbe0-ebbb-4f3e-8e2c-afbd245b7d9c",
+    "verification_status":  "confirmed_visible",
+    "verification_attempt_at":  "2026-10-18T05:51:10.754830+00:00",
+    "verification_http_status":  200,
+    "verification_receipt_shape":  [
+                                       "success",
+                                       "failure"
+                                   ],
+    "verification_receipt":  {
+                                 "success":  [
+                                                 {
+                                                     "job_id":  "066c983f-9867-48af-8504-f3ea6aaee24d",
+                                                     "is_queued":  true
+                                                 }
+                                             ],
+                                 "failure":  [
+
+                                             ]
+                             },
+    "verification_new_job_id":  "066c983f-9867-48af-8504-f3ea6aaee24d",
+    "verification_ui":  {
+                            "tail":  "xt, watermark, people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore\nTo top\nLooking for more...\nLooking for more...\n10 queued jobs\nfolder\n东北迪斯科参考图\n34/46\nP\nDraft Mode\nExplore at draft quality and refine with variations.\nConversational Mode\nRefine your prompt using text or voice.\nYour prompt was not submitted, you have reached the maximum number of prompts you can submit at once.",
+                            "folderText":  "34",
+                            "queued":  false,
+                            "promptTail":  true
+                        },
+    "job_id":  "066c983f-9867-48af-8504-f3ea6aaee24d",
+    "result_url":  "https://www.midjourney.com/jobs/066c983f-9867-48af-8504-f3ea6aaee24d?index=0",
+    "verification_evidence":  "Direct job page has image UI; image_elements=9; loaded=0"
+}

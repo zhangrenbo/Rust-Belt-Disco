@@ -1,0 +1,548 @@
+{
+  "output": "C:\\Users\\W11\\Desktop\\东北迪斯科-单文件版.html",
+  "createdAt": "2026-09-14T14:31:12.701Z",
+  "bytes": 136629694,
+  "sha256": "debe8e4539f70741f44348b2be7a10878074df52f20f34c1e19244335b49b223",
+  "singleFile": true,
+  "assetCount": 93,
+  "assetBytes": 102199177,
+  "assets": [
+    {
+      "path": "assets/character-select/000_T_选人页面背景_瓶压三好学生奖状_v1.png",
+      "bytes": 1825984,
+      "sha256": "d5d53dfe690a461d5126de538af764d743c88bce5547a8105328b4da0e8dc769"
+    },
+    {
+      "path": "assets/character-select/000_T_选人页面背景_神医报纸_v3.png",
+      "bytes": 1783582,
+      "sha256": "52675b612821506c10e9e270b307617706305938d232386f1656c78dce750d61"
+    },
+    {
+      "path": "assets/character-select/001_T_氛围雾2.png",
+      "bytes": 10312108,
+      "sha256": "e59c89c2f2fbc44cfc91f495b2e7e43d1c93be91be8822726a0dc596479768cd"
+    },
+    {
+      "path": "assets/character-select/003_T_A000右下角的信息.png",
+      "bytes": 1190862,
+      "sha256": "e36c04d1c63137f8807a1d5a5898d272e9ac95433af9d9f6dda2b7b92655269e"
+    },
+    {
+      "path": "assets/character-select/004_T_A000左边的信息.png",
+      "bytes": 644265,
+      "sha256": "41d37c1a2d2172eed47466ae0f3d73561edb53186e519294a666953c6b2f1808"
+    },
+    {
+      "path": "assets/character-select/005_T_董点事的简介.png",
+      "bytes": 580162,
+      "sha256": "b06ef09081484875a724cd219a1eabd3dbbca4e2119a16405189cb94d44fb658"
+    },
+    {
+      "path": "assets/character-select/006_T_A000照片.png",
+      "bytes": 735719,
+      "sha256": "de2ad33ce79c2993af9595f1c863e6c0974fa1d4d74334eb8e85ebd67a96ed2b"
+    },
+    {
+      "path": "assets/character-select/007_图层_2.png",
+      "bytes": 2165,
+      "sha256": "1f6b01c2a486068532f6ab722518ea8a23f52ae61190607c085e7eb441514927"
+    },
+    {
+      "path": "assets/character-select/008_点此开始游戏_大厦崩塌.png",
+      "bytes": 6116,
+      "sha256": "a3d8b8eb3a70cf2ddc0500fbff23e9b37525bbf92afa58f92a1dc02694745149"
+    },
+    {
+      "path": "assets/character-select/009_T_关卡3背景.png",
+      "bytes": 702263,
+      "sha256": "9f54e1180568602d7e0299d8c396db2ca06ec33ec7fc1ad94086464b9e61ac7c"
+    },
+    {
+      "path": "assets/character-select/010_点此开始游戏_烈日灼心.png",
+      "bytes": 5143,
+      "sha256": "3da8bd01eecc7e626a9ca85fd75c81474906748c72c322790441c52209d48d03"
+    },
+    {
+      "path": "assets/character-select/011_T_王少鹏选人卡左背景.png",
+      "bytes": 1040708,
+      "sha256": "dd26ac726ab213c24c171f570b9728b7f57bb169135bd33d5bb8c95673709ace"
+    },
+    {
+      "path": "assets/character-select/012_T_王少鹏选人卡.png",
+      "bytes": 506731,
+      "sha256": "588a245d945654d622acfd3e23c01f0b81488fd02eb9980681c28af7a602b8a9"
+    },
+    {
+      "path": "assets/character-select/013_图层_15.png",
+      "bytes": 2360,
+      "sha256": "00e86464ac0b43c9d005c094f859c7b50997f157865f739bd7794bae3e2f5533"
+    },
+    {
+      "path": "assets/character-select/014_董点事.png",
+      "bytes": 2029,
+      "sha256": "81a49b48f2635b30dd6d08f5e728f951959fcd60e1643c085cb3595f10a8a784"
+    },
+    {
+      "path": "assets/character-select/015_董点事简介_1.png",
+      "bytes": 4884,
+      "sha256": "3b0254724110ef3da3c51b94210203ffa226f43c1bbfedf2c58f7670ad2edcc1"
+    },
+    {
+      "path": "assets/character-select/016_董点事简介_2.png",
+      "bytes": 5534,
+      "sha256": "7f44102362c6d93238036ab88e17ceb6588383e6633dd725fe8caab0d368203a"
+    },
+    {
+      "path": "assets/character-select/018_关卡3背景.png",
+      "bytes": 751072,
+      "sha256": "d124b87196c192861843131b02c0533df932ae183d3e0fc12cbafc47f01c67d6"
+    },
+    {
+      "path": "assets/character-select/019_关卡3便条.png",
+      "bytes": 695212,
+      "sha256": "4f962482df614242b8f674b18bff1ebc01b23054642a324f32618c218e85f19c"
+    },
+    {
+      "path": "assets/character-select/020_关卡3插画.png",
+      "bytes": 637329,
+      "sha256": "e0f6067e3f05228dbef983a9a47f210bc828f0f497246220e0324f24ce7a2747"
+    },
+    {
+      "path": "assets/character-select/021_图层_3.png",
+      "bytes": 2034,
+      "sha256": "feb0a2df2698a993ebf95e246f1d04efb3387379d9b2953ed78104033998e228"
+    },
+    {
+      "path": "assets/character-select/022_T_王少鹏选人卡下的箭头.png",
+      "bytes": 29084,
+      "sha256": "574932d93bf72afd0929f89b9553638a65933d97dc8a6e12f10d394c5ecd1010"
+    },
+    {
+      "path": "assets/character-select/023_董点事简介_3.png",
+      "bytes": 5039,
+      "sha256": "67438da07fb67d2d9b11be1f596751e22b4e112d3f5e93953db4b004b29f3b4d"
+    },
+    {
+      "path": "assets/character-select/024_董点事简介_4.png",
+      "bytes": 3399,
+      "sha256": "824c92e979bf87dff2041f6f0df0d530fdf5c8317171279cf0bda29d0afa36c5"
+    },
+    {
+      "path": "assets/character-select/025_点此开始游戏_金钱为方.png",
+      "bytes": 6205,
+      "sha256": "342cf53a34542d16f472298ffc874e1fcfee229df6d2b6f7283f482626c214d0"
+    },
+    {
+      "path": "assets/disco-dialog-close-v1.png",
+      "bytes": 1044049,
+      "sha256": "242fccfa1485652a3716eb58b3565af2583460863f5c5c0320f00c6531c97bbb"
+    },
+    {
+      "path": "assets/disco-dialog-panel-v1.png",
+      "bytes": 1693232,
+      "sha256": "74157c3b95deca3b48c86ec0414dc89f1d2371985d7f12c512b790b802fe53a9"
+    },
+    {
+      "path": "assets/disco-dialog-portrait-frame.png",
+      "bytes": 286802,
+      "sha256": "46168d7a2ed2607879094abfaceeb4f13a7dd43e40b7b191384b7bb4b127f0e2"
+    },
+    {
+      "path": "assets/disco-entry-tab-v1.png",
+      "bytes": 1118827,
+      "sha256": "57ea475e1fe905a93ab5df5fc9ad89d878dd269e4ac1986aab8e7538a0735602"
+    },
+    {
+      "path": "assets/dongbei-portrait-li-zheng.png",
+      "bytes": 573742,
+      "sha256": "1dbb8a9060f8e4c171fad8eda138197234885a27eb48548385533b0eb685386e"
+    },
+    {
+      "path": "assets/dossier-handwriting-dong-v1.png",
+      "bytes": 972526,
+      "sha256": "7fca9450e31f0226c74ac4bc7e4db46775d40cd40cd997186bb89e8267047d9e"
+    },
+    {
+      "path": "assets/dossier-handwriting-li-v1.png",
+      "bytes": 952104,
+      "sha256": "2669f5d2bf49fc498149e2e4fd50ef8c4d2ebf23dcc51056e81326be52b6664b"
+    },
+    {
+      "path": "assets/dossier-handwriting-wang-v1.png",
+      "bytes": 875976,
+      "sha256": "2cf8fbd8271df6869bc09251b25e004ff566f9ebe28e6ef64b965e9163fcb295"
+    },
+    {
+      "path": "assets/dossier-key-mask.svg",
+      "bytes": 354,
+      "sha256": "f39b791c651bd3ac7cd2f52fa18681a18a09acce3d138155780c6c23d514feb4"
+    },
+    {
+      "path": "assets/dossier-redflower-mask.svg",
+      "bytes": 379,
+      "sha256": "e5c149def7c821a3e61f8fca00bb36885a0a63134c3f9422286a1919c2a3ea0b"
+    },
+    {
+      "path": "assets/dossier-wang-shaopeng.png",
+      "bytes": 503578,
+      "sha256": "ad5ecd99112978891459324d148934f21dbcea80fed26079aa858fabf0919f82"
+    },
+    {
+      "path": "assets/entry-evidence-board-notebooks-v3.png",
+      "bytes": 2685032,
+      "sha256": "174922863b88a131287bb159e8b7b85b85c2935805cc75980c7b8feff9d28667"
+    },
+    {
+      "path": "assets/entry-evidence-board-v2.png",
+      "bytes": 3616879,
+      "sha256": "580c35fcab844a6ec837e728032fc5bf80d8e7ded28b49f5b20a182463600a45"
+    },
+    {
+      "path": "assets/entry-title-slip-v2.png",
+      "bytes": 2899198,
+      "sha256": "f322a7f82cb7f435294ba43bc9fcce2cee2cda03509e6f7393011be946380bbb"
+    },
+    {
+      "path": "assets/event-center-strip-v6.png",
+      "bytes": 1242716,
+      "sha256": "af968083aafb9d9bc27451be446639189b0cb51182005ec483c0ca2cb94c80c6"
+    },
+    {
+      "path": "assets/event-desk-bg-medal-marriage-v2.png",
+      "bytes": 1722431,
+      "sha256": "24664d5c5c80f13d2482c7370d09b0c1b6efb68c0aeba25ebd934eed08343bfd"
+    },
+    {
+      "path": "assets/event-desk-bg-v2.png",
+      "bytes": 2531937,
+      "sha256": "493520d9bc944a0ab8ebd1fd1ea41d8e6f07d1a1cb7fb45d688c2c5d5cd9a3a3"
+    },
+    {
+      "path": "assets/event-dossier-bag-v1.png",
+      "bytes": 2315167,
+      "sha256": "43caadf8b5715d588290c5c97df921f6922bd1f83de5e6e094ed79f984e52de0"
+    },
+    {
+      "path": "assets/event-dossier-handwriting-xiongshou-v1.png",
+      "bytes": 1444350,
+      "sha256": "d50c91bb3e49da8c438f761ca72e4f0d8ff8559fe19449f3300c703bb98a5947"
+    },
+    {
+      "path": "assets/evidence-ticket-black-paper-v1.png",
+      "bytes": 2681439,
+      "sha256": "4b65a2e33c300cbd1a01177aa2f0e7a9cbef420a1dba2a214814cb254e7c9b91"
+    },
+    {
+      "path": "assets/evidence-ticket-v2.png",
+      "bytes": 2422187,
+      "sha256": "a145b00fca6109f0e8851ef39105e27d309f876e6da960b21e309b0160e1c2b8"
+    },
+    {
+      "path": "assets/exploration-board-dongbei.png",
+      "bytes": 2368057,
+      "sha256": "305d394e8e80016b53377e80873da90e188824b8cdc49d511b51e91c70b1a930"
+    },
+    {
+      "path": "assets/exploration-dossier-redflower-key-v1.png",
+      "bytes": 2277945,
+      "sha256": "b169b3385cc5182d5e4fe1cc7e5a2f5163fdaf10cc49942c6ae288e7388195fd"
+    },
+    {
+      "path": "assets/exploration-dossier.png",
+      "bytes": 1467426,
+      "sha256": "2482baa94af4b6b000b4a818f3947763cc260ca20764058a2d16a3270ac549ba"
+    },
+    {
+      "path": "assets/main-menu-continue.png",
+      "bytes": 10243,
+      "sha256": "59b4b0975bfe0be1465a7409c5b658727c29e815c4c23d2d9f6016025c182ce2"
+    },
+    {
+      "path": "assets/main-menu-exit.png",
+      "bytes": 7952,
+      "sha256": "6093121e7595456c903a9ff6190b0935036cdce0b7a970dd1a41ca6baf9e5686"
+    },
+    {
+      "path": "assets/main-menu-logo.png",
+      "bytes": 43872,
+      "sha256": "a9e6ecd7988197c1e048ba7016295fa1465dd6591f9564e9f2a47589966cdd1e"
+    },
+    {
+      "path": "assets/main-menu-save.png",
+      "bytes": 9481,
+      "sha256": "091e62589fe57605cdce108ea5c8cdf80f900987ef5e1df5ff74f5904e717e4d"
+    },
+    {
+      "path": "assets/main-menu-settings.png",
+      "bytes": 8847,
+      "sha256": "2000c8990be04e08e3d7e9e4dd690dbbcb37c881cc6c262934a6316cbb1ced03"
+    },
+    {
+      "path": "assets/main-menu-start.png",
+      "bytes": 8957,
+      "sha256": "5bbccc5bd0dc0fce11c4524cacfbb193018d0abe5e921c2263dad70f9304b68e"
+    },
+    {
+      "path": "assets/menu-stationery-art.png",
+      "bytes": 1781468,
+      "sha256": "0a1c11f860e722c6d85b2cac42ad62833984e4c2a3b68c0e0f2a8850e8dd088c"
+    },
+    {
+      "path": "assets/menu-stationery-mask.svg",
+      "bytes": 307,
+      "sha256": "a5fbbbea8e15d4cb548323cb29b638ac357241e17162111abc2bdbb37623e82c"
+    },
+    {
+      "path": "assets/record-player-reference-outline.svg",
+      "bytes": 463,
+      "sha256": "6d0b4af914b360f86ca105786d4afc94b2a1ec3cf6166e4ac44d40505bc8a7dd"
+    },
+    {
+      "path": "assets/record-player-reference-panel-v2.png",
+      "bytes": 2325514,
+      "sha256": "cc8d669be221e041f1fe0a391fb5e10cb04f0b7966f1dde8577012a1106c3953"
+    },
+    {
+      "path": "assets/record-tonearm.png",
+      "bytes": 502495,
+      "sha256": "93c99b9255b237334798db32ee0d4fddf337ce2d99dde27d5734beb4ed30e32e"
+    },
+    {
+      "path": "assets/record-vinyl-painted-v1.png",
+      "bytes": 2312181,
+      "sha256": "c11c31f851616082d8355dd838f165171d19254657e39ff2a61208d432fe8bb6"
+    },
+    {
+      "path": "assets/save-archive-desk-v2.png",
+      "bytes": 2387513,
+      "sha256": "4fbed8f8bed764626a697f5abb5c4b4511e2a75736666fbfe6df7edc62f7c093"
+    },
+    {
+      "path": "assets/save-archive-reference-v1.png",
+      "bytes": 2219902,
+      "sha256": "6398a23456adb8623a94b56d485f157186a953c8a4f19a6a9c6fe1eee9c2d709"
+    },
+    {
+      "path": "assets/save-slot-detail-outline.svg",
+      "bytes": 428,
+      "sha256": "a1a9b72942a4ca0aa7ff6cc4136a0581707e7624fb85e52cb0ec0866eb7fbc54"
+    },
+    {
+      "path": "assets/save-slot-detail-panel-v1.png",
+      "bytes": 2970292,
+      "sha256": "a47510123723cf0d1d9f8ecbb0f2986b2308f36788e14a91cc44d6290cadc6fc"
+    },
+    {
+      "path": "assets/save-stamp-ink-mask.svg",
+      "bytes": 529,
+      "sha256": "fcabc097ae07c7a53cd63102e8399ed8219b1190a64601a82171ca689ed0b861"
+    },
+    {
+      "path": "assets/save-ticket-ink-mask.svg",
+      "bytes": 883,
+      "sha256": "4ba5744b7de130b765bc9b26bd3f8c9fca129f765fe62b4cf076f666596b5871"
+    },
+    {
+      "path": "assets/save-ticket-mask-01.svg",
+      "bytes": 633,
+      "sha256": "e2708b3d6b670b9998b1879c817b69f10d086f305844152ae2eb99b1c286d852"
+    },
+    {
+      "path": "assets/save-ticket-mask-02.svg",
+      "bytes": 633,
+      "sha256": "340def9b7ee6cc9fbeed9a6fd2b937080a68ac33e2a2ee0b9aea48311d41f019"
+    },
+    {
+      "path": "assets/save-ticket-mask-03.svg",
+      "bytes": 633,
+      "sha256": "c3c565b1154442c4cb9e8d59b7c5beaa93293352e92654c7ca812e661e9926e6"
+    },
+    {
+      "path": "assets/save-ticket-mask-04.svg",
+      "bytes": 633,
+      "sha256": "44c34f133aa63d7966ef0fd4dcd26b2df29ece851306ce3baf6696e4d31765ad"
+    },
+    {
+      "path": "assets/save-ticket-mask-05.svg",
+      "bytes": 264,
+      "sha256": "756377c45069d5367ec51f2d031b1e77b915d3eb0475ab39cae335c97977dd50"
+    },
+    {
+      "path": "assets/save-ticket-mask-06.svg",
+      "bytes": 264,
+      "sha256": "06157393f7533b77ca5d7a9d59d25c345538de8b24064a4280b195584b1d3856"
+    },
+    {
+      "path": "assets/save-ticket-stamp-rim.svg",
+      "bytes": 442,
+      "sha256": "f614a26bad65cd096636cff44c0392ea938d5e3be18f0493ba4e1df29dbbf90b"
+    },
+    {
+      "path": "exit-dialog-panel-v1.png",
+      "bytes": 2068158,
+      "sha256": "4ec0f91128402174fe4fc57cdb15e0c30a17068306938dfda2251fa3903afc73"
+    },
+    {
+      "path": "media/characters/dong-reference.png",
+      "bytes": 933455,
+      "sha256": "d3bfc5b44927a0f0aa95d11be9d8ec6383cd4e5f57794bebe7e536438c7477bd"
+    },
+    {
+      "path": "media/characters/dong.png",
+      "bytes": 1738992,
+      "sha256": "696f053e6eeff576055cb23c1e53286e1391ca1998c3d5a83718a36a29aeacc7"
+    },
+    {
+      "path": "media/characters/grandmother-reference.png",
+      "bytes": 2653488,
+      "sha256": "c1b7b6b699275529755e11640dabeafd15f6651b45c85ea2cdef0c9e98293e7e"
+    },
+    {
+      "path": "media/music/CREDITS.txt",
+      "bytes": 1684,
+      "sha256": "47274fae419767887a899bf7537843aefab520fdb9f0b323c8930dc9731f6c99"
+    },
+    {
+      "path": "media/music/dongbei-disco-theme.mp3",
+      "bytes": 5483116,
+      "sha256": "484fea59d32259b515e3511d201a270dd311806670e1c5809bdc9b92a3e1ed32"
+    },
+    {
+      "path": "media/music/station-dark-place.ogg",
+      "bytes": 1758616,
+      "sha256": "c78a433139ace4a050b5d4a1b9b94bcf1f04d059345c849c7c234a2fe0eda102"
+    },
+    {
+      "path": "media/sfx/LICENSE-Kenney.txt",
+      "bytes": 478,
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+    },
+    {
+      "path": "media/sfx/paper-press.wav",
+      "bytes": 26608,
+      "sha256": "b810c6ea0ec7b680d155fc5fb459d569f0e7dc4c93463ab0bf48741168cea16a"
+    },
+    {
+      "path": "media/sfx/paper-slip.wav",
+      "bytes": 22182,
+      "sha256": "1156ffb70f61167f26a1f3560b482654a46ef18ecfb3fffdc2fcf0db2fc6d844"
+    },
+    {
+      "path": "media/sfx/paper-turn-a.wav",
+      "bytes": 73834,
+      "sha256": "be8eb5e478f0505f22163e799ce82169682fc988a4afa461a108f6b1e161582b"
+    },
+    {
+      "path": "media/sfx/paper-turn-b.wav",
+      "bytes": 41366,
+      "sha256": "d9eded462b23f927600fd0b736994567bf18c59b8af1e1a1aa140cecdb638a3e"
+    },
+    {
+      "path": "media/station-night.png",
+      "bytes": 2242071,
+      "sha256": "af64af15fb31ec65237e93c4bdbc9756d1fb00c62bf4d348713799e9123b1584"
+    },
+    {
+      "path": "record-catalog-outline.svg",
+      "bytes": 729,
+      "sha256": "aabc581547dd3f53bd6ecc6302956e4844c95547a36b688d31d6f2b04be678a3"
+    },
+    {
+      "path": "record-catalog-paper-reference-v4.png",
+      "bytes": 2571715,
+      "sha256": "0c18fc093d9fe22ae201e2a257a7e476ea7239ab3523d78e8f3d177e209d1962"
+    },
+    {
+      "path": "settings-apply-button-v1.png",
+      "bytes": 2233529,
+      "sha256": "4319fc5b4c3d26fcfc36ddd5c1a76cfea685db23495b8efc224ddd36b607c911"
+    },
+    {
+      "path": "settings-dossier-art-v3.png",
+      "bytes": 2578349,
+      "sha256": "1d7842cf00ae0d5a5b27f9f08628c0666b5281bd70870b28a4d4b3eb6282232e"
+    },
+    {
+      "path": "settings-dossier-art-v7-female-silhouette.png",
+      "bytes": 2038901,
+      "sha256": "f21fcb3280649918464e01acb138dd0af4164bdd45b8c03b64726741148fd649"
+    },
+    {
+      "path": "settings-reset-button-v1.png",
+      "bytes": 1960755,
+      "sha256": "ffcd8d99cabd6af9284cbdf7b74cab7f70adddd007688bb55e8306d1a06eb36d"
+    }
+  ],
+  "sources": [
+    {
+      "path": "index.html",
+      "sha256": "93e5c1e6427992ca7816ecf268d2c26ebd3d50a8500e051c5bcdce034c860dd4"
+    },
+    {
+      "path": "app.css",
+      "sha256": "e7baa9811c7fc00fb53972302267c813a6ce1c0e9ff8757d202381d7e0c550b7"
+    },
+    {
+      "path": "src/station/station.css",
+      "sha256": "c7e208d2dbd30d2c1f97777155da81fba895ea49d303a6ef5da47e7899fe9eaf"
+    },
+    {
+      "path": "src/core/retro-film.css",
+      "sha256": "2bfbff4b2dc61aecc690926181a741ded66882623b14c10a60c2027e63c0f702"
+    },
+    {
+      "path": "src/core/music-library.css",
+      "sha256": "c2fc44af68ea83fdbb096c64b50d4a49f0cdace0dbfcd085f9df8b386458d3b6"
+    },
+    {
+      "path": "src/core/save-reference.css",
+      "sha256": "5d3520c293e4d5f4c62015586549b11709e19f5c70dbbf9d6428e640e1430c13"
+    },
+    {
+      "path": "scene.js",
+      "sha256": "e6792073020553533009a81738cab91b2f77521f1fe2184a8c410232be4efd14"
+    },
+    {
+      "path": "src/core/ui-sounds.js",
+      "sha256": "d5588ccbf9e539ca0636f7465ca5162367a24ae83089063fb451e5ccaa482247"
+    },
+    {
+      "path": "src/station/controller.js",
+      "sha256": "eb47376910d0a6c07ed91e350a56c39f12b42df1d62c51f4659c48dc5d4b6b25"
+    },
+    {
+      "path": "src/core/music-library.js",
+      "sha256": "eccb324b07aaa14d6810f1e8506d0ed46fd2468dad7da318635a79447dd18721"
+    },
+    {
+      "path": "src/core/retro-film.js",
+      "sha256": "89dcd132b961b1979cebc0909cb5d335ea7433c634648e8f6f668bca9282721c"
+    },
+    {
+      "path": "src/core/music.js",
+      "sha256": "455848cc9406b8c41eb116cc0cc2456a7d74f79da16bf71dfa25fc9eef2b4193"
+    },
+    {
+      "path": "src/core/dossier-characters.js",
+      "sha256": "10dab0d9bf766b12d1b31283f23252c339f6145266e361717dfc2d278acd52f0"
+    },
+    {
+      "path": "src/station/state.js",
+      "sha256": "987fa88f939fc83444391e4a80a889aecafd938142f27a99e1a0778d98187c54"
+    },
+    {
+      "path": "src/station/navigation.js",
+      "sha256": "4386487b2cae2091f918f32abbf4828db3ad03a91a53625fd294f92d60b057ca"
+    },
+    {
+      "path": "src/station/story.js",
+      "sha256": "261dd8f4e168c4c6947a97c2f42c0fced5d71ee3999f9bbb4fd7b9973592ff89"
+    },
+    {
+      "path": "src/core/navigation.js",
+      "sha256": "2998dd806fb423532865cdb61de23775fd4b31d86b79a2328040b2bf17d587cc"
+    }
+  ],
+  "behavior": "Current UI showcase, original interactions, music and paper SFX; all media embedded as local Blob URLs.",
+  "validation": "Passed file:// offline Chrome CDP verification; 25 checks; docs/single-html-verification.json"
+}

@@ -1,0 +1,12 @@
+场景化重构验证报告
+============================================================
+
+总节点数: 13330
+编号节点数: 165
+期望新编号数: 152
+
+警告 (4):
+  ⚠️ DUPLICATE CODE (nested branch): A021_河边 appears 3 times
+  ⚠️ DUPLICATE CODE (nested branch): A022_职高 appears 3 times
+  ⚠️ DUPLICATE CODE (nested branch): A023_便利店 appears 3 times
+  ⚠️ DUPLICATE CODE (nested branch): A026_未知 appears 2 times

@@ -1,0 +1,103 @@
+{
+  "assets": [
+    {
+      "file": "public\\assets\\main-menu-logo-en.png",
+      "sha256": "cdb2199cdb6509b69340152b78c0d431dd62de0a5a887fc733ffb9f0a7c6f05d",
+      "bytes": 1459686,
+      "sameAsShowcaseAndBuild": true
+    },
+    {
+      "file": "public\\assets\\menu-en-atlas.png",
+      "sha256": "fb8551763f6ebb90dda310e6efc77af0f1b5673e2425360ef0250ae0ac9a8ea5",
+      "bytes": 834065,
+      "sameAsShowcaseAndBuild": true
+    },
+    {
+      "file": "public\\assets\\character-en-atlas.png",
+      "sha256": "9e8b46f1589a730de76d390c666fd1878d349b351a3160bc3b9a940db601714b",
+      "bytes": 397885,
+      "sameAsShowcaseAndBuild": true
+    },
+    {
+      "file": "public\\assets\\dossier-en-atlas.png",
+      "sha256": "b1980e600fac2cfca36ca0fd89b501edac466e24526245e3a0314fd8a7f4223f",
+      "bytes": 1135578,
+      "sameAsShowcaseAndBuild": true
+    }
+  ],
+  "legacyManifestDifferences": [
+    {
+      "path": "content/story/ink/D0_序章.ink",
+      "expected": "97a5584708e338e36f5c2cd671d678cee351fdbb4a0eded3f7355438e7d98340",
+      "actual": "f5a6a0c504ee598916b4076b584bbfdc30a4f058381b7a89a22e44eb6ca9793f",
+      "bytes": 43178,
+      "modified": 1789635803.68697
+    },
+    {
+      "path": "content/story/ink/D1_第一天.ink",
+      "expected": "64e6023d141b459d2abfc333cc6dd7674cada2489ac4ca1a940a9385a1dda511",
+      "actual": "4373da691e80535ecf28aa617aca793cd0a67eb7940d340a341abb7d9bad3163",
+      "bytes": 108312,
+      "modified": 1789635803.6887608
+    },
+    {
+      "path": "content/story/ink/D2_第二天.ink",
+      "expected": "5e61a45e423c384dd68e12d647990ce824c91551e9c7b5a9cd02612ccf07e51b",
+      "actual": "2276fa6e98dfb1f6e35b53704df538b4723eec973fd093f69260ab5be6a9ab17",
+      "bytes": 142969,
+      "modified": 1789635803.6905594
+    },
+    {
+      "path": "content/story/ink/D3_第三天.ink",
+      "expected": "ab7fdf51641ffcaa29fc9b68fbd88e97ccd67545da8454075adbc4212510db1e",
+      "actual": "59a7861bb265210681134daa8ec14ac9e46b43d3e7748baa1dda2440c57fe7ba",
+      "bytes": 25016,
+      "modified": 1789635803.6918786
+    },
+    {
+      "path": "content/story/ink/D4_第四天.ink",
+      "expected": "c27a393b8a723360d62d3b5f5a616506c1f60592e7fecdb0a1eeeefcb9255b29",
+      "actual": "8bb2efbacaadd15af21bdbf4aa5ebafeff24f7ddff1ccd449a153c9f2d3e0cfd",
+      "bytes": 83196,
+      "modified": 1789635803.6928842
+    },
+    {
+      "path": "content/story/ink/D5_第五天.ink",
+      "expected": "83b7f705b87347c27cb84109c5094b7e8af3ae2c54f6fa367fd2c3ff89cdd1dc",
+      "actual": "fda45bb2cc68d0721dc7d3e28158925793a203691b4d68b1d3576b09ae00e07c",
+      "bytes": 82427,
+      "modified": 1789635803.6949835
+    },
+    {
+      "path": "content/story/ink/D6_第六天.ink",
+      "expected": "42bd74fa1c5dcd5ea1b424824b3b8f1b637106f58fa8111f066e73d249f5a8a4",
+      "actual": "e46941acce1377a33a8243c23b02e454a76585dba2031416d53736aad128ffd5",
+      "bytes": 66161,
+      "modified": 1789635803.7120166
+    },
+    {
+      "path": "content/story/ink/D7_第七天.ink",
+      "expected": "29a3f630d46a1499459942a13b95fd662016fd95106b415ca93f681d3aa9a706",
+      "actual": "b7f646eaf5f0a6f25334ca43f93769aa56d4aded2667590ed2826b7798972c13",
+      "bytes": 58482,
+      "modified": 1789635803.7130523
+    },
+    {
+      "path": "content/story/ink/最终审判.ink",
+      "expected": "c4081f7af1d590e1c3aec2977d4f6e53fa8b2d84075004ff2d260b0a156efea2",
+      "actual": "a8e268c7edea7b000259a2f89b5355ddeb4c05a8fdc860c015bfd90f9564c217",
+      "bytes": 26503,
+      "modified": 1789635803.714091
+    },
+    {
+      "path": "content/story/ink/背景设定.ink",
+      "expected": "af551da5b270b2304540592e557088e514f575aac71c9b80be45cf49a362a10d",
+      "actual": "7b23291a7bf1e5b61c5356c2bda6f9e0e5eaf7594f7c8f6c4b4bc644c2a39829",
+      "bytes": 85994,
+      "modified": 1789635803.7182665
+    }
+  ],
+  "legacyManifestMatching": 162,
+  "allCurrentHtmlCssPathsExist": true,
+  "storyAndManifestModifiedByThisPort": false
+}

@@ -1,0 +1,89 @@
+{
+  "artifact": "C:\\Users\\W11\\Desktop\\东北迪斯科-单文件版.html",
+  "sha256": "debe8e4539f70741f44348b2be7a10878074df52f20f34c1e19244335b49b223",
+  "browser": "fixed work Chrome + direct CDP 9223",
+  "offline": true,
+  "checks": [
+    "Local file boots without external resource requests",
+    "An actual HTTP probe is blocked in the offline target",
+    "All embedded asset blocks were unpacked",
+    "Theme music decodes and plays from embedded bytes",
+    "Paper sound decodes and plays on interaction",
+    "File version immediately saves separate volume channels",
+    "Record library opens offline",
+    "Second record decodes from embedded OGG",
+    "Record pause works",
+    "Seek and resume use actual embedded audio",
+    "Favorites persist in the file version",
+    "Dynamic dong portrait and handwriting load offline",
+    "Dynamic li portrait and handwriting load offline",
+    "Dynamic wang portrait and handwriting load offline",
+    "All lazy character layers resolve to embedded images",
+    "Current UI-only behavior remains intact",
+    "All six save tickets remain available",
+    "Valid save details open",
+    "Loading and continuing preserve original saves",
+    "Every embedded asset is readable at its original byte size",
+    "No external file or HTTP resource requests",
+    "No script or image loading errors",
+    "Offline reload restores saved music and sound volumes",
+    "Favorite survives reopening the local HTML",
+    "Narrow window still has no errors or external requests"
+  ],
+  "screens": [
+    {
+      "path": "docs\\single-html-mainmenu-1058.png",
+      "x": 0.109375,
+      "y": 0,
+      "width": 1057.765625,
+      "height": 594.984375
+    },
+    {
+      "path": "docs\\single-html-settings-1058.png",
+      "x": 0.109375,
+      "y": 0,
+      "width": 1057.765625,
+      "height": 594.984375
+    },
+    {
+      "path": "docs\\single-html-library-1058.png",
+      "x": 0.109375,
+      "y": 0,
+      "width": 1057.765625,
+      "height": 594.984375
+    },
+    {
+      "path": "docs\\single-html-personnel-1058.png",
+      "x": 0.109375,
+      "y": 0,
+      "width": 1057.765625,
+      "height": 594.984375
+    },
+    {
+      "path": "docs\\single-html-characters-1058.png",
+      "x": 0.109375,
+      "y": 0,
+      "width": 1057.765625,
+      "height": 594.984375
+    },
+    {
+      "path": "docs\\single-html-saves-1058.png",
+      "x": 0.109375,
+      "y": 0,
+      "width": 1057.765625,
+      "height": 594.984375
+    },
+    {
+      "path": "docs\\single-html-library-844.png",
+      "x": 0,
+      "y": 0.125,
+      "width": 844,
+      "height": 474.75
+    }
+  ],
+  "assetsReadable": 93,
+  "audio": "Actual decoded Web Audio, isolated analysers with muted output; physical speakers not tested.",
+  "storage": "Real file-origin localStorage under a unique test prefix; player data unchanged; cleanup after test.",
+  "errors": [],
+  "imageErrors": []
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="52" viewBox="0 0 192 52">
+  <defs>
+    <filter id="pressure" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".67" numOctaves="3" seed="37" stitchTiles="stitch" result="grain"/>
+      <feColorMatrix in="grain" type="luminanceToAlpha"/>
+      <feComponentTransfer result="dryInk"><feFuncA type="discrete" tableValues="0 .06 .18 .4 .76 1 1 1 1 1"/></feComponentTransfer>
+      <feTurbulence type="fractalNoise" baseFrequency=".035 .095" numOctaves="2" seed="11" stitchTiles="stitch"/>
+      <feColorMatrix type="luminanceToAlpha"/>
+      <feComponentTransfer><feFuncA type="table" tableValues=".26 .42 .82 1 1"/></feComponentTransfer>
+      <feComposite in="dryInk" operator="in"/>
+    </filter>
+  </defs>
+  <path fill="white" filter="url(#pressure)" d="M0 0h192v52H0z"/>
+</svg>

@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-09-13T09:34:02Z",
+  "complete": false,
+  "browser": "Chrome/152.0.7977.83",
+  "transport": "fixed work Chrome direct CDP 9223; task-created background target only",
+  "storage": "isolated in-memory storage; no player saves modified",
+  "checks": [
+    {
+      "check": "settings navigation has return and music library",
+      "result": true
+    },
+    {
+      "check": "bottom text actions at 1440x810",
+      "result": [
+        {
+          "label": "恢复默认",
+          "bottomFraction": 0.9822337962962963,
+          "topFraction": 0.9182484567901235,
+          "transparent": true,
+          "reachable": true
+        },
+        {
+          "label": "应用设置",
+          "bottomFraction": 0.9822337962962963,
+          "topFraction": 0.9182484567901235,
+          "transparent": true,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "check": "library opens with current two tracks",
+      "result": true
+    }
+  ],
+  "screens": [
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "path": "docs/settings-overflow-fixed-settings-1440.png"
+    }
+  ],
+  "captureLimitation": "First fixed settings screenshot visually reviewed; subsequent capture timed out. Later DOM diagnosis found concurrent record-library markup with stylesheet not yet supplied.",
+  "errors": [],
+  "tests": "12/12 passed",
+  "build": "passed",
+  "migratedHashes": 172,
+  "resourcePaths": 58,
+  "physicalSpeakersTested": false,
+  "scope": "paper tab overflow fix; full music-library verification interrupted by concurrent record-library HTML replacement",
+  "userWorkbenchVisuallyVerified": false
+}

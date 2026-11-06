@@ -1,0 +1,79 @@
+{
+  "job": {
+    "id": "3aaa5af6-52b2-41fd-a60b-561f29754eda",
+    "enqueue_time": "2026-09-08T19:14:36.304349+00:00",
+    "parent_id": null,
+    "video_segments": null,
+    "rating": null,
+    "height": 928,
+    "user_hidden": false,
+    "parent_grid": null,
+    "event_type": "diffusion",
+    "batch_size": 4,
+    "shown": true,
+    "job_type": "v8-1_diffusion",
+    "width": 1232,
+    "full_command": "Stylized 3D render, painterly oil paint brushstroke textures, Disco Elysium aesthetic. 1980s Northeast China town convenience store interior, ~7×6m, winter. Strict 45 degree isometric three quarter orthographic view, roof and two camera facing walls removed, full floor visible. Three waist high freestanding metal shelving units with walkable aisles; back wall shelves stocked with canned food, glass sauce bottles, paper wrapped biscuits, enamel cups, cardboard packages. Small worn wooden checkout counter with glass display case and mechanical cash register near entrance. Exactly one adult Chinese shopkeeper in faded blue padded work jacket, standing in aisle restocking a shelf  one hand holding a cardboard carton at waist height, other hand placing a red labeled tin on a chest high shelf; open delivery carton on floor beside them. Worn terrazzo floor, muted green lower walls, chipped steel shelf uprights. Frosted entrance glazing, snow outside, cold blue green daylight mixed with warm amber tungsten light. Muted teal and amber palette, expressive brushstrokes, soft contact shadows, centered composition. --no text, watermark, logo, neon, modern supermarket, anime, pixel art, fisheye, multiple people, extra limbs --ar 4:3 --relax --raw --v 8.1",
+    "published": true,
+    "template": null
+  },
+  "images": [
+    {
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=0",
+      "loaded": true,
+      "width": 509
+    },
+    {
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=1",
+      "loaded": true,
+      "width": 509
+    },
+    {
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=2",
+      "loaded": true,
+      "width": 509
+    },
+    {
+      "url": "https://www.midjourney.com/jobs/3aaa5af6-52b2-41fd-a60b-561f29754eda?index=3",
+      "loaded": true,
+      "width": 509
+    }
+  ],
+  "submission": {
+    "job_id": "3aaa5af6-52b2-41fd-a60b-561f29754eda",
+    "prompt": "Stylized 3D render, painterly oil paint brushstroke textures, Disco Elysium aesthetic. 1980s Northeast China town convenience store interior, ~7×6m, winter. Strict 45 degree isometric three quarter orthographic view, roof and two camera facing walls removed, full floor visible. Three waist high freestanding metal shelving units with walkable aisles; back wall shelves stocked with canned food, glass sauce bottles, paper wrapped biscuits, enamel cups, cardboard packages. Small worn wooden checkout counter with glass display case and mechanical cash register near entrance. Exactly one adult Chinese shopkeeper in faded blue padded work jacket, standing in aisle restocking a shelf  one hand holding a cardboard carton at waist height, other hand placing a red labeled tin on a chest high shelf; open delivery carton on floor beside them. Worn terrazzo floor, muted green lower walls, chipped steel shelf uprights. Frosted entrance glazing, snow outside, cold blue green daylight mixed with warm amber tungsten light. Muted teal and amber palette, expressive brushstrokes, soft contact shadows, centered composition. --no text, watermark, logo, neon, modern supermarket, anime, pixel art, fisheye, multiple people, extra limbs --ar 4:3 --relax --raw --v 8.1",
+    "is_queued": false,
+    "softban": false,
+    "event_type": "diffusion",
+    "job_type": "v8-1_diffusion",
+    "flags": {
+      "mode": "relaxed",
+      "visibility": "public"
+    },
+    "meta": {
+      "height": 928,
+      "width": 1232,
+      "batch_size": 4,
+      "parent_id": null,
+      "parent_grid": null
+    },
+    "optimisticJobIndex": 0,
+    "personalization_codes": null
+  },
+  "submittedAt": "2026-09-08T19:13:51.850Z",
+  "collectionRequests": [
+    {
+      "path": "/api/collections-images",
+      "method": "PUT",
+      "body": "{\"collection_id\":\"d1ff8d95-e403-45ba-8f03-6991d740a0ce\",\"images\":[\"3aaa5af6-52b2-41fd-a60b-561f29754eda@0\",\"3aaa5af6-52b2-41fd-a60b-561f29754eda@1\",\"3aaa5af6-52b2-41fd-a60b-561f29754eda@2\",\"3aaa5af6-52b2-41fd-a60b-561f29754eda@3\"]}"
+    }
+  ],
+  "collectionResponses": [
+    {
+      "path": "/api/collections-images",
+      "status": 200,
+      "data": null
+    }
+  ],
+  "url": "https://www.midjourney.com/organize?folder=%E4%B8%9C%E5%8C%97%E8%BF%AA%E6%96%AF%E7%A7%91%E5%8F%82%E8%80%83%E5%9B%BE"
+}

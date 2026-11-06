@@ -1,0 +1,147 @@
+{
+  "transport": "fixed work Chrome, direct CDP 9223, task-created background target",
+  "storage": "isolated memory; user data untouched",
+  "viewport": [
+    1440,
+    810
+  ],
+  "screenshot": "D:\\CodexData\\home\\settings-blinds-1440.png",
+  "menuFilm": {
+    "quality": "enhanced",
+    "film": "on",
+    "filmMotion": "on",
+    "musicState": "suspended",
+    "musicTrack": "menu",
+    "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)"
+  },
+  "layout": {
+    "lights": [
+      {
+        "display": "block",
+        "z": "6",
+        "pointer": "none",
+        "blend": "multiply",
+        "background": "linear-gradient(155deg, rgba(140, 145, 136, 0.4), rgba(83, 103, 97, 0.61) 73%, rgba(48, 76, 70, 0.62))"
+      },
+      {
+        "display": "block",
+        "z": "7",
+        "pointer": "none",
+        "blend": "soft-light",
+        "background": "linear-gradient(105deg, rgba(0, 0, 0, 0) 0%, rgba(244, 156, 56, 0.4) 9%, rgb(255, 121, 0) 20%, rgba(255, 181, 50, 0.533) 40%, rgba(255, 158, 18, 0.5) 65%, rgba(0, 0, 0, 0) 84%)"
+      }
+    ],
+    "buttons": [
+      {
+        "name": "返回",
+        "hit": true
+      },
+      {
+        "name": "音乐库",
+        "hit": true
+      },
+      {
+        "name": "人物档案",
+        "hit": true
+      },
+      {
+        "name": "自动窗口",
+        "hit": true
+      },
+      {
+        "name": "手动窗口",
+        "hit": true
+      },
+      {
+        "name": "全屏模式",
+        "hit": true
+      },
+      {
+        "name": "性能",
+        "hit": true
+      },
+      {
+        "name": "平衡",
+        "hit": true
+      },
+      {
+        "name": "增强",
+        "hit": true
+      },
+      {
+        "name": "开启",
+        "hit": true
+      },
+      {
+        "name": "胶片强度",
+        "hit": true
+      },
+      {
+        "name": "动态开",
+        "hit": true
+      },
+      {
+        "name": "语音音量",
+        "hit": true
+      },
+      {
+        "name": "音乐音量",
+        "hit": true
+      },
+      {
+        "name": "音效音量",
+        "hit": true
+      },
+      {
+        "name": "关闭",
+        "hit": true
+      },
+      {
+        "name": "关闭",
+        "hit": true
+      },
+      {
+        "name": "恢复默认",
+        "hit": true
+      },
+      {
+        "name": "应用设置",
+        "hit": true
+      }
+    ],
+    "occlusion": {
+      "width": "43.1875px",
+      "height": "187.188px",
+      "left": "213.12px",
+      "top": "223.2px"
+    },
+    "film": "on",
+    "motion": "on",
+    "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)",
+    "grainOpacity": "0.39",
+    "footerBackgrounds": [
+      "rgba(0, 0, 0, 0)",
+      "rgba(0, 0, 0, 0)"
+    ]
+  },
+  "motion": {
+    "grainFrames": 88,
+    "dustFrames": 109,
+    "scratchFrames": 5,
+    "artAndTextStable": true
+  },
+  "checks": [
+    "all visible controls reachable",
+    "light layers do not intercept input",
+    "same film pass as main menu",
+    "bottom actions keep transparent backgrounds",
+    "grain moves; dust and scratches appear",
+    "artwork and text remain stable",
+    "music library opens and returns without dossier lighting",
+    "personnel dossier opens and Escape returns",
+    "film and motion switches still work",
+    "Return goes to main menu"
+  ],
+  "errors": [],
+  "humanArtReview": "pending"
+}

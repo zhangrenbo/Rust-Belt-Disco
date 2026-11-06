@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-14",
+  "source": "C:\\Users\\W11\\Downloads\\ChatGPT Image 2026年9月14日 20_41_07.png",
+  "cleanedSourceCopy": "C:\\Users\\W11\\Downloads\\save-archive-reference-clean-v1.png",
+  "paperAtlas": "public/assets/save-archive-reference-v1.png",
+  "backgroundPlate": "public/assets/save-archive-desk-v2.png",
+  "tool": "image_gen.imagegen",
+  "cleanupPrompt": "Edit this exact supplied save-game UI artwork as a precision cleanup for production. Preserve the ENTIRE scene, composition, perspective, aspect ratio, objects, paper shapes, lighting, material detail and all object locations exactly. Do not redesign, add, enlarge, move or crop anything. This will become the full-screen background behind live HTML labels.\nONLY remove the following dynamic text, seamlessly restoring the original paper texture beneath:\n1. The big central Chinese heading \"选择你要读取的档案\" inside the top metal panel. Keep the metal panel, side CONTROL ARCHIVE and INDEX /06 printing, fine rules, and cursive \"Select a File\" exactly.\n2. Inside ALL SIX red rectangular title outlines on the six tickets: remove the Chinese title texts and any number text INSIDE those rectangles. Keep the red rectangular outlines themselves, their size and position. The first four are \"存档 01 · 空白档案\" through 04; the bottom two read \"空白档案\".\n3. The small Chinese status text \"暂无游戏记录\" below those title rectangles on ALL SIX tickets. Restore natural continuous paper beneath, with no ghost text.\n4. At the top right remove only the return-button text \"← 返回主页面\" while preserving its thin rectangular border/background.\nKeep EVERYTHING ELSE: the six tickets' physical outlines and tape, first four black preview paper rectangles, NO.01/02/03/04 small printed bottom numbers, bottom two circled 05/06 numbers, compass motifs, red diamond motifs, ruled lines and dotted separators, worn paper fibers, all photography, desk, magnifying glass, key, pen, clips, filmstrip, top-left \"活下去\" note, lower left/right notes and every static inscription. No new UI controls, no labels anywhere in the cleaned fields. No checkerboard. Complete opaque original landscape scene. Match the reference pixel geometry as closely as possible. Save edited copy beside the source in C:\\Users\\W11\\Downloads if possible.",
+  "backgroundPrompt": "Precision background-plate edit of this EXACT image. Remove ALL SIX rectangular paper tickets from the central charcoal leather archive board: the four large tickets in two rows and the two long ruled paper slips beneath them. Also remove the six pieces of adhesive tape attached to those tickets and ALL of their cast shadows. Seamlessly reconstruct uninterrupted naturally scuffed dark charcoal embossed leather beneath them. Preserve the original nonuniform upper-left warm light and the texture scale, without any visible ghost rectangles or new paper. This is the background plate of an interactive UI: the six original tickets will be separate movable layers added by code. Keep EVERYTHING ELSE precisely unchanged: original 1672x941 composition and framing, top central empty-title metal panel and its printed CONTROL ARCHIVE, INDEX /06, Select a File; top-left Chinese note, side photos and notes, pen, magnifier, map, key, top filmstrip, top-right empty outlined button, bottom-left and bottom-right labels. Do not move, resize, relight or redesign anything. No new objects or text, no ticket outlines, no holes, no checkerboard. Output full opaque original landscape scene.",
+  "implementation": "Original six paper regions are independently displayed by CSS background positions and six SVG silhouette masks. Generated background has no baked tickets. Each native button and its paper move together on hover/press; captions, previews, detail and actions remain real HTML.",
+  "referenceDimensions": [
+    1672,
+    941
+  ],
+  "rasterEditsOutsideImageGen": false,
+  "originalsPreserved": true,
+  "humanArtReview": "pending",
+  "assets": [
+    {
+      "path": "E:\\东北迪斯科\\public\\assets\\save-archive-reference-v1.png",
+      "bytes": 2219902,
+      "sha256": "6398a23456adb8623a94b56d485f157186a953c8a4f19a6a9c6fe1eee9c2d709",
+      "httpHead": 200,
+      "builtCopyIdentical": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "E:\\东北迪斯科\\public\\assets\\save-archive-desk-v2.png",
+      "bytes": 2387513,
+      "sha256": "4fbed8f8bed764626a697f5abb5c4b4511e2a75736666fbfe6df7edc62f7c093",
+      "httpHead": 200,
+      "builtCopyIdentical": true,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "E:\\东北迪斯科\\public\\assets\\save-ticket-mask-01.svg",
+      "bytes": 633,
+      "sha256": "e2708b3d6b670b9998b1879c817b69f10d086f305844152ae2eb99b1c286d852",
+      "httpHead": 200,
+      "builtCopyIdentical": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\public\\assets\\save-ticket-mask-02.svg",
+      "bytes": 633,
+      "sha256": "340def9b7ee6cc9fbeed9a6fd2b937080a68ac33e2a2ee0b9aea48311d41f019",
+      "httpHead": 200,
+      "builtCopyIdentical": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\public\\assets\\save-ticket-mask-03.svg",
+      "bytes": 633,
+      "sha256": "c3c565b1154442c4cb9e8d59b7c5beaa93293352e92654c7ca812e661e9926e6",
+      "httpHead": 200,
+      "builtCopyIdentical": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\public\\assets\\save-ticket-mask-04.svg",
+      "bytes": 633,
+      "sha256": "44c34f133aa63d7966ef0fd4dcd26b2df29ece851306ce3baf6696e4d31765ad",
+      "httpHead": 200,
+      "builtCopyIdentical": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\public\\assets\\save-ticket-mask-05.svg",
+      "bytes": 264,
+      "sha256": "756377c45069d5367ec51f2d031b1e77b915d3eb0475ab39cae335c97977dd50",
+      "httpHead": 200,
+      "builtCopyIdentical": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\public\\assets\\save-ticket-mask-06.svg",
+      "bytes": 264,
+      "sha256": "06157393f7533b77ca5d7a9d59d25c345538de8b24064a4280b195584b1d3856",
+      "httpHead": 200,
+      "builtCopyIdentical": true
+    }
+  ]
+}

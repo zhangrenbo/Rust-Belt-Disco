@@ -1,0 +1,52 @@
+{
+  "project": "东北迪斯科",
+  "scene": "D0 玩家回忆里的母亲便利店",
+  "request_date": "2026-09-09",
+  "sources": [
+    "Assets/ink_scripts/D0_序章.ink:D0_0005",
+    "inky_scripts_v2_de/D0_序章.ink:d0_s01_dream",
+    "design_docs/D0_出图包_3D建模参考.md:SC-D0-24"
+  ],
+  "interpretation": "母亲在仍然完好营业的便利店货架旁摆货；蓝布围裙、整齐货架、玻璃柜台和账本。沿用本轮用户确认的油画笔触3D、45度俯视；年份和季节的旧文档存在分歧，本图不指定年份或室外季节。",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "folder_name": "东北迪斯科参考图",
+  "status": "completed_and_grouped",
+  "prompt": "Stylized 3D game environment with hand-painted oil brushstroke textures, Disco Elysium painterly aesthetic, muted teal shadows and warm amber light. A remembered everyday moment inside a small family convenience store in an old Northeast Chinese town. Strict 45-degree elevated isometric orthographic cutaway, roof and two camera-facing walls removed, entire compact shop floor visible. Intact operating shop, orderly grocery shelves along the left wall and one freestanding shelf row, a clear aisle, wooden glass-top checkout counter at the back, open handwritten account ledger and a working round clock behind the counter. Shelves hold glass sauce bottles, canned food, biscuit packets, instant noodles and paper packages. EXACTLY ONE Chinese mother with tied-back dark hair, wearing a blue cloth apron over a plain faded blouse, is quietly restocking the shelf: both feet firmly on the aisle floor, side turned to camera, one hand holding a small cardboard box at her waist, the other hand placing a tin upright onto the chest-height shelf. Clearly readable stocking action and natural full-body proportions. Whitewashed plaster walls with a small uneven brush-painted patch, clean worn concrete floor, practical modest shop furniture. Warm ceiling bulb and soft afternoon window light, gentle warm bloom at the frame edges, solid clear shelves and woman, expressive painted material surfaces, intimate childhood-memory warmth, wide complete room composition --ar 4:3 --raw --v 8.1 --relax --no text, logo, watermark, neon, anime, pixel art, extra people, fire, rubble, scorch marks, ghost, transparent figure",
+  "style_reference_images": [],
+  "job_id": "bb4c44e8-a423-4c81-b586-dac7ae6d8519",
+  "images": [
+    {
+      "index": 0,
+      "url": "https://www.midjourney.com/jobs/bb4c44e8-a423-4c81-b586-dac7ae6d8519?index=0"
+    },
+    {
+      "index": 1,
+      "url": "https://www.midjourney.com/jobs/bb4c44e8-a423-4c81-b586-dac7ae6d8519?index=1"
+    },
+    {
+      "index": 2,
+      "url": "https://www.midjourney.com/jobs/bb4c44e8-a423-4c81-b586-dac7ae6d8519?index=2"
+    },
+    {
+      "index": 3,
+      "url": "https://www.midjourney.com/jobs/bb4c44e8-a423-4c81-b586-dac7ae6d8519?index=3"
+    }
+  ],
+  "group_membership_verified": true,
+  "downloaded": false,
+  "visual_quality_review": "pending_user_review",
+  "actual_server_prompt": "Stylized 3D game environment, hand painted oil brushstroke textures, Disco Elysium painterly aesthetic, muted teal shadows, warm amber light. Small family convenience store interior, old Northeast Chinese town. Strict 45 degree isometric orthographic cutaway view, roof and two camera facing walls removed, full shop floor visible. Grocery shelves along left wall plus one freestanding row, clear aisle, wooden glass top checkout counter at back with open handwritten ledger and round clock. Shelves stocked with glass sauce bottles, canned food, biscuit packets, instant noodles, paper packages. EXACTLY ONE Chinese mother, tied back dark hair, blue cloth apron over faded blouse, restocking shelves: both feet on aisle floor, side on to camera, one hand holding small cardboard box at waist, other hand placing tin upright on chest height shelf. Whitewashed plaster walls, worn concrete floor. Warm ceiling bulb, soft afternoon window light, gentle bloom at frame edges. Intimate childhood memory warmth, expressive painted surfaces, wide complete room composition. --no text, logo, watermark, neon, anime, pixel art, extra people, fire, rubble, scorch marks, ghost, transparent figure --ar 4:3 --relax --raw --v 8.1",
+  "submit_metadata": {
+    "isMobile": null,
+    "imagePrompts": 0,
+    "imageReferences": 0,
+    "characterReferences": 0,
+    "depthReferences": 0,
+    "lightboxOpen": null
+  },
+  "submitted_at": "2026-09-08T19:37:21.923Z",
+  "folder_count_verified": 8664,
+  "verified_at": "2026-09-08T19:40:15.419Z",
+  "all_four_previews_loaded": true,
+  "native_auto_grouping": true
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-13",
+  "request": "用户很喜欢主页新增的勋章，希望右上角还有一本「結婚證」小本本的封面。",
+  "source": "public/assets/event-desk-bg-labor-medal-v2.png",
+  "output": "public/assets/event-desk-bg-medal-marriage-v2.png",
+  "simplifiedTitleCorrection": {
+    "source": "public/assets/event-desk-bg-medal-marriage-v1.png",
+    "sourceSha256": "44affd465f04fd8666a3f840e2533fb00f54e2b33eeb7a8e7f25012e7306b68b",
+    "output": "public/assets/event-desk-bg-medal-marriage-v2.png",
+    "request": "用户纠正：结婚证应该是简体字。",
+    "title": "结婚证",
+    "prompt": "Perform a minimal, precise TEXT CORRECTION on the provided existing 1671x941 game background. On the red marriage-certificate booklet at the upper right, replace the vertically arranged gold title '結婚證' with the SIMPLIFIED CHINESE title '结婚证'. Exact title, top to bottom: 结 (U+7ED3, simplified silk radical 纟 on the left and 吉 on the right), 婚 (U+5A5A, unchanged), 证 (U+8BC1, simplified speech radical 讠 on the left and 正 on the right). The last character MUST be 证, not 證, and the first MUST be 结, not 結. Match the existing three characters' position, individual size, spacing, cover perspective, faded gold ink color, type style, and wear. Leave the double-happiness 囍 above the title unchanged. Change ONLY the two characters requiring simplification; do not move or redesign the booklet. Preserve the entire original composition, exact 1671x941 dimensions, red cover and book edges, book position and rotation, green books, papers, desk, light and shadows, and especially the user's approved lower-right brass worker medal with its '先进劳动者' bar. No new objects, no additional text, no watermark. Save the complete corrected image beside the source in the existing folder as E:/东北迪斯科/public/assets/event-desk-bg-medal-marriage-v2.png.",
+    "generatedOriginal": "D:/CodexData/home/generated_images/01a0999f-b8ee-75d3-8631-c272faa45626/exec-3bcb5d33-8d37-46fe-b016-0a4aaa874452.png"
+  },
+  "firstDraft": "public/assets/event-desk-bg-medal-marriage-draft.png",
+  "tool": "image_gen",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a0999f-b8ee-75d3-8631-c272faa45626/exec-49767444-82a8-4bd8-9420-72b0f3bb0110.png",
+  "prompt": "Edit the provided existing 1672x941 game main-menu desk background with ONE local addition confined to the UPPER RIGHT corner. Add exactly one SMALL CLOSED vintage Chinese marriage-certificate pocket booklet resting flat on top of the existing dark green stack of books. The complete closed booklet, including contact shadow, should fit approximately x1370..1630 and y35..375, fully visible with margins from the top and right edges. It must not extend left of x1350 or below y390 because an in-game dossier overlays that area. The booklet is portrait-format, approximately 210 pixels wide by 300 pixels tall before a subtle clockwise rotation of 7 degrees. Show the FRONT COVER, not open pages: aged muted burgundy-red cloth/paper cover, gently worn corners, thin pale page-block visible at its lower edge, a simple recessed thin double-line border, a small faded gold traditional double-happiness decorative mark near the top, and three CLEAR, CORRECT traditional Chinese gold-ink characters '結婚證' arranged vertically in the middle. The book should read as a modest old family keepsake from a 1980s Northeast China household, with subtle rubbed ink and fine cover fibers, not a shiny modern document, thick luxury book or large certificate sheet. Match the existing top-down camera, perspective, painterly physical detail, subdued palette, upper-left warm lamplight and soft contact shadows. The user specifically loves the CURRENT brass worker medal in the lower right: preserve that entire medal, its red '先进劳动者' suspension bar, its exact shape, location, size, angle, lettering, worker relief, color, and the underlying papers COMPLETELY UNCHANGED. Preserve all original pixels outside the small upper-right addition as closely as possible: every desk, paper, clip, seal, envelope, green book, lighting and texture elsewhere. Do not redraw the composition or add extra medals or booklets. No UI, no new explanatory captions or watermarks. Return the complete edited background with EXACTLY the original 1672x941 dimensions. Save directly in the existing source folder as E:/东北迪斯科/public/assets/event-desk-bg-medal-marriage-v1.png; do not create an output directory.",
+  "refinementPrompt": "Make ONE precise local edit to this existing 1672x941 game background. Move the ENTIRE red closed '結婚證' marriage booklet, including its front cover, thin page block and contact shadow, EXACTLY 235 pixels to the RIGHT. Do not change its size, rotation, shape, burgundy color, texture, lettering or vertical position. The booklet currently occupies approximately x1148..1408, y18..337. After the move it MUST occupy x1383..1643, y18..337, with a 29-pixel margin from the right edge. Its center must be at x1513,y177. The title must stay completely readable. This precise rightward move is necessary because the game UI's separate paper dossier overlays the center of the image; do not draw that UI or any dossier yourself. Repair the vacated green book area naturally to match the surrounding existing green book. Keep everything else EXACTLY unchanged, especially the entire user's approved brass worker medal and its red '先进劳动者' bar in the LOWER RIGHT, the papers under it, all other desk objects, paper positions, lighting and color grading. Do not add another booklet. The moved booklet still lies flat in the upper-right corner on the existing green book stack, with matching contact shadow. Preserve the exact original canvas dimensions and every pixel outside the two small source/destination regions as closely as possible. Save the full edited image in the existing source folder as E:/东北迪斯科/public/assets/event-desk-bg-medal-marriage-v1.png.",
+  "integration": "只更新主菜单 .event-desk 的背景引用；作为背景静物，不新增按钮。原勋章背景、UI参考和其他页面保留。",
+  "refinementGeneratedOriginal": "D:/CodexData/home/generated_images/01a0999f-b8ee-75d3-8631-c272faa45626/exec-bda6742b-0fb8-4d14-be33-10c75282a2d9.png",
+  "status": "已接入主菜单；构建与三种窗口检查通过，新增封面待用户美术验收",
+  "sourceSha256": "654b979d6a8f83554034ad94e1ebc17e89c07ab5d13f9c25d2fd4fc3ab4f3862",
+  "outputSha256": "24664d5c5c80f13d2482c7370d09b0c1b6efb68c0aeba25ebd934eed08343bfd",
+  "dimensions": [
+    1671,
+    941
+  ],
+  "originalPreserved": true,
+  "buildMatches": true,
+  "browserReport": "docs/menu-marriage-verification.json",
+  "medalReview": "用户明确表示喜欢原勋章；原勋章背景原文件保留，新图中保留同一构图与勋章设计。",
+  "marriageBookletReview": "已检查实际主页遮挡、文字和三种窗口画面，最终美术验收待用户。"
+}

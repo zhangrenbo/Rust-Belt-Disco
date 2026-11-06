@@ -1,0 +1,601 @@
+{
+  "date": "2026-09-14",
+  "transport": "Fixed work Google Chrome profile, direct CDP 9223",
+  "reports": [
+    {
+      "transport": "fixed work Google Chrome, direct CDP 9223; task-created background target",
+      "targetId": "B8D97DD3529313519C1571295834885A",
+      "storage": "isolated memory; real player data untouched",
+      "audio": "test target output muted",
+      "viewport": [
+        1440,
+        810
+      ],
+      "screenshot": "docs\\settings-paper-female-1440.png",
+      "layout": {
+        "stamps": [
+          {
+            "text": "未查明凶手",
+            "rect": {
+              "x": 1030.6756591796875,
+              "y": 57.35439682006836,
+              "width": 262.836181640625,
+              "height": 99.83807373046875
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(150, 47, 39)",
+            "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+            "border": "2px",
+            "font": "SimSun, \"Songti SC\", serif",
+            "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, 0, 0)",
+            "pointer": "none"
+          },
+          {
+            "text": "恢复默认",
+            "rect": {
+              "x": 497.5653381347656,
+              "y": 554.517822265625,
+              "width": 177.00997924804688,
+              "height": 50.85498046875
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(150, 47, 39)",
+            "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+            "border": "2px",
+            "font": "SimSun, \"Songti SC\", serif",
+            "transform": "matrix(0.999507, -0.0314108, 0.0314108, 0.999507, 0, 0)",
+            "pointer": "auto"
+          },
+          {
+            "text": "应用设置",
+            "rect": {
+              "x": 745.3783569335938,
+              "y": 555.1263427734375,
+              "width": 176.7276611328125,
+              "height": 49.637939453125
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(150, 47, 39)",
+            "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+            "border": "2px",
+            "font": "SimSun, \"Songti SC\", serif",
+            "transform": "matrix(0.999701, 0.0244322, -0.0244322, 0.999701, 0, 0)",
+            "pointer": "auto"
+          }
+        ],
+        "controls": [
+          {
+            "name": "返回",
+            "hit": true
+          },
+          {
+            "name": "音乐库",
+            "hit": true
+          },
+          {
+            "name": "人物档案",
+            "hit": true
+          },
+          {
+            "name": "自动窗口",
+            "hit": true
+          },
+          {
+            "name": "手动窗口",
+            "hit": true
+          },
+          {
+            "name": "全屏模式",
+            "hit": true
+          },
+          {
+            "name": "性能",
+            "hit": true
+          },
+          {
+            "name": "平衡",
+            "hit": true
+          },
+          {
+            "name": "增强",
+            "hit": true
+          },
+          {
+            "name": "开启",
+            "hit": true
+          },
+          {
+            "name": "胶片强度",
+            "hit": true
+          },
+          {
+            "name": "动态开",
+            "hit": true
+          },
+          {
+            "name": "语音音量",
+            "hit": true
+          },
+          {
+            "name": "音乐音量",
+            "hit": true
+          },
+          {
+            "name": "音效音量",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "恢复默认",
+            "hit": true
+          },
+          {
+            "name": "应用设置",
+            "hit": true
+          }
+        ],
+        "heading": {
+          "x": 329.75,
+          "y": 129.59375,
+          "width": 760.3125,
+          "height": 35.40625
+        },
+        "view": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 810
+        },
+        "lastRow": {
+          "x": 329.75,
+          "y": 492.796875,
+          "width": 760.3125,
+          "height": 51.828125
+        },
+        "art": {
+          "src": "settings-dossier-art-v7-female-silhouette.png",
+          "width": 1672,
+          "height": 941,
+          "tabForeground": "url(\"http://127.0.0.1:5173/settings-dossier-art-v7-female-silhouette.png\")"
+        },
+        "form": {
+          "x": 329.75,
+          "y": 129.59375,
+          "width": 760.3125,
+          "height": 489.59375
+        },
+        "film": "on",
+        "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)"
+      },
+      "defaults": {
+        "voice": 72,
+        "music": 54,
+        "sound": 84
+      },
+      "checks": [
+        "three correct stamp labels",
+        "transparent red ink with distress mask and frames",
+        "stamps inside viewport",
+        "all controls reachable",
+        "shared main-menu film preserved",
+        "both action stamps below form and fully above pocket edge",
+        "requested artwork decoded; foreground uses matching revision",
+        "Restore defaults works from keyboard without saving prematurely",
+        "stamp hover feedback visible",
+        "Apply settings click saves changed volume",
+        "applied settings survive leaving and reopening settings",
+        "settings stamps hide in music library and return correctly"
+      ],
+      "errors": [],
+      "humanArtReview": "pending"
+    },
+    {
+      "transport": "fixed work Google Chrome, direct CDP 9223; task-created background target",
+      "targetId": "2A1F17580E6C1B9510183FB513550249",
+      "storage": "isolated memory; real player data untouched",
+      "audio": "test target output muted",
+      "viewport": [
+        1058,
+        595
+      ],
+      "screenshot": "docs\\settings-paper-female-1058.png",
+      "layout": {
+        "stamps": [
+          {
+            "text": "未查明凶手",
+            "rect": {
+              "x": 757.1980590820312,
+              "y": 42.12974548339844,
+              "width": 193.0726318359375,
+              "height": 73.33425903320312
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(150, 47, 39)",
+            "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+            "border": "1px",
+            "font": "SimSun, \"Songti SC\", serif",
+            "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, 0, 0)",
+            "pointer": "none"
+          },
+          {
+            "text": "恢复默认",
+            "rect": {
+              "x": 365.6024169921875,
+              "y": 407.3252258300781,
+              "width": 130.029541015625,
+              "height": 37.34954833984375
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(150, 47, 39)",
+            "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+            "border": "1px",
+            "font": "SimSun, \"Songti SC\", serif",
+            "transform": "matrix(0.999507, -0.0314108, 0.0314108, 0.999507, 0, 0)",
+            "pointer": "auto"
+          },
+          {
+            "text": "应用设置",
+            "rect": {
+              "x": 547.6279296875,
+              "y": 407.77227783203125,
+              "width": 129.822265625,
+              "height": 36.4554443359375
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(150, 47, 39)",
+            "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+            "border": "1px",
+            "font": "SimSun, \"Songti SC\", serif",
+            "transform": "matrix(0.999701, 0.0244322, -0.0244322, 0.999701, 0, 0)",
+            "pointer": "auto"
+          }
+        ],
+        "controls": [
+          {
+            "name": "返回",
+            "hit": true
+          },
+          {
+            "name": "音乐库",
+            "hit": true
+          },
+          {
+            "name": "人物档案",
+            "hit": true
+          },
+          {
+            "name": "自动窗口",
+            "hit": true
+          },
+          {
+            "name": "手动窗口",
+            "hit": true
+          },
+          {
+            "name": "全屏模式",
+            "hit": true
+          },
+          {
+            "name": "性能",
+            "hit": true
+          },
+          {
+            "name": "平衡",
+            "hit": true
+          },
+          {
+            "name": "增强",
+            "hit": true
+          },
+          {
+            "name": "开启",
+            "hit": true
+          },
+          {
+            "name": "胶片强度",
+            "hit": true
+          },
+          {
+            "name": "动态开",
+            "hit": true
+          },
+          {
+            "name": "语音音量",
+            "hit": true
+          },
+          {
+            "name": "音乐音量",
+            "hit": true
+          },
+          {
+            "name": "音效音量",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "恢复默认",
+            "hit": true
+          },
+          {
+            "name": "应用设置",
+            "hit": true
+          }
+        ],
+        "heading": {
+          "x": 242.328125,
+          "y": 95.1875,
+          "width": 558.5,
+          "height": 26.015625
+        },
+        "view": {
+          "x": 0.109375,
+          "y": 0,
+          "width": 1057.765625,
+          "height": 594.984375
+        },
+        "lastRow": {
+          "x": 242.328125,
+          "y": 362.28125,
+          "width": 558.5,
+          "height": 38.078125
+        },
+        "art": {
+          "src": "settings-dossier-art-v7-female-silhouette.png",
+          "width": 1672,
+          "height": 941,
+          "tabForeground": "url(\"http://127.0.0.1:5173/settings-dossier-art-v7-female-silhouette.png\")"
+        },
+        "form": {
+          "x": 242.328125,
+          "y": 95.1875,
+          "width": 558.5,
+          "height": 359.625
+        },
+        "film": "on",
+        "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)"
+      },
+      "defaults": {
+        "voice": 72,
+        "music": 54,
+        "sound": 84
+      },
+      "checks": [
+        "three correct stamp labels",
+        "transparent red ink with distress mask and frames",
+        "stamps inside viewport",
+        "all controls reachable",
+        "shared main-menu film preserved",
+        "both action stamps below form and fully above pocket edge",
+        "requested artwork decoded; foreground uses matching revision",
+        "Restore defaults works from keyboard without saving prematurely",
+        "stamp hover feedback visible",
+        "Apply settings click saves changed volume",
+        "applied settings survive leaving and reopening settings",
+        "settings stamps hide in music library and return correctly"
+      ],
+      "errors": [],
+      "humanArtReview": "pending"
+    },
+    {
+      "transport": "fixed work Google Chrome, direct CDP 9223; task-created background target",
+      "targetId": "41625F2B295BD4A27C4A2C951C1AD27A",
+      "storage": "isolated memory; real player data untouched",
+      "audio": "test target output muted",
+      "viewport": [
+        844,
+        475
+      ],
+      "screenshot": "docs\\settings-paper-female-844.png",
+      "layout": {
+        "stamps": [
+          {
+            "text": "未查明凶手",
+            "rect": {
+              "x": 604.1044921875,
+              "y": 33.73154830932617,
+              "width": 154.041015625,
+              "height": 58.50564956665039
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(150, 47, 39)",
+            "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+            "border": "1px",
+            "font": "SimSun, \"Songti SC\", serif",
+            "transform": "matrix(0.990268, -0.139173, 0.139173, 0.990268, 0, 0)",
+            "pointer": "none"
+          },
+          {
+            "text": "恢复默认",
+            "rect": {
+              "x": 291.63922119140625,
+              "y": 325.1396484375,
+              "width": 103.7371826171875,
+              "height": 29.798828125
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(150, 47, 39)",
+            "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+            "border": "1px",
+            "font": "SimSun, \"Songti SC\", serif",
+            "transform": "matrix(0.999507, -0.0314108, 0.0314108, 0.999507, 0, 0)",
+            "pointer": "auto"
+          },
+          {
+            "text": "应用设置",
+            "rect": {
+              "x": 436.862548828125,
+              "y": 325.49627685546875,
+              "width": 103.57177734375,
+              "height": 29.0855712890625
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(150, 47, 39)",
+            "mask": "url(\"http://127.0.0.1:5173/assets/save-stamp-ink-mask.svg\")",
+            "border": "1px",
+            "font": "SimSun, \"Songti SC\", serif",
+            "transform": "matrix(0.999701, 0.0244322, -0.0244322, 0.999701, 0, 0)",
+            "pointer": "auto"
+          }
+        ],
+        "controls": [
+          {
+            "name": "返回",
+            "hit": true
+          },
+          {
+            "name": "音乐库",
+            "hit": true
+          },
+          {
+            "name": "人物档案",
+            "hit": true
+          },
+          {
+            "name": "自动窗口",
+            "hit": true
+          },
+          {
+            "name": "手动窗口",
+            "hit": true
+          },
+          {
+            "name": "全屏模式",
+            "hit": true
+          },
+          {
+            "name": "性能",
+            "hit": true
+          },
+          {
+            "name": "平衡",
+            "hit": true
+          },
+          {
+            "name": "增强",
+            "hit": true
+          },
+          {
+            "name": "开启",
+            "hit": true
+          },
+          {
+            "name": "胶片强度",
+            "hit": true
+          },
+          {
+            "name": "动态开",
+            "hit": true
+          },
+          {
+            "name": "语音音量",
+            "hit": true
+          },
+          {
+            "name": "音乐音量",
+            "hit": true
+          },
+          {
+            "name": "音效音量",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "关闭",
+            "hit": true
+          },
+          {
+            "name": "恢复默认",
+            "hit": true
+          },
+          {
+            "name": "应用设置",
+            "hit": true
+          }
+        ],
+        "heading": {
+          "x": 193.265625,
+          "y": 76.078125,
+          "width": 445.625,
+          "height": 20.75
+        },
+        "view": {
+          "x": 0,
+          "y": 0.125,
+          "width": 844,
+          "height": 474.75
+        },
+        "lastRow": {
+          "x": 193.265625,
+          "y": 289.359375,
+          "width": 445.625,
+          "height": 30.375
+        },
+        "art": {
+          "src": "settings-dossier-art-v7-female-silhouette.png",
+          "width": 1672,
+          "height": 941,
+          "tabForeground": "url(\"http://127.0.0.1:5173/settings-dossier-art-v7-female-silhouette.png\")"
+        },
+        "form": {
+          "x": 193.265625,
+          "y": 76.078125,
+          "width": 445.625,
+          "height": 286.953125
+        },
+        "film": "on",
+        "filter": "sepia(0.247) saturate(0.922) contrast(0.8895) brightness(1.04875)"
+      },
+      "defaults": {
+        "voice": 72,
+        "music": 54,
+        "sound": 84
+      },
+      "checks": [
+        "three correct stamp labels",
+        "transparent red ink with distress mask and frames",
+        "stamps inside viewport",
+        "all controls reachable",
+        "shared main-menu film preserved",
+        "both action stamps below form and fully above pocket edge",
+        "requested artwork decoded; foreground uses matching revision",
+        "Restore defaults works from keyboard without saving prematurely",
+        "stamp hover feedback visible",
+        "Apply settings click saves changed volume",
+        "applied settings survive leaving and reopening settings",
+        "settings stamps hide in music library and return correctly"
+      ],
+      "errors": [],
+      "humanArtReview": "pending"
+    }
+  ],
+  "checkCount": 36,
+  "tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "migratedHashes": 172,
+  "resourcePaths": 70,
+  "build": "passed",
+  "assistantVisualReview": "All three stage screenshots inspected: action stamps within main paper, clear long-haired female silhouette, transparent fractured lens, correct student medal lettering, no binder clip or exterior checkerboard",
+  "humanArtApproval": "pending",
+  "electronWindowVerification": "not performed",
+  "playerData": "isolated memory test storage; real saves and settings untouched",
+  "earlierAttempt": "One v6 test target closed during 1058 readiness; exact task target IDs now verified. v6 and final v7 checks subsequently passed at all widths. No browser restart."
+}

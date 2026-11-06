@@ -1,0 +1,51 @@
+{
+  "source": "https://kenney.nl/assets/rpg-audio",
+  "author": "Kenney Vleugels",
+  "license": "CC0 1.0",
+  "archive": ".local\\kenney-rpg-audio-original.zip",
+  "archiveSha256": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
+  "processing": "Complete takes, mono 48 kHz; high-pass 120 Hz, low-pass 6800 Hz; RMS adjustment, tanh soft limiter at 0.55; 2 ms in / 8 ms out fades. No synthetic layers.",
+  "humanListeningApproved": false,
+  "files": [
+    {
+      "file": "public\\media\\sfx\\paper-turn-a.wav",
+      "original": "Audio/bookFlip1.ogg",
+      "sourceSha256": "fa81ac2fedc8c641661b87e349630a36c9800e795e0c800e029214efdbe26a7d",
+      "sha256": "be8eb5e478f0505f22163e799ce82169682fc988a4afa461a108f6b1e161582b",
+      "duration": 0.7686458333333334,
+      "bytes": 73834,
+      "peak": 0.5496155619621277,
+      "rms": 0.035074423998594284
+    },
+    {
+      "file": "public\\media\\sfx\\paper-turn-b.wav",
+      "original": "Audio/bookFlip2.ogg",
+      "sourceSha256": "3409042acbfaebc24c1a6327dc073e36f9250841712e96c5040da566a97df73c",
+      "sha256": "d9eded462b23f927600fd0b736994567bf18c59b8af1e1a1aa140cecdb638a3e",
+      "duration": 0.4304375,
+      "bytes": 41366,
+      "peak": 0.5466481447219849,
+      "rms": 0.052220381796360016
+    },
+    {
+      "file": "public\\media\\sfx\\paper-slip.wav",
+      "original": "Audio/bookFlip3.ogg",
+      "sourceSha256": "c85db5dceb3f1df073e960630277eaa88a5afda0477c1ddd68dad707621767be",
+      "sha256": "1156ffb70f61167f26a1f3560b482654a46ef18ecfb3fffdc2fcf0db2fc6d844",
+      "duration": 0.23060416666666667,
+      "bytes": 22182,
+      "peak": 0.5350325703620911,
+      "rms": 0.04349220544099808
+    },
+    {
+      "file": "public\\media\\sfx\\paper-press.wav",
+      "original": "Audio/bookPlace1.ogg",
+      "sourceSha256": "26f3ce60fbde85b678b0ad7f6624d80535fe540d88232ad1e38e47a96662d977",
+      "sha256": "b810c6ea0ec7b680d155fc5fb459d569f0e7dc4c93463ab0bf48741168cea16a",
+      "duration": 0.27670833333333333,
+      "bytes": 26608,
+      "peak": 0.47643527388572693,
+      "rms": 0.06326238811016083
+    }
+  ]
+}

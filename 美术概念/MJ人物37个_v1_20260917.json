@@ -1,0 +1,416 @@
+{
+  "schema": "northeast-disco-mj-characters-v1",
+  "created": "2026-09-17",
+  "based_on": "content/story/ink/背景设定.ink",
+  "direction": "user_selected_20260917",
+  "direction_notes": [
+    "全员 37 个角色各配肖像资产（C008 父亲含壮年/晚年两张，共 38 个任务）。",
+    "沿用 40 景雪夜批次的方向：3D写实、UE5质感、Raw、V8.1、Relax、个性化关闭、文件夹 东北迪斯科参考图。",
+    "角色肖像不用 45° 正交俯视（那是场景镜头）；改为半身肖像，画幅 2:3（与现有角色图 dong.png 1024x1536、grandmother-reference.png 896x1344 一致）。",
+    "无外貌段落的角色（C028 朱启渲 / C029 赵淑兰 / C030 李长胜 / C031 王淑英 / C033 孙翠花）由剧情角色推导外貌，已在记录中标注 derived_from_story。",
+    "C032 赵德明（已故文革工人领袖）单独用 60 年代黑白老照片风格渲染；C028/C031 为医院病床状态。",
+    "生成结果人审后接入，不自动进游戏。"
+  ],
+  "style_basis": {
+    "scene_record": "美术概念/MJ剧情场景40景雪夜_v1_20260917.json",
+    "style": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin, physically based surface shading, cinematic soft lighting -- same direction as the user-selected scene style minus the orthographic camera."
+  },
+  "folder": {
+    "id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+    "name": "东北迪斯科参考图"
+  },
+  "params": {
+    "ar": "2:3",
+    "raw": true,
+    "v": "8.1",
+    "relax": true,
+    "personalization": false,
+    "style_references": []
+  },
+  "generation_status": "prompts_built_pending_submission",
+  "source_hashes": {
+    "content/story/ink/背景设定.ink": "7b23291a7bf1e5b61c5356c2bda6f9e0e5eaf7594f7c8f6c4b4bc644c2a39829"
+  },
+  "characters": [
+    {
+      "id": "ND-C001",
+      "name": "董点事",
+      "block": "BG_0013",
+      "age": "18",
+      "source_excerpt": "身高175cm，偏瘦，还没长开的青年体型。肩窄，锁骨突出\n  短发，不太打理，有点乱。发色自然黑。额前有一缕总是贴在额头上\n  皮肤偏白但不健康的白。眼下方有轻微黑眼圈，眼神里有和年龄不符的疲惫\n  五官随母亲偏清秀，但骨架随父亲（老韩说“跟你爸年轻时候一模一样”）\n  穿着：旧T恤+牛仔裤+帆布鞋（夏天）。背一个旧帆布双肩包（回来时带的）。衣服便宜但干净\n  手指修长但不是文艺型——像干过体力活的。右手虎口有一道皖疤（小时候窗户爆裂的玄璃割的）\n  气质：看起来比实际年龄大两三岁。安静但不怯，有一种残留的倒特劲。像在用力往下压着什么\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese young man of 18, 175 cm tall, thin undeveloped adolescent build, narrow shoulders and prominent collarbones, short messy natural black hair with one lock falling over his forehead, pale unhealthy skin, faint dark circles under his eyes, a tired gaze beyond his age, delicate refined features, wearing an old T-shirt, jeans and canvas shoes with a worn canvas backpack, a thin scar on the web of his right hand. Quiet but unyielding, like he is pressing something down. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C002",
+      "name": "李正",
+      "block": "BG_0014",
+      "age": "35",
+      "source_excerpt": "身高178cm，中等偏瘦体型，但肩宽。站姿笔直（警察习惯）\n  寸头（警察标配），两鬓有少许白发。发色乌黑，发质硬\n  皮肤偏黑（晒的+熄夜的）。法令纹深，眉头常年皱着有竖纹。眼神洗利而灰暗\n  穿着：便衣出警——深色夹克（春秋）/短袖浅色衬衫（夏天，袖口总卷起来）。腰间别着对讲机\n  右手食指有烟渍（买烟迟到两分钟的人）。手上有老茧（写材料+握枪）。指关节突出\n  脸上有一道淡疤（早年出警时留下的），左眼角下方\n  气质：疖惫但警觉，像随时会弹起来的弹簧。嘴角总抿着，不太笑\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese plainclothes police detective of 35, 178 cm tall, medium-thin but broad-shouldered build, straight upright police posture, standard crew cut with a few gray hairs at the temples, dark tanned skin, deep nasolabial folds and a permanent vertical frown line, sharp but weary eyes, a faint old scar below his left eye, cigarette stain on his right index finger, wearing a dark jacket with a police radio on his belt. Tired yet vigilant, like a compressed spring. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C003",
+      "name": "王少鹏",
+      "block": "BG_0015",
+      "age": "35",
+      "source_excerpt": "注意：与WYP同脸但气质完全不同\n  身高176cm，体型匀称偏瘦。体态端正，有“中医先生”的架子\n  发型打理得比镇上大多数人整齐（中分或偏分，用了发蜡）。发色自然黑，发质软\n  皮肤白净（不干体力活）。五官端正清秀——这是他骗术的一部分。笑起来有亲和力\n  诊所工作时：白大褂（比高飞的新，口袋插着钢笔）+内穿Polo衫+休闲裤 婚礼：红色中式对襟上衣（但不是传统式，是淡化的“新中式”） 日常：Polo衫+休闲裤+皮鞋（镇上少有的“看着像城里人”）\n  戴一块看起来贵但可能是假的手表。手指干净修长（“中医”形象维护）\n  与WYP的视觉差异核心： WSP眼神有温度、有计算、有焦虑。表情丰富，会笑 WYP眼神空洞、无波动。表情几乎不变\n  气质：体面、从容。镇上少有的“看着有文化”的人。但细看下有一种紧绷感——常年维持人设的疲劳\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese traditional-medicine practitioner of 35, 176 cm tall, balanced slender build, upright refined bearing, neatly styled side-parted black hair with pomade, clean fair skin, handsome regular features with an approachable smile that reaches his eyes, wearing a clean white lab coat with a fountain pen in the breast pocket over a polo shirt and slacks, a possibly-fake expensive watch on his wrist. Cultured and composed, with a subtle tension beneath the polished surface. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C004",
+      "name": "王宇鹏",
+      "block": "BG_0016",
+      "age": "35",
+      "source_excerpt": "与WSP同脸，关键差异见下\n  与WSP同一张脸，但关键差异： ① 体型略壮（流浪十三年+体力生存），同样176cm但看着更“占地方” ② 皮肤偏黑偏粗糥（日晒雨淋 vs WSP的白净） ③ 发型不修边幅（WSP整齐 vs WYP随意） ④ 衣服大WSP一号（翻墙搜查时发现两套衣服尺码不同）\n  手上有烧伤疤痕（D0提到手上有烧伤）。指甲不修剪，有积垂。掌心粗糥\n  穿着：旧T恤/运动裤/帆布鞋（便宜实用，不引人注目）。带着一个旧帆布背包（全部家当）\n  眼神是核心差异——美术最重要的点： “空的。像一面镜子。什么都反射。什么都不吸收” 看人时不像在看人，像在看一个物件\n  步态与WSP不同：WSP走路有“先生”的从容，WYP走路无声、轻、消耗感低（像猫科动物）\n  气质：存在感很弱又很强——你会注意到他但说不出哪里不对。像一个被抛光的影子\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese man of 35, a twin brother with the same face as Wang Shaopeng but a radically different presence: 176 cm, slightly bulkier frame hardened by thirteen years of rough street survival, darker rougher sun-worn skin, unkempt shaggy black hair, an old oversized T-shirt, track pants and canvas shoes, a worn canvas backpack holding everything he owns, burn scars on his hands, untrimmed nails. His eyes are the key: empty, mirror-like, reflecting everything and absorbing nothing, looking at people as if at objects. A polished shadow, silent like a cat. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C005",
+      "name": "刘国庆",
+      "block": "BG_0017",
+      "age": "50",
+      "source_excerpt": "身高172cm，粗壮结实（修车铺干活练出来的）。不是胖，是实心的结实\n  平头（东北中年男人标配），头发花白了三分之一。肤色黑黄粗糥，脸上皱纹深\n  手很大，指关节粗，指甲缝里有洗不掉的机油。左手虎口有一道旧伤疤（修车时被铁皮划的）\n  穿着：蓝色工装裤+白汗衫+黑布鞋（夏天）。腰上别着一串钥匙（修车铺+家+便利店）\n  D5群架后可能的伤势外观：纱布裹着肋骨/脸上有紫色淤青/手上绑着绷带\n  气质：沉默中有力量，像个旧铁墩子。不笑不怕，话少但站在那就是个主心骨\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese auto-repair shop owner of 50, 172 cm tall, stocky solid build, flat-top crew cut with one third of his hair gone white, dark yellowish rough skin with deep wrinkles, big calloused hands with engine oil permanently in the nail creases, an old scar on the web of his left hand, wearing blue work overalls, a white undershirt and black cloth shoes with a key ring on his belt. Silent but steady, an old iron block of a man. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C006",
+      "name": "陈国涛",
+      "block": "BG_0020",
+      "age": "52",
+      "source_excerpt": "身高175cm，体型发福（“啊酒肚”），但不是软胖——有架势。腰板直\n  头发往后梳，用了油（领导派头），染过黑但发根露白。面相方正，嘴角下垂\n  穿着：短袖白衬衫+深色西裤（夏天办公标配）。腰带上挂一串钥匙（保险箱那把也在里面）\n  手上戴一个粗金戒指。桌上永远摆着一个大茶杯（泡着浓茶）\n  办公室视觉标志：总书记头像（后面藏着保险箱）、镜旗+那面WSP送的“妙手回春”锌旗\n  气质：沉稳有威压，像一堵不动的墙。说话慢但每句都有分量。笑的时候眼着不笑\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese county public-security bureau chief of 52, 175 cm tall, portly with a beer belly yet still imposing, ramrod-straight back, hair slicked back with pomade dyed black with white roots showing, square face with downturned mouth corners, wearing a short-sleeved white shirt and dark trousers with a key ring on his belt and a thick gold ring on his finger. Heavy wall-like authority; his smile never reaches his eyes. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C007",
+      "name": "董点事的母亲",
+      "block": "BG_0002",
+      "age": "33",
+      "source_excerpt": "回忆场景参考，被害时约30多岁\n  身高163cm，体型瘦小但利落。下岗工人转小店老板娘的精干感\n  短发齐耳，整齐实用（既要理货架又要做饭）。发色自然黑\n  肤色偏白，但手粗糥（理货/擦架子/写账本）。脸上带着长期疑惣的法令纹\n  穿着：叠得整齐的围裙+素色棉布衫。围裙口袋里插着笔（财务科习惯）\n  标志性物品：一本缘发白的账本、便利店铁卷帘门的钥匙\n  “最后的形象”：D0回忆中——火光中的剃影，抨开窗户抬起孩子的手臂\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese small-shop owner woman in her early 30s, 163 cm tall, small neat efficient build, short hair cut neatly to her ears, pale skin, hands roughened by shelf-stacking and ledger-writing, long worry lines on her face, wearing a neatly folded apron over a plain cotton blouse with a pen tucked in the apron pocket, holding a worn ledger book. A capable spirit of a laid-off worker turned shopkeeper, remembered in memory. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C008",
+      "name": "刘建国·壮年",
+      "block": "BG_0003",
+      "age": "30",
+      "source_excerpt": "回忆+照片参考，晚年级50岁、壮年约30岁\n  壮年：178cm，宽肩厚背，车间主任的气场。国字脸，浓眉，绞着胡子的下巴\n  晚年：明显消瘦，驼背，眼窝深陷。长期酗酒臉发红、眼白发黄。指尖发黄（烟渍）\n  穿着：旧工装棉裄+白背心（夏天），惯穿身不耍。绣花棉鞋\n  照片参考：铁柜里那张合影——和叔叔站在钢铁厂大门口，两人都穿工装，父亲比叔叔高半头，脸上有笑\n  统火夜形象：街对面暗处的剩影，烟头一明一灭。背影僝偶。\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese steel-plant workshop director in his 30s, 178 cm tall, broad shoulders and thick back, square face, thick eyebrows and a stubbled jaw, wearing a factory work uniform, standing at the steel plant gate with a rare genuine smile. A family-album photo reference. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C009",
+      "name": "张秀梅",
+      "block": "BG_0018",
+      "age": "50",
+      "source_excerpt": "身高160cm，体型微胖但结实（干体力活的）。背略弯\n  短发齐耳，方便干活，用黑色发卡别着。发色花白，不染\n  皮肤粗糥偏黑（常年在外捡废品）。手和叔叔一样粗糥。指关节有点变形\n  穿着：碎花棉布衫+深色裤子（夏天）。常年围着围裙。脚穿黑色布鞋或拖鞋\n  气质：像一把用久了的铁锅——不起眼但可靠。说话极少，但做事利落\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese woman of 50, 160 cm tall, slightly plump but solid from manual labor, back slightly bent, short hair to her ears held with a black hairpin, gray-streaked undyed hair, rough dark skin, slightly deformed knuckles, wearing a flowery cotton blouse, dark trousers and a long-worn apron with black cloth shoes. Like a well-used iron wok — unremarkable but utterly reliable. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C010",
+      "name": "高飞",
+      "block": "BG_0010",
+      "age": "22",
+      "source_excerpt": "身高174cm，瘦但有力（干体力活的瘦）。肩窄，腰细\n  短发，不修边幅。发色自然黑，有点毛躁。额头有几颗痘痘\n  肤色偏黄（营养一般+室内工作）。脸上有点婴儿肥没完全退，看着比实际年龄小\n  诊所工作时：白大褂（洗得很干净，比其他部分都干净）+绿色拖鞋 私下：便宜运动服套装（某多多购的）+白色运动鞋\n  标志性细节：手经常很干净（磨完药反复洗手的习惯）。手机不离手，总在刷短视频。脖子后有个小痣\n  气质：憨实安静，像个还没想清楚人生的年轻人。但眉头偶尔拧一下——良心在窃窃发作\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese clinic clerk of 22, 174 cm tall, thin but wiry from physical work, narrow shoulders and slim waist, unkempt short black hair with a few pimples on his forehead, yellowish skin with lingering baby fat making him look younger, wearing a spotlessly clean white lab coat over cheap sports clothes, his hands conspicuously clean, holding a smartphone. Honest and quiet, with an occasional troubled crease between his brows. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C011",
+      "name": "王涛",
+      "block": "BG_0019",
+      "age": "30",
+      "source_excerpt": "身高180cm，体型修长，站姿笔直。比李正年轻、干净\n  发型比李正讲究（短发但有造型感）。皮肤白净，面相年轻\n  穿着：衬衫+西裤（上班），衬衫总是熟烫平整的。私下穿休闲运动风\n  戴一块不错的手表（能力范围内最好的）。眼珠子转得快\n  Track B特征：如果被李正打了→嘴角肿起来，后续几天可见\n  气质：精明、灵活。像一条泵鳕——光滑、快速、知道往哪儿游\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese criminal police officer of 30, 180 cm tall, slender upright build, neat styled short hair, fair clean skin with a young face, wearing a crisply ironed shirt and suit trousers with a good wristwatch, quick restless darting eyes. Slick, fast and sharp like a loach. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C012",
+      "name": "小燕",
+      "block": "BG_0021",
+      "age": "26",
+      "source_excerpt": "身高163cm，体型纤细。脸型偏圆，小尖下巴\n  长发（婚礼盘发/日常马尾或披肩）。发色自然黑，柔顺发亮\n  皮肤白，面容清秀——镇上公认的“好看姑娘”。笑起来有酒窝\n  婚礼：红色旗袍/红色嫁衣，头上戮红花 日常：碎花裙子/简单T恤+裤子（不张扬但干净整齐）。不怎么化妆（偶尔涂口红）\n  气质：温和安静，像小镇早晨的露水——透明、干净、轻轻的。D5之后眼里开始有困惑和恐惧\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese newlywed bride of 26, 163 cm tall, slender figure, round face with a small pointed chin, long naturally black glossy hair, fair clear skin, a dimpled smile, wearing a red qipao wedding dress with a red flower in her hair. Gentle and quiet like morning dew in a small town. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C013",
+      "name": "刘小红",
+      "block": "BG_0022",
+      "age": "26",
+      "source_excerpt": "身高160cm，体型偏瘦（牢里没吃好）。锁骨突出，手腕细\n  头发半长，枯黄（缺乏营养+牢里条件差）。没有打理，随意垂在两侧\n  皮肤蜡黄偏暗，眼窝深。指甲剪得很短（牢里的习惯）。脸上有一种比实际年龄老五岁的疲惫\n  穿着：出狱时发的旧衣服或借来的（不合身） D3婚礼：穿的是四年前被抓时的那件外套（一直存着的）\n  气质：像被雨淋过的纸——还有形但一碰就碎。眼神里有恨、有不甘、有无法割舍的过去\n  与小燕的视觉对比：两个女人同岁，一个干净纤细一个枯瘦憋屈——WSP选择的视觉化\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese woman of 26 who looks five years older, 160 cm tall, thin from prison hardship with prominent collarbones and thin wrists, half-length dull yellowish hair hanging loose, sallow dark skin, sunken eyes, very short nails, wearing ill-fitting second-hand clothes. Like paper soaked by rain — still holding its shape but crumbling at a touch; resentment and unwillingness in her eyes. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C014",
+      "name": "韩铁军",
+      "block": "BG_0011",
+      "age": "48",
+      "source_excerpt": "身高175cm，壮实偏胖（修车+吃面）。肩宽背厚，手臂粗壮\n  寸头，额头高（发际线往后退）。肤色黑黄，脸上有油污（经常擦不太干净）\n  手上全是老茧和旧伤疤（修车工的手）。指甲缝有永久性的黑色油渍\n  穿着：蓝色工装裤+旧汗衫（夏天）。汗衫胸口有油渍。脚上工装靴或凉鞋\n  嘴门大（话多的人嗓门都大）。笑起来露一口发黄的牙（抽烟）\n  气质：热乎、爽快，像修车铺里的一盆炭火。叔叔的互补面——叔叔沉默时他拿主意\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese auto-repair shop worker of 48, 175 cm tall, stout with broad shoulders and thick arms, buzz cut with a receding hairline, dark yellow skin with grease smudges that never quite wash off, calloused scarred hands with black oil permanently in the nail creases, wearing blue work pants, a grease-stained undershirt and work boots, grinning wide with yellowed teeth. Warm and loud, a charcoal brazier of a man. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C015",
+      "name": "姜振山",
+      "block": "BG_0023",
+      "age": "62",
+      "source_excerpt": "身高170cm，瘦但精瘦（“干巴老头”型）。骨架小但精神头好\n  烫头！小卷/中卷，花白色（东北大爷标配 but 更江湖）。这是他最标志性的视觉特征\n  皮肤黄偏黑，布满皱纹但眼睛亮（眉毛粗，白眉毛杂入）。手指被烟熏得发黄\n  穿着：中式对襟衫（夏天）/旧皮夹克（其他时候）。脚上布鞋或拖鞋。脖子上可能挂佛珠/玉坠（半真半假的“行头”）\n  嘴里经常叼着烟（或不抽但在手里转）。喝酒后脸红但眼神更亮\n  气质：混不后中有一股正气——像个退休的江湖大侠。说话慢悠悠的但每句都有分量\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese old traditional-medicine master of 62, 170 cm tall, lean and wiry with bright energetic eyes, his most iconic feature a permed head of small gray-white curls, thick eyebrows mixed with white, yellowed cigarette-stained fingers, wearing a Chinese mandarin-collar shirt or an old leather jacket with cloth shoes and a semi-fake prayer bead necklace, a cigarette in his mouth. A retired jianghu hero with a slow voice and every word carrying weight. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C016",
+      "name": "刘虎",
+      "block": "BG_0024",
+      "age": "12",
+      "source_excerpt": "身高约140cm，瘦小。手腕细，肩膊窄——还没开始发育的小孩子体型\n  短发（学生头），额头宽。皮肤偏白，脸上有些雀斑\n  眼睛大但经常低着头——眼圈偶尔红。嘴唇有点干裂（紧张时咬嘴唇的习惯）\n  穿着：校服（白衬衫+蓝裤子）或旧T恤+短裤。背一个掉了扣子的书包。手上总拿着笔或在画什么\n  气质：比同龄人安静得多，像一只随时准备缩进壳里的蜗牛。但偶尔抬头看你的眼神里有求助\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese boy of 12, 140 cm tall, small and thin with narrow shoulders and thin wrists, a student short haircut with a wide forehead, pale skin with light freckles, big eyes usually lowered, dry chapped lips, wearing a school uniform of a white shirt and blue pants, a backpack missing a button, always holding a pen. Quieter than other kids, like a snail ready to retreat into its shell. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C017",
+      "name": "孙福来",
+      "block": "BG_0026",
+      "age": "66",
+      "source_excerpt": "身高175cm，瘦高，背微驼。脸长，颞骨高\n  花白头发，稀疏。穿旧保安制服（已经发白的深蓝色）\n  坐在门卫室里缘着腿喝茶看报纸的样子。桌上有象棋盘（和赵德明下过的）\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese vocational-school gate guard of 66, 175 cm tall, thin and tall with a slightly hunched back, a long face with high cheekbones, sparse gray-white hair, wearing a faded dark-blue old security uniform, sitting in the guard booth sipping tea over a newspaper with a chess board on the table. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C018",
+      "name": "姜桂兰",
+      "block": "BG_0025",
+      "age": "48",
+      "source_excerpt": "身高160cm，体型微胖（做饭的人）。手臂有力\n  短发盘起来塞在头巾/发网里。肤色红润（经常在耗火旁）\n  穿着：白色围裙（油渍斑斑）+棉布衫。手粗糥发红（常年碱水和面）\n  嗓门大，说话带笑。菜刀不离手的感觉\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese noodle-shop owner woman of 48, 160 cm tall, plump like a good cook with strong arms, short hair pinned under a hairnet, a ruddy glowing complexion, wearing a white oil-stained apron over a cotton shirt, rough reddened hands, a loud voice and a smiling face, the warmth of a busy kitchen around her. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C019",
+      "name": "杨秀文",
+      "block": "BG_0012",
+      "age": "53",
+      "source_excerpt": "身高162cm，体型中等偏瘦。背很直（宣传科出身的习惯）\n  头发扎马尾，有白发但不染。戴一副老花镜（推在额头上或挂在胸前）\n  肤色白净（类似室内工作者）。手指上有长年握笔留下的茧\n  穿着：素色衬衫+长裤，手臂上套着袖套（保护衣服防灰）。书店里围着一条洗得发白的蓝布围裙\n  气质：知识分子气质在东北小镇里显得格格不入。说话慢，但说出来的都记得清\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese bookstore owner woman of 53, 162 cm tall, medium-thin with a remarkably straight back, hair in a ponytail with undyed white strands, reading glasses pushed up on her forehead, fair indoor-worker skin, calluses from decades of holding a pen, wearing a plain shirt with sleeve covers and a washed-out blue cloth apron. A quiet intellectual air that feels out of place in a small Northeast town. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C020",
+      "name": "马文华",
+      "block": "BG_0031",
+      "age": "45",
+      "source_excerpt": "身高176cm，体型偏胖（应酬胖）。发际线高，用发蜡梳向后\n  穿衬衫（扣子打得紧紧的）+西裤。脖子上戴金链子\n  气质：满脸堂皇的“谈生意”表情。嘴里说“三十万是公平价”时自己也信\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese businessman and real-estate project manager of 45, 176 cm tall, plump from socializing, high hairline with pomaded slicked-back hair, wearing a tightly buttoned shirt and suit trousers with a thick gold chain on his neck, a grand confident business-dealing expression. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C021",
+      "name": "张德顺",
+      "block": "BG_0029",
+      "age": "40",
+      "source_excerpt": "身高173cm，中等身材，不胖不瘦。整个人的关键词是“普通”\n  穿警察制服但不太整齐（扣子有时少扣一个）。眼睛不大但很精（什么都看在眼里）\n  气质：浑然天成的“没存在感”——你不会记住他，但他记住了你\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese police officer of 40, 173 cm tall, medium build, the keyword is ordinary — a slightly untidy police uniform with a button sometimes left undone, small but sharp eyes that quietly record everything, a natural lack of presence: you would not remember him, but he remembers you. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C022",
+      "name": "周建设",
+      "block": "BG_0030",
+      "age": "55",
+      "source_excerpt": "身高170cm，瘦，背微驼（长年对着显微镜）。戴眼镜（度数很深，镜片厚）\n  手很稳（技术人员的手）。身上永远有一股淡淡的化学试剂味\n  穿着：白大褂（工作时）/旧夹克（日常）。口袋里总插着钢笔（两支）\n  气质：安静、谨慎。像一件被锁在铁皮柜里的证据——本身就是一件被封存的东西\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese forensic technician of 55, 170 cm tall, thin with a back slightly hunched from years over a microscope, thick-lensed glasses, remarkably steady hands, wearing a white lab coat or an old jacket with two pens in his pocket. Quiet and cautious, like evidence sealed in a steel cabinet. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C023",
+      "name": "佟秀云",
+      "block": "BG_0027",
+      "age": "80",
+      "source_excerpt": "身高级150cm（已缩），极瘦极矮，佝偻。像一截干枯的老树根\n  全白头发，后面盘一个发髁（用黑色发网固定）。脸上皱纹像干裂的河床\n  穿深色旧布衫，深蓝或黑色。手里拄黑色拐杖（标志性道具）\n  眼睛浑浊但有一种穿透感——像看过太多的人在看你。声音沙哑但清晰\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese elderly woman of 80, shrunk to 150 cm, extremely thin and hunched like a dried old tree root, all-white hair in a bun fixed with a black hairnet, a face of wrinkles like a dried riverbed, wearing a dark old cloth shirt, leaning on a black wooden cane — her iconic prop. Cloudy eyes with a piercing clarity that has seen too many people; a hoarse but clear voice. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C024",
+      "name": "周桂芝",
+      "block": "BG_0028",
+      "age": "70",
+      "source_excerpt": "身高155cm，体型干瘦。手因长年捡废品变形（指关节粗大、弯曲）\n  花白头发随意扎着。穿旧棉布衫（洗得发白）+布鞋\n  眼神固执——十三年说同一句话的人：“铁门是从外面锁上的”\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese elderly woman of 70, 155 cm tall, thin and dried-out, hands deformed by years of collecting scrap with knobby bent finger joints, gray-white hair loosely tied, wearing an old washed-out cotton shirt and cloth shoes, stubborn unyielding eyes — the eyes of a woman who has repeated one sentence for thirteen years. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C025",
+      "name": "刘长河",
+      "block": "BG_0033",
+      "age": "75",
+      "source_excerpt": "身高曾经180cm（现在缩了，约176），老迈但曾经高大。背开始驼，手有点发抖\n  穿旧中山装（几十年不换的款式）。手里拿着收音机（听新闻的习惯）\n  气质：老体制人——“组织纪律”和“个人良心”之间永远选前者。喝了酒偶尔嘘囔“那年那案子唉”\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese retired police officer of 75, once 180 cm tall now slightly shrunken, old but still tall, back beginning to hunch, slightly trembling hands, wearing an old Mao suit unchanged for decades, holding a radio. An old system man who always chose discipline over conscience. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C026",
+      "name": "徐志刚",
+      "block": "BG_0032",
+      "age": "40",
+      "source_excerpt": "身高172cm，中等身材。外表普通得可以消失在人群中——这种“普通”本身就是恐怖的\n  穿白衬衫（教师标配），衬衫总是扎进裤子里。带着一个经典款文件袋\n  脸上永远带着微笑。就是这种笑让人不寒而栗\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese middle-school teacher of 40, 172 cm tall, medium build, terrifyingly ordinary — the kind of face that vanishes into a crowd — wearing a white shirt always tucked into his trousers and carrying a classic document bag, with a permanent polite smile that chills the blood. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C027",
+      "name": "丫丫·陈秀枝",
+      "block": "BG_0034",
+      "age": "18(心智5)",
+      "source_excerpt": "身高约130cm（发育停滞，体型停在小学低年级）。极瘦，手腕像细树枝 头发乱而细软，两侧随意扎着，发圈是便宜的塑料发圈 脸圆，眼睛大而清澈——没有成年人的浑浊，反而有一种令人不安的透明感 穿着：旧棉布花裙子+凉鞋（夏天），同一件穿很多天 标志性动作：蹲在墙根，手指在地上划来划去，或者盯着某个方向发呆 气质：不像普通小孩的天真——是一种被什么东西定格住的静止感",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese girl of 18 whose body and mind stopped at about five years old, only 130 cm tall, extremely thin with wrists like twigs, messy fine hair tied on both sides with cheap plastic hair ties, a round face with big clear eyes of unsettling transparency, wearing an old floral cotton dress and sandals, crouching by a wall drawing circles on the ground. Not a child's innocence — the stillness of something frozen in time. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C028",
+      "name": "朱启渲",
+      "block": "BG_0035",
+      "age": "25",
+      "source_excerpt": null,
+      "derived_from_story": true,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese woman of 25 lying unconscious in a hospital ICU bed, 60 percent of her body burned, her head and face wrapped in gauze bandages, an oxygen tube and IV lines, a breathing machine beside the bed, dim cold hospital light. A body that still reacts to a name. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C029",
+      "name": "赵淑兰",
+      "block": "BG_0036",
+      "age": "35",
+      "source_excerpt": null,
+      "derived_from_story": true,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese housewife of 35, medium height, shoulder-length hair, plain neat clothes, a gentle tired face with faint sadness and the quiet ache of being overlooked, standing in a modest home interior. An ordinary wife long neglected. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C030",
+      "name": "李长胜",
+      "block": "BG_0037",
+      "age": "58",
+      "source_excerpt": null,
+      "derived_from_story": true,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese town party secretary of 58, medium build, gray hair combed back, a composed stern face with deep-set eyes, wearing a dark cadre jacket over a shirt, the bearing of the actual highest authority in town — heavy, calm, untouchable, never seen directly. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C031",
+      "name": "王淑英",
+      "block": "BG_0038",
+      "age": "75",
+      "source_excerpt": null,
+      "derived_from_story": true,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese elderly woman of 75 lying in a hospital bed in a vegetative state, thin and frail, all-white hair spread on the pillow, a breathing tube, a blanket pulled to her chest, winter light from the window behind. The grandmother who raised two abandoned grandsons alone. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C032",
+      "name": "赵德明",
+      "block": "BG_0039",
+      "age": "已故(60年代)",
+      "source_excerpt": null,
+      "derived_from_story": false,
+      "prompt": "Photorealistic 3D render in the style of a faded vintage 1960s black-and-white photograph with film grain and light scratches: a Chinese steel-plant worker leader photographed in the 1960s, resolute square-jawed face, thick brows, wearing a blue worker's cap and a cotton worker's uniform of the Cultural Revolution era, standing before the factory gate with workers behind him. A hero of workers remembered only in old men's memories and a grave on the hill. --ar 2:3 --raw --v 8.1 --relax --no color, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C033",
+      "name": "孙翠花",
+      "block": "BG_0040",
+      "age": "42",
+      "source_excerpt": null,
+      "derived_from_story": true,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese scrap-collecting mother of 42, thin and weather-beaten, gray-streaked hair tied back loosely, patched old cotton clothes and cloth shoes, rough worn hands from years of collecting waste, a tired face that has long gone numb to the town calling her daughter an idiot — but a faint crease of pain appears when they do. Thirteen years of quiet exhaustion. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C034",
+      "name": "马骏",
+      "block": "BG_0043",
+      "age": "35",
+      "source_excerpt": "外貌：中等身材，工装裤，手上有油渍——在镇外维修厂当技工",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese auto mechanic of 35, medium build, wearing oil-stained work pants, oil stains on his hands, a plain honest face with the straightforward expression of a man who speaks his mind, an old motorcycle nearby. A blunt loyal friend from vocational school days. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C035",
+      "name": "赵铁嘴·赵建国",
+      "block": "BG_0044",
+      "age": "65",
+      "source_excerpt": "外貌：黑红脸，长寿眉，拇指上有厚茧——吹了四十年唢呐的茧",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese old suona master of 65, hard-bodied and straight, a dark-red weather-beaten face, long white longevity eyebrows, a thick callus on his thumb from forty years of playing the suona, wearing a thick cotton-padded winter jacket, holding his suona horn. A man of few words, every one of them true. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C036",
+      "name": "田大庆",
+      "block": "BG_0045",
+      "age": "58",
+      "source_excerpt": "外貌：矮胖，头发梳得很整齐，围裙是绿色格子的",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese mahjong-parlor owner of 58, short and plump, hair neatly combed, wearing a green checkered apron over his shirt, standing among mahjong tables with tiles, a talkative friendly face with an excellent memory, the parlor's small back room behind him. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C037",
+      "name": "冯秀珍",
+      "block": "BG_0046",
+      "age": "52",
+      "source_excerpt": "外貌：衣着整洁，说话轻声慢语，看起来比实际年龄老了几岁",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese woman of 52 who looks a few years older than her age, neatly dressed, soft-spoken with quiet tired dignity in her eyes, in a modest county-town apartment. The ex-wife of a man whose secrets she could never ask out. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    },
+    {
+      "id": "ND-C008B",
+      "name": "刘建国·晚年",
+      "block": "BG_0003",
+      "age": "50",
+      "source_excerpt": "回忆+照片参考，晚年级50岁、壮年约30岁\n  壮年：178cm，宽肩厚背，车间主任的气场。国字脸，浓眉，绞着胡子的下巴\n  晚年：明显消瘦，驼背，眼窝深陷。长期酗酒臉发红、眼白发黄。指尖发黄（烟渍）\n  穿着：旧工装棉裄+白背心（夏天），惯穿身不耍。绣花棉鞋\n  照片参考：铁柜里那张合影——和叔叔站在钢铁厂大门口，两人都穿工装，父亲比叔叔高半头，脸上有笑\n  统火夜形象：街对面暗处的剩影，烟头一明一灭。背影僝偶。\n\n\n- (返回)\n+ [返回目录]\n    -> BG_main",
+      "derived_from_story": false,
+      "prompt": "Atmospheric photorealistic 3D character portrait, Unreal Engine 5 visual quality, realistic skin with pores, physically based surface shading, cinematic soft lighting, waist-up shot of a Chinese laid-off worker of 50, once broad-shouldered now visibly thinner and hunched, sunken eyes, a chronically alcoholic flushed face with yellowish whites of the eyes, yellow cigarette stains on his fingertips, wearing an old padded work jacket and a white undershirt, embroidered cloth shoes. A worn-out silhouette at the end of a long slide. 1990s Northeast China small-town setting, muted realistic colors, quiet cold immersive atmosphere. --ar 2:3 --raw --v 8.1 --relax --no wide-angle lens, perspective distortion, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people, deformed hands, extra fingers",
+      "status": "pending"
+    }
+  ]
+}

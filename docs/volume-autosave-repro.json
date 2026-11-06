@@ -1,0 +1,15 @@
+{
+  "reproduced": true,
+  "adjusted": {
+    "slider": 23,
+    "gain": 0.23000000417232513,
+    "saved": 54
+  },
+  "afterReturnAndReopen": {
+    "slider": 54,
+    "gain": 0.5400000214576721,
+    "saved": 54
+  },
+  "cause": "input previews audio but never updates appliedSettings; leaving repaints the saved values",
+  "transport": "fixed work Chrome direct target CDP; isolated memory storage and muted output"
+}

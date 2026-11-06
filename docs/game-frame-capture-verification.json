@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-14",
+  "transport": "fixed work Chrome + direct CDP 9223",
+  "browser": "152.0.7977.83",
+  "root": "[data-screenshot-root]",
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-alignment-game-only-1058.png",
+      "viewport": [
+        1720,
+        595
+      ],
+      "bounds": {
+        "x": 331.109375,
+        "y": 0,
+        "width": 1057.765625,
+        "height": 594.984375,
+        "viewportWidth": 1720,
+        "viewportHeight": 595
+      },
+      "clip": {
+        "x": 331,
+        "y": 0,
+        "width": 1058,
+        "height": 595
+      },
+      "imageSize": [
+        1058,
+        595
+      ],
+      "scope": "game stage only"
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\save-alignment-game-only-1440.png",
+      "viewport": [
+        1440,
+        1010
+      ],
+      "bounds": {
+        "x": 0,
+        "y": 100,
+        "width": 1440,
+        "height": 810,
+        "viewportWidth": 1440,
+        "viewportHeight": 1010
+      },
+      "clip": {
+        "x": 0,
+        "y": 100,
+        "width": 1440,
+        "height": 810
+      },
+      "imageSize": [
+        1440,
+        810
+      ],
+      "scope": "game stage only"
+    }
+  ],
+  "errors": [],
+  "storage": "isolated empty in-memory fixtures; real saves untouched",
+  "workbenchCurrentProcessUpdated": false,
+  "userArtReview": "pending",
+  "geometryAndIntegrationChecks": 10,
+  "build": "passed",
+  "assistantVisualInspection": "Both game-only screenshots visually inspected; external bars excluded, in-game vignette retained.",
+  "workbenchValidation": "Source syntax and 10 geometry/integration checks passed; screenshot geometry verified in Chrome; current Electron process not restarted or directly tested."
+}

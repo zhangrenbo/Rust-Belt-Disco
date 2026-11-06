@@ -1,0 +1,111 @@
+{
+  "project": "东北迪斯科",
+  "scene": "董点事 D1 / A003 叔叔家 / 清晨六点",
+  "request_date": "2026-09-15",
+  "user_authorization": "用户明确要求用极乐迪斯科实机截图作风格参考并提交新版；本次覆盖旧的无参考图限制及D1暂停要求。旧失败候选仍被否定。",
+  "status": "completed",
+  "job_id": "14f14661-6d13-4edb-817c-d355a82039d1",
+  "human_review": "pending",
+  "in_game_integration": "not_applied",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "folder_name": "东北迪斯科参考图",
+  "references": [
+    {
+      "type": "style_reference",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_ef8e3eca9fb67d94d8a3fb7b7934de5ccdeed4dd.1920x1080.jpg",
+      "source_page": "https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/",
+      "steam_screenshot_id": 18,
+      "subject": "官方实机：斜俯视的小型居住室内，木地板、桌椅、窗光与暗色剖开边界，无大块游戏UI遮挡",
+      "visual_inspection": "Observed in docs/disco-steam-reference-inspection.png; that inspection sheet is not uploaded or used as a reference",
+      "access_verified": "HTTP HEAD 200; image/jpeg; Access-Control-Allow-Origin: *"
+    }
+  ],
+  "personalization": false,
+  "prompt": "Illustrated isometric game environment, economical brush marks and broad matte color shapes. A modest working-class home in a Northeast Chinese industrial town, six o'clock on a summer morning. Elevated 45-degree orthographic cutaway, roof and camera-facing walls removed, full living and dining room visible. Kitchen doorway at back left, narrow wooden staircase against the rear wall, exterior door at right. Worn square wooden table with two bowls of plain rice porridge, a small plate of pickled vegetables and chopsticks. Old sofa, CRT television on a low cabinet, chipped pale plaster and worn concrete floor. Three figures: a teenage Chinese boy seated at the table writing homework with a pencil; his middle-aged uncle at the door putting on a work jacket; a young adult Chinese man coming down the stairs toward breakfast. Clear walking paths between the stairs, table and doors. Soft overcast morning window light, restrained highlights, readable silhouettes. --ar 4:3 --raw --v 8.1 --relax --sref https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_ef8e3eca9fb67d94d8a3fb7b7934de5ccdeed4dd.1920x1080.jpg --sw 150 --no glossy surfaces, thick impasto, cinematic bloom, text, logo, watermark, interface, snow, extra people",
+  "downloads": [],
+  "previous_failed_attempt": "MJ_D1叔叔家实机风格参考_v2_20260915_生成记录.json",
+  "preflight": {
+    "folder": true,
+    "images": 0,
+    "personalization": "false"
+  },
+  "submitted_at": "2026-09-15T08:19:25.348828+00:00",
+  "source_sha256": {
+    "content/story/ink/D1_第一天.ink": "64e6023d141b459d2abfc333cc6dd7674cada2489ac4ca1a940a9385a1dda511",
+    "content/story/source-documents/D1_剧本_董点事线.md": "a0dba96afa361445f4b48daad3f7d3ff4ece7664b611fdb801c5200e48c98a46"
+  },
+  "submit_receipt": {
+    "accepted": [
+      {
+        "job_id": "14f14661-6d13-4edb-817c-d355a82039d1",
+        "prompt": "Illustrated isometric game environment, economical brush marks and broad matte color shapes. A modest working-class home in a Northeast Chinese industrial town, six o'clock on a summer morning. Elevated 45-degree orthographic cutaway, roof and camera-facing walls removed, full living and dining room visible. Kitchen doorway at back left, narrow wooden staircase against the rear wall, exterior door at right. Worn square wooden table with two bowls of plain rice porridge, a small plate of pickled vegetables and chopsticks. Old sofa, CRT television on a low cabinet, chipped pale plaster and worn concrete floor. Three figures: a teenage Chinese boy seated at the table writing homework with a pencil; his middle-aged uncle at the door putting on a work jacket; a young adult Chinese man coming down the stairs toward breakfast. Clear walking paths between the stairs, table and doors. Soft overcast morning window light, restrained highlights, readable silhouettes. --no glossy surfaces, thick impasto, cinematic bloom, text, logo, watermark, interface, snow, extra people --ar 4:3 --relax --raw --sref https://s.mj.run/vfL6ZtRaieY --sw 150 --v 8.1",
+        "is_queued": false,
+        "job_type": "v8-1_diffusion",
+        "flags": {
+          "mode": "relaxed",
+          "visibility": "public"
+        },
+        "meta": {
+          "height": 928,
+          "width": 1232,
+          "batch_size": 4,
+          "parent_id": null,
+          "parent_grid": null
+        },
+        "personalization_codes": null
+      }
+    ],
+    "http": 200
+  },
+  "post_submit_text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight Mode\nzhangrenbo\nToday\nSep 9, 2026\nStarting...\nIllustrated isometric game environment, economical brush marks and broad matte color shapes. A modest working-class home in a Northeast Chinese industrial town, six o'clock on a summer morning. Elevated 45-degree orthographic cutaway, roof and camera-facing walls removed, full living and dining room visible. Kitchen doorway at back left, narrow wooden staircase against the rear wall, exterior door at right. Worn square wooden table with two bowls of plain rice porridge, a small plate of pickled vegetables and chopsticks. Old sofa, CRT television on a low cabinet, chipped pale plaster and worn concrete floor. Three figures: a teenage Chinese boy seated at the table writing homework with a pencil; his middle-aged uncle at the door putting on a work jacket; a young adult Chinese man coming down the stairs toward breakfast. Clear walking paths between the stairs, table and doors. Soft overcast morning window light, restrained highlights, readable silhouettes.\n+ use text\n--no glossy surfaces, thick impasto, cinematic bloom, text, logo, watermark, interface, snow, extra people\n \nno glossy surfaces, thick impasto, cinematic bloom, text, logo, watermark, interface, snow, extra people\n--ar 4:3\n \nar 4:3\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\nDisco Elysium inspired painterly 3D game environment, hand painted oil brushstroke textures, muted teal shadows, restrained warm amber highlights. Strict 45 degree isometric orthographic cutaway, roof and camera facing walls removed, full room footprint visible. 6 AM summer morning, working class living/dining room, old Northeast Chinese industrial town. Open doorway to small kitchen at back left, narrow wooden staircase on rear wall, exterior door at right. Worn square wooden dining table with EXACTLY two bowls of steaming rice porridge, one plate of pickled vegetables, chopsticks. Old sofa, CRT television on low cabinet, chipped plaster walls, worn concrete floor, faded framed factory worker award. EXACTLY THREE figures: teenage Chinese boy seated at table writing in exercise book; middle aged uncle near exterior door pulling on work jacket; young adult Chinese man descending stairs toward brea",
+  "last_status": {
+    "job_id": "14f14661-6d13-4edb-817c-d355a82039d1",
+    "links": [
+      {
+        "href": "/jobs/14f14661-6d13-4edb-817c-d355a82039d1?index=0&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 849,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/14f14661-6d13-4edb-817c-d355a82039d1?index=1&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 849,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/14f14661-6d13-4edb-817c-d355a82039d1?index=2&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 849,
+            "height": 640
+          }
+        ]
+      },
+      {
+        "href": "/jobs/14f14661-6d13-4edb-817c-d355a82039d1?index=3&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 849,
+            "height": 640
+          }
+        ]
+      }
+    ],
+    "text": "Illustrated isometric game environment, economical brush marks and broad matte color shapes. A modest working-class home in a Northeast Chinese industrial town, six o'clock on a summer morning. Elevated 45-degree orthographic cutaway, roof and camera-facing walls removed, full living and dining room visible. Kitchen doorway at back left, narrow wooden staircase against the rear wall, exterior door at right. Worn square wooden table with two bowls of plain rice porridge, a small plate of pickled vegetables and chopsticks. Old sofa, CRT television on a low cabinet, chipped pale plaster and worn concrete floor. Three figures: a teenage Chinese boy seated at the table writing homework with a pencil; his middle-aged uncle at the door putting on a work jacket; a young adult Chinese man coming down the stairs toward breakfast. Clear walking paths between the stairs, table and doors. Soft overcast morning window light, restrained highlights, readable silhouettes.\n+ use text\n--no glossy surfaces, thick impasto, cinematic bloom, text, logo, watermark, interface, snow, extra people\n \nno glossy surfaces, thick impasto, cinematic bloom, text, logo, watermark, interface, snow, extra people\n--ar 4:3\n \nar 4:3\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore",
+    "folder": "东北迪斯科参考图\n8676",
+    "folderSelected": true
+  },
+  "status_checked_at": "2026-09-15T08:22:42.697873+00:00",
+  "group_membership_verified": true
+}

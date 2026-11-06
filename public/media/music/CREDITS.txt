@@ -1,0 +1,31 @@
+Northeast Disco / 东北迪斯科 — Background music sources
+Updated 2026-09-13. The user selected the main theme; station music remains subject to user review.
+
+Main theme — main menu and character selection (selected by user 2026-09-13):
+东北迪斯科主页曲
+Source file: C:\Users\W11\Downloads\东北迪斯科主页曲.mp3
+Local file: dongbei-disco-theme.mp3 (unaltered original; full track loop)
+Duration: 240.0135 seconds; MP3, 48000 Hz, stereo
+Provided and designated as the game's theme by the user.
+Author/license: not specified by user; the CC0 notices below do not apply to this track.
+SHA-256: 484fea59d32259b515e3511d201a270dd311806670e1c5809bdc9b92a3e1ed32
+
+Former main menu music (retained source, no longer used by the game):
+Synthwave House Loop — Fupi
+https://opengameart.org/content/synthwave-house-loop
+Original file: https://opengameart.org/sites/default/files/synthwavehouse_0.ogg
+Local file: menu-synthwave.ogg (unaltered original)
+License stated by author: CC0 1.0 Universal
+SHA-256: ac6a7af314f55de46e28c8068249ebb26c471e67d1a4745ee04eb0c0c9bacf0b
+
+A000 bus station:
+Dark Place (loop) — SkyleTheFrench
+https://opengameart.org/content/dark-place-loop
+Original file: https://opengameart.org/sites/default/files/dark_place.ogg
+Local file: station-dark-place.ogg (unaltered original)
+License stated by author: CC0 1.0 Universal
+SHA-256: c78a433139ace4a050b5d4a1b9b94bcf1f04d059345c849c7c234a2fe0eda102
+
+License for the two Ogg tracks above: https://creativecommons.org/publicdomain/zero/1.0/
+Legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+In-game playback applies volume changes and crossfades; no claim of author endorsement.

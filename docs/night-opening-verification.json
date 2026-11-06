@@ -1,0 +1,319 @@
+{
+  "date": "2026-09-13",
+  "browser": "152.0.7977.83",
+  "transport": "fixed work Chrome, direct CDP 9223",
+  "saveIsolation": "task-created page, in-memory localStorage",
+  "checks": [
+    "opening is unobstructed at 1440",
+    "marker and seated body accept input at 1440",
+    "only the grandmother is labelled at 1440",
+    "opening is unobstructed at 844",
+    "marker and seated body accept input at 844",
+    "only the grandmother is labelled at 844",
+    "opening is unobstructed at 1280",
+    "marker and seated body accept input at 1280",
+    "only the grandmother is labelled at 1280",
+    "opening is unobstructed at 390",
+    "marker and seated body accept input at 390",
+    "only the grandmother is labelled at 390",
+    "the local visibility moves with the player",
+    "clicking the marker walks to the woman before opening dialogue",
+    "closing the opening retains its exclamation",
+    "starting her conversation consumes the exclamation",
+    "the original questions, warning and shadow still lead to the exit",
+    "reload preserves night progress without resurrecting the exclamation",
+    "new game restores the quiet opening and marker",
+    "new game preserves manual saves",
+    "no runtime errors"
+  ],
+  "errors": [],
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\night-opening-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "button": {
+        "x": 761.40625,
+        "y": 156.0500030517578,
+        "width": 115.1875,
+        "height": 178.18748474121094
+      },
+      "marker": {
+        "x": 800.28125,
+        "y": 156.0500030517578,
+        "width": 37.4375,
+        "height": 50.390625
+      },
+      "markerReachable": true,
+      "bodyReachable": true,
+      "visibleHotspots": [
+        "grandmother"
+      ],
+      "vision": {
+        "x": "440",
+        "y": "585"
+      },
+      "talkOpen": false
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\night-opening-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "button": {
+        "x": 446.2578125,
+        "y": 91.58125305175781,
+        "width": 67.515625,
+        "height": 104.4375
+      },
+      "marker": {
+        "x": 469.0390625,
+        "y": 91.58125305175781,
+        "width": 21.9375,
+        "height": 29.53125
+      },
+      "markerReachable": true,
+      "bodyReachable": true,
+      "visibleHotspots": [
+        "grandmother"
+      ],
+      "vision": {
+        "x": "440",
+        "y": "585"
+      },
+      "talkOpen": false
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\night-opening-1280.png",
+      "viewport": [
+        1280,
+        800
+      ],
+      "stage": {
+        "x": 0,
+        "y": 40,
+        "width": 1280,
+        "height": 720
+      },
+      "button": {
+        "x": 676.8046875,
+        "y": 178.71249389648438,
+        "width": 102.390625,
+        "height": 158.390625
+      },
+      "marker": {
+        "x": 711.359375,
+        "y": 178.71249389648438,
+        "width": 33.265625,
+        "height": 44.796875
+      },
+      "markerReachable": true,
+      "bodyReachable": true,
+      "visibleHotspots": [
+        "grandmother"
+      ],
+      "vision": {
+        "x": "440",
+        "y": "585"
+      },
+      "talkOpen": false
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\night-opening-390.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "stage": {
+        "x": 0,
+        "y": 312.3125,
+        "width": 390,
+        "height": 219.375
+      },
+      "button": {
+        "x": 206.21875,
+        "y": 354.5687561035156,
+        "width": 31.1875,
+        "height": 48.25
+      },
+      "marker": {
+        "x": 216.75,
+        "y": 354.5687561035156,
+        "width": 10.125,
+        "height": 13.640625
+      },
+      "markerReachable": true,
+      "bodyReachable": true,
+      "visibleHotspots": [
+        "grandmother"
+      ],
+      "vision": {
+        "x": "440",
+        "y": "585"
+      },
+      "talkOpen": false
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\night-arrival-dialogue-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "button": {
+        "x": 761.40625,
+        "y": 156.0500030517578,
+        "width": 115.1875,
+        "height": 178.18748474121094
+      },
+      "marker": {
+        "x": 800.28125,
+        "y": 156.0500030517578,
+        "width": 37.4375,
+        "height": 50.390625
+      },
+      "markerReachable": false,
+      "bodyReachable": false,
+      "visibleHotspots": [
+        "grandmother",
+        "bench"
+      ],
+      "vision": {
+        "x": "800",
+        "y": "445"
+      },
+      "talkOpen": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\night-beside-shelter-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "button": {
+        "x": 761.40625,
+        "y": 156.0500030517578,
+        "width": 115.1875,
+        "height": 178.18748474121094
+      },
+      "marker": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "markerReachable": false,
+      "bodyReachable": true,
+      "visibleHotspots": [
+        "grandmother",
+        "bench"
+      ],
+      "vision": {
+        "x": "800",
+        "y": "445"
+      },
+      "talkOpen": false
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\night-questions-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "button": {
+        "x": 446.2578125,
+        "y": 91.58125305175781,
+        "width": 67.515625,
+        "height": 104.4375
+      },
+      "marker": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "markerReachable": false,
+      "bodyReachable": false,
+      "visibleHotspots": [
+        "grandmother",
+        "bench"
+      ],
+      "vision": {
+        "x": "800",
+        "y": "445"
+      },
+      "talkOpen": true
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\night-ready-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "button": {
+        "x": 761.40625,
+        "y": 156.0500030517578,
+        "width": 115.1875,
+        "height": 178.18748474121094
+      },
+      "marker": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "markerReachable": false,
+      "bodyReachable": true,
+      "visibleHotspots": [
+        "grandmother",
+        "bench",
+        "exit"
+      ],
+      "vision": {
+        "x": "800",
+        "y": "445"
+      },
+      "talkOpen": false
+    }
+  ],
+  "humanArtApproval": "pending",
+  "performance": "target-device benchmarking not performed"
+}

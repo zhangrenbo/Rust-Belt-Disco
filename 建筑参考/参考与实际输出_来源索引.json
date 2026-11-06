@@ -1,0 +1,3065 @@
+{
+  "schema": "maploom-image-provenance-v1",
+  "items": [
+    {
+      "path": "建筑参考\\AI室内_INT01_客厅_紧凑暖色_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "4765d60a2c590341229f0cfb975b18ae2bf0ffd9ba8edabd50b058ce4155d229",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT02_客厅_宽厅分区_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "659d35ce9beb6fc297a4e0b81b8fc93a11d6e6a352f917b91a54869962f00319",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT03_卧室_双人床_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "d3b1c582a1b5111e11ed9ee5fb791d956561c908f714587eae34e9a6d80c1922",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT04_炕房_东北民居_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "b16cf2f8642456726f6a1bce4bf0b5a46dcc130aa196dc80336e43bf068f0b14",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT05_餐厨_操作动线_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "f844ceb3bb064af6f252a45ef2595b16a92d4b98d3b201540b3a80cc01f9827f",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT06_卫生间_紧凑布局_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "4350eeed9e57bd9c9cc5974c29330b97e201a36454008d7e199303153b2a8951",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT07_玄关_收纳走廊_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "f76cbe0a8797fc8c8f67c6500ac5ee3da62b628f5d6de82cad96a29530680273",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT08_书房_工作与收纳_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "ba4bfbf59a329fed2282bab4f23827e04451b6b2311ca9559696a2b2ed801efb",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT09_便利店_货架收银_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "9a53e7e3e57a9030af20c67dcb5eb5d3abb0da5986f62f0e4880533aa68de012",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT10_公共门厅_接待候坐_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "5f6d26e4c70b89c4b6d642b031d257552c62f0e119af8d1b660c4183a268fc50",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT11_楼梯间_连续双跑_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "6a90f72a4f7253b6a5706265c86b22e1aaf23a6f8ac0b8d04803dafc0e96f124",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI室内_INT12_维修车间_作业收纳_20260906.png",
+      "role": "ai-interior-reference",
+      "origin": "this_conversation_builtin_image_gen",
+      "review": "selected_reference",
+      "sha256": "3a5a43a48fc76676c066759d2c768af5dff534110bd192b62084d506c2cd8e7f",
+      "manifest": "建筑参考\\AI室内参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_01_东北红砖_两层坡顶住宅.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "41d9c2889ff4f7823a75a75826cebcf03c419c199c61779693964ec1fb493823",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_02_东北红砖_三层转角住宅.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "755cdeb4877bb55550192c26d1ae15b4273c16ece9844195a01a2a7caf5374d0",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_03_苏式公共建筑_两层礼堂.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "db94c16a61cf118aaa6ba802d5207c3dc8e0c358ed7ea0107f7df78188201eea",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_04_苏式公共建筑_三层图书馆.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "d853c035eae8f6c3479e4c0d68424011d3dbef76175c278fb38b9ce7a5fda0d2",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_05_木构民居_单层板壁小屋.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "c90df1d3a0f7dea1a325393a486be65e535d3be5c047af28e150c91f61899b32",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_06_木构民居_两层带门廊住宅.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "1ce1a814612972e2e8731e879889cbce1e139e29da6d8327d51143e04e65d681",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_08_工业建筑_两层砖墙车间.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "67df9396538f25d42c056ad045668a5a8c6a887a39ee9dfed746cae40858088a",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_09_沿街商楼_两层转角商铺.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "f521c48e56fa74285d172b8bdd0094bf2589de0e22c09f121fcd9d2614542ab5",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_10_沿街商楼_三层小型办公楼.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "7c249828beb7a12042838998694b479870fcaa4fedf875e650c8f7a2978a79cd",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_11_装饰艺术_三层小型影院.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "e9c07a149fe84b468d6a6018accbbc4abf3e4ccdbcd81c7d945b4aeccadc86f7",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "建筑参考\\AI建筑参考_20260906_12_装饰艺术_退台转角公寓.png",
+      "role": "ai-exterior-reference",
+      "origin": "separate_exterior_generation_batch",
+      "review": "managed_by_exterior_manifest",
+      "sha256": "d0119c89dc073a16d559ddd514d24a74996a6855e2959358f3f2567e42e678cb",
+      "manifest": "建筑参考\\AI建筑参考_20260906_提示词与清单.json"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-algorithm-before.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "before",
+      "referenceIds": [
+        "INT-01",
+        "INT-03",
+        "INT-05",
+        "INT-06",
+        "INT-08",
+        "INT-09"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "697bcc76b77a98d61f7f6d6f5a1ead42ad53a0ae53e98482e2f7e98be52f7d7b"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-algorithm-after.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "after",
+      "referenceIds": [
+        "INT-01",
+        "INT-03",
+        "INT-05",
+        "INT-06",
+        "INT-08",
+        "INT-09"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "e6bcfcc3b3ccd8a67b684951a8df70c9badc60ba26e3d0dc5b103beb30cf2059"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-detail-INT-01.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round2-detail",
+      "referenceIds": [
+        "INT-01"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "4e949afc9bd620a9fbfcb1a38c62f4ca7f3d63a74cb000ac47fada4edfb285df",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-detail-INT-03.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round2-detail",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "58b486245d78c5d1940249a76c6f77361437d4797ed2668a3793b1be03c4c0cd",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-detail-INT-05.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round2-detail",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "fc176c5197760ec38557d452325fa17451331812537c9f3192605276d2f7b11a",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-detail-INT-06.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round2-detail",
+      "referenceIds": [
+        "INT-06"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "e725d04741095ca7e0bdb233c0910f496edf33b8958d56a10f41bfa5c037b75f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-detail-INT-08.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round2-detail",
+      "referenceIds": [
+        "INT-08"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "281ca8e511af42920d610d058d5e9a591df19f50d9d2a86b697cab5a40bd780b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-detail-INT-09.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round2-detail",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "024fdb3c9dd273bc1a37557c6bed77c51f3120185651ff3c2f00f2d0b6bc3c6b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-before-detail-0-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "ee0153c71a0a8cc4ee7560a55c879f9d4190f2c8e640031c5154ffd2caea6c6a",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-after-detail-0-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "d82c347ca5480990749c4c77f354ec3d85c8c1f680404753d4eed109f8c91086",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-before-detail-1-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "4fb5211d8887318b11b3a8e830b22cea275b474f765dcfd30a617e537bdb76db",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-after-detail-1-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "d8d326be011d0f27563491f18e2b89679d03159c5711f1089e0032c38d5cb15b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-before-detail-2-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-before",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "aa32933ec29ef252faa6f1ffb938014e9e209cf634aded29712899e7acc65973",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-after-detail-2-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "be6e802b3d1281f55a409ac8bc8caec16f6f84f8386d0240bb977a24d8556c31",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-before-detail-3-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-before",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "2e126c062623597404998551efc4d051e8f471a00a53922ded9764a98d77ddec",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-after-detail-3-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "a4fe534d0b997673d4f27c440331e1f3bf7abf527689da8f537349d76b4fed59",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-before-detail-4-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-before",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "d0875016f57c133bf0f8aa42e2ad068729b435cb70a15cb86e0c71fa51301b67",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-after-detail-4-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "bf4afd705b16486c65e0ae33d9db8065668658b95ff9882080ca5f46ad05328f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-before-detail-5-INT-07.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-before",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "7ca21f87d0bdcc25812b4534027407973e42abe6dd68ec500245014aa39c8c87",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-after-detail-5-INT-07.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round3-after",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "333e6be889ecff378a869d33d0857cef1fe07b008fe59ad48ef86f86abf2c4b4",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\whole-interior-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "40e045a27363dc57ad3744c942724b7e442387ee931587a867b3cd15a7993d71",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\whole-interior-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "5437d2b9e75c3a725caed529d5fcf189de3f3e5905fe1a8eea87a012dde78322",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\whole-interior-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "b1c88f09996e3ed1b1557ae18f06a750f85bd44a0f9b5e47a0301b4507db321c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\whole-interior-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "3c989b485daeef2ce16eb7334da55853b8de83af73760b8eb1c0ca784a14f083",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\whole-interior-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "0b9cb9b4a1c2ce68495b00668991496cf2b0595966020df5a771d6da61457b8f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\whole-interior-entry-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "55361055a73ea1f2e17f04216c99d57384fd00cd1ab775175192e17c0566bee7",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round4-whole-interior-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "40e045a27363dc57ad3744c942724b7e442387ee931587a867b3cd15a7993d71",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round4-whole-interior-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "5437d2b9e75c3a725caed529d5fcf189de3f3e5905fe1a8eea87a012dde78322",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round4-whole-interior-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "b1c88f09996e3ed1b1557ae18f06a750f85bd44a0f9b5e47a0301b4507db321c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round4-whole-interior-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "3c989b485daeef2ce16eb7334da55853b8de83af73760b8eb1c0ca784a14f083",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round4-whole-interior-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "0b9cb9b4a1c2ce68495b00668991496cf2b0595966020df5a771d6da61457b8f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round4-whole-interior-entry-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round4",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "55361055a73ea1f2e17f04216c99d57384fd00cd1ab775175192e17c0566bee7",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round5-whole-interior-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round5",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "76881cb12e2ce62f1d9e47183ce741ddda65917c38ea75a58aab30cec9f74fae",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round5-whole-interior-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round5",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "fdcb9483769e4a8b5d4941a06f54324cc8c456a00bc67185ac687570082f487d",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round5-whole-interior-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round5",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "f9d5d7bb934b7f9e7749fc0082259cf8379faaddaa950750d32c330bbb360c4c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round5-whole-interior-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round5",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "5e96b3e7184adcb8c5bcd1b24a5dc4a6d341d2d1681605a23608bb7dcca305b2",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round5-whole-interior-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round5",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "9ae6cc2b33ad4337cef227e885e85e3940bdf59b00e33d4535a3653bdb9585ff",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round5-whole-interior-entry-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round5",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "6e46003e8d3a991ac8a21673e7688e5c2492c60eae3cb1afd4d80184e719094c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round6-whole-interior-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round6",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "23fdacbf5a9d2cf0f14a539b9d4172fa9485fb1f5948b9f48f8524b3b504d1c0",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round6-whole-interior-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round6",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "c722fb775eb31d5c2e63e557004349ffc3b3f1add8d4c308bc26a944e4b5b361",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round7-whole-interior-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round7",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "10cf98cf9e14055c62a3710c06e7d756344eabbf5c6c4db0bb38800dc9111249",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round7-whole-interior-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_whole_building_generator_and_shared_renderer",
+      "phase": "round7",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "5a7bc46b328e17cb76969ff5fa2783c05e083ef31b4fbcf983ca47085890d1e9",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-before-detail-0-INT-01.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-01"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-before --details",
+      "sha256": "f7a322ca6f01f2d67eff0d3e54865a021eb52918ea61a001bf90d2ae29aa251c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-after-detail-0-INT-01.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-01"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-after --details",
+      "sha256": "30b1d00117ab51951e6dd520f356acd38ba6e1495b042e4faf12522719d4de55",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-before-detail-1-INT-03.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-before --details",
+      "sha256": "77edbdf352204ab2f6871c933553aeac92d0eaf355079a28af5a6473c8060ca5",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-after-detail-1-INT-03.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-after --details",
+      "sha256": "d62ab6d64197cad6086c0d50bf8a716bd93d88b2882f9004e9474413a7963fc7",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-before-detail-2-INT-05.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-before --details",
+      "sha256": "63eb235913da3f592ce6dbdb7024c36ac3cefefadc49b9ed120529894f01fb9f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-after-detail-2-INT-05.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-after --details",
+      "sha256": "442c2024cc845ecb5b77a947f38b1dbb57a31f456bce4cea1e9287db8bb32339",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-before-detail-3-INT-06.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-06"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-before --details",
+      "sha256": "669ab682753688eee0d49d86cffed87a41bdb9083a507a8002a19f002f83d410",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-after-detail-3-INT-06.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-06"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-after --details",
+      "sha256": "1825b42fb46ea2872603dd236ccb42c23de30bbd5e9d75dc979291a521dddf06",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-before-detail-4-INT-08.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-08"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-before --details",
+      "sha256": "7c3f1060f790f78c8c5999ac5656b2f49134ff5aa2df5e8b3cee03d6255c5473",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-after-detail-4-INT-08.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-08"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-after --details",
+      "sha256": "c495af65ea81343521aa43b7eaed89780f13e7eee8f1d6a11ae37c9b96b6b136",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-before-detail-5-INT-09.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-before --details",
+      "sha256": "3db803c74450686c02fa0517de08a93952491cffe3258d03e4bc96512d84afaa",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r8-after-detail-5-INT-09.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --capture=r8-after --details",
+      "sha256": "a74918c104ca9d8db0cba08c8ef27a42c2adbae1a59537d7703f395edf2a2e74",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-before-detail-0-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-before --details",
+      "sha256": "bec2b804551bbc4190d811089d44a5fe8c066c8b740dd37d64577c1c0940cc80",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-after-detail-0-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-after --details",
+      "sha256": "d3cd6fff856cc2e232521dcbb48cea5a6da7ec1e0d615af2e4496db98180801b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-before-detail-1-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-before --details",
+      "sha256": "9dca461d68c9d5d361e4a955a38a5cbeb057322a2c3f7372c681cea93ace4c8c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-after-detail-1-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-after --details",
+      "sha256": "fb8683cff6cee0984922e73e048084cd74c5fc781cda76de9cd679a5af4eeb8e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-before-detail-2-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-before --details",
+      "sha256": "eeb4e3c5c2896d6745a217ff749fae75f9ddd591fbd9c693506e24f744f901d9",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-after-detail-2-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-after --details",
+      "sha256": "322eb152d4c5fcb05f61e248241554448f00ff35bf825a3901e630ac6147a706",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-before-detail-3-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-before --details",
+      "sha256": "f6750cd4e94e652e2434daab4fac75fa7563af754f4d4077cb04de1be82575ee",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-after-detail-3-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-after --details",
+      "sha256": "ba16173cffea7b0036b3779f039ce616b133a62b59205a866e42065cb32a7572",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-before-detail-4-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-before --details",
+      "sha256": "8e26dc28d592ed24817e1103ca5546286de6c941a0e6bd466becdc86b5a52136",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-after-detail-4-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-after --details",
+      "sha256": "9f29562eedc7362b006c4f4ee5c6b2aa6468b16c502bcb76680968b71d7c3bd8",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-before-detail-5-INT-07.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-before",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-before --details",
+      "sha256": "59ab4cf35af6d1d6ae742b156ab684fb8963fcfbcb1f60b772f68a98965a6aa7",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r8-after-detail-5-INT-07.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_furniture_generator_and_shared_renderer",
+      "phase": "round8-after",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --capture=r8-after --details",
+      "sha256": "27007d89269cedc6f4023e1e94f367a8a215539bd5fd7082965437dcbd984763",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r9-before-detail-1-INT-03.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9-before",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "af56da40f72c9a50f7f80820314d8a3d8028e6611713018ff11d9cb0129605d1",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r9-after-detail-1-INT-03.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9-after",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "dcdd9eaf3f8acb93e1f61f637fcd84b55e395442c16834f56b131174a013b1fe",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r9-before-detail-4-INT-08.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9-before",
+      "referenceIds": [
+        "INT-08"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "f73d07cff732dec3db404886b3ff1e01acb24c99b8bb7b805776e784aa203f4b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r9-after-detail-4-INT-08.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9-after",
+      "referenceIds": [
+        "INT-08"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "e6b040a0ca9ad0ed0db4f7e77115a0109e68fe2c8ffc795cfb6f396244404196",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round9-whole-interior-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "7f03fd303d85cea238a1ec43f029fcf4d9d3116a604240a7119f7c57b6bf93eb",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round9-whole-interior-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "f74e7c38bf72e122df720ffbf0cdcfcc49d721fa43d147294a3dece700902a94",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round9-whole-interior-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "c37b16471992a9915127f8ac6460bd9cf9416c26581dc0ae2da84951d5d6a483",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round9-whole-interior-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "1f1f8b111c606b93259a35ae346331766adac9114834eaf58d10c92cb5e1254e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round9-whole-interior-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "ee2d0438cf502b15b9a9de2c1c9f7f3add140730cc556d368b9ead3983cf4fb3",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round9-whole-interior-entry-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round9",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/whole-interior-review.cjs",
+      "sha256": "86aa77a7f9cf9d9eb588ee22c45cf96465069cff4be1c48fa625456c46d4b58c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r10-before-detail-1-INT-03.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round10-before",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "fixed-room",
+      "sha256": "5c5c1f415f6bfcef4ebf8637fa4b9899d37a300add8cdebed794d71f6ccffbeb",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r10-after-detail-1-INT-03.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round10-after",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "fixed-room",
+      "sha256": "75ad3b873cf8068b69917f09d6e07c9d74d5ed0cab83e8e78e51fbedf0365c47",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\furniture-r10-before-bed-closeup.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round10-before",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "stored-parts-inspection",
+      "sha256": "2e46a6e2adbdd45c176197a24b19f9beb42e1a46c6774a9819d8ee5eed9fe594",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\furniture-r10-after-bed-closeup.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round10-after",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "stored-parts-inspection",
+      "sha256": "77e327b9aacb49ef514e647bdd661533cef7c5612929ac332fe642eeff50344c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round10-whole-interior-upper-bedroom.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round10",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "whole-building",
+      "sha256": "ebbbaec71829e64b216f6382a5a4ab9133d3c355c29bf7e845ab5f6f14f8e1c5",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-before-detail-0-INT-01.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-before",
+      "referenceIds": [
+        "INT-01"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "56b6a367d0b807b9f0e8e9b5db64f16c19589ffd35181c975cde3ee42d8a5c41",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-after-detail-0-INT-01.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-after",
+      "referenceIds": [
+        "INT-01"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "391f21379e991c94a59109fe397bb8fd33dcd8aec9dbe02ee26e98a3dfb4f7a7",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-before-detail-1-INT-03.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-before",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "2e2fb75ecbcb52c381d54be9ea5820806cf356a0e09cc64f628821c4b8234be6",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-after-detail-1-INT-03.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-after",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "c7f403ee1d4ea1f1a1367278e25e24c9201a5a0bac0f9ea8f7d46ef6e7cf755b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-before-detail-2-INT-05.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-before",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "cecb5c05051f9f00eb5a97a8531a05072845b62bec8460f425af1b65f88b971d",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-after-detail-2-INT-05.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-after",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "f1ee1d0338baf13dda7afdde4f81e790ea1e5c362434415e77cf45e9b052ae6b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-before-detail-3-INT-06.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-before",
+      "referenceIds": [
+        "INT-06"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "a0d56547ca9aa4628f0f73e3d92a919bbecda8121e43cc70a074be8f67f01a39",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-after-detail-3-INT-06.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-after",
+      "referenceIds": [
+        "INT-06"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "1c87679bb8b9047d2eea7325af6f407692b5a10119e2944f6cebb231a56e2db4",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-before-detail-4-INT-08.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-before",
+      "referenceIds": [
+        "INT-08"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "7e616b3a8df0e6f7b3744ac4c1d3a912ff3848c202186268a8d7dda1ae5afd1f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-after-detail-4-INT-08.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-after",
+      "referenceIds": [
+        "INT-08"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "9d55c8130657e7173f67785db51687d7979dbb46fa9a1973c5b550eeb05905ea",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-before-detail-5-INT-09.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "168eec64f4852cafed1ce410e5eadf81f1c32956cd773dddcf4696ab36a96372",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r11-after-detail-5-INT-09.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "49cef2ce8401a9cf248c265b3094c7b3053fbd588b9a1739ff9f4ec5305ed5c1",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round11-whole-interior-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "ea028056d6d8ad28850700de3a631f01b518cf5b6ba6cd13b9619bdbe5b92075",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round11-whole-interior-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "d2c9ee7f6e4f837f6b2a532349c8a7769990833679d957abb34c8f865b45b350",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round11-whole-interior-upper-bedroom.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round11",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "da0643786eaa5185429cdc96337d84daf742717526d2d3c21c6f1ecb17538d6a",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round12-before-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round12-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "1d8f34123904b78ab87c8fbbcaacb239639a1bdac2e8af43baccbd9ef701db8e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round12-after-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round12-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "2fe51c517e13aa45200139d7ea053897ebc3310688ecc04f26e5f5ecaf5e9554",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round12-before-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round12-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "5b1d6e6ad4003705affbe08817a44776af0560e40d132dd5a6b9206db5981f41",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round12-after-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round12-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "65cb847c7179c6d3d04f14643022ad75db7de61721d1b1d33ad3015c4c9d9e23",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round12-after-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round12-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "ada3e0532bacfaa7a410d6499eac893dceef9a3540dc65ac98b6926c357b6e76",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round13-before-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round13-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "2fe51c517e13aa45200139d7ea053897ebc3310688ecc04f26e5f5ecaf5e9554",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round13-after-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round13-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "a56be0ddcc13976f04ff9e6cebf67f7ba9d8f2cf96eb96d76a7da633ec640336",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round13-before-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round13-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "65cb847c7179c6d3d04f14643022ad75db7de61721d1b1d33ad3015c4c9d9e23",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round13-after-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round13-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "616c09c03c2e452b72dcc439e4e19776d659316aec00e5d8914fcec2e408d389",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round13-before-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round13-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "ada3e0532bacfaa7a410d6499eac893dceef9a3540dc65ac98b6926c357b6e76",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round13-after-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round13-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "51c626fd9a6734ecf70413e1a4436e0e170441fc935938c7bd98b8812579a893",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round14-before-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round14-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "a56be0ddcc13976f04ff9e6cebf67f7ba9d8f2cf96eb96d76a7da633ec640336",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round14-after-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round14-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "7a6c5d4eac206583d427bc5477f414298387dbe30cb08a57b751624360fa98f2",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round14-before-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round14-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "616c09c03c2e452b72dcc439e4e19776d659316aec00e5d8914fcec2e408d389",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round14-after-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round14-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "d54ced432bb9ab27cac1b58efa70886975b13540cb1d84125a757d55742ca540",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round14-before-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round14-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "51c626fd9a6734ecf70413e1a4436e0e170441fc935938c7bd98b8812579a893",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round14-after-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round14-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "4663f59a1600ecd2dee393f22633e9d1eb5af8763d63d0e354d79f15f7577b4a",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round15-before-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round15-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "7a6c5d4eac206583d427bc5477f414298387dbe30cb08a57b751624360fa98f2",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round15-after-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round15-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "9000eb30115a530f478dcb8a1be9d511c4f71ce6be492a95e2ff9320949e3289",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round15-before-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round15-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "d54ced432bb9ab27cac1b58efa70886975b13540cb1d84125a757d55742ca540",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round15-after-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round15-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "122b8a706c13375c8129f9499340078b5a1a8d5bc3520fcae07259a9b72d8a45",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round15-before-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round15-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "4663f59a1600ecd2dee393f22633e9d1eb5af8763d63d0e354d79f15f7577b4a",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round15-after-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round15-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "e4c5600ce50d491adc6bdf773f94821c99bc6faff21a71b5c59e2859398e661c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round16-before-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round16-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "9000eb30115a530f478dcb8a1be9d511c4f71ce6be492a95e2ff9320949e3289",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round16-after-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round16-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "1914aa366650a92c95088d023b2654b7a83d1aa39c5012b1a04f3fdf7780de47",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round16-before-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round16-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "122b8a706c13375c8129f9499340078b5a1a8d5bc3520fcae07259a9b72d8a45",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round16-after-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round16-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "721ecb34547a0bd0309500e97f7ad50dc75bbcf94c4dc2d071a37806bdba760e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round16-before-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round16-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "e4c5600ce50d491adc6bdf773f94821c99bc6faff21a71b5c59e2859398e661c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round16-after-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round16-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "94f9695db311a0b9cc506a12ed45f8f79a211804f6f95b3a1ba0f9927c736daa",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round16-after-stair-straight.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round16-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "bf637ce4e92880ff6ff2fa9ae2524870b3db184d1a5c4dcd6091f15c70cdcd83",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round16-after-stair-lturn.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round16-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "29160a563df5975f4a05f01ada845d0c75c335f0cc26d0721e75a5b803eded66",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round16-after-stair-uturn.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round16-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "4d60a9dcd375ec6ce7b08aca37e085b26d11b98b0b264aeeb814d32bef3e83ba",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-before-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "1914aa366650a92c95088d023b2654b7a83d1aa39c5012b1a04f3fdf7780de47",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-after-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "a54df2197bc589dcc868d3c8dc66d4551cc0077727ec185badadce85a7adc1a7",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-before-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "721ecb34547a0bd0309500e97f7ad50dc75bbcf94c4dc2d071a37806bdba760e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-after-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "c0a9e14261db89482c18df8417932c2b8d1cdaf8c721b68a58f22d38fa030b17",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-before-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-before",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "94f9695db311a0b9cc506a12ed45f8f79a211804f6f95b3a1ba0f9927c736daa",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-after-stair-opening.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-after",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "3eb775bf14f4b613ae419bb4d96dac41603743128e8552ab09e89565193cbce3",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-before-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "9a7d3acb0128d5c688b83a8e511998394bb2d725a18e8b4824bc37500e66aff6",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-after-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "cd86fd3d38f5a7faed3b04e376a7ce69625f1801bcc164e8214ae45c6dcb1425",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-before-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "39ae2fe2c1e07cca126fbdc991198d21d274a41f9c7caf50f4c95a24717f7b97",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-after-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "48f82352274673dca4e18a665f7f2da0fa35f0d0dada6b44f1cb90461bba7f9f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-before-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-before",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "bdae43e5e20075c7c8a93505d918858171969fbddaec23f73ebd0ef286ba5bca",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round17-after-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round17-after",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --stair-opening",
+      "sha256": "4fe2217e3f76eb760fef3016845f6dff3256f2b3049a5ad9183d0ed33bf5416a",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round18-before-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round18-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "06d080fd6d525746d689d81cc7f32e7ca082d4b96fa8497a3bb1cae340b8f2d4",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round18-after-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round18-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "3badc14abde1ebb9571af6f2bf27855c9d1b543ecf1890b76ac0311c6b4a0b9c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round18-before-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round18-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "475ea00e41b0c5899f2b5579a380fa405647f3f1893f61256b3c406e0d4a09ca",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round18-after-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round18-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "4ab3cf9353304a110d042ba6fadd543f6c53d89a64b5692ecaad26cd269811e4",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round18-before-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round18-before",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "2001a9152d73d070667306664dde996a277292c7efc5a588ecbeeb1c9d6ebbc3",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round18-after-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round18-after",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "05d992e4aeccb5caac9ea3e0fec34b3215c5702a9443594f27b7a509af753d89",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round18-before-upper-bedroom.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round18-before",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "c67381999b692fe559a7a792f6edf500367f36076b6e57ece8112caa9376406f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round18-after-upper-bedroom.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round18-after",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "92025068fa23e4cf579c05590fc2e799184e28a3ad8bb6fce4c7c4eb7399d9f5",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round19-before-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round19-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "3badc14abde1ebb9571af6f2bf27855c9d1b543ecf1890b76ac0311c6b4a0b9c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round19-after-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round19-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "deb2bd4dd6f560d75c207cebaec4b5a5b7e651b8dff689d1faa52e1c860bd191",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round19-before-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round19-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "4ab3cf9353304a110d042ba6fadd543f6c53d89a64b5692ecaad26cd269811e4",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round19-after-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round19-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "8b641afbf480cc0a922116480c448253f65c5d7087b1d2e57f8812161353e27f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round19-before-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round19-before",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "05d992e4aeccb5caac9ea3e0fec34b3215c5702a9443594f27b7a509af753d89",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round19-after-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round19-after",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "e55673b4d2fa269820013bb0b6453e807ea910e4824512cb998abbac4307bb89",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round19-before-upper-bedroom.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round19-before",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "92025068fa23e4cf579c05590fc2e799184e28a3ad8bb6fce4c7c4eb7399d9f5",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round19-after-upper-bedroom.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round19-after",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --bedroom",
+      "sha256": "5cdbefea9db5d9b061cfe16e8f314bf3615458b7ca896a8fec2e5bd896839834",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r20-before-detail-2-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-before",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "5c0ef39e83f8c1d06e62edc3fb85e1857372ed56b6946562644b8fa0ec2a0b1f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r20-after-detail-2-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "2f7bcf73f168eb7d65137aa9e50f3a0a8dd1133912b9650ade0e6a659dfd26fc",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r20-before-detail-3-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-before",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "7ee7f5412043678f52e805daeccdd50b23c1ed62a0b6db6e80f4b7886e2b8a8e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r20-after-detail-3-INT-12.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/interior-reference-review.cjs --programs --details",
+      "sha256": "7f1118255a356a3060a55d049a9e08fb440da6c2873923b8d41b8fc33e926a11",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\workshop-r20-before-details.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-before",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/workshop-detail-review.cjs",
+      "sha256": "1c74abdb36a7cf12346add687d3281722ea9f6254b1d10b56081080dd52c7cdf",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\workshop-r20-after-details.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/workshop-detail-review.cjs",
+      "sha256": "183439588d4bd80e9f2603ec94e58a024479a38e17490c279e5ef0c3634194d4",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round20-after-whole-workshop.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --workshop",
+      "sha256": "a4c1bf3309b466ed21db08112a3ad23f89cefc78c9da59590dd83d76a2371957",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round20-after-workshop-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-after",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --workshop",
+      "sha256": "c988c317b562b13d57d316ccf1981c7eae563cd3abe3dfdfd28459bbdcbec886",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-r20-before-detail-5-INT-09.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-baseline",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "dac948d9341abfc3d25bf66e0814f319ebb5e2ce8ab70495716c9fbb4b83e9b4",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r20-before-detail-0-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-baseline",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "f89b2bc1aaa2124c7dcd1a813e4ca78baae2dbb0c5840fe921e6f86390bc5ae0",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\interior-programs-r20-before-detail-1-INT-10.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round20-baseline",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/interior-reference-review.cjs",
+      "sha256": "1a61da258a23c74ac886206ed05eed8d86a74a289799d2bcc60668b9ca706b50",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round21-before-fixed-shop.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round21-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "fixed room / real furniture generator",
+      "sha256": "dac948d9341abfc3d25bf66e0814f319ebb5e2ce8ab70495716c9fbb4b83e9b4",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round21-after-fixed-shop.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round21-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "fixed room / real furniture generator",
+      "sha256": "473bfc61f28f3a6b6e1117f0561eba7f2f3f0538f2ffcee2048ebb786b971c27",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\retail-r21-before-details.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round21-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "stored generated model parts, centered and rotated for inspection",
+      "sha256": "d3c47318797ff5b45b22b078e64d496da3948c9430beb41f794af23e985c34fa",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\retail-r21-after-details.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round21-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "stored generated model parts, centered and rotated for inspection",
+      "sha256": "4019f9cc5899fbb3d67415f2b8bd2c2047ffd170fbc9a3f13121241fad1b739b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round21-before-whole-shop.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round21-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "whole building generator, shop-reference-09",
+      "sha256": "6c3a2667cdf571e41eb4b422849504b08a2cbed75d4852b9762d3a0259764dab",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round21-after-whole-shop.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round21-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "whole building generator, shop-reference-09",
+      "sha256": "788e632160f5b867f5aa15924d63061df1954126b385b69783a4132a7ebf4b06",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round21-before-shop-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round21-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "whole building generator, room F1_R4",
+      "sha256": "9cad60fa50d4c2e4c60d058cd2a411a878141664a909f76e28f8978442ffe397",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round21-after-shop-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round21-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "whole building generator, room F1_R4",
+      "sha256": "8765eb0b05d0b0595590b651c185fe5f9b8662f366ee0d867f47b7194393c0de",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round22-before-reception.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round22-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "fixed room / real furniture generator",
+      "sha256": "f89b2bc1aaa2124c7dcd1a813e4ca78baae2dbb0c5840fe921e6f86390bc5ae0",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round22-after-reception.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round22-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "fixed room / real furniture generator",
+      "sha256": "93f46f0ca1a8ff23a75d7cc11ea18768deb3d4deffc2b666e238c4c428b14e41",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round22-before-lobby.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round22-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "fixed room / real furniture generator",
+      "sha256": "1a61da258a23c74ac886206ed05eed8d86a74a289799d2bcc60668b9ca706b50",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round22-after-lobby.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round22-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "fixed room / real furniture generator",
+      "sha256": "11c2743e93c1fd72e346c4939830e7e847dcf80faf4dfa650c943edf05fe0b80",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round22-before-whole-civic.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round22-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / civic-reference-10",
+      "sha256": "9ac216763146f6f8e205d697ef03caafc095d0c500115f05cca2cfecb00b6367",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round22-after-whole-civic.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round22-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / civic-reference-10",
+      "sha256": "366bfa53b392cd70e1e7d723f10a6959d8eebe666f5ba960c2ac288bddb6c7ef",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round22-before-civic-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round22-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / F1_R2",
+      "sha256": "a8f770b0eae15df315a432d04744f546d9e8ca7de296d708302544ffb859e328",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round22-after-civic-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round22-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / F1_R2",
+      "sha256": "139efc29a2774280311a85aa45e4b3e6a61dc1dba42bfbe72f77ea7e8b2518b5",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round23-before-whole-civic.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round23-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / civic-reference-10",
+      "sha256": "366bfa53b392cd70e1e7d723f10a6959d8eebe666f5ba960c2ac288bddb6c7ef",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round23-after-whole-civic.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round23-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / civic-reference-10",
+      "sha256": "8eebc1bd996c595ec6678c88e073a4295ec67d8d2e7dde4eea8ad44f3d28e4f8",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round23-before-civic-lobby.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round23-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / civic-reference-10",
+      "sha256": "2ca08cab94c9e908f197c03127276338cc9705830a982f6597f0005c3e8d0214",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round23-after-civic-lobby.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round23-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / civic-reference-10",
+      "sha256": "55b34c32427e55e317d39bea52a17e9ba36286d76013c46f7825ec51208a7f93",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round23-before-civic-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round23-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / civic-reference-10",
+      "sha256": "139efc29a2774280311a85aa45e4b3e6a61dc1dba42bfbe72f77ea7e8b2518b5",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round23-after-civic-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round23-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building / civic-reference-10",
+      "sha256": "d55fa8df86b36636d35ed96a8e37c8746d1216171a5e902b15d8fcca0cee8353",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round24-before-whole-civic.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round24-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building generator",
+      "sha256": "8eebc1bd996c595ec6678c88e073a4295ec67d8d2e7dde4eea8ad44f3d28e4f8",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round24-after-whole-civic.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round24-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building generator",
+      "sha256": "4e382e806a919becf6d591f81a55fd136f2e6f83a1588bf045fb679f01fed6db",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round24-before-civic-lobby.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round24-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building generator",
+      "sha256": "55b34c32427e55e317d39bea52a17e9ba36286d76013c46f7825ec51208a7f93",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round24-after-civic-lobby.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round24-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole building generator",
+      "sha256": "064e41f94f1bd9b0c65f373c1173663b37ef861142bd944b9b495093478adfbb",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round24-before-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round24-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "whole building generator",
+      "sha256": "7f0eb1a707a71a03430b26912a3e43d5ca967c0b715a4067a937241c199a492d",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round24-after-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round24-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "whole building generator",
+      "sha256": "c675dfb044c5776e8ca880eb110f6b428bfeccd456946851053c15220d2cb309",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round25-before-whole-civic.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round25-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --civic --notice",
+      "sha256": "4e382e806a919becf6d591f81a55fd136f2e6f83a1588bf045fb679f01fed6db",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round25-after-whole-civic.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round25-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --civic --notice",
+      "sha256": "e62e65c969f8671b71436aab98f115f309da470747e129c92fc16e8a5c261c01",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round25-before-civic-lobby.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round25-before",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --civic --notice",
+      "sha256": "064e41f94f1bd9b0c65f373c1173663b37ef861142bd944b9b495093478adfbb",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round25-after-civic-lobby.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round25-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --civic --notice",
+      "sha256": "006ec7b2c2c557c14d72a4b221ebdf644557965f8187758cb49408578d5b2aaa",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round25-after-civic-notice.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round25-after",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --civic --notice",
+      "sha256": "c4a669ae7b3617db4aef78e58377a61bcb0e19f19a7698571bc5fbe378f2c99f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-compact-living.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-01"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "e0ca0b1ceae5aa8918499298ac46c2cd21071b09ee513b4d1b2c0850a1e853ea",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "9c98fccd34f0ae2c7af094314282f3813b311959bb1dd703e8d54c7035149991",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-upper-bedroom.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "669891360a44ae19436e95c2d83f22501733a41cc1d53c22e43f4b05448882a2",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "6e5db857eba1857c1752c3950b5745ef2a5ddb53d25f38922ebfe5f28796fecb",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-kitchen-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "4a02edf4e41c072d592e0d8dc54945739d51c980ea41d536f9bd44f85fa8fa81",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-bathroom-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-06"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "d800b58bcf167bfe02b6aaa7bb19e95c46fd26bd5f73ebe3955f01bbe0d3dd6e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-entry-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "703cd12eb7042b4534b5f277e9fc6d2614b2f4232e7e63898ff5170d410a0a5f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-study-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-08"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "f37472ff075bdb5e389d3ef8e0013ed1db6a73e0debfafbe3d4da39a3cb3c55b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-shop-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "2c9469c83ceab9996bf560ff4c2afad41e8d1192291c5bd82c49e9bfbbe83425",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-civic-lobby.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-10"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "d9bbdd6376051fa9a4851e46e23a8e5b10be1fae6b9e98ebc47b98350b9bd06e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-stair-core.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-11"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "aa82b3f04696b07c9fcc22583e87cce79dcc6ba2efc2851b1439645bd0b01053",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round26-current-workshop-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round26-current",
+      "referenceIds": [
+        "INT-12"
+      ],
+      "fixture": "whole-interior-review.cjs --bedroom --all-rooms --retail --workshop --civic --stair-opening",
+      "sha256": "08dc660f6fe803de3b937d3e41621e140a73ee2167d4734390c929ada7e5792f",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round27-before-kitchen-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round27-before",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "4a02edf4e41c072d592e0d8dc54945739d51c980ea41d536f9bd44f85fa8fa81",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round27-after-kitchen-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round27-after",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "ae8bf262b5b69546ffe2714448636d513a52220c84570ef78d8ed86ca1ae9392",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round27-before-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round27-before",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "9c98fccd34f0ae2c7af094314282f3813b311959bb1dd703e8d54c7035149991",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round27-after-living-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round27-after",
+      "referenceIds": [
+        "INT-02"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "43ad5af47d5e83fb8d4a330cae8fc54e11fb4924bccd81f5946746d93c6f6fbc",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round27-before-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round27-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "64af6ca65baf52bd4d7d9b3e29ee2ad0efbb54718a8e23c7b7a4eea57d3938f8",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round27-after-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round27-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "970a158dd1b133fa01b1af37a2881478d8b186876afefba5e864145814ea441b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round28-before-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round28-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "8ac89f19ef20834021dfd669b44795c0da23093952cd9352dab57be1f2d55734",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round28-after-kang-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round28-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "d43e30bb354841e8f2471908b1ef528423f0371e5a183d02763ff9599da940c9",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round28-before-kitchen-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round28-before",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "ae8bf262b5b69546ffe2714448636d513a52220c84570ef78d8ed86ca1ae9392",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round28-after-kitchen-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round28-after",
+      "referenceIds": [
+        "INT-05"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "bc79f77f431c553403512c80d3053a48e78ebe60b483e93167934e80447f0a7e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round28-before-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round28-before",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "970a158dd1b133fa01b1af37a2881478d8b186876afefba5e864145814ea441b",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round28-after-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round28-after",
+      "referenceIds": [
+        "INT-04"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms",
+      "sha256": "f3837d098603dcfb5c0e9a8645133725beb35762b125c59eefb1e2cdc2206973",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round29-before-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round29-before",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms --residential-program",
+      "sha256": "f3837d098603dcfb5c0e9a8645133725beb35762b125c59eefb1e2cdc2206973",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round29-after-whole-home.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round29-after",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms --residential-program",
+      "sha256": "0a25788e597e0d1e4ef7c00f092af53af4fffabdc624051da6ae73f3fca5ffa3",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round29-before-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round29-before",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms --residential-program",
+      "sha256": "fde3bce0e6dc51d42e3a7c047b62a48ff169e6dc509053814afbbe33793058a6",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round29-after-whole-stairs.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round29-after",
+      "referenceIds": [
+        "INT-07"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms --residential-program",
+      "sha256": "ab450fb9cbe8f834401d8e29aa6de87537ed4f88d1775327600ec5118688195d",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round29-after-home-study.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round29-after",
+      "referenceIds": [
+        "INT-08"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms --residential-program",
+      "sha256": "97992b338098810ddadfa8d0a9e4d6d9adaedfc45a159895914aa9913520154e",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round29-after-ground-bedroom.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round29-after",
+      "referenceIds": [
+        "INT-03"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --all-rooms --residential-program",
+      "sha256": "8107166ed4c0825c67ad20584016da9efad6f876a8d1c3e60d49f0f51ffe7709",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round30-before-shop-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round30-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --retail",
+      "sha256": "ef7bfc8ccc805e1a9f364214a9d68062a95a76fc2c854784e0834586d3d80613",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round30-after-shop-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round30-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --retail",
+      "sha256": "24584ecd4f80ac143ecbf6035115ce858598b2a8189e57474980461a14e6fd9c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round30-before-whole-shop.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round30-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --retail",
+      "sha256": "8d0e8db7cae328d72e762929deb13c12bf7043c916537d4dc6ce373a9fadbb1c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round30-after-whole-shop.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round30-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --retail",
+      "sha256": "6e6e0f2c74b7e33813213328c8030ec5f61421f386d4a052686ee471d2443d35",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round31-before-shop-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round31-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --retail --cooler",
+      "sha256": "24584ecd4f80ac143ecbf6035115ce858598b2a8189e57474980461a14e6fd9c",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round31-after-shop-room.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round31-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --retail --cooler",
+      "sha256": "6ff39656d60063bef42d1127ec6e95bc1bbe1bdfb063d550fd867648de2cab4a",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round31-before-whole-shop.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round31-before",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --retail --cooler",
+      "sha256": "6e6e0f2c74b7e33813213328c8030ec5f61421f386d4a052686ee471d2443d35",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round31-after-whole-shop.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round31-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --retail --cooler",
+      "sha256": "10bc906c043ce2af2b58a676bf5e14dcaf390d595dd46ec42036d203068804c3",
+      "review": "pending"
+    },
+    {
+      "path": "Tools\\MapLoom3DWorkbench\\artifacts\\round31-after-shop-cooler.png",
+      "role": "algorithm-interior-output",
+      "origin": "actual_generator_and_shared_renderer",
+      "phase": "round31-after",
+      "referenceIds": [
+        "INT-09"
+      ],
+      "fixture": "tests/whole-interior-review.cjs --retail --cooler",
+      "sha256": "a622f253d9ab64161b2baa8c2c68972601bdf680bac21fc37c25b3b2e4cef220",
+      "review": "pending"
+    }
+  ]
+}

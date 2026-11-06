@@ -1,0 +1,43 @@
+{
+  "schema": "northeast-disco-mj-environment-sample-v2",
+  "project": "东北迪斯科",
+  "purpose": "室内外环境资产方向样图；生成候选，不自动接入游戏",
+  "source_basis": "美术概念/MJ剧情场景40景雪夜_v1_20260917.json 的雪夜、写实、45度正交、16:9、Raw、V8.1、Relax 方向",
+  "name": "雪夜供热站：外院与炉房同屏",
+  "asset_scope": [
+    "室外院墙与入口",
+    "室内炉房",
+    "跨门槛动线",
+    "工业材质与道具"
+  ],
+  "prompt": "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points, no perspective foreshortening; identical objects retain the same scale near and far. Atmospheric photorealistic 3D environment with Unreal Engine 5 visual quality, realistic materials, physically based shading and cinematic winter lighting. An old municipal heating station in a Northeast Chinese industrial town at snowy winter night. A single continuous playable space: the foreground outdoor service yard has compacted snow, tire tracks, a low brick boundary wall, a coal delivery bay, stacked coal sacks and exposed insulated heating pipes; a wide open metal doorway leads directly into a roof-cutaway boiler room with two heavy cast-iron boilers, valves, pressure gauges, a workbench and a narrow maintenance aisle. Show the complete threshold, wall thickness, interior floor and exterior paving in one coherent building, with clear walking routes around the equipment and out through the yard gate. Warm furnace light spills through the doorway onto cold blue-gray snow; a few dim overhead industrial lamps illuminate the interior. Frost on brick, soot on iron, damp concrete, worn paint, realistic snow crystals, soft contact shadows and restrained volumetric steam. No people. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, extra people",
+  "status": "accepted",
+  "human_approved": false,
+  "style_reference_source": "美术概念/MJ_用户指定三张极乐迪斯科_风格引用索引.json",
+  "preflight": {
+    "ready": true,
+    "empty": true,
+    "folder": true,
+    "images": 0,
+    "personalization": "false",
+    "visibility": "hidden"
+  },
+  "submitted_at": "2026-10-18T05:16:49.398988+00:00",
+  "job_id": "06cb093a-2ef0-4abb-a77f-68c5af6125ab",
+  "result_url": "https://www.midjourney.com/jobs/06cb093a-2ef0-4abb-a77f-68c5af6125ab?index=0",
+  "last_status": {
+    "job_id": "06cb093a-2ef0-4abb-a77f-68c5af6125ab",
+    "link_count": 0,
+    "links": [],
+    "text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight mode\nzhangrenbo\nStrict orthographic projection, 45 degree top down diagonal camera. Parallel edges remain parallel, no vanishing points, no perspective foreshortening. Unreal Engine 5 photorealistic 3D, cinematic lighting, physically based materials. Older East Hill cemetery section adjoining a newer grave area. Un",
+    "images": [],
+    "visibility": "visible",
+    "detail": {
+      "url": "https://www.midjourney.com/jobs/06cb093a-2ef0-4abb-a77f-68c5af6125ab?index=0",
+      "visibility": "hidden",
+      "text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight mode\nzhangrenbo\nP\nDraft Mode\nExplore at draft quality and refine with variations.",
+      "images": []
+    }
+  },
+  "status_checked_at": "2026-10-18T05:24:27.289468+00:00"
+}

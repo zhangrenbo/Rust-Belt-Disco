@@ -1,0 +1,152 @@
+{
+  "metrics": [
+    {
+      "text": "环境设置",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(150, 47, 39)",
+      "blend": "multiply",
+      "rect": {
+        "x": 329.39959716796875,
+        "y": 128.3157958984375,
+        "width": 147.5133056640625,
+        "height": 43.993408203125
+      }
+    },
+    {
+      "text": "窗口模式DISPLAY",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(150, 47, 39)",
+      "blend": "multiply",
+      "rect": {
+        "x": 329.75,
+        "y": 192.328125,
+        "width": 123.828125,
+        "height": 41.875
+      }
+    },
+    {
+      "text": "画面效果GRAPHICS",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(150, 47, 39)",
+      "blend": "multiply",
+      "rect": {
+        "x": 329.75,
+        "y": 244.15625,
+        "width": 123.828125,
+        "height": 41.875
+      }
+    },
+    {
+      "text": "老动画胶片",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(150, 47, 39)",
+      "blend": "multiply",
+      "rect": {
+        "x": 329.75,
+        "y": 300.375,
+        "width": 123.828125,
+        "height": 33.09375
+      }
+    },
+    {
+      "text": "语音音量VOICE",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(150, 47, 39)",
+      "blend": "multiply",
+      "rect": {
+        "x": 329.75,
+        "y": 347.8125,
+        "width": 123.828125,
+        "height": 41.875
+      }
+    },
+    {
+      "text": "音乐音量MUSIC",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(150, 47, 39)",
+      "blend": "multiply",
+      "rect": {
+        "x": 329.75,
+        "y": 399.640625,
+        "width": 123.828125,
+        "height": 41.875
+      }
+    },
+    {
+      "text": "音效音量SOUND",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(150, 47, 39)",
+      "blend": "multiply",
+      "rect": {
+        "x": 329.75,
+        "y": 451.46875,
+        "width": 123.828125,
+        "height": 41.875
+      }
+    },
+    {
+      "text": "剧情设置STORY",
+      "color": "rgb(255, 255, 255)",
+      "background": "rgb(150, 47, 39)",
+      "blend": "multiply",
+      "rect": {
+        "x": 329.75,
+        "y": 503.296875,
+        "width": 123.828125,
+        "height": 41.875
+      }
+    }
+  ],
+  "pixelChecks": [
+    {
+      "text": "环境设置",
+      "letterPixels": 1130,
+      "paperMatchingPixels": 242,
+      "medianPaperError": 27.0
+    },
+    {
+      "text": "窗口模式DISPLAY",
+      "letterPixels": 738,
+      "paperMatchingPixels": 143,
+      "medianPaperError": 9.0
+    },
+    {
+      "text": "画面效果GRAPHICS",
+      "letterPixels": 830,
+      "paperMatchingPixels": 162,
+      "medianPaperError": 9.0
+    },
+    {
+      "text": "老动画胶片",
+      "letterPixels": 814,
+      "paperMatchingPixels": 137,
+      "medianPaperError": 9.0
+    },
+    {
+      "text": "语音音量VOICE",
+      "letterPixels": 649,
+      "paperMatchingPixels": 224,
+      "medianPaperError": 8.0
+    },
+    {
+      "text": "音乐音量MUSIC",
+      "letterPixels": 628,
+      "paperMatchingPixels": 201,
+      "medianPaperError": 9.0
+    },
+    {
+      "text": "音效音量SOUND",
+      "letterPixels": 678,
+      "paperMatchingPixels": 194,
+      "medianPaperError": 8.0
+    },
+    {
+      "text": "剧情设置STORY",
+      "letterPixels": 800,
+      "paperMatchingPixels": 186,
+      "medianPaperError": 8.0
+    }
+  ],
+  "method": "Rendered glyph pixels compared with the same original paper while only the stamp is hidden; film disabled only for diagnostic captures",
+  "passed": true
+}

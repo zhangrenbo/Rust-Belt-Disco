@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-14",
+  "scope": "Environment heading and seven labels in the left column of the settings form",
+  "effect": "Red ink field with paper visible in letter shapes and inset frame; existing static distress mask retained",
+  "method": "White letter and frame pixels, with the complete positioned form composited using multiply onto the original paper",
+  "checks": 20,
+  "interactionViewports": [
+    [
+      1058,
+      595
+    ],
+    [
+      844,
+      475
+    ]
+  ],
+  "visualScreens": [
+    "docs/settings-knockout-stamps-1440.png",
+    "docs/settings-knockout-stamps-1058.png",
+    "docs/settings-knockout-stamps-844.png"
+  ],
+  "pixelVerification": "docs/settings-knockout-paper-verification.json",
+  "paperMatchingGlyphPixels": 1489,
+  "build": "passed",
+  "migrationHashes": 172,
+  "resourcePaths": 70,
+  "storage": "isolated in-memory fixtures; real player settings untouched",
+  "assistantVisualInspection": "All three game-stage screenshots inspected",
+  "humanArtReview": "pending",
+  "workbenchWindowDirectlyVerified": false,
+  "backup": ".local/app-before-settings-knockout-20260914.css"
+}

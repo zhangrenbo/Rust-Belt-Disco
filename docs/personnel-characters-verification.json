@@ -1,0 +1,68 @@
+{
+  "ui": "existing book with character side tabs",
+  "characters": [
+    {
+      "id": "dong",
+      "name": "董点事"
+    },
+    {
+      "id": "li",
+      "name": "李正"
+    },
+    {
+      "id": "wang",
+      "name": "王少鹏"
+    }
+  ],
+  "characterCount": 3,
+  "checks": [
+    "original book is retained and four side buttons remain",
+    "dong: side button selects its name and portrait",
+    "li: side button selects its name and portrait",
+    "wang: side button selects its name and portrait",
+    "role changes keep the original attribute paper visible",
+    "preview stat changes do not leak into another role",
+    "returning to a role preserves its preview values",
+    "keyboard arrows change character and actual portrait together",
+    "End selects the last available character",
+    "compact role buttons and return are reachable and labels fit",
+    "return preserves settings draft",
+    "Escape returns to settings",
+    "music still opens with mute preserved",
+    "nested return reaches the original main menu",
+    "character browsing and preview buttons preserve storage"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/personnel-characters-dong-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/personnel-characters-li-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/personnel-characters-wang-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/personnel-characters-compact-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    }
+  ],
+  "errors": [],
+  "allFourConfigured": false,
+  "scope": "Portrait and UI preview switching; no playable content."
+}

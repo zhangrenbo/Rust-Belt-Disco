@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-13",
+  "request": "主页（继续游戏、开始游戏、存档所在 UI）的背景图片右下角放一个八十年代工人先进劳动奖章",
+  "source": "public/assets/event-desk-bg-v2.png",
+  "output": "public/assets/event-desk-bg-labor-medal-v2.png",
+  "firstDraft": "public/assets/event-desk-bg-labor-medal.png",
+  "refinementGeneratedOriginal": "D:/CodexData/home/generated_images/01a0999f-b8ee-75d3-8631-c272faa45626/exec-a14838b8-5662-46c7-83c9-23e68d9241d8.png",
+  "refinementPrompt": "Make ONE precise local edit to this existing 1672x941 background image. Move the COMPLETE worker medal assembly (red horizontal '先进劳动者' name bar, both connecting rings, circular cogwheel medal with worker relief and wheat ears, and its contact shadow) exactly 120 pixels to the RIGHT, with no change in vertical position, size, rotation, material, letterforms or design. The entire assembly currently occupies approximately x1318..1503,y628..860. It must occupy approximately x1438..1623,y628..860 after moving, fully inside the frame with a 49-pixel right margin. The round medallion must have center around x1510,y785. This is necessary because the in-game dossier covers part of the current left edge; do not add or draw the dossier. Restore the small vacated part of the underlying paper naturally. Keep every other part of the desk, books, papers, clips, lighting, perspective, color and texture unchanged and keep the exact same dimensions. Do not make a second medal. The medal must still physically rest on the same lower-right paper stack with the same soft contact shadow. No added text or interface. Save the edited full background in the existing source folder as E:/东北迪斯科/public/assets/event-desk-bg-labor-medal-v2.png.",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a0999f-b8ee-75d3-8631-c272faa45626/exec-1077af63-f7df-4701-96f4-965c0a0d6b66.png",
+  "tool": "image_gen",
+  "prompt": "Edit the provided existing game menu desk background, preserving the EXACT 1672x941 canvas, camera, lighting direction, dark olive leather desk mat, old cream certificates, paper edges, metal paperclips, closed books, envelopes and their positions. Add exactly ONE small vintage Chinese factory worker labor achievement medal resting naturally on the stack of old papers in the LOWER RIGHT corner. Its center should be around x1480,y755 (88.5% across,80% down), with the whole medal and its suspension bar occupying roughly x1370..1590 and y635..860; leave a margin to the right and bottom. It must be visible in this corner without moving any existing object. Design it as a convincing 1980s Chinese industrial worker's award: aged dull brass, worn dark crimson red enamel, a short horizontal enamel suspension bar bearing the clear embossed Chinese characters '先进劳动者', a small hanging round medallion with a subtle cogwheel rim and wheat ears, and a raised side-profile relief of a factory worker wearing a plain work cap. Small red five-point star above the worker. Modest historic working-person keepsake with fine scratches, tarnish in crevices and worn edges; no shiny modern gold-plated trophy look. Tilt the physical medal counterclockwise about 12 degrees while it lies flat on the papers; perspective, soft contact shadow, muted reflections and painterly-realistic physical detail must match the original top-down desk image and its warm upper-left lamplight. The red enamel and brass must be discernible against the old paper, but remain subordinate to the rest of the scene. This is an item physically present in the background, not an overlay icon, floating HUD or interface button. Do NOT add a box, display case, ribbon bow, explanatory label, subtitle, watermark, large text or any UI. Do not alter the original composition, desk brightness, books or certificates elsewhere. No people besides the tiny embossed worker relief. Return the full edited background at the exact same dimensions. Save directly beside the source as E:/东北迪斯科/public/assets/event-desk-bg-labor-medal.png; do not create a new output folder.",
+  "integration": "只替换 index.html 主菜单 .event-desk 的图片引用；背景内的静态物件，无新增点击元素。源图、其余页面引用与 UI参考目录保留。",
+  "visualDesign": "八十年代工厂荣誉物件风格；暗红珐琅、做旧黄铜、齿轮与麦穗、工人帽浮雕、先进劳动者铭牌；置于右下旧纸张上，与原光照及透视相接。",
+  "humanArtApproval": "pending",
+  "sourceSha256": "493520d9bc944a0ab8ebd1fd1ea41d8e6f07d1a1cb7fb45d688c2c5d5cd9a3a3",
+  "outputSha256": "654b979d6a8f83554034ad94e1ebc17e89c07ab5d13f9c25d2fd4fc3ab4f3862",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "checks": {
+    "originalPreserved": true,
+    "buildMatches": true,
+    "migrationHashes": 172,
+    "resourcePaths": 60,
+    "build": "passed",
+    "httpUrls": 65,
+    "browserReport": "docs/menu-medal-continue-verification.json"
+  }
+}

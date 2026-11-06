@@ -1,0 +1,1037 @@
+{
+  "archive": "E:\\东北迪斯科_Unity备份_20260909",
+  "files": [
+    {
+      "source": "Assets\\ink_scripts\\D0_序章.ink",
+      "destination": "content/story/ink/D0_序章.ink",
+      "bytes": 57423,
+      "sha256": "97a5584708e338e36f5c2cd671d678cee351fdbb4a0eded3f7355438e7d98340"
+    },
+    {
+      "source": "Assets\\ink_scripts\\D1_第一天.ink",
+      "destination": "content/story/ink/D1_第一天.ink",
+      "bytes": 126346,
+      "sha256": "64e6023d141b459d2abfc333cc6dd7674cada2489ac4ca1a940a9385a1dda511"
+    },
+    {
+      "source": "Assets\\ink_scripts\\D2_第二天.ink",
+      "destination": "content/story/ink/D2_第二天.ink",
+      "bytes": 168312,
+      "sha256": "5e61a45e423c384dd68e12d647990ce824c91551e9c7b5a9cd02612ccf07e51b"
+    },
+    {
+      "source": "Assets\\ink_scripts\\D3_第三天.ink",
+      "destination": "content/story/ink/D3_第三天.ink",
+      "bytes": 60359,
+      "sha256": "ab7fdf51641ffcaa29fc9b68fbd88e97ccd67545da8454075adbc4212510db1e"
+    },
+    {
+      "source": "Assets\\ink_scripts\\D4_第四天.ink",
+      "destination": "content/story/ink/D4_第四天.ink",
+      "bytes": 109814,
+      "sha256": "c27a393b8a723360d62d3b5f5a616506c1f60592e7fecdb0a1eeeefcb9255b29"
+    },
+    {
+      "source": "Assets\\ink_scripts\\D5_第五天.ink",
+      "destination": "content/story/ink/D5_第五天.ink",
+      "bytes": 119022,
+      "sha256": "83b7f705b87347c27cb84109c5094b7e8af3ae2c54f6fa367fd2c3ff89cdd1dc"
+    },
+    {
+      "source": "Assets\\ink_scripts\\D6_第六天.ink",
+      "destination": "content/story/ink/D6_第六天.ink",
+      "bytes": 92985,
+      "sha256": "42bd74fa1c5dcd5ea1b424824b3b8f1b637106f58fa8111f066e73d249f5a8a4"
+    },
+    {
+      "source": "Assets\\ink_scripts\\D7_第七天.ink",
+      "destination": "content/story/ink/D7_第七天.ink",
+      "bytes": 86091,
+      "sha256": "29a3f630d46a1499459942a13b95fd662016fd95106b415ca93f681d3aa9a706"
+    },
+    {
+      "source": "Assets\\ink_scripts\\最终审判.ink",
+      "destination": "content/story/ink/最终审判.ink",
+      "bytes": 42098,
+      "sha256": "c4081f7af1d590e1c3aec2977d4f6e53fa8b2d84075004ff2d260b0a156efea2"
+    },
+    {
+      "source": "Assets\\ink_scripts\\背景设定.ink",
+      "destination": "content/story/ink/背景设定.ink",
+      "bytes": 375842,
+      "sha256": "af551da5b270b2304540592e557088e514f575aac71c9b80be45cf49a362a10d"
+    },
+    {
+      "source": "Assets\\cipher_system_en.md",
+      "destination": "content/story/source-documents/cipher_system_en.md",
+      "bytes": 13075,
+      "sha256": "5c01965ab38f8ec1fac72a1773eac90b7aae4154eb7a3535a7076940be2bb497"
+    },
+    {
+      "source": "Assets\\D1_剧本_李正线.md",
+      "destination": "content/story/source-documents/D1_剧本_李正线.md",
+      "bytes": 48203,
+      "sha256": "0f6218e8180a85f463339565d6e414e580d9ef1514a893ae5d4037cb7d1a5ffc"
+    },
+    {
+      "source": "Assets\\D1_剧本_王少鹏线.md",
+      "destination": "content/story/source-documents/D1_剧本_王少鹏线.md",
+      "bytes": 41243,
+      "sha256": "ba6d320def199951b6c1ceb8139426e5b4c18f9bf23cc5753889e3c848ce14cb"
+    },
+    {
+      "source": "Assets\\D1_剧本_董点事线.md",
+      "destination": "content/story/source-documents/D1_剧本_董点事线.md",
+      "bytes": 78742,
+      "sha256": "a0dba96afa361445f4b48daad3f7d3ff4ece7664b611fdb801c5200e48c98a46"
+    },
+    {
+      "source": "Assets\\D1_第一天设定集.md",
+      "destination": "content/story/source-documents/D1_第一天设定集.md",
+      "bytes": 22978,
+      "sha256": "7de1dbc5ce59c057fea1212d33e8f06eb5b0dc053d3f7828976d4f63f1c20f79"
+    },
+    {
+      "source": "Assets\\D2_董点事_扩写草稿.md",
+      "destination": "content/story/source-documents/D2_董点事_扩写草稿.md",
+      "bytes": 34178,
+      "sha256": "3695d2b6292134cef12f845627e4133c67caadad9614c01d53dac3788904e5d5"
+    },
+    {
+      "source": "Assets\\D4_D7_sheets_design.md",
+      "destination": "content/story/source-documents/D4_D7_sheets_design.md",
+      "bytes": 24011,
+      "sha256": "d3a3ad88516a871d93f1e4c2791dd23bf647e046b6c62e80e646e98aed682fb6"
+    },
+    {
+      "source": "Assets\\_content_export.json",
+      "destination": "content/story/source-documents/_content_export.json",
+      "bytes": 15816632,
+      "sha256": "70576f106495eafbcbe33d19b66f2cb702bc37d7027fef87b713758d11c37057"
+    },
+    {
+      "source": "Assets\\东北夏天的剧情.xmind",
+      "destination": "content/story/source-documents/东北夏天的剧情.xmind",
+      "bytes": 2692954,
+      "sha256": "1c72b340d23b180cca91ad58229e2a58a983291faf6b3ca45fc07af6f89d8185"
+    },
+    {
+      "source": "Assets\\东北夏天策划案.docx",
+      "destination": "content/story/source-documents/东北夏天策划案.docx",
+      "bytes": 35837,
+      "sha256": "13a036341f7a8fe83c3ee5fd9913310370e9ed506122ae8b3a92e890a3ef056a"
+    },
+    {
+      "source": "Assets\\东北迪斯科  剧情.docx",
+      "destination": "content/story/source-documents/东北迪斯科  剧情.docx",
+      "bytes": 20457,
+      "sha256": "00d7f23335d853ef73979af0df51c00f3b2f7d64296fa3304c8dea4b9e186a48"
+    },
+    {
+      "source": "Assets\\书店读书系统.md",
+      "destination": "content/story/source-documents/书店读书系统.md",
+      "bytes": 32230,
+      "sha256": "0d27344e7551259cc3f61b1dbb7391d2753161176b6bbccf02280c1e0d894869"
+    },
+    {
+      "source": "Assets\\场景地图.md",
+      "destination": "content/story/source-documents/场景地图.md",
+      "bytes": 13082,
+      "sha256": "ef8da0e1ff867daa0bb601caf0942f8b1e9db2f06ae85251536743c5e47e1803"
+    },
+    {
+      "source": "Assets\\小燕独立弧线.md",
+      "destination": "content/story/source-documents/小燕独立弧线.md",
+      "bytes": 36977,
+      "sha256": "3632f338ea1746dfe0e906811937f1a765965875717243cb207661e45391a001"
+    },
+    {
+      "source": "Assets\\小镇地形设计.md",
+      "destination": "content/story/source-documents/小镇地形设计.md",
+      "bytes": 26982,
+      "sha256": "57000374e59c53bf6bf3ce741d05e73a4cfc148b61e736f30ccbc588ad3e423d"
+    },
+    {
+      "source": "Assets\\打光方案_手动布光指南.md",
+      "destination": "content/story/source-documents/打光方案_手动布光指南.md",
+      "bytes": 4672,
+      "sha256": "7f5f08529fafa523ab906ca12c16d9c267a2d78324ca6df0cefb0b885700eb0a"
+    },
+    {
+      "source": "Assets\\本草纲目与伤寒杂病论读书系统.md",
+      "destination": "content/story/source-documents/本草纲目与伤寒杂病论读书系统.md",
+      "bytes": 56480,
+      "sha256": "4a8d96df8aaabd61780837da8557b9fb616466a7da69ca5fa849e996c1fbd007"
+    },
+    {
+      "source": "Assets\\美术需求文档.md",
+      "destination": "content/story/source-documents/美术需求文档.md",
+      "bytes": 18939,
+      "sha256": "65a067cbc5be667360523f227861d1221394dcc42ed0661ca6a92edc643612aa"
+    },
+    {
+      "source": "Assets\\黄帝内经读书系统.md",
+      "destination": "content/story/source-documents/黄帝内经读书系统.md",
+      "bytes": 14845,
+      "sha256": "811c20245555cae5fc4a781d02fcb813f2485cfbf143db49f1b6db972efd3998"
+    },
+    {
+      "source": "Assets\\对话数据\\兜帽人对话.ink",
+      "destination": "content/story/legacy-data/对话数据/兜帽人对话.ink",
+      "bytes": 19208,
+      "sha256": "169c17aa448c0374acc25bc8231edeb5a753ef49abffa353e525049afecf63fa"
+    },
+    {
+      "source": "Assets\\对话数据\\可可露的对话.ink",
+      "destination": "content/story/legacy-data/对话数据/可可露的对话.ink",
+      "bytes": 40242,
+      "sha256": "566089b6e23763b6a1581026768e0ef1c5748600d4486ba46c03be63166ecbce"
+    },
+    {
+      "source": "Assets\\对话数据\\石中剑任务.ink",
+      "destination": "content/story/legacy-data/对话数据/石中剑任务.ink",
+      "bytes": 13210,
+      "sha256": "d16a0faf02f812cae4a8c8acec36babc0f219898259e7368091b2e2ae5e94552"
+    },
+    {
+      "source": "Assets\\Resources\\Quests\\云环任务\\云环任务对话节点配置.json",
+      "destination": "content/story/legacy-data/Resources/Quests/云环任务/云环任务对话节点配置.json",
+      "bytes": 7105,
+      "sha256": "8f0c4134d4984d15244b2512b1ad856074d6f5e85b05e74f86c24cbd6e050ca0"
+    },
+    {
+      "source": "Assets\\Art\\东北迪斯科封面_16x9_循环_无水印.mp4",
+      "destination": "public/media/video/title.mp4",
+      "bytes": 3175360,
+      "sha256": "b1524b88402a90457e0222c3d0385843ee618d5de605a1438c6f42e8762be649"
+    },
+    {
+      "source": "Assets\\Art\\东北迪斯科开机视频_单段衔接版.mp4",
+      "destination": "public/media/video/intro.mp4",
+      "bytes": 5646250,
+      "sha256": "03316a4ac74ab9f1201f03ac7a95af56ad42813ad2808a323e751b89ba7d00c3"
+    },
+    {
+      "source": "Assets\\Art\\T_书法东北迪斯科.png",
+      "destination": "public/media/ui/title.png",
+      "bytes": 35215,
+      "sha256": "0aae705ecc88da02973e824e6fa26609e0b56c107d0aa07e0bcb8f60ddbab8c3"
+    },
+    {
+      "source": "Assets\\Art\\T_对话角色照片.png",
+      "destination": "public/media/characters/prototype-portrait.png",
+      "bytes": 275542,
+      "sha256": "6195c128d4d7fb8e4ab607653d82aa403efcbb0c1b5205626a7e6d193abefa57"
+    },
+    {
+      "source": "Assets\\Art\\T_A000右下角的信息.png",
+      "destination": "content/art/legacy-png/T_A000右下角的信息.png",
+      "bytes": 1092802,
+      "sha256": "7afddca6469f4bb56aba31ace4feeb54a29a571a38b00b6f2fe3bcd5b15bcaf6"
+    },
+    {
+      "source": "Assets\\Art\\T_A000左边的信息.png",
+      "destination": "content/art/legacy-png/T_A000左边的信息.png",
+      "bytes": 588675,
+      "sha256": "e502634b77f1c409bf0d666e6ee0b688eff7ce149b1949d71543367a57b27143"
+    },
+    {
+      "source": "Assets\\Art\\T_A000照片.png",
+      "destination": "content/art/legacy-png/T_A000照片.png",
+      "bytes": 678959,
+      "sha256": "1080a5acf0cee82b5c5ae19cc5dd123bedaad6d6e760f459c031e96be2129c74"
+    },
+    {
+      "source": "Assets\\Art\\T_C002_李正仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C002_李正仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1449238,
+      "sha256": "e77d9b16ef1c5b14b63d1fc2e190767880836b3088e8dbfba70a83277edef946"
+    },
+    {
+      "source": "Assets\\Art\\T_C002_李正仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C002_李正仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1362173,
+      "sha256": "33b5dcb12fc8708cced328ca86f1366c725c2f58bc2f368a72599a40019d14f1"
+    },
+    {
+      "source": "Assets\\Art\\T_C002_李正仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C002_李正仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 696632,
+      "sha256": "530934685e5e79c5b12898a12c4964ce2357aa6f9effe329ee76cbf4d8580afb"
+    },
+    {
+      "source": "Assets\\Art\\T_C002_李正仅衣服TPOSE_透明_GPT.png",
+      "destination": "content/art/legacy-png/T_C002_李正仅衣服TPOSE_透明_GPT.png",
+      "bytes": 1631191,
+      "sha256": "83240ce88be8b1a3942307d99c1fed25dacd2a661b0e5b6d35c0449bc256b8fa"
+    },
+    {
+      "source": "Assets\\Art\\T_C002_李正仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C002_李正仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 802915,
+      "sha256": "46e749f344d4e064c2e65eff450dd0df4c1c1b66fc57ca0062f3267778c33d55"
+    },
+    {
+      "source": "Assets\\Art\\T_C002_李正全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C002_李正全身TPOSE_GPT.png",
+      "bytes": 1449216,
+      "sha256": "bfa1515d28a7ca8bed8579471ba81ca15fa27ee902253bffb5ab41f9b9dbed91"
+    },
+    {
+      "source": "Assets\\Art\\T_C002_李正全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C002_李正全身TPOSE_背面_GPT.png",
+      "bytes": 1729960,
+      "sha256": "e1dbdd06807c1a7807f4304b107771495928afcbd340c774948921d72ce4e1a1"
+    },
+    {
+      "source": "Assets\\Art\\T_C002_李正头像.png",
+      "destination": "content/art/legacy-png/T_C002_李正头像.png",
+      "bytes": 573742,
+      "sha256": "1dbb8a9060f8e4c171fad8eda138197234885a27eb48548385533b0eb685386e"
+    },
+    {
+      "source": "Assets\\Art\\T_C003_王少鹏仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C003_王少鹏仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1391936,
+      "sha256": "0a7d48007c38b63e7ac78651e346091f52c3cc282fac210b0df8efea17478c09"
+    },
+    {
+      "source": "Assets\\Art\\T_C003_王少鹏仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C003_王少鹏仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1245149,
+      "sha256": "56c2ee04a10a57789efc703f1d7fe69db37d0ddbabeab8919dab32a959c9e5bb"
+    },
+    {
+      "source": "Assets\\Art\\T_C003_王少鹏仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C003_王少鹏仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 598286,
+      "sha256": "4205fb4301510abe985f7f6ab62501d8f6187e25961b922b82b474cf79fab943"
+    },
+    {
+      "source": "Assets\\Art\\T_C003_王少鹏仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C003_王少鹏仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 759709,
+      "sha256": "18312e8a57ad9d6bc3d7e6ac9dd0e6479a8f4d5cb55efbbdc8f74ee824ce2cec"
+    },
+    {
+      "source": "Assets\\Art\\T_C003_王少鹏全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C003_王少鹏全身TPOSE_GPT.png",
+      "bytes": 1335154,
+      "sha256": "02d65b2850dea122519fb4c2e346bcca5af44e6d69edcf6749869795a74fc5e7"
+    },
+    {
+      "source": "Assets\\Art\\T_C003_王少鹏全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C003_王少鹏全身TPOSE_背面_GPT.png",
+      "bytes": 1626861,
+      "sha256": "5de8a9fbb40871290d7f9ae56266432af0040fe248e02c6002fd57e2c01c0c5a"
+    },
+    {
+      "source": "Assets\\Art\\T_C003_王少鹏头像.png",
+      "destination": "content/art/legacy-png/T_C003_王少鹏头像.png",
+      "bytes": 503578,
+      "sha256": "ad5ecd99112978891459324d148934f21dbcea80fed26079aa858fabf0919f82"
+    },
+    {
+      "source": "Assets\\Art\\T_C005_刘国庆仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C005_刘国庆仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1376604,
+      "sha256": "2f2a5f93cdf7dbaf5f93d985a0898968bc937fe96d4acff3bec3aec568d2309b"
+    },
+    {
+      "source": "Assets\\Art\\T_C005_刘国庆仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C005_刘国庆仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1333168,
+      "sha256": "63330dd1ad66d9423b387e46fbfd1e88a6726a5138a9b7671a6fed7e56a2bc5a"
+    },
+    {
+      "source": "Assets\\Art\\T_C005_刘国庆仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C005_刘国庆仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 723838,
+      "sha256": "91d0359b1b650726229459ae6fecf1f4302eb4f1699794cde6cc751817e9a680"
+    },
+    {
+      "source": "Assets\\Art\\T_C005_刘国庆仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C005_刘国庆仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 772949,
+      "sha256": "52dd337549bed6ac2f3c5c040f3d59e7e6102ab8f967b578b3539048ebe2cf3f"
+    },
+    {
+      "source": "Assets\\Art\\T_C005_刘国庆全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C005_刘国庆全身TPOSE_GPT.png",
+      "bytes": 1357259,
+      "sha256": "fc01751f33749e8053b21ec0248e5f426e7b07ab22ca0a8f42aae2f01d99a9fc"
+    },
+    {
+      "source": "Assets\\Art\\T_C005_刘国庆全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C005_刘国庆全身TPOSE_背面_GPT.png",
+      "bytes": 1615379,
+      "sha256": "cef68f6deb6deb81112c00a5955a299e33ccad48ae07ced3ea662a3c165df7d2"
+    },
+    {
+      "source": "Assets\\Art\\T_C005_刘国庆头像.png",
+      "destination": "content/art/legacy-png/T_C005_刘国庆头像.png",
+      "bytes": 554051,
+      "sha256": "081f37320039a1168d4c1f7e633321739da6f6dc838e2872dc102d52fcc35731"
+    },
+    {
+      "source": "Assets\\Art\\T_C006_陈国涛仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C006_陈国涛仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1414474,
+      "sha256": "43b68d97fa500c27eae577ea8228b2dee8193531b9d624bc5f9d130018454c28"
+    },
+    {
+      "source": "Assets\\Art\\T_C006_陈国涛仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C006_陈国涛仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1449056,
+      "sha256": "7c2fcd0356ba0bc7a54ae488a0ed8ded7df0eb80a4289f293710c7c9074b5ef1"
+    },
+    {
+      "source": "Assets\\Art\\T_C006_陈国涛仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C006_陈国涛仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 831011,
+      "sha256": "54df8b4d00d3074bd72fcd780a6d5f08da291046ee66c7944293eda7fd769886"
+    },
+    {
+      "source": "Assets\\Art\\T_C006_陈国涛仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C006_陈国涛仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 751073,
+      "sha256": "9beeb1ccbe516d5277ea32c20dd72e796062ac9f73e53078034af402da82e61e"
+    },
+    {
+      "source": "Assets\\Art\\T_C006_陈国涛全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C006_陈国涛全身TPOSE_GPT.png",
+      "bytes": 1353074,
+      "sha256": "4a25ce517b98757571cfe3afb1d7c4bbef133a34e016c6d5d90b735cbb99fc19"
+    },
+    {
+      "source": "Assets\\Art\\T_C006_陈国涛全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C006_陈国涛全身TPOSE_背面_GPT.png",
+      "bytes": 1670457,
+      "sha256": "3d61f6328cea0d1e8ed135585c9b947f715e659f82e0f8836e2818a7b8da6931"
+    },
+    {
+      "source": "Assets\\Art\\T_C006_陈国涛头像.png",
+      "destination": "content/art/legacy-png/T_C006_陈国涛头像.png",
+      "bytes": 522212,
+      "sha256": "ba4e1ff702f9e95ce166fa71bf0f3457e82b40634ce148bc33e91a764c439ea1"
+    },
+    {
+      "source": "Assets\\Art\\T_C010_高飞仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C010_高飞仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1355742,
+      "sha256": "c2f874ad064156fafdb9ba2baa4155bebb8e13b76039eaf02b8cdb2f84d0dda4"
+    },
+    {
+      "source": "Assets\\Art\\T_C010_高飞仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C010_高飞仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1434506,
+      "sha256": "ad4f6207585bd8af3c7f1fa5faeb486d8d2613d9891ba46485bf96b8a3993601"
+    },
+    {
+      "source": "Assets\\Art\\T_C010_高飞仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C010_高飞仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 603994,
+      "sha256": "19c4e68c41d0fe444cf1625115a0fb1d5f2d74601d8a176fd98871b030ffee9e"
+    },
+    {
+      "source": "Assets\\Art\\T_C010_高飞仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C010_高飞仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 686036,
+      "sha256": "c87149807db42ba1d89dfbd5b4b59cc0563983d12f7d1523bb1fb13c4d6de6b7"
+    },
+    {
+      "source": "Assets\\Art\\T_C010_高飞全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C010_高飞全身TPOSE_GPT.png",
+      "bytes": 1392147,
+      "sha256": "434f72e854101f765292ab8ec00cea51e2f7bd25e9fab4025d9d5d88dcc5b50a"
+    },
+    {
+      "source": "Assets\\Art\\T_C010_高飞全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C010_高飞全身TPOSE_背面_GPT.png",
+      "bytes": 1474402,
+      "sha256": "b91f0f5301681bb7accc406c774ff5cb3dfae71c3c64bf131b48d696e739d023"
+    },
+    {
+      "source": "Assets\\Art\\T_C010_高飞头像.png",
+      "destination": "content/art/legacy-png/T_C010_高飞头像.png",
+      "bytes": 562852,
+      "sha256": "96899e6d049f914ebd20222cdb40d28d5b7ad37513b3e3c3bd62ff670a00f2ac"
+    },
+    {
+      "source": "Assets\\Art\\T_C012_小燕仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C012_小燕仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1502506,
+      "sha256": "02cfd10a126e923f0f1462da99f43463cba55d2df79b2270fa0248f4bc154d7c"
+    },
+    {
+      "source": "Assets\\Art\\T_C012_小燕仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C012_小燕仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1443711,
+      "sha256": "f46cd26145e47d2a2ba1fd1c893af43581f1f1013afa8a22e1b1e6cb1b859a9d"
+    },
+    {
+      "source": "Assets\\Art\\T_C012_小燕仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C012_小燕仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 769378,
+      "sha256": "f3bb1d2f07a8fecaa0ebb9aa42147fe8da8de7d9131560c78c6fbe47cfaee331"
+    },
+    {
+      "source": "Assets\\Art\\T_C012_小燕仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C012_小燕仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 840421,
+      "sha256": "0f766962287ff8cb1eb0851b45d486157fc6c821bec883149fd5b8aca0a890d1"
+    },
+    {
+      "source": "Assets\\Art\\T_C012_小燕全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C012_小燕全身TPOSE_GPT.png",
+      "bytes": 1462342,
+      "sha256": "b717a6912ffd4c0108f2d5caf3cec4fe332e84263ca939bcb72ddecf77e71772"
+    },
+    {
+      "source": "Assets\\Art\\T_C012_小燕全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C012_小燕全身TPOSE_背面_GPT.png",
+      "bytes": 1724508,
+      "sha256": "ae7d3dabaab7a40dd4bbfdc2745875ebc6dae1545c57584a21ce24f9b79326e2"
+    },
+    {
+      "source": "Assets\\Art\\T_C012_小燕头像.png",
+      "destination": "content/art/legacy-png/T_C012_小燕头像.png",
+      "bytes": 563686,
+      "sha256": "6999cd9ff22ec718fe59989c57f3f9f35c1920351e23119a354f494c6dbb90fe"
+    },
+    {
+      "source": "Assets\\Art\\T_C014_韩铁军仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C014_韩铁军仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1318589,
+      "sha256": "1df173b96f73b60b63a95354f018e59f2000f7faf261c552df8ba1b70cb4c44e"
+    },
+    {
+      "source": "Assets\\Art\\T_C014_韩铁军仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C014_韩铁军仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1311195,
+      "sha256": "a526d2b28540ab67124c5919c257f40b1c624b481deab07626689f047e6e0494"
+    },
+    {
+      "source": "Assets\\Art\\T_C014_韩铁军仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C014_韩铁军仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 651616,
+      "sha256": "dfb62e1c4f4d806c952d4a4110d35777091047f178c60ca6685024c7aeb6cf18"
+    },
+    {
+      "source": "Assets\\Art\\T_C014_韩铁军仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C014_韩铁军仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 664056,
+      "sha256": "387f655e5a6921af95d75a209182b244e05ddbb270a6b79429b8609eb66185e1"
+    },
+    {
+      "source": "Assets\\Art\\T_C014_韩铁军全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C014_韩铁军全身TPOSE_GPT.png",
+      "bytes": 1324010,
+      "sha256": "9f503d9ecdb4d9d1c094f98c77941f98f78d4e37cfd81fac41bcccb66ee6ae97"
+    },
+    {
+      "source": "Assets\\Art\\T_C014_韩铁军全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C014_韩铁军全身TPOSE_背面_GPT.png",
+      "bytes": 1582474,
+      "sha256": "b49ec1d37fa788cf3696c4c7957db7cc19c221e6753d9a34f314d10408645a28"
+    },
+    {
+      "source": "Assets\\Art\\T_C014_韩铁军头像.png",
+      "destination": "content/art/legacy-png/T_C014_韩铁军头像.png",
+      "bytes": 561107,
+      "sha256": "d2f0072e586003435eb3fb6415698fcc8a07c3b67d91ebd632d87287da8d96b9"
+    },
+    {
+      "source": "Assets\\Art\\T_C016_刘虎仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C016_刘虎仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1363130,
+      "sha256": "f5d5dbd01e25137a2e024fd1bda8cfd29a33a6b06ae8b9fa89e0d165dc34a81b"
+    },
+    {
+      "source": "Assets\\Art\\T_C016_刘虎仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C016_刘虎仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1287126,
+      "sha256": "223729942e5060380f1a37e00e002254429f6ecc9bcd1394dcf3564b706a40c2"
+    },
+    {
+      "source": "Assets\\Art\\T_C016_刘虎仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C016_刘虎仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 608724,
+      "sha256": "6a8846a84c4b14a0313e7b7bb4bb889abd5b7c0cb6062055c7783c739b873e92"
+    },
+    {
+      "source": "Assets\\Art\\T_C016_刘虎仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C016_刘虎仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 685455,
+      "sha256": "e9a40a45b1aa793edac83bc878ce9c99ff59c6dfb31eb0976fad8d66852b9085"
+    },
+    {
+      "source": "Assets\\Art\\T_C016_刘虎全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C016_刘虎全身TPOSE_GPT.png",
+      "bytes": 1333588,
+      "sha256": "80e4c7ae25b04872ddfa90e7ef793cf16a121ddb16cb91360e703645a7536bd4"
+    },
+    {
+      "source": "Assets\\Art\\T_C016_刘虎全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C016_刘虎全身TPOSE_背面_GPT.png",
+      "bytes": 1679636,
+      "sha256": "18a0f0bc7fddd82ec63aa1e424bd2ad39b9810f055d47a6049bc53adc5ae8a15"
+    },
+    {
+      "source": "Assets\\Art\\T_C016_刘虎头像.png",
+      "destination": "content/art/legacy-png/T_C016_刘虎头像.png",
+      "bytes": 520957,
+      "sha256": "e7c5b04d6d0078fdc9e2f7213848eb84c50b932d983af9f4cd692c47a60b1b23"
+    },
+    {
+      "source": "Assets\\Art\\T_C019_杨秀文仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C019_杨秀文仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1308571,
+      "sha256": "0188d6d08792d8222abba2032e78a92ad3cc0adc6dd5fb057d7c10090b7464a0"
+    },
+    {
+      "source": "Assets\\Art\\T_C019_杨秀文仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C019_杨秀文仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1255931,
+      "sha256": "a0ba54a9b96edc4e5c777a0397438bd2917d396ba66e1bf7f9e979e820ad71cd"
+    },
+    {
+      "source": "Assets\\Art\\T_C019_杨秀文仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C019_杨秀文仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 597108,
+      "sha256": "fd7a12248541faf0ef9829c5e22d5d1ac97db88c205c355b2cb05d9a69d6c440"
+    },
+    {
+      "source": "Assets\\Art\\T_C019_杨秀文仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C019_杨秀文仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 643823,
+      "sha256": "ce7f20ef0d63c6b41f6105813d0aaa393ad84b12b81c9af377683b12ed9fa493"
+    },
+    {
+      "source": "Assets\\Art\\T_C019_杨秀文全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C019_杨秀文全身TPOSE_GPT.png",
+      "bytes": 1297001,
+      "sha256": "5f967169d08427684c369bdaafa5fe3655163fed0298763ff8f8c5ff21811c2a"
+    },
+    {
+      "source": "Assets\\Art\\T_C019_杨秀文全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C019_杨秀文全身TPOSE_背面_GPT.png",
+      "bytes": 1620586,
+      "sha256": "631489b04ec91297e9c8bbafd8af009406a77ef6f6b6c3be08bdb80f834b353c"
+    },
+    {
+      "source": "Assets\\Art\\T_C019_杨秀文头像.png",
+      "destination": "content/art/legacy-png/T_C019_杨秀文头像.png",
+      "bytes": 557201,
+      "sha256": "eea02debf2e86edb8b2765ceefd671697a2d725401a2823e6f1523181c67b361"
+    },
+    {
+      "source": "Assets\\Art\\T_C022_周建设仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C022_周建设仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1357875,
+      "sha256": "ad568e3a77a2cf53abf92a740d27c4953c2be8f65a0fe4083bb9f4003f1552d6"
+    },
+    {
+      "source": "Assets\\Art\\T_C022_周建设仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C022_周建设仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1390400,
+      "sha256": "c43fcd375d00296cb1fca93a51e6de5729b61cc8bf176903e4e2940ffdd8a24e"
+    },
+    {
+      "source": "Assets\\Art\\T_C022_周建设仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C022_周建设仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 716704,
+      "sha256": "118ab3a678ba245005fcc1363087d68406ace122f4a62401d975da95aad11dc9"
+    },
+    {
+      "source": "Assets\\Art\\T_C022_周建设仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C022_周建设仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 669839,
+      "sha256": "dd562480c690e2751b01085aa48ba9c2f23bf1aa5a618a45adac5d60344d1549"
+    },
+    {
+      "source": "Assets\\Art\\T_C022_周建设全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C022_周建设全身TPOSE_GPT.png",
+      "bytes": 1608814,
+      "sha256": "c025eda5beeda8ce117d4c4739cee6ad6b8a1a8d3343e7cbc7ee2245f0d3a548"
+    },
+    {
+      "source": "Assets\\Art\\T_C022_周建设全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C022_周建设全身TPOSE_背面_GPT.png",
+      "bytes": 1661763,
+      "sha256": "0a575a8d1220c4f910eb8bc47ea87e313db999af794cfd50f7ddf7022a058492"
+    },
+    {
+      "source": "Assets\\Art\\T_C022_周建设头像.png",
+      "destination": "content/art/legacy-png/T_C022_周建设头像.png",
+      "bytes": 544961,
+      "sha256": "51ad36fca29e06f32ace27d43a5638051414151fddfe8dcdc807b02bccff6b92"
+    },
+    {
+      "source": "Assets\\Art\\T_C023_佟秀云仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C023_佟秀云仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1366867,
+      "sha256": "410b63e97097ed30b4a1857ab0731d856e264a707c2a0496008a6fc78af05177"
+    },
+    {
+      "source": "Assets\\Art\\T_C023_佟秀云仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C023_佟秀云仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1336905,
+      "sha256": "abb73c363f6221da6ad33376d38fc86ca7c58548c8adafe403e69e08da073710"
+    },
+    {
+      "source": "Assets\\Art\\T_C023_佟秀云仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C023_佟秀云仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 633813,
+      "sha256": "a224968c06dc519b30049a40a00c165d845887f336ad30baabb7982a74775c1e"
+    },
+    {
+      "source": "Assets\\Art\\T_C023_佟秀云仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C023_佟秀云仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 659925,
+      "sha256": "4a6118fc2d3c0a8a2b80986942a2019f35c0583d99eaebc43dc86e2dad425f27"
+    },
+    {
+      "source": "Assets\\Art\\T_C023_佟秀云全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C023_佟秀云全身TPOSE_GPT.png",
+      "bytes": 1970484,
+      "sha256": "9e014d625463df11ffab7ba2e166c91164080dfe5c6325576dbddf76c82647df"
+    },
+    {
+      "source": "Assets\\Art\\T_C023_佟秀云全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C023_佟秀云全身TPOSE_背面_GPT.png",
+      "bytes": 1794126,
+      "sha256": "eac949caf48f4b8d17159c82162935e4e6d39ad73c44b90502762d2169175dbc"
+    },
+    {
+      "source": "Assets\\Art\\T_C023_佟秀云头像.png",
+      "destination": "content/art/legacy-png/T_C023_佟秀云头像.png",
+      "bytes": 595921,
+      "sha256": "ed56dc8a83a3798af9b6d3a34941a7b13fa3ebe93920a8219d71029361337509"
+    },
+    {
+      "source": "Assets\\Art\\T_C027_陈秀枝仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C027_陈秀枝仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1385884,
+      "sha256": "a83621e30f6605aa1ad0c4105996868abbc4d6c50187c071d55bc295a13795d9"
+    },
+    {
+      "source": "Assets\\Art\\T_C027_陈秀枝仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C027_陈秀枝仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1284994,
+      "sha256": "ee9d7d3297d40546239678059c5c81efe91edfcd779a613e08b688703ba2262f"
+    },
+    {
+      "source": "Assets\\Art\\T_C027_陈秀枝仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C027_陈秀枝仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 603393,
+      "sha256": "e2902b8b77c0cd33d220e0a625e13f09a88095c6bdfefbc5ef9f7a662fbbb1bb"
+    },
+    {
+      "source": "Assets\\Art\\T_C027_陈秀枝仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C027_陈秀枝仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 726208,
+      "sha256": "a5da388ce12e281ef048880763ed29c7f6b48eb6ddb5a58546154e46bba102f1"
+    },
+    {
+      "source": "Assets\\Art\\T_C027_陈秀枝全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C027_陈秀枝全身TPOSE_GPT.png",
+      "bytes": 1399862,
+      "sha256": "d5847d6c5ad79442bdc6058efb4ba78a3afaf647ff2467b5ad6742a11c9e4c3d"
+    },
+    {
+      "source": "Assets\\Art\\T_C027_陈秀枝全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C027_陈秀枝全身TPOSE_背面_GPT.png",
+      "bytes": 1622186,
+      "sha256": "80e73e6646072bffecdc45cd866ad05ea42f3f067a8325fdf0f4d2709222a294"
+    },
+    {
+      "source": "Assets\\Art\\T_C027_陈秀枝头像.png",
+      "destination": "content/art/legacy-png/T_C027_陈秀枝头像.png",
+      "bytes": 551450,
+      "sha256": "97908ee7ebc8fb5d3bed196e4e4a09d2b600c972133488579106dc93270d96b5"
+    },
+    {
+      "source": "Assets\\Art\\T_C028_朱启渲仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C028_朱启渲仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1423814,
+      "sha256": "7b3d83a20eeb2f8c0434f7470f1880499c71fc8aa43b3195486b05d147940e18"
+    },
+    {
+      "source": "Assets\\Art\\T_C028_朱启渲仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C028_朱启渲仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1352608,
+      "sha256": "e5cdbf446068fe7ba818c097dffcc42c11d0d601e69f214fd7f049d247d8b44b"
+    },
+    {
+      "source": "Assets\\Art\\T_C028_朱启渲仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C028_朱启渲仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 685273,
+      "sha256": "4634c9d1512fb5901bfb0cae3fd728102b249eb955561fd33ea88d658ae12dee"
+    },
+    {
+      "source": "Assets\\Art\\T_C028_朱启渲仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C028_朱启渲仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 745689,
+      "sha256": "13850006ead785cb441285fc32f02bc7501f65f586318f8869b2030a73f4e8d7"
+    },
+    {
+      "source": "Assets\\Art\\T_C028_朱启渲全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C028_朱启渲全身TPOSE_GPT.png",
+      "bytes": 1387540,
+      "sha256": "6b913e27d2c85cf57f5ce08a58e1e70c16b0fc855766f072f0d8b09458d2d09e"
+    },
+    {
+      "source": "Assets\\Art\\T_C028_朱启渲全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C028_朱启渲全身TPOSE_背面_GPT.png",
+      "bytes": 1426231,
+      "sha256": "2052d07890a2f0df268c338eb6a7f814382ec5a0df53bd7d2e773a20c426c13b"
+    },
+    {
+      "source": "Assets\\Art\\T_C028_朱启渲头像.png",
+      "destination": "content/art/legacy-png/T_C028_朱启渲头像.png",
+      "bytes": 560837,
+      "sha256": "b2f753657ff5424089b9a33bf89c607ee772f15ee3713f66ad8ba4402130faf3"
+    },
+    {
+      "source": "Assets\\Art\\T_C029_赵淑兰仅衣服TPOSE_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C029_赵淑兰仅衣服TPOSE_绿底_GPT.png",
+      "bytes": 1256522,
+      "sha256": "93066f300b299cf4f696f6a4abdde22b913bf76306c4fa73903255bae371da34"
+    },
+    {
+      "source": "Assets\\Art\\T_C029_赵淑兰仅衣服TPOSE_背面_绿底_GPT.png",
+      "destination": "content/art/legacy-png/T_C029_赵淑兰仅衣服TPOSE_背面_绿底_GPT.png",
+      "bytes": 1303894,
+      "sha256": "b4dc0236ef08295a7b720f7c48ac91dcb7e1eb89c1e2ee3b5ddc2828349e26a5"
+    },
+    {
+      "source": "Assets\\Art\\T_C029_赵淑兰仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C029_赵淑兰仅衣服TPOSE_背面_透明_GPT_v2.png",
+      "bytes": 607190,
+      "sha256": "02daedfc9c6e2dab19783ff92c8595310e6eb30d3f3d98dd82d590618168aef9"
+    },
+    {
+      "source": "Assets\\Art\\T_C029_赵淑兰仅衣服TPOSE_透明_GPT_v2.png",
+      "destination": "content/art/legacy-png/T_C029_赵淑兰仅衣服TPOSE_透明_GPT_v2.png",
+      "bytes": 548752,
+      "sha256": "067d12cc4060bd7ce0fd1cb3e8e7cf928832f6c805ce6651e25fb0efafdd265d"
+    },
+    {
+      "source": "Assets\\Art\\T_C029_赵淑兰全身TPOSE_GPT.png",
+      "destination": "content/art/legacy-png/T_C029_赵淑兰全身TPOSE_GPT.png",
+      "bytes": 1581835,
+      "sha256": "2d7d9971dcc86e900859f1a768a5b214982af6eeab4e5cb46a4f51773f807461"
+    },
+    {
+      "source": "Assets\\Art\\T_C029_赵淑兰全身TPOSE_背面_GPT.png",
+      "destination": "content/art/legacy-png/T_C029_赵淑兰全身TPOSE_背面_GPT.png",
+      "bytes": 1640524,
+      "sha256": "1234f663936397190ba7d0daaea789dfb4ffd1e49349a655d0557b47059e6127"
+    },
+    {
+      "source": "Assets\\Art\\T_C029_赵淑兰头像.png",
+      "destination": "content/art/legacy-png/T_C029_赵淑兰头像.png",
+      "bytes": 568119,
+      "sha256": "fc5f7eb008e799309cf21cdebc56d3be1e5eed2cfd17ad086782dd404eebe509"
+    },
+    {
+      "source": "Assets\\Art\\T_任意键以继续.png",
+      "destination": "content/art/legacy-png/T_任意键以继续.png",
+      "bytes": 10624,
+      "sha256": "adf29852db1f7933353082c465df79f5853acd845f01b7bbf269790048957b2e"
+    },
+    {
+      "source": "Assets\\Art\\T_佟秀云头像.png",
+      "destination": "content/art/legacy-png/T_佟秀云头像.png",
+      "bytes": 595921,
+      "sha256": "ed56dc8a83a3798af9b6d3a34941a7b13fa3ebe93920a8219d71029361337509"
+    },
+    {
+      "source": "Assets\\Art\\T_关闭按钮背景.png",
+      "destination": "content/art/legacy-png/T_关闭按钮背景.png",
+      "bytes": 74050,
+      "sha256": "6693399675238aa3e5f234fa7ae474a16de25ac4fa141166272da3d98c453ff8"
+    },
+    {
+      "source": "Assets\\Art\\T_刘国庆头像.png",
+      "destination": "content/art/legacy-png/T_刘国庆头像.png",
+      "bytes": 554051,
+      "sha256": "081f37320039a1168d4c1f7e633321739da6f6dc838e2872dc102d52fcc35731"
+    },
+    {
+      "source": "Assets\\Art\\T_刘虎头像.png",
+      "destination": "content/art/legacy-png/T_刘虎头像.png",
+      "bytes": 520957,
+      "sha256": "e7c5b04d6d0078fdc9e2f7213848eb84c50b932d983af9f4cd692c47a60b1b23"
+    },
+    {
+      "source": "Assets\\Art\\T_周建设头像.png",
+      "destination": "content/art/legacy-png/T_周建设头像.png",
+      "bytes": 544961,
+      "sha256": "51ad36fca29e06f32ace27d43a5638051414151fddfe8dcdc807b02bccff6b92"
+    },
+    {
+      "source": "Assets\\Art\\T_对话关闭按钮.png",
+      "destination": "content/art/legacy-png/T_对话关闭按钮.png",
+      "bytes": 10576,
+      "sha256": "65c69ac2806b596f5cf10aa75f8a8b291ba13cb51f072d9b99ee196d3f080e8a"
+    },
+    {
+      "source": "Assets\\Art\\T_对话名称图片.png",
+      "destination": "content/art/legacy-png/T_对话名称图片.png",
+      "bytes": 127276,
+      "sha256": "654b12f8fd584ae13782dc1ecda476062db4a0c65a9711e7862445385cf2deaa"
+    },
+    {
+      "source": "Assets\\Art\\T_对话着状态图标.png",
+      "destination": "content/art/legacy-png/T_对话着状态图标.png",
+      "bytes": 25041,
+      "sha256": "6443292f090d45fcfe75f5f5d20f857d6e276fe687dd9b53ec2dae36a6a95e7a"
+    },
+    {
+      "source": "Assets\\Art\\T_对话角色照片 拷贝 12.png",
+      "destination": "content/art/legacy-png/T_对话角色照片 拷贝 12.png",
+      "bytes": 286802,
+      "sha256": "46168d7a2ed2607879094abfaceeb4f13a7dd43e40b7b191384b7bb4b127f0e2"
+    },
+    {
+      "source": "Assets\\Art\\T_对话默认背景.png",
+      "destination": "content/art/legacy-png/T_对话默认背景.png",
+      "bytes": 860158,
+      "sha256": "ee97e9a5baad8e1d36588a6b69a1e91309acc3f5525efe24b5fbfb4a73a5cf9d"
+    },
+    {
+      "source": "Assets\\Art\\T_小燕头像.png",
+      "destination": "content/art/legacy-png/T_小燕头像.png",
+      "bytes": 563686,
+      "sha256": "6999cd9ff22ec718fe59989c57f3f9f35c1920351e23119a354f494c6dbb90fe"
+    },
+    {
+      "source": "Assets\\Art\\T_文字背景.png",
+      "destination": "content/art/legacy-png/T_文字背景.png",
+      "bytes": 306606,
+      "sha256": "6fb0d31cd65b85f928173602899e0f0f2ff513bcdba231f5329c5c720c63f5ef"
+    },
+    {
+      "source": "Assets\\Art\\T_朱启渲头像.png",
+      "destination": "content/art/legacy-png/T_朱启渲头像.png",
+      "bytes": 560837,
+      "sha256": "b2f753657ff5424089b9a33bf89c607ee772f15ee3713f66ad8ba4402130faf3"
+    },
+    {
+      "source": "Assets\\Art\\T_李正头像.png",
+      "destination": "content/art/legacy-png/T_李正头像.png",
+      "bytes": 573742,
+      "sha256": "1dbb8a9060f8e4c171fad8eda138197234885a27eb48548385533b0eb685386e"
+    },
+    {
+      "source": "Assets\\Art\\T_杨秀文头像.png",
+      "destination": "content/art/legacy-png/T_杨秀文头像.png",
+      "bytes": 557201,
+      "sha256": "eea02debf2e86edb8b2765ceefd671697a2d725401a2823e6f1523181c67b361"
+    },
+    {
+      "source": "Assets\\Art\\T_王少鹏头像.png",
+      "destination": "content/art/legacy-png/T_王少鹏头像.png",
+      "bytes": 503578,
+      "sha256": "ad5ecd99112978891459324d148934f21dbcea80fed26079aa858fabf0919f82"
+    },
+    {
+      "source": "Assets\\Art\\T_背景光.png",
+      "destination": "content/art/legacy-png/T_背景光.png",
+      "bytes": 69784,
+      "sha256": "e2c01e312ee38d6f90e3e89775af49928e723d9f2742501b07d0ce10700ae323"
+    },
+    {
+      "source": "Assets\\Art\\T_董点事的简介.png",
+      "destination": "content/art/legacy-png/T_董点事的简介.png",
+      "bytes": 561773,
+      "sha256": "eb3b265ca022260ea782baccc45585a63222854230548b90532812bd97766f5e"
+    },
+    {
+      "source": "Assets\\Art\\T_赵淑兰头像.png",
+      "destination": "content/art/legacy-png/T_赵淑兰头像.png",
+      "bytes": 568119,
+      "sha256": "fc5f7eb008e799309cf21cdebc56d3be1e5eed2cfd17ad086782dd404eebe509"
+    },
+    {
+      "source": "Assets\\Art\\T_选项类型普通.png",
+      "destination": "content/art/legacy-png/T_选项类型普通.png",
+      "bytes": 123486,
+      "sha256": "2ac9df64561daf59972dab129942a6706e81108642ff259fd7af6c85c34aaa45"
+    },
+    {
+      "source": "Assets\\Art\\T_选项类型沧桑.png",
+      "destination": "content/art/legacy-png/T_选项类型沧桑.png",
+      "bytes": 145226,
+      "sha256": "7ecd303785bee612dd4d53258acf8219bbb3f646605ddab78436ff308fff67cb"
+    },
+    {
+      "source": "Assets\\Art\\T_选项类型激烈.png",
+      "destination": "content/art/legacy-png/T_选项类型激烈.png",
+      "bytes": 134251,
+      "sha256": "db9d6779a7920b31f8e11f8eef5b1c1dc8ce64b4d6fefb0f83a82b16c4e09b80"
+    },
+    {
+      "source": "Assets\\Art\\T_选项类型稀有.png",
+      "destination": "content/art/legacy-png/T_选项类型稀有.png",
+      "bytes": 160196,
+      "sha256": "5b10b60eb9aad4ab346f7b2185b53c8880f15f7ef10494666c72f31bb736a5a5"
+    },
+    {
+      "source": "Assets\\Art\\T_陈国涛头像.png",
+      "destination": "content/art/legacy-png/T_陈国涛头像.png",
+      "bytes": 522212,
+      "sha256": "ba4e1ff702f9e95ce166fa71bf0f3457e82b40634ce148bc33e91a764c439ea1"
+    },
+    {
+      "source": "Assets\\Art\\T_陈秀枝头像.png",
+      "destination": "content/art/legacy-png/T_陈秀枝头像.png",
+      "bytes": 551450,
+      "sha256": "97908ee7ebc8fb5d3bed196e4e4a09d2b600c972133488579106dc93270d96b5"
+    },
+    {
+      "source": "Assets\\Art\\T_韩铁军头像.png",
+      "destination": "content/art/legacy-png/T_韩铁军头像.png",
+      "bytes": 561107,
+      "sha256": "d2f0072e586003435eb3fb6415698fcc8a07c3b67d91ebd632d87287da8d96b9"
+    },
+    {
+      "source": "Assets\\Art\\T_高飞头像.png",
+      "destination": "content/art/legacy-png/T_高飞头像.png",
+      "bytes": 562852,
+      "sha256": "96899e6d049f914ebd20222cdb40d28d5b7ad37513b3e3c3bd62ff670a00f2ac"
+    },
+    {
+      "source": "Assets\\Art\\李正.png",
+      "destination": "content/art/legacy-png/李正.png",
+      "bytes": 686465,
+      "sha256": "61b924a03f2bb4c7611e21239526847b3179cb4a8718155176024cdede688d5c"
+    },
+    {
+      "source": "Assets\\Art\\王少鹏.png",
+      "destination": "content/art/legacy-png/王少鹏.png",
+      "bytes": 1119631,
+      "sha256": "58b2cc9a4ed2840db4ff2e22bee712a9ff215b9c48b5c28bfdff0e82d7445c70"
+    },
+    {
+      "source": "Assets\\Art\\角色全身立绘_MJ提示词.md",
+      "destination": "content/art/legacy-png/角色全身立绘_MJ提示词.md",
+      "bytes": 13116,
+      "sha256": "264dc66aa7e3d11fc6d054117f63bb960d3cbce1466dfb275a18cbc5882b635c"
+    },
+    {
+      "source": "Assets\\Art\\MidjourneyLikedProjectAssets\\manifest.json",
+      "destination": "content/art/midjourney-source-manifest.json",
+      "bytes": 953343,
+      "sha256": "98e21d7b883a9ca5dc265853fcc49e6c452afabaf40ae361b91f080a4ac66e9a"
+    },
+    {
+      "source": "T_旧纸张滤镜.png",
+      "destination": "content/art/legacy-png/T_旧纸张滤镜.png",
+      "bytes": 2026349,
+      "sha256": "e4fcaf10aeb44a8c2909a898bab07acf160ad057b491713a22a8735ee353dbac"
+    }
+  ]
+}

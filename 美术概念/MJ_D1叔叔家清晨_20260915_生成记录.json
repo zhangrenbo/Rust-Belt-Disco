@@ -1,0 +1,112 @@
+{
+  "project": "东北迪斯科",
+  "scene": "董点事 D1 / A003 叔叔家 / 清晨六点",
+  "request_date": "2026-09-15",
+  "user_brief": "通过CDP控制MJ，按此前约定先生成董点事D1一个场景。",
+  "scope": "按D1剧情顺序先做开场A003，一组四张设计候选；不是整天全部场景。",
+  "sources": [
+    "content/story/ink/D1_第一天.ink:D1_0001/A003_叔叔家",
+    "content/story/source-documents/D1_剧本_董点事线.md:A003",
+    "docs/MJ剧情场景设计工作流.md",
+    "美术概念/MJ_D0回忆便利店_20260909_生成记录.json"
+  ],
+  "story_grounding": "叔叔家清晨六点，表弟在桌边写作业，叔叔穿外套准备出门，董点事从楼上下楼；桌上两碗白粥和一碟咸菜。夏季东北工业小镇。",
+  "layout": "单层客厅和连接厨房的完整剖面；后方楼梯、出门口与餐桌之间留通路。人物动作可读，不生成游戏UI。",
+  "prompt": "Disco Elysium-inspired painterly 3D game environment, solid three-dimensional forms with visible hand-painted oil brushstroke textures, muted teal shadows and restrained warm amber highlights. Strict 45-degree elevated isometric orthographic cutaway, roof and camera-facing walls removed, entire room footprint visible. Six o'clock on a summer morning inside an ordinary working-class family house in an old Northeast Chinese industrial town. A modest living and dining room, open doorway to a small kitchen at back left, narrow wooden staircase against the rear wall leading upstairs, exterior door at right. Square worn wooden dining table with EXACTLY two bowls of steaming plain rice porridge, one small plate of pickled vegetables and chopsticks. An old sofa, CRT television on a low cabinet, chipped pale plaster walls, worn concrete floor and a faded framed factory-worker award. EXACTLY THREE people with readable full-body proportions: a fourteen-year-old Chinese boy seated at one corner of the table, bent over an open exercise book writing with a pencil; a middle-aged Chinese uncle beside the exterior door, pulling on a faded work jacket before leaving for the repair shop; a young adult Chinese man at the foot of the stairs, just coming downstairs toward breakfast. Clear walking space connects staircase, table, kitchen and exit. Cool pale gray morning daylight enters through a side window, gentle amber light from the kitchen, short soft contact shadows, subtle porridge steam. Lived-in practical furniture, strong readable room geometry, broad complete environment composition --ar 4:3 --raw --v 8.1 --relax --no text, logo, watermark, interface, snow, neon, anime, pixel art, extra people, medieval architecture",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "folder_name": "东北迪斯科参考图",
+  "references": [],
+  "personalization": false,
+  "status": "completed",
+  "job_id": "e6632382-6cfb-426b-b7ec-8f2334d63816",
+  "human_review": "rejected_by_user",
+  "generation_paused_by_user": true,
+  "rejection_reason": "用户要求先停：提示词不对，画风非常油腻，缺少极乐迪斯科干净利落、偏插画的笔触感，色调也很奇怪。",
+  "next_action": "停止继续生成与下载，保留本轮任务与提示词作为否定记录，不接入游戏。重新出图须等待用户继续指令；修正笔触、材质与色调，不能把本轮青橙油画3D提示词当作认可基准。",
+  "in_game_integration": "not_applied",
+  "downloads": [],
+  "preflight": {
+    "folder": true,
+    "images": 0,
+    "personalization": "false"
+  },
+  "submitted_at": "2026-09-15T06:49:26.265528+00:00",
+  "source_sha256": {
+    "content/story/ink/D1_第一天.ink": "64e6023d141b459d2abfc333cc6dd7674cada2489ac4ca1a940a9385a1dda511",
+    "content/story/source-documents/D1_剧本_董点事线.md": "a0dba96afa361445f4b48daad3f7d3ff4ece7664b611fdb801c5200e48c98a46"
+  },
+  "submit_receipt": {
+    "accepted": [
+      {
+        "job_id": "e6632382-6cfb-426b-b7ec-8f2334d63816",
+        "prompt": "Disco Elysium inspired painterly 3D game environment, hand painted oil brushstroke textures, muted teal shadows, restrained warm amber highlights. Strict 45 degree isometric orthographic cutaway, roof and camera facing walls removed, full room footprint visible. 6 AM summer morning, working class living/dining room, old Northeast Chinese industrial town. Open doorway to small kitchen at back left, narrow wooden staircase on rear wall, exterior door at right. Worn square wooden dining table with EXACTLY two bowls of steaming rice porridge, one plate of pickled vegetables, chopsticks. Old sofa, CRT television on low cabinet, chipped plaster walls, worn concrete floor, faded framed factory worker award. EXACTLY THREE figures: teenage Chinese boy seated at table writing in exercise book; middle aged uncle near exterior door pulling on work jacket; young adult Chinese man descending stairs toward breakfast. Cool gray morning light from side window, gentle amber kitchen light, soft contact shadows, subtle steam. Lived in, strong readable geometry. --no text, logo, watermark, interface, snow, neon, anime, pixel art, extra people, medieval architecture --ar 4:3 --relax --raw --v 8.1",
+        "is_queued": false,
+        "job_type": "v8-1_diffusion",
+        "flags": {
+          "mode": "relaxed",
+          "visibility": "public"
+        },
+        "meta": {
+          "height": 928,
+          "width": 1232,
+          "batch_size": 4,
+          "parent_id": null,
+          "parent_grid": null
+        },
+        "personalization_codes": null
+      }
+    ],
+    "http": 200
+  },
+  "post_submit_text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight Mode\nzhangrenbo\nAug 6, 2026\nStarting...\nDisco Elysium inspired painterly 3D game environment, hand painted oil brushstroke textures, muted teal shadows, restrained warm amber highlights. Strict 45 degree isometric orthographic cutaway, roof and camera facing walls removed, full room footprint visible. 6 AM summer morning, working class living/dining room, old Northeast Chinese industrial town. Open doorway to small kitchen at back left, narrow wooden staircase on rear wall, exterior door at right. Worn square wooden dining table with EXACTLY two bowls of steaming rice porridge, one plate of pickled vegetables, chopsticks. Old sofa, CRT television on low cabinet, chipped plaster walls, worn concrete floor, faded framed factory worker award. EXACTLY THREE figures: teenage Chinese boy seated at table writing in exercise book; middle aged uncle near exterior door pulling on work jacket; young adult Chinese man descending stairs toward breakfast. Cool gray morning light from side window, gentle amber kitchen light, soft contact shadows, subtle steam. Lived in, strong readable geometry.\n+ use text\n--no text, logo, watermark, interface, snow, neon, anime, pixel art, extra people, medieval architecture\n \nno text, logo, watermark, interface, snow, neon, anime, pixel art, extra people, medieval architecture\n--ar 4:3\n \nar 4:3\n--raw\n \nraw\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\nStylized 3D game environment, hand painted oil brushstroke textures, Disco Elysium painterly aesthetic, muted teal shadows, warm amber light. Small family convenience store interior, old Northeast Chinese town. Strict 45 degree isometric orthographic cutaway view, roof and two camera facing walls removed, full shop floor visible. Grocery shelves along left wall plus one freestanding row, clear aisle, wooden glass top checkout counter at back with open handwritten ledger and round clock. Shelves stocked with glass sauce bottles, canned food, biscuit packets, instant noodles, paper packages. EXACTLY ONE Chinese mother, tied back dark hair, blue cloth apron over faded blouse, restocking shelves: both feet on aisle floor, side on to camera, one hand holding small cardboard box at waist, other hand placing tin upright on chest height shelf. W",
+  "last_status": {
+    "job_id": "e6632382-6cfb-426b-b7ec-8f2334d63816",
+    "links": [
+      {
+        "href": "/jobs/e6632382-6cfb-426b-b7ec-8f2334d63816?index=0&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 256,
+            "height": 192
+          }
+        ]
+      },
+      {
+        "href": "/jobs/e6632382-6cfb-426b-b7ec-8f2334d63816?index=1&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 256,
+            "height": 192
+          }
+        ]
+      },
+      {
+        "href": "/jobs/e6632382-6cfb-426b-b7ec-8f2334d63816?index=2&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 256,
+            "height": 192
+          }
+        ]
+      },
+      {
+        "href": "/jobs/e6632382-6cfb-426b-b7ec-8f2334d63816?index=3&folder=东北迪斯科参考图",
+        "images": [
+          {
+            "loaded": true,
+            "width": 256,
+            "height": 192
+          }
+        ]
+      }
+    ],
+    "text": "100% Complete\nDisco Elysium inspired painterly 3D game environment, hand painted oil brushstroke textures, muted teal shadows, restrained warm amber highlights. Strict 45 degree isometric orthographic cutaway, roof and camera facing walls removed, full room footprint visible. 6 AM summer morning, working class living/dining room, old Northeast Chinese industrial town. Open doorway to small kitchen at back left, narrow wooden staircase on rear wall, exterior door at right. Worn square wooden dining table with EXACTLY two bowls of steaming rice porridge, one plate of pickled vegetables, chopsticks. Old sofa, CRT television on low cabinet, chipped plaster walls, worn concrete floor, faded framed factory worker award. EXACTLY THREE figures: teenage Chinese boy seated at table writing in exercise book; middle aged uncle near exterior door pulling on work jacket; young adult Chinese man descending stairs toward breakfast. Cool gray morning light from side window, gentle amber kitchen light, soft contact shadows, subtle steam. Lived in, strong readable geometry.\n+ use text\n--no text, logo, watermark, interface, snow, neon, anime, pixel art, extra people, medieval architecture\n \nno text, logo, watermark, interface, snow, neon, anime, pixel art, extra people, medieval architecture\n--ar 4:3\n \nar 4:3\n--raw\n \nraw\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore",
+    "folder": "东北迪斯科参考图\n8672",
+    "folderSelected": true
+  },
+  "status_checked_at": "2026-09-15T06:51:30.576481+00:00",
+  "group_membership_verified": true
+}

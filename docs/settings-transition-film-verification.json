@@ -1,0 +1,101 @@
+{
+  "transport": "fixed work Google Chrome + direct CDP 9223",
+  "checks": [
+    "1440: settings stays visible after one complete paper turn",
+    "1440: visible vignette, corner-weighted snow and controls coexist",
+    "1440: return completes and preserves mute",
+    "844: settings stays visible after one complete paper turn",
+    "844: visible vignette, corner-weighted snow and controls coexist",
+    "844: return completes and preserves mute",
+    "filter off also removes the dark surround",
+    "return cancels the unsaved filter change and preserves storage"
+  ],
+  "transitions": [
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "starts": 1,
+      "peakOpacity": 0.948032,
+      "sampleCount": 74
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "starts": 1,
+      "peakOpacity": 0.948029,
+      "sampleCount": 72
+    }
+  ],
+  "cornerPixelComparison": {
+    "center": {
+      "withVignette": 214.0,
+      "withoutVignette": 214.0,
+      "ratio": 1.0
+    },
+    "topLeft": {
+      "withVignette": 41.333333333333336,
+      "withoutVignette": 74.0,
+      "ratio": 0.5585585585585586
+    },
+    "topRight": {
+      "withVignette": 47.333333333333336,
+      "withoutVignette": 85.66666666666667,
+      "ratio": 0.5525291828793775
+    },
+    "bottomLeft": {
+      "withVignette": 56.666666666666664,
+      "withoutVignette": 110.66666666666667,
+      "ratio": 0.5120481927710843
+    },
+    "bottomRight": {
+      "withVignette": 24.333333333333332,
+      "withoutVignette": 44.333333333333336,
+      "ratio": 0.5488721804511277
+    }
+  },
+  "screens": [
+    {
+      "name": "settings",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "vignette-on",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "vignette-off",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "name": "settings",
+      "viewport": [
+        844,
+        475
+      ]
+    },
+    {
+      "name": "turn-in-progress",
+      "viewport": [
+        1440,
+        810
+      ]
+    }
+  ],
+  "errors": [],
+  "scope": "isolated background QA tab and memory storage; no player save writes",
+  "humanArtApproval": "pending",
+  "transitionScreenshot": "actual pageTurn paused at 200ms only in this QA tab"
+}

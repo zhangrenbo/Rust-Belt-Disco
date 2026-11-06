@@ -1,0 +1,636 @@
+{
+  "browser": "152.0.7977.83",
+  "transport": "Chrome CDP 9223",
+  "saveIsolation": "per-page in-memory localStorage",
+  "errors": [],
+  "scenario": "valid background save fixture, followed by real dialogue choices; no movement performance measurement",
+  "keyboardAndResume": "passed",
+  "screens": [
+    {
+      "name": "arrival",
+      "viewport": [
+        1440,
+        810
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "dialog": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "panel": {
+        "x": 17.265625,
+        "y": 549.375,
+        "width": 1336.3125,
+        "height": 227.515625
+      },
+      "portrait": {
+        "x": -3.59375,
+        "y": 236.15625,
+        "width": 397.4375,
+        "height": 561.046875
+      },
+      "text": {
+        "x": 439.1875,
+        "y": 616.3125,
+        "width": 720,
+        "height": 83.515625
+      },
+      "textHeight": 84,
+      "visibleTextHeight": 84,
+      "options": [
+        {
+          "x": 410.390625,
+          "y": 123.828125,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        }
+      ],
+      "close": {
+        "x": 1293.140625,
+        "y": 525.59375,
+        "width": 76.3125,
+        "height": 90
+      }
+    },
+    {
+      "name": "questions",
+      "viewport": [
+        1440,
+        810
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "dialog": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "panel": {
+        "x": 17.265625,
+        "y": 549.375,
+        "width": 1336.3125,
+        "height": 227.515625
+      },
+      "portrait": {
+        "x": -3.59375,
+        "y": 236.15625,
+        "width": 397.4375,
+        "height": 561.046875
+      },
+      "text": {
+        "x": 439.1875,
+        "y": 616.3125,
+        "width": 720,
+        "height": 83.515625
+      },
+      "textHeight": 84,
+      "visibleTextHeight": 84,
+      "options": [
+        {
+          "x": 410.390625,
+          "y": 123.828125,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 220.71875,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 317.609375,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 414.5,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        }
+      ],
+      "close": {
+        "x": 1293.140625,
+        "y": 525.59375,
+        "width": 76.3125,
+        "height": 90
+      }
+    },
+    {
+      "name": "questions",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "dialog": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "panel": {
+        "x": 23.03125,
+        "y": 732.484375,
+        "width": 1781.75,
+        "height": 303.359375
+      },
+      "portrait": {
+        "x": -4.796875,
+        "y": 314.875,
+        "width": 529.90625,
+        "height": 748.046875
+      },
+      "text": {
+        "x": 585.59375,
+        "y": 821.75,
+        "width": 960,
+        "height": 111.359375
+      },
+      "textHeight": 111,
+      "visibleTextHeight": 111,
+      "options": [
+        {
+          "x": 547.1875,
+          "y": 165.109375,
+          "width": 825.59375,
+          "height": 106.546875,
+          "reachable": true
+        },
+        {
+          "x": 547.1875,
+          "y": 294.296875,
+          "width": 825.59375,
+          "height": 106.546875,
+          "reachable": true
+        },
+        {
+          "x": 547.1875,
+          "y": 423.484375,
+          "width": 825.59375,
+          "height": 106.546875,
+          "reachable": true
+        },
+        {
+          "x": 547.1875,
+          "y": 552.671875,
+          "width": 825.59375,
+          "height": 106.546875,
+          "reachable": true
+        }
+      ],
+      "close": {
+        "x": 1724.171875,
+        "y": 700.796875,
+        "width": 101.75,
+        "height": 120
+      }
+    },
+    {
+      "name": "questions",
+      "viewport": [
+        844,
+        475
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "dialog": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "panel": {
+        "x": 10.125,
+        "y": 322.125,
+        "width": 783.21875,
+        "height": 133.34375
+      },
+      "portrait": {
+        "x": -2.109375,
+        "y": 138.53125,
+        "width": 232.9375,
+        "height": 328.828125
+      },
+      "text": {
+        "x": 257.40625,
+        "y": 361.34375,
+        "width": 422,
+        "height": 48.9375
+      },
+      "textHeight": 49,
+      "visibleTextHeight": 49,
+      "options": [
+        {
+          "x": 240.53125,
+          "y": 72.703125,
+          "width": 362.90625,
+          "height": 46.828125,
+          "reachable": true
+        },
+        {
+          "x": 240.53125,
+          "y": 129.484375,
+          "width": 362.90625,
+          "height": 46.828125,
+          "reachable": true
+        },
+        {
+          "x": 240.53125,
+          "y": 186.265625,
+          "width": 362.90625,
+          "height": 46.828125,
+          "reachable": true
+        },
+        {
+          "x": 240.53125,
+          "y": 243.046875,
+          "width": 362.90625,
+          "height": 46.828125,
+          "reachable": true
+        }
+      ],
+      "close": {
+        "x": 757.9375,
+        "y": 308.171875,
+        "width": 44.71875,
+        "height": 52.75
+      }
+    },
+    {
+      "name": "questions-window",
+      "viewport": [
+        1280,
+        800
+      ],
+      "stage": {
+        "x": 0,
+        "y": 40,
+        "width": 1280,
+        "height": 720
+      },
+      "dialog": {
+        "x": 0,
+        "y": 40,
+        "width": 1280,
+        "height": 720
+      },
+      "panel": {
+        "x": 15.359375,
+        "y": 528.328125,
+        "width": 1187.828125,
+        "height": 202.234375
+      },
+      "portrait": {
+        "x": -3.1875,
+        "y": 249.90625,
+        "width": 353.265625,
+        "height": 498.6875
+      },
+      "text": {
+        "x": 390.390625,
+        "y": 587.828125,
+        "width": 640,
+        "height": 74.234375
+      },
+      "textHeight": 74,
+      "visibleTextHeight": 74,
+      "options": [
+        {
+          "x": 364.796875,
+          "y": 150.078125,
+          "width": 550.390625,
+          "height": 71.03125,
+          "reachable": true
+        },
+        {
+          "x": 364.796875,
+          "y": 236.203125,
+          "width": 550.390625,
+          "height": 71.03125,
+          "reachable": true
+        },
+        {
+          "x": 364.796875,
+          "y": 322.328125,
+          "width": 550.390625,
+          "height": 71.03125,
+          "reachable": true
+        },
+        {
+          "x": 364.796875,
+          "y": 408.453125,
+          "width": 550.390625,
+          "height": 71.03125,
+          "reachable": true
+        }
+      ],
+      "close": {
+        "x": 1149.453125,
+        "y": 507.1875,
+        "width": 67.828125,
+        "height": 80
+      }
+    },
+    {
+      "name": "reply",
+      "viewport": [
+        1440,
+        810
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "dialog": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "panel": {
+        "x": 17.265625,
+        "y": 549.375,
+        "width": 1336.3125,
+        "height": 227.515625
+      },
+      "portrait": {
+        "x": -3.59375,
+        "y": 236.15625,
+        "width": 397.4375,
+        "height": 561.046875
+      },
+      "text": {
+        "x": 439.1875,
+        "y": 616.3125,
+        "width": 720,
+        "height": 83.515625
+      },
+      "textHeight": 84,
+      "visibleTextHeight": 84,
+      "options": [
+        {
+          "x": 410.390625,
+          "y": 123.828125,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 220.71875,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 317.609375,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 414.5,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        }
+      ],
+      "close": {
+        "x": 1293.140625,
+        "y": 525.59375,
+        "width": 76.3125,
+        "height": 90
+      }
+    },
+    {
+      "name": "warning",
+      "viewport": [
+        1440,
+        810
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "dialog": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "panel": {
+        "x": 17.265625,
+        "y": 549.375,
+        "width": 1336.3125,
+        "height": 227.515625
+      },
+      "portrait": {
+        "x": -3.59375,
+        "y": 236.15625,
+        "width": 397.4375,
+        "height": 561.046875
+      },
+      "text": {
+        "x": 439.1875,
+        "y": 616.3125,
+        "width": 720,
+        "height": 103.921875
+      },
+      "textHeight": 104,
+      "visibleTextHeight": 104,
+      "options": [
+        {
+          "x": 410.390625,
+          "y": 123.828125,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 220.71875,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        }
+      ],
+      "close": {
+        "x": 1293.140625,
+        "y": 525.59375,
+        "width": 76.3125,
+        "height": 90
+      }
+    },
+    {
+      "name": "warning",
+      "viewport": [
+        844,
+        475
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "dialog": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      },
+      "panel": {
+        "x": 10.125,
+        "y": 322.125,
+        "width": 783.21875,
+        "height": 133.34375
+      },
+      "portrait": {
+        "x": -2.109375,
+        "y": 138.53125,
+        "width": 232.9375,
+        "height": 328.828125
+      },
+      "text": {
+        "x": 257.40625,
+        "y": 361.34375,
+        "width": 422,
+        "height": 60.890625
+      },
+      "textHeight": 61,
+      "visibleTextHeight": 61,
+      "options": [
+        {
+          "x": 250.8992462158203,
+          "y": 72.703125,
+          "width": 362.90631103515625,
+          "height": 46.828125,
+          "reachable": true
+        },
+        {
+          "x": 240.53125,
+          "y": 129.484375,
+          "width": 362.90625,
+          "height": 46.828125,
+          "reachable": true
+        }
+      ],
+      "close": {
+        "x": 757.9375,
+        "y": 308.171875,
+        "width": 44.71875,
+        "height": 52.75
+      }
+    },
+    {
+      "name": "shadow",
+      "viewport": [
+        1440,
+        810
+      ],
+      "stage": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "dialog": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      },
+      "panel": {
+        "x": 17.265625,
+        "y": 549.375,
+        "width": 1336.3125,
+        "height": 227.515625
+      },
+      "portrait": {
+        "x": -3.59375,
+        "y": 236.15625,
+        "width": 397.4375,
+        "height": 561.046875
+      },
+      "text": {
+        "x": 439.1875,
+        "y": 616.3125,
+        "width": 720,
+        "height": 83.515625
+      },
+      "textHeight": 84,
+      "visibleTextHeight": 84,
+      "options": [
+        {
+          "x": 410.390625,
+          "y": 123.828125,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 220.71875,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 317.609375,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        },
+        {
+          "x": 410.390625,
+          "y": 414.5,
+          "width": 619.1875,
+          "height": 79.90625,
+          "reachable": true
+        }
+      ],
+      "close": {
+        "x": 1293.140625,
+        "y": 525.59375,
+        "width": 76.3125,
+        "height": 90
+      }
+    }
+  ]
+}

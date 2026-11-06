@@ -1,0 +1,118 @@
+{
+  "4x3": {
+    ".event-center-menu": {
+      "x": 177,
+      "y": 0,
+      "w": 246,
+      "h": 900
+    },
+    ".mainmenu-logo": {
+      "x": 202,
+      "y": 150,
+      "w": 196,
+      "h": 337
+    },
+    ".mainmenu-actions": {
+      "x": 217,
+      "y": 504,
+      "w": 166,
+      "h": 252
+    },
+    ".event-dossier-bag": {
+      "x": 654,
+      "y": 173,
+      "w": 414,
+      "h": 517
+    },
+    ".event-center-strip": {
+      "x": 182,
+      "y": -4,
+      "w": 235,
+      "h": 908
+    }
+  },
+  "16x9": {
+    ".event-center-menu": {
+      "x": 189,
+      "y": 0,
+      "w": 262,
+      "h": 720
+    },
+    ".mainmenu-logo": {
+      "x": 215,
+      "y": 24,
+      "w": 209,
+      "h": 360
+    },
+    ".mainmenu-actions": {
+      "x": 232,
+      "y": 426,
+      "w": 177,
+      "h": 269
+    },
+    ".event-dossier-bag": {
+      "x": 619,
+      "y": 108,
+      "w": 442,
+      "h": 552
+    },
+    ".event-center-strip": {
+      "x": 195,
+      "y": -4,
+      "w": 251,
+      "h": 729
+    }
+  },
+  "4x3-small": {
+    ".event-center-menu": {
+      "x": 118,
+      "y": 0,
+      "w": 164,
+      "h": 600
+    },
+    ".mainmenu-logo": {
+      "x": 135,
+      "y": 100,
+      "w": 131,
+      "h": 225
+    },
+    ".mainmenu-actions": {
+      "x": 145,
+      "y": 336,
+      "w": 110,
+      "h": 168
+    },
+    ".event-dossier-bag": {
+      "x": 422,
+      "y": 115,
+      "w": 276,
+      "h": 345
+    },
+    ".event-center-strip": {
+      "x": 122,
+      "y": -3,
+      "w": 157,
+      "h": 606
+    }
+  },
+  "4x3-en": {
+    ".english-logo": {
+      "x": 198,
+      "y": 138,
+      "w": 204,
+      "h": 312
+    },
+    ".mainmenu-actions": {
+      "x": 217,
+      "y": 504,
+      "w": 166,
+      "h": 252
+    },
+    ".event-dossier-bag": {
+      "x": 654,
+      "y": 173,
+      "w": 414,
+      "h": 517
+    }
+  }
+}

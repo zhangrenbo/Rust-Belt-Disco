@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-17 16:33:13",
+  "result": "passed",
+  "checks": [
+    "Launch stays on the homepage",
+    "Confirming Dong enters the A000 night station",
+    "The scene is fully black at the moment of entry",
+    "The fade layer covers every scene layer and never intercepts input",
+    "Reveal begins once the night backdrop has loaded",
+    "The running transition is exactly 2.2s after a 0.5s hold",
+    "The slow fade completes into a fully visible scene",
+    "Entry holds full black, then fades in monotonically over ~2.2s",
+    "Re-armed overlay is fully black with no transition",
+    "Clicks pass through the covering fade and walking starts behind it",
+    "Walking still leads to the arrival dialogue",
+    "Returning from settings does not black out the scene again",
+    "Reduced motion reveals the scene without the slow fade",
+    "The fade still covers the whole stage at a smaller window",
+    "No runtime errors during the opening"
+  ],
+  "naturalEntryTiming": {
+    "entryT": 256.79999999981374,
+    "blackSamples": 30,
+    "fadeStartT": 743.2999999998137,
+    "fadeDurationS": 2.22,
+    "samples": 168
+  },
+  "opacitySamples": {
+    "black": 1,
+    "atClick": 1.0,
+    "midFade": 0.7445,
+    "final": 0
+  },
+  "style": {
+    "transitionDuration": "2.2s",
+    "transitionDelay": "0.5s",
+    "zIndex": 1200,
+    "pointerEvents": "none"
+  },
+  "screens": [
+    {
+      "path": "E:\\东北迪斯科\\docs\\station-opening-fade-black-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\station-opening-fade-mid-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\station-opening-fade-done-1440.png",
+      "viewport": [
+        1440,
+        810
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 810
+      }
+    },
+    {
+      "path": "E:\\东北迪斯科\\docs\\station-opening-fade-done-844.png",
+      "viewport": [
+        844,
+        475
+      ],
+      "gameBounds": {
+        "x": 0,
+        "y": 0.125,
+        "width": 844,
+        "height": 474.75
+      }
+    }
+  ],
+  "scope": "固定工作 Google Chrome + 直接 CDP 9223，隔离内存存档与静音输出；黑屏截图与半透明中间帧为同元素定格摆拍，真实动画时间线由 naturalEntryTiming 逐帧采样与 WAAPI 参数检查证明。未直接检查 Electron 工作台窗口，黑屏时长与淡入节奏待用户评价。"
+}

@@ -1,0 +1,49 @@
+﻿{
+    "schema":  "northeast-disco-mj-map-job-v1",
+    "project":  "东北迪斯科",
+    "id":  "ND-S26",
+    "name":  "河堤·上涨的河水",
+    "kind":  "exterior",
+    "source_scene_id":  "ND-S26",
+    "prompt":  "STRICT ORTHOGRAPHIC PROJECTION, 45-DEGREE TOP-DOWN CAMERA. Parallel edges remain parallel, no vanishing points or perspective foreshortening; objects retain identical scale near and far. Photorealistic 3D environment with realistic materials, physically based shading, cinematic winter lighting and clear architectural depth. A playable 2.5D game map of a Northeast Chinese industrial town in winter. No characters or people. Show the full connected walking surface, entrances, exits, wall thickness, furniture bases and traversable gaps. A riverside embankment beside a small Northeast Chinese industrial town in winter. Raised dirt walking path with a swept snow strip runs diagonally, sloped concrete bank descends to visibly high dark water close to the lower steps. Short stone stair connects the upper road to a safe fishing platform, bare willow branches at rear, distant low factory silhouettes. Foreground path remains clear and dry. Realistic snow, damp concrete, worn brick, corroded metal, soft contact shadows, readable foreground and background depth. No signs with readable words. --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --ar 16:9 --raw --v 8.1 --relax --no perspective projection, vanishing point, wide-angle lens, painting, illustration, brushstrokes, cartoon, miniature, interface, text, watermark, people",
+    "status":  "rendered_folder_confirmed",
+    "human_approved":  false,
+    "preflight":  {
+                      "ready":  true,
+                      "empty":  true,
+                      "folder":  true,
+                      "images":  0,
+                      "personalization":  "false",
+                      "visibility":  "hidden"
+                  },
+    "submitted_at":  "2026-10-18T05:30:03.506864+00:00",
+    "prior_job_id":  "2bec53b5-3737-4f4c-9656-137a3369588d",
+    "verification_status":  "folder_complete_detail_unchecked",
+    "verification_attempt_at":  "2026-10-18T05:47:55.293113+00:00",
+    "verification_http_status":  200,
+    "verification_receipt_shape":  [
+                                       "success",
+                                       "failure"
+                                   ],
+    "verification_receipt":  {
+                                 "success":  [
+                                                 {
+                                                     "job_id":  "45a8db7b-421a-4ad4-9fe8-01195673721d",
+                                                     "is_queued":  false
+                                                 }
+                                             ],
+                                 "failure":  [
+
+                                             ]
+                             },
+    "verification_new_job_id":  "45a8db7b-421a-4ad4-9fe8-01195673721d",
+    "verification_ui":  {
+                            "tail":  ", interface, text, watermark, people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nTrash\nMore\nTo top\nLooking for more...\nLooking for more...\nfolder\n东北迪斯科参考图\n27/30\nP\nDraft Mode\nExplore at draft quality and refine with variations.\nConversational Mode\nRefine your prompt using text or voice.\nYour prompt was not submitted, you have reached the maximum number of prompts you can submit at once.",
+                            "folderText":  "27",
+                            "queued":  false,
+                            "promptTail":  true
+                        },
+    "job_id":  "45a8db7b-421a-4ad4-9fe8-01195673721d",
+    "result_url":  "https://www.midjourney.com/jobs/45a8db7b-421a-4ad4-9fe8-01195673721d?index=0",
+    "verification_evidence":  "MJ folder showed 60 completed of 60 submitted, queue clear, on 2026-10-18; individual detail page not reliably loaded in hidden tab"
+}

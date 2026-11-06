@@ -1,0 +1,30 @@
+{
+  "reproduced": true,
+  "source": "backed-up scene.js, injected only into test page",
+  "readings": [
+    {
+      "slider": 54,
+      "gain": 0.5400000214576721,
+      "rms": 0.0016992983742057115,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 1
+    },
+    {
+      "slider": 100,
+      "gain": 0.5400000214576721,
+      "rms": 0.0012047959687313682,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 1
+    },
+    {
+      "slider": 0,
+      "gain": 0.5400000214576721,
+      "rms": 0.0014309490815206174,
+      "state": "playing",
+      "track": "menu",
+      "sourceCount": 1
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "checks": [
+    "theme audio decoded and playing",
+    "reference turntable and real two-track catalog visible",
+    "new paper artwork loads with the existing silhouette",
+    "lit controls still pause real playback",
+    "button hover keeps its own material and remains reachable",
+    "lit controls resume real playback",
+    "all compact controls remain unobstructed under the light layer",
+    "catalog text fits its writing area",
+    "return restores normal settings without a light overlay"
+  ],
+  "screenshots": [
+    {
+      "path": "docs/record-library-light-playing-1440.png",
+      "viewport": [
+        1440,
+        810
+      ]
+    },
+    {
+      "path": "docs/record-library-light-compact-844.png",
+      "viewport": [
+        844,
+        475
+      ]
+    }
+  ],
+  "errors": [],
+  "humanArtReview": "pending"
+}

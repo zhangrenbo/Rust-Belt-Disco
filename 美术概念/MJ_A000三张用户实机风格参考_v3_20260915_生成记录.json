@@ -1,0 +1,227 @@
+{
+  "status": "accepted",
+  "scene": "A000 夜间公交站",
+  "prompt": "Isometric game environment, elevated 45-degree view with clear spatial depth. An ordinary roadside bus stop in an old working-class neighborhood of a small northeastern Chinese town, on a summer night. A narrow asphalt road runs beside a weathered metal bus shelter, corrugated roof and wooden bench, low plaster wall, utility pole, sparse weeds along the curb, glimpses of modest brick housing beyond. One elderly Chinese woman in a plain dark cloth jacket sits quietly at one end of the bench, feet on the pavement, hands in her lap, looking toward the approach path. She is small within the environment and sits naturally. Open pavement leads from the lower left toward the shelter and continues along the road to the right. A weak streetlamp spills uneven light across part of the shelter and pavement; dim ambient night light still describes nearby walls and the road. The shelter belongs to a continuous lived-in neighborhood, ordinary wear, asymmetrical spacing. Clean economical brush marks and broad matte color shapes, understated highlights. --ar 16:9 --raw --v 8.1 --relax --sw 150 --no theatrical spotlight, visible light beams, isolated diorama, thick impasto, glossy render, text, interface, exclamation mark, logo, watermark, snow, extra people",
+  "folder": "东北迪斯科参考图",
+  "folder_id": "d1ff8d95-e403-45ba-8f03-6991d740a0ce",
+  "source_index": "美术概念\\MJ_用户指定三张极乐迪斯科_风格引用索引.json",
+  "references": [
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\fb4f6676e9c54108b4e69a0a8ef1e976.jpg",
+      "sha256": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "mj_upload_id": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/5ee101825ce90c95edf109f05ab983bcca14f57f48c76b2f20c356a5e6d4255a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\a5ad1b480b3a9a5605f52871df477cd6.jpg",
+      "sha256": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "mj_upload_id": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/4d906ff042374b674894b72cbdcbf9363b61abe620c0cb54156834396880838c_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    },
+    {
+      "source_path": "C:\\Users\\W11\\Desktop\\45545f073194fce9bb504dac8efd1d1e.jpg",
+      "sha256": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "mj_upload_id": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222",
+      "preview_url": "https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/6e711d2ead5110af8b56d0f50b636917fcf2a966f7b1ac02e188114d75b1305a_128_N.jpg",
+      "role": "style_reference",
+      "image_weight": 0,
+      "style_weight": 100
+    }
+  ],
+  "preflight": {
+    "dom": {
+      "prompt": "",
+      "groups": [
+        {
+          "name": "Attach to prompt",
+          "found": true,
+          "refs": []
+        },
+        {
+          "name": "Style reference",
+          "found": true,
+          "refs": [
+            {
+              "background": "url(\"https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/5ee101825ce90c95edf109f05ab983bcca14f57f48c76b2f20c356a5e6d4255a_128_N.jpg\")",
+              "props": [
+                {
+                  "keys": [
+                    "className",
+                    "style",
+                    "onClick",
+                    "onMouseMove",
+                    "onMouseLeave",
+                    "draggable",
+                    "onDragStart",
+                    "children"
+                  ],
+                  "style": {
+                    "backgroundImage": "url(https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/5ee101825ce90c95edf109f05ab983bcca14f57f48c76b2f20c356a5e6d4255a_128_N.jpg)",
+                    "backgroundSize": "cover"
+                  }
+                }
+              ]
+            },
+            {
+              "background": "url(\"https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/4d906ff042374b674894b72cbdcbf9363b61abe620c0cb54156834396880838c_128_N.jpg\")",
+              "props": [
+                {
+                  "keys": [
+                    "className",
+                    "style",
+                    "onClick",
+                    "onMouseMove",
+                    "onMouseLeave",
+                    "draggable",
+                    "onDragStart",
+                    "children"
+                  ],
+                  "style": {
+                    "backgroundImage": "url(https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/4d906ff042374b674894b72cbdcbf9363b61abe620c0cb54156834396880838c_128_N.jpg)",
+                    "backgroundSize": "cover"
+                  }
+                }
+              ]
+            },
+            {
+              "background": "url(\"https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/6e711d2ead5110af8b56d0f50b636917fcf2a966f7b1ac02e188114d75b1305a_128_N.jpg\")",
+              "props": [
+                {
+                  "keys": [
+                    "className",
+                    "style",
+                    "onClick",
+                    "onMouseMove",
+                    "onMouseLeave",
+                    "draggable",
+                    "onDragStart",
+                    "children"
+                  ],
+                  "style": {
+                    "backgroundImage": "url(https://cdn.midjourney.com/u/f8e3246f-1480-40e8-80a1-ca1d565f673b/6e711d2ead5110af8b56d0f50b636917fcf2a966f7b1ac02e188114d75b1305a_128_N.jpg)",
+                    "backgroundSize": "cover"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Image Prompts",
+          "found": true,
+          "refs": []
+        }
+      ],
+      "personalization": [
+        {
+          "text": "PPersonalize",
+          "active": "false"
+        }
+      ],
+      "tail": "or combine images, like “make this car red”\nor “put this hat on this cat”\nStyle reference\nUse the style of an image\nImage Prompts\nUse the elements of an image\nfolder\n东北迪斯科参考图\nP\nDraft Mode\nExplore at draft quality and refine with variations.\nConversational Mode\nRefine your prompt using text or voice."
+    },
+    "style_items": {
+      "category": "SR",
+      "items": [
+        {
+          "type": "image",
+          "image": {
+            "imageData": {
+              "type": "userUpload",
+              "id": "51dc8370608b0a16412d80782cbfccde8d9721fc86135c544a4d08ce63b4f3f0"
+            },
+            "iw": 0,
+            "sw": 100,
+            "cw": 0,
+            "ow": 0,
+            "ew": 0,
+            "sf": 0,
+            "ef": 0
+          }
+        },
+        {
+          "type": "image",
+          "image": {
+            "imageData": {
+              "type": "userUpload",
+              "id": "03ee61ba2c4b09fe62ea11bd55f55e0360442e5b09d1417176bcfe96e1e155b9"
+            },
+            "iw": 0,
+            "sw": 100,
+            "cw": 0,
+            "ow": 0,
+            "ew": 0,
+            "sf": 0,
+            "ef": 0
+          }
+        },
+        {
+          "type": "image",
+          "image": {
+            "imageData": {
+              "type": "userUpload",
+              "id": "541c6ad612fc772d6d1df42497b3c32a1698320693449f06a3ee8ea2020da222"
+            },
+            "iw": 0,
+            "sw": 100,
+            "cw": 0,
+            "ow": 0,
+            "ew": 0,
+            "sf": 0,
+            "ef": 0
+          }
+        }
+      ],
+      "imageErrors": {}
+    }
+  },
+  "human_review": "pending",
+  "in_game_integration": "not_applied",
+  "downloads": [],
+  "submitted_at": "2026-09-15T15:28:05.248222+00:00",
+  "submit_receipt": {
+    "accepted": [
+      {
+        "job_id": "c1615a39-3d4a-46c8-9e41-76110fa1c116",
+        "prompt": "Isometric game environment, 45 degree elevated view, clear spatial depth. Roadside bus stop, old working class neighborhood, small northeastern Chinese town, summer night. Narrow asphalt road beside a weathered metal bus shelter: corrugated roof, wooden bench, low plaster wall, utility pole, sparse weeds at curb, modest brick housing beyond. One elderly Chinese woman in a plain dark cloth jacket sits quietly at one end of the bench, feet on pavement, hands in lap, looking toward the approach path — small within the scene, natural posture. Open pavement extends from lower left toward the shelter and along the road to the right. Weak streetlamp casts uneven light across shelter and pavement; dim ambient night light describes nearby walls and road. Lived in neighborhood feel, ordinary wear, asymmetrical spacing. Clean economical brushwork, broad matte color shapes, understated highlights. --no theatrical spotlight, visible light beams, isolated diorama, thick impasto, glossy render, text, interface, exclamation mark, logo, watermark, snow, extra people --ar 16:9 --relax --raw --sref https://s.mj.run/A6_BtdGjcfo https://s.mj.run/l2YC6AxG5Es https://s.mj.run/tHRcou4Txfk --sw 150 --v 8.1",
+        "is_queued": false,
+        "job_type": "v8-1_diffusion",
+        "flags": {
+          "mode": "relaxed",
+          "visibility": "public"
+        },
+        "meta": {
+          "height": 816,
+          "width": 1456,
+          "batch_size": 4,
+          "parent_id": null,
+          "parent_grid": null
+        },
+        "personalization_codes": null
+      }
+    ],
+    "http": 200
+  },
+  "job_id": "c1615a39-3d4a-46c8-9e41-76110fa1c116",
+  "accepted_at": "2026-09-15T15:28:12.456584+00:00",
+  "last_status": {
+    "job_id": "c1615a39-3d4a-46c8-9e41-76110fa1c116",
+    "links": [],
+    "text": "Midjourney\n\nExplore\n\nCreate\n\nEdit\n\nOrganize\n\nAESTHETICS\n\nPersonalize\n\nMoodboards\n\nStyle Creator\n\nCOMMUNITY\n\nTasks\n\nHelp\nUpdates\nLight Mode\nzhangrenbo\nToday\nStarting...\nIsometric game environment, 45 degree elevated view, clear spatial depth. Roadside bus stop, old working class neighborhood, small northeastern Chinese town, summer night. Narrow asphalt road beside a weathered metal bus shelter: corrugated roof, wooden bench, low plaster wall, utility pole, sparse weeds at curb, modest brick housing beyond. One elderly Chinese woman in a plain dark cloth jacket sits quietly at one end of the bench, feet on pavement, hands in lap, looking toward the approach path - small within the scene, natural posture. Open pavement extends from lower left toward the shelter and along the road to the right. Weak streetlamp casts uneven light across shelter and pavement; dim ambient night light describes nearby walls and road. Lived in neighborhood feel, ordinary wear, asymmetrical spacing. Clean economical brushwork, broad matte color shapes, understated highlights.\n+ use text\n--no theatrical spotlight, visible light beams, isolated diorama, thick impasto, glossy render, text, interface, exclamation mark, logo, watermark, snow, extra people\n \nno theatrical spotlight, visible light beams, isolated diorama, thick impasto, glossy render, text, interface, exclamation mark, logo, watermark, snow, extra people\n--ar 16:9\n \nar 16:9\n--raw\n \nraw\n--sw 150\n \nsw 150\n--v 8.1\n \nv 8.1\nStyle Creator\nRun batch as HD\nRerun\nUse\nCancel\nMore\nIsometric game environment, 45 degree elevated view, clear spatial dep",
+    "folderSelected": true
+  },
+  "status_checked_at": "2026-09-15T15:29:13.584798+00:00",
+  "actual_style_references": [
+    "https://s.mj.run/A6_BtdGjcfo",
+    "https://s.mj.run/l2YC6AxG5Es",
+    "https://s.mj.run/tHRcou4Txfk"
+  ],
+  "three_style_references_verified": true,
+  "result_url": "https://www.midjourney.com/jobs/c1615a39-3d4a-46c8-9e41-76110fa1c116?index=0"
+}

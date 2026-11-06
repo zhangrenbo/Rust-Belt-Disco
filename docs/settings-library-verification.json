@@ -1,0 +1,128 @@
+{
+  "checkedAt": "2026-09-13T08:08:39Z",
+  "complete": true,
+  "browser": "Chrome/152.0.7977.83",
+  "transport": "fixed work Chrome direct CDP 9223; task-created background target only",
+  "storage": "isolated in-memory storage; no player saves modified",
+  "checks": [
+    {
+      "check": "settings navigation has return and music library",
+      "result": true
+    },
+    {
+      "check": "bottom text actions at 1440x810",
+      "result": [
+        {
+          "label": "恢复默认",
+          "bottomFraction": 0.9822337962962963,
+          "topFraction": 0.9182484567901235,
+          "transparent": true,
+          "reachable": true
+        },
+        {
+          "label": "应用设置",
+          "bottomFraction": 0.9822337962962963,
+          "topFraction": 0.9182484567901235,
+          "transparent": true,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "check": "library opens with current two tracks",
+      "result": true
+    },
+    {
+      "check": "station preview has audio",
+      "result": true
+    },
+    {
+      "check": "return restores theme and keeps settings draft",
+      "result": true
+    },
+    {
+      "check": "restore defaults remains active",
+      "result": true
+    },
+    {
+      "check": "apply persists mute",
+      "result": true
+    },
+    {
+      "check": "bottom text actions at 844x475",
+      "result": [
+        {
+          "label": "恢复默认",
+          "bottomFraction": 0.9822274881516587,
+          "topFraction": 0.9182464454976303,
+          "transparent": true,
+          "reachable": true
+        },
+        {
+          "label": "应用设置",
+          "bottomFraction": 0.9822274881516587,
+          "topFraction": 0.9182464454976303,
+          "transparent": true,
+          "reachable": true
+        }
+      ]
+    },
+    {
+      "check": "preview preserves mute",
+      "result": true
+    },
+    {
+      "check": "escape returns to settings and theme",
+      "result": true
+    },
+    {
+      "check": "theme can be previewed from station settings",
+      "result": true
+    },
+    {
+      "check": "leaving library restores station and closes library",
+      "result": true
+    }
+  ],
+  "screens": [
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "path": "docs\\settings-library-settings-1440.png"
+    },
+    {
+      "viewport": [
+        1440,
+        810
+      ],
+      "path": "docs\\settings-library-open-1440.png"
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "path": "docs\\settings-library-settings-844.png"
+    },
+    {
+      "viewport": [
+        844,
+        475
+      ],
+      "path": "docs\\settings-library-open-844.png"
+    }
+  ],
+  "errors": [],
+  "tests": "12/12 passed",
+  "build": "passed",
+  "migratedHashes": 172,
+  "resourcePaths": 59,
+  "physicalSpeakersTested": false,
+  "visualInspection": {
+    "screensInspected": 4,
+    "layout": "passed",
+    "userArtApproval": "pending"
+  }
+}

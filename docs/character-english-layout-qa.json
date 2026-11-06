@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "language": "en",
+      "width": 1440,
+      "uniformPngScaling": true,
+      "worldAnchors": true,
+      "correctVisibility": true
+    },
+    {
+      "language": "en",
+      "width": 844,
+      "uniformPngScaling": true,
+      "worldAnchors": true,
+      "correctVisibility": true
+    },
+    {
+      "language": "zh",
+      "width": 1440,
+      "uniformPngScaling": true,
+      "worldAnchors": true,
+      "correctVisibility": true
+    },
+    {
+      "language": "zh",
+      "width": 844,
+      "uniformPngScaling": true,
+      "worldAnchors": true,
+      "correctVisibility": true
+    }
+  ],
+  "errors": [],
+  "storage": "isolated; muted Chrome direct CDP",
+  "humanReview": "pending"
+}

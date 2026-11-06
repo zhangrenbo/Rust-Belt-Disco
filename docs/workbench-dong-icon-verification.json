@@ -1,0 +1,13 @@
+{
+    "checkedAt":  "2026-09-16T06:05:51.1278668+08:00",
+    "shortcut":  "C:\\Users\\W11\\Desktop\\东北迪斯科工作台.lnk",
+    "iconLocation":  "E:\\东北迪斯科\\public\\assets\\character-select\\game-icon-dong-crop-v1.ico,0",
+    "target":  "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "arguments":  "-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File \"E:\\东北迪斯科\\启动东北迪斯科工作台.ps1\"",
+    "iconSHA256":  "AF1E3C9AEE393759E7ED9C0C61E8E17764099526A186F9103BA8BFB115525E23",
+    "launcherCheckPassed":  true,
+    "electronUsesAppIconArgument":  true,
+    "runningWindowRestarted":  false,
+    "runningWindowIconVerified":  false,
+    "windowIconEffective":  "next launch"
+}

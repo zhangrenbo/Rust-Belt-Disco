@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-14",
+  "request": "选人UI div.character-world 的最上方外文纸板改成符合画风的报纸，报道本地神医王少鹏发明可包治百病的药酒。",
+  "source": "public/assets/character-select/000_T_选人页面背景.png",
+  "output": "public/assets/character-select/000_T_选人页面背景_神医报纸_v2.png",
+  "generator": "image_gen",
+  "revisions": [
+    {
+      "file": "public/assets/character-select/000_T_选人页面背景_神医报纸_v1.png",
+      "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-178c-7661-bae2-405728ecd14c/exec-90bed622-9e2c-43e7-b084-b6eeb547c110.png",
+      "prompt": "Edit the supplied existing background image of the Chinese mystery detective game 东北迪斯科. Deliver the edited FULL background image, preserving its original very wide aspect ratio and composition.\n\nTARGET: ONLY the small vertical cardboard/document at the very TOP, slightly left of center, roughly x=36.5% to 50%, y=0% to 20% of the image. It currently contains dark cursive foreign writing and a dark brown frame. Replace this entire cardboard/document with one naturally aged Chinese local NEWSPAPER clipping of approximately the same footprint and slight tilt. This is a background prop. Do NOT edit the central stacked papers and photograph, any other book or document, wall cracks, lamp, wood planks, cups, cables, magnifying glass, arrows, lighting, depth of field, colors, or camera framing. Keep all those surrounding regions faithful to the source.\n\nThe newspaper is a plausible 1980s northeastern small-town Chinese local paper. Worn warm grey-ivory newsprint with faint fold lines, frayed edges, a little age spotting, black slightly faded metal-type Songti printing, thin newspaper rules, compact columns. It lies directly against the same surface with natural soft contact shadow. The existing upper edge remains partly outside the canvas. Remove ALL foreign handwriting and the old cardboard frame in this target area. Use ONLY simplified Chinese on this newspaper, no Latin letters or foreign cursive.\n\nThis fictional in-world newspaper reports on local clinic proprietor 王少鹏, promoted locally as a 神医 after inventing a medicinal liquor he claims can cure every disease. The claim is part of the story newspaper. The visible article should include clear typeset Chinese:\nsmall masthead: “本地新闻”\nmain headline: “本地神医王少鹏”\nsubheadline: “自制药酒　号称包治百病”\narticle text: “本镇诊所王少鹏自配药酒，声称一杯下肚，百病皆消。消息传开，街坊纷纷登门。”\nUse a modest monochrome halftone illustration of a stoppered glass liquor jar if there is room, and real column typography, not decorative fake handwriting.\nCrucial visibility: the game's camera crops the upper part of this prop at default zoom. Place the name headline and the short medicine headline in the LOWER HALF of the clipping, with enough margins to be legible at small size. The lower headline must not be clipped off the bottom edge. The upper part can contain masthead and small printed columns that naturally continue beyond the canvas. The headline type should look printed INTO the old paper and be substantially larger than the article text.\n\nMatch the source's dim warm lamplight from upper left, desaturated olive-grey shadows, painterly yet dimensional material detail, and existing atmospheric softness. No modern UI, no pop-up panel, no decorative caption or watermark anywhere. No unrelated text alterations.\nSave the edited output directly in the existing source folder E:/东北迪斯科/public/assets/character-select/ as 000_T_选人页面背景_神医报纸_v1.png. Preserve the original source file. Do not create an output folder.",
+      "status": "superseded: main headline clipped by default character camera; files and screenshots preserved",
+      "sha256": "591ef19cb917f68234457664ae1c901e6510922126beff242d19d37125240779",
+      "dimensions": [
+        1844,
+        853
+      ],
+      "mode": "RGB",
+      "matchesGeneratedOriginal": true
+    },
+    {
+      "file": "public/assets/character-select/000_T_选人页面背景_神医报纸_v2.png",
+      "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-178c-7661-bae2-405728ecd14c/exec-6c338bac-2c3d-4a31-a000-8a8c98397009.png",
+      "prompt": "Edit the provided background image; change ONLY the new Chinese newspaper at the top slightly left of center. Keep every other pixel region/composition as faithful as possible. Keep the full wide 1844:853 canvas aspect ratio.\n\nThe current newspaper's headline is too high and disappears behind the game's upper camera crop. Correct THIS SPECIFIC ISSUE: the top 11% of the entire image will not be visible in the game's default camera. ALL important title lines MUST be physically BELOW y=14% of the full image canvas, NOT in the top 11%.\n\nExtend this same yellowed newspaper downward, so its lower edge reaches y=29% of the full canvas (currently around y=21%). Keep its left/right extents roughly x=35.4% to52.5%. It remains a narrow old newspaper clipping at the TOP LEFT OF CENTER, NOT the central papers. Preserve the same left upper lamplight, sepia printing, rough paper edge, slight tilt and contact shadow. Do not add a wooden frame. The extended newspaper must stop well before the central papers beginning around y=35%. Do not move the central papers, lamp, props, or change camera.\n\nREQUIRED NEWSPAPER LAYOUT IN FULL-CANVAS COORDINATES:\n- y=0% to11%: small columns of simplified-Chinese newspaper print and a tiny masthead “本地新闻”; these may run off the canvas. There must be NO main name headline here.\n- y=12% to13.5%: a thin faded horizontal newspaper rule and whitespace.\n- y=15% to18%: LARGE bold printed Songti main headline “本地神医王少鹏”. This headline must be below the camera crop, in the lower half of the newspaper. Put it at x=37% to50.5%, across most of the newspaper width.\n- y=19% to22%: clearly legible bold subtitle “自制药酒　包治百病”.\n- y=23% to27%: two or three compact Chinese article lines, “本镇诊所王少鹏自配药酒，声称一杯下肚，百病皆消。消息传开，街坊纷纷登门。”\n- Put a SMALL black-and-white halftone drawing of the stoppered medicine jar in the upper small-print section (above y=11%), so that it does not displace the important lower headlines.\n- y=28% to29%: naturally frayed lower paper edge with a soft contact shadow.\n\nAll newspaper lettering must be SIMPLIFIED CHINESE, clear and correctly written. No foreign handwriting/English/Latin letters. The extravagant cure-all assertion is a fictional in-world newspaper story about 王少鹏; no medical recipes or ingredients. Do not add an explanatory disclaimer, watermark, UI caption or modern design.\nMatch the existing dimensional worn-paper materials and game art style. Preserve the rest of the background. Output a full edited image directly to existing folder E:/东北迪斯科/public/assets/character-select/000_T_选人页面背景_神医报纸_v2.png; no new output directory.",
+      "status": "user rejected: too conspicuous, oversized type, not newspaper-like; preserved",
+      "sha256": "58aeba511b587f9279a1a4bde1f9be987ac03357bdd5750c924c15594e23bf18",
+      "dimensions": [
+        1844,
+        853
+      ],
+      "mode": "RGB",
+      "matchesGeneratedOriginal": true,
+      "buildMatches": true,
+      "httpHead": 200
+    }
+  ],
+  "newspaperText": {
+    "headline": "本地神医王少鹏",
+    "subheadline": "自制药酒　包治百病",
+    "article": "本镇诊所王少鹏自配药酒，声称一杯下肚，百病皆消。消息传开，街坊纷纷登门。"
+  },
+  "integration": "Keep the original 7007x3238 background as the base. Add the full generated image as a second background layer, clipped by CSS to the upper newspaper region. The existing character camera sizes and moves both layers together; all other original artwork stays at its original resolution. No programmatic image editing or cropping.",
+  "selector": ".character-newspaper-art",
+  "clipPath": "polygon(34% 0, 51.3% 0, 52.45% 34.1%, 35.6% 37.2%, 35.15% 36.6%)",
+  "backupFiles": [
+    ".local/index-before-character-newspaper-20260914-193611.html",
+    ".local/app-before-character-newspaper-20260914-193611.css"
+  ],
+  "verification": "docs/character-newspaper-v2-verification.json",
+  "humanArtReview": "v2 rejected by user; historical record",
+  "electronWorkbenchInspected": false,
+  "sourceSha256": "0669d5022e90c507e6996780f3ecaa80178d07edc8e4f783700fc1790f24265d",
+  "sourceSize": [
+    7007,
+    3238
+  ],
+  "originalCharacterMarkupUnchanged": true,
+  "buildChecks": {
+    "build": "passed",
+    "migratedFileHashes": 172,
+    "resourcePaths": 74
+  },
+  "currentRevision": "v3; see docs/character-newspaper-badge-art.json"
+}

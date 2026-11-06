@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-14",
+  "request": "右下角照片剪影改为有长头发的女性；延续本轮纸内按钮、破碎玻璃和三好学生小勋章。",
+  "source": "public/settings-dossier-art-v6-student-medal-cracked-glass.png",
+  "output": "public/settings-dossier-art-v7-female-silhouette.png",
+  "generatedOriginal": "D:/CodexData/home/generated_images/01a09e6a-177e-71f3-9d05-361e1c77ce71/exec-0f8dbb2b-976c-4239-bc71-d74709700347.png",
+  "prompt": "Make ONE precise local edit to this exact 1672x941 existing game settings background. In the large aged portrait photograph at the LOWER RIGHT, behind the cracked magnifying glass (the tilted beige photo card roughly x1295..1585, y517..883), replace the existing short-haired anonymous male-looking head-and-shoulders silhouette with an anonymous ADULT WOMAN'S LONG-HAIRED SILHOUETTE. Keep the portrait a flat muted dark sepia silhouette printed on the aged photo, with NO visible facial features, eyes, nose, mouth, skin, realistic face or individual identity. The adult female silhouette should clearly show a rounded head with long hair falling down BOTH sides past her shoulders toward the upper chest, subtly uneven hair tips and a narrower shoulder outline, so long hair and female figure read immediately even at small UI size. Match the original silhouette's subdued brown-gray ink density and aged faded print, paper grain and wear, not a modern icon or opaque pure-black sticker. The female bust stays fully INSIDE that exact same photo card and replaces only the old silhouette, leaving the photo's faded border, rotation, size, stains and contact shadows identical. Where it is visible through the magnifying lens, preserve the lens reflection and magnification and keep the existing glass cracks in front of the new female portrait. The magnifying glass MUST retain EXACTLY the current off-center impact point and its branching hairline FRACTURE pattern, transparent glass, circular black metal rim, black handle, angle, scale and position. Do not erase, weaken, relocate or redraw the cracks; do not spread them outside the glass. Preserve the entire lower-left brass/red enamel medal with the exact four simplified characters '三好学生', its five-pointed star, laurel/book relief, tilt, size and soft shadow. Keep every other area and object as close to pixel-identical as possible: large BLANK main writing sheet, its contours and folds, layered pages, the V-shaped beige pocket, dark embossed binder, blank left return tab, other small photographs, framing and warm light. No binder clip, no key, no extra objects, no extra text, no UI buttons, no watermark. Return the FULL edited background at the original 1672x941 dimensions and same outside contour. Save directly next to the source as E:/东北迪斯科/public/settings-dossier-art-v7-female-silhouette.png; no new output folder.",
+  "integration": "index.html background and app.css paper foreground use v7; original v3 alpha mask is retained. CSS polygon removes former key and clip protrusions. Both action stamps stay on the exposed main sheet.",
+  "visualReview": {
+    "assistant": "Generated image inspected: anonymous featureless long-haired female portrait within original photo; cracked glass and 三好学生 medal retained.",
+    "inGame": "Inspected 1440x810, 1058x595 and 844x475 stage screenshots; controls and paper edges clear; final user approval pending",
+    "humanArtApproval": "pending"
+  },
+  "preserved": [
+    "v5 original clip/clear lens",
+    "v6 medal/cracked lens before female portrait",
+    "UI reference directory",
+    "existing saves and settings logic"
+  ],
+  "earlierRevisionReport": "docs/settings-paper-medal-art.json",
+  "files": [
+    {
+      "path": "public/settings-dossier-art-v6-student-medal-cracked-glass.png",
+      "bytes": 2114045,
+      "sha256": "f772fd38cc7f59c51933e132aa8dfe428a3fceeb659e9c93a9b922125cacf257",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "public/settings-dossier-art-v7-female-silhouette.png",
+      "bytes": 2038901,
+      "sha256": "f21fcb3280649918464e01acb138dd0af4164bdd45b8c03b64726741148fd649",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "buildHashMatches": true,
+  "verification": "docs/settings-paper-female-verification.json"
+}
